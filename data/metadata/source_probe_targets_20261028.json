@@ -1,0 +1,230 @@
+[
+  {
+    "id": "xiaohongshu_explore",
+    "platform": "xiaohongshu",
+    "kind": "listing",
+    "url": "https://www.xiaohongshu.com/explore"
+  },
+  {
+    "id": "mafengwo_list",
+    "platform": "mafengwo",
+    "kind": "listing",
+    "url": "https://m.mafengwo.cn/note/"
+  },
+  {
+    "id": "mafengwo_huangshan",
+    "platform": "mafengwo",
+    "kind": "detail",
+    "url": "https://m.mafengwo.cn/i/9389665"
+  },
+  {
+    "id": "ctrip_huangshan_list",
+    "platform": "ctrip",
+    "kind": "listing",
+    "url": "https://you.ctrip.com/travels/huangshan19/t2-d1"
+  },
+  {
+    "id": "ctrip_huangshan_2020",
+    "platform": "ctrip",
+    "kind": "detail",
+    "url": "https://you.ctrip.com/travels/huangshan120061/3962261.html"
+  },
+  {
+    "id": "ctrip_huangshan_2021",
+    "platform": "ctrip",
+    "kind": "detail",
+    "url": "https://you.ctrip.com/travels/huangshan19/4004430.html"
+  },
+  {
+    "id": "qunar_home",
+    "platform": "qunar",
+    "kind": "listing",
+    "url": "https://travel.qunar.com/"
+  },
+  {
+    "id": "qunar_huangshan",
+    "platform": "qunar",
+    "kind": "detail",
+    "url": "https://touch.travel.qunar.com/youji/7677324"
+  },
+  {
+    "id": "qunar_jiuzhai",
+    "platform": "qunar",
+    "kind": "detail",
+    "url": "https://touch.travel.qunar.com/youji/4825680"
+  },
+  {
+    "id": "huangshan_official",
+    "platform": "huangshan_official",
+    "kind": "official_detail",
+    "url": "https://hsgwh.huangshan.gov.cn/lyfw/xltj/9195903.html"
+  },
+  {
+    "id": "jiuzhai_official_home",
+    "platform": "jiuzhai_official",
+    "kind": "official_listing",
+    "url": "https://www.jiuzhai.com/"
+  },
+  {
+    "id": "zhangjiajie_official_home",
+    "platform": "zhangjiajie_official",
+    "kind": "official_listing",
+    "url": "https://www.zhangjiajieuggp.org.cn/"
+  },
+  {
+    "id": "zhangjiajie_official_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html"
+  },
+  {
+    "id": "gugong_official",
+    "platform": "gugong_official",
+    "kind": "official_listing",
+    "url": "https://www.dpm.org.cn/Visit.html"
+  },
+  {
+    "id": "ctrip_huangshan_page2",
+    "platform": "ctrip",
+    "kind": "listing",
+    "url": "https://you.ctrip.com/travels/huangshan19/t2-p2-d1"
+  },
+  {
+    "id": "ctrip_huangshan_elder",
+    "platform": "ctrip",
+    "kind": "detail",
+    "url": "https://you.ctrip.com/travels/HuangshanScenicArea19/4110889.html"
+  },
+  {
+    "id": "qunar_huangshan_listing",
+    "platform": "qunar",
+    "kind": "listing",
+    "url": "https://touch.go.qunar.com/300200"
+  },
+  {
+    "id": "jiuzhai_way_of_play",
+    "platform": "jiuzhai_official",
+    "kind": "official_listing",
+    "url": "https://www.jiuzhai.com/intelligent-service/way-of-play"
+  },
+  {
+    "id": "jiuzhai_products",
+    "platform": "jiuzhai_official",
+    "kind": "official_listing",
+    "url": "https://www.jiuzhai.com/tourism-product"
+  },
+  {
+    "id": "zhangjiajie_guides",
+    "platform": "zhangjiajie_official",
+    "kind": "official_listing",
+    "url": "https://www.zhangjiajieuggp.org.cn/lmurl.php?nt_id=36"
+  },
+  {
+    "id": "zhangjiajie_yangjiajie_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html"
+  },
+  {
+    "id": "zhangjiajie_tianzishan_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html"
+  },
+  {
+    "id": "zhangjiajie_yaozizhai_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022080383891.html"
+  },
+  {
+    "id": "zhangjiajie_huangshizhai_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022054078285.html"
+  },
+  {
+    "id": "qunar_huangshan_youji_list",
+    "platform": "qunar",
+    "kind": "listing",
+    "url": "https://touch.travel.qunar.com/youji/search?destId=300200"
+  },
+  {
+    "id": "zhangjiajie_twoday_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html"
+  },
+  {
+    "id": "zhangjiajie_threeday_route",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html"
+  },
+  {
+    "id": "ctrip_zhangjiajie_family",
+    "platform": "ctrip",
+    "kind": "detail",
+    "url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html"
+  },
+  {
+    "id": "ctrip_zhangjiajie_listing",
+    "platform": "ctrip",
+    "kind": "listing",
+    "url": "https://you.ctrip.com/travels/zhangjiajie23/t2-d2-m2-c1"
+  },
+  {
+    "id": "ctrip_jiuzhai_listing",
+    "platform": "ctrip",
+    "kind": "listing",
+    "url": "https://you.ctrip.com/travels/jiuzhaigou25/t2-m3"
+  },
+  {
+    "id": "zhangjiajie_extra_23",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022145062612.html"
+  },
+  {
+    "id": "zhangjiajie_extra_24",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022132182713.html"
+  },
+  {
+    "id": "zhangjiajie_extra_29",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022004274404.html"
+  },
+  {
+    "id": "zhangjiajie_extra_30",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html"
+  },
+  {
+    "id": "zhangjiajie_extra_31",
+    "platform": "zhangjiajie_official",
+    "kind": "official_detail",
+    "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html"
+  },
+  {
+    "id": "zhangjiajie_robots",
+    "platform": "zhangjiajie_official",
+    "kind": "robots",
+    "url": "https://www.zhangjiajieuggp.org.cn/robots.txt"
+  },
+  {
+    "id": "ctrip_robots",
+    "platform": "ctrip",
+    "kind": "robots",
+    "url": "https://you.ctrip.com/robots.txt"
+  },
+  {
+    "id": "qunar_robots",
+    "platform": "qunar",
+    "kind": "robots",
+    "url": "https://touch.travel.qunar.com/robots.txt"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "inspected_at": "2026-10-28T17:05:00+08:00",
+  "scope": "7 inspection samples; not an exhaustive image audit",
+  "counts": {
+    "reviewed_samples": 7,
+    "maps": 4,
+    "scenery_photos": 3,
+    "ocr_executed": 0
+  },
+  "reviews": [
+    {
+      "image_id": "ZJJ_OFF_002_IMG_001",
+      "doc_id": "ZJJ_OFF_002",
+      "image_url": "https://www.zhangjiajieuggp.org.cn/ueditor/php/upload/image/20260630/1782828684940803.jpg",
+      "source_page_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "download_sha256": "cdfa8cb868c062d4133ab8d90cc49f4165f970aa3b3e47a2989c997a7e1daa8b",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "route_map",
+      "inspection_notes": "图中有路线顺序、接驳距离、南门离开备选分支；正文未覆盖其中多项。",
+      "suggested_action": "ocr_and_structure_review",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null,
+      "candidate_image_facts": [
+        {
+          "region": "图底部备注",
+          "condition": "经乱窜坡到达金鞭溪后选择由南门离开",
+          "action": "向南步行至森林公园南门",
+          "distance_km": 4,
+          "method": "assistant_visual_inspection",
+          "human_review_status": "pending",
+          "present_in_current_html_raw_text": false
+        }
+      ]
+    },
+    {
+      "image_id": "ZJJ_OFF_003_IMG_001",
+      "doc_id": "ZJJ_OFF_003",
+      "image_url": "https://www.zhangjiajieuggp.org.cn/ueditor/php/upload/image/20260630/1782828596557605.jpg",
+      "source_page_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "download_sha256": "3f6318405825d2acd06c50a56ccfbea78ea1af751d715e01c8ef6c52abe7e016",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "route_map",
+      "inspection_notes": "含明确的箭头文字路线、站点、步行及乘车距离。",
+      "suggested_action": "ocr_and_structure_review",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null
+    },
+    {
+      "image_id": "TS_OFF_001_IMG_001",
+      "doc_id": "TS_OFF_001",
+      "image_url": "https://tsgw.taian.gov.cn/picture/0/c14c373dabd84f56b6cd74c0c2c5f742.jpg",
+      "source_page_url": "https://tsgw.taian.gov.cn/art/2019/4/28/art_363479_10320190.html",
+      "download_sha256": "0fb9c90d6c6cc6d221a4514cb721de44f41d671d814637356fd154fa373faf9d",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "illustrated_route_map",
+      "inspection_notes": "低分辨率山体导览图，字小且背景复杂，需和正文核对节点。",
+      "suggested_action": "ocr_with_close_visual_check",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null
+    },
+    {
+      "image_id": "TS_OFF_002_IMG_001",
+      "doc_id": "TS_OFF_002",
+      "image_url": "https://tsgw.taian.gov.cn/picture/0/e6dc2148f8a140f3b0ee1805c35bda21.jpg",
+      "source_page_url": "https://tsgw.taian.gov.cn/art/2026/1/21/art_363479_10320191.html",
+      "download_sha256": "6bea4dc069b80849abe167f8cf4545c08cb70cb62776416cb61c5c1f70968e06",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "illustrated_route_map",
+      "inspection_notes": "山体导览图中有颜色不同的线路与节点，识字顺序不等于游览顺序。",
+      "suggested_action": "ocr_and_structure_review",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null
+    },
+    {
+      "image_id": "JYT_OFF_001_IMG_001",
+      "doc_id": "JYT_OFF_001",
+      "image_url": "https://jingyuetan.bj.bcebos.com/uploadfile/images/20260708/1783477811546327.jpg",
+      "source_page_url": "https://www.ijingyuetan.com/index.php/scenicguidee/67",
+      "download_sha256": "13607668e89581348679ddcc6b3e04f83bbbce9c15b22e85a903349d36b19a0a",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "scenery_photo",
+      "inspection_notes": "亭台湖面照片，少量招牌字不构成新增行程。",
+      "suggested_action": "retain_asset_no_route_transcription",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null
+    },
+    {
+      "image_id": "JYT_OFF_003_IMG_001",
+      "doc_id": "JYT_OFF_003",
+      "image_url": "https://jingyuetan.bj.bcebos.com/uploadfile/images/20260708/1783477861160298.jpg",
+      "source_page_url": "https://www.ijingyuetan.com/index.php/scenicguidee/65",
+      "download_sha256": "102c673a8d2447ab3b780b84ee0749653c2b7d2008b5dce58e95d899dff777b0",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "scenery_photo",
+      "inspection_notes": "游船照片，未见需要补录的行程文字。",
+      "suggested_action": "retain_asset_no_route_transcription",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null
+    },
+    {
+      "image_id": "TS_NOTE_003_IMG_001",
+      "doc_id": "TS_NOTE_003",
+      "image_url": "https://dimg04.c-ctrip.com/images/1mf3812000di5foj66CD6_W_640_0_Q90.jpg?proc=autoorient",
+      "source_page_url": "https://you.ctrip.com/travels/Taian746/4128913.html",
+      "download_sha256": "47e90dadec510f27546a43f77feb9b65b063585f220e6a9e07dff63b19252f4a",
+      "inspection_method": "assistant_visual_inspection_not_ocr",
+      "image_type_observed": "scenery_photo",
+      "inspection_notes": "日出照片带手机品牌水印；水印不纳入旅游正文。",
+      "suggested_action": "retain_asset_no_route_transcription",
+      "ocr_status": "not_run",
+      "human_review_status": "pending",
+      "verified_text": null
+    }
+  ],
+  "scope_status": "historical_record_image_workflow_cancelled"
+}

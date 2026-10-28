@@ -2,7 +2,9 @@
 
 ## 输入
 
-data/processed/sample_v1.json。
+data/processed/full/selected_v2/dataset.json。
+
+原6条sample_v1仅保留兼容；正式30篇数据的接入方式与已知问题见`../../docs/handoff.md`。
 
 ## 交付
 

@@ -1,8 +1,29 @@
+# 正式文本数据：selected_v2
+
+已完成泰山、张家界武陵源、净月潭各5篇官方路线与5篇携程游客游记，共30篇、34,064个非空白字符。项目2—5读取`processed/full/selected_v2/dataset.json`或同目录JSONL，基础字段和原开发样本兼容。
+
+| 路径 | 内容 |
+|---|---|
+| metadata/selected_v2_sources.json | 来源、选择理由、正文XPath |
+| metadata/selected_v2_scope_rules.json | 每篇保留范围、保护短语及疑点 |
+| metadata/selected_v2_acquisition_report.json | 30次成功采集及原始长度/哈希 |
+| metadata/selected_v2_quality_report.json | 清洗、空值、重复、格式和日期冲突统计 |
+| metadata/selected_v2_verification.json | 20项测试、64个输出文件离线一致性 |
+| downloads/selected_v2/ | 原始HTML和HTTP元数据，Git忽略 |
+| raw/full/selected_v2/ | 完整采集正文及来源，Git忽略 |
+| processed/full/selected_v2/ | JSON、JSONL、texts/、audit/和变化示例，Git忽略 |
+
+本地完整数据包供组内接入和离线复现，Git提供源码、配置和不含全文的统计。运行命令见[项目1说明](../experiments/exp01_data_preprocessing/README.md)，字段见[数据接口](../docs/data_contract.md)，结果见[项目1报告](../reports/exp01_report.md)。
+
+处理范围仅网页文字，图片内容和alt不补入文本；文字图注仅精确去重。完整正文70,488字符，所选景区范围34,787字符，清洗后34,064字符。跨景区范围排除与字符清洗分开记录。原文事实疑点和历史条件不改写；本批不是实体/共指/关系金标准。
+
+以下是原6条开发样本的历史说明，不用于当前30篇验收。
+
 # 开发样本数据
 
 `sample_v1` 包含故宫博物院、黄山风景区、杭州西湖风景名胜区各 1 条官方路线和 1 篇真实游客游记的选定正文，共 6 条记录。游客内容取自真实作者文章，不使用生成文本替代。
 
-这是项目 2—5 的首轮开发输入。完整语料仍需继续采集，先按每景区 1 条官方路线及 5 篇游客游记准备。
+这是项目 2—5 的首轮开发输入。正式语料另按 **3 个景区 ×（5 篇官方路线文章 + 5 篇游客游记）= 30 篇** 准备，景区依据来源调查重新选择，不受这 6 条样本的景区限制。
 
 当前优先使用黄山两条记录进行开发；故宫、西湖样本质量不足，暂作格式示例，后续补充或替换。现有数据尚未完成最终质量验收，不用于报告最终准确率或泛化性能。
 
@@ -14,6 +35,8 @@
 - `processed/texts/`：每条清洗后文本的独立 UTF-8 文件。
 - `metadata/sources.json`：来源、日期、取用范围、获取方式、许可和内容哈希。
 - `metadata/quality_report.md`：各条文本长度、完整性检查和使用限制。
+- `metadata/source_survey_20261028.json`：新一轮来源访问证据和候选链接，不计入正式语料篇数。
+- `metadata/source_probe_targets_20261028.json`：可重新访问的调查 URL 清单；原始页面仅存于被忽略的本地下载缓存。
 
 字段定义及下游输出约定见 `../docs/data_contract.md`。
 

@@ -1,56 +1,53 @@
-# 开发样本数据接口
+# 正式文本数据接口（selected_v2）
 
-## 输入文件
-
-`data/processed/sample_v1.json` 是 JSON 数组；`sample_v1.jsonl` 每行一条相同记录。文件采用 UTF-8 编码。
+`data/processed/full/selected_v2/dataset.json`为30条记录的JSON数组；同目录`dataset.jsonl`每行一条相同记录，均为UTF-8。原`sample_v1`六条开发样本保留，基础字段兼容。
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
-| doc_id | string | 稳定且唯一的文本编号，不因清洗或排序而改变 |
-| scenic_id | string | 景区固定编号 |
-| scenic_name | string | 景区名称 |
-| text_type | string | `official_route` 或 `tourist_note` |
-| title | string | 来源文章标题，取用章节另行记录 |
-| source_url | string | 可核验的原始来源链接 |
-| publisher | string | 发布机构或网站 |
-| author | string/null | 已核验作者；未知为 null |
-| published_at | string/null | 来源明确标示的发布日期；未知为 null |
-| collected_at | string | 采集时间，含时区 |
-| content_scope | string | 正文全文、路线章节或指定游记片段 |
-| raw_text | string | 所选取用范围的未归一化正文，保留原有表述 |
-| clean_text | string | 后续抽取统一使用的文本 |
-| license | string | 来源许可或取用说明，不自动授予其他权利 |
-| license_url | string/null | 来源明示的许可链接 |
-| notes | string | 取用范围、原文疑点、历史时效与其他限制 |
+| doc_id | string | 稳定唯一的文档编号，不因清洗或排序重排 |
+| scenic_id / scenic_name | string | TAISHAN、WULINGYUAN、JINGYUETAN及对应景区名 |
+| text_type | string | official_route或tourist_note |
+| title | string | 原文章标题，范围选择单独记录 |
+| source_url / publisher | string | 原文地址及发布机构或网站 |
+| author | string/null | 来源记录的作者，未知留null |
+| published_at | string/null | 明确日期依据，优先详情发布标签；未知留null |
+| collected_at | string | 原始采集时间，含时区 |
+| content_scope | string | reviewed_scenic_scope_from_article |
+| raw_text | string | 所选景区范围的未归一化文字，保留原表述 |
+| clean_text | string | 项目2—5统一使用的文本 |
+| license / license_url | string / string或null | 来源权利说明及明示许可链接，不自动授予其他权利 |
+| notes | string | 范围、原文疑点和使用限制 |
+| blocks | array | 原网页块编号、角色、XPath、text及start/end |
+| metrics | object | 完整正文、取用范围、清洗后的非空白字数及规则命中 |
+| date_candidates / published_at_basis / date_conflict | array / string / bool | 日期候选、所选依据与冲突 |
+| review_flags / content_issues | array | 范围标记和原文待核问题 |
+| source_response_sha256 / source_raw_text_sha256 | string | HTML响应与完整采集正文哈希 |
+| raw_scope_sha256 / clean_text_sha256 | string | 选取范围及清洗文本哈希 |
+| duplicate_of | null或string | 本批均为null；发现全文重复时验收失败，不悄悄删到不足5+5 |
+| processing_scope / scope_version | string | text_only及范围配置版本 |
 
-## 最小读取示例
+`raw_text`不是完整跨城游记。完整采集内容位于`data/raw/full/selected_v2/`；逐块去留位于正式输出的`audit/`。未读取图片内容或alt补充正文。块不是句子或路线步骤，块角色和偏移不是实体/关系标注。
+
+## 最小读取
 
 ```python
 import json
 from pathlib import Path
 
-root = Path(__file__).resolve().parents[3]  # 代码位于 experiments/<实验>/src/ 时
-records = json.loads((root / 'data/processed/sample_v1.json').read_text(encoding='utf-8'))
+root = Path(__file__).resolve().parents[3]  # 代码在experiments/<实验>/src/时
+records = json.loads((root/'data/processed/full/selected_v2/dataset.json').read_text(encoding='utf-8'))
 for record in records:
-    doc_id = record['doc_id']
-    text = record['clean_text']
-    # 在这里调用本实验处理函数。
+    doc_id, text = record['doc_id'], record['clean_text']
 ```
 
-也可以从仓库根目录运行脚本，显式传入输入文件路径，避免依赖当前工作目录。
+## 下游约定
 
-## 输出约定
+保留`doc_id`、`scenic_id`及原文证据。位置为Python Unicode字符索引，左闭右开`[start,end)`，满足`clean_text[start:end] == evidence`，不能用UTF-8字节或JavaScript UTF-16长度替代。
 
-所有模块保留 `doc_id`、`scenic_id`；实体编号和来源编号不能只在当前文件中临时重排。
+- 项目2：实体含text、entity_type、start、end；原名与归一化名分开。
+- 项目3：步骤、景点、活动、时间分别记录，未知时间null，推断另标inferred；区分计划、实际、未到访和折返。
+- 项目4：人工标注与算法预测分开，精确定位代词；允许没有明确先行词。
+- 项目5：条件和建议保留证据位置，普通建议不必然有条件，未出现的条件不补写。
+- 项目6：合并节点/边仍保留来源、原名及归一化名。
 
-- 项目 2：实体记录含 `doc_id`、`text`、`entity_type`、`start`、`end`。位置应满足 `clean_text[start:end] == text`。
-- 项目 3：路线记录含步骤顺序、景点、活动、时间。未知时间用 `null`；推断时间另标 `inferred`，不要伪装成原文信息。
-- 项目 4：分开保存人工标注和算法预测，以精确位置区分同句中的重复代词。没有明确先行词的案例允许为空。
-- 项目 5：条件与建议保留原文证据和位置。普通建议不必然含条件，未出现的条件不补写。
-- 项目 6：保留节点、边的来源，合并名称时保留原名与归一化名。
-
-## 开发与评估
-
-这 6 条记录是模块开发输入，未预先提供实体、共指或条件关系的金标准。触发词计数、示例词表等只能用于诊断，不能当作人工标注或准确率。
-
-模块完成后交付源码、结构化结果、运行说明、人工检查和真实错误案例。完整语料扩充时沿用本接口，并单独划分后续评估样本。
+本批未提供实体、路线、共指或条件关系金标准。触发词计数、示例词表及格式检查通过率不能当作人工标注或抽取准确率。各模块另行交付方法、结构化结果、真实人工检查和失败案例。

@@ -2,6 +2,8 @@
 
 项目3的黄山开发版本，默认读取项目2的 `entities_v2.json`，仅处理共享语料中的黄山官方路线 `HS_OFF_001` 和游客游记 `HS_NOTE_001`。输出官方主线、条件支线、游客叙述事件、报告路线及时间层级，并计算描述性结构对比。
 
+项目1数据迁移说明：主分支文档给出的正式数据入口为 `data/processed/full/selected_v2/dataset.json`，接入约定见 [docs/handoff.md](../../docs/handoff.md)。本模块仍按当前任务范围使用项目2已经提取的黄山sample_v1实体，尚未迁移到新30篇数据，不能将本次结果写成新数据集的验收结果。
+
 代码基于项目2分支 `feat/exp02-entity-recognition` 的提交 `4a16120643181f1615e85476604aa7aceafb1796`。项目2代码及验收文档分别经PR #1、#2进入主分支。项目3与验收文档经负责人授权，沿用原有 `feat/exp02-entity-recognition` 分支提交PR；推送前已同步该分支的后续文档提交。
 
 ## 运行

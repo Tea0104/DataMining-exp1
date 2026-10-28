@@ -2,7 +2,9 @@
 
 ## 输入
 
-清洗文本，可使用项目 2 的实体结果。
+清洗文本：`data/processed/full/selected_v2/dataset.json`的`clean_text`，可使用项目2的实体结果。
+
+原6条sample_v1仅保留兼容；正式30篇数据的接入方式与已知问题见`../../docs/handoff.md`。
 
 ## 交付
 
