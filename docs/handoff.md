@@ -4,7 +4,7 @@
 
 ## 获取和读取
 
-Git提供源码、来源清单、范围配置、统计与报告。完整HTML、原文与清洗文本在本地数据包中，按现有规则被Git忽略。可直接使用数据包里的仓库目录；接入已有仓库时，复制包中`data/downloads/selected_v2/`、`data/raw/full/selected_v2/`、`data/processed/full/selected_v2/`到同名位置。
+Git已提供正式清洗数据、逐块审计及变化示例，组员执行`git pull`后即可读取下方路径，无需先重新采集。完整HTML和采集原文继续保存在本地数据包；如需离线重做采集与清洗，再将包中`data/downloads/selected_v2/`和`data/raw/full/selected_v2/`复制到同名位置。
 
 在仓库根目录读取：
 

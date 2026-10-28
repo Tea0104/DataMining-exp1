@@ -1,0 +1,405 @@
+{
+  "doc_id": "ZJJ_NOTE_005",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "heading",
+      "xpath": "/html/body/div/h5",
+      "source_chars": 33,
+      "source_sha256": "8cbcd95aceee28d4a9d668b4781abbbeb3cb614b1f18c587307047df4f3ce30f",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 42,
+      "source_sha256": "9abcc487386e340712640a97925ba65c22aa16822ab7f9b8ceb9ddf738101f25",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[2]/p",
+      "source_chars": 17,
+      "source_sha256": "0d99a8ff29327a7056120f2e1a2e9a889bcd3a213b40244a9bc3a331dad66754",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[3]/p",
+      "source_chars": 38,
+      "source_sha256": "2cb15ee454f29de9c237dc3859cf5bde3a4d6b05a892e6a8759e507eb6cd0ad3",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 38,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 38
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[4]/p",
+      "source_chars": 32,
+      "source_sha256": "53b83b63cac5c80f6fb8fb26d01ded64139e324c2d2a1d9f04772d7ced4d77c4",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 32,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 32
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[5]/p",
+      "source_chars": 13,
+      "source_sha256": "a699f91974aa263e987799f96f21063db0e363ff41f7903bf792996e5fc738f5",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[6]/p",
+      "source_chars": 12,
+      "source_sha256": "52db2f08172e126e8361938093e9ff379130f2fb621dd5a2b5468aee59ea23ec",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[7]/p",
+      "source_chars": 26,
+      "source_sha256": "86298c068503b8a5f8b86ac51a6e7ac181b9288b1ec9b889bb0e6455ef4db10a",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[8]/p",
+      "source_chars": 10,
+      "source_sha256": "b8224d39a471c14718a7cf04ef2d47bb97f69cb39582bf5b58d70fe465bd1619",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[9]/p",
+      "source_chars": 50,
+      "source_sha256": "b144c058fd2e6484c28d535b0e683b552c15181a4f812e303ae3e01483aa18f2",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 50,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 50
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[10]/p",
+      "source_chars": 59,
+      "source_sha256": "257be94fa426ed07315027a63ef5a2077ecc0f749655e7ff67cc54116d7dbf13",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[13]/p",
+      "source_chars": 608,
+      "source_sha256": "66a8f86ecde8f07d3e94f68cd746464e1c765e514ef02a82d7cb379e6aad9501",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0013",
+      "role": "caption",
+      "xpath": "/html/body/div/div[21]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "77a575d373fd33dde3f21402e47b005804c06dd8fe3960349c3ca4b00fd7ab97",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0014",
+      "role": "caption",
+      "xpath": "/html/body/div/div[24]/div[2]",
+      "source_chars": 7,
+      "source_sha256": "84f792408a35f74f2e19ef5c43e714be7a99ea6ce9d4f5a7c1a68e94a9bedc1f",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[25]/p",
+      "source_chars": 130,
+      "source_sha256": "c42bdbd4c6d725680bdff262ba2b229aef339bee9a7a165ff44630a0387d1caa",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[26]/p",
+      "source_chars": 126,
+      "source_sha256": "480917da7fcbaf166050c15764f2cde0ff09c8bef6e535cf5012e763371ef694",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 126,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 126
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[27]/p",
+      "source_chars": 106,
+      "source_sha256": "8debf49b5b1c8dcee40e661bee29803f5f6a4cdb8b97cb63a57e2024eb766720",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 106,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 106
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[34]/p",
+      "source_chars": 168,
+      "source_sha256": "0043237fcbebfd9fde96757ad16d77df30fd2b6023016db5972d1bf311809b49",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[35]/p",
+      "source_chars": 108,
+      "source_sha256": "ff40679351554a30286e84e1d53930913a8279d164367cdad9b753678915b3bc",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[36]/p",
+      "source_chars": 139,
+      "source_sha256": "f00f90a87404410758519d4408c36225b5441f79fefaf4fec29cb6b9f4481dc6",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[37]/p",
+      "source_chars": 35,
+      "source_sha256": "c4ae74d79186655bb3e9c8e1f62a96c95797d72b140268b0db0f6675e6d15db1",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[44]/p",
+      "source_chars": 307,
+      "source_sha256": "794862d3ef08ee44686537ca50f16de3f9acd307cd889a3faf5811c694f51eae",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 307,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 307
+    },
+    {
+      "block_id": "B0023",
+      "role": "caption",
+      "xpath": "/html/body/div/div[45]/div[2]",
+      "source_chars": 13,
+      "source_sha256": "79d615b54677740adf0034cccc4dd55e781bdd786453e18130aef8ceec19cbf3",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 13,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 13
+    },
+    {
+      "block_id": "B0024",
+      "role": "caption",
+      "xpath": "/html/body/div/div[49]/div[2]",
+      "source_chars": 36,
+      "source_sha256": "0c677512b4affbe6ebd64a133e1e2e6388f68225f006a0792c41cac012aa8a0e",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 36,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 36
+    },
+    {
+      "block_id": "B0025",
+      "role": "caption",
+      "xpath": "/html/body/div/div[50]/div[2]",
+      "source_chars": 16,
+      "source_sha256": "db9cf76f8eae618ee62ca99baac6cb93cf989540d98cab180a8c9ba1dff61e35",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 16,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 16
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[53]/p",
+      "source_chars": 261,
+      "source_sha256": "d8b4422de7ca7ce02c9e6b3da2b4d67966071fb96a2b3c37c97f5156f8be6a3f",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 261,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 261
+    },
+    {
+      "block_id": "B0027",
+      "role": "caption",
+      "xpath": "/html/body/div/div[55]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "448571257e17babe2afd476312c1f866ac33a5b685657e954bbb8441e0ebe103",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0028",
+      "role": "caption",
+      "xpath": "/html/body/div/div[56]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "88900d5eaa7e9ef4f689be0f057a3ab13d788c5f8ad4e282d8ebeff77ce3063d",
+      "scope_action": "keep",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0029",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[58]/p",
+      "source_chars": 30,
+      "source_sha256": "2b0849fe7286fde67e1bfe57eb8578b418cb88130a2f62dbe8e7eef4c4d4597a",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0030",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[59]/p",
+      "source_chars": 53,
+      "source_sha256": "50312ce37c026afa5e5dfc156a80bc13defb10957ff26f93b7d49e9c03302fd1",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0031",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[60]/p",
+      "source_chars": 66,
+      "source_sha256": "2694a55e3943ba2bb13b5a119482f6ef0bcc44714ada5cd7d6d8fb91c4ce670c",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0032",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[61]/p",
+      "source_chars": 199,
+      "source_sha256": "8b8817e002bfe82acba46fdfc7815b4d015d5a608425266f899ea5a3d44463c1",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[62]/p",
+      "source_chars": 159,
+      "source_sha256": "20f2776cfd4a3973e6e8a90c5e4693247e2aa159d66ceafce39b12845beb8009",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[68]/p",
+      "source_chars": 50,
+      "source_sha256": "8966f9a91af402a98ede01f943d34c621af5008f57cf6f0c431d6d2be10eafba",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[70]/p",
+      "source_chars": 362,
+      "source_sha256": "298f1f2b7de1f5a0515f6888ff5aa8bb06d582010db5af71a9fc898077816f84",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "caption",
+      "xpath": "/html/body/div/div[77]/div[2]",
+      "source_chars": 8,
+      "source_sha256": "7ca3d27f931731c2fb9b41d414048b2462e00597feb1d55688cf0ac875aac9fd",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[80]/p",
+      "source_chars": 45,
+      "source_sha256": "7aeed94d2461148b2b6d0a412aeda5d3112340698bb58a5bddd1916aa99096c3",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[81]/p",
+      "source_chars": 165,
+      "source_sha256": "763601f396f2a70c66a30b92f81989b7340e28c8586d0a16213bd045e3816667",
+      "scope_action": "exclude",
+      "reason": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 3543,
+    "scope_chars": 995,
+    "clean_chars": 995,
+    "source_blocks": 38,
+    "scope_blocks": 12,
+    "clean_blocks": 12,
+    "rules": {}
+  }
+}

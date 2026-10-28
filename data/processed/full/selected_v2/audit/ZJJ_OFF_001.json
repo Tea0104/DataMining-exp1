@@ -1,0 +1,80 @@
+{
+  "doc_id": "ZJJ_OFF_001",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "heading",
+      "xpath": "/html/body/div/h1",
+      "source_chars": 5,
+      "source_sha256": "4c826e402a2403a7b63afb35abd6d8a2991078861db8e7c6fdc3fc7529c5b4a5",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0002",
+      "role": "heading",
+      "xpath": "/html/body/div/h2[1]",
+      "source_chars": 16,
+      "source_sha256": "005fd8daa721d83d614612317f32dea4ec15ca325b561772572db5a07ffcffd2",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 16,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 16
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[1]",
+      "source_chars": 155,
+      "source_sha256": "2bf7a2778b72dbfc53a079ea732679067b00bdca341c62045879f503a27b6cf4",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 155,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 155
+    },
+    {
+      "block_id": "B0004",
+      "role": "heading",
+      "xpath": "/html/body/div/h2[2]",
+      "source_chars": 11,
+      "source_sha256": "5018b085bb0a1e39469732db172aa533d973b2fa5ff2f4566d362958a978982f",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 11,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 11
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[2]",
+      "source_chars": 145,
+      "source_sha256": "4120cdc66e5d2bc31c417d958639154689e5cf6214f293f450e7569de296f33a",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 145,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 145
+    }
+  ],
+  "metrics": {
+    "source_chars": 332,
+    "scope_chars": 332,
+    "clean_chars": 332,
+    "source_blocks": 5,
+    "scope_blocks": 5,
+    "clean_blocks": 5,
+    "rules": {}
+  }
+}

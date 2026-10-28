@@ -1,0 +1,28 @@
+{
+  "doc_id": "JYT_OFF_002",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[1]",
+      "source_chars": 169,
+      "source_sha256": "59fffabbd39957ba97ca6974b835a72217028078f4f85124de154fb47fdc52e5",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 169,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 169
+    }
+  ],
+  "metrics": {
+    "source_chars": 169,
+    "scope_chars": 169,
+    "clean_chars": 169,
+    "source_blocks": 1,
+    "scope_blocks": 1,
+    "clean_blocks": 1,
+    "rules": {}
+  }
+}

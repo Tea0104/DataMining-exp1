@@ -1,0 +1,932 @@
+{
+  "doc_id": "ZJJ_NOTE_003",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[1]",
+      "source_chars": 72,
+      "source_sha256": "e6395f403df884d1b11e1e2a632d3c291755e711b74e12f04cc754e0c9a96036",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 72,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 72
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[3]",
+      "source_chars": 8,
+      "source_sha256": "83f5118d27236dfb89c61a2fcb3e548c5e71246f49d1f2d8bbdef4566d03634b",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[4]",
+      "source_chars": 80,
+      "source_sha256": "ba84279e41517e2f13db5a6c980d0749c9089358095f9ef3c2cd3e94363ff603",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[5]",
+      "source_chars": 48,
+      "source_sha256": "a84ecc315a0495311a7bbf466c31263c5da6f56e06f3da58bacf2a69e7b140a7",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[6]",
+      "source_chars": 8,
+      "source_sha256": "ba87807b0fa472e8a7ccff5bfeaba8035e197a015867f268f721a799411afe1c",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[7]",
+      "source_chars": 87,
+      "source_sha256": "c0c752eac33fd02dab03275082615180c90acfdf7da271a48a3f571763bb9309",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[8]",
+      "source_chars": 97,
+      "source_sha256": "8a03686e1d8198d2cfc6240d9ef68ab24f73991b9f4955b70140130c3d2ff81d",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[9]",
+      "source_chars": 138,
+      "source_sha256": "b7b0ae35d4e54bfa32367c64ba32424b233e7a09eb6b3f36a04f5ec178be3340",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[10]",
+      "source_chars": 48,
+      "source_sha256": "5539b1ddfe65cb88bf13b4be787f7d4b169906999efce250cec00a246cf35072",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[11]",
+      "source_chars": 63,
+      "source_sha256": "fe93198370b34fa31fda7a34a8e2986312805c0544a7d1779db76528e3853f58",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[12]",
+      "source_chars": 125,
+      "source_sha256": "25cadbc2accd392601bbd78a446dc4a95a8cff4ed9761c75742a048ce55d6c13",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[13]",
+      "source_chars": 179,
+      "source_sha256": "ba1ea3710abcefee2223ea0ca24f65b7f97d12f36358f526d4892466fc3d0df8",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0013",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[14]",
+      "source_chars": 57,
+      "source_sha256": "ec50e673f23f63cdefe35fcab4f5ce3f14730959474752c018cfe6d3ea41e76f",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[15]",
+      "source_chars": 105,
+      "source_sha256": "886a4b69b6869947c528eaa32b913466c9da36331e5c7cf965d06cfebe83e2f1",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[16]",
+      "source_chars": 146,
+      "source_sha256": "3b7d42bc570259e6345e7857e3ec3108c3468bcbad0e0f83eea8649b9c96a5ad",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[17]",
+      "source_chars": 191,
+      "source_sha256": "1dfd8670e1228fa55f5da6e479dc137afa270ec5aa049a63be3f2a2a2e366fe5",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[19]",
+      "source_chars": 8,
+      "source_sha256": "32d110c1784a51d173af7b8ce6fb831ea3fc61dc2f955b93eb4c8976a6a52a42",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[20]",
+      "source_chars": 41,
+      "source_sha256": "83db3c1cc155a60f0c0a4b592e2ecb4027287aea15a645614b599cd7489901b5",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[21]",
+      "source_chars": 34,
+      "source_sha256": "bc22644f029955b4c9bfa4a8953ae8d775e3a06563182ca90a2be748549796ca",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[22]",
+      "source_chars": 8,
+      "source_sha256": "11f29a4fd7df508bbe00426012b8887b14a2d986d871bb47412c885505a0ad86",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[23]",
+      "source_chars": 37,
+      "source_sha256": "62a754788eacb45d900090d53e300aa5ac38ec85add139850ac9a73f038a05a4",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[24]",
+      "source_chars": 27,
+      "source_sha256": "556f33b91c315a81b860a085fe2c40f3f658fd682f0c465cf8986eb6e2177784",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[25]",
+      "source_chars": 91,
+      "source_sha256": "b92d30538e7181d465b7bd71266467878cf337974b42a6d2b9c9ab0b8781451d",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0024",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[26]",
+      "source_chars": 268,
+      "source_sha256": "9efc47f52711628496bf5f27207990ddcfa342a6c90cb3687b2db6f3079a31b0",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[27]",
+      "source_chars": 58,
+      "source_sha256": "c020219f4e29a574353e32c0c1b62546273b507d414c7aa9ec2f5d9e01351688",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[28]",
+      "source_chars": 37,
+      "source_sha256": "615d4b658b1493686badcf6b77236aaf0542bf8853f08a2a50fa3b1bec035b5f",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0027",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[29]",
+      "source_chars": 55,
+      "source_sha256": "8eb4c9876b636b5e648b81cb0dccc44ad4d9dc94b211af0a8b97156382bb9d13",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[31]",
+      "source_chars": 9,
+      "source_sha256": "bdb7ee910beaa4502976c473c7c75d8b76069b314eb890d9ab9ca66c8461065c",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 9,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 9
+    },
+    {
+      "block_id": "B0029",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[32]",
+      "source_chars": 34,
+      "source_sha256": "45cf65c0aec5f0cb722c3497a03def89abea194cf23a0f60231043828cc92a5c",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 34,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 34
+    },
+    {
+      "block_id": "B0030",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[33]",
+      "source_chars": 12,
+      "source_sha256": "e6e44c6a6a094ebc5069c1d3161df8ae0c484f4960fe4b705f8f4bec5c510091",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 12,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 12
+    },
+    {
+      "block_id": "B0031",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[34]",
+      "source_chars": 8,
+      "source_sha256": "f48439caf6b1169a0a94d15471215af96ec50119780b870e6a4c5d10cb593a41",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0032",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[35]",
+      "source_chars": 46,
+      "source_sha256": "0a40505b64d337a9512125061d93a16bf3c7ad0c7f00fd042ad1990e50457aca",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[36]",
+      "source_chars": 126,
+      "source_sha256": "3741bbbff16f073ef096779d4e8417a960932377ed53f3d451e91f0ea6140004",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[37]",
+      "source_chars": 92,
+      "source_sha256": "b7c559b2306f1bcec319fe8dc154bb40af18381ae16f7767b0c17ff73c997327",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[38]",
+      "source_chars": 80,
+      "source_sha256": "783cb1ef8bdf216f8164179ef4840ac24e80a9b70b9fce6697fb91d5ced40b87",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[39]",
+      "source_chars": 135,
+      "source_sha256": "916af0eb69b161232882443e06992353ea09db6eeaf12727a37153727593317f",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[40]",
+      "source_chars": 41,
+      "source_sha256": "d543a39a43139a4aef1f008e3678613afbaec2838e62da153e86b7f5271376fb",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[41]",
+      "source_chars": 170,
+      "source_sha256": "63f9d67613f424e42803aad9bd649c33cbb5d851cf1c0427eba885be157b0b5e",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 170,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 170
+    },
+    {
+      "block_id": "B0039",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[42]",
+      "source_chars": 176,
+      "source_sha256": "60d33f9976f4084e10ffd030ba363ebb6ff27bde4038915e108701587402e5bb",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 176,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 176
+    },
+    {
+      "block_id": "B0040",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[43]",
+      "source_chars": 39,
+      "source_sha256": "56e5493df74d568cdb4d0a7c98cc08479221f439c8b80e23832b84c34347b4cd",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 39,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 39
+    },
+    {
+      "block_id": "B0041",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[44]",
+      "source_chars": 90,
+      "source_sha256": "d2133b61a52e3ee880db429dc1cd315d0b523fb2b3af578f474498d5945584f3",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 90,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 90
+    },
+    {
+      "block_id": "B0042",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[45]",
+      "source_chars": 28,
+      "source_sha256": "f3559a8a5a0dda9f8329a8461ad81db37711cede243ed2c38cbfe65c674a9c79",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 28,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 28
+    },
+    {
+      "block_id": "B0043",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[46]",
+      "source_chars": 148,
+      "source_sha256": "5d975b263972259df870df34e44079afaf0820084fde66afa83189287c086996",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 148,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 148
+    },
+    {
+      "block_id": "B0044",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[48]",
+      "source_chars": 9,
+      "source_sha256": "b084779685ac4e682fbe0afd553b22625ebe5951a6ad616d8354099430fbe71a",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 9,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 9
+    },
+    {
+      "block_id": "B0045",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[49]",
+      "source_chars": 24,
+      "source_sha256": "f3238e9879ac0951b242a6753a8aed6a7e9335337760604ca407b90cfa6ad366",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 24,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 24
+    },
+    {
+      "block_id": "B0046",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[50]",
+      "source_chars": 10,
+      "source_sha256": "bc9760ae73d181829e41fa84792ef5c1952eba0cdf85baacf779b369dcbf101a",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 10,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 10
+    },
+    {
+      "block_id": "B0047",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[51]",
+      "source_chars": 8,
+      "source_sha256": "70e603b20e8a15995b76714af43b548ffe01e4cc9df0beb6621db77f74e05fe6",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0048",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[52]",
+      "source_chars": 33,
+      "source_sha256": "d6cf57f2c8d5e34bf5b1cf3b246ad26c07b3875b00b6fc57f24dbab145dfc7ba",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 33,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 33
+    },
+    {
+      "block_id": "B0049",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[53]",
+      "source_chars": 89,
+      "source_sha256": "876cb5395d289587145b25454cb37c43828eaec3751fda49eb6e1bb4e5d425ce",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 89,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 89
+    },
+    {
+      "block_id": "B0050",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[54]",
+      "source_chars": 32,
+      "source_sha256": "f6be7a3c784c96616cc8a66a0d0af3001cf2830ff49bebddf68a0a7b1828021e",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 32,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 32
+    },
+    {
+      "block_id": "B0051",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[55]",
+      "source_chars": 68,
+      "source_sha256": "00a9eeee3ccb2077bae37527ba1bbe14bdd5780b8bb148416ccd2160ed4f8f41",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 68,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 68
+    },
+    {
+      "block_id": "B0052",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[56]",
+      "source_chars": 115,
+      "source_sha256": "77a8e55d901822da56f33da2e99e5425b6aa1af459a8a22e9f9448fcb5bd6725",
+      "scope_action": "keep",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "selected_chars": 115,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 115
+    },
+    {
+      "block_id": "B0053",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[57]",
+      "source_chars": 259,
+      "source_sha256": "669a7bffda56ea5b5f4bca1546fad87e1c00c5bc45f0999f6743fdee5e5bb272",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0054",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[58]",
+      "source_chars": 12,
+      "source_sha256": "8626a0e8caa7f54ead7672d5fe781241a5bdae5bd2e5e6ccd6d2c2c363a32dcd",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0055",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[59]",
+      "source_chars": 20,
+      "source_sha256": "70414ee743cff175b9c8fb7e9b2380cb7f4f4df0559de79e2ed4b52d95d4e4ee",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0056",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[60]",
+      "source_chars": 10,
+      "source_sha256": "bc9760ae73d181829e41fa84792ef5c1952eba0cdf85baacf779b369dcbf101a",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0057",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[61]",
+      "source_chars": 8,
+      "source_sha256": "9f1883fedf0b5317cef3f313c69a2834edccc78fc1b6ac51fb9399ce51e174a0",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0058",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[62]",
+      "source_chars": 91,
+      "source_sha256": "d06e21264557aee3b840856a0c117ffcb768a7b9442bb43d4df22bb4d2b0c03f",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0059",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[63]",
+      "source_chars": 79,
+      "source_sha256": "4e07abe37aefaad14b73a6b2da2a885d68e5ebe21d620db4750e1bf1bf984901",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0060",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[64]",
+      "source_chars": 51,
+      "source_sha256": "8e0734575d1ef057127146172ff8804fc3b8c3808ccff7fc6630f8eba903e7dc",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0061",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[65]",
+      "source_chars": 95,
+      "source_sha256": "557c81e43ea1f489b7b164adee08f478cc46259876e1ca497cd20ef1d473683b",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0062",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[66]",
+      "source_chars": 64,
+      "source_sha256": "0fced91400c22159691a353afb39525abced398a0f753a4897eff90bc3a437fb",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0063",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[67]",
+      "source_chars": 96,
+      "source_sha256": "7eb91760ee4d75ddfbcd4be95232583150bfcf3625da58f9b1b664ef5ba156b8",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0064",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[68]",
+      "source_chars": 107,
+      "source_sha256": "c5e71fec3c00599f687abf9b125a567672f8e2cfa06e071bd0899fefcb73ef40",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0065",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[69]",
+      "source_chars": 152,
+      "source_sha256": "197c8caa125d449ea79320b3f71953552acb6876644d779fa3d02730cb513fc6",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0066",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[71]",
+      "source_chars": 8,
+      "source_sha256": "73bc11abff3df6fb2ed56891e5197d1405dd3885f0b5ce63a111d816fc9cd0ef",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0067",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[72]",
+      "source_chars": 15,
+      "source_sha256": "a8f6ac719a5484d2ce5b9e2b91036659a8c96e532ac8e66d8fca39af6075da1e",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0068",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[73]",
+      "source_chars": 10,
+      "source_sha256": "bc9760ae73d181829e41fa84792ef5c1952eba0cdf85baacf779b369dcbf101a",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0069",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[74]",
+      "source_chars": 8,
+      "source_sha256": "8d6e9f56504a2099a49165ae9b6ae055c7d32ce1c1c381f8d84f3e06695669d0",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0070",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[75]",
+      "source_chars": 26,
+      "source_sha256": "c93ef6a67ead2e4c96bf749dea6f6cf4c1a7643ad8c6005578c748756ac2d4a0",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0071",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[76]",
+      "source_chars": 19,
+      "source_sha256": "56143d81f3f82602f44936c3f92bd38a7fdcbddb9a3ea02e1c8d0af106ec2bf3",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0072",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[77]",
+      "source_chars": 98,
+      "source_sha256": "766a992244ac5da3ff4210257dd8908b7306b42b1d810b7d7e797274ec928a3f",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0073",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[78]",
+      "source_chars": 72,
+      "source_sha256": "0a27982c5646730037b436e13447de920beca36f7284bcef6e82b05d821088f0",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0074",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[79]",
+      "source_chars": 54,
+      "source_sha256": "fa538541014a846ceed2a378d839d0ea5c8bd0a094ffad7504324964a5f41039",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0075",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[80]",
+      "source_chars": 35,
+      "source_sha256": "e11ed5929cb9f51844c35f45c8064e951c51732760761d05bff1c90f58fb9533",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0076",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[82]",
+      "source_chars": 8,
+      "source_sha256": "4d4ed5a76b0342566e329834a5736b2f7289f8d4986f923afb88536299759b34",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0077",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[83]",
+      "source_chars": 57,
+      "source_sha256": "721b4a43c9ea1cd448c04cbee1422899c8ab31501fe65c497d05d1e6dbfcce7d",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0078",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[84]",
+      "source_chars": 46,
+      "source_sha256": "4ed67c54e68cd41419570436a46da6674a2b106b889a9b5629f2a3cafe65d7ff",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0079",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[85]",
+      "source_chars": 8,
+      "source_sha256": "ef945eb76bfcae1424e07dc024694c889f007967aa48d656b14afa89e97015a4",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0080",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[86]",
+      "source_chars": 48,
+      "source_sha256": "e24c116741354d8ef707f3d8837b1a36df3231034bb98e2e830833bb72a3b67c",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0081",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[87]",
+      "source_chars": 23,
+      "source_sha256": "e3a6faa8c64fd4751bc24f775b626943bd49e11e8656c0bfeafb4e515343ab5b",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0082",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[88]",
+      "source_chars": 49,
+      "source_sha256": "980dfcba96759f489239ddae53972a974f799c4c1e8ce10cb9e482a085a445e8",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0083",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[89]",
+      "source_chars": 70,
+      "source_sha256": "4ea345c1a2f5d0b5ba43a2bc7d65dbb9aec08b70f6ab062c5275ee1fe234ba15",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0084",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[90]",
+      "source_chars": 31,
+      "source_sha256": "d00b285197f650729b66bb5a36e27ba03e669fc1d3d11fb6bcc4a9adaf9819ac",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0085",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[91]",
+      "source_chars": 65,
+      "source_sha256": "378c213cf835b5bb60daabbbff67cd4324771dfe04bbe34620f8d65e44ee7ed9",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0086",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[92]",
+      "source_chars": 35,
+      "source_sha256": "ca8f56f53624a4b069ba3201c1ac346d5cb9f5838e3367111ae24c2eddb1c939",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0087",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[94]",
+      "source_chars": 8,
+      "source_sha256": "4d4ed5a76b0342566e329834a5736b2f7289f8d4986f923afb88536299759b34",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0088",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[95]",
+      "source_chars": 20,
+      "source_sha256": "6f3c74fcf70a653b7635ec6c6802517da0a970acce874e714080370a44cc658f",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0089",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[96]",
+      "source_chars": 11,
+      "source_sha256": "4c292c0c64482eef6ce36fbb2de51c2f962c70fcc1ba9d15f2344a2f7351b566",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0090",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[97]",
+      "source_chars": 8,
+      "source_sha256": "50adb01143ffe4c080936aa8d9b1dc9c120df29d2e3bfce1debba416b0783213",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0091",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[98]",
+      "source_chars": 130,
+      "source_sha256": "835814aedf4730cbbe508828bb8a22c9e4d48797aa7124e304c3b03c8022599e",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0092",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[99]",
+      "source_chars": 166,
+      "source_sha256": "11ceaa6ca6fc4d2fa5a7562037f4d8560c1c5b515eb532dbfabbd92268afd15b",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    },
+    {
+      "block_id": "B0093",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div/p[100]",
+      "source_chars": 31,
+      "source_sha256": "962f7008e5e73f554cb88d9464a22ef35e25ff6a28af89cc78ea068b72e72872",
+      "scope_action": "exclude",
+      "reason": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 5941,
+    "scope_chars": 1174,
+    "clean_chars": 1174,
+    "source_blocks": 93,
+    "scope_blocks": 20,
+    "clean_blocks": 20,
+    "rules": {}
+  }
+}

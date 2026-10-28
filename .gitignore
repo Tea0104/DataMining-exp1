@@ -23,6 +23,7 @@ Thumbs.db
 # Re-downloadable large files and intermediate caches
 data/downloads/
 data/raw/full/
-data/processed/full/
+data/processed/full/*
+!data/processed/full/selected_v2/
 .cache/
 *.log

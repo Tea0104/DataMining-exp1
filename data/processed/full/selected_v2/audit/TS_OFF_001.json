@@ -1,0 +1,162 @@
+{
+  "doc_id": "TS_OFF_001",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[1]",
+      "source_chars": 166,
+      "source_sha256": "a6e8bb4af67fa81733b4dc71f27ccfd569b29122007c40adcb080c764004c6d3",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 166,
+      "normalization": {
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 166
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[2]",
+      "source_chars": 13,
+      "source_sha256": "16d5f95737c510b7fcb30d50f4ad5d3719a7fdd3f853dcbf53f05d35283aab07",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 13,
+      "normalization": {
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 13
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[3]",
+      "source_chars": 114,
+      "source_sha256": "3aa02e008a834a9b5c3fda22d8081acd914c4725e195a79117c84b9667f70b90",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 114,
+      "normalization": {
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 114
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[4]",
+      "source_chars": 6,
+      "source_sha256": "133cb4f0f1ab40735202bc7d1200fbb9d0a125c11941c36fe2c9df2af2fd4114",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[5]",
+      "source_chars": 352,
+      "source_sha256": "3404fd814fd4dfe9ddb8d0b17f4298f0ece5cb119088d5bf6420d2ca182dc377",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 352,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 352
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[7]",
+      "source_chars": 6,
+      "source_sha256": "fbba0c6e7498218f1aa682ec1513f97f73c3524e6a8443748e4c419c9ca66069",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 6,
+      "normalization": {
+        "special_spaces": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[8]",
+      "source_chars": 38,
+      "source_sha256": "0efbe6ff3b7bdbf5065f900c6a0397a0d16830c69266822aef3c8ed15e9f9d84",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 38,
+      "normalization": {
+        "special_spaces": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 38
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[9]",
+      "source_chars": 59,
+      "source_sha256": "99037b7ed8d1fbab231b66499bb5b32f01e28099c34f40d35dc9da5c6cb16eb8",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 59,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 59
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[10]",
+      "source_chars": 66,
+      "source_sha256": "dce96dbf949ae6782add7c37721e49d7d9ddcb42d921a7d53230b5bb8fa5c466",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 66,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 66
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[11]",
+      "source_chars": 113,
+      "source_sha256": "d1dbba36849666895b04b5e58a87e249723f97d7ded4fe375ebf7a6aa95cc669",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 113,
+      "normalization": {
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 113
+    }
+  ],
+  "metrics": {
+    "source_chars": 933,
+    "scope_chars": 933,
+    "clean_chars": 933,
+    "source_blocks": 10,
+    "scope_blocks": 10,
+    "clean_blocks": 10,
+    "rules": {
+      "whitespace_blocks": 6,
+      "special_spaces": 2
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "doc_id": "ZJJ_OFF_005",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[1]",
+      "source_chars": 9,
+      "source_sha256": "4273360307037582451b704ff28f1f52e0b3c0c47a0bc0e0642b79c440a47bec",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 9,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 9
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[2]",
+      "source_chars": 10,
+      "source_sha256": "92de189720568a2d00b7c1b528d0572dda0d3a2eb8b2c8765caa0d0c8664f82f",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 10,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 10
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[3]",
+      "source_chars": 17,
+      "source_sha256": "0800b3b3fb8916902370980fdb6bbdd6077fea65b182b305974e2109c2ca08a4",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 17,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 17
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/p[4]",
+      "source_chars": 215,
+      "source_sha256": "9df8112584c33db92c7c4291c16295ed020475af101d79111014989612fd46a6",
+      "scope_action": "keep",
+      "reason": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "selected_chars": 215,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 215
+    }
+  ],
+  "metrics": {
+    "source_chars": 251,
+    "scope_chars": 251,
+    "clean_chars": 251,
+    "source_blocks": 4,
+    "scope_blocks": 4,
+    "clean_blocks": 4,
+    "rules": {}
+  }
+}

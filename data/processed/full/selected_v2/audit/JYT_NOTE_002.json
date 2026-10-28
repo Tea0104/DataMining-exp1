@@ -1,0 +1,493 @@
+{
+  "doc_id": "JYT_NOTE_002",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 82,
+      "source_sha256": "941011f4877cfe59526ebce2b072986094c72c58baaff97154075574951c1939",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[2]/p",
+      "source_chars": 54,
+      "source_sha256": "f1664429a3554749accefe78d9e8a87abdb186cdddaf3e6d995339e1b564939c",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[4]/p",
+      "source_chars": 59,
+      "source_sha256": "8f0bcea55e2c3bd222d1dac11f24fadc68488e7dd05b1599c1f29cb51a8a63e0",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[6]/p",
+      "source_chars": 58,
+      "source_sha256": "c47db1f1f5d5233223832a4a6dd01c10ffd5bbac23e4908afe65b5bee10c674f",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[10]/p",
+      "source_chars": 14,
+      "source_sha256": "b0b7980b2e6a38b931306a1bf6c9fef2b75f3afe4b747840d25314ace1c70729",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[11]/p",
+      "source_chars": 31,
+      "source_sha256": "5cbd7722e338a2a1c453b96394c64f8210ea113bc0b1212f3c5e915a910f0e23",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[12]/p",
+      "source_chars": 28,
+      "source_sha256": "25bdc9724ed857e5bed335eaf208ebfa25ee784c11ae3d504c63932c131895f5",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 28,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 28
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[13]/p",
+      "source_chars": 68,
+      "source_sha256": "9cb5db0444d080abd9c6e7f93a34a7663dffc9f82860049b9580961a66fb7f73",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[14]/p",
+      "source_chars": 54,
+      "source_sha256": "91bf21c0d42b2c07d69641c103aed85c00f0b30e79d85a1d4cdf7c6fefbcec00",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 44,
+      "source_sha256": "0eea4774a43977e15273e58620fdad94438e756d11f8bd54b95c7c68d8bb505e",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 44,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 44
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[17]/p",
+      "source_chars": 37,
+      "source_sha256": "5c380f679c4e0254e4f508164e73d1996231ec7d8fa6945b614698ada672a700",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 37,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 37
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[19]/p",
+      "source_chars": 64,
+      "source_sha256": "d07320badb6176ec711ea3bbe8d664ebb2af227cff7b9b2017ab7ab3b27558fc",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 64,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 64
+    },
+    {
+      "block_id": "B0013",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[20]/p",
+      "source_chars": 29,
+      "source_sha256": "ae3991491e92ffdc8036a29d2b40ff2acfb7a636d35a0896df818f675598acfa",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 29,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 29
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[21]/p",
+      "source_chars": 50,
+      "source_sha256": "cde218f72870c5155c43688a1b53a0e6b25b0d1a53bdcbb1b285766b01e9de4d",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 50,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 50
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[23]/p",
+      "source_chars": 55,
+      "source_sha256": "7582bd26eb739ea26c7cd92387ddac2ff76cf287b68a3c64a8afaa257743f780",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 55,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 55
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[24]/p",
+      "source_chars": 118,
+      "source_sha256": "3674078a1f0a46b6c368b3c3dad68d82e2246cd99cdcda5f5959829f6844b6d4",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 118,
+      "normalization": {
+        "special_spaces": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 118
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[25]/p",
+      "source_chars": 94,
+      "source_sha256": "cd57de69fef5ffa52c7ab171027d5652a6c1e96d6c9449450d4fcb198dcc7084",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 94,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 94
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[26]/p",
+      "source_chars": 22,
+      "source_sha256": "750fa6a0f3a3fd1cd0dfdc034f360f13038433c7fc7d5104c114633bd2ec0ec9",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 22,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 22
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[28]/p",
+      "source_chars": 119,
+      "source_sha256": "1f8d38b623688f7c073d7a2015da9997bb5d307a9df7598ee9a8211b81d770b9",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 119,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 119
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[29]/p",
+      "source_chars": 15,
+      "source_sha256": "9642696bff5144b819e9bc1913cee4e59988583c57815e2b5ea344cf46cfafc5",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 15,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 15
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[31]/p",
+      "source_chars": 120,
+      "source_sha256": "1604efcd241bb57ea838a9a18629a4b117afa9b74295264f22727cf39d9afd2b",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 120,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 120
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[39]/p",
+      "source_chars": 115,
+      "source_sha256": "6a058eed93629dc53832b2f0b7b48ad06c3ac1290e88cc35c41be285f9292232",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 115,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 115
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[42]/p",
+      "source_chars": 32,
+      "source_sha256": "9ef33133ee49f42c91fa6c32937dcb00e9b04867e6c267435fa9b9b806a24c5a",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 32,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 32
+    },
+    {
+      "block_id": "B0024",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[44]/p",
+      "source_chars": 51,
+      "source_sha256": "7bfa4bf73680fb49570ccedd1354f4fa3c5a3cdd4b253646e0dc9d2c1087b488",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 51,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 51
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[45]/p",
+      "source_chars": 15,
+      "source_sha256": "b506ceb4c7f2d5a72e01f8f1c879e41f3190c29a4774814d0ff1550a9a6a0439",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 15,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 15
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[47]/p",
+      "source_chars": 31,
+      "source_sha256": "ab174debee14602107a24089a4c36856ef76f3f20b53eaf6cf52f023874494aa",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 31,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 31
+    },
+    {
+      "block_id": "B0027",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[49]/p",
+      "source_chars": 152,
+      "source_sha256": "357ef8cbad2efb7292e3cba4c93af688fda66cfa629181b25e8f554a3652b612",
+      "scope_action": "keep",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "selected_chars": 152,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 152
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[50]/p",
+      "source_chars": 23,
+      "source_sha256": "b9a7455ac1cc54c7217442a700895a907bd3122e967fdd19e9d11c6e867ecca5",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0029",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[51]/p",
+      "source_chars": 36,
+      "source_sha256": "4eb53922886c424ba044e5a6630812d4549c257c850ab0bf74a33531ebc76d80",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0030",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[53]/p",
+      "source_chars": 19,
+      "source_sha256": "8715ec2165261302ce42b92a6ff27345ccd7c50b512a862ca1ebc2cdf4471793",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0031",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[55]/p",
+      "source_chars": 27,
+      "source_sha256": "f85c3cc0832b99aaf9de966a753d8a2390dcaee9fdc612f6f52f7dbea44911a8",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0032",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[57]/p",
+      "source_chars": 32,
+      "source_sha256": "7618ac46b87b2049042c77a1a142bed70e29fe57986321252912855d82524433",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[58]/p",
+      "source_chars": 48,
+      "source_sha256": "10c33e38f36f32ef83ee449305f1dd86edfbb75d0a1a5d949f8e19a961e51d0d",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[60]/p",
+      "source_chars": 33,
+      "source_sha256": "70add0b290b23c13db13711e2e9b3e7f672435982b1add54b5572b46fba4a32f",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[62]/p",
+      "source_chars": 24,
+      "source_sha256": "83c31199497d054b0fb8bca8360c9ede4266e7d969f6b9643a5afbcd37e6bcd2",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[64]/p",
+      "source_chars": 20,
+      "source_sha256": "72cbc569a3ab4cdd4049be0a34718995bd7d7428e0ad0a28244fa198d54471ac",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[69]/p",
+      "source_chars": 34,
+      "source_sha256": "98d03147670d87b057c4fb6c4570320a26e0ee2f9ca9f88ae66d853185d492a3",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[75]/p",
+      "source_chars": 35,
+      "source_sha256": "57a21d441e25e83aa302f7851603c5bf76bbfd3c4c50cc3ae1a4cb149fe6c621",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0039",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[79]/p",
+      "source_chars": 46,
+      "source_sha256": "a7d11fdd515ef5a35b98498f31694d0481f2425f200945c0ad5fc4f46c4c364a",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0040",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[81]/p",
+      "source_chars": 62,
+      "source_sha256": "e3d1c3fbf98494bbad12cbc4a24ca0eb43a4a7407664dc8c80341178266883cc",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0041",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[85]/p",
+      "source_chars": 38,
+      "source_sha256": "0ac462b6abd0297604c2da5ee0d739c14115b9c879f5fdcc92a1518bc8897493",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0042",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[89]/p",
+      "source_chars": 47,
+      "source_sha256": "b53cea952045b43f032dca041f8b9eed1f1cd5b0fe7e703b08d9887fff93831b",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0043",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[92]/p",
+      "source_chars": 19,
+      "source_sha256": "97cafcb88dfca71c0de8debc79b45cbf7a18ea16714c8f1510bf8d36ed8f317a",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    },
+    {
+      "block_id": "B0044",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[95]/p",
+      "source_chars": 32,
+      "source_sha256": "884343efbc113dc37ba9ff95aef4cc2426ddcbbe1dc7815fce51027593fdabc7",
+      "scope_action": "exclude",
+      "reason": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 2186,
+    "scope_chars": 1191,
+    "clean_chars": 1191,
+    "source_blocks": 44,
+    "scope_blocks": 19,
+    "clean_blocks": 19,
+    "rules": {
+      "special_spaces": 1,
+      "whitespace_blocks": 1
+    }
+  }
+}

@@ -11,9 +11,9 @@
 | metadata/selected_v2_verification.json | 20项测试、64个输出文件离线一致性 |
 | downloads/selected_v2/ | 原始HTML和HTTP元数据，Git忽略 |
 | raw/full/selected_v2/ | 完整采集正文及来源，Git忽略 |
-| processed/full/selected_v2/ | JSON、JSONL、texts/、audit/和变化示例，Git忽略 |
+| processed/full/selected_v2/ | JSON、JSONL、texts/、audit/和变化示例，已纳入Git |
 
-本地完整数据包供组内接入和离线复现，Git提供源码、配置和不含全文的统计。运行命令见[项目1说明](../experiments/exp01_data_preprocessing/README.md)，字段见[数据接口](../docs/data_contract.md)，结果见[项目1报告](../reports/exp01_report.md)。
+拉取Git仓库后可直接使用清洗结果；本地完整数据包另外提供原始HTML与采集原文，用于离线重做整个流程。原始下载和复现临时目录继续被忽略，仅正式输出`processed/full/selected_v2/`加入版本管理。运行命令见[项目1说明](../experiments/exp01_data_preprocessing/README.md)，字段见[数据接口](../docs/data_contract.md)，结果见[项目1报告](../reports/exp01_report.md)。
 
 处理范围仅网页文字，图片内容和alt不补入文本；文字图注仅精确去重。完整正文70,488字符，所选景区范围34,787字符，清洗后34,064字符。跨景区范围排除与字符清洗分开记录。原文事实疑点和历史条件不改写；本批不是实体/共指/关系金标准。
 

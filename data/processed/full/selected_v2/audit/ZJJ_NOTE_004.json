@@ -1,0 +1,722 @@
+{
+  "doc_id": "ZJJ_NOTE_004",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 23,
+      "source_sha256": "a0d84df78fe3c4087f0c05f25a77b23f65d978c2b447ebb29dd798fecb7368a3",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[3]/p",
+      "source_chars": 6,
+      "source_sha256": "8f876aad2d34b109ef7c337a623d4f1046ee1d91bcbe7d837f1c9e2972282ec9",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[4]/p",
+      "source_chars": 20,
+      "source_sha256": "a0a0e5be2160099c9b8c26b2a8b453b3340ca33f9219326edf465d05c33cccfe",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[5]/p",
+      "source_chars": 22,
+      "source_sha256": "84255f586d89f90e51527c4394e8783d634518b1fb59c94f721d9d2c74d415a0",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[6]/p",
+      "source_chars": 15,
+      "source_sha256": "7e2028e8f268e2031844402caf18805d34e0d87028ea9cb18e76d3180b3e3497",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[7]/p",
+      "source_chars": 11,
+      "source_sha256": "bcc778724d6319d69c1bf851bbbf7e4a1ac965ece0828be4b53b9e241773adc4",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[8]/p",
+      "source_chars": 32,
+      "source_sha256": "f9744f48dbfbabe1b8dbf809d6bc7c3bf6ccb33a94ce9e8180622891030477f1",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[9]/p",
+      "source_chars": 17,
+      "source_sha256": "da442b8028447fecc2c38eda686acddc488a0ae1d34698ea59ab074d5f0a5f1d",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[10]/p",
+      "source_chars": 23,
+      "source_sha256": "55dc9042663fd05670dbd6a497f91049237661350419d31d661f528ced89debd",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 23,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 23
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[11]/p",
+      "source_chars": 29,
+      "source_sha256": "b488f25dc3a57051a2163577206e67bce0659c386895917b3c43065deef52db5",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 29,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 29
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[12]/p",
+      "source_chars": 28,
+      "source_sha256": "edab6ccf3cf79164b32588dba5434b99b2f2ab8abf2bd37dd6ba735de986d1dd",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 28,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 28
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[13]/p",
+      "source_chars": 14,
+      "source_sha256": "a328de761c6605f1831d9885aa48ba8406a6433c605e31dade38c1fd3d959c48",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0013",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[14]/p",
+      "source_chars": 22,
+      "source_sha256": "e62c39ca42a85ba716a1078d07117d9b8836bdaeb25adbec6b2e151b811b1833",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[15]/p",
+      "source_chars": 17,
+      "source_sha256": "abff3c72e3e89a2d9ef1167fda84a9ee1954fdcfc9d9fc9cdc77e821e55bbdce",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 265,
+      "source_sha256": "e3fe73ddd1851503b49886fa1728b612a9f1424a66b1072c0fa164c99b715317",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[17]/p",
+      "source_chars": 5,
+      "source_sha256": "44ad8acee2bb43b7d0dfee1f6005ac3c150a0415129d1ef078ef3d05c070e7f8",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[18]/p",
+      "source_chars": 182,
+      "source_sha256": "23efcb98635af25cf2608643919d17ef9f558eedf8e5da51e1d899ee8ad3ef7e",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[19]/p",
+      "source_chars": 5,
+      "source_sha256": "36fd6e716d76484a6a6615903737436dbe2b131187099c32e753098c9f262762",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[20]/p",
+      "source_chars": 135,
+      "source_sha256": "d05ad9ace814048cf36c9140b947e8dbe28f6e3e5c163a91137bbc55c7eecd27",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0020",
+      "role": "caption",
+      "xpath": "/html/body/div/div[21]/div[2]",
+      "source_chars": 28,
+      "source_sha256": "a34bd133960d1a973996bae38c3d360d5c65a22c3b3feb5674d3dfdd40370fdc",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[22]/p",
+      "source_chars": 148,
+      "source_sha256": "b6fba2c7e725582c92712e18846a60b5c1706ac0b88ec9ddbba25f7b11d940a8",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[23]/p",
+      "source_chars": 5,
+      "source_sha256": "9b4bc1c92cc1b971884f712484014d400b2d2778e079c5a8e0fae51c2e20adf2",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[24]/p",
+      "source_chars": 145,
+      "source_sha256": "87df382550e9e659dc1448efdc7bba69d644ead239ce67be26561e5f30383329",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0024",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[25]/p",
+      "source_chars": 204,
+      "source_sha256": "85d2cbe9b56c12146a500582df96f2d1abd8419e43e13eb6fb3740b8e6b35b00",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[27]/p",
+      "source_chars": 88,
+      "source_sha256": "a6fd4ce864e744d2d1c6b93d517da6715fa7b4f4f7ff1bb382460e8520086bdd",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0026",
+      "role": "caption",
+      "xpath": "/html/body/div/div[28]/div[2]",
+      "source_chars": 11,
+      "source_sha256": "6dd0dd323ff76d2421a971a70713e295e6aae1315795d81bc1afce724b68644c",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0027",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[29]/p",
+      "source_chars": 5,
+      "source_sha256": "5e5aa538c07d08cfe3754f76de932979b587320fea024644cd0e42d91d4424b7",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[30]/p",
+      "source_chars": 119,
+      "source_sha256": "2cdc7474dfc55dc1c1120fda45dadd8727a2b32a1664f81608037ad93e893928",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 119,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 119
+    },
+    {
+      "block_id": "B0029",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[31]/p",
+      "source_chars": 215,
+      "source_sha256": "d4cda0a38b8a78a95d29c640536c12d3bee75f6205e4d6f5e2790e660713676c",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0030",
+      "role": "caption",
+      "xpath": "/html/body/div/div[32]/div[2]",
+      "source_chars": 23,
+      "source_sha256": "67ca2162b94583ea05f96085ba9703dd7dc1d8963e84b7bf3a8b731de3433c75",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0031",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[33]/p",
+      "source_chars": 227,
+      "source_sha256": "5d66519a5cf9aa9db42cac197263afa2b372baf9905bb4ad429af4659056150c",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0032",
+      "role": "caption",
+      "xpath": "/html/body/div/div[34]/div[2]",
+      "source_chars": 27,
+      "source_sha256": "57e1dc832d38593bb46111ead94faad7ea39373873c5ff764953d7fd70f38930",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[35]/p",
+      "source_chars": 231,
+      "source_sha256": "9432b1e3b1d432606f097eb885b8aad4551dd0d2290f4e6bd60d1c0b018b5d46",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "caption",
+      "xpath": "/html/body/div/div[36]/div[2]",
+      "source_chars": 17,
+      "source_sha256": "6f25e6af0e0e5bc0f74ae60fefe7f57e817c206fa5bd077281d8c0602804331a",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[37]/p",
+      "source_chars": 224,
+      "source_sha256": "36afc4292ee958af91d5a4535b28fcadfe52764878481be2b14376682eb19726",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "caption",
+      "xpath": "/html/body/div/div[38]/div[2]",
+      "source_chars": 16,
+      "source_sha256": "10c2638796c9ce2ec87536464d9515b9543c02f09cdb14e6678343afb0eeacf0",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[39]/p",
+      "source_chars": 104,
+      "source_sha256": "8311c9487e97c1c362ed995f1a7840f37df176d084aba402afae7de447bd4b6b",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "caption",
+      "xpath": "/html/body/div/div[40]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "5c9a14be5455044da26c3db3a994899bfade801988cf713d045aef5eee494d98",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0039",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[41]/p",
+      "source_chars": 140,
+      "source_sha256": "8edc7f2891b3cde623c6115d5dbd03b2b4c6ce7c404bd5a4b6b71354496c7041",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0040",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[42]/p",
+      "source_chars": 198,
+      "source_sha256": "76572de0ec8d9f9592da7ad4e37dfc41cb96f4a068ec44246ad7e8255bdc7e26",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 198,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 198
+    },
+    {
+      "block_id": "B0041",
+      "role": "caption",
+      "xpath": "/html/body/div/div[43]/div[2]",
+      "source_chars": 7,
+      "source_sha256": "8b71ff346340785061bdbb49fa40dcb2b86b238f95d13e96482dad1fc67ef481",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 7,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 7
+    },
+    {
+      "block_id": "B0042",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[44]/p",
+      "source_chars": 127,
+      "source_sha256": "57bdc0d0de7e5cfa64f1f5ea78db88acfb0cc709adaa4e53ee5ace6eb69de9a5",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 127,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 127
+    },
+    {
+      "block_id": "B0043",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[45]/p",
+      "source_chars": 122,
+      "source_sha256": "ce7305acd4a12bb2d0f5dd0778224dda6e38c658cc529e06ded255ffd8b93268",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 122,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 122
+    },
+    {
+      "block_id": "B0044",
+      "role": "caption",
+      "xpath": "/html/body/div/div[46]/div[2]",
+      "source_chars": 10,
+      "source_sha256": "6709006523194df55c04f896a68462756dc0c64668e209fadd23efd8d52f7a7a",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 10,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 10
+    },
+    {
+      "block_id": "B0045",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[47]/p",
+      "source_chars": 202,
+      "source_sha256": "b0141150f806b75397fb272bcf62777da41e8cff64a84767f4e4f98fbad105be",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 202,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 202
+    },
+    {
+      "block_id": "B0046",
+      "role": "caption",
+      "xpath": "/html/body/div/div[48]/div[2]",
+      "source_chars": 14,
+      "source_sha256": "28eee2b485b2bcee435555de0f553dd761c1de2ff50771efc28f3668e9a82428",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 14,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 14
+    },
+    {
+      "block_id": "B0047",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[49]/p",
+      "source_chars": 85,
+      "source_sha256": "5518c62cea64f031fffb0dac207335fa745a996b9518eda949ab0e6a3786fc6b",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 85,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 85
+    },
+    {
+      "block_id": "B0048",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[50]/div/div[4]/div[4]",
+      "source_chars": 11,
+      "source_sha256": "0c0c4def653a317e7d01f7e1aa692d6672a61abc424fb81e91afe072e6a66017",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 11,
+      "normalization": {},
+      "cleaning_action": "remove_player",
+      "normalized_chars": 11
+    },
+    {
+      "block_id": "B0049",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[51]/p",
+      "source_chars": 160,
+      "source_sha256": "46d210da9834c454e72ac98104d9e6a671ee57276249922174dd8c998636ab57",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 160,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 160
+    },
+    {
+      "block_id": "B0050",
+      "role": "caption",
+      "xpath": "/html/body/div/div[52]/div[2]",
+      "source_chars": 13,
+      "source_sha256": "9921b2263163e6cc07aa06ee576bfbb92802796ca1dc584069fd29f4a7855e7b",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 13,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 13
+    },
+    {
+      "block_id": "B0051",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[53]/p",
+      "source_chars": 204,
+      "source_sha256": "31408f04e93c867dcee2605232a5505da21a9c12207a8c630a768c7baa048c88",
+      "scope_action": "keep",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "selected_chars": 204,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 204
+    },
+    {
+      "block_id": "B0052",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[54]/p",
+      "source_chars": 482,
+      "source_sha256": "12fbaa238b0ab134c0573e2e2dd3128fafe7944eb69ccf1beaf69afe2775993a",
+      "scope_action": "clip",
+      "reason": "保留门票、联票与停留建议，排除跨城餐饮长段",
+      "clip_anchor": "2.关于食宿",
+      "selected_chars": 248,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 248
+    },
+    {
+      "block_id": "B0053",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[55]/p",
+      "source_chars": 6,
+      "source_sha256": "ae84a594131f38d5e97ceb718c9e5ea7d4af0a095481279670cdba0396aa1970",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0054",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[56]/p",
+      "source_chars": 83,
+      "source_sha256": "ab07b45832abb8f48f16a88aedd1a0b8e49421edb6ebd1d2c40b6fe913b3a10b",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0055",
+      "role": "caption",
+      "xpath": "/html/body/div/div[57]/div[2]",
+      "source_chars": 41,
+      "source_sha256": "e9aad747a4fa416bbe8f041a97504c4d5aae6cc5bb308a458dfb9282df4c53d1",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0056",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[58]/p",
+      "source_chars": 145,
+      "source_sha256": "2909685a712dc9029e874b433649ea0b2a262b6f010d3ac2cf5ac91e2d620c91",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0057",
+      "role": "caption",
+      "xpath": "/html/body/div/div[59]/div[2]",
+      "source_chars": 18,
+      "source_sha256": "5217ae5a54466d2780eb41be0edf430bedb03871a95eee66bde7177ee34b1c68",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0058",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[60]/p",
+      "source_chars": 97,
+      "source_sha256": "67fc4b20f5295fce235d94c07f397737031a06a1782e6821282ad4c3f5afc71e",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0059",
+      "role": "caption",
+      "xpath": "/html/body/div/div[61]/div[2]",
+      "source_chars": 24,
+      "source_sha256": "5bfdb9d72db93fa159233bba18e6ccf7a3ffa276db8b6233aa0bde88afb5fe1a",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0060",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[62]/p",
+      "source_chars": 108,
+      "source_sha256": "4aa57eb4e512b8d4b2fb448fb3d2dc9b8a36d9b0d064f66fc962ba02f623f63e",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0061",
+      "role": "caption",
+      "xpath": "/html/body/div/div[63]/div[2]",
+      "source_chars": 14,
+      "source_sha256": "1498206ce999916b50e46f9b9885bc1006ed5a54b549aaba01513e4fa838c0bc",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0062",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[64]/p",
+      "source_chars": 157,
+      "source_sha256": "d00fcd363a67c2a7beefba2126316c98c6c0d31e00b1832e443e95f80213b3b3",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0063",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[65]/p",
+      "source_chars": 4,
+      "source_sha256": "e551603ba267834bee17efcb9ce3adee02b6701ceb8450ead8f3fcfa390ffe1e",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0064",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[66]/p",
+      "source_chars": 243,
+      "source_sha256": "62570ea40e52073589cd4d7eb30891c76fbc2ed25c6df777f45d22a721424f38",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0065",
+      "role": "caption",
+      "xpath": "/html/body/div/div[67]/div[2]",
+      "source_chars": 15,
+      "source_sha256": "4afdf27b6a0a643ff6500c82406d6d5ca52f731ebb8241f0584da51b67475c44",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0066",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[68]/p",
+      "source_chars": 272,
+      "source_sha256": "9c6a9ff0ef0a69d6b3760d153faeb034146debb8eb6df079ada8f3aa77f56c5a",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0067",
+      "role": "caption",
+      "xpath": "/html/body/div/div[69]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "acfdc065a180acb9dfbb197acc7ade61f59f2f9891895e41754e4fb606308bce",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0068",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[70]/p",
+      "source_chars": 66,
+      "source_sha256": "babcfa77a942f1b2154cba7dbc9431740532abf3c87cf9690ae09a6bfe77b7bc",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    },
+    {
+      "block_id": "B0069",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[71]/p",
+      "source_chars": 101,
+      "source_sha256": "9882a259de67e0918a020461f4e4b3fa25c6e44605190d09ab9da5a9f2de5c49",
+      "scope_action": "exclude",
+      "reason": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 5888,
+    "scope_chars": 1605,
+    "clean_chars": 1594,
+    "source_blocks": 69,
+    "scope_blocks": 18,
+    "clean_blocks": 17,
+    "rules": {
+      "special_spaces": 12,
+      "whitespace_blocks": 3,
+      "remove_player": 1
+    }
+  }
+}

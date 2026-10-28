@@ -1,0 +1,1590 @@
+{
+  "doc_id": "JYT_NOTE_003",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[1]",
+      "source_chars": 4,
+      "source_sha256": "267f58ac61036639c70036e8705f139042474cf4eb61eb1f78fc254980f03617",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[3]/p",
+      "source_chars": 102,
+      "source_sha256": "55de4e92d2c750dcffb9257b4fe4617067b78bdc07bb259228ca01a753a4586b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[5]/p",
+      "source_chars": 45,
+      "source_sha256": "8642a9beb12e61c15c31cb02fcdc8897815c2339d2f7041016943735597a94d1",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[2]",
+      "source_chars": 18,
+      "source_sha256": "d9f9a6f718bc8f8694e6a75a8957459d4796e38dadf860eadc3c3edb1cae57b8",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 18,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 18
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[8]/p",
+      "source_chars": 106,
+      "source_sha256": "a2e4c0a87a1a327b3eb35367a2003347fcd48c0a97b2d847f27a918c9ab039b8",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 106,
+      "normalization": {
+        "special_spaces": 2
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 106
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[10]/p",
+      "source_chars": 100,
+      "source_sha256": "1f2f90d5d4543dee76c9e059d228070062634aa8390888385e3a9b2ebe434c13",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 100,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 100
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[12]/p",
+      "source_chars": 101,
+      "source_sha256": "895b13b61ff63e7dc22cba49b2c63cec77a94694d090d3fd34cd108468c76955",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 101,
+      "normalization": {
+        "special_spaces": 2,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 101
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[14]/p",
+      "source_chars": 73,
+      "source_sha256": "36163f3502a8fbe9d18986e0ac41579cb7d3586376919b01c5f79588b84a932f",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 73,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 73
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 148,
+      "source_sha256": "b09fb5d138082d3ba432e9a3822494347127b5ed74382e6013692348417e6c5f",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 148,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 148
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[17]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[18]/p",
+      "source_chars": 15,
+      "source_sha256": "6851b719ec806d1a60d533f3c2b20dcb9a152b487ea31ef984bfaf2cdd0b49eb",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 15,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 15
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[19]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0013",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[20]/p",
+      "source_chars": 37,
+      "source_sha256": "3a4af52c7411a06551f968a50207813f7d63c4333e4ecccaefec59c4c113cba4",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 37,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 37
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[21]/p",
+      "source_chars": 6,
+      "source_sha256": "e9e994ae9a96505f344057e52cdf0cd721ae19a019543e782f3faf9e9e20ed7b",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[22]/p",
+      "source_chars": 142,
+      "source_sha256": "b3d30af329b8bd4a6b3f3c6fdffe6705baecc320420c1af6f7602713d3b3b06a",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 142,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 142
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[23]/p",
+      "source_chars": 32,
+      "source_sha256": "d7393ace4ae3c2a91f1088ed2b5643e6ae811690821c0b3e6f783a2bdaaaa9ae",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 32,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 32
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[26]/p",
+      "source_chars": 98,
+      "source_sha256": "648d8838bf746d9265742eec18ab20e736633015ecfa32bd03c4bc760e236756",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 98,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 98
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[28]/p",
+      "source_chars": 87,
+      "source_sha256": "61d61f22b23b97ff9c5fb458b904ff2772438ec909f2ba4296d803fc551ce261",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 87,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 87
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[35]/p",
+      "source_chars": 64,
+      "source_sha256": "6b120336845dc5bd9e9c290498f6adff4f1da6b42f754ce9db7da4bc998eccb2",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 64,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 64
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[38]/p",
+      "source_chars": 54,
+      "source_sha256": "487b9b1c7810269c6fbcffcf661cedd6d1f12c16c8b4956f0c9aa70ef18cdc56",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 54,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 54
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[40]/p",
+      "source_chars": 61,
+      "source_sha256": "ff5f01052fa5535d70d49d3327dbca81cb30fd3a340616209ef81334be31275e",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 61,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 61
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[43]/p",
+      "source_chars": 25,
+      "source_sha256": "5527dbf19d6a9fefd966f6c5011406dab00dcb5d8d9e7090905bff5934424659",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 25,
+      "normalization": {
+        "special_spaces": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 25
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[44]/p",
+      "source_chars": 31,
+      "source_sha256": "806c80c8f4e199cdf184bd51fc76624c7d55e09eab913290daaa0af2abd80e07",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 31,
+      "normalization": {
+        "special_spaces": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 31
+    },
+    {
+      "block_id": "B0024",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[46]/p",
+      "source_chars": 6,
+      "source_sha256": "467aa072b1ab5cf6bbc11e69b1b4480138e759b9ded08536df61f844efa688a3",
+      "scope_action": "keep",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "remove_placeholder",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0025",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[3]",
+      "source_chars": 17,
+      "source_sha256": "733d0c1c50fa9e0231afa9bfdc4288fb04438f95e3442bffc6cb81d71b6a8eba",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[48]/p",
+      "source_chars": 33,
+      "source_sha256": "4dcd28afb4f7820e24cb0d1095f2cc0c21b6cf86cd7aff1482ff2858f977e11f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0027",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[49]/p",
+      "source_chars": 79,
+      "source_sha256": "b10865ce3a33649f8affc51c69f286b244a66b31b3dace6f415648a947eeed6d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[51]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0029",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[52]/p",
+      "source_chars": 15,
+      "source_sha256": "0aaed0b142d16f7a8e17904cf95b7abb4ad8ca7f110dcd2c563035a8ee45adfb",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0030",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[53]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0031",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[54]/p",
+      "source_chars": 93,
+      "source_sha256": "3558a9580c77922a9e41d947045fa838fa4adcabec2a797ca699e76044051518",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0032",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[56]/p",
+      "source_chars": 6,
+      "source_sha256": "e9e994ae9a96505f344057e52cdf0cd721ae19a019543e782f3faf9e9e20ed7b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[57]/p",
+      "source_chars": 66,
+      "source_sha256": "75398b530faa0ca59c881705a01ece4975699224cb7c588e5b11abfcbe0d3123",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[58]/p",
+      "source_chars": 6,
+      "source_sha256": "dd94b53cb0adcb6c9045d86dd6021e761214f855dde347ea484dde930d671944",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[59]/p",
+      "source_chars": 42,
+      "source_sha256": "42caab0c33cc2e5a037131898c431d76906969af90954983eae26d58dd779d4d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[60]/p",
+      "source_chars": 44,
+      "source_sha256": "0ab991c93679a34f242d450165bd123a0d80fba9790ed9d9f81b27931e610438",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[61]/p",
+      "source_chars": 11,
+      "source_sha256": "3a67beb945ffbd90598526e8b2d8894f07265f1ae052729beff2035e6eac6e4c",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[63]/p",
+      "source_chars": 74,
+      "source_sha256": "a036a52e8962c6663c752a9ce3fba594f9b90778f4fa70effe3f294dff035b3c",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0039",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[68]/p",
+      "source_chars": 154,
+      "source_sha256": "3bb57414a857af99eedfee88a21c5b546c924d4e6becfc283f9f9f49a4c7baa3",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0040",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[70]/p",
+      "source_chars": 40,
+      "source_sha256": "efb0079040ecb08f0fc7cb8238ac5e207b6350f34252ec862b705a74c90e98ef",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0041",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[72]/p",
+      "source_chars": 41,
+      "source_sha256": "94939d6cec3c657ae10262848ebc895594e0fbb3edd9f7abbf4620ca3f3b3ddf",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0042",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[4]",
+      "source_chars": 13,
+      "source_sha256": "53089b916682a3bcf3739116c2f3b07717da87e66d7895b5ab00bea6d47f31b4",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0043",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[73]/p",
+      "source_chars": 154,
+      "source_sha256": "547b94fd205031c020d577147324ece7a53d9f37901d6684e8d01de640db593d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0044",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[75]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0045",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[76]/p",
+      "source_chars": 20,
+      "source_sha256": "9bebfc49c801a386d092d94e613861e7a43db33a1ec2fd7ed02c75bdb83a5bc3",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0046",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[77]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0047",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[78]/p",
+      "source_chars": 25,
+      "source_sha256": "355beda8823f9168f5ca567a108eb0dee53e3caba9064811b83cbdcb73c5fc15",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0048",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[81]/p",
+      "source_chars": 39,
+      "source_sha256": "094928f8fd24e9e5aac07a2d5beccf11704ce05f1b04ffcebdf83c95c866f703",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0049",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[5]",
+      "source_chars": 16,
+      "source_sha256": "b54ceac71c659ace6aedb91340aaf145886bbe689afc1c8469bf07d1de3f3497",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0050",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[84]/p",
+      "source_chars": 36,
+      "source_sha256": "8b53fa55b2df59686f99c7b6b0a90acaf1317911ce331d6543cacd880792e27c",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0051",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[85]/p",
+      "source_chars": 11,
+      "source_sha256": "e030bad61258d04df3bcaadf91c384db0ae11548a76a89fa3d5bec34a29aa41c",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0052",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[88]/p",
+      "source_chars": 54,
+      "source_sha256": "d1515347b346e97fb7df8836eb303cb79305cd1c0d75231e76c3354f19fdfe58",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0053",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[90]/p",
+      "source_chars": 106,
+      "source_sha256": "cc13a3d9392a2cf29f4053cf54900e43c8fbf0e17f7550cd545f777102ef218a",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0054",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[93]/p",
+      "source_chars": 12,
+      "source_sha256": "392879b58059fab0c445d38bd53289086c980b7b5c681986cd8315f40c1a10d5",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0055",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[95]/p",
+      "source_chars": 23,
+      "source_sha256": "257c2f40b75d2ae98ca93f4347a4ae87b3dc6605a902133b2a837ec5264ff2a7",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0056",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[97]/p",
+      "source_chars": 20,
+      "source_sha256": "68ada3fe94d5002669d5004540aa4146bbf8411b80eeb41ac7b097a8ab8500cd",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0057",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[99]/p",
+      "source_chars": 44,
+      "source_sha256": "daaea4e20c920ff3072425fe537cfb3ea065818b909f45b3135e3fad053a9d21",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0058",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[101]/p",
+      "source_chars": 23,
+      "source_sha256": "34a8dbd0209dc1a764a9769abd20c16d93971c2174534687feb0c2e80e073672",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0059",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[102]/p",
+      "source_chars": 6,
+      "source_sha256": "bc5bf0532269a61ce487e530a69a811252a65a719596322f73ea8cab666faf89",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0060",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[108]/p",
+      "source_chars": 12,
+      "source_sha256": "08caa88779f82e05f78d4e6e307e223f314b085dcd6ea53d978b327ff2ffb0cb",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0061",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[111]/p",
+      "source_chars": 12,
+      "source_sha256": "01a06a24d2fd7a392b3ba0a37fe809f8f9409f0c46ef6705971900d4a1d811b6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0062",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[112]/p",
+      "source_chars": 9,
+      "source_sha256": "f4f551943f936cbe44270cbbaf6bd92ec47ec847b30159009556b458641e315b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0063",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[114]/p",
+      "source_chars": 102,
+      "source_sha256": "4402c545417a1e75c61db72333e66358b871d5cf022b215c2621e8cf9da40873",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0064",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[6]",
+      "source_chars": 18,
+      "source_sha256": "31532daebcbe6c61045f65a850b0ea3a26bd1bea2545ea37d065cb2d826f9312",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0065",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[115]/p",
+      "source_chars": 79,
+      "source_sha256": "2838d282f2de56de7063f7f74342f669acf5ab467ec4443e864581247bc8d0fe",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0066",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[117]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0067",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[118]/p",
+      "source_chars": 26,
+      "source_sha256": "def5f90044e4316950344fb8456240e578e93ff6bed533b14d3bc19473cd853d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0068",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[119]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0069",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[120]/p",
+      "source_chars": 50,
+      "source_sha256": "03f0debb9980b55db9c7a1d1cfcfc2b9531e2574d5a6f0aaf2439f92c7059e77",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0070",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[121]/p",
+      "source_chars": 11,
+      "source_sha256": "4a74edbfb16adae24a1526384bb4b1490fdc04661ed08bf25be87d440b1144ce",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0071",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[122]/p",
+      "source_chars": 22,
+      "source_sha256": "5011aedc0d14fe1952cff1833c08d1413fd3516e901cf0bb6c0db7e47f8ac4d4",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0072",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[124]/p",
+      "source_chars": 79,
+      "source_sha256": "f4b087d4735d422749a1f19c4e9d567befc4da3ad6eadbe47f2026ca4a0fd809",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0073",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[128]/p",
+      "source_chars": 71,
+      "source_sha256": "a9890f48f7024abd44e458f4553e80dbde5473e3a341cd3c913565c429145d48",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0074",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[131]/p",
+      "source_chars": 34,
+      "source_sha256": "0b76532d948c9fbed8898fcbb0df3965b84ee1e223883d8ace0b5af0dae08f3d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0075",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[133]/p",
+      "source_chars": 16,
+      "source_sha256": "8348548bf65b2045689bb37a49c9557af6e2ba254b9bb0c0a30858c93f7c0ff3",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0076",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[139]/p",
+      "source_chars": 45,
+      "source_sha256": "d33d51a2d13ed88e7ae0ae959e562be9b1b409518b74b756aed7b5c6e7a0cb9b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0077",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[142]/p",
+      "source_chars": 72,
+      "source_sha256": "9079b733e1c757dd9a381997b8ee08911af2d7f4501ec7e576f429d6f920fba7",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0078",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[143]/p",
+      "source_chars": 6,
+      "source_sha256": "6cf9e7c70e8fd64f6e286450ad774cf378c18070bf4ba01535fc2d63129662ce",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0079",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[145]/p",
+      "source_chars": 33,
+      "source_sha256": "52c40af30a267d82414e3daafb029cf09ad7f306039f54a4e6eda1ba7c864053",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0080",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[147]/p",
+      "source_chars": 93,
+      "source_sha256": "5d925f0cf9c56c7e1efd7f0812b0400e6cc13edcb6eadb677bd3d295fddbb56b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0081",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[7]",
+      "source_chars": 13,
+      "source_sha256": "dfab79862ff57fb816cc3f48cd94bad0dd0000888dcb89c317a10a6fdc912266",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0082",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[149]/p",
+      "source_chars": 156,
+      "source_sha256": "1fb88baaff5f7fe29846601edf0cf303907e1830c0aca45648bffab5728cad85",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0083",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[150]/p",
+      "source_chars": 116,
+      "source_sha256": "2a11dcae520d8dc88a5e542f90fde31ae0f53e25afe9396ca2bdacc974f7a255",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0084",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[151]/p",
+      "source_chars": 74,
+      "source_sha256": "3ee87939b48940d0478eaddb8deb1f28be5cd2e065183e1bd64ab36b74d12259",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0085",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[153]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0086",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[154]/p",
+      "source_chars": 12,
+      "source_sha256": "aec361e79d2813c9e206198414958dbdc9687bac87dfad09fecf172ca60f16cb",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0087",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[155]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0088",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[156]/p",
+      "source_chars": 57,
+      "source_sha256": "804bca197900f9e03404ca9ff3f9b8451efdb3379a42818222ebd3e4f10e3abb",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0089",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[157]/p",
+      "source_chars": 87,
+      "source_sha256": "91e27cb9546620c08c8c601f2309eedabbe760248554950923548788111225a1",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0090",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[160]/p",
+      "source_chars": 62,
+      "source_sha256": "bbdc88a77884c72d13c90c86035ca767bed3eb19b081ac270b9060281fbed5c1",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0091",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[162]/p",
+      "source_chars": 29,
+      "source_sha256": "e0fd32fd5ef6a62c4e1568d622df45da3f82d28515b4064d51a3e8b25b5bb656",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0092",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[165]/p",
+      "source_chars": 19,
+      "source_sha256": "849463ef963d90eb9d0320ac1f6c9f18044d1747f0fbe699c3c5365ba4476714",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0093",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[168]/p",
+      "source_chars": 33,
+      "source_sha256": "2a5f1d2125dd40b0d48320b48a8edd3f8ce3351b810b5a81bbcc69bb11e2be57",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0094",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[170]/p",
+      "source_chars": 19,
+      "source_sha256": "5407c025d10b27a26e80ee06ede3e1d14657811b0d9476cd60ecb8f9a139e4b2",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0095",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[172]/p",
+      "source_chars": 78,
+      "source_sha256": "f0a04845b2ff97677ae73d8ab270badaf5ebe3047f4fa8f0cc7ca01149f6ad50",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0096",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[175]/p",
+      "source_chars": 39,
+      "source_sha256": "371418e5085d27d1179b8e30cb6caeb15014d3cd75f9ee71419f93ccb05c6b6d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0097",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[176]/p",
+      "source_chars": 47,
+      "source_sha256": "b3d4397503afadcb7fceb5a48f514c172ebc2e23e705ec444f753140019dd33b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0098",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[177]/p",
+      "source_chars": 17,
+      "source_sha256": "3d711be82d1c7c6c6eac85990588ad4ef21c1d3d92ec8e4da93d9a5a48008cef",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0099",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[179]/p",
+      "source_chars": 14,
+      "source_sha256": "aea7c8a2614588f2ecc861268e168e48e7123c5020607c99a538001a1710a90e",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0100",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[184]/p",
+      "source_chars": 12,
+      "source_sha256": "7baaaf7bc07b3d9bfe87a3c788f663ea11af15718e3c47dbfa0637fadf04bbf8",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0101",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[8]",
+      "source_chars": 20,
+      "source_sha256": "e52de7c66f20fe12420bfb675cb6c43926c084a1af02c1448a706fa1095c3411",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0102",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[186]/p",
+      "source_chars": 109,
+      "source_sha256": "b671d07c54d21f16125c2b8f5026addfcd81b5619a4bbf5c0a959d4b9b86cbab",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0103",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[187]/p",
+      "source_chars": 144,
+      "source_sha256": "e24d321286556791d7bc06a47309b8e6d9251c9324ce155954ab3bc7a8f17595",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0104",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[188]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0105",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[189]/p",
+      "source_chars": 22,
+      "source_sha256": "bc10508848be2cf8e61f5bfcbae779065f6103b9146467fbcbe6ba81a94d779d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0106",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[190]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0107",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[191]/p",
+      "source_chars": 33,
+      "source_sha256": "8f668383b808ffee9d61a77ee377ad6423b8de86d7fed8a65d0a38ee1e9a8382",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0108",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[193]/p",
+      "source_chars": 179,
+      "source_sha256": "c92143e7b79408c780988cd33333a2ae232c815d751d4955fcafe651746dc40b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0109",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[195]/p",
+      "source_chars": 98,
+      "source_sha256": "9589e89f183c1d99be4eb197c9dbc977ee037e2f43255e245f865ed883cf3715",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0110",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[202]/p",
+      "source_chars": 126,
+      "source_sha256": "40273353211384e3894b936b626fdca4567a84534e42143d4da67c1efb3117b4",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0111",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[206]/p",
+      "source_chars": 69,
+      "source_sha256": "59720560b93a832f40069e2e6bd11eec3b48406a2916b954fe06b06b9ad49d72",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0112",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[209]/p",
+      "source_chars": 42,
+      "source_sha256": "036b068aa4382eef31437aea0e84e8923f2806e490613e2482ef159fdd1bcf71",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0113",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[210]/p",
+      "source_chars": 69,
+      "source_sha256": "9314f45fd8910299a8c3d931f698becb88ae7df3557cbf843cf4c805ab780d8f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0114",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[212]/p",
+      "source_chars": 19,
+      "source_sha256": "8a0f612353f31e0e2cf92c60e4e89e2d6a93f3bbeac8574a6508432292e56357",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0115",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[9]",
+      "source_chars": 6,
+      "source_sha256": "8707ec157a782ea8c8718161c039a0e2433e496b75bed212ad1b52be12d98513",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0116",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[10]",
+      "source_chars": 6,
+      "source_sha256": "09a9fac96b73726324647751e77d2b7103c8fedbcd5ee8c20bcd771e427d9fa3",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0117",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[214]/p",
+      "source_chars": 149,
+      "source_sha256": "d941f7de836e8216a9a36d59898037bcf45c6fd9002f55859c2e3662303b5b35",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0118",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[215]/p",
+      "source_chars": 47,
+      "source_sha256": "dbb4fc999074d221d43933a2ab6c4fa4f362dd38120ed24102fa0c2b60507b14",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0119",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[217]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0120",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[218]/p",
+      "source_chars": 18,
+      "source_sha256": "7584d74501a54750c473593d31f014ba843631af4fd7bd81703f315c03b3162d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0121",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[219]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0122",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[220]/p",
+      "source_chars": 115,
+      "source_sha256": "0dba9a215b58a557d03bf6bfc0bae7e85b0c26045f9f38f90817897f415c62ee",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0123",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[221]/p",
+      "source_chars": 6,
+      "source_sha256": "bb3f6b8ab9719d2b8ca2bcf82400af3a692bc6fb05ec93b3f2077c9d9c8b4146",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0124",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[222]/p",
+      "source_chars": 132,
+      "source_sha256": "260e198f6a82b892d71b116f11c82208a1c876aad8ef7589ebede7c7e22d7699",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0125",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[224]/p",
+      "source_chars": 98,
+      "source_sha256": "92a9e6e618eb9b495d2e2449ab26c33126a2ca5e66dcde7410f1211a6b5a9c39",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0126",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[226]/p",
+      "source_chars": 102,
+      "source_sha256": "6ee0008b13497f9b5be1928193638e6513616dfe120ad8ed0a3735a9ead296d5",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0127",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[11]",
+      "source_chars": 14,
+      "source_sha256": "be6ecd1ca530ff7e0725b07828ce23319fd8d1b3e73f9e3a974b0749726a7e02",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0128",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[228]/p",
+      "source_chars": 111,
+      "source_sha256": "d2830a3a35bbe372c8684e742184a8a7270b6347f5d09a890088787282d2ac87",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0129",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[230]/p",
+      "source_chars": 28,
+      "source_sha256": "0589db578b54997bd9505a0add7747b2c6ccbef6bf7c37629376e4c94e2a0fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0130",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[238]/p",
+      "source_chars": 91,
+      "source_sha256": "f3a48a636849345c0a3fa10d8e706cf3dd21491ef05d23a89b14710be2f7707a",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0131",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[243]/p",
+      "source_chars": 21,
+      "source_sha256": "29d3dc681255eb7d14b723c09d6cbb625ed48177c02e7cdffde160e62bb239a5",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0132",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[245]/p",
+      "source_chars": 110,
+      "source_sha256": "f6335b7ec1ed4e1b0b170a6f9fe6580f7ae0a8ab40e25856c225104485503a71",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0133",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[247]/p",
+      "source_chars": 72,
+      "source_sha256": "229835437545c449f63d4f1ae0cb227c965c127f77058782c8c43c6f570dfcc9",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0134",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[248]/p",
+      "source_chars": 12,
+      "source_sha256": "f3fba35ec4d3b2324eab9731953af3b1279d8a096713eaad586a5ee7f0897893",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0135",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[250]/p",
+      "source_chars": 25,
+      "source_sha256": "0eff55e6891d94f65b9685e11e6a246bc676da7a05e94f768ba4bd2fd46d1254",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0136",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[12]",
+      "source_chars": 11,
+      "source_sha256": "17fcef1c4df58a0764545647c86f9ba30e9aaa98a4efe3624dbfff25acd143b1",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0137",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[252]/p",
+      "source_chars": 44,
+      "source_sha256": "8499625697fbf8298eb332d024cd264af4a98884b687804e531f1118fd5e35e1",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0138",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[254]/p",
+      "source_chars": 6,
+      "source_sha256": "1c338fd5c6628f2a2ac01d2aa4912e245ce2ae1e39a1800a4463360566a80fb6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0139",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[255]/p",
+      "source_chars": 22,
+      "source_sha256": "d5eead382d04c9c5138f91e3fee2bcd2e6630c5012a809033680a98ca9da9416",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0140",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[256]/p",
+      "source_chars": 6,
+      "source_sha256": "a797faf2c1b48678f853756bb75c1d9e842af143e6c9cb7e5f39ffb48658b69f",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0141",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[257]/p",
+      "source_chars": 61,
+      "source_sha256": "930310dbbab8aa8259c81aa25bcec7590bf0535323870de1a8817469cfaa4b11",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0142",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[259]/p",
+      "source_chars": 88,
+      "source_sha256": "0061468c74eaf8550cb7bcb8b23df6b379fe92f771d10e752e7a0b8348dc67f4",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0143",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[13]",
+      "source_chars": 10,
+      "source_sha256": "0003999746433970f867f090b333df57daf9709b2d353df1e5b4ad1f26b72aed",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0144",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[261]/p",
+      "source_chars": 76,
+      "source_sha256": "96fdb0f1d7052cf4abff4400919f02180b48c9dd12bf45178834b5cd8745eb2c",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0145",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[263]/p",
+      "source_chars": 60,
+      "source_sha256": "601bdbd193b6c8709dcc8c5b4eb0cbbd4a2c93f8de206f667f67cb412ec06f85",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0146",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[267]/p",
+      "source_chars": 34,
+      "source_sha256": "5d8e02dc02705edf84c4123441409c1b13e786eb4dab2bf014f52dc025ab66d4",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0147",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[269]/p",
+      "source_chars": 72,
+      "source_sha256": "0e50b180ca60b8820671bd7c525eb395c0235281d3b51ff1ed69f080391c54da",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0148",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[271]/p",
+      "source_chars": 69,
+      "source_sha256": "879d02b0c3dc464f98f96da3cf2f0ad9aba9ea167ea7ac3fb6f7ce8583104cba",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0149",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[276]/p",
+      "source_chars": 24,
+      "source_sha256": "138f6ed6bc01c87fa3ce5f8b02253c81d49c67737729503151dde224ee71b8f5",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0150",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[278]/p",
+      "source_chars": 20,
+      "source_sha256": "b84e387fb85c6f40dd25c0566fd374b48a8613c892f0438d894c17511c958786",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0151",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[14]",
+      "source_chars": 6,
+      "source_sha256": "d5a683a8773a66d68aa58b99338a0403c8fd0fafd356956d3576bfc742331e1e",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0152",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[285]/p",
+      "source_chars": 56,
+      "source_sha256": "5d059a6cb38273aa39845957079bba8e1bac0e4c2d064c734734aeefec2091b6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0153",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[287]/p",
+      "source_chars": 16,
+      "source_sha256": "f8feacd17ec93e52218a7fc8e972f567716f5bafb54cb381863342a5ed8c0edc",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0154",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[289]/p",
+      "source_chars": 7,
+      "source_sha256": "617e73a692d971622607526f88fa6660198a004f964cca2ea88710aec23648c6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0155",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[291]/p",
+      "source_chars": 30,
+      "source_sha256": "fcb169c24264b8650a023668dc0d3ad446fceaf16ea904ac0b32c8b7c89ac364",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0156",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[292]/p",
+      "source_chars": 24,
+      "source_sha256": "605e8744e432bd60eb182c69763cd3e1c7f00c12df72699770b1beb966240a85",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0157",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[15]",
+      "source_chars": 6,
+      "source_sha256": "f2f6fe38d8a6910c484f43c133151284b352eda6a1e943865a3d36d0b219e5bf",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0158",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[294]/p",
+      "source_chars": 70,
+      "source_sha256": "b70de403624f48a5e79b6962370709436dc4a75d8928ba1d704fcce978694ae1",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0159",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[295]/p",
+      "source_chars": 64,
+      "source_sha256": "8532ac6b636520f4af029c7298966b9d4dc8a1add7f53b34d2765debc86b3ae2",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0160",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[296]/p",
+      "source_chars": 49,
+      "source_sha256": "f7c730e4a9a86ff39c849e2979585b56e13e4cd259b29c4905d464d94b0b5596",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0161",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[297]/p",
+      "source_chars": 97,
+      "source_sha256": "5fbdf7dd21007487bce7fbf68104b55526b25826ad389ad970a4da3506880b2e",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0162",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[16]",
+      "source_chars": 6,
+      "source_sha256": "85dda3eb64ec7950b6da3ce25fa0b5844dff2242d472a371d2b53b30b39a2a4d",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0163",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[298]/p",
+      "source_chars": 80,
+      "source_sha256": "2cc7ece5ab738d78a711465e4837a5250d317d7c656f7c61db0c97c9ce447b7b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    },
+    {
+      "block_id": "B0164",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[299]/p",
+      "source_chars": 48,
+      "source_sha256": "d00b119d9065b1ad8684cb239d09f5a0ded70f5a87b164130cba8388accb8854",
+      "scope_action": "exclude",
+      "reason": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 7691,
+    "scope_chars": 1216,
+    "clean_chars": 1210,
+    "source_blocks": 164,
+    "scope_blocks": 21,
+    "clean_blocks": 20,
+    "rules": {
+      "special_spaces": 6,
+      "whitespace_blocks": 3,
+      "remove_placeholder": 1
+    }
+  }
+}

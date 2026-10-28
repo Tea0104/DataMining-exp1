@@ -1,0 +1,2337 @@
+{
+  "doc_id": "JYT_NOTE_004",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 138,
+      "source_sha256": "33961b0e0554746a5fe635fc959f51baa51eee2d4e3d4308ee765df614c81750",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[3]/p",
+      "source_chars": 14,
+      "source_sha256": "23e73bf9ec6d947aa23450ba5fbf79229cee286a35494941fd0b2929a5784199",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[4]/p",
+      "source_chars": 116,
+      "source_sha256": "a5276ec34080942c48ac8382b4763a031bfa277844ce16892d70a9387c51d3cc",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[5]/p",
+      "source_chars": 56,
+      "source_sha256": "caf908eeb9c0ec4f155f07b4f32c7d788021b3767d16efb58f66f178c8ee7131",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[6]/p",
+      "source_chars": 61,
+      "source_sha256": "997e1c3bbd137cdac33ab21bca7f0b311fc7b3f3cfdc59cb07413951c310d1ad",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[7]/p",
+      "source_chars": 35,
+      "source_sha256": "3fb05f6dbc65fb856210c4158e611cc7f32100d1b0634627ffa7c8028f8b50ca",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[1]",
+      "source_chars": 10,
+      "source_sha256": "8183083398037206c5b57af656da5c1178df3ad686175d30957e65ce9a52e611",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[9]/p",
+      "source_chars": 67,
+      "source_sha256": "13267b07909961162d2d18e24a885e4d07391aef9c02008a8a58e5cb040aa355",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[10]/p",
+      "source_chars": 61,
+      "source_sha256": "218468cd559f2181547b839255928a6be28395d8bc07193349098760160e9a06",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[11]/p",
+      "source_chars": 39,
+      "source_sha256": "20d56bdffce9ee3ec797965bd7c159e644e7f4d9b36c6bc8a0120ab037e30baa",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[12]/p",
+      "source_chars": 12,
+      "source_sha256": "664899036401c687ffddc002fce0df3b88a556f2f02f2fb6a5cc9f2f64775ec1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[14]/p",
+      "source_chars": 12,
+      "source_sha256": "2f9c5faeec03788ae54b22502c4061cad97ca9cc1c95b2d8d67c0213d1d255e0",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0013",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 23,
+      "source_sha256": "4cf65abd73ef76e8d32d17c5f6bfee04060d4d343b924da00a6066c75d682eea",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[17]/p",
+      "source_chars": 6,
+      "source_sha256": "a16df8557ed7d556786b9234c51670949126521d801543bbdeda9b22d01a3f77",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0015",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[2]",
+      "source_chars": 18,
+      "source_sha256": "c8a821f5140a3b03fe7cd6b62cedf121e765ef6b8a22f6ba6c91ceda4147d995",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[20]/p",
+      "source_chars": 67,
+      "source_sha256": "073488d7116832bb2637f0b388c4d6b46d9c9aa76ca2036da0fea3952bd06dd5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[22]/p",
+      "source_chars": 71,
+      "source_sha256": "720bc4e54a5246023e51c182fce907c6d1175a7d9f4b70b1ca8ac2eafe90aa95",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[24]/p",
+      "source_chars": 51,
+      "source_sha256": "45e87da0878bb26ea9a50b4ce38620f521250c2fb37b12470ebbbfe03213b7ec",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[26]/p",
+      "source_chars": 14,
+      "source_sha256": "6a6a57af2fe4eb1d6f95faee207ca7d180140925da45e1a05b0ec05ad19ed1f6",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[27]/p",
+      "source_chars": 44,
+      "source_sha256": "6154489d19e68164f43f5d58d8adf811e29312f608abcce0e3c80dcc24aac429",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[29]/p",
+      "source_chars": 89,
+      "source_sha256": "59a8dc21398ceab1ccca50de6d012bf878390afc2116ad81a51d095c66b51160",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[31]/p",
+      "source_chars": 64,
+      "source_sha256": "a0565c5ba1169ace5af7c5b8e0563c93536c0bcbe269afd5a3f31188905a4d8a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[36]/p",
+      "source_chars": 48,
+      "source_sha256": "2605f8e140a4c3125bff0db52b42a5a306bebd6e7bb201ccd66b379eb66f4530",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0024",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[39]/p",
+      "source_chars": 44,
+      "source_sha256": "55cd16db87458fa37ed75703c93c68abe47f915c0dee7bb89ac7ffacc2b1ce64",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[41]/p",
+      "source_chars": 36,
+      "source_sha256": "7c2f7bbf4bdfacb1fb90de36e2ee087b63b7b245710d42f58353af850b90ff7e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[44]/p",
+      "source_chars": 61,
+      "source_sha256": "c27e75379ef0288c3d1fdd9aa3c21e7a4715aa5e769ef8fc3087d359aeeafa85",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0027",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[52]/p",
+      "source_chars": 88,
+      "source_sha256": "ab583526c0252e86aa5bf5815b39556c98176a3abbb7906a8c20fad978231174",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[54]/p",
+      "source_chars": 4,
+      "source_sha256": "bf88c550f5c5b449d52ab02b89de154f3641398de20826a6fa499aa239354950",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0029",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[55]/p",
+      "source_chars": 7,
+      "source_sha256": "6c72d924b8753849c38747f0f1eb8dec963eb2b8e5a55bf48ead8d7b3d8abc58",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0030",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[56]/p",
+      "source_chars": 14,
+      "source_sha256": "5645f62acfcdf39fc829a69907e518929e802fdafe07402fa5d11726dadfcc9e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0031",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[57]/p",
+      "source_chars": 18,
+      "source_sha256": "dbcb3c0249e7b879c7404db62cf964c734f6a186dfba030680bb12fb527303ae",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0032",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[58]/p",
+      "source_chars": 6,
+      "source_sha256": "cfe1b5d614d0daf474c804e0e14b006c88eb68e7c9f8d9d387b4fac620bac682",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[59]/p",
+      "source_chars": 15,
+      "source_sha256": "934c12b22fb3d6e291d92043eac6fe73829a71c23788a759f1189dd1de49709c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[60]/p",
+      "source_chars": 8,
+      "source_sha256": "ee95f159a8b29ee74039bb8ac3e8b6eca631b2b62a3c0be760809955d941e95d",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[3]",
+      "source_chars": 19,
+      "source_sha256": "28c45d1e68a102bd8e730cd220e76224672280a169816bf55ab03da0a30a4328",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[62]/p",
+      "source_chars": 70,
+      "source_sha256": "8a55ae125c1ec064ecdc931f82f991ae81eef4d26daf24299dbb4726dc2d7918",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[64]/p",
+      "source_chars": 3,
+      "source_sha256": "0832c1e9f1ce495feb56ce435492c73ac17c475a8b353679031d093241a910c1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[66]/p",
+      "source_chars": 3,
+      "source_sha256": "aafee6e11dabf391f7311bde86bde1dbd87dfe87025e1c1b72544fbb45107200",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0039",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[67]/p",
+      "source_chars": 67,
+      "source_sha256": "83a74077357ca6b27ceae151922fb17daddf5a33faed01698a7e752be1d48e4b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0040",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[70]/p",
+      "source_chars": 65,
+      "source_sha256": "b0e20574c863ad756d00f2995992f1057f9e12a25587c3117be6c32a5c1083bb",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0041",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[72]/p",
+      "source_chars": 18,
+      "source_sha256": "2ba27815e6056e570f0cb6e92a80851d545028ceced96f1275067ed3d8557872",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0042",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[75]/p",
+      "source_chars": 6,
+      "source_sha256": "aac8ae23722a01d777bf17ddd80067bdab801b3476cb681ae5b389dc8042ac2f",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0043",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[76]/p",
+      "source_chars": 72,
+      "source_sha256": "3975f0f3d2f6e602394e7c16e1b7425203ba2ea9b71996c5e7c2f8e437a2ce2f",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0044",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[79]/p",
+      "source_chars": 50,
+      "source_sha256": "b377b2dc0048be646e0fd8dbe6d80f46a78b8c45c6040d625ed83914f2b75616",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0045",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[82]/p",
+      "source_chars": 3,
+      "source_sha256": "3fdcde9363fa57a06748582c3be4b9c591779b220e028bd0392fbdfa2ea8ab2e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0046",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[83]/p",
+      "source_chars": 26,
+      "source_sha256": "dac41dcff4d73a7d253fda53d6b8ee20c17c69dd3e59e2a000fa2dc49f70c839",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0047",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[84]/p",
+      "source_chars": 15,
+      "source_sha256": "3d1e57ae42667ab57afb063c6992fa5c87d67f60a95bd17d625575cf0890fd44",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0048",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[85]/p",
+      "source_chars": 44,
+      "source_sha256": "bd678d6510638f51694ab37777d2196cfaa2a5c0c256bbd9d4d396126bb82301",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0049",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[86]/p",
+      "source_chars": 6,
+      "source_sha256": "ba61514bbbe5bbec70d1333e0d6a5f6315f959c8831723266be2a8b40ade93ba",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0050",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[4]",
+      "source_chars": 24,
+      "source_sha256": "2f8e9d6a9041dd782edc235d6140c473485ecaabff12bc3226718a138e04eb7b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0051",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[88]/p",
+      "source_chars": 23,
+      "source_sha256": "d697c632daa35b949c162ecceaf12b88d2156eb2b91e10e21170197929d05122",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0052",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[90]/p",
+      "source_chars": 85,
+      "source_sha256": "55a434e2714b543ba374a466f6abbe8486df063c3290da5b01b184d0a9b58e2b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0053",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[92]/p",
+      "source_chars": 16,
+      "source_sha256": "093eef3ca203c3f74730b69b7930694b752e95da6126ad09e4ca034a5b6a10b5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0054",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[95]/p",
+      "source_chars": 75,
+      "source_sha256": "a06d2e76fdbbf222afda6d60813e56d6e516daf77e3bfa8f356afe9b5bfc717e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0055",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[96]/p",
+      "source_chars": 105,
+      "source_sha256": "c701868a88f6678ebb9597da107be0eedbac35a3e3c3f214b17e043b571a12a4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0056",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[97]/p",
+      "source_chars": 94,
+      "source_sha256": "72bebde443d1792002fc5b7331d349bb11bf36a4d313e59720a43d2743323f88",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0057",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[98]/p",
+      "source_chars": 92,
+      "source_sha256": "b9e3d0340b715cf8606d77ed7fde186b82cdc3e09846909f55cb5951524b15cd",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0058",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[99]/p",
+      "source_chars": 88,
+      "source_sha256": "2396a968491298d13689e6dd6e83fc906ae4363d6352535f3336158452a44597",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0059",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[100]/p",
+      "source_chars": 45,
+      "source_sha256": "e969ec691bc7831a63a07a6f26b6343f9e573e12a43bd245baf2c1c2c410b5f5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0060",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[101]/p",
+      "source_chars": 35,
+      "source_sha256": "36ca8432557826957aae2e5bed006e36a0c06b8c3717652cf0b03575aa83e9ed",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0061",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[102]/p",
+      "source_chars": 39,
+      "source_sha256": "def4a24f95ee3bf508bd38c5df27df53bed50339429ca8e186ddf38269df4eeb",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0062",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[103]/p",
+      "source_chars": 90,
+      "source_sha256": "b81d076cdfe95ef8fd22eae84764c9d7ca50c5d530fcdc8912e8a0674f71dae5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0063",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[104]/p",
+      "source_chars": 27,
+      "source_sha256": "9e7508921ad5a009cd4555c58894a635cdab20fd4eab65ee8ee6652edaa92264",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0064",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[105]/p",
+      "source_chars": 96,
+      "source_sha256": "fb12e9e381449749684b340d42ed84d8ceb114d12e575a0f16d3725c55b933e9",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0065",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[111]/p",
+      "source_chars": 5,
+      "source_sha256": "3a3963cc10259dd5b2137686fda333e89da6f1a0a3b8e43ae9bbab0a0dcda1ec",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0066",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[112]/p",
+      "source_chars": 56,
+      "source_sha256": "d63111cd2fbda8f3c0b7c62452b992a161d9e89eff687e729d7003fb3149d5a8",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0067",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[113]/p",
+      "source_chars": 26,
+      "source_sha256": "adfa0803642da08ca3bd7917cde22def03b075377812db58a854c345419e2f1a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0068",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[114]/p",
+      "source_chars": 30,
+      "source_sha256": "d22de6f37771dc82a7281ea8f5f49b5dc697531e42526c7ad1907dede64353bc",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0069",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[115]/p",
+      "source_chars": 24,
+      "source_sha256": "a69da8a6e7b0b0885c253cdc83e307c2e56f180e27291288a0d90902e2e52aeb",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0070",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[116]/p",
+      "source_chars": 32,
+      "source_sha256": "c77a7eae0fb652f757f9a6c6830379c798edb7a914c5c7991619056ea734b250",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0071",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[117]/p",
+      "source_chars": 31,
+      "source_sha256": "a38f6de1d5e632ac8e953490b45e005976a9ff0189efdc6aa5ba2dafb10f1eaa",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0072",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[119]/p",
+      "source_chars": 3,
+      "source_sha256": "3fdcde9363fa57a06748582c3be4b9c591779b220e028bd0392fbdfa2ea8ab2e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0073",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[120]/p",
+      "source_chars": 7,
+      "source_sha256": "f659494d434b6605f8306ec54f15d8dbc8cf5cbdf933d330c231fa2b3de4db45",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0074",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[121]/p",
+      "source_chars": 21,
+      "source_sha256": "6e9792092cd8ba677909c04721888c12ddd2b45beb2134949bb953c6c8cf20b1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0075",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[122]/p",
+      "source_chars": 35,
+      "source_sha256": "eeeef13eda9f3c6d39f1dd35d8f5a2670709c288c350e9205da856f914715349",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0076",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[123]/p",
+      "source_chars": 17,
+      "source_sha256": "d5dea42bea9ef0a72b53bb9c1c430bbe22a1b5dadfb0d3bc48638e658d02ab13",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0077",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[5]",
+      "source_chars": 19,
+      "source_sha256": "ede7582ef5710a0e2d5fc59ec30a4fad0655b3689757a50d6f58af38c124a168",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 19,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 19
+    },
+    {
+      "block_id": "B0078",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[125]/p",
+      "source_chars": 58,
+      "source_sha256": "02d325ba343645480b0e527fdc344dd635b256f4f7fbdb7da3fd36d1eaa4b2cd",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 58,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 58
+    },
+    {
+      "block_id": "B0079",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[127]/p",
+      "source_chars": 43,
+      "source_sha256": "730d494f436000bd889681f006fdc438f7036cab3a05eabd74d342921c1fc0ba",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 43,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 43
+    },
+    {
+      "block_id": "B0080",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[128]/p",
+      "source_chars": 48,
+      "source_sha256": "519a09c3e99ce814b9669180b272b9b7691621e9746030cbc285bb4cc2117b5b",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 48,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 48
+    },
+    {
+      "block_id": "B0081",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[130]/p",
+      "source_chars": 16,
+      "source_sha256": "2ff0b022bd392b77755db54a54ac907eb0661fe7915827f08bf688c9310b20ed",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 16,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 16
+    },
+    {
+      "block_id": "B0082",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[132]/p",
+      "source_chars": 91,
+      "source_sha256": "7daadd77a1f76461903d2fad584beb2763f14150eca9940c46c2e21bbddd48d3",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 91,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 91
+    },
+    {
+      "block_id": "B0083",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[137]/p",
+      "source_chars": 5,
+      "source_sha256": "59fb3892d6c0acc6704809ccc533e7597aa02db9cdb5f60f59d6c9455e8d4f84",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0084",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[138]/p",
+      "source_chars": 36,
+      "source_sha256": "2203b6d4bf448105fe928e0e5740c094ca4787073b94954d94bf91cba848b096",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 36,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 36
+    },
+    {
+      "block_id": "B0085",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[139]/p",
+      "source_chars": 40,
+      "source_sha256": "6536f832f16d94f6334c5c810b65dda58bf66bca26840013e47de2372eabf20c",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 40,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 40
+    },
+    {
+      "block_id": "B0086",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[140]/p",
+      "source_chars": 38,
+      "source_sha256": "80921b1d59fa7cc6396f2a66e15b3a8eae4184f81ebc2bba19b4bc2ace46fe59",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 38,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 38
+    },
+    {
+      "block_id": "B0087",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[141]/p",
+      "source_chars": 35,
+      "source_sha256": "e49ee070edc97737924d471666e320874ebefd3524550208f1651579c06b5b84",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 35,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 35
+    },
+    {
+      "block_id": "B0088",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[143]/p",
+      "source_chars": 14,
+      "source_sha256": "17cf38fd4290aad415607d08d2c803f89dd2549450b0394375031ffddd1a9347",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 14,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 14
+    },
+    {
+      "block_id": "B0089",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[144]/p",
+      "source_chars": 41,
+      "source_sha256": "76a226d7bde06eee2a5e1ab0004aa90e21780f6c87ae250a2544ca277ce3b669",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 41,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 41
+    },
+    {
+      "block_id": "B0090",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[145]/p",
+      "source_chars": 29,
+      "source_sha256": "1a8b5769b014b59ef10d0fe5ec609f8c166a1622a01ae9ac2d8f0d9e2ce3b9f8",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 29,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 29
+    },
+    {
+      "block_id": "B0091",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[146]/p",
+      "source_chars": 42,
+      "source_sha256": "9053c1312092703cb7c35d99c56bca249af8a277fdf041c560e2852c7990fb2e",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 42,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 42
+    },
+    {
+      "block_id": "B0092",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[147]/p",
+      "source_chars": 41,
+      "source_sha256": "7db0ea8f7df466fa75f8624f027758904f0b470579f5cae2c79041e2fc9e98e6",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 41,
+      "normalization": {
+        "special_spaces": 2,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 41
+    },
+    {
+      "block_id": "B0093",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[149]/p",
+      "source_chars": 25,
+      "source_sha256": "b60768230ecae774ea98932c7626a172a96a8e3b482047f598c2f3b193422f2c",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 25,
+      "normalization": {
+        "duplicate_comma_groups": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 24
+    },
+    {
+      "block_id": "B0094",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[150]/p",
+      "source_chars": 62,
+      "source_sha256": "c01f57905274ae5254799c03d29a718c9b6b63e969e3d27945dd6229f147fb5a",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 62,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 62
+    },
+    {
+      "block_id": "B0095",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[151]/p",
+      "source_chars": 44,
+      "source_sha256": "b13a0389a2b12d18cb438e3994190983e6e72111ae3bec04ebcf271049e513a6",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 44,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 44
+    },
+    {
+      "block_id": "B0096",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[153]/p",
+      "source_chars": 4,
+      "source_sha256": "bf88c550f5c5b449d52ab02b89de154f3641398de20826a6fa499aa239354950",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 4,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 4
+    },
+    {
+      "block_id": "B0097",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[154]/p",
+      "source_chars": 8,
+      "source_sha256": "819cdb47460ba04832071dd3028baa9b109ce400ecae65d12c72daa61be2a61d",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0098",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[155]/p",
+      "source_chars": 21,
+      "source_sha256": "1542ad5e877af6f3795583b502259ac50057a0b7ce94dc42af4dbdfc5b03c09b",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 21,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 21
+    },
+    {
+      "block_id": "B0099",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[156]/p",
+      "source_chars": 6,
+      "source_sha256": "1c660579a54821011352fbbb056c162d56b56722eff2d161d6bbe0bcee526b7c",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0100",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[157]/p",
+      "source_chars": 10,
+      "source_sha256": "29db34b83390ab9d106bd5982680b5b264c5be63edd0626809578077c4528506",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 10,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 10
+    },
+    {
+      "block_id": "B0101",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[158]/p",
+      "source_chars": 42,
+      "source_sha256": "421f724f4fba4dbba242c8a4beb1cec91837c96f5055e5fbb8992a4fe10726a6",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 42,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 42
+    },
+    {
+      "block_id": "B0102",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[160]/p",
+      "source_chars": 22,
+      "source_sha256": "744660497aee22eca9dd92a7551daa5a8776fc00eaabf6e5750fb9fef365c84b",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 22,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 22
+    },
+    {
+      "block_id": "B0103",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[162]/p",
+      "source_chars": 68,
+      "source_sha256": "27e33b72234bc99db88f4d396f2ab913581bc7f3d2f8d221db33d9b9b1bf8ed8",
+      "scope_action": "keep",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "selected_chars": 68,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 68
+    },
+    {
+      "block_id": "B0104",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[164]/p",
+      "source_chars": 58,
+      "source_sha256": "7556719b6c561a93e6f0a006606bb1bb71577fbd82d2a36d1daf84bcdc3784ca",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0105",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[165]/p",
+      "source_chars": 56,
+      "source_sha256": "c67ecbe8659ed3872c3413dd82466385b25f8623afa665298f5ba0b020068c0e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0106",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[166]/p",
+      "source_chars": 12,
+      "source_sha256": "e049b96f867fb09816e6b62cffb05f1a206c70c96e3abc441bb752920964de1a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0107",
+      "role": "caption",
+      "xpath": "/html/body/div/div[167]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "52447b328e4d92edeba70b6f2ad16fb15931cf0c094c3d1fef6b42a428e42d18",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0108",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[6]",
+      "source_chars": 17,
+      "source_sha256": "0fd85f544f2330264a127f9d03fcffa39e1724110bc3df71e20529a9ba32e8c9",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0109",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[168]/p",
+      "source_chars": 30,
+      "source_sha256": "d88a9c55129050918f2de9b4f07f1081bab4025739f1ce1d9b991bd4d9877fcd",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0110",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[170]/p",
+      "source_chars": 22,
+      "source_sha256": "b358074efe4a1d82696f04d6cfd27ac469477b7ffedfe6d50870b3428b8d3a4f",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0111",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[7]",
+      "source_chars": 14,
+      "source_sha256": "5859a7f6054ed312a03351e73e70b0e9dbe386dfd250e092c4ebe6b32b0b01a5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0112",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[172]/p",
+      "source_chars": 35,
+      "source_sha256": "727a629e3a9da7b423122e9f9c26603924e865c2eb92bb0ea38da5f98adf10ae",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0113",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[173]/p",
+      "source_chars": 56,
+      "source_sha256": "98f38c64b7b8636aa750630107ada4426028750218d4af8778d5b3f61b9d609e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0114",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[175]/p",
+      "source_chars": 5,
+      "source_sha256": "169cba49a677482fe128e5774199b902f448d39e82c5e671f1121d8696b686f8",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0115",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[176]/p",
+      "source_chars": 48,
+      "source_sha256": "8d965dd3d90e80701b262007e96db4f3112937e61fe5983c63aa2e00cb09d3f9",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0116",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[180]/p",
+      "source_chars": 7,
+      "source_sha256": "c41472a5fbc24af0e688c3dce69983c583959961a268565899406485354ca223",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0117",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[181]/p",
+      "source_chars": 115,
+      "source_sha256": "706a4d36b8e670662e5ae5826e572ec1428bab1f69a80911cfffd3f78ad70a87",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0118",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[182]/p",
+      "source_chars": 73,
+      "source_sha256": "6cfab8c33fefc07f2ea494a904449299863fb24ba71f194c1e59667d8e8977ec",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0119",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[183]/p",
+      "source_chars": 48,
+      "source_sha256": "ae7ee7da4c7702124840a36d34d75d4acec6c848f37391850bcde98520b6169e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0120",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[184]/p",
+      "source_chars": 71,
+      "source_sha256": "d1dcbf79d96d3200c51dc361a51d9b7407d11ce32607ec28c61018801fc6838c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0121",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[186]/p",
+      "source_chars": 7,
+      "source_sha256": "e4666aaf3282ab7aaa81adaccdce54db40ec13f226ef096c5b13ceb4efc3dde9",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0122",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[187]/p",
+      "source_chars": 16,
+      "source_sha256": "402326c96453807680b9b3e5eaa7dbdfb4b7d447dc390e8a2bb8cfc90af826d2",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0123",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[188]/p",
+      "source_chars": 7,
+      "source_sha256": "29c69cbfb1f39365be30a4807d98728474ca92e83eefac4172178d72da0cd0ef",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0124",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[189]/p",
+      "source_chars": 7,
+      "source_sha256": "cf19a896afb2b1faf94b9e49e97e178b3bdc25a829e687c80fb95e0fc491fa7c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0125",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[190]/p",
+      "source_chars": 10,
+      "source_sha256": "859a23c28ea65c4cf8d8d8c51b8a76548e923c7b999de60477619603c92c1c59",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0126",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[191]/p",
+      "source_chars": 33,
+      "source_sha256": "7c65badfaaee0ac57333eda5484ff855fb56078f9ca49d34970d503966573965",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0127",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[8]",
+      "source_chars": 23,
+      "source_sha256": "97c70b6190c05a5ea64dda20eb590858107253812bde634bc8c39816cc5a0073",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0128",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[193]/p",
+      "source_chars": 55,
+      "source_sha256": "6090f62ad237ff32e798ff469eb72f559439ef50197b7b6d4b1e906385e9bf4c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0129",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[196]/p",
+      "source_chars": 63,
+      "source_sha256": "8ea10d8d4011139a85f0ce066266b89e6477efdb68dc75e5731f0834e8a2d4d9",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0130",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[200]/p",
+      "source_chars": 65,
+      "source_sha256": "0866e3814b61159bf2936ebb9a9a83bd07a2c3a845dd554b72f430aa5d0cf15a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0131",
+      "role": "caption",
+      "xpath": "/html/body/div/div[201]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "52447b328e4d92edeba70b6f2ad16fb15931cf0c094c3d1fef6b42a428e42d18",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0132",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[202]/p",
+      "source_chars": 7,
+      "source_sha256": "d0eb865cc7c19f3b3831137f02c5f6b460076a27a5c6bd74ee9d750c6c15d3ed",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0133",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[203]/p",
+      "source_chars": 116,
+      "source_sha256": "1453e9d631887aa1fd5e1a4acb0c6331f7a2031dba6a79aedd11b856fd86e6ba",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0134",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[204]/p",
+      "source_chars": 44,
+      "source_sha256": "a4770a6285c66aaa8e6e4c910471d5077bb43c07e600a24f6caa59d14d1e4aa6",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0135",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[205]/p",
+      "source_chars": 51,
+      "source_sha256": "dd55bf0b7d12bd328f18e4d571fd15fd94e04cf0cd366da4bf3887d5df79afef",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0136",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[207]/p",
+      "source_chars": 59,
+      "source_sha256": "887efcba861d67119a704cf95f85d8537de3b417e1631649d356509d9268c9fd",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0137",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[208]/p",
+      "source_chars": 87,
+      "source_sha256": "d7efdf756205a064ba763143043c5ad631ef9cfa44f5e6c228dc10ba39890aa4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0138",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[210]/p",
+      "source_chars": 77,
+      "source_sha256": "fa487074553ecff22793b88d69b139107df1804f7208beb21ee1236e05c1a091",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0139",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[213]/p",
+      "source_chars": 25,
+      "source_sha256": "c42e91af754795b78025bff5ce5af087c549522777522b580d3a1aed2bed63db",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0140",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[214]/p",
+      "source_chars": 21,
+      "source_sha256": "97941094cbccd67e6810b8b755de31a38d2f8fcc7a8211b16f757df82336aa59",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0141",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[215]/p",
+      "source_chars": 16,
+      "source_sha256": "be272c06b1558113c95ae9c66e1af82b1e84b608c6037aa0b6dcb918c9097520",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0142",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[216]/p",
+      "source_chars": 13,
+      "source_sha256": "7a28e461328fdfc54f16cc8b6039d5d97a7145f15cd5209164311ec3f2f0566b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0143",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[218]/p",
+      "source_chars": 6,
+      "source_sha256": "fcfd0b9bca742dfcdfeca6e3d289e24affb6c492d13042a5a7780cd8a9d541f3",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0144",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[220]/p",
+      "source_chars": 76,
+      "source_sha256": "25373f9cd638961cabad2a75ceb6c239d56b7a4fd3b8c65c6c0a60500d783247",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0145",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[9]",
+      "source_chars": 16,
+      "source_sha256": "015381d1b2d595840af12bdbb5c01d2be834e4cf2c0e84db0b854a527df62137",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0146",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[222]/p",
+      "source_chars": 39,
+      "source_sha256": "6c5705e07374b5bf457fd3521f10f7466deea626158114a7c27b14f316223ad1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0147",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[224]/p",
+      "source_chars": 101,
+      "source_sha256": "40f36ddd2d680fc99181f00f22d7de784aeef4736ac2133da82ccf1f2852e8ae",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0148",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[226]/p",
+      "source_chars": 74,
+      "source_sha256": "f3d0c62c58293ab8343d70badf7e0ccc0d588d9fd308f8eb3dfef07428b859b8",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0149",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[229]/p",
+      "source_chars": 65,
+      "source_sha256": "9ba228eec5c7f17d714002157d1740dbf4572fe8d8cff85bbe40374406c670f7",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0150",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[231]/p",
+      "source_chars": 93,
+      "source_sha256": "056b43cfa19cf7ddac73558382503458595275153b1f8c3a4793c7c6e827f469",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0151",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[233]/p",
+      "source_chars": 48,
+      "source_sha256": "d4ea959b4d55ab79006d1101fc9367ad0176fa64563107aab8b988695236b785",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0152",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[235]/p",
+      "source_chars": 13,
+      "source_sha256": "cd7f0f5837aee13b43701e999522cd7123540d50d08fecd98a4e9044bb8fcda0",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0153",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[236]/p",
+      "source_chars": 23,
+      "source_sha256": "fbf152ade3fa60fcd716133879ae357305d36254bca6861467b8f2b8dccfb875",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0154",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[237]/p",
+      "source_chars": 21,
+      "source_sha256": "59d080acb8a360e6f9c9c9a00e72a3277b77c1935367bc784193bd288fdc2a9c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0155",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[238]/p",
+      "source_chars": 7,
+      "source_sha256": "20e0856b509b67c0742b87723767e58cfb83aa53f5d3112c04ab3216dae39baa",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0156",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[239]/p",
+      "source_chars": 63,
+      "source_sha256": "eb5434eaaf9936721d91a90acdc10e383b988573d5eb05b9d97a2845cbaf2343",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0157",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[10]",
+      "source_chars": 18,
+      "source_sha256": "040f5140feb45c012e3efba4a5679006454ca33ae107b181b455710e23031ee5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0158",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[242]/p",
+      "source_chars": 65,
+      "source_sha256": "038c7955a20836723b1f30f661181caa4d3c79826579fea4a2de7e9c3cda520c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0159",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[245]/p",
+      "source_chars": 69,
+      "source_sha256": "495581d8b57864f989e842bebe22068a5dd3541824bb68fef1d86c221851ae72",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0160",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[248]/p",
+      "source_chars": 79,
+      "source_sha256": "15a6f90076a7c61ca605e7ea11a8847a04c3693fe032a99ce0feec7b165f52c1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0161",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[249]/p",
+      "source_chars": 5,
+      "source_sha256": "fb294ee40db892b092bc7dd77abb456560f1754b0181d7cdf689b23a81240057",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0162",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[250]/p",
+      "source_chars": 122,
+      "source_sha256": "a0bf4150e52e5102c64c2d07199a27745b920b12ae65cdd9aed646dd780cc3d0",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0163",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[252]/p",
+      "source_chars": 141,
+      "source_sha256": "cf0f52a82125ff4dd5dfdcaff8d694f875172749da1f66dc99a703821b439fae",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0164",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[255]/p",
+      "source_chars": 46,
+      "source_sha256": "c7064ef5d238f504d13322285f30f5a74ef7fdc5fafbf09870c3120764f52f77",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0165",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[257]/p",
+      "source_chars": 64,
+      "source_sha256": "a86c245d6edf1288cf0a353d62c3901afdc492451b919a035d9149fa53cb65c4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0166",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[261]/p",
+      "source_chars": 9,
+      "source_sha256": "76574d2d41c03e22ee4cd6218407629789d535d42255a073a4390bf9e87e8371",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0167",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[262]/p",
+      "source_chars": 14,
+      "source_sha256": "c45d27e30da6e592245e085a8f31bbbd4e696fda368a916f263adf8b41380cb4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0168",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[263]/p",
+      "source_chars": 5,
+      "source_sha256": "d09c28f461f9226fe53574745a2223478062b37688f5dc08dff719af9e90ab4b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0169",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[11]",
+      "source_chars": 10,
+      "source_sha256": "26e6bb8fceb73c87ecbea53103187bec9746f8929bbc17f90bd1c4cd4211717f",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0170",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[265]/p",
+      "source_chars": 60,
+      "source_sha256": "0070e8b3faa7499bc7e89946210752747e02ce83ca99dbb3db27d8031f365bc5",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0171",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[267]/p",
+      "source_chars": 70,
+      "source_sha256": "9287a0d54e2739fe091353e5042a8c304c2cd613e6c4070d239d858b43d5b1eb",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0172",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[269]/p",
+      "source_chars": 35,
+      "source_sha256": "dab4c292cdc9d47b3be1753a2f75d233566de0ff6657602777358749fc976fac",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0173",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[271]/p",
+      "source_chars": 51,
+      "source_sha256": "4777401f88a906ed5217ff311499ab71a7c582f66017fca28a7d3d67b98a014b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0174",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[272]/p",
+      "source_chars": 7,
+      "source_sha256": "3ee51942487db6d2e57a3d0b2569b23034de0dd68390148b831be23d299f2b88",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0175",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[273]/p",
+      "source_chars": 15,
+      "source_sha256": "e80b4a65054bc148a340f7e4901a84ea6e497783fe633e77627087ed68922774",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0176",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[274]/p",
+      "source_chars": 7,
+      "source_sha256": "29c69cbfb1f39365be30a4807d98728474ca92e83eefac4172178d72da0cd0ef",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0177",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[12]",
+      "source_chars": 20,
+      "source_sha256": "9059fd188b0a6271b5ac9006b92cbeaab9bf05fbafb10b88ced540c57b7c6d86",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0178",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[276]/p",
+      "source_chars": 67,
+      "source_sha256": "bddd9f72fb61654349c779f3ba5d673bb4a96ec1fc8629ee9a5facc9c65e1ce4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0179",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[278]/p",
+      "source_chars": 29,
+      "source_sha256": "6df00e1c84814ddeda2b94da69e3e22f666047d15cc90243c7a04e8c7caac39b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0180",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[279]/p",
+      "source_chars": 55,
+      "source_sha256": "118973f1d18acd8aa5f23d1e1f17f7a7f850234a4137bc2c7d9056075251cad3",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0181",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[281]/p",
+      "source_chars": 7,
+      "source_sha256": "f72b4d7e4587bf0f2a10ae4c319928afd95ad532733aad75e8c8448c0cbcfa95",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0182",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[282]/p",
+      "source_chars": 75,
+      "source_sha256": "b98f49a7779bc5a7b5dbcf071c816cd8c546cd7b077e953393be5228ffa55553",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0183",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[283]/p",
+      "source_chars": 27,
+      "source_sha256": "8b52d5c79d516369aca13a2107a3c6b1b4941cb7a7d3f53eaf6056b97f36dc7b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0184",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[284]/p",
+      "source_chars": 125,
+      "source_sha256": "022489a84791927c9130055ee97fe22536fb8383b14d81d4b2b3f41fd31c3574",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0185",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[286]/p",
+      "source_chars": 55,
+      "source_sha256": "bfa195de70f36db60b679df4568f6cd372045235b6972e37c065827d833519a8",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0186",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[287]/p",
+      "source_chars": 81,
+      "source_sha256": "61224357191390f4c2764ae3b18d1fb4d24fafe54ee2906c8105a4f847351867",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0187",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[290]/p",
+      "source_chars": 13,
+      "source_sha256": "b0504bfb49b0ad40fb56c0c2857fe4e076b9ac6baa9bea2a030ab806b36dab48",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0188",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[291]/p",
+      "source_chars": 19,
+      "source_sha256": "c502153edaf5f6b45d51b7b08a58f324a6846de997004e71d588a815ed0d9792",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0189",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[292]/p",
+      "source_chars": 21,
+      "source_sha256": "0d013d4f0a9903ccfd02958cd0baf115be00a90a921018328ccffaaa01e6abcd",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0190",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[293]/p",
+      "source_chars": 7,
+      "source_sha256": "7aafcdfe47bc18c2c7e1d40560cb22683d364c17912b607938245a1425625a69",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0191",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[13]",
+      "source_chars": 20,
+      "source_sha256": "880af954c45f6b632404d268fceb1d2ff9c8229e8d48f1fb5a771d7f317f5da4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0192",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[295]/p",
+      "source_chars": 51,
+      "source_sha256": "e59cd57dd0082480b7a3bb30fbd895b9d62585322391cdeb3458ff44cc085310",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0193",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[297]/p",
+      "source_chars": 76,
+      "source_sha256": "ab8006e8f132863b05ad1362e3a401cb68801dad8eff9a9311d380d171a823db",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0194",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[299]/p",
+      "source_chars": 104,
+      "source_sha256": "ed07da6f105e564e3116ca466ce0593e28edb678f0840c84c313720b33d8561b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0195",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[301]/p",
+      "source_chars": 58,
+      "source_sha256": "b38d0e5ea5c63be846b647e9e1cc97551d9705681bec39698311181d1c05d931",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0196",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[302]/p",
+      "source_chars": 9,
+      "source_sha256": "875400dcb29c80a563006ff7155c826d5f541e02e8326ff820fe23354caeb698",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0197",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[303]/p",
+      "source_chars": 19,
+      "source_sha256": "c502153edaf5f6b45d51b7b08a58f324a6846de997004e71d588a815ed0d9792",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0198",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[304]/p",
+      "source_chars": 16,
+      "source_sha256": "5d80ed6b83b1ac271084797c3233ee30d5913bcd38dbd822c985518844c34110",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0199",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[305]/p",
+      "source_chars": 5,
+      "source_sha256": "31bdb03e028be514b2cfa922f237db0c4a60c8b242a3814987c856c8e4ffad82",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0200",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[14]",
+      "source_chars": 6,
+      "source_sha256": "b687ca6c4ea2f47f9a36029012cfbdc514da7069ed3ef66f5cbc7b43ed73cb3d",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0201",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[307]/p",
+      "source_chars": 77,
+      "source_sha256": "65f8964af20bde023ca30c1f445459e928b71cc67ac72f70edcfe7965d599ef9",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0202",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[310]/p",
+      "source_chars": 67,
+      "source_sha256": "e9d5d25c0127d2ae0275f2b7300d51676a5387fee403a4bbc27686e105701843",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0203",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[311]/p",
+      "source_chars": 4,
+      "source_sha256": "bf88c550f5c5b449d52ab02b89de154f3641398de20826a6fa499aa239354950",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0204",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[312]/p",
+      "source_chars": 7,
+      "source_sha256": "d6d9c261115f5ba0d5d26f708d1830fa1a098cd5ff1995a84bc62ec12c174a95",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0205",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[313]/p",
+      "source_chars": 19,
+      "source_sha256": "a3f8b539aa9e706493f6be30f710f4c7e4a4fc14b1c05f0a67bde60ad1e38607",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0206",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[15]",
+      "source_chars": 6,
+      "source_sha256": "9eebe2f2d6de5118cd9b847548344c03feb7e70268e50f0a04e72586f877f861",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0207",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[315]/p",
+      "source_chars": 42,
+      "source_sha256": "27a0febab9d39fbdf18032058bf549ad7f9205fa8cfe259b4dc1db1a2cf3b199",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0208",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[318]/p",
+      "source_chars": 98,
+      "source_sha256": "98a6b2cbed739a369cbcebfd473a85ae146b7703f162edb5540b5eaa6b21a7b8",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0209",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[322]/p",
+      "source_chars": 46,
+      "source_sha256": "b5ef5f9240e1289dd8b9947b975d6e0cc0caaed431f782120e39aa70756f31d2",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0210",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[16]",
+      "source_chars": 5,
+      "source_sha256": "f14708d21cf0ecdf0359a1c9e6cedb338e66d53ed482da3f83fe50259ccaf566",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0211",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[324]/p",
+      "source_chars": 73,
+      "source_sha256": "ec534755ec7a9263384f2c3477f000f51ee7718b30c610c1ae9c32bd6cd1d666",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0212",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[326]/p",
+      "source_chars": 64,
+      "source_sha256": "24596e71975b438ab341ed7ad2f73ec3fd51b9477007c416ec59fd845c52a35c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0213",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[329]/p",
+      "source_chars": 91,
+      "source_sha256": "c8d81f17054200a4f391cecfb23a39ebc5287bee5edd793137a8a619834f117c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0214",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[331]/p",
+      "source_chars": 148,
+      "source_sha256": "bd54348db640123443f63eb49ca9e87857795a965abc65ea3328644f81f0096c",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0215",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[333]/p",
+      "source_chars": 35,
+      "source_sha256": "ab0a81148918a2d385b6e942784d613b4be6b6f09e7f2475d89a08adf55bc7c4",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0216",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[17]",
+      "source_chars": 6,
+      "source_sha256": "a688e0a90d9ec512e01ffd50600eb15da348aeb854b89009f3010af9e54caa65",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0217",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[335]/p",
+      "source_chars": 39,
+      "source_sha256": "61bd6e6c21be0fb2e92ac7d3b5c7f7f9f7f99a5f42650b2d1ec64ebcc15d7b3a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0218",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[336]/p",
+      "source_chars": 25,
+      "source_sha256": "f326aa6fa839570feb7a625788140fd5ddf0850350bbbb3f7f110066c6b8f6d8",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0219",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[338]/p",
+      "source_chars": 51,
+      "source_sha256": "1ea55c7a8b55d1f138875c772b16206e2ed4906fca80671baae278e89807214e",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0220",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[339]/p",
+      "source_chars": 18,
+      "source_sha256": "e336cc52c9cc1ac67ae48ea397aca8c4248fdfdab7c49dc42804cf4861458632",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0221",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[341]/p",
+      "source_chars": 83,
+      "source_sha256": "06352a2b79a395756764c6a8231651b9767361c5c65c23c069171a680a8ad26b",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0222",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[343]/p",
+      "source_chars": 72,
+      "source_sha256": "b9b61df1d78f4f4baecb4192a8279361b7c0a13bed6de0473778734db4a9e6bc",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0223",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[345]/p",
+      "source_chars": 124,
+      "source_sha256": "a99e6996718fa83e297e8aa2a18f0727856c65a45ce0520467bbe4e7be616a43",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0224",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[347]/p",
+      "source_chars": 94,
+      "source_sha256": "94da9d2b69505e1aabc6bf8cf81746e1cda6dcb32aa01374f2dcf9dec32c83b2",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0225",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[349]/p",
+      "source_chars": 35,
+      "source_sha256": "8ac609919b0c9da8f2fcf8f422d94862497f538e33981b5ba43f79ac75f3dd33",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0226",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[350]/p",
+      "source_chars": 12,
+      "source_sha256": "37e7983652ce483bb352fbe07936f14e1afe74c4ea648940faa30d329cbc898f",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0227",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[351]/p",
+      "source_chars": 17,
+      "source_sha256": "f4ba8c0b46277ec493b7e046a393f8dee5f6c2e2144c70c91f511ab5a709562a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0228",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[352]/p",
+      "source_chars": 7,
+      "source_sha256": "3762ac4bdac041a13366a93b61bbac93fa2014adb46e4324b9eee819f9ee55cb",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0229",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[353]/p",
+      "source_chars": 15,
+      "source_sha256": "9cb74f9344b198b713e96a6393154c2f0df81419f69d03610ceab9bf8f6174be",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0230",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[18]",
+      "source_chars": 13,
+      "source_sha256": "34640ff9f2cc2366c68f64adc9a951fd7273a4366257c313a9426697614e7ae7",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0231",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[355]/p",
+      "source_chars": 54,
+      "source_sha256": "61a2aae8beb7424800e18a73eba8a9d567943d005383ac4158fa7e90c03ad6a3",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0232",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[357]/p",
+      "source_chars": 174,
+      "source_sha256": "342ff90d6fff5b7a003f3aea980519a4227ebb70f867aa89a41f8624162d0016",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0233",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[360]/p",
+      "source_chars": 148,
+      "source_sha256": "9818a8f9c17ea5229ae6bd3d6c3ef2cae733d714027b1339bb21d95f669da17a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0234",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[19]",
+      "source_chars": 10,
+      "source_sha256": "31b25763c3f89e20a9ef0eafdc11c4a2ab449dde7323c06a0c862950bed9af06",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0235",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[362]/p",
+      "source_chars": 26,
+      "source_sha256": "ebb06e93b736f431fbc7c1e46d6d3887538dc8f2d806041b4a691f736e5e3cc1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0236",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[364]/p",
+      "source_chars": 134,
+      "source_sha256": "31f94e826f556ea838ca94e50a111e015768226c6f8c0960dcab32c348678c3a",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0237",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[366]/p",
+      "source_chars": 72,
+      "source_sha256": "0a206c74c71cf4cf691117ebacc8a741aab6dc8371b99f7a12ec74d932288556",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0238",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[368]/p",
+      "source_chars": 81,
+      "source_sha256": "3babbce27d02958759d7558d68433cf9028d222ccb525c088c84b3c9b90b4e76",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0239",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[370]/p",
+      "source_chars": 28,
+      "source_sha256": "20d1403c7ed4917ad726af7f5b60a5f1ca051a9b5384cd32a0379679f38d4ccc",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0240",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[20]",
+      "source_chars": 13,
+      "source_sha256": "d142463f8478eb924e0bef27f52ed12abe70f2e93b46b19c07e58ed73890a126",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0241",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[371]/p",
+      "source_chars": 35,
+      "source_sha256": "864bbb3bed43a29acc255b32542b4a91a6fc76f89b16a7d8024ea57a4548b9c2",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0242",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[372]/p",
+      "source_chars": 35,
+      "source_sha256": "e4e12571dd9239b48e9def2d1cadb964abea2fad194f5860c4f350ae43598c04",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0243",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[373]/p",
+      "source_chars": 48,
+      "source_sha256": "463960cc7879555404511563fec29b904896f3472457cab5c4c87560a6d29efe",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0244",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[374]/p",
+      "source_chars": 41,
+      "source_sha256": "4cb90ebd8db73cd6ec231114c2227e19cc49f5ce87772ee97779500c1fb8b7f1",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    },
+    {
+      "block_id": "B0245",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[376]/p",
+      "source_chars": 36,
+      "source_sha256": "8d9d3d44f08c1ac5ff07f51af7410d8959cb2cb188ed1b4d40092f14583ed566",
+      "scope_action": "exclude",
+      "reason": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 10322,
+    "scope_chars": 908,
+    "clean_chars": 907,
+    "source_blocks": 245,
+    "scope_blocks": 27,
+    "clean_blocks": 27,
+    "rules": {
+      "special_spaces": 2,
+      "whitespace_blocks": 1,
+      "duplicate_comma_groups": 1
+    }
+  }
+}

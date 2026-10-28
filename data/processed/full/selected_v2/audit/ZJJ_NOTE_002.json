@@ -1,0 +1,301 @@
+{
+  "doc_id": "ZJJ_NOTE_002",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 69,
+      "source_sha256": "adbf70f5bb2b66dd130def7489c0a044ea53f21541dfeebcd72898f135111226",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 69,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 69
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[2]/p",
+      "source_chars": 112,
+      "source_sha256": "1096448f87ad5d9eb05082308afdf5589f7b81c4afc686397b42aeb957e3c392",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[3]/p",
+      "source_chars": 112,
+      "source_sha256": "e02f7fae10da29aebfed12580246aa6f90a05811a55e85ed84f7ad3d8a6fff2e",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 112,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 112
+    },
+    {
+      "block_id": "B0004",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[1]",
+      "source_chars": 12,
+      "source_sha256": "817be23f4be38a778915df57835782f5a5928d4f7ad6d3947ffbcfb3c196fa2d",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[5]/p",
+      "source_chars": 44,
+      "source_sha256": "8f024099a2c6ab41319d4acd9c1cdbe210251b0b8f109f2d34a39026e1fdf6b7",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[6]/p",
+      "source_chars": 96,
+      "source_sha256": "7653f0d9d41dbb17973f7fb691878770ef3cb73709eade61ce8a6f51668beff6",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[7]/p",
+      "source_chars": 21,
+      "source_sha256": "5d898964e670668a5cd1717fbcc20b51aba82d1d092ef61ca11b0af364fd5e3a",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[11]/p",
+      "source_chars": 92,
+      "source_sha256": "e3776bb767a575471e84d75f619403498bd9bc3444ac2f50be9efc35c5e3f4a0",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[12]/p",
+      "source_chars": 116,
+      "source_sha256": "f96687b687e202f8ae227757482c9338287208e064e0fb91c1ddba16cd080f2d",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 137,
+      "source_sha256": "213ea6b717b79bc0389ac3c6bfa726fccfca2ddc52e27f457b4b51ee44535ada",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[17]/p",
+      "source_chars": 63,
+      "source_sha256": "2564d4bc44879b314c5aba0dfa96bf3ad5f2d485a074915b708d451690ff2fcd",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[21]/p",
+      "source_chars": 123,
+      "source_sha256": "8c20598580061d78eb4d747e0675bb25b61d26a88f2f4654cea2eded0937da07",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0013",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[2]",
+      "source_chars": 10,
+      "source_sha256": "26792e222eb3f9ff9ccc4b88a6cdb3c617a34af6c315b80c356a3483b01b4294",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 10,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 10
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[22]/p",
+      "source_chars": 61,
+      "source_sha256": "60a4ec79cb9d05bc083487fe4229a895c6ea7f0870877ad5bf7412699f604c5f",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 61,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 61
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[26]/p",
+      "source_chars": 114,
+      "source_sha256": "a6594400cff7e320d61e8786fa99b89b02e4d1577f9fe51b17a95de40687d434",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 114,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 114
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[27]/p",
+      "source_chars": 97,
+      "source_sha256": "05c7f764b35ce739126309d681c24988a0536499b08e521cad6231672afa3297",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 97,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 97
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[31]/p",
+      "source_chars": 111,
+      "source_sha256": "20439f79700dd5cbcaa0701c52193cb0161e5ef629ec1c0b278625865f064620",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 111,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 111
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[32]/p",
+      "source_chars": 79,
+      "source_sha256": "9d7e6fef61553e51ad1695548e8264ecef830a2e7bac9d695ef1819e8c3b17f1",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 79,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 79
+    },
+    {
+      "block_id": "B0019",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[3]",
+      "source_chars": 15,
+      "source_sha256": "65edd6d017d71e48395a354f3405bbdce5bf7fab4d9d9e935e0551764dd6c246",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 15,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 15
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[36]/p",
+      "source_chars": 111,
+      "source_sha256": "7df550bae620dedb7fc2acd5578f6fc32bbe4510989952b0d2b1b986f9af38b3",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 111,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 111
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[37]/p",
+      "source_chars": 108,
+      "source_sha256": "3ceeffccbd4d70ddb3a2fac5845d3ea36c73b0f035f539e3ff524da3a2799859",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 108,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 108
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[41]/p",
+      "source_chars": 100,
+      "source_sha256": "54798436003b2811ec23e6a9265d2bf8d618f7eb7d48ad924b1ad49b64edd5a2",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 100,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 100
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[42]/p",
+      "source_chars": 67,
+      "source_sha256": "154f9d4313b865296b9422d82a1954996d1c3a0d75ac92438c2bbf6defe7a7f5",
+      "scope_action": "keep",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "selected_chars": 67,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 67
+    },
+    {
+      "block_id": "B0024",
+      "role": "heading",
+      "xpath": "/html/body/div/h5[4]",
+      "source_chars": 9,
+      "source_sha256": "088965ad6985447bce7bacb5ed03fc55f587bf6e61baf9ed80c3d39177ea37d2",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[43]/p",
+      "source_chars": 37,
+      "source_sha256": "cc3bfcebf28f68e1530bb85b1bf737736800caacdeab80b9fc42539725f5d445",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[47]/p",
+      "source_chars": 110,
+      "source_sha256": "2cdb59c6a4875f808c6b7270156124516715f1b7e31d97a554936e8826744795",
+      "scope_action": "exclude",
+      "reason": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 2026,
+    "scope_chars": 1054,
+    "clean_chars": 1054,
+    "source_blocks": 26,
+    "scope_blocks": 13,
+    "clean_blocks": 13,
+    "rules": {}
+  }
+}

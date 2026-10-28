@@ -1,0 +1,817 @@
+{
+  "doc_id": "ZJJ_NOTE_001",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 46,
+      "source_sha256": "f4c75cc12ac79dd4a4080c64316dec6750ef49d28ac660f5a9975ec665d58f50",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[2]/p",
+      "source_chars": 300,
+      "source_sha256": "ef39412791b25f5f1206f74aec619b5635765cbfa52a5761aca4c0ce7b29ec81",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 300,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 300
+    },
+    {
+      "block_id": "B0003",
+      "role": "caption",
+      "xpath": "/html/body/div/div[3]/div[2]",
+      "source_chars": 26,
+      "source_sha256": "b479ef4f27642cc0f8b0a7031d9d53b3273fd72916df73901251a449a3061f96",
+      "scope_action": "exclude",
+      "reason": "目标景区外的酒店窗景图注"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[4]/p",
+      "source_chars": 299,
+      "source_sha256": "a58371d7fed0eb6c5b9554ef619da4f507213aa73e5310f72dd86cec1c33c0fe",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 299,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 299
+    },
+    {
+      "block_id": "B0005",
+      "role": "caption",
+      "xpath": "/html/body/div/div[5]/div[2]",
+      "source_chars": 14,
+      "source_sha256": "694daaab51b7f142fd8dcaa60c1e5a599412143d21677af547026cb26773db87",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 14,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 14
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[6]/p",
+      "source_chars": 145,
+      "source_sha256": "bdf0a301e4bcc27294fd39dc99f7083f7743d43fe43225f6f1274d2e434c45b8",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 145,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 145
+    },
+    {
+      "block_id": "B0007",
+      "role": "caption",
+      "xpath": "/html/body/div/div[7]/div[2]",
+      "source_chars": 7,
+      "source_sha256": "4f8f05f0f60ac4654ff802cc13eaeeef569b1602e664b70ee9eb38ea0412ae4a",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 7,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 7
+    },
+    {
+      "block_id": "B0008",
+      "role": "caption",
+      "xpath": "/html/body/div/div[8]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "7abbb379eddd0359f6ad6ebef8790e6c6718625659c5310775ab90a7574c9d98",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[9]/p",
+      "source_chars": 196,
+      "source_sha256": "acccb2c0e6763adb8eb856589e58174969aaa34b7d149157433a03721ecdd122",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 196,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 196
+    },
+    {
+      "block_id": "B0010",
+      "role": "caption",
+      "xpath": "/html/body/div/div[10]/div[2]",
+      "source_chars": 8,
+      "source_sha256": "a593acd82bfc55c7465ae14957475e158c9a06e381e83c8dc2e565879c13a565",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0011",
+      "role": "caption",
+      "xpath": "/html/body/div/div[11]/div[2]",
+      "source_chars": 8,
+      "source_sha256": "a593acd82bfc55c7465ae14957475e158c9a06e381e83c8dc2e565879c13a565",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "remove_duplicate_caption",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[12]/p",
+      "source_chars": 240,
+      "source_sha256": "13cee03b0cf207df62d6b9b29b8428909452b1b7e96d7d77de91f8df8e69344f",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 240,
+      "normalization": {
+        "special_spaces": 4,
+        "invisible_characters": 2,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 238
+    },
+    {
+      "block_id": "B0013",
+      "role": "caption",
+      "xpath": "/html/body/div/div[13]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "99b7cfb6ff4435056dd7d6ce0fe453acf4dc390221a5641aacc5443baab72a1b",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 230,
+      "source_sha256": "56501eec7c13fc6a4b732ece0e2cfe811ff7c8a26aa76089e294cf6cefa6e161",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 230,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 230
+    },
+    {
+      "block_id": "B0015",
+      "role": "caption",
+      "xpath": "/html/body/div/div[17]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "e7b362a9f0cd693a73d092430b56a803f2d916e6694e67335874918b4355cd89",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 6,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 6
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[18]/p",
+      "source_chars": 140,
+      "source_sha256": "941e17dd3fab468bc25d1f5e11fd2176601b6bdcc913a44763e923da7f5b5286",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 140,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 140
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[19]/p",
+      "source_chars": 99,
+      "source_sha256": "c74c973a77f7126111e0aab0bcec637a633a200b8a8300693124aafb68db636c",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 99,
+      "normalization": {
+        "special_spaces": 2,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 99
+    },
+    {
+      "block_id": "B0018",
+      "role": "caption",
+      "xpath": "/html/body/div/div[20]/div[2]",
+      "source_chars": 10,
+      "source_sha256": "0746bd438ffcd3c21d88bb413179b6f382be9d6d9809899a00b556c04bf5e0ac",
+      "scope_action": "exclude",
+      "reason": "独立早餐照片图注不含游览信息"
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[21]/p",
+      "source_chars": 143,
+      "source_sha256": "59c2f53ac9ebc952c11108e83fa9f3c01a28618fc10a5c039ebe82f3c9e000bc",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 143,
+      "normalization": {
+        "special_spaces": 4,
+        "invisible_characters": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 142
+    },
+    {
+      "block_id": "B0020",
+      "role": "caption",
+      "xpath": "/html/body/div/div[22]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "ff44a7f21a12850a4a329c8be8d26c9ab2c4d17000ea988e5990af1d45afba7a",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[23]/p",
+      "source_chars": 38,
+      "source_sha256": "2c244cd27b0ad8c93e30e2e789fa0893f854b7d2a9ddd91fcea34f47a2692e62",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 38,
+      "normalization": {
+        "special_spaces": 3,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 38
+    },
+    {
+      "block_id": "B0022",
+      "role": "caption",
+      "xpath": "/html/body/div/div[24]/div[2]",
+      "source_chars": 7,
+      "source_sha256": "847d0e6a5eedb14b6130f0388b7a122f8513058196c5e91ab5fc2e27c40a0153",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 7,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 7
+    },
+    {
+      "block_id": "B0023",
+      "role": "caption",
+      "xpath": "/html/body/div/div[26]/div[2]",
+      "source_chars": 3,
+      "source_sha256": "75068cc986a340a2f65adca0130879f70ecefc0dcf276ddd4b549a8b3856d25b",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 3,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 3
+    },
+    {
+      "block_id": "B0024",
+      "role": "caption",
+      "xpath": "/html/body/div/div[27]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "ffc28fb67f4d1e7ee83305babe9e3842c2e6b0a20ed9be79cd4dfc755b9e4b23",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 5,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 5
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[28]/p",
+      "source_chars": 97,
+      "source_sha256": "7cd4afc6165c07a8c9ee28095965bcb30b73c5e66918b444225d2711b3d2cb3a",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 97,
+      "normalization": {
+        "special_spaces": 4,
+        "invisible_characters": 1,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 96
+    },
+    {
+      "block_id": "B0026",
+      "role": "caption",
+      "xpath": "/html/body/div/div[29]/div[2]",
+      "source_chars": 8,
+      "source_sha256": "fe08c5977b5c3e049b84bbe2e4d981a01323a87b33b6d476eb7635472c1699eb",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0027",
+      "role": "caption",
+      "xpath": "/html/body/div/div[30]/div[2]",
+      "source_chars": 8,
+      "source_sha256": "23877a30468cf5331e6999c72c1f28aa1ad6f3166f44c120b955d953fec1d57a",
+      "scope_action": "keep",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "selected_chars": 8,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 8
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[31]/p",
+      "source_chars": 147,
+      "source_sha256": "71ea467e7e746fdd7024dbcdc04c65e84c8515a69c35808abd834828333ccb25",
+      "scope_action": "clip",
+      "reason": "保留出园返市区交通，排除七十二奇楼观光评述",
+      "clip_anchor": "回到市区的路上拍了72奇楼",
+      "selected_chars": 124,
+      "normalization": {
+        "special_spaces": 4,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 124
+    },
+    {
+      "block_id": "B0029",
+      "role": "caption",
+      "xpath": "/html/body/div/div[32]/div[2]",
+      "source_chars": 10,
+      "source_sha256": "aa4873ec7b30bf3ff183e0fb8b82223397fc35c7ee3e44c1773500e6a61ffbe7",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0030",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[33]/p",
+      "source_chars": 96,
+      "source_sha256": "3da6c7d76f853bc5afda709cd01288eeab661d5af634509b338157f32039bafc",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0031",
+      "role": "caption",
+      "xpath": "/html/body/div/div[34]/div[2]",
+      "source_chars": 15,
+      "source_sha256": "dc0c23f8428e3611e7198dbb0ec48311f816459cd0fd4ead6dd294252736025e",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0032",
+      "role": "caption",
+      "xpath": "/html/body/div/div[35]/div[2]",
+      "source_chars": 3,
+      "source_sha256": "5397f862c272227f6f6a84e9b212daa9ea4c960242d97fee5d46aa41604896df",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0033",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[36]/p",
+      "source_chars": 79,
+      "source_sha256": "aa71f3f43974bc8c3f4a128cc11b84c897d99bb577e0865b7b64478f1bcc1150",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0034",
+      "role": "caption",
+      "xpath": "/html/body/div/div[37]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "3036d916fad911676cea464ac66c2f23b3b565994c2fc396b39edf75c73cb58c",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0035",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[38]/p",
+      "source_chars": 103,
+      "source_sha256": "b5854eb9f0d5f8f552afd768de89b6cdde97af9981cd8e80b046a54bc917bd45",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0036",
+      "role": "caption",
+      "xpath": "/html/body/div/div[39]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "37400734f17d4eec2b4c52f45611b36817afa498e9c23a4effc717977f273c43",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0037",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[40]/p",
+      "source_chars": 190,
+      "source_sha256": "9a7ee7717e8dab39980eef6627e65d64b63c087cec7843823a554213c1442d34",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0038",
+      "role": "caption",
+      "xpath": "/html/body/div/div[41]/div[2]",
+      "source_chars": 9,
+      "source_sha256": "745425803f5d3a6eab9da52c49d71daaf28f417196444bfe682d81830abab0b3",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0039",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[45]/p",
+      "source_chars": 113,
+      "source_sha256": "2d8e53a3f7ea3b852c2478bbd19dd3925f5fb5f1f5df5c9cb9966e2e3cf8511a",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0040",
+      "role": "caption",
+      "xpath": "/html/body/div/div[46]/div[2]",
+      "source_chars": 2,
+      "source_sha256": "4aa32139fc482bbc1dfa8a25975464316a48eb4469af1112640a763c79175be4",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0041",
+      "role": "caption",
+      "xpath": "/html/body/div/div[47]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "b16432d16f19f52890a7c2dc02d0b5e507d9c18a702d63f07dc0ce0ab0c17649",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0042",
+      "role": "caption",
+      "xpath": "/html/body/div/div[48]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "8c6c4a1fda7bd687d920566e42c9673beb076dce19b960d37cfd23975ee1bb23",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0043",
+      "role": "caption",
+      "xpath": "/html/body/div/div[49]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "8ffd0a6ff2067a71c28032e1fd3ca0f3dd8bb29f253da9902b5541ddb245d506",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0044",
+      "role": "caption",
+      "xpath": "/html/body/div/div[50]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "8ffd0a6ff2067a71c28032e1fd3ca0f3dd8bb29f253da9902b5541ddb245d506",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0045",
+      "role": "caption",
+      "xpath": "/html/body/div/div[51]/div[2]",
+      "source_chars": 3,
+      "source_sha256": "13b0dccd6032b698874ef5f405e7631f07c40a49a0c60e4b323dad189e10f28b",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0046",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[52]/p",
+      "source_chars": 95,
+      "source_sha256": "b7f01fe450f7322212606d392bbd93fda98b4620dd165b31684b9e0d9521e95f",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0047",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[53]/p",
+      "source_chars": 40,
+      "source_sha256": "8a0ae5fa4fb56257631d194b24cb825583addd7eaeb263801f0a94eaa5eac048",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0048",
+      "role": "caption",
+      "xpath": "/html/body/div/div[54]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "934c1b149ab51f083a16a88b26385439e78246fbdd5559431b2f70826c60cc90",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0049",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[55]/p",
+      "source_chars": 71,
+      "source_sha256": "089ef7942ecd85fc41ef2b9beafdb4e06a591c681c23ea9630c6a9d23831aabb",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0050",
+      "role": "caption",
+      "xpath": "/html/body/div/div[56]/div[2]",
+      "source_chars": 3,
+      "source_sha256": "8e69d17adb6d2513a886fa83684d01ebda1d0c2e629f4f1a46217b0639d4db98",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0051",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[57]/p",
+      "source_chars": 64,
+      "source_sha256": "8123fca8341a418cadb78ea44ce7c1efa16b831749cdc38b381dbde36df2f20b",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0052",
+      "role": "caption",
+      "xpath": "/html/body/div/div[58]/div[2]",
+      "source_chars": 6,
+      "source_sha256": "ac9436aa33f40dec601e20c4e1d5b65cd677ce190b69f1dc7e4a0b1d88fbee9d",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0053",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[59]/p",
+      "source_chars": 36,
+      "source_sha256": "cfb89216136afe1773d18b124d30d489ab5f67117795efb52d466bccdfdc6871",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0054",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[61]/p",
+      "source_chars": 158,
+      "source_sha256": "aa53210ca508d1d9c90e17a3bddce7865f320a505a3267f833b2b00e7b670e9c",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0055",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[63]/p",
+      "source_chars": 147,
+      "source_sha256": "17d810a8992048c4d0663c6c5e7679f67858edebaaff9494d5d1ec70582f9de6",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0056",
+      "role": "caption",
+      "xpath": "/html/body/div/div[64]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "1b07836688f10b20685b717d7fd0a71aa061b1081807ebd5929ced11cf8789f9",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0057",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[65]/p",
+      "source_chars": 83,
+      "source_sha256": "d195fa39119d8ea0a9ed25a51a9cf776563757c2b3a0de1287992edd1cb0ca21",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0058",
+      "role": "caption",
+      "xpath": "/html/body/div/div[66]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "65cc00469f0cd9e9a653f4eb3ce7d9a929eed5bc84b760c55b7298dfa85b4d35",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0059",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[67]/p",
+      "source_chars": 32,
+      "source_sha256": "6c7879052984b4fae6fbbdb29a49e4d710307d44b86c46fca49ef89f7b8346af",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0060",
+      "role": "caption",
+      "xpath": "/html/body/div/div[68]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "b918886398e264aa9cdc2db347e19f33e161ba146a506db796d8ce7816e50167",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0061",
+      "role": "caption",
+      "xpath": "/html/body/div/div[69]/div[2]",
+      "source_chars": 4,
+      "source_sha256": "b918886398e264aa9cdc2db347e19f33e161ba146a506db796d8ce7816e50167",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0062",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[70]/p",
+      "source_chars": 50,
+      "source_sha256": "f79dbe122d0e5e4c111aeefe68a4662206d2a8a1eb7e6848de64e923e026f4f5",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0063",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[71]/p",
+      "source_chars": 90,
+      "source_sha256": "6613d9406f18e6aaaf4f3d76f5b34c7745d229ca8b30f35315e15ec88fc223f2",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0064",
+      "role": "caption",
+      "xpath": "/html/body/div/div[72]/div[2]",
+      "source_chars": 7,
+      "source_sha256": "718f7c2539fe4daae511fd5ef00f7f56eb4a7654d3f6ae5ce0c2228cede38f58",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0065",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[73]/p",
+      "source_chars": 41,
+      "source_sha256": "d0a5f8f00ab22b29dcb670be6ae76ab3cc48c53f3adb663c7f702c4cabd98b25",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0066",
+      "role": "caption",
+      "xpath": "/html/body/div/div[74]/div[2]",
+      "source_chars": 5,
+      "source_sha256": "dcb72bbd9eba158e10e991b49559fa7405ced749685cbd4185d592091ad3d909",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0067",
+      "role": "caption",
+      "xpath": "/html/body/div/div[75]/div[2]",
+      "source_chars": 7,
+      "source_sha256": "50d1b52e2c4c23066438f45e05977ec8bbcbe831a07b4c3647c73443704d3c6a",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0068",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[76]/p",
+      "source_chars": 103,
+      "source_sha256": "c4f4980ea0830d34510adc0f2bffec9210b3f32cbec65b9eaba3e267d53c1c61",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0069",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[79]/p",
+      "source_chars": 43,
+      "source_sha256": "a154c1132d7d14f69e20f7016242e1ea7e61615e59c44b181301f7b5671e1929",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0070",
+      "role": "caption",
+      "xpath": "/html/body/div/div[80]/div[2]",
+      "source_chars": 3,
+      "source_sha256": "abe73c6a717963ff7a3621bac4d911915d1610c4a3ed86a802ce9c92a9e5f31e",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0071",
+      "role": "caption",
+      "xpath": "/html/body/div/div[81]/div[2]",
+      "source_chars": 12,
+      "source_sha256": "f4b155173f2f660ad6886fb0d72022cfa526d57e573c9b4cdfb8ad9334ee00af",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0072",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[82]/p",
+      "source_chars": 89,
+      "source_sha256": "5124e5cd18f7f9ff017ae0a05db24d98bcb0d05178c1caa981f55cdc4fb2b582",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    },
+    {
+      "block_id": "B0073",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[84]/p",
+      "source_chars": 31,
+      "source_sha256": "5caf0c50657d076b1bc095740ad9906bc6c4c07586bafb32f9a0c9b9a559414c",
+      "scope_action": "exclude",
+      "reason": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 4136,
+    "scope_chars": 2141,
+    "clean_chars": 2129,
+    "source_blocks": 73,
+    "scope_blocks": 25,
+    "clean_blocks": 24,
+    "rules": {
+      "special_spaces": 45,
+      "whitespace_blocks": 12,
+      "remove_duplicate_caption": 1,
+      "invisible_characters": 4
+    }
+  }
+}

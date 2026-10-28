@@ -1,0 +1,281 @@
+{
+  "doc_id": "JYT_NOTE_005",
+  "scope_version": "selected_v2_text_only_1",
+  "blocks": [
+    {
+      "block_id": "B0001",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[1]/p",
+      "source_chars": 139,
+      "source_sha256": "ca38fbc9f6690f9776fa0f7e81bcbe9ffcce36c761e3d4c9afb8100ae717d2f0",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0002",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[2]/p",
+      "source_chars": 68,
+      "source_sha256": "b2ea2dba7fcee3ff7a6d99d32c795befe575479f9e6b2ed09be445c068593356",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0003",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[4]/p",
+      "source_chars": 189,
+      "source_sha256": "c69ddf3b91a5eed15fc4936abd3d034d8f74a84d40150a428e9db1ac3d957882",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0004",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[5]/p",
+      "source_chars": 53,
+      "source_sha256": "301c013bc903d3b2a300d3986c646b77e3ce626673a56193bbd4b351a0414c18",
+      "scope_action": "keep",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。",
+      "selected_chars": 53,
+      "normalization": {},
+      "cleaning_action": "retain",
+      "normalized_chars": 53
+    },
+    {
+      "block_id": "B0005",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[10]/p",
+      "source_chars": 282,
+      "source_sha256": "4d35a3ad50002e2d538735531281504484b9fbeccd0fc075f8fa21f82fcfdce1",
+      "scope_action": "keep",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。",
+      "selected_chars": 282,
+      "normalization": {
+        "special_spaces": 8,
+        "whitespace_blocks": 1
+      },
+      "cleaning_action": "retain",
+      "normalized_chars": 282
+    },
+    {
+      "block_id": "B0006",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[11]/p",
+      "source_chars": 68,
+      "source_sha256": "d76645621794705ed34ef59a39f0c06b9fef090ae47ca6eeb7eb0a9fd3c7d274",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0007",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[13]/p",
+      "source_chars": 39,
+      "source_sha256": "23d9ca0f9af1039a5b9f950db5440a6ae845584fc5e9b273a60758a81995c041",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0008",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[14]/p",
+      "source_chars": 169,
+      "source_sha256": "4741d590740442bc7cb12887fb78970c2acf91f8aeec603234528ae32db58bff",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0009",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[15]/p",
+      "source_chars": 272,
+      "source_sha256": "013e9e65a163337ca55b79bc0f19e2330aba0f6e9195a6bcd96b26547e22d76a",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0010",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[16]/p",
+      "source_chars": 80,
+      "source_sha256": "29df90eee1d0ff14013beb76105096a9112a57622d0436f687f30087cdbc6911",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0011",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[21]/p",
+      "source_chars": 106,
+      "source_sha256": "7d51006f2d485417fbfb8b6100bf41c90e5787c6526d04cb963a70c32a1c6029",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0012",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[22]/p",
+      "source_chars": 33,
+      "source_sha256": "b7961c165254f995f0d4c241ec68004cbb7585ba8d0302e54479eb9b9ba5fd3a",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0013",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[24]/p",
+      "source_chars": 100,
+      "source_sha256": "7f73eca3fc8ac14bffa9f147fdad220bfd61aa5d0b2f36d08d100954a7ba97c6",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0014",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[25]/p",
+      "source_chars": 313,
+      "source_sha256": "de813796327aadb37d53f768e409cfd0e73eb83fb256a59d81aae62733325e60",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0015",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[28]/p",
+      "source_chars": 213,
+      "source_sha256": "294fd7c912fc6c6c9f3963df16750f8992934763ef51417df2922107e8ee5241",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0016",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[35]/p",
+      "source_chars": 120,
+      "source_sha256": "7d75b36d1a8b7e1e19fd9ba4783942eb1e4a471e4c7977c8b32399df626835fa",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0017",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[36]/p",
+      "source_chars": 69,
+      "source_sha256": "ee93805379f89a952dfd0a6bf005d939823cd3f6224281c60966443af74968b9",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0018",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[37]/p",
+      "source_chars": 78,
+      "source_sha256": "8e460303a7f19e267d2aa25202a2055e74568e7d4f05219274ec0141a86c5f9b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0019",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[38]/p",
+      "source_chars": 279,
+      "source_sha256": "1d49e0a8addcbde40d64aa2ceb178c20ec6f71b290ca52cde6dc09f85105dfdc",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0020",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[40]/p",
+      "source_chars": 84,
+      "source_sha256": "f943d0e306d77de747366e62d8550621b0d45b39c1dc9da7f548046d7aa2a65b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0021",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[41]/p",
+      "source_chars": 148,
+      "source_sha256": "0aaa34a8313c6d2367ed010beb089f039679e4a4474794b522f7d33965f5ddab",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0022",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[42]/p",
+      "source_chars": 123,
+      "source_sha256": "fdb298e48ccf92fbaaeae77ac1003269187ab25c021d4a8dc76e69dbbcb16985",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0023",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[50]/p",
+      "source_chars": 241,
+      "source_sha256": "11b1b6226079c2e9952e8fae380144184655567f120c71b5bea8b08902359cbf",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0024",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[51]/p",
+      "source_chars": 92,
+      "source_sha256": "2b8914340fd1eb1df74b6fec5a1e3b345ee8b8791fcfc3f9177ae635697bfc45",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0025",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[58]/p",
+      "source_chars": 103,
+      "source_sha256": "aa107f5a865c481bd35d03e8087691775728c5958539ff2f744b38238a35fca2",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0026",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[59]/p",
+      "source_chars": 32,
+      "source_sha256": "6e11a081b879850bc614fe3ab751a9cdb619f6f53c71d9478207ed5d2fbe3cbb",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0027",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[60]/p",
+      "source_chars": 24,
+      "source_sha256": "e8260a1c0cb22c40f763853d5bfed8cde26268b3a8db6c1014d6afe1081f1f9b",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    },
+    {
+      "block_id": "B0028",
+      "role": "paragraph",
+      "xpath": "/html/body/div/div[61]/p",
+      "source_chars": 17,
+      "source_sha256": "63907d0a4ba0e9ef83fb44e9c8a4d887f393f73f83f9ad8ed9dee4e60b285c48",
+      "scope_action": "exclude",
+      "reason": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。"
+    }
+  ],
+  "metrics": {
+    "source_chars": 3534,
+    "scope_chars": 335,
+    "clean_chars": 335,
+    "source_blocks": 28,
+    "scope_blocks": 2,
+    "clean_blocks": 2,
+    "rules": {
+      "special_spaces": 8,
+      "whitespace_blocks": 1
+    }
+  }
+}
