@@ -1,0 +1,24 @@
+{
+  "entity_mode": "exp02",
+  "upstream": {
+    "artifact_name": "entities_v2.json",
+    "sha256": "29a5a6111a034e19e4a22be46d7ec2dac9f7d7c1756dbca421f4c7e55ff87691",
+    "entity_mentions": 100,
+    "by_type": {
+      "POI": 65,
+      "TIME": 12,
+      "TRANSPORT": 23
+    },
+    "per_doc": {
+      "HS_NOTE_001": 81,
+      "HS_OFF_001": 19
+    },
+    "position_validation": "passed",
+    "identity_policy": "doc_id:type:start:end；名称使用text去空白，canonical仅保留为类别属性"
+  },
+  "semantic_evaluation": "尚无路线级独立人工金标准，位置校验通过不等于语义准确。",
+  "known_upstream_issues": [
+    "小火车仅识别出火车的边界问题保留在来源实体中；不补造乘坐小火车的活动。",
+    "云谷寺索道在上游拆成云谷寺与泛称索道；本模块不自动归并为云谷索道。"
+  ]
+}

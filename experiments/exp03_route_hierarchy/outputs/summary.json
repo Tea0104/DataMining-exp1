@@ -1,0 +1,18 @@
+{
+  "input_doc_ids": [
+    "HS_NOTE_001",
+    "HS_OFF_001"
+  ],
+  "route_count": 3,
+  "steps_by_route": {
+    "tourist_observed": 12,
+    "tourist_declared": 9,
+    "official_recommended": 14
+  },
+  "optional_branches": 1,
+  "excluded_list_steps": 1,
+  "evidence_validation": "passed",
+  "evaluation": "development_diagnostics_only",
+  "upstream_entity_mentions": 100,
+  "entity_source": "exp02_entities_v2"
+}

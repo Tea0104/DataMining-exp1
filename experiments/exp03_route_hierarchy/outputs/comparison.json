@@ -1,0 +1,127 @@
+{
+  "comparisons": [
+    {
+      "official_route_id": "HS_OFF_001:official_recommended",
+      "tourist_route_id": "HS_NOTE_001:tourist_observed",
+      "official_sequence": [
+        "后山",
+        "排云亭",
+        "西海大峡谷北入口",
+        "一环",
+        "二环",
+        "谷底",
+        "天海",
+        "海心亭",
+        "鳌鱼峰",
+        "玉屏景区",
+        "迎客松"
+      ],
+      "tourist_sequence": [
+        "蘑菇亭",
+        "始信峰",
+        "北海宾馆",
+        "猴子观海",
+        "西海饭店",
+        "丹霞峰",
+        "西海饭店",
+        "光明顶",
+        "徽味楼"
+      ],
+      "shared_pois": [],
+      "official_only": [
+        "一环",
+        "二环",
+        "后山",
+        "天海",
+        "排云亭",
+        "海心亭",
+        "玉屏景区",
+        "西海大峡谷北入口",
+        "谷底",
+        "迎客松",
+        "鳌鱼峰"
+      ],
+      "tourist_only": [
+        "丹霞峰",
+        "光明顶",
+        "北海宾馆",
+        "始信峰",
+        "徽味楼",
+        "猴子观海",
+        "蘑菇亭",
+        "西海饭店"
+      ],
+      "official_poi_coverage": 0.0,
+      "poi_jaccard": 0.0,
+      "lcs_length": 0,
+      "lcs_dice": 0.0,
+      "shared_order_lcs_dice": null,
+      "shared_order_note": "共同景点少于2个时不报告顺序一致性；重复到访保留。",
+      "interpretation": "样本描述性对比，非抽取准确率；官方一日路线与游客两天叙述范围不同，低相似度不能直接解释为游客偏离。"
+    },
+    {
+      "official_route_id": "HS_OFF_001:official_recommended",
+      "tourist_route_id": "HS_NOTE_001:tourist_declared",
+      "official_sequence": [
+        "后山",
+        "排云亭",
+        "西海大峡谷北入口",
+        "一环",
+        "二环",
+        "谷底",
+        "天海",
+        "海心亭",
+        "鳌鱼峰",
+        "玉屏景区",
+        "迎客松"
+      ],
+      "tourist_sequence": [
+        "西海饭店",
+        "排云楼宾馆",
+        "飞来石",
+        "光明顶山庄",
+        "天海宾馆",
+        "海心亭",
+        "莲花亭",
+        "玉屏楼宾馆"
+      ],
+      "shared_pois": [
+        "海心亭"
+      ],
+      "official_only": [
+        "一环",
+        "二环",
+        "后山",
+        "天海",
+        "排云亭",
+        "玉屏景区",
+        "西海大峡谷北入口",
+        "谷底",
+        "迎客松",
+        "鳌鱼峰"
+      ],
+      "tourist_only": [
+        "光明顶山庄",
+        "天海宾馆",
+        "排云楼宾馆",
+        "玉屏楼宾馆",
+        "莲花亭",
+        "西海饭店",
+        "飞来石"
+      ],
+      "official_poi_coverage": 0.09090909090909091,
+      "poi_jaccard": 0.05555555555555555,
+      "lcs_length": 1,
+      "lcs_dice": 0.10526315789473684,
+      "shared_order_lcs_dice": null,
+      "shared_order_note": "共同景点少于2个时不报告顺序一致性；重复到访保留。",
+      "interpretation": "样本描述性对比，非抽取准确率；官方一日路线与游客两天叙述范围不同，低相似度不能直接解释为游客偏离。"
+    }
+  ],
+  "metrics": {
+    "official_poi_coverage": "|official∩tourist|/|official|（集合）",
+    "poi_jaccard": "|official∩tourist|/|official∪tourist|（集合）",
+    "lcs_dice": "2*LCS(official,tourist)/(len(official)+len(tourist))（序列）",
+    "shared_order_lcs_dice": "仅保留共同景点后的LCS Dice；共同景点至少2个"
+  }
+}
