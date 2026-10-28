@@ -1,0 +1,1335 @@
+{
+  "survey_date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "scope": "source_feasibility_survey_not_formal_corpus",
+  "formal_target_confirmed_by_user": {
+    "scenic_areas": 3,
+    "official_articles_each": 5,
+    "tourist_articles_each": 5,
+    "total_articles": 30
+  },
+  "http_probe_url_count": 38,
+  "metric_note": "whole_page_text_chars includes navigation and footer; only official_articles body metrics use a verified article selector",
+  "request_note": "38 unique URL probes across four rounds; current CLI is a sequential replay entry with >=2 second intervals; browser observations were performed separately",
+  "discovery": {
+    "ctrip_huangshan": {
+      "listing_pages_checked": 2,
+      "unique_article_ids": [
+        "4011981",
+        "4021018",
+        "4045415",
+        "4069339",
+        "4071300",
+        "4078056",
+        "4081659",
+        "4081953",
+        "4082032",
+        "4082095",
+        "4085730",
+        "4100903",
+        "4110889",
+        "4120584",
+        "4137198",
+        "4138123",
+        "4143838",
+        "4154493",
+        "4169104",
+        "4178610"
+      ],
+      "unique_articles_discovered": 20,
+      "overlap_between_pages": 0,
+      "detail_pages_checked": 3
+    },
+    "ctrip_other_lists": {
+      "ctrip_zhangjiajie_listing": 10,
+      "ctrip_jiuzhai_listing": 10
+    },
+    "ctrip_archive": {
+      "notice_shutdown_time": "2025-11-30 23:59",
+      "notice_meaning": "old travel-blog operations and editing discontinued; existing posts retained",
+      "notice_observed_at": "https://you.ctrip.com/travels/HuangshanScenicArea19/4110889.html",
+      "use": "historical_corpus; do_not_treat_as_current_travel_advice"
+    },
+    "qunar": {
+      "http_listing_unique_article_links": 20,
+      "detail_pages_checked": 2,
+      "seo_year_is_not_trip_year": {
+        "url": "https://touch.travel.qunar.com/youji/7677324",
+        "title_year": 2026,
+        "displayed_departure_date": "2021-05-01"
+      }
+    }
+  },
+  "browser_observations": [
+    {
+      "method": "ordinary_anonymous_browser_navigation",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=%E9%BB%84%E5%B1%B1%E6%B8%B8%E8%AE%B0",
+      "observation": "search shows login required; no authenticated search performed"
+    },
+    {
+      "method": "ordinary_anonymous_browser_navigation",
+      "url": "https://m.mafengwo.cn/i/9389665",
+      "observation": "redirected to passport.mafengwo.cn login; one detail URL tested"
+    },
+    {
+      "method": "ordinary_anonymous_browser_navigation_then_End_key_then_DOM_link_read",
+      "url": "https://touch.travel.qunar.com/youji/search?destId=300200",
+      "initial_entries": 20,
+      "entries_after_scroll": 40,
+      "unique_article_ids_after_scroll": 38,
+      "article_ids_in_dom_order": [
+        "5197625",
+        "4947286",
+        "5058400",
+        "5496889",
+        "5410992",
+        "5434539",
+        "5480745",
+        "5461766",
+        "3027263",
+        "4757285",
+        "4801248",
+        "4444701",
+        "3094919",
+        "5234045",
+        "5398113",
+        "1324622",
+        "5542913",
+        "5506178",
+        "5950502",
+        "5975105",
+        "6441130",
+        "6715919",
+        "6750486",
+        "6768404",
+        "6790388",
+        "6794093",
+        "6770184",
+        "6754002",
+        "6768780",
+        "6793799",
+        "6773668",
+        "6789404",
+        "5542913",
+        "5506178",
+        "6626487",
+        "6655063",
+        "6654799",
+        "6639438",
+        "6826799",
+        "6870735"
+      ],
+      "repeated_article_ids": [
+        "5542913",
+        "5506178"
+      ],
+      "observation": "browser loads more public entries; HTTP pagination/interface still unverified"
+    },
+    {
+      "method": "ordinary_anonymous_browser_navigation",
+      "url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "observation": "readable with one-day/two-day/three-day route sections; one article page, not three independent articles"
+    }
+  ],
+  "official_articles": [
+    {
+      "probe_id": "zhangjiajie_threeday_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html",
+      "title": "三日游路线",
+      "listing_date": "2026-03-26",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 388,
+      "body_chinese_chars": 328,
+      "image_elements_in_body": 0,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_twoday_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html",
+      "title": "两日游路线",
+      "listing_date": "2026-03-26",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 327,
+      "body_chinese_chars": 277,
+      "image_elements_in_body": 0,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_official_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+      "title": "一日游路线",
+      "listing_date": "2026-03-26",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 332,
+      "body_chinese_chars": 282,
+      "image_elements_in_body": 0,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_extra_23",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022145062612.html",
+      "title": "【骑行路线】武陵源城区-森林公园南门",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 135,
+      "body_chinese_chars": 114,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_extra_24",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022132182713.html",
+      "title": "【徒步路线】鹰窝寨徒步路线",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 102,
+      "body_chinese_chars": 91,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_yangjiajie_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "title": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 209,
+      "body_chinese_chars": 188,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_tianzishan_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "title": "【徒步路线】十里画廊-天子山徒步路线",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 222,
+      "body_chinese_chars": 201,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_yaozizhai_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022080383891.html",
+      "title": "【徒步路线】鹞子寨-金鞭溪徒步路线",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 180,
+      "body_chinese_chars": 156,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_huangshizhai_route",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022054078285.html",
+      "title": "【徒步路线】黄石寨徒步路线",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 128,
+      "body_chinese_chars": 108,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_extra_29",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022004274404.html",
+      "title": "【休闲路线】宝峰湖-黄龙洞",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 248,
+      "body_chinese_chars": 225,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_extra_30",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "title": "【休闲路线】黄石寨-金鞭溪-十里画廊",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 228,
+      "body_chinese_chars": 205,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    },
+    {
+      "probe_id": "zhangjiajie_extra_31",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "title": "【休闲路线】袁家界-杨家界-天子山（山上大环线）",
+      "listing_date": "2024-06-30",
+      "body_selector": "div.about.translatable",
+      "body_text_chars": 251,
+      "body_chinese_chars": 224,
+      "image_elements_in_body": 1,
+      "dataset_status": "candidate_not_accepted",
+      "provenance_review_status": "pending_independent_domain_confirmation"
+    }
+  ],
+  "official_overlap_flags": [
+    {
+      "a": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html",
+      "b": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html",
+      "char_5gram_set_jaccard": 0.8274,
+      "action": "review_shared_passages_before_sampling"
+    },
+    {
+      "a": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html",
+      "b": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+      "char_5gram_set_jaccard": 0.7855,
+      "action": "review_shared_passages_before_sampling"
+    },
+    {
+      "a": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html",
+      "b": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+      "char_5gram_set_jaccard": 0.9088,
+      "action": "review_shared_passages_before_sampling"
+    }
+  ],
+  "probes": [
+    {
+      "id": "xiaohongshu_explore",
+      "platform": "xiaohongshu",
+      "kind": "listing",
+      "url": "https://www.xiaohongshu.com/explore",
+      "checked_at": "2026-10-28T15:23:21+08:00",
+      "http_status": 200,
+      "final_url": "https://www.xiaohongshu.com/login?redirectPath=http%3A%2F%2Fwww.xiaohongshu.com%2Fexplore%3FexSource%3Dnull",
+      "bytes": 36720,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "小红书 - 你的生活兴趣社区",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "efe8908c3d841ab7105d20039a9ec8f2b3159ecfb07f1706d25e578f08d55407",
+      "elapsed_seconds": 0.45,
+      "whole_page_text_chars": 14,
+      "whole_page_chinese_chars": 11,
+      "reviewed_result": "http_redirect_to_login; browser_search_also_login_gated"
+    },
+    {
+      "id": "mafengwo_list",
+      "platform": "mafengwo",
+      "kind": "listing",
+      "url": "https://m.mafengwo.cn/note/",
+      "checked_at": "2026-10-28T15:23:21+08:00",
+      "http_status": 200,
+      "final_url": "https://m.mafengwo.cn/note/",
+      "bytes": 21256,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "游记列表 - 马蜂窝",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "d85c1c5f7224843663165e9d97ece0193f06c71088996228f932f5bb290fece0",
+      "elapsed_seconds": 0.5,
+      "whole_page_text_chars": 584,
+      "whole_page_chinese_chars": 347,
+      "reviewed_result": "listing_links_available; does_not_prove_detail_access"
+    },
+    {
+      "id": "mafengwo_huangshan",
+      "platform": "mafengwo",
+      "kind": "detail",
+      "url": "https://m.mafengwo.cn/i/9389665",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 202,
+      "final_url": "https://www.mafengwo.cn/i/9389665.html?static_url=true",
+      "bytes": 209,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "cb7851e716fe40aab682229a1b10530262264f2f958ef12d13a662ca2d198aa7",
+      "elapsed_seconds": 0.52,
+      "whole_page_text_chars": 0,
+      "whole_page_chinese_chars": 0,
+      "reviewed_result": "http_202_empty_body; browser_redirect_to_passport_login"
+    },
+    {
+      "id": "ctrip_huangshan_list",
+      "platform": "ctrip",
+      "kind": "listing",
+      "url": "https://you.ctrip.com/travels/huangshan19/t2-d1",
+      "checked_at": "2026-10-28T15:23:21+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/huangshan19/t2-d1",
+      "bytes": 337784,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "黄山风景区旅游游记,黄山风景区游记攻略,黄山风景区精品/热门/最新游记推荐【携程攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "0e414415751c911e243734d83303ebc9e9318216c69f30e139de05a9a7ff3dac",
+      "elapsed_seconds": 0.55,
+      "whole_page_text_chars": 2180,
+      "whole_page_chinese_chars": 1200,
+      "reviewed_result": "listing_available; candidate_not_accepted",
+      "candidate_links": [
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4178610.html",
+          "text": "黄山随笔黄戈ALEX发表于 2025-11-24最新回复 2025-11-24黄山之景，奇绝天下。山势陡峭，峰峦叠嶂，怪石嶙峋，或如人立，或似兽蹲，或若仙人对弈，千姿百态，皆由花......1天，2025-05-01，￥1000，亲子57500"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4169104.html",
+          "text": "毕业旅行总要去一趟黄山吧！中国最美大山之一：蕴藏着人生旅途苏丹卿发表于 2025-07-14最新回复 2025-07-14黄山归来不看岳。若再看山，必然归来是黄山。作为中国最美的大山，黄山自古就受到历朝历代......1天，2025-07-07，和朋友129110"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4154493.html",
+          "text": "黄山简易游纪行人牛俱忘发表于 2025-01-03最新回复 2025-01-03最简易的黄山自由行：高铁黄山北站下车乘大巴前往寨西换乘站，再乘景区大巴前往云谷索道站乘缆车到白鹤岭，......1天，2024-10-24，￥1000，一个人690600"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4143838.html",
+          "text": "黄山夏日行灵活de胖子666发表于 2024-08-14最新回复 2024-08-14黄山，不仅以奇松怪石诉说着岁月的沧桑，更以日出日落的壮阔，让孩子们在暑假......2天，2024-08-10，￥1100，亲子157800"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4138123.html",
+          "text": "徽州游--徒步YoYo_4X6C7R7A发表于 2024-06-18最新回复 2024-06-18黄山甘棠镇——登山徒步的佳选之地黄山以独特的地貌、景色傲居五岳之首。地处皖南，气候宜......2天，2024-06-08，￥500，夫妻28600"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4137198.html",
+          "text": "一次说走就走的出行，一夜奔赴千里登天都峰之往返与你一生一世发表于 2024-06-04最新回复 2024-06-04出行起源于几句闲聊，无意中说起今年黄山天都峰开放了！信手用导航搜索了一下，全程485......1天，2024-06-01，￥600，和朋友141231"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4120584.html",
+          "text": "#江浙沪包游记#-海量美图教你周末玩遍黄山YoYo_3O4S5W8F发表于 2023-12-11最新回复 2023-12-11&n......2天，2023-11-18，￥600，一个人233312"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4110889.html",
+          "text": "黄山游记（带着老人）四咪宝发表于 2023-08-29最新回复 2023-08-29黄山归来不看山，心中的黄山梦终于在今年的8月15日成行了。上海站当天第一班始发，终点......2天，2023-08-15，和父母144701"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4100903.html",
+          "text": "霞客行 | 探寻徐霞客的足迹之旅——黄山攻略流云逸途发表于 2023-06-03最新回复 2023-06-04开局一张图，内容全靠编！然黄山之美，但编无妨！......2天190100"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4085730.html",
+          "text": "冬游黄山YoYo_6W1W2O2W发表于 2023-01-10最新回复 2023-01-10黄山十几年前公司活动去过一次，跟的团，一堆的人，所以只是有印象去过，那一次西海就没去成，一直想抽空再......2天，2022-11-19，夫妻201010"
+        }
+      ]
+    },
+    {
+      "id": "ctrip_huangshan_2020",
+      "platform": "ctrip",
+      "kind": "detail",
+      "url": "https://you.ctrip.com/travels/huangshan120061/3962261.html",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/huangshan120061/3962261.html",
+      "bytes": 433429,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "2020年8月  夏  登黄山 - 黄山市游记攻略【携程攻略】目录图标",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "4e9bbdc9e5f6e94b332c80234af9c423d84df86d6343df094625b7330da5a997",
+      "elapsed_seconds": 0.52,
+      "whole_page_text_chars": 4193,
+      "whole_page_chinese_chars": 3256,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "ctrip_huangshan_2021",
+      "platform": "ctrip",
+      "kind": "detail",
+      "url": "https://you.ctrip.com/travels/huangshan19/4004430.html",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/huangshan19/4004430.html",
+      "bytes": 261781,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "黄山风景区，一日游攻略 - 黄山风景区游记攻略【携程攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "24e02a44bd3a7a40b6d7c59218518f1124201b3ef98736c5779456e1b7c5497d",
+      "elapsed_seconds": 0.55,
+      "whole_page_text_chars": 2323,
+      "whole_page_chinese_chars": 1819,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "qunar_home",
+      "platform": "qunar",
+      "kind": "listing",
+      "url": "https://travel.qunar.com/",
+      "checked_at": "2026-10-28T15:23:21+08:00",
+      "http_status": 200,
+      "final_url": "https://travel.qunar.com/",
+      "bytes": 2950,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "非常抱歉，您访问的页面不存在-去哪儿网Qunar.com",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "9dff44e0c39c3871a9c6cfdddae2ec9e81a21d148c5675c8c7473e33099426ae",
+      "elapsed_seconds": 0.33,
+      "whole_page_text_chars": 56,
+      "whole_page_chinese_chars": 41,
+      "reviewed_result": "http_200_soft_404; mobile_routes_tested_separately"
+    },
+    {
+      "id": "qunar_huangshan",
+      "platform": "qunar",
+      "kind": "detail",
+      "url": "https://touch.travel.qunar.com/youji/7677324",
+      "checked_at": "2026-10-28T15:23:21+08:00",
+      "http_status": 200,
+      "final_url": "https://touch.travel.qunar.com/youji/7677324",
+      "bytes": 42161,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "黄山-呈坎古镇-屯溪老街-黎阳in巷三日游,2026黄山游记,黄山旅游/自助游/自由行/游玩攻略-【去哪儿攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "e44c27b21c7fee4311ce0c6879293f23c88e39ba22ab41603c0676ea080b6f09",
+      "elapsed_seconds": 0.41,
+      "whole_page_text_chars": 2475,
+      "whole_page_chinese_chars": 1923,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "qunar_jiuzhai",
+      "platform": "qunar",
+      "kind": "detail",
+      "url": "https://touch.travel.qunar.com/youji/4825680",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 200,
+      "final_url": "https://touch.travel.qunar.com/youji/4825680",
+      "bytes": 100287,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "逍遥游四川,2026九寨沟游记,九寨沟旅游/自助游/自由行/游玩攻略-【去哪儿攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "e1870698de9c96fe42857d031d667a814d0869bab38db85783ad1e7934ede250",
+      "elapsed_seconds": 0.38,
+      "whole_page_text_chars": 14865,
+      "whole_page_chinese_chars": 11964,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "huangshan_official",
+      "platform": "huangshan_official",
+      "kind": "official_detail",
+      "url": "https://hsgwh.huangshan.gov.cn/lyfw/xltj/9195903.html",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "error": "HTTP Error 412: Precondition Failed",
+      "http_status": 412,
+      "elapsed_seconds": 0.12,
+      "reviewed_result": "http_412; body_unavailable_in_this_probe"
+    },
+    {
+      "id": "jiuzhai_official_home",
+      "platform": "jiuzhai_official",
+      "kind": "official_listing",
+      "url": "https://www.jiuzhai.com/",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 200,
+      "final_url": "https://www.jiuzhai.com/",
+      "bytes": 127104,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "九寨沟景区官方网站 - 首页",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "9ef70885ec65692b10bc662e1868734478951ce4ab2cab94f1746b414adb08a6",
+      "elapsed_seconds": 1.03,
+      "whole_page_text_chars": 2486,
+      "whole_page_chinese_chars": 1214,
+      "reviewed_result": "homepage_available; not_article_count_evidence"
+    },
+    {
+      "id": "zhangjiajie_official_home",
+      "platform": "zhangjiajie_official",
+      "kind": "official_listing",
+      "url": "https://www.zhangjiajieuggp.org.cn/",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/",
+      "bytes": 52998,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "7e856656a13ff9df1c5cd07a2258e66bd56c329efd44077ebd79bba75ac1bcd8",
+      "elapsed_seconds": 0.44,
+      "whole_page_text_chars": 2235,
+      "whole_page_chinese_chars": 1752,
+      "reviewed_result": "homepage_available; not_article_count_evidence"
+    },
+    {
+      "id": "zhangjiajie_official_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+      "checked_at": "2026-10-28T15:23:23+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+      "bytes": 11575,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "一日游路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "cfbbc8f2cee6ad57bdd43f29d2554d50bbe52a7b27f7a8fa4606a41fcaf4ef0e",
+      "elapsed_seconds": 0.39,
+      "whole_page_text_chars": 757,
+      "whole_page_chinese_chars": 570,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "gugong_official",
+      "platform": "gugong_official",
+      "kind": "official_listing",
+      "url": "https://www.dpm.org.cn/Visit.html",
+      "checked_at": "2026-10-28T15:23:22+08:00",
+      "http_status": 200,
+      "final_url": "https://www.dpm.org.cn/Visit.html",
+      "bytes": 215502,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "导览 - 故宫博物院",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "035cb2b212f5243bf88ece9a540c2fcacab0471101e25d0b91ac2add170600c7",
+      "elapsed_seconds": 0.34,
+      "whole_page_text_chars": 7126,
+      "whole_page_chinese_chars": 5323,
+      "reviewed_result": "guide_page_available; route_sections_not_independent_article_count"
+    },
+    {
+      "id": "ctrip_huangshan_page2",
+      "platform": "ctrip",
+      "kind": "listing",
+      "url": "https://you.ctrip.com/travels/huangshan19/t2-p2-d1",
+      "checked_at": "2026-10-28T15:25:58+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/huangshan19/t2-p2-d1",
+      "bytes": 335964,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "黄山风景区旅游游记,黄山风景区游记攻略,黄山风景区精品/热门/最新游记推荐【携程攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "c55af1f5dbcaed188820a30cb2d784625f32406c20e2b17167c3ceabab7c267b",
+      "elapsed_seconds": 0.48,
+      "whole_page_text_chars": 2021,
+      "whole_page_chinese_chars": 1034,
+      "reviewed_result": "listing_available; candidate_not_accepted",
+      "candidate_links": [
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4082032.html",
+          "text": "黄山 （四）玉屏景区sds88发表于 2022-11-18最新回复 2022-11-18......2天，2022-11-02，￥1500，一个人212500"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4082095.html",
+          "text": "黄山 (三)  光明顶sds88发表于 2022-11-18最新回复 2022-11-18......2天，2022-11-02，￥1500，一个人426900"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4081953.html",
+          "text": "黄山  （二） 西海大峡谷sds88发表于 2022-11-17最新回复 2022-11-17黄山西海大峡谷因谷中有白云溪，又称“白云谷”。其自钓桥庵至排云亭下，全长......2天，2022-11-02，￥1500，一个人281900"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4081659.html",
+          "text": "黄山  (一) 北海景区sds88发表于 2022-11-17最新回复 2022-11-17黄山风景区举世闻名，在安徽省黄山市境内，黄山，古称黟山，因峰岩青灰，遥望......2天，2022-11-02，￥1500，一个人189011"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/China110000/4078056.html",
+          "text": "我的黄山印象YoYo_0I5G8F0P发表于 2022-10-05最新回复 2022-10-05适用（后山上，前山下）：......2天，2022-10-02，￥1250，亲子215132"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4071300.html",
+          "text": "黄山二日游记履言发表于 2022-08-02最新回复 2022-08-02时疫稍安，携妻女同游，遍阅攻略，仍未能避坑。作此供游人方便出行。......2天，2022-07-31，￥1500，亲子256111"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4069339.html",
+          "text": "大美黄山YoYo_3E4O1T4T发表于 2022-07-18最新回复 2022-07-18再好的文案，都不如亲眼所见......1天，2022-07-06，￥300，和朋友166000"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4045415.html",
+          "text": "与知还云岫轻奢度假民宿相遇的第一场雪山野闲夫发表于 2021-12-25最新回复 2021-12-25黄山知还云岫轻奢度假民宿云岫套房的小茶室......2天，￥600，一个人234933"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4021018.html",
+          "text": "黄山荣逸泳池狂欢—水枪泡泡、西瓜烧烤的激情碰撞YoYo_9P5U2K5A发表于 2021-07-08最新回复 2021-07-08不知不觉，夏天已如期而至，渐渐炎热的天气，加速了大家想要游泳嬉水的步伐。你是否也想要一个能听潺潺流水......1天，2021-07-07，￥500，亲子66422120"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/HuangshanScenicArea19/4011981.html",
+          "text": "妙想黄山│大千世界一方黄山，十二时辰万般禅意奔跑吧阿常发表于 2021-05-22最新回复 2021-05-22你可否知道 黄山所在的地方......2天，一个人3.4万15719"
+        }
+      ]
+    },
+    {
+      "id": "ctrip_huangshan_elder",
+      "platform": "ctrip",
+      "kind": "detail",
+      "url": "https://you.ctrip.com/travels/HuangshanScenicArea19/4110889.html",
+      "checked_at": "2026-10-28T15:25:59+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/HuangshanScenicArea19/4110889.html",
+      "bytes": 242378,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "黄山游记（带着老人） - 黄山风景区游记攻略【携程攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "453cbcb2080ebd6dc441d330bbb6bf2c85311160c75fbd22a4c2a44634dee407",
+      "elapsed_seconds": 0.36,
+      "whole_page_text_chars": 2362,
+      "whole_page_chinese_chars": 1868,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "qunar_huangshan_listing",
+      "platform": "qunar",
+      "kind": "listing",
+      "url": "https://touch.go.qunar.com/300200",
+      "checked_at": "2026-10-28T15:25:58+08:00",
+      "http_status": 200,
+      "final_url": "https://touch.go.qunar.com/300200",
+      "bytes": 13429,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "2026黄山旅游攻略,自助游/自驾/游玩攻略/吃喝玩乐攻略指南-【去哪儿攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "d21d87644422d0bb54a3260f14351f5a4657e37c7bbb1de98bd06a6ee12227b5",
+      "elapsed_seconds": 0.97,
+      "whole_page_text_chars": 431,
+      "whole_page_chinese_chars": 322,
+      "reviewed_result": "listing_available; candidate_not_accepted"
+    },
+    {
+      "id": "jiuzhai_way_of_play",
+      "platform": "jiuzhai_official",
+      "kind": "official_listing",
+      "url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "checked_at": "2026-10-28T15:25:58+08:00",
+      "error": "HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "elapsed_seconds": 0.16,
+      "reviewed_result": "urllib_403; ordinary_browser_readable; one_page_three_route_sections"
+    },
+    {
+      "id": "jiuzhai_products",
+      "platform": "jiuzhai_official",
+      "kind": "official_listing",
+      "url": "https://www.jiuzhai.com/tourism-product",
+      "checked_at": "2026-10-28T15:25:58+08:00",
+      "error": "HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "elapsed_seconds": 0.16,
+      "reviewed_result": "urllib_403; not_browser_verified"
+    },
+    {
+      "id": "zhangjiajie_guides",
+      "platform": "zhangjiajie_official",
+      "kind": "official_listing",
+      "url": "https://www.zhangjiajieuggp.org.cn/lmurl.php?nt_id=36",
+      "checked_at": "2026-10-28T15:25:58+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/txt_list.php?nt_id=36",
+      "bytes": 13418,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "旅游攻略_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "855b6aae63b91a33a465995eb0667b8f9861cb3cb51a32e0bc543019a5e6a13a",
+      "elapsed_seconds": 0.45,
+      "whole_page_text_chars": 738,
+      "whole_page_chinese_chars": 431,
+      "reviewed_result": "listing_available; candidate_not_accepted",
+      "candidate_links": [
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html",
+          "text": "三日游路线\r\n                                2026-03-26"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html",
+          "text": "两日游路线\r\n                                2026-03-26"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+          "text": "一日游路线\r\n                                2026-03-26"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022145062612.html",
+          "text": "【骑行路线】武陵源城区-森林公园南门\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022132182713.html",
+          "text": "【徒步路线】鹰窝寨徒步路线\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+          "text": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+          "text": "【徒步路线】十里画廊-天子山徒步路线\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022080383891.html",
+          "text": "【徒步路线】鹞子寨-金鞭溪徒步路线\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022054078285.html",
+          "text": "【徒步路线】黄石寨徒步路线\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022004274404.html",
+          "text": "【休闲路线】宝峰湖-黄龙洞\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+          "text": "【休闲路线】黄石寨-金鞭溪-十里画廊\r\n                                2024-06-30"
+        },
+        {
+          "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+          "text": "【休闲路线】袁家界-杨家界-天子山（山上大环线）\r\n                                2024-06-30"
+        }
+      ]
+    },
+    {
+      "id": "zhangjiajie_yangjiajie_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "checked_at": "2026-10-28T15:25:59+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "bytes": 10983,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "f2c7e3cac624a10ef4f22ea1aeaa4c6a0245a5632e927973aed9faefd27f4ae0",
+      "elapsed_seconds": 0.2,
+      "whole_page_text_chars": 666,
+      "whole_page_chinese_chars": 500,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_tianzishan_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "checked_at": "2026-10-28T15:25:59+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "bytes": 11005,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【徒步路线】十里画廊-天子山徒步路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "d7c5a2d72db4eeba80898b323426369c7bb6d783624af9f37dac227ec8365a76",
+      "elapsed_seconds": 0.19,
+      "whole_page_text_chars": 673,
+      "whole_page_chinese_chars": 509,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_yaozizhai_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022080383891.html",
+      "checked_at": "2026-10-28T15:25:59+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022080383891.html",
+      "bytes": 10858,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【徒步路线】鹞子寨-金鞭溪徒步路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "0d1389e39cdc0db8d5958f6b7ccb9b0f2201a3aba88e5611127bdd61d16ae591",
+      "elapsed_seconds": 0.23,
+      "whole_page_text_chars": 629,
+      "whole_page_chinese_chars": 462,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_huangshizhai_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022054078285.html",
+      "checked_at": "2026-10-28T15:25:59+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022054078285.html",
+      "bytes": 10714,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【徒步路线】黄石寨徒步路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "b2ca6c98bb86e2fabcad866672a3b067855e37cdb37f15e3f74ea17c006ff84f",
+      "elapsed_seconds": 0.14,
+      "whole_page_text_chars": 569,
+      "whole_page_chinese_chars": 408,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "qunar_huangshan_youji_list",
+      "platform": "qunar",
+      "kind": "listing",
+      "url": "https://touch.travel.qunar.com/youji/search?destId=300200",
+      "checked_at": "2026-10-28T15:27:34+08:00",
+      "http_status": 200,
+      "final_url": "https://touch.travel.qunar.com/youji/search?destId=300200",
+      "bytes": 18985,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "title": "2026黄山最新游记,黄山旅行经验/实用信息,黄山国内外精华游记推荐-【去哪儿攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "f8b25ea0eb97077125e6665a7c1c4d566e0195c1fb9aa0f81300d8cc619b31d4",
+      "elapsed_seconds": 0.25,
+      "whole_page_text_chars": 1151,
+      "whole_page_chinese_chars": 537,
+      "reviewed_result": "public_list_available; browser_scroll_added_entries; scope_filter_required",
+      "candidate_links": [
+        {
+          "url": "https://touch.travel.qunar.com/youji/5496889",
+          "text": "景德镇婺源宏村西递黄山厦门鼓浪屿之行2015.03.18出发/共14天/284图李小牛你真牛"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/5410992",
+          "text": "黄山——不是一个人的故事2015.04.18出发/共2天/94图qunar用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/5434539",
+          "text": "四个驴子实践的：三明到黄山的黄金攻略2012.08.20出发/共6天/48图杨琳姐姐"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/5480745",
+          "text": "徽州---亲子、美食、文化之旅2015.05.01出发/共3天/50图月亮宝贝11"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/5461766",
+          "text": "探寻徽州古村的青砖白瓦——宏村，西递2015.04.22出发/共1天/24图luqiya278406"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/4757285",
+          "text": "秋色塔川，徽州记忆2014.11.11出发/共2天/34图去哪儿用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/3094919",
+          "text": "杭州+黄山4天舒适游2014.03.29出发/共4天/89图Herry小圆"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/3027263",
+          "text": "雨中曲——黄山 宏村 翡翠谷端午之行2013.06.10出发/共2天/68图去哪儿用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/4444701",
+          "text": "品味黄山2014.09.09出发/共3天/111图ALEX871218"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/5234045",
+          "text": "2015春节游2015.02.16出发/共9天/53图hbxtdaisy"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/4801248",
+          "text": "徽韵一瞥---安徽黄山、宏村、屯溪老街2013.09.19出发/共3天/28图去哪儿用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/4947286",
+          "text": "水墨黄山2014.12.20出发/共2天/134图桔子coco"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/5398113",
+          "text": "初见皖南，再出发！2015.03.13出发/共4天/73图去哪儿用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/1324622",
+          "text": "黄山、杭州6日游2013.02.18出发/共6天/2图qlsd2124"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/6715919",
+          "text": "回顾我的贰〇壹陆--江南、西藏、中原、西北行2016.01.01出发/共25天/335图去哪儿用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/6750486",
+          "text": "三月寻花于江右，青砖黛瓦梦归处（从婺源到宏村）2016.03.11出发/共8天/340图筱莲_"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/6768404",
+          "text": "2016，我的旅行册2016.01.01出发/共99天/123图去哪儿用户"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/6790388",
+          "text": "抓住盛夏的尾巴，去疯狂一把（黄山，宏村超详细4天攻略）2015.09.05出发/共4天/88图Syu20"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/6794093",
+          "text": "新年伊始，我驾着我的小白带小伙伴们游醉美黄山2014.12.31出发/共3天/166图娜娜959"
+        },
+        {
+          "url": "https://touch.travel.qunar.com/youji/6770184",
+          "text": "2014国庆皖南自驾游2014.10.03出发/共4天/447图threeants"
+        }
+      ]
+    },
+    {
+      "id": "zhangjiajie_twoday_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html",
+      "checked_at": "2026-10-28T15:27:34+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620135033852.html",
+      "bytes": 11372,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "两日游路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "ad1d4f5935bcde5e87cea551d7e380dfc9895ef7593021db93d0292091c18e63",
+      "elapsed_seconds": 0.3,
+      "whole_page_text_chars": 751,
+      "whole_page_chinese_chars": 565,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_threeday_route",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html",
+      "checked_at": "2026-10-28T15:27:34+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620161311924.html",
+      "bytes": 12144,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "三日游路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "b69c28c1d9e2765777b073e551d0bad4c94176e7e5b12563c0c9964d7d6b26ea",
+      "elapsed_seconds": 0.2,
+      "whole_page_text_chars": 814,
+      "whole_page_chinese_chars": 616,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "ctrip_zhangjiajie_family",
+      "platform": "ctrip",
+      "kind": "detail",
+      "url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+      "checked_at": "2026-10-28T15:27:34+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+      "bytes": 435286,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "张家界\\凤凰\\长沙●亲子游攻略（包含具体路线行程，行李托运等方面） - 张家界游记攻略【携程攻略】目录图标",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "53938685ccd167a6c1a2f473faf0f7b206589b1f054d41025404c332e9c30e70",
+      "elapsed_seconds": 0.61,
+      "whole_page_text_chars": 4594,
+      "whole_page_chinese_chars": 3571,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "ctrip_zhangjiajie_listing",
+      "platform": "ctrip",
+      "kind": "listing",
+      "url": "https://you.ctrip.com/travels/zhangjiajie23/t2-d2-m2-c1",
+      "checked_at": "2026-10-28T15:27:34+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/zhangjiajie23/t2-d2-m2-c1",
+      "bytes": 337754,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "张家界旅游游记,张家界游记攻略,张家界精品/热门/最新游记推荐【携程攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "3d2fbeb8fd79bc95d31b6412963c4e7fc7d08a5628d48389f303916123de1828",
+      "elapsed_seconds": 0.45,
+      "whole_page_text_chars": 2167,
+      "whole_page_chinese_chars": 1171,
+      "reviewed_result": "listing_available; candidate_not_accepted",
+      "candidate_links": [
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+          "text": "张家界森林公园，天门山，长沙5日游记木一南发表于 2025-08-06最新回复 2025-08-062025.7.22-2025-7.26，张家界，长沙，5日游，我和闺女两人，人均消费3000......5天，2025-07-24，￥3000，亲子334376"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4142715.html",
+          "text": "两天时间逛张家界 带着爸妈去爬山浮夸的优雅发表于 2024-08-03最新回复 2024-08-03暑假期间，我终于有了假期。趁着还单身，决定多去一些地方玩玩。爸妈知道我要去张家界的时候，问我能不能一......4天，2024-07-09，￥3100，亲子153800"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4142672.html",
+          "text": "张家界，领略这迷人的仙境景色笑书神侠张发表于 2024-08-02最新回复 2024-08-02张家界，暑假的旅行目的地。我们终于来了！提前在网上定好车票，房间；景点门票也是提前定......3天，2024-07-16，￥1500，亲子20510"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4138894.html",
+          "text": "近期带着家人去了趟张家界旅游，这里给大家分享下自己的旅行体验！红尘张家界阿文发表于 2024-06-23最新回复 2024-06-24去年就计划着要去一趟张家界旅游的，一直没安排过来，刚好今年孩子高考完了，自己也有假期了，就带着......4天，2024-06-12，￥1200，亲子85502"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4138451.html",
+          "text": "2024去张家界旅游，让我们以青春为引红尘作伴逍遥游！红尘张家界阿文发表于 2024-06-20最新回复 2024-06-20通过去过的朋友介绍张家界当地导游红尘张家界阿文给我我们的行程：张家界国家森林公园、天......5天，2024-06-11，￥1500，亲子18700"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4108851.html",
+          "text": "张家界森林公园实用攻略lswangping发表于 2023-08-10最新回复 2023-08-10张家界森林公园由多个小景区组成，面积很大，门票4天有效，结合我的游玩经历给大家如下建......3天，2023-08-02，￥1000，亲子62001"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4102328.html",
+          "text": "2023年暑假张家界亲子游攻略6弄嘻嘻发表于 2023-06-18最新回复 2023-06-18趁着假期，快带孩子一起来张家界玩吧......5天，2023-06-02，￥1500，亲子221300"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4069713.html",
+          "text": "情在张家界，爱在武陵源！罗云蒽发表于 2022-07-20最新回复 2022-07-20#张家界武陵源景区二日游攻略##张家界森林公园#......3天，2022-07-10，￥1500，亲子128510"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4069216.html",
+          "text": "儿子陪我游祖国之湖南篇（路线篇）漪澜930发表于 2022-07-16最新回复 2022-07-16行程......5天，2022-07-08，￥3000，亲子187600"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Zhangjiajie23/4024727.html",
+          "text": "带着宝贝游玩张家界武陵源（亲子游）罗云琦吻发表于 2021-07-25最新回复 2021-07-25张家界亲子游：......3天，2021-07-08，￥1200，亲子5856179"
+        }
+      ]
+    },
+    {
+      "id": "ctrip_jiuzhai_listing",
+      "platform": "ctrip",
+      "kind": "listing",
+      "url": "https://you.ctrip.com/travels/jiuzhaigou25/t2-m3",
+      "checked_at": "2026-10-28T15:27:35+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/travels/jiuzhaigou25/t2-m3",
+      "bytes": 337831,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "title": "九寨沟旅游游记,九寨沟游记攻略,九寨沟精品/热门/最新游记推荐【携程攻略】",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "4b5c310575a89c8c9c1b0d4f025e35d199cd6fe4cdeab060afe967f023c31265",
+      "elapsed_seconds": 0.38,
+      "whole_page_text_chars": 2277,
+      "whole_page_chinese_chars": 1213,
+      "reviewed_result": "listing_available; candidate_not_accepted",
+      "candidate_links": [
+        {
+          "url": "http://you.ctrip.com/travels/Sichuan100009/4178221.html",
+          "text": "走进九寨沟，闯入童话秘境（下篇） 穿行树正画廊，邂逅九寨藏在柔波里的惊艳大白羊16发表于 2025-11-19最新回复 2025-11-19 犀牛海长 2000 米、宽 225 米、深 17 米，是九寨沟第二大湖泊，秋日里满山秋色倒映湖中，景致比实景更显绚烂。......1天，2025-11-02，￥460，夫妻49700"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/China110000/4178310.html",
+          "text": "走进九寨沟，闯入童话秘境（中篇） 一日穿行双沟，醉在九寨的斑斓与壮阔里大白羊16发表于 2025-11-19最新回复 2025-11-19九寨沟景区是国家 5A 级旅游景区，也是中国唯一、世界罕见的以高山湖泊群、瀑布群和......1天，2025-10-31，￥450，夫妻65100"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/China110000/4178308.html",
+          "text": "走进九寨沟，闯入童话秘境（上篇） 踏风赴九寨，赴一场藏在川北的斑斓之约大白羊16发表于 2025-11-18最新回复 2025-11-18九寨沟，这颗镶嵌在川北高原的璀璨明珠，早已凭着“童话世界”“水景之王”......8天，2025-10-28，￥4000，夫妻60900"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Sichuan100009/4175691.html",
+          "text": "四川八天双人游2025.9.13-20YoYo_5U3F7F3L发表于 2025-10-03最新回复 2025-10-02期待已久的四川之行终于在 2025.9.13日启程，8点萧山机场起飞到天府机场10：......8天，2025-09-13，￥5000，夫妻11500"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Jiuzhaigou25/4173693.html",
+          "text": "#九寨沟-跌落人间的调色盘易程盼达发表于 2025-09-08最新回复 2025-09-08九寨沟 游记：跌落人间的调色盘......3天，2025-09-05，￥1000，一个人105510"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Jiuzhaigou25/4159840.html",
+          "text": "带着老妈游四川之阆中+都江堰+九寨黄龙八日自由行全记录若枫_幸福发表于 2025-03-27最新回复 2025-03-28又是一年秋高气爽，这一次带上老妈开启走遍祖国大好河山模式之秋日行。大美中国名山大川美景繁多，爸爸妈妈......8天，2024-10-17，￥4500，和父母163110"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Jiuzhaigou25/4157001.html",
+          "text": "秋游九寨  悦山河YoYo_2N0Y9X2L发表于 2025-02-14最新回复 2025-02-14......2天，2024-10-30，￥500，和朋友139100"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Jiuzhaigou25/4151701.html",
+          "text": "祖孙三代勇闯川西——黄龙、九寨、成都熊猫基地、三星堆、成都博物馆YoYo_8A1E8L7C发表于 2024-12-03最新回复 2024-12-03六天五晚......6天，2024-11-17，和父母314901"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Jiuzhaigou25/4152062.html",
+          "text": "淡季成都租车去川西有什么好玩的地方值得推荐四川结伴之旅scjbzlw发表于 2024-12-02最新回复 2024-12-02淡季有大量的9座保姆车可以调用，跑阿坝、甘孜、川西均可，全是老司机，车全是正规旅游有......3天，2024-11-30，￥2680，和朋友50200"
+        },
+        {
+          "url": "http://you.ctrip.com/travels/Chengdu104/4151733.html",
+          "text": "在巴适的四川来一次特种兵式的旅行BettyLee1989发表于 2024-11-26最新回复 2024-11-26本以为休假能很好地放松一下，缓解一下打工人浓重的“班味”，没想到来到四川体验了一次特......7天，2024-11-16，￥6000，和朋友21610"
+        }
+      ]
+    },
+    {
+      "id": "zhangjiajie_extra_23",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022145062612.html",
+      "checked_at": "2026-10-28T15:35:05+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022145062612.html",
+      "bytes": 10731,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【骑行路线】武陵源城区-森林公园南门_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "a0d771b3a6b1a7dc540ff86424c4693f62cf5dc70441a9ffce4b24564a860570",
+      "elapsed_seconds": 0.28,
+      "whole_page_text_chars": 585,
+      "whole_page_chinese_chars": 422,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_extra_24",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022132182713.html",
+      "checked_at": "2026-10-28T15:35:07+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022132182713.html",
+      "bytes": 10599,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【徒步路线】鹰窝寨徒步路线_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "26a03180ce007a1dd15c445b93caa1ed6ff791b0ae91bcdb7c1734774c1585d5",
+      "elapsed_seconds": 0.14,
+      "whole_page_text_chars": 542,
+      "whole_page_chinese_chars": 391,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_extra_29",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022004274404.html",
+      "checked_at": "2026-10-28T15:35:09+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022004274404.html",
+      "bytes": 11059,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【休闲路线】宝峰湖-黄龙洞_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "eef6550e1a23bc6b65c38411edae861b4b8ae0638f12a6fd685dbff423899cc7",
+      "elapsed_seconds": 0.19,
+      "whole_page_text_chars": 688,
+      "whole_page_chinese_chars": 523,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_extra_30",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "checked_at": "2026-10-28T15:35:12+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "bytes": 11010,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【休闲路线】黄石寨-金鞭溪-十里画廊_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "90fd6703b807ee61ba1d7bf013e97ceab494bbd1652251597871fb0d66ade661",
+      "elapsed_seconds": 0.17,
+      "whole_page_text_chars": 678,
+      "whole_page_chinese_chars": 511,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_extra_31",
+      "platform": "zhangjiajie_official",
+      "kind": "official_detail",
+      "url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "checked_at": "2026-10-28T15:35:14+08:00",
+      "http_status": 200,
+      "final_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "bytes": 11267,
+      "content_type": "text/html",
+      "encoding": "utf-8",
+      "title": "【休闲路线】袁家界-杨家界-天子山（山上大环线）_张家界世界地质公园",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "6efb6f899fa511337553cb969334f2aecd6810215836f6590ce26ced5e2cfd8f",
+      "elapsed_seconds": 0.11,
+      "whole_page_text_chars": 713,
+      "whole_page_chinese_chars": 538,
+      "reviewed_result": "article_body_available; candidate_not_accepted"
+    },
+    {
+      "id": "zhangjiajie_robots",
+      "platform": "zhangjiajie_official",
+      "kind": "robots",
+      "url": "https://www.zhangjiajieuggp.org.cn/robots.txt",
+      "checked_at": "2026-10-28T15:35:16+08:00",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "elapsed_seconds": 0.12,
+      "reviewed_result": "robots_file_returned_404; no_permission_conclusion"
+    },
+    {
+      "id": "ctrip_robots",
+      "platform": "ctrip",
+      "kind": "robots",
+      "url": "https://you.ctrip.com/robots.txt",
+      "checked_at": "2026-10-28T15:35:05+08:00",
+      "http_status": 200,
+      "final_url": "https://you.ctrip.com/robots.txt",
+      "bytes": 615,
+      "content_type": "text/plain",
+      "encoding": "utf-8",
+      "title": "",
+      "block_signals": [],
+      "login_signals": [],
+      "body_sha256": "bb6e0026571f96860de6fdfa0505720a0d7f7a3ee7554a7a72a8bc83b05879bd",
+      "elapsed_seconds": 0.22,
+      "whole_page_text_chars": 583,
+      "whole_page_chinese_chars": 0,
+      "reviewed_result": "inspect_robots_directives_separately"
+    },
+    {
+      "id": "qunar_robots",
+      "platform": "qunar",
+      "kind": "robots",
+      "url": "https://touch.travel.qunar.com/robots.txt",
+      "checked_at": "2026-10-28T15:35:05+08:00",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "elapsed_seconds": 0.19,
+      "reviewed_result": "robots_file_returned_404; no_permission_conclusion"
+    }
+  ],
+  "source_identity_review": {
+    "zhangjiajie_current_domain": {
+      "url": "https://www.zhangjiajieuggp.org.cn/info_show.php?nt_id=22",
+      "self_identified_operator": "张家界世界地质公园管理处",
+      "displayed_icp": "湘ICP备2021009573号",
+      "public_contact_crosscheck_url": "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/202002/t20200219_11183107.html",
+      "crosscheck": "phone 5712330 matches a provincial tourism authority publication; supporting evidence only, not domain ownership proof",
+      "status": "provisional_official_candidate_pending_independent_domain_confirmation"
+    },
+    "unesco_listed_old_entry": {
+      "referrer_url": "https://www.unesco.org/en/iggp/zhangjiajie-unesco-global-geopark",
+      "linked_url": "https://www.zhangjiajieglobalgeopark.org.cn/en/",
+      "browser_title_observed": "西安永兴科技发展有限公司",
+      "browser_body_observed": "loading message only",
+      "status": "do_not_use_as_identity_confirmation_for_current_domain"
+    }
+  },
+  "raw_response_policy": "downloaded HTML retained only in local scratch/cache; report and repository metadata contain no full article bodies"
+}

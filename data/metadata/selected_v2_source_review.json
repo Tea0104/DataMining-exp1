@@ -1,0 +1,69 @@
+{
+  "method": "human_review_of_targeted_candidates_and_listing_snippets",
+  "selected_documents": 30,
+  "official_routes": 15,
+  "tourist_notes": 15,
+  "rejected_or_held_examples": [
+    {
+      "article_id": "4154964",
+      "stage": "listing",
+      "reason": "小包团售卖介绍；非游客实际游览叙述"
+    },
+    {
+      "article_id": "4154918",
+      "stage": "listing",
+      "reason": "私人定制小团推广"
+    },
+    {
+      "article_id": "4153708",
+      "stage": "listing",
+      "reason": "地接导游小团推广"
+    },
+    {
+      "article_id": "4155195",
+      "stage": "listing",
+      "reason": "住宿推荐且主要为天门山，偏离武陵源主体"
+    },
+    {
+      "article_id": "4158785",
+      "stage": "body_review",
+      "reason": "以建议行程为主，优先采用实际经历更清晰的文章"
+    },
+    {
+      "article_id": "4146148",
+      "stage": "body_review",
+      "reason": "整篇正文约450字符，目标景区信息较少"
+    },
+    {
+      "article_id": "4085352",
+      "stage": "listing",
+      "reason": "主体为酒店体验，未提供足够景区内游览叙述"
+    },
+    {
+      "article_id": "4169769",
+      "stage": "body_review",
+      "reason": "净月潭相关段落较短，作为补充候选"
+    },
+    {
+      "article_id": "4170279",
+      "stage": "body_review",
+      "reason": "较多跨城市和回忆叙述，优先采用泰山路线更集中的文本"
+    },
+    {
+      "article_id": "4113519",
+      "stage": "body_review",
+      "reason": "正文较短，当前采用更长且较新的实际游览文章"
+    }
+  ],
+  "not_used_in_primary_three": [
+    {
+      "name": "九寨沟",
+      "reason": "主路线内容详细，主题指南也丰富；本轮优先采用已有5篇不同独立路线文章的景区，暂作备选"
+    },
+    {
+      "name": "黄山",
+      "reason": "旧样本仍供开发；本轮另选官方来源取得正文更顺畅的景区"
+    }
+  ],
+  "notes": "不是全站随机抽样；示例仅代表实际人工检查，不将未下载的列表条目计作正文筛选通过或失败。"
+}

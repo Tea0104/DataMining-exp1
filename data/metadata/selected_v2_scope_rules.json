@@ -1,0 +1,671 @@
+{
+  "version": "selected_v2_text_only_1",
+  "scope_policy": "目标景区主体、相关进出交通、行前与住宿背景保留；其他景区的独立行程排除。外部地点的比较或交通背景提及不等于将其归入目标景区。",
+  "processing_scope": "text_only",
+  "image_policy": "图中独有信息不采集、不补写、不推断",
+  "rules": {
+    "JYT_NOTE_001": {
+      "expected_block_fingerprint": "f464d6bcfb1866923cb8847db29b778878d2d668c20383416883da6df297488d",
+      "expected_block_count": 163,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0160"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留净月潭游览、园内独立收费景点补充和进出交通，排除回程后的独立餐饮及播放器尾项。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "JYT_NOTE_002": {
+      "expected_block_fingerprint": "353cc75e09e7d8f760fa00b295162e23fddcdf9c79af348910377f089bd65370",
+      "expected_block_count": 44,
+      "keep_ranges": [
+        [
+          "B0007",
+          "B0007"
+        ],
+        [
+          "B0010",
+          "B0027"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留出发、停车、景区内换乘和出园总结；排除酒店房间抱怨、新区房产、长影世纪城及晚餐行程。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "没找着正确的路径",
+        "临时改主意",
+        "不去北普陀"
+      ],
+      "forbidden_independent_sections": [
+        "1:36到达影视城",
+        "6036"
+      ],
+      "content_issues": []
+    },
+    "JYT_NOTE_003": {
+      "expected_block_fingerprint": "ac5f08ed6e020e0103b80c41a251c74255c4b862c98f8f0ae0ed33fc9343ba98",
+      "expected_block_count": 164,
+      "keep_ranges": [
+        [
+          "B0004",
+          "B0024"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "只取净月潭独立章节，保留冬季交通、防滑及乘车上下文；不取伪满皇宫、长白山等独立章节。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "因为气温低",
+        "每15分钟一班"
+      ],
+      "forbidden_independent_sections": [
+        "长春伪满皇宫博物院-末代皇帝的一生"
+      ],
+      "content_issues": []
+    },
+    "JYT_NOTE_004": {
+      "expected_block_fingerprint": "29bc8d8d16e0a4ce0d0e8cf8c6f9cb8f7ee06fc4076700bbe83741b007a02226",
+      "expected_block_count": 245,
+      "keep_ranges": [
+        [
+          "B0077",
+          "B0103"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留净月潭章节和关联住宿衔接；后续松原等独立游览章节不纳入，文字中提到下一目的地的背景不改写。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "会不让进车",
+        "无论走哪条路"
+      ],
+      "forbidden_independent_sections": [
+        "【幸运的人，才可以在松原自由迷失】"
+      ],
+      "content_issues": []
+    },
+    "JYT_NOTE_005": {
+      "expected_block_fingerprint": "c14a80f34fd9a569eb8a5ca3e2737f439f6170174684ff771c44fea19614d801",
+      "expected_block_count": 28,
+      "keep_ranges": [
+        [
+          "B0004",
+          "B0005"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "只取净月潭实际游览段；原文完整跨城游仍保存在输入快照，不用整篇长度表示本段有效字数。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [
+        "俄罗斯对中国公民免签"
+      ],
+      "content_issues": []
+    },
+    "JYT_OFF_001": {
+      "expected_block_fingerprint": "73bdf75badfa2ae7234fe216a45ae478dbae6e1ec16f277078a20d567f935c52",
+      "expected_block_count": 1,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "JYT_OFF_002": {
+      "expected_block_fingerprint": "44b7bb071ac4c2885d23c07308df07dcd299f2fa16ab301724d9ad5c807d4efc",
+      "expected_block_count": 1,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "JYT_OFF_003": {
+      "expected_block_fingerprint": "cd9f00c975bd7b50ee4215e060db6f3fe9b6835c79dd19a0f6f2641b6928f8b4",
+      "expected_block_count": 1,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "JYT_OFF_004": {
+      "expected_block_fingerprint": "b57a89512abe0b67ab6d198e299f99267c33cbba61fc90572dd3b98bafd71b63",
+      "expected_block_count": 1,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "JYT_OFF_005": {
+      "expected_block_fingerprint": "102040a94491da690336ca202d5f61ae843e867921a727a6d4c7caf7a541e21c",
+      "expected_block_count": 1,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "35分钟"
+      ],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_NOTE_001": {
+      "expected_block_fingerprint": "7b097d51ec33bd4aaa97235dc9852cc1d7487951e18998eb949fa2d545a290de",
+      "expected_block_count": 98,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0098"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": [
+        {
+          "code": "place_name_variant_unresolved",
+          "evidence": [
+            "天外天客运站"
+          ],
+          "description": "原文使用天外天客运站，与官方路线中的天外村用名不同；不在清洗阶段擅自归一地名。"
+        }
+      ]
+    },
+    "TS_NOTE_002": {
+      "expected_block_fingerprint": "5229bb5fee00976d17006cd1fc1f5b449595a9f8310f57e32b726d92fb0dcaa2",
+      "expected_block_count": 98,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0098"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "天黑不要走",
+        "3小时"
+      ],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_NOTE_003": {
+      "expected_block_fingerprint": "ca7bb697c0d1d5218839f0d52e4e813a3072cda3b4b1fd6c2e01bf24b3337dde",
+      "expected_block_count": 37,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0037"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "5:30 - 6:30",
+        "军大衣"
+      ],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_NOTE_004": {
+      "expected_block_fingerprint": "bede626e73a43b0c840dd22e5e5433c44978ec17973a4471af12b2963751d544",
+      "expected_block_count": 25,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0025"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "23:00",
+        "01:40",
+        "03小时40分钟"
+      ],
+      "forbidden_independent_sections": [],
+      "content_issues": [
+        {
+          "code": "clock_duration_disagreement",
+          "evidence": [
+            "23:00",
+            "01:40",
+            "03小时40分钟"
+          ],
+          "description": "跨午夜时刻差为160分钟，与原文用时220分钟不一致；保留原文并标记，不判定哪一项真实。"
+        }
+      ]
+    },
+    "TS_NOTE_005": {
+      "expected_block_fingerprint": "0588af1262da1aa989dc28faf882b2abb97d0db82f8bc5bbb3b73bc8b2f49337",
+      "expected_block_count": 40,
+      "keep_ranges": [
+        [
+          "B0007",
+          "B0010"
+        ],
+        [
+          "B0017",
+          "B0032"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留岱庙、泰山山麓玉泉寺与普照寺、核心登山和日出段；排除大宋不夜城、九女峰及祖徕温泉等独立游览。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [
+        "大宋不夜城",
+        "祖徕山森林温泉康养度假谷",
+        "泰山九女峰"
+      ],
+      "content_issues": []
+    },
+    "TS_OFF_001": {
+      "expected_block_fingerprint": "cfa499e905baa833ccd31d01bc9fafbd2e0378fb9c4b749edf5d67e6c6391164",
+      "expected_block_count": 10,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0010"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "4--6小时",
+        "如体力不支"
+      ],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_OFF_002": {
+      "expected_block_fingerprint": "0d063cb7a6f89eb30f7f6fc858ac1f3337a7fab191875c59eb42aef6be567ea4",
+      "expected_block_count": 11,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0011"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_OFF_003": {
+      "expected_block_fingerprint": "ee18b668952b7c907aa0e161c43cfa7d25e16ebb05294dfe781d39c684aeb8c7",
+      "expected_block_count": 14,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0014"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_OFF_004": {
+      "expected_block_fingerprint": "2ad2ac482baebb55abc1ff6aafc2c068b1ed9196d1f40112ab77801e67700a09",
+      "expected_block_count": 15,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0015"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "TS_OFF_005": {
+      "expected_block_fingerprint": "f84efc58008346e10e2c1d95baa75ab592aa792ac166f82671b4acc75c092c6c",
+      "expected_block_count": 22,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0022"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "ZJJ_NOTE_001": {
+      "expected_block_fingerprint": "55431e3ee02caa6db1eacd4434fbf3df09ff59c851f6057df901f0000a846107",
+      "expected_block_count": 73,
+      "keep_ranges": [
+        [
+          "B0002",
+          "B0028"
+        ]
+      ],
+      "exclude_blocks": {
+        "B0003": "目标景区外的酒店窗景图注",
+        "B0018": "独立早餐照片图注不含游览信息"
+      },
+      "clip_rules": [
+        {
+          "block_id": "B0028",
+          "end_before": "回到市区的路上拍了72奇楼",
+          "reason": "保留出园返市区交通，排除七十二奇楼观光评述"
+        }
+      ],
+      "notes": "保留张家界国家森林公园两日实际游览及进出交通；酒店名称可作为交通起终背景，排除独立天门山、七十二奇楼和长沙游览。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "又折返",
+        "只走到",
+        "没有去天子山"
+      ],
+      "forbidden_independent_sections": [
+        "凌霄台、玻璃栈道、鬼谷栈道"
+      ],
+      "content_issues": [
+        {
+          "code": "caption_name_requires_review",
+          "evidence": [
+            "金鞭溪索道",
+            "黄石寨"
+          ],
+          "description": "文字图注与邻近正文的索道称谓存在差异；保持原文并记录待核点，不从图片补推。"
+        }
+      ]
+    },
+    "ZJJ_NOTE_002": {
+      "expected_block_fingerprint": "ced54b256212966dfda2045861bcd776f22318cc1d17092896289a0ad23b3395",
+      "expected_block_count": 26,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ],
+        [
+          "B0003",
+          "B0003"
+        ],
+        [
+          "B0013",
+          "B0023"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留家庭出行及雨雾背景、国家森林公园Day2/Day3与关联夜间建议；排除Day1天门山和Day4长沙独立行程。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "如果不是下雨的话",
+        "按原计划走"
+      ],
+      "forbidden_independent_sections": [
+        "Day1张家界天门山之旅",
+        "Day4出发去长沙"
+      ],
+      "content_issues": []
+    },
+    "ZJJ_NOTE_003": {
+      "expected_block_fingerprint": "a8ee262c6d4720b4985dfc73cfa2408cf56df2e1bc2a4933304407e226f0ec4f",
+      "expected_block_count": 93,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0001"
+        ],
+        [
+          "B0028",
+          "B0031"
+        ],
+        [
+          "B0038",
+          "B0052"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留目标景区的计划/实际框架、进出交通、游览经验及周边配套。计划中的外景提及作为背景保留；完整武汉、天门山、凤凰等独立叙述排除。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "原计划：",
+        "实际成行：",
+        "没试过，不知道真假"
+      ],
+      "forbidden_independent_sections": [
+        "第一天（武汉）",
+        "第五天（张家界-凤凰）"
+      ],
+      "content_issues": []
+    },
+    "ZJJ_NOTE_004": {
+      "expected_block_fingerprint": "4f8cf21787242159b9d0068411fa6498cbae58d02290760b51346b86b8918e40",
+      "expected_block_count": 69,
+      "keep_ranges": [
+        [
+          "B0009",
+          "B0011"
+        ],
+        [
+          "B0027",
+          "B0028"
+        ],
+        [
+          "B0040",
+          "B0052"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [
+        {
+          "block_id": "B0052",
+          "end_before": "2.关于食宿",
+          "reason": "保留门票、联票与停留建议，排除跨城餐饮长段"
+        }
+      ],
+      "notes": "保留武陵源三日计划、景区范围说明及核心路线攻略；出园下一目的地属于交通衔接，其他城市和天门山独立游览排除。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [
+        "一、常德市",
+        "三、凤凰古城",
+        "四、永州"
+      ],
+      "content_issues": []
+    },
+    "ZJJ_NOTE_005": {
+      "expected_block_fingerprint": "691b0f372d868738883be685f79384769cfe59e75d6623e9eae84b663cdc597e",
+      "expected_block_count": 38,
+      "keep_ranges": [
+        [
+          "B0004",
+          "B0005"
+        ],
+        [
+          "B0010",
+          "B0010"
+        ],
+        [
+          "B0016",
+          "B0017"
+        ],
+        [
+          "B0022",
+          "B0028"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留国家森林公园Day4/Day5计划与实际、同行人、托运和武陵源住宿/夜间配套；排除其他景区独立行程。原日序不重编号。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [
+        "不用担心它们不会抢背包和手机",
+        "因为进山是上坡",
+        "我们只走了一小段"
+      ],
+      "forbidden_independent_sections": [
+        "第八天早上先地铁到的湖南大学"
+      ],
+      "content_issues": []
+    },
+    "ZJJ_OFF_001": {
+      "expected_block_fingerprint": "036815853227cbdf91a6f6e0bcef3417c78c17fb7a48d073513ecf661af2f804",
+      "expected_block_count": 5,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0005"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "ZJJ_OFF_002": {
+      "expected_block_fingerprint": "dde4f9971a9db93638254c23222ea6b3e3663655c57331b34f9730e6b20bab0a",
+      "expected_block_count": 5,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0005"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "ZJJ_OFF_003": {
+      "expected_block_fingerprint": "f49488054a510a4e3db0a2a3f429349def16c469b473caf37d1c5d18104a893c",
+      "expected_block_count": 5,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0005"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "ZJJ_OFF_004": {
+      "expected_block_fingerprint": "7cabb43783d1f0100a1e52829f40cd94c14d07eddfc7d4bb13ecaad2a83ec0ca",
+      "expected_block_count": 4,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0004"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    },
+    "ZJJ_OFF_005": {
+      "expected_block_fingerprint": "8a7cd11f2adcdbf010160667005651237aa4ac4f1c528c17caa9798eb42ab2c7",
+      "expected_block_count": 4,
+      "keep_ranges": [
+        [
+          "B0001",
+          "B0004"
+        ]
+      ],
+      "exclude_blocks": {},
+      "clip_rules": [],
+      "notes": "保留采集到的文字正文；脚本另行处理非正文控件、重复图注、网址、Unicode和空白。",
+      "review_method": "助手逐篇文字范围核查，配置化重放；不是学生人工标注或实体/关系金标准",
+      "protected_evidence": [],
+      "forbidden_independent_sections": [],
+      "content_issues": []
+    }
+  }
+}

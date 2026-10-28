@@ -1,0 +1,895 @@
+{
+  "version": "selected_v2_text_only_1",
+  "processing_scope": "text_only",
+  "status": "pass",
+  "problems": [],
+  "expected_documents": 30,
+  "actual_documents": 30,
+  "counts": [
+    {
+      "scenic_id": "JINGYUETAN",
+      "text_type": "official_route",
+      "count": 5
+    },
+    {
+      "scenic_id": "JINGYUETAN",
+      "text_type": "tourist_note",
+      "count": 5
+    },
+    {
+      "scenic_id": "TAISHAN",
+      "text_type": "official_route",
+      "count": 5
+    },
+    {
+      "scenic_id": "TAISHAN",
+      "text_type": "tourist_note",
+      "count": 5
+    },
+    {
+      "scenic_id": "WULINGYUAN",
+      "text_type": "official_route",
+      "count": 5
+    },
+    {
+      "scenic_id": "WULINGYUAN",
+      "text_type": "tourist_note",
+      "count": 5
+    }
+  ],
+  "totals": {
+    "source_chars": 70488,
+    "scope_chars": 34787,
+    "clean_chars": 34064,
+    "source_blocks": 1341,
+    "scope_blocks": 695,
+    "clean_blocks": 660
+  },
+  "cleaning_rule_counts": {
+    "whitespace_blocks": 84,
+    "special_spaces": 276,
+    "invisible_characters": 6,
+    "remove_duplicate_caption": 29,
+    "remove_player": 5,
+    "remove_placeholder": 1,
+    "duplicate_comma_groups": 1,
+    "nfc_blocks": 0,
+    "line_endings": 0,
+    "control_characters": 0,
+    "body_urls": 0,
+    "remove_empty": 0
+  },
+  "scope_removed_chars": 35701,
+  "cleaning_removed_chars": 723,
+  "required_field_missing": {
+    "doc_id": 0,
+    "scenic_id": 0,
+    "scenic_name": 0,
+    "text_type": 0,
+    "title": 0,
+    "source_url": 0,
+    "publisher": 0,
+    "collected_at": 0,
+    "license": 0
+  },
+  "optional_field_nulls": {
+    "author": 5,
+    "published_at": 0,
+    "license_url": 30,
+    "list_publication_date": 15
+  },
+  "exact_duplicate_groups": [],
+  "near_duplicate_threshold": 0.82,
+  "near_duplicate_warnings": [],
+  "date_conflicts": [
+    {
+      "doc_id": "TS_NOTE_004",
+      "candidates": [
+        {
+          "value": "2025-01-04",
+          "basis": "article_footer_publication_label"
+        },
+        {
+          "value": "2024-04-24",
+          "basis": "source_manifest_record"
+        },
+        {
+          "value": "2025-01-04",
+          "basis": "article_detail_displayed_date"
+        },
+        {
+          "value": "2024-04-24",
+          "basis": "source_listing_date"
+        }
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "candidates": [
+        {
+          "value": "2024-12-10",
+          "basis": "article_footer_publication_label"
+        },
+        {
+          "value": "2024-12-09",
+          "basis": "source_manifest_record"
+        },
+        {
+          "value": "2024-12-10",
+          "basis": "article_detail_displayed_date"
+        },
+        {
+          "value": "2024-12-09",
+          "basis": "source_listing_date"
+        }
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "candidates": [
+        {
+          "value": "2024-09-02",
+          "basis": "article_footer_publication_label"
+        },
+        {
+          "value": "2024-08-29",
+          "basis": "source_manifest_record"
+        },
+        {
+          "value": "2024-09-02",
+          "basis": "article_detail_displayed_date"
+        },
+        {
+          "value": "2024-08-29",
+          "basis": "source_listing_date"
+        }
+      ]
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "candidates": [
+        {
+          "value": "2025-09-21",
+          "basis": "article_footer_publication_label"
+        },
+        {
+          "value": "2025-09-20",
+          "basis": "source_manifest_record"
+        },
+        {
+          "value": "2025-09-21",
+          "basis": "article_detail_displayed_date"
+        },
+        {
+          "value": "2025-09-20",
+          "basis": "source_listing_date"
+        }
+      ]
+    }
+  ],
+  "content_issues": [
+    {
+      "doc_id": "TS_NOTE_001",
+      "code": "place_name_variant_unresolved",
+      "evidence": [
+        "天外天客运站"
+      ],
+      "description": "原文使用天外天客运站，与官方路线中的天外村用名不同；不在清洗阶段擅自归一地名。"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "code": "clock_duration_disagreement",
+      "evidence": [
+        "23:00",
+        "01:40",
+        "03小时40分钟"
+      ],
+      "description": "跨午夜时刻差为160分钟，与原文用时220分钟不一致；保留原文并标记，不判定哪一项真实。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "code": "caption_name_requires_review",
+      "evidence": [
+        "金鞭溪索道",
+        "黄石寨"
+      ],
+      "description": "文字图注与邻近正文的索道称谓存在差异；保持原文并记录待核点，不从图片补推。"
+    }
+  ],
+  "review_flags": [
+    {
+      "doc_id": "TS_NOTE_003",
+      "flags": [
+        "short_tourist_body_review"
+      ]
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "flags": [
+        "listing_detail_date_disagreement",
+        "publication_date_candidates_disagree",
+        "short_tourist_body_review"
+      ]
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "flags": [
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "flags": [
+        "multi_destination_article",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "flags": [
+        "multi_destination_article",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "flags": [
+        "listing_detail_date_disagreement",
+        "multi_destination_article",
+        "publication_date_candidates_disagree",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "flags": [
+        "listing_detail_date_disagreement",
+        "multi_destination_article",
+        "publication_date_candidates_disagree",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "flags": [
+        "multi_destination_article",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "flags": [
+        "short_official_route"
+      ]
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "flags": [
+        "short_official_route"
+      ]
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "flags": [
+        "short_official_route"
+      ]
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "flags": [
+        "short_official_route"
+      ]
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "flags": [
+        "short_official_route"
+      ]
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "flags": [
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "flags": [
+        "listing_detail_date_disagreement",
+        "publication_date_candidates_disagree",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "flags": [
+        "multi_destination_article",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "flags": [
+        "multi_destination_article",
+        "scenic_scope_selected_from_full_article"
+      ]
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "flags": [
+        "multi_destination_article",
+        "scenic_scope_selected_from_full_article",
+        "short_selected_tourist_scope_reviewed"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "TS_OFF_001",
+      "scenic_id": "TAISHAN",
+      "text_type": "official_route",
+      "published_at": "2019-04-28",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "56b32c52dd7d862a7e2a15fe2366e34ade2e7ffabb48042b6def082cafe719eb",
+      "metrics": {
+        "source_chars": 933,
+        "scope_chars": 933,
+        "clean_chars": 933,
+        "source_blocks": 10,
+        "scope_blocks": 10,
+        "clean_blocks": 10,
+        "rules": {
+          "whitespace_blocks": 6,
+          "special_spaces": 2
+        }
+      }
+    },
+    {
+      "doc_id": "TS_OFF_002",
+      "scenic_id": "TAISHAN",
+      "text_type": "official_route",
+      "published_at": "2026-01-21",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "6072f3f52fbf2f1aff7bbe69a15febdfeb3fd59ac932f96750acb4107a42c88a",
+      "metrics": {
+        "source_chars": 599,
+        "scope_chars": 599,
+        "clean_chars": 599,
+        "source_blocks": 11,
+        "scope_blocks": 11,
+        "clean_blocks": 11,
+        "rules": {
+          "whitespace_blocks": 6
+        }
+      }
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "text_type": "official_route",
+      "published_at": "2021-05-26",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "43b2f66d2b62d41f4311cb5b84f88088b910a3db2347a6643e824adacccb2ed4",
+      "metrics": {
+        "source_chars": 1203,
+        "scope_chars": 1203,
+        "clean_chars": 1203,
+        "source_blocks": 14,
+        "scope_blocks": 14,
+        "clean_blocks": 14,
+        "rules": {
+          "whitespace_blocks": 1
+        }
+      }
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "text_type": "official_route",
+      "published_at": "2024-10-05",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "abb6b86f1c4a3982731299df5ac3c4078648a11b270e4e10c6ae84240c20bc9b",
+      "metrics": {
+        "source_chars": 1143,
+        "scope_chars": 1143,
+        "clean_chars": 1143,
+        "source_blocks": 15,
+        "scope_blocks": 15,
+        "clean_blocks": 15,
+        "rules": {
+          "special_spaces": 9,
+          "whitespace_blocks": 9
+        }
+      }
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "scenic_id": "TAISHAN",
+      "text_type": "official_route",
+      "published_at": "2021-05-26",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "495946d80a5251146c757fcf3bc3ad19af7d56d380d5513679db3663314d126e",
+      "metrics": {
+        "source_chars": 1916,
+        "scope_chars": 1916,
+        "clean_chars": 1916,
+        "source_blocks": 22,
+        "scope_blocks": 22,
+        "clean_blocks": 22,
+        "rules": {
+          "whitespace_blocks": 1,
+          "special_spaces": 1
+        }
+      }
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-08-28",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "e1ab1610104d10595afe15fae00665f9fe2adce76eaa643e4a0d7f34b3a8a5f3",
+      "metrics": {
+        "source_chars": 3301,
+        "scope_chars": 3301,
+        "clean_chars": 3299,
+        "source_blocks": 98,
+        "scope_blocks": 98,
+        "clean_blocks": 98,
+        "rules": {
+          "special_spaces": 138,
+          "whitespace_blocks": 34,
+          "invisible_characters": 2
+        }
+      }
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "scenic_id": "TAISHAN",
+      "text_type": "tourist_note",
+      "published_at": "2024-09-30",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "18c9d0a29b5964f9c0aac23f11a19c7f512204d72ecd574102bfd4fe5747793f",
+      "metrics": {
+        "source_chars": 6403,
+        "scope_chars": 6403,
+        "clean_chars": 6403,
+        "source_blocks": 98,
+        "scope_blocks": 98,
+        "clean_blocks": 98,
+        "rules": {
+          "special_spaces": 1,
+          "whitespace_blocks": 1
+        }
+      }
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "text_type": "tourist_note",
+      "published_at": "2024-03-26",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "0463da0564ef42b8f6b06fc7ee0f9841d78cae4f608e80be6a21bef97cd8bc65",
+      "metrics": {
+        "source_chars": 805,
+        "scope_chars": 805,
+        "clean_chars": 805,
+        "source_blocks": 37,
+        "scope_blocks": 37,
+        "clean_blocks": 37,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-01-04",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "645df3f1c135458a832efac523e96f98cce1d3fb547dc98691e37453f5c1c74e",
+      "metrics": {
+        "source_chars": 948,
+        "scope_chars": 948,
+        "clean_chars": 948,
+        "source_blocks": 25,
+        "scope_blocks": 25,
+        "clean_blocks": 25,
+        "rules": {
+          "special_spaces": 51,
+          "whitespace_blocks": 5
+        }
+      }
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-01-08",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "b390b572f088d8cbad79ae485b3b25699d7a2b361668f755939c3098b4ed833b",
+      "metrics": {
+        "source_chars": 1904,
+        "scope_chars": 915,
+        "clean_chars": 915,
+        "source_blocks": 40,
+        "scope_blocks": 20,
+        "clean_blocks": 20,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "official_route",
+      "published_at": "2026-03-26",
+      "published_at_basis": "source_manifest_record",
+      "clean_text_sha256": "0dd00fa1fa8a58bf33d0c970f38bfede293ace6d2cde152fddded3013277170f",
+      "metrics": {
+        "source_chars": 332,
+        "scope_chars": 332,
+        "clean_chars": 332,
+        "source_blocks": 5,
+        "scope_blocks": 5,
+        "clean_blocks": 5,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "official_route",
+      "published_at": "2024-06-30",
+      "published_at_basis": "source_manifest_record",
+      "clean_text_sha256": "ae6afb41c36e3a2248a25f9f66135a60c3fc3b9b92f10cbb3037816e4874c89f",
+      "metrics": {
+        "source_chars": 209,
+        "scope_chars": 209,
+        "clean_chars": 209,
+        "source_blocks": 5,
+        "scope_blocks": 5,
+        "clean_blocks": 5,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "official_route",
+      "published_at": "2024-06-30",
+      "published_at_basis": "source_manifest_record",
+      "clean_text_sha256": "f79ed248686618f5d198d30581578dece7a9229261eed719a1f44bc5775315b0",
+      "metrics": {
+        "source_chars": 222,
+        "scope_chars": 222,
+        "clean_chars": 222,
+        "source_blocks": 5,
+        "scope_blocks": 5,
+        "clean_blocks": 5,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "official_route",
+      "published_at": "2024-06-30",
+      "published_at_basis": "source_manifest_record",
+      "clean_text_sha256": "01e7c3086be3eab075dbe621edbda0c1ae296f548263d388968c547e0e5ab3d5",
+      "metrics": {
+        "source_chars": 228,
+        "scope_chars": 228,
+        "clean_chars": 228,
+        "source_blocks": 4,
+        "scope_blocks": 4,
+        "clean_blocks": 4,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "official_route",
+      "published_at": "2024-06-30",
+      "published_at_basis": "source_manifest_record",
+      "clean_text_sha256": "75166cfb8c1986c28cb1529e2d58a574ccd279c94b59977b2c0b83ca6e13969c",
+      "metrics": {
+        "source_chars": 251,
+        "scope_chars": 251,
+        "clean_chars": 251,
+        "source_blocks": 4,
+        "scope_blocks": 4,
+        "clean_blocks": 4,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-08-06",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "3793c78708c33eb2f78996871c080d9b62327c0305b9399cc81fb79695308b28",
+      "metrics": {
+        "source_chars": 4136,
+        "scope_chars": 2141,
+        "clean_chars": 2129,
+        "source_blocks": 73,
+        "scope_blocks": 25,
+        "clean_blocks": 24,
+        "rules": {
+          "special_spaces": 45,
+          "whitespace_blocks": 12,
+          "remove_duplicate_caption": 1,
+          "invisible_characters": 4
+        }
+      }
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-03-01",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "39c995e9ef9ea73d226b1b7e91412a026182ec6d2c6f982ed0de161de410ae24",
+      "metrics": {
+        "source_chars": 2026,
+        "scope_chars": 1054,
+        "clean_chars": 1054,
+        "source_blocks": 26,
+        "scope_blocks": 13,
+        "clean_blocks": 13,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "tourist_note",
+      "published_at": "2024-12-10",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "bd38aa37cffe599369a56c65727096b0dd6a0e937b53d5588ad2f38e07f935a8",
+      "metrics": {
+        "source_chars": 5941,
+        "scope_chars": 1174,
+        "clean_chars": 1174,
+        "source_blocks": 93,
+        "scope_blocks": 20,
+        "clean_blocks": 20,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "tourist_note",
+      "published_at": "2024-09-02",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "ad66d734c81bb993d605a38ccbd6146094e222aa7067878cecd7b8daabcbbf49",
+      "metrics": {
+        "source_chars": 5888,
+        "scope_chars": 1605,
+        "clean_chars": 1594,
+        "source_blocks": 69,
+        "scope_blocks": 18,
+        "clean_blocks": 17,
+        "rules": {
+          "special_spaces": 12,
+          "whitespace_blocks": 3,
+          "remove_player": 1
+        }
+      }
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "scenic_id": "WULINGYUAN",
+      "text_type": "tourist_note",
+      "published_at": "2021-07-12",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "ff9b91f5c2a957b4b0ac803ab0aa696b0d6664f7c543945e28ccdee88d09eaa1",
+      "metrics": {
+        "source_chars": 3543,
+        "scope_chars": 995,
+        "clean_chars": 995,
+        "source_blocks": 38,
+        "scope_blocks": 12,
+        "clean_blocks": 12,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "official_route",
+      "published_at": "2026-07-03",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "2bed601379f83c7283b56ac7d41f428c4111fc7d68c020e2bac5d4c5a4296ecd",
+      "metrics": {
+        "source_chars": 73,
+        "scope_chars": 73,
+        "clean_chars": 73,
+        "source_blocks": 1,
+        "scope_blocks": 1,
+        "clean_blocks": 1,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "official_route",
+      "published_at": "2026-07-03",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "59fffabbd39957ba97ca6974b835a72217028078f4f85124de154fb47fdc52e5",
+      "metrics": {
+        "source_chars": 169,
+        "scope_chars": 169,
+        "clean_chars": 169,
+        "source_blocks": 1,
+        "scope_blocks": 1,
+        "clean_blocks": 1,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "official_route",
+      "published_at": "2026-07-03",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "2ad280d36ae944fe535cc03c62ba8f4ec50610f9046998e352692ffe33dcacde",
+      "metrics": {
+        "source_chars": 150,
+        "scope_chars": 150,
+        "clean_chars": 150,
+        "source_blocks": 1,
+        "scope_blocks": 1,
+        "clean_blocks": 1,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "official_route",
+      "published_at": "2026-07-03",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "b426b4becacbc5533f884a2203f97e9b570b42da87d4cd66e944ead86af13799",
+      "metrics": {
+        "source_chars": 95,
+        "scope_chars": 95,
+        "clean_chars": 95,
+        "source_blocks": 1,
+        "scope_blocks": 1,
+        "clean_blocks": 1,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "official_route",
+      "published_at": "2026-07-03",
+      "published_at_basis": "article_detail_displayed_date",
+      "clean_text_sha256": "8bbe4398d6a3e3c7093f9e50d8ceb08e45caf5c8b36aef1e9343992d73a42054",
+      "metrics": {
+        "source_chars": 125,
+        "scope_chars": 125,
+        "clean_chars": 125,
+        "source_blocks": 1,
+        "scope_blocks": 1,
+        "clean_blocks": 1,
+        "rules": {}
+      }
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-10-03",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "66d396b5e7bd2d37802cfe763d607893e9d0771808a669faac6db381c96e30f2",
+      "metrics": {
+        "source_chars": 4212,
+        "scope_chars": 4148,
+        "clean_chars": 3457,
+        "source_blocks": 163,
+        "scope_blocks": 160,
+        "clean_blocks": 128,
+        "rules": {
+          "remove_duplicate_caption": 28,
+          "remove_player": 4
+        }
+      }
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "tourist_note",
+      "published_at": "2025-09-21",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "941990a5b801ddb7ebea5eeb86626257a05244e88e39898687f6e7b86daac26a",
+      "metrics": {
+        "source_chars": 2186,
+        "scope_chars": 1191,
+        "clean_chars": 1191,
+        "source_blocks": 44,
+        "scope_blocks": 19,
+        "clean_blocks": 19,
+        "rules": {
+          "special_spaces": 1,
+          "whitespace_blocks": 1
+        }
+      }
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "tourist_note",
+      "published_at": "2022-07-29",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "6d95427cf32b7592cfdf206b3c979c04e4c5505d24973a18b3d7b635c423e71b",
+      "metrics": {
+        "source_chars": 7691,
+        "scope_chars": 1216,
+        "clean_chars": 1210,
+        "source_blocks": 164,
+        "scope_blocks": 21,
+        "clean_blocks": 20,
+        "rules": {
+          "special_spaces": 6,
+          "whitespace_blocks": 3,
+          "remove_placeholder": 1
+        }
+      }
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "tourist_note",
+      "published_at": "2024-12-12",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "5a4fdccd591f3a50ceb6de547ffe7a66f922bab724f4881a248e0f5c5608364b",
+      "metrics": {
+        "source_chars": 10322,
+        "scope_chars": 908,
+        "clean_chars": 907,
+        "source_blocks": 245,
+        "scope_blocks": 27,
+        "clean_blocks": 27,
+        "rules": {
+          "special_spaces": 2,
+          "whitespace_blocks": 1,
+          "duplicate_comma_groups": 1
+        }
+      }
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "scenic_id": "JINGYUETAN",
+      "text_type": "tourist_note",
+      "published_at": "2024-01-03",
+      "published_at_basis": "article_footer_publication_label",
+      "clean_text_sha256": "557666c34bd91cd6ec25bdd84830b10936b9e6854e8ad5022011ea0178d09a04",
+      "metrics": {
+        "source_chars": 3534,
+        "scope_chars": 335,
+        "clean_chars": 335,
+        "source_blocks": 28,
+        "scope_blocks": 2,
+        "clean_blocks": 2,
+        "rules": {
+          "special_spaces": 8,
+          "whitespace_blocks": 1
+        }
+      }
+    }
+  ],
+  "validation_notes": [
+    "30份输入内容哈希和范围指纹已核对",
+    "正文结构抽取文字与原采集文字逐字一致（忽略空白）",
+    "所有配置保护短语仍在，排除章节短语不在",
+    "段落偏移、清洗幂等、必填字段和格式检查通过才标记pass",
+    "统计检查不等于事实正确率；不是实体、共指或路线关系金标准",
+    "未把范围删减计为字符清洗效果"
+  ]
+}
