@@ -2,7 +2,7 @@
 
 ## 输入
 
-清洗后的官方路线和游客游记。
+清洗后的官方路线和游客游记：`data/processed/full/selected_v2/dataset.json`的`clean_text`。
 
 原6条sample_v1仅保留兼容；正式30篇数据的接入方式与已知问题见`../../docs/handoff.md`。
 
