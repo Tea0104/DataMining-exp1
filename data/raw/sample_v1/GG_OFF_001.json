@@ -1,0 +1,25 @@
+{
+  "collected_at": "2026-10-28T14:37:55+08:00",
+  "published_at": null,
+  "author": "故宫博物院",
+  "license_url": "https://www.dpm.org.cn/bottom/privacy/254.html",
+  "doc_id": "GG_OFF_001",
+  "scenic_id": "gugong",
+  "scenic_name": "故宫博物院",
+  "text_type": "official_route",
+  "title": "一日游",
+  "publisher": "故宫博物院",
+  "source_url": "https://www.dpm.org.cn/Visit.html",
+  "content_scope": "官网导览的一日游路线章节",
+  "capture_method": "官网公开导览接口 POST 响应中的 description 字段",
+  "source_authority": "official_first_party",
+  "fetch_url": "https://www.dpm.org.cn/ajax/get/guides.html",
+  "request_method": "POST",
+  "request_data": {
+    "linkage_id": "990120",
+    "linkage_name": "follow_route"
+  },
+  "license": "官网非营利教育学习使用条款；保留故宫博物院署名和出处，不视为开放许可",
+  "raw_html": "<p style=\"text-indent: 2em\">一日游规划路线几乎包括故宫博物院所有开放区域的重要宫殿和展馆，但也请您在参观时注意利用时间，并选择好自己感兴趣的展览陈列内容，若处处盘桓流连，一天的时间恐怕也不足以尽览胜景。</p><p style=\"text-indent: 2em\">&nbsp</p><p style=\"text-indent: 2em\">1.&nbsp<a href=\"/explore/building/236454.html\" target=\"_blank\" rel=\"noopener\">午门</a></p><p style=\"text-indent: 2em\">2.&nbsp<a href=\"/explore/building/236500.html\" target=\"_blank\" rel=\"noopener\">武英殿</a></p><p style=\"text-indent: 2em\">3.&nbsp<a href=\"/explore/building/236531.html\" target=\"_blank\" rel=\"noopener\">文华殿（书画馆）</a></p><p style=\"text-indent: 2em\">4.&nbsp<a href=\"/explore/building/236439.html\" target=\"_blank\" rel=\"noopener\">太和门</a></p><p style=\"text-indent: 2em\">5.&nbsp<a href=\"/explore/building/236465.html\" target=\"_blank\" rel=\"noopener\">太和殿</a></p><p style=\"text-indent: 2em\">6.&nbsp<a href=\"/explore/building/236464.html\" target=\"_blank\" rel=\"noopener\">中和殿</a></p><p style=\"text-indent: 2em\">7.&nbsp<a href=\"/explore/building/236434.html\" target=\"_blank\" rel=\"noopener\">保和殿</a></p><p style=\"text-indent: 2em\">8.&nbsp<a href=\"/explore/building/236472.html\" target=\"_blank\" rel=\"noopener\">乾清宫</a></p><p style=\"text-indent: 2em\">9.&nbsp<a href=\"/explore/building/236467.html\" target=\"_blank\" rel=\"noopener\">交泰殿</a></p><p style=\"text-indent: 2em\">10.<a href=\"/explore/building/236487.html\" target=\"_blank\" rel=\"noopener\">坤宁宫</a></p><p style=\"text-indent: 2em\">11.<a href=\"/explore/building/236442.html\" target=\"_blank\" rel=\"noopener\">养心殿</a></p><p style=\"text-indent: 2em\">12.西六宫区</p><p style=\"text-indent: 2em\">13.<a href=\"/explore/building/236519.html\" target=\"_blank\" rel=\"noopener\">御花园</a></p><p style=\"text-indent: 2em\">14.东六宫区</p><p style=\"text-indent: 2em\">15.<a href=\"/explore/building/236430.html\" target=\"_blank\" rel=\"noopener\">奉先殿（钟表馆）</a></p><p style=\"text-indent: 2em\">16.宁寿宫区（珍宝馆、戏曲馆）</p><p style=\"text-indent: 2em\">17.<a href=\"/explore/building/236456.html\" target=\"_blank\" rel=\"noopener\">神武门</a></p><p style=\"text-indent: 2em\">&nbsp</p><p style=\"text-indent: 2em\">&nbsp</p>",
+  "notes": "来源为官网真实导览数据，17个编号步骤。未标注具体时刻，不补写上午/下午；馆舍展览名称和开放状态保留采集时原文，不代表当日开放保证。"
+}

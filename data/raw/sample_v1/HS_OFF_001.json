@@ -1,0 +1,21 @@
+{
+  "collected_at": "2026-10-28T14:37:55+08:00",
+  "published_at": "2024-07-14",
+  "author": "黄山旅游官方平台",
+  "license_url": null,
+  "doc_id": "HS_OFF_001",
+  "scenic_id": "huangshan",
+  "scenic_name": "黄山风景区",
+  "text_type": "official_route",
+  "title": "西海大峡谷游玩线路推荐",
+  "publisher": "黄山风景区管理委员会",
+  "source_url": "https://hsgwh.huangshan.gov.cn/lyfw/xltj/9195903.html",
+  "content_scope": "游玩攻略中的一日游线路原文",
+  "source_authority": "official_first_party",
+  "capture_method": "搜索索引返回的官网正文片段，经来源核验后摘取；直接访问返回HTTP 412",
+  "fetch_url": "https://hsgwh.huangshan.gov.cn/lyfw/xltj/9195903.html",
+  "request_method": "GET",
+  "license": "仅收录事实性路线章节，保留原站权利和出处；未声明开放许可",
+  "raw_html": "<h2>（1）一日游线路</h2>\n<p>乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭→西海大峡谷北入口（途中可远观光明顶，飞来石等景点）→一环→二环→谷底→乘坐西海观光缆车→天海（如体力可行，可先上光明顶，再原路返回天海）→海心亭→鳌鱼峰→玉屏景区，观看迎客松后乘坐玉屏索道下山。</p>",
+  "notes": "仅取一日游章节，不是官网整篇文章。来源中“远观”、可选登顶与实际到访应区分；条件“如体力可行”保留。当前直接请求受站点限制，随包保存可核验来源和采集快照，不把错误页当正文。"
+}

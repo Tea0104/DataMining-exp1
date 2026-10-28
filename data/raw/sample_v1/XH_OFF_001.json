@@ -1,0 +1,21 @@
+{
+  "collected_at": "2026-10-28T14:37:55+08:00",
+  "published_at": "2025-07-17",
+  "author": "文相杰",
+  "license_url": null,
+  "doc_id": "XH_OFF_001",
+  "scenic_id": "xihu",
+  "scenic_name": "杭州西湖风景名胜区",
+  "text_type": "official_route",
+  "title": "这个夏天，一起西湖赏荷去！",
+  "publisher": "杭州网（转载西湖景区水域管理处／杭州发布）",
+  "source_url": "https://hznews.hangzhou.com.cn/wghz/content/2025-07/17/content_9040916.htm",
+  "content_scope": "官方赏荷路线中的室外徒步北线及该段时间信息",
+  "capture_method": "搜索索引中的官方发布转载正文片段；直接下载返回脚本校验页",
+  "source_authority": "official_repost",
+  "fetch_url": "https://hznews.hangzhou.com.cn/wghz/content/2025-07/17/content_9040916.htm",
+  "request_method": "GET",
+  "license": "事实性路线与时长摘录，保留官方发布来源和转载出处；未声明开放许可",
+  "raw_html": "<h2>室外徒步 独爱大荷区（北线）</h2>\n<p>路线：</p>\n<p>📍断桥荷区——平湖秋月荷区——后孤山荷区——曲院风荷</p>\n<p>📍建议赏玩时间：半天</p>\n<p>加上赏玩拍照时间，全程暴走约1.5-2小时</p>",
+  "notes": "推荐路线发布方为西湖景区水域管理处／杭州发布，网页承载方是杭州网，明确标记为官方发布的转载。仅摘录路线与时长事实，不是全文；最后一段只保留原句中的时长片段。样本是季节性赏荷路线，不能直接作为全年最优线路。"
+}

@@ -1,0 +1,21 @@
+{
+  "collected_at": "2026-10-28T14:37:55+08:00",
+  "published_at": "2023-10-09",
+  "author": "闫志聪",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "doc_id": "GG_NOTE_001",
+  "scenic_id": "gugong",
+  "scenic_name": "故宫博物院",
+  "text_type": "tourist_note",
+  "title": "初夏故宫游记",
+  "publisher": "Linux技术分享",
+  "source_url": "https://www.ecsy.top/write/gugong.html",
+  "content_scope": "游记文字正文，保留图片文字题注，不包含图片文件",
+  "capture_method": "直接下载网页并选取 article.joe_detail__article",
+  "source_authority": "tourist_original",
+  "fetch_url": "https://www.ecsy.top/write/gugong.html",
+  "request_method": "GET",
+  "license": "CC BY-NC-SA 4.0",
+  "raw_html": "<article class=\"joe_detail__article\">\n  \n            <div id=\"baozhu_wbk\"><font size=\"4\">2023年4月30日劳动节假期，参观游览故宫博物院，特此记录</font></div><p><joe-dotted startcolor=\"#1989fa\" endcolor=\"#1989fa\"></joe-dotted></p><div id=\"baozhu_tkzj\">\n<font size=\"4\"><font color=\"#0066FF\">正值初夏好时光，紫禁城内走一程。</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">穿过午门，宫殿门楼、黄瓦红墙，呈现气势恢宏；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">外朝内庭，螭吻角兽、御道重檐，昭示规制森严；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">梁坊门窗，和玺彩画、云龙浮雕，彰显造技精湛；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">殿前丹陛，日晷嘉量、铜龟铜鹤，象征皇权无上；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">御座两侧，宝象甪端、仙鹤香亭，寓意国泰政安。</font></font><br><br><br>\n  \n<font size=\"4\"><font color=\"#0066FF\">昂首太和殿，体会惟精惟一，允执厥中，十六字心传的中正之道；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">迈步乾清宫，品味惊魂之夜，怪诞诡奇，一五四二年的壬寅宫变；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">踏入延禧宫，遐想重垣迭锁，勾心斗角，三千后宫内的粉墨演绎；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">漫游御花园，享受假山石径，佳木葱茏，四季常青中的悠闲惬意；</font></font><br><br>\n<font size=\"4\"><font color=\"#0066FF\">走出神武门，感触改朝换代，崇祯宣统，二位末代帝王从此门离去时的人走茶凉！</font></font>\n</div><p><joe-dotted startcolor=\"#1989fa\" endcolor=\"#1989fa\"></joe-dotted></p><p><br></p><div id=\"baozhu_yyz\"><font size=\"4\">故宫神武门</font></div><p> </p><p><span class=\"joe_lamp\"></span></p><div id=\"baozhu_yyz\"><font size=\"4\">太和殿角兽</font></div><p> </p><p><span class=\"joe_lamp\"></span></p><div id=\"baozhu_yyz\"><font size=\"4\">西北角楼</font></div><p> </p><p><span class=\"joe_lamp\"></span></p>      </article>          ",
+  "notes": "页面明示CC许可。游览日期为2023-04-30，发布日期为2023-10-09。文体较短、偏散文，条件和交通表达稀疏，不人为补造；历史事件年份不应直接当作游览时间。"
+}

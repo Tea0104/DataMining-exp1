@@ -1,0 +1,93 @@
+{
+  "dataset_version": "sample_v1",
+  "record_count": 6,
+  "total_clean_chars": 4062,
+  "checks": {
+    "six_records": true,
+    "three_scenic_areas": true,
+    "one_official_and_one_tourist_per_scenic": true,
+    "unique_doc_ids": true,
+    "required_fields_nonempty": true,
+    "no_exact_duplicate_clean_text": true,
+    "no_replacement_characters": true,
+    "no_html_or_script_noise": true,
+    "no_body_urls": true,
+    "normalization_idempotent": true
+  },
+  "records": [
+    {
+      "doc_id": "GG_NOTE_001",
+      "scenic_name": "故宫博物院",
+      "text_type": "tourist_note",
+      "raw_chars": 424,
+      "clean_chars": 336,
+      "removed_chars": 88,
+      "time_expression_hits": 0,
+      "pronoun_or_demonstrative_hits": 0,
+      "condition_or_advice_hits": 0
+    },
+    {
+      "doc_id": "GG_OFF_001",
+      "scenic_name": "故宫博物院",
+      "text_type": "official_route",
+      "raw_chars": 255,
+      "clean_chars": 227,
+      "removed_chars": 28,
+      "time_expression_hits": 2,
+      "pronoun_or_demonstrative_hits": 0,
+      "condition_or_advice_hits": 1
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_name": "黄山风景区",
+      "text_type": "tourist_note",
+      "raw_chars": 3001,
+      "clean_chars": 2711,
+      "removed_chars": 290,
+      "time_expression_hits": 11,
+      "pronoun_or_demonstrative_hits": 15,
+      "condition_or_advice_hits": 18
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_name": "黄山风景区",
+      "text_type": "official_route",
+      "raw_chars": 140,
+      "clean_chars": 136,
+      "removed_chars": 4,
+      "time_expression_hits": 1,
+      "pronoun_or_demonstrative_hits": 0,
+      "condition_or_advice_hits": 1
+    },
+    {
+      "doc_id": "XH_NOTE_001",
+      "scenic_name": "杭州西湖风景名胜区",
+      "text_type": "tourist_note",
+      "raw_chars": 654,
+      "clean_chars": 574,
+      "removed_chars": 80,
+      "time_expression_hits": 3,
+      "pronoun_or_demonstrative_hits": 0,
+      "condition_or_advice_hits": 2
+    },
+    {
+      "doc_id": "XH_OFF_001",
+      "scenic_name": "杭州西湖风景名胜区",
+      "text_type": "official_route",
+      "raw_chars": 88,
+      "clean_chars": 78,
+      "removed_chars": 10,
+      "time_expression_hits": 2,
+      "pronoun_or_demonstrative_hits": 0,
+      "condition_or_advice_hits": 1
+    }
+  ],
+  "limitations": [
+    "开发样本，不是完整实验语料或独立评估集。",
+    "黄山官方及西湖官方转载来源使用搜索索引核验片段，直接访问分别遇到HTTP 412和脚本校验页。",
+    "西湖官方来源是官方发布内容的新闻网站转载，已与官网第一手来源区分。",
+    "路线和游客游记取用范围不完全相同；时间、条件、共指样本分布不均。",
+    "诊断命中数只是触发词计数，不是实体、共指标注数量或抽取准确率。",
+    "原文误字、口语、图注、未到访地点和周边地点保留，需后续模块判断。"
+  ]
+}

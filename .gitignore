@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local model credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# Re-downloadable large files and intermediate caches
+data/downloads/
+data/raw/full/
+data/processed/full/
+.cache/
+*.log
