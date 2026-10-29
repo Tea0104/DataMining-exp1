@@ -1,0 +1,201 @@
+{
+  "version": "v2",
+  "scenic_id": "WULINGYUAN",
+  "scenic_name": "张家界武陵源",
+  "doc_count": 10,
+  "chars": 8393,
+  "entity_mentions": 392,
+  "by_type": {
+    "POI": 257,
+    "TRANSPORT": 82,
+    "TIME": 53
+  },
+  "unique_names": {
+    "POI": 41,
+    "TRANSPORT": 14,
+    "TIME": 22
+  },
+  "by_canonical": {
+    "POI": {
+      "金鞭溪": 34,
+      "武陵源": 32,
+      "杨家界": 25,
+      "袁家界": 23,
+      "黄石寨": 21,
+      "天子山": 18,
+      "张家界国家森林公园": 16,
+      "十里画廊": 12,
+      "天下第一桥": 9,
+      "乾坤柱": 7,
+      "天然长城": 6,
+      "贺龙公园": 5,
+      "御笔峰": 4,
+      "迷魂台": 4,
+      "六奇阁": 3,
+      "摘星台": 3,
+      "一步登天": 2,
+      "东门门票站": 2,
+      "五指峰": 2,
+      "劈山救母": 2,
+      "水绕四门": 2,
+      "点将台": 2,
+      "神鹰护鞭": 2,
+      "空中走廊": 2,
+      "采药老人": 2,
+      "黄龙洞": 2,
+      "乱窜坡": 1,
+      "仙女献花": 1,
+      "千里相会": 1,
+      "南天门": 1,
+      "南门门票站": 1,
+      "卧龙岭": 1,
+      "后花园": 1,
+      "哈里路亚山": 1,
+      "大氧吧广场": 1,
+      "天桥遗墩": 1,
+      "手掌峰": 1,
+      "紫草潭": 1,
+      "西海": 1,
+      "西海峰林": 1,
+      "金鞭岩": 1
+    },
+    "TRANSPORT": {
+      "索道": 40,
+      "大巴": 22,
+      "徒步": 12,
+      "公交": 3,
+      "小火车": 3,
+      "火车": 2
+    },
+    "TIME": {
+      "早上": 9,
+      "晚上": 8,
+      "下午": 7,
+      "一日": 4,
+      "两天": 3,
+      "7点": 2,
+      "上午": 2,
+      "中午": 2,
+      "当天": 2,
+      "第二天": 2,
+      "09：20": 1,
+      "10点": 1,
+      "1点": 1,
+      "20：22": 1,
+      "3点": 1,
+      "6点": 1,
+      "6：00": 1,
+      "7：05": 1,
+      "8点": 1,
+      "9点": 1,
+      "半天": 1,
+      "日落": 1
+    }
+  },
+  "granularity": {
+    "specific": 336,
+    "generic": 54,
+    "unknown": 2
+  },
+  "per_doc": {
+    "ZJJ_OFF_001": {
+      "chars": 340,
+      "sentences": 10,
+      "entities": 43,
+      "by_type": {
+        "POI": 33,
+        "TRANSPORT": 9,
+        "TIME": 1
+      }
+    },
+    "ZJJ_OFF_002": {
+      "chars": 217,
+      "sentences": 6,
+      "entities": 14,
+      "by_type": {
+        "TIME": 1,
+        "POI": 10,
+        "TRANSPORT": 3
+      }
+    },
+    "ZJJ_OFF_003": {
+      "chars": 230,
+      "sentences": 9,
+      "entities": 9,
+      "by_type": {
+        "TIME": 1,
+        "POI": 8
+      }
+    },
+    "ZJJ_OFF_004": {
+      "chars": 234,
+      "sentences": 7,
+      "entities": 16,
+      "by_type": {
+        "TIME": 1,
+        "POI": 13,
+        "TRANSPORT": 2
+      }
+    },
+    "ZJJ_OFF_005": {
+      "chars": 257,
+      "sentences": 7,
+      "entities": 17,
+      "by_type": {
+        "TIME": 1,
+        "POI": 14,
+        "TRANSPORT": 2
+      }
+    },
+    "ZJJ_NOTE_001": {
+      "chars": 2176,
+      "sentences": 54,
+      "entities": 112,
+      "by_type": {
+        "TIME": 21,
+        "TRANSPORT": 29,
+        "POI": 62
+      }
+    },
+    "ZJJ_NOTE_002": {
+      "chars": 1078,
+      "sentences": 40,
+      "entities": 32,
+      "by_type": {
+        "TRANSPORT": 10,
+        "TIME": 11,
+        "POI": 11
+      }
+    },
+    "ZJJ_NOTE_003": {
+      "chars": 1212,
+      "sentences": 38,
+      "entities": 38,
+      "by_type": {
+        "TIME": 11,
+        "POI": 23,
+        "TRANSPORT": 4
+      }
+    },
+    "ZJJ_NOTE_004": {
+      "chars": 1632,
+      "sentences": 37,
+      "entities": 73,
+      "by_type": {
+        "POI": 57,
+        "TRANSPORT": 13,
+        "TIME": 3
+      }
+    },
+    "ZJJ_NOTE_005": {
+      "chars": 1017,
+      "sentences": 22,
+      "entities": 38,
+      "by_type": {
+        "POI": 26,
+        "TRANSPORT": 10,
+        "TIME": 2
+      }
+    }
+  }
+}

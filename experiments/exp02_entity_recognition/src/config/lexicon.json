@@ -1,81 +1,363 @@
 {
-  "schema_version": "1",
-  "scenic_scope": "huangshan",
-  "note": "实验二实体词表。subtype 用于实体定义规范表，note 记录边界判定理由。v1 不使用本词表，v2 起作为 jieba 自定义词典与匹配依据。",
-  "poi": {
-    "后山": {"subtype": "area", "note": "方位性区域名，指云谷寺一侧；与“前山”对举，不指单个景点"},
-    "前山": {"subtype": "area", "note": "方位性区域名，指慈光阁、玉屏一侧"},
-    "云谷寺": {"subtype": "gate", "note": "后山入口寺庙，同时是云谷索道下站所在地"},
-    "排云亭": {"subtype": "pavilion", "note": "西海大峡谷北入口附近的观景亭"},
-    "西海大峡谷": {"subtype": "canyon", "note": "峡谷整体，官方文本中与“北入口”分开出现"},
-    "西海大峡谷北入口": {"subtype": "entrance", "note": "峡谷入口节点，最长匹配优先于“西海大峡谷”"},
-    "一环": {"subtype": "trail", "note": "峡谷步道分段名，属路线节点而非独立景点"},
-    "二环": {"subtype": "trail", "note": "同“一环”，为步道分段"},
-    "谷底": {"subtype": "canyon_bottom", "note": "峡谷底部换乘点，通名但确为路线节点"},
-    "天海": {"subtype": "area", "note": "山上片区名，非单一景点"},
-    "海心亭": {"subtype": "pavilion", "note": "天海附近观景亭"},
-    "鳌鱼峰": {"subtype": "peak", "note": "山峰"},
-    "玉屏景区": {"subtype": "area", "note": "景区片区，含迎客松、玉屏楼"},
-    "迎客松": {"subtype": "landmark", "note": "地标树木，作为观赏对象计入 POI"},
-    "始信峰": {"subtype": "peak", "note": "山峰"},
-    "蘑菇亭": {"subtype": "pavilion", "note": "始信峰途中休息点"},
-    "北海宾馆": {"subtype": "lodging", "note": "住宿设施，作为行程节点计入"},
-    "猴子观海": {"subtype": "viewpoint", "note": "观景点名，四字整体，不可拆成“猴子”"},
-    "西海饭店": {"subtype": "lodging", "note": "住宿设施"},
-    "丹霞峰": {"subtype": "peak", "note": "山峰，游记中为看日落地点"},
-    "排云楼宾馆": {"subtype": "lodging", "note": "住宿设施"},
-    "飞来石": {"subtype": "landmark", "note": "石景，作为景点节点"},
-    "光明顶": {"subtype": "peak", "note": "山峰；与“光明顶山庄”区分"},
-    "光明顶山庄": {"subtype": "lodging", "note": "光明顶附近的住宿设施"},
-    "天海宾馆": {"subtype": "lodging", "note": "住宿设施"},
-    "一线天": {"subtype": "passage", "note": "狭窄通道，实际未到访但仍为路线节点"},
-    "莲花亭": {"subtype": "pavilion", "note": "玉屏途中休息点"},
-    "玉屏楼宾馆": {"subtype": "lodging", "note": "住宿设施"},
-    "汤口": {"subtype": "town", "note": "黄山南大门镇区，周边地点，标注时保留"},
-    "东黄山旅游度假区": {"subtype": "resort", "note": "周边度假区，非核心景区仍按原文标注"},
-    "徽味楼": {"subtype": "restaurant", "note": "餐馆，作为行程节点计入，区别于景点"}
+  "schema_version": "2",
+  "note": "实验二实体词表（selected_v2，三景区）。common 为跨景区通用类别词，scenics 为各景区专名。值可写子类型字符串，也可写对象补充 canonical/granularity/note。",
+  "common": {
+    "transport": {
+      "索道": {
+        "subtype": "cableway",
+        "canonical": "索道",
+        "granularity": "generic"
+      },
+      "缆车": {
+        "subtype": "cableway",
+        "canonical": "索道",
+        "granularity": "generic"
+      },
+      "天梯": {
+        "subtype": "lift",
+        "canonical": "索道",
+        "granularity": "generic",
+        "note": "百龙天梯一类别称"
+      },
+      "小火车": {
+        "subtype": "train",
+        "canonical": "小火车",
+        "granularity": "generic"
+      },
+      "观光小火车": {
+        "subtype": "train",
+        "canonical": "小火车",
+        "granularity": "specific"
+      },
+      "大巴": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "generic"
+      },
+      "旅游大巴": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "specific"
+      },
+      "大巴车": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "specific"
+      },
+      "环保车": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "generic",
+        "note": "景区内摆渡车"
+      },
+      "观光车": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "generic"
+      },
+      "公交车": {
+        "subtype": "bus",
+        "canonical": "公交",
+        "granularity": "specific"
+      },
+      "公交": {
+        "subtype": "bus",
+        "canonical": "公交",
+        "granularity": "generic"
+      },
+      "出租车": {
+        "subtype": "taxi",
+        "canonical": "出租车",
+        "granularity": "generic"
+      },
+      "火车": {
+        "subtype": "rail",
+        "canonical": "火车",
+        "granularity": "generic"
+      },
+      "高铁": {
+        "subtype": "rail",
+        "canonical": "火车",
+        "granularity": "specific"
+      },
+      "地铁": {
+        "subtype": "rail",
+        "canonical": "地铁",
+        "granularity": "generic"
+      },
+      "自驾": {
+        "subtype": "self_drive",
+        "canonical": "自驾",
+        "granularity": "generic"
+      },
+      "自驾车": {
+        "subtype": "self_drive",
+        "canonical": "自驾",
+        "granularity": "specific"
+      },
+      "徒步": {
+        "subtype": "walk",
+        "canonical": "徒步",
+        "granularity": "generic"
+      },
+      "步行": {
+        "subtype": "walk",
+        "canonical": "徒步",
+        "granularity": "generic"
+      },
+      "竹筏": {
+        "subtype": "boat",
+        "canonical": "竹筏",
+        "granularity": "generic"
+      },
+      "游船": {
+        "subtype": "boat",
+        "canonical": "游船",
+        "granularity": "generic"
+      }
+    },
+    "time": {
+      "凌晨": "period",
+      "早上": "period",
+      "上午": "period",
+      "中午": "period",
+      "下午": "period",
+      "傍晚": "period",
+      "晚上": "period",
+      "日出": "event",
+      "日落": "event",
+      "次日": "day",
+      "第二天": "day",
+      "当天": "day",
+      "半天": "duration",
+      "一日": "duration",
+      "两天": "duration"
+    },
+    "excluded_time": {
+      "小时": "计量单位，只有与数字组合才构成时长，单独计为时间节点会虚增",
+      "分钟": "同上",
+      "全程": "范围副词，不是时间表达",
+      "夜爬": "活动描述，不是时间节点"
+    },
+    "excluded": {
+      "一日游": "路线产品名，不判时间节点",
+      "国家森林公园": "三景区共用通名，易误判，只收各景区全称",
+      "观景台": "无名称通名",
+      "山顶": "方位通名",
+      "广场": "无名称通名，只收具名广场",
+      "净月潭": "景区本体名，是语料主题而非路线节点",
+      "张家界": "城市名，与核心景区不是同一层级",
+      "泰山": "景区本体名，是语料主题而非路线节点"
+    }
   },
-  "transport": {
-    "索道": {"subtype": "cableway", "canonical": "索道", "granularity": "generic", "note": "泛称，指索道这一交通方式"},
-    "云谷索道": {"subtype": "cableway", "canonical": "索道", "granularity": "specific", "note": "后山索道线路名，具名实例，不并入泛称"},
-    "太平索道": {"subtype": "cableway", "canonical": "索道", "granularity": "specific", "note": "北大门索道线路名，具名实例"},
-    "玉屏索道": {"subtype": "cableway", "canonical": "索道", "granularity": "specific", "note": "前山索道线路名，具名实例"},
-    "西海观光缆车": {"subtype": "cableway", "canonical": "索道", "granularity": "specific", "note": "峡谷地轨缆车，具名实例，类别归入索道"},
-    "缆车": {"subtype": "cableway", "canonical": "索道", "granularity": "generic", "note": "泛称"},
-    "大巴": {"subtype": "shuttle", "canonical": "大巴", "granularity": "generic", "note": "景区摆渡车"},
-    "面包车": {"subtype": "shuttle", "canonical": "面包车", "granularity": "generic", "note": "酒店接送车"},
-    "火车": {"subtype": "rail", "canonical": "火车", "granularity": "generic", "note": "城际铁路交通"},
-    "高铁": {"subtype": "rail", "canonical": "火车", "granularity": "specific", "note": "城际铁路交通，归入火车类别"},
-    "自驾": {"subtype": "self_drive", "canonical": "自驾", "granularity": "generic", "note": "自驾方式，非具体车辆"},
-    "徒步": {"subtype": "walk", "canonical": "徒步", "granularity": "generic", "note": "步行游览方式"},
-    "步行": {"subtype": "walk", "canonical": "徒步", "granularity": "generic", "note": "步行游览方式"}
+  "scenics": {
+    "TAISHAN": {
+      "name": "泰山风景名胜区",
+      "poi": {
+        "红门": "gate",
+        "红门宫": "temple",
+        "岱庙": "temple",
+        "岱宗坊": "gate",
+        "万仙楼": "pavilion",
+        "斗母宫": "temple",
+        "经石峪": "area",
+        "壶天阁": "pavilion",
+        "回马岭": "trail",
+        "中天门": "gate",
+        "快活三里": "trail",
+        "云步桥": "bridge",
+        "五大夫松": "landmark",
+        "十八盘": "trail",
+        "南天门": "gate",
+        "天街": "area",
+        "碧霞祠": "temple",
+        "唐摩崖": "landmark",
+        "五岳独尊": "landmark",
+        "五岳独尊石": "landmark",
+        "玉皇顶": "peak",
+        "拱北石": "landmark",
+        "岱顶": "area",
+        "天外村": "gate",
+        "龙潭水库": "water",
+        "白龙池": "water",
+        "黑龙潭": "water",
+        "竹林寺": "temple",
+        "黄溪河水库": "water",
+        "扇子崖": "landmark",
+        "傲徕峰": "peak",
+        "关帝庙": "temple",
+        "一天门": "gate",
+        "孔子登临处坊": "gate",
+        "泰山站": "station",
+        "泰安站": "station",
+        "天外天客运站": "station",
+        "桃花峪": "gate",
+        "钓鱼台": "landmark",
+        "碧峰寺": "temple",
+        "彩石溪": "water",
+        "赤鳞溪": "water",
+        "红雨川": "water",
+        "桃花源": "area",
+        "元君庙": "temple",
+        "龙湾": "water",
+        "一线天": "passage",
+        "猴愁峪": "valley",
+        "东御道": "trail",
+        "东御道牌坊": "gate",
+        "青阳堂": "pavilion",
+        "汉阙广场": "facility",
+        "汉阙门": "gate",
+        "甘泉榭": "pavilion",
+        "启天亭": "pavilion",
+        "未央湖": "water",
+        "天烛峰": "peak",
+        "小天烛峰": "peak",
+        "大天烛峰": "peak",
+        "九龙岗": "peak",
+        "天烛瀑": "water",
+        "千尺瀑": "water",
+        "洗鹤湾": "water",
+        "后石坞": "area",
+        "北天门": "gate",
+        "丈人峰": "peak",
+        "摩云岭": "trail",
+        "独足盘": "trail",
+        "天空山": "peak",
+        "黄花洞": "cave",
+        "莲花洞": "cave",
+        "尧观顶": "peak",
+        "姊妹松": "landmark",
+        "古松园": "forest",
+        "玉皇庙": "temple",
+        "普照寺": "temple",
+        "玉泉寺": "temple",
+        "三官庙": "temple",
+        "增福庙": "temple",
+        "五松亭": "pavilion",
+        "大观峰": "peak",
+        "日观峰": "peak",
+        "瞻鲁台": "viewpoint",
+        "青帝宫": "temple",
+        "孔子庙": "temple",
+        "西天门": "gate",
+        "无字碑": "landmark",
+        "升仙坊": "gate"
+      }
+    },
+    "WULINGYUAN": {
+      "name": "张家界武陵源核心景区",
+      "poi": {
+        "张家界国家森林公园": "area",
+        "东门门票站": "gate",
+        "南门门票站": "gate",
+        "武陵源": "area",
+        "天子山": "area",
+        "袁家界": "area",
+        "杨家界": "area",
+        "金鞭溪": "water",
+        "十里画廊": "trail",
+        "黄石寨": "area",
+        "贺龙公园": "facility",
+        "御笔峰": "peak",
+        "仙女献花": "landmark",
+        "西海": "area",
+        "西海峰林": "peak",
+        "天下第一桥": "landmark",
+        "哈里路亚山": "peak",
+        "后花园": "area",
+        "迷魂台": "viewpoint",
+        "六奇阁": "pavilion",
+        "手掌峰": "peak",
+        "摘星台": "viewpoint",
+        "天桥遗墩": "landmark",
+        "金鞭岩": "landmark",
+        "紫草潭": "water",
+        "千里相会": "landmark",
+        "水绕四门": "water",
+        "乾坤柱": "peak",
+        "空中走廊": "trail",
+        "一步登天": "viewpoint",
+        "乱窜坡": "trail",
+        "卧龙岭": "trail",
+        "采药老人": "peak",
+        "南天门": "gate",
+        "大氧吧广场": "facility",
+        "神鹰护鞭": "landmark",
+        "劈山救母": "landmark",
+        "天然长城": "peak",
+        "五指峰": "peak",
+        "点将台": "viewpoint"
+      },
+      "transport": {
+        "百龙天梯": {
+          "subtype": "lift",
+          "canonical": "索道",
+          "granularity": "specific"
+        },
+        "天子山索道": {
+          "subtype": "cableway",
+          "canonical": "索道",
+          "granularity": "specific"
+        },
+        "黄石寨索道": {
+          "subtype": "cableway",
+          "canonical": "索道",
+          "granularity": "specific"
+        }
+      },
+      "off_scenic": [
+        "凤凰古城",
+        "天门山",
+        "长沙"
+      ]
+    },
+    "JINGYUETAN": {
+      "name": "净月潭国家级风景名胜区",
+      "poi": {
+        "景区正门": "gate",
+        "女神广场": "facility",
+        "荷花垂柳园": "area",
+        "碧松净月塔楼": "landmark",
+        "太平钟楼": "landmark",
+        "大坝东": "facility",
+        "大坝西": "facility",
+        "中韩友谊林": "forest",
+        "朝夕水岸": "water",
+        "黑松林": "forest",
+        "水上栈道": "trail",
+        "森林浴场": "area",
+        "中国瓦萨博物馆": "facility",
+        "雪世界彩头雁": "facility",
+        "湿地竹筏游览区": "area",
+        "灵草芳洲": "area",
+        "月潭揽胜": "viewpoint",
+        "避暑山庄": "area",
+        "月亮湾": "water",
+        "观潭山": "peak",
+        "童趣营地": "facility",
+        "森林探险乐园": "facility",
+        "净月潭滑雪场": "facility",
+        "水库大坝": "facility",
+        "西门": "gate",
+        "蘑菇广场": "facility",
+        "湿地公园": "area",
+        "望潭广场": "facility",
+        "溢水湾": "water",
+        "东北虎园": "facility",
+        "高尔夫球场": "facility"
+      },
+      "transport": {
+        "画舫船": {
+          "subtype": "boat",
+          "canonical": "游船",
+          "granularity": "specific"
+        }
+      }
+    }
   },
   "hierarchy_policy": {
-    "rule": "canonical 是上位类别，granularity 区分具名实例（specific）与泛称（generic）。",
-    "hard_constraint": "canonical 只能用于统计与 Schema 分层，禁止作为实体 ID 或图谱节点 ID；节点 ID 必须使用去空白后的 text。",
-    "reason": "云谷索道与玉屏索道 canonical 同为“索道”，若以 canonical 建节点会把上山与下山两条不同索道合并，导致路线解析错误。",
-    "default": "未填 canonical 的词条，canonical 取 text 本身、granularity 取 specific；后缀规则命中的未知实体 granularity 记为 unknown。"
-  },
-  "time": {
-    "早上": {"subtype": "period", "note": "时段表达，无具体时刻"},
-    "上午": {"subtype": "period", "note": "时段表达"},
-    "中午": {"subtype": "period", "note": "时段表达"},
-    "下午": {"subtype": "period", "note": "时段表达"},
-    "傍晚": {"subtype": "period", "note": "时段表达"},
-    "晚上": {"subtype": "period", "note": "时段表达"},
-    "日出": {"subtype": "event", "note": "以自然事件表达时间"},
-    "日落": {"subtype": "event", "note": "以自然事件表达时间"},
-    "当晚": {"subtype": "period", "note": "相对当前行程日的时间指代"},
-    "第二天": {"subtype": "day", "note": "相对行程日"},
-    "两天": {"subtype": "duration", "note": "行程时长，非时刻"}
-  },
-  "excluded": {
-    "一日游": "路线产品名（“一日游线路”是路线标题），不是时间节点，不纳入",
-    "秋冬季节": "季节背景描述，未落在具体行程节点上，不纳入时间节点",
-    "此次": "篇章指代，非时间表达",
-    "下次": "未发生的计划，不纳入本次行程时间节点",
-    "观景台": "通名设施，未命名，不纳入 POI",
-    "山顶": "方位通名，非景点名",
-    "酒店": "通名且原文未给出名称"
+    "rule": "canonical 是上位类别，granularity 区分具名与泛称。",
+    "hard_constraint": "canonical 只能用于统计与 Schema 分层，禁止作为实体 ID 或图谱节点 ID。",
+    "reason": "百龙天梯、天子山索道等同属索道类，若以 canonical 建节点会被错误合并。"
   }
 }

@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""实验二：游览步骤的实体识别（黄山单景区，v1 基线 / v2 优化）。
+"""实验二：游览步骤的实体识别（selected_v2，三景区）。
 
 v1 基线：jieba 默认分词 + 后缀规则 + 数字/关键词规则；不使用自定义词典与停用词。
-v2 优化：加载自定义词典（config/lexicon.json）与停用词（config/stopwords.json），
-         细化数字时刻规则，并补充“T + 1”这类行程日表达。
+v2 优化：common + 景区专名词表、停用词与片段拦截、四位时刻上下文校验、行程日与时刻正则。
 
 用法（仓库根目录运行）：
 
     python experiments/exp02_entity_recognition/src/recognize_entities.py --version v1
     python experiments/exp02_entity_recognition/src/recognize_entities.py --version v2
+    python experiments/exp02_entity_recognition/src/recognize_entities.py --version v2 --scenic TAISHAN
 
-位置口径：所有 start/end 都是 clean_text 的 Python Unicode 字符索引，左闭右开，
+位置口径：start/end 为 clean_text 的 Python Unicode 字符索引，左闭右开，
 满足 clean_text[start:end] == text。
 """
 
@@ -29,33 +29,40 @@ import jieba
 ROOT = Path(__file__).resolve().parents[3]
 SRC = Path(__file__).resolve().parent
 CONFIG = SRC / 'config'
+DEFAULT_INPUT = ROOT / 'data/processed/full/selected_v2/dataset.json'
+
+SCENICS = ('TAISHAN', 'WULINGYUAN', 'JINGYUETAN')
+SCENIC_CN = {'TAISHAN': '泰山', 'WULINGYUAN': '张家界武陵源', 'JINGYUETAN': '净月潭'}
 
 TYPE_ORDER = {'POI': 0, 'TRANSPORT': 1, 'TIME': 2}
 TYPE_CN = {'POI': '景点POI', 'TRANSPORT': '交通方式', 'TIME': '时间节点'}
 GROUP_OF = {'POI': 'poi', 'TRANSPORT': 'transport', 'TIME': 'time'}
 
-# ---- v1 规则：只靠词形后缀与通用闭类词，不含领域词表 ----
-V1_POI_SUFFIX = ('峰', '寺', '亭', '楼', '宾馆', '景区', '顶', '海', '台', '谷', '门', '园')
-V1_TRANSPORT_SUFFIX = ('索道', '缆车')
-V1_TRANSPORT_WORDS = {'大巴', '面包车', '火车', '高铁', '自驾', '徒步', '步行', '地铁', '公交', '飞机'}
-V1_TIME_WORDS = {'早上', '上午', '中午', '下午', '傍晚', '晚上', '夜里', '凌晨',
-                 '日出', '日落', '当晚', '第二天', '两天', '一日'}
+# ---- v1：只靠词形后缀与闭类词，不含领域词表 ----
+V1_POI_SUFFIX = ('峰', '顶', '寺', '庙', '亭', '楼', '阁', '门', '宫', '殿', '园', '桥',
+                 '溪', '谷', '洞', '潭', '瀑', '岭', '台', '湾', '湖', '崖', '坊', '堂', '寨')
+V1_TRANSPORT_SUFFIX = ('索道', '缆车', '天梯', '竹筏')
+V1_TRANSPORT_WORDS = {'大巴', '大巴车', '环保车', '观光车', '火车', '高铁', '自驾', '徒步',
+                      '步行', '地铁', '公交', '公交车', '出租车', '游船', '小火车', '观光小火车'}
+V1_TIME_WORDS = {'凌晨', '早上', '上午', '中午', '下午', '傍晚', '晚上', '夜里',
+                 '日出', '日落', '次日', '第二天', '当天', '半天', '一日', '两天'}
 V1_NUMBER = re.compile(r'\d{3,4}')
 
-# ---- v2 追加规则 ----
-V2_POI_SUFFIX = V1_POI_SUFFIX + ('山庄', '饭店', '度假区')
-V2_NUMBER = re.compile(r'\d{4}')
+# ---- v2 追加 ----
+# v2 只保留高精度后缀做未登录词兜底：这些字结尾的 3 字以上词，几乎都是景区地名；
+# 峰/顶/门/园/台 等宽后缀在 v1 里产生了大量“登顶”“主峰”“大门”噪声，v2 不再使用。
+V2_POI_SUFFIX = ('峰', '寺', '庙', '洞', '瀑', '潭', '阁', '祠', '坊', '寨', '峪')
 V2_T_PLUS = re.compile(r'T\s*\+\s*1')
+V2_CLOCK = re.compile(r'\d{1,2}\s*[:：]\s*\d{2}')
+V2_POINT = re.compile(r'\d{1,2}\s*点(?:\d{1,2}\s*分)?')
 HAS_CJK = re.compile(r'[\u4e00-\u9fff]')
 
 
 def is_noise_token(token):
-    """空白、标点、符号、emoji 一律不作为实体候选。"""
     if not token or not token.strip():
         return True
     for ch in token:
-        cat = unicodedata.category(ch)
-        if cat[0] not in {'P', 'Z', 'S', 'C'}:
+        if unicodedata.category(ch)[0] not in {'P', 'Z', 'S', 'C'}:
             return False
     return True
 
@@ -69,8 +76,32 @@ def load_records(path, scenic_id):
     return [r for r in records if r['scenic_id'] == scenic_id]
 
 
+def norm_entry(value):
+    return {'subtype': value} if isinstance(value, str) else dict(value)
+
+
+def build_lexicon(lexicon, scenic):
+    groups = {'poi': {}, 'transport': {}, 'time': {}}
+    common = lexicon.get('common', {})
+    for group in ('poi', 'transport', 'time'):
+        for word, value in common.get(group, {}).items():
+            groups[group][word] = norm_entry(value)
+    scenic_block = lexicon['scenics'].get(scenic, {})
+    for group in ('poi', 'transport', 'time'):
+        for word, value in scenic_block.get(group, {}).items():
+            groups[group][word] = norm_entry(value)
+    return groups
+
+
+def build_stopwords(stop, scenic):
+    return {
+        'suffix_noise': set(stop.get('suffix_noise', [])),
+        'generic_place': set(stop.get('generic_place', {}).get(scenic, [])),
+        'off_scenic': set(stop.get('off_scenic', [])),
+    }
+
+
 def split_sentences(text):
-    """按句末标点与换行切句，保留绝对偏移。"""
     marks = '。！？；!?;\n'
     out, start = [], 0
     for i, ch in enumerate(text):
@@ -97,15 +128,13 @@ def tokenize(text):
     return [(w, s, e) for w, s, e in jieba.tokenize(text) if not is_noise_token(w)]
 
 
-def register_lexicon(lexicon):
-    """v2：把词表写入 jieba 自定义词典，保证长实体不被切碎。"""
+def register_lexicon(groups):
     for group in ('poi', 'transport', 'time'):
-        for word in lexicon[group]:
+        for word in groups[group]:
             jieba.add_word(word, freq=20000)
 
 
 def detect_v1(token):
-    """v1：纯词形规则，返回 (entity_type, subtype, method) 或 None。"""
     if token in V1_TIME_WORDS:
         return 'TIME', 'period', 'keyword'
     if V1_NUMBER.fullmatch(token):
@@ -119,31 +148,27 @@ def detect_v1(token):
     return None
 
 
-def detect_v2(token, text, end, lexicon, stop, reject_ctx):
-    """v2：词表优先，其次后缀规则，并加停用词与数字上下文约束。"""
+def detect_v2(token, text, end, groups, stop):
     for entity_type, group in (('POI', 'poi'), ('TRANSPORT', 'transport'), ('TIME', 'time')):
-        if token in lexicon[group]:
-            return entity_type, lexicon[group][token]['subtype'], 'lexicon'
+        entry = groups[group].get(token)
+        if entry:
+            return entity_type, entry.get('subtype', 'other'), 'lexicon'
 
     if token in V1_TIME_WORDS:
         return 'TIME', 'period', 'keyword'
-    if V2_NUMBER.fullmatch(token):
-        tail = text[end:end + 8]
-        if not any(ctx in tail for ctx in reject_ctx):
-            return 'TIME', 'clock', 'number'
 
     if token in stop['suffix_noise'] or token in stop['generic_place'] or token in stop['off_scenic']:
         return None
 
-    if len(token) >= 2 and token.endswith(V1_TRANSPORT_SUFFIX):
-        return 'TRANSPORT', 'cableway', 'suffix'
-    if len(token) >= 2 and token.endswith(V2_POI_SUFFIX) and HAS_CJK.search(token):
+    # 未登录词兜底：仅 3 字以上、且为高精度地名后缀
+    if 3 <= len(token) and token.endswith(V2_POI_SUFFIX) and HAS_CJK.search(token):
         return 'POI', 'suffix', 'suffix'
+    if 3 <= len(token) and token.endswith(V1_TRANSPORT_SUFFIX):
+        return 'TRANSPORT', 'cableway', 'suffix'
     return None
 
 
 def resolve_overlaps(cands):
-    """长实体优先，同跨度按 POI > TRANSPORT > TIME 取一个。"""
     ordered = sorted(cands, key=lambda c: (-(c['end'] - c['start']),
                                             TYPE_ORDER[c['entity_type']], c['start']))
     kept = []
@@ -154,15 +179,8 @@ def resolve_overlaps(cands):
     return sorted(kept, key=lambda c: (c['start'], c['end']))
 
 
-def decorate(entity, lexicon):
-    """补粒度元数据：canonical 上位类别 + granularity 层级。
-
-    只加字段，不改 text / start / end。canonical 仅用于统计与 Schema 分层，
-    不能当作实体 ID——云谷索道与玉屏索道的 canonical 同为“索道”，
-    一旦拿它作节点 ID，上山与下山两条索道就会被错误合并。
-    """
-    group = GROUP_OF[entity['entity_type']]
-    entry = lexicon[group].get(entity['text'], {})
+def decorate(entity, groups):
+    entry = groups[GROUP_OF[entity['entity_type']]].get(entity['text'], {})
     in_lexicon = bool(entry)
     if entity['method'] == 'suffix' and not in_lexicon:
         granularity = 'unknown'
@@ -174,8 +192,7 @@ def decorate(entity, lexicon):
     return record
 
 
-def extract(records, version, lexicon, stop):
-    reject_ctx = stop['time_number_reject_context']
+def extract(records, version, groups, stop, scenic):
     all_entities, per_doc = [], {}
     for record in records:
         text = record['clean_text']
@@ -185,13 +202,13 @@ def extract(records, version, lexicon, stop):
             if version == 'v1':
                 hit = detect_v1(token)
             else:
-                hit = detect_v2(token, text, end, lexicon, stop, reject_ctx)
+                hit = detect_v2(token, text, end, groups, stop)
             if not hit:
                 continue
             entity_type, subtype, method = hit
             cands.append({
                 'doc_id': record['doc_id'],
-                'scenic_id': record['scenic_id'],
+                'scenic_id': scenic,
                 'text': token,
                 'entity_type': entity_type,
                 'subtype': subtype,
@@ -201,25 +218,27 @@ def extract(records, version, lexicon, stop):
                 'method': method,
             })
 
-        # v2 追加“T + 1”这类跨 token 的行程日表达
         if version == 'v2':
-            for m in V2_T_PLUS.finditer(text):
-                if any(not (m.end() <= c['start'] or m.start() >= c['end']) for c in cands):
-                    continue
-                cands.append({
-                    'doc_id': record['doc_id'],
-                    'scenic_id': record['scenic_id'],
-                    'text': m.group(),
-                    'entity_type': 'TIME',
-                    'subtype': 'day',
-                    'start': m.start(),
-                    'end': m.end(),
-                    'sentence_id': sentence_of(sentences, m.start()),
-                    'method': 'regex_day',
-                })
+            for pattern, subtype, method in ((V2_CLOCK, 'clock', 'regex_clock'),
+                                             (V2_POINT, 'period', 'regex_point'),
+                                             (V2_T_PLUS, 'day', 'regex_day')):
+                for m in pattern.finditer(text):
+                    if any(not (m.end() <= c['start'] or m.start() >= c['end']) for c in cands):
+                        continue
+                    cands.append({
+                        'doc_id': record['doc_id'],
+                        'scenic_id': scenic,
+                        'text': m.group(),
+                        'entity_type': 'TIME',
+                        'subtype': subtype,
+                        'start': m.start(),
+                        'end': m.end(),
+                        'sentence_id': sentence_of(sentences, m.start()),
+                        'method': method,
+                    })
 
         entities = resolve_overlaps(cands)
-        entities = [decorate(ent, lexicon) for ent in entities]
+        entities = [decorate(ent, groups) for ent in entities]
         for ent in entities:
             assert text[ent['start']:ent['end']] == ent['text'], f"位置与原文不一致: {ent}"
         per_doc[record['doc_id']] = {
@@ -232,7 +251,7 @@ def extract(records, version, lexicon, stop):
     return all_entities, per_doc
 
 
-def summarize(entities, per_doc, version):
+def summarize(entities, per_doc, version, scenic):
     by_type = Counter(e['entity_type'] for e in entities)
     unique = defaultdict(set)
     by_canonical = defaultdict(Counter)
@@ -241,8 +260,10 @@ def summarize(entities, per_doc, version):
         by_canonical[ent['entity_type']][ent['canonical']] += 1
     return {
         'version': version,
-        'scenic_id': 'huangshan',
+        'scenic_id': scenic,
+        'scenic_name': SCENIC_CN.get(scenic, scenic),
         'doc_count': len(per_doc),
+        'chars': sum(v['chars'] for v in per_doc.values()),
         'entity_mentions': len(entities),
         'by_type': {t: by_type.get(t, 0) for t in ('POI', 'TRANSPORT', 'TIME')},
         'unique_names': {t: len(unique[t]) for t in ('POI', 'TRANSPORT', 'TIME')},
@@ -253,12 +274,12 @@ def summarize(entities, per_doc, version):
     }
 
 
-def write_frequency(entities, out_dir, version):
+def write_frequency(entities, out_dir, version, scenic):
     counter = Counter((e['entity_type'], e['text'], e['canonical']) for e in entities)
     rows = [{'entity_type': t, 'text': w, 'canonical': c, 'count': n}
             for (t, w, c), n in sorted(counter.items(),
                                        key=lambda kv: (TYPE_ORDER[kv[0][0]], kv[0][2], -kv[1], kv[0][1]))]
-    path = out_dir / f'entity_freq_{version}.csv'
+    path = out_dir / f'entity_freq_{scenic}_{version}.csv'
     with path.open('w', encoding='utf-8', newline='') as fh:
         writer = csv.DictWriter(fh, fieldnames=['entity_type', 'text', 'canonical', 'count'],
                                 lineterminator='\n')
@@ -267,7 +288,7 @@ def write_frequency(entities, out_dir, version):
     return rows
 
 
-def plot_frequency(rows, out_dir, version):
+def plot_frequency(rows, out_dir, version, scenic):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -302,56 +323,81 @@ def plot_frequency(rows, out_dir, version):
         ax.set_axisbelow(True)
         for spine in ('top', 'right'):
             ax.spines[spine].set_visible(False)
-    fig.suptitle(f'黄山景区实体词频统计（{version}，按原文表面形式）', fontsize=14)
+    fig.suptitle(f'{SCENIC_CN.get(scenic, scenic)} 实体词频统计（{version}，按原文表面形式）', fontsize=14)
     fig.text(0.5, 0.005,
-             '注：同名具名实体不与泛称合并，例如“云谷索道/玉屏索道”单列、“索道”仅计泛称；'
-             f'类别级汇总见 stats_{version}.json 的 by_canonical',
+             '注：具名线路不与泛称合并（如“天子山索道”单列，“索道”只计泛称）；'
+             f'类别汇总见 stats_{scenic}_{version}.json 的 by_canonical',
              ha='center', fontsize=8, color='#666666')
     fig.tight_layout(rect=(0, 0.02, 1, 0.97))
-    path = out_dir / f'entity_freq_{version}.png'
+    path = out_dir / f'entity_freq_{scenic}_{version}.png'
     fig.savefig(path)
     plt.close(fig)
     return path
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description='实验二：黄山景区实体识别')
-    parser.add_argument('--version', choices=['v1', 'v2'], default='v1')
-    parser.add_argument('--scenic', default='huangshan')
-    parser.add_argument('--input', type=Path, default=ROOT / 'data/processed/sample_v1.json')
+    parser = argparse.ArgumentParser(description='实验二：景区实体识别（selected_v2）')
+    parser.add_argument('--version', choices=['v1', 'v2'], default='v2')
+    parser.add_argument('--scenic', nargs='*', default=['all'],
+                        help='景区编号，多个用空格分隔；all 表示三个景区')
+    parser.add_argument('--input', type=Path, default=DEFAULT_INPUT)
     parser.add_argument('--outputs', type=Path, default=SRC.parent / 'outputs')
     args = parser.parse_args(argv)
 
     lexicon = load_json(CONFIG / 'lexicon.json')
-    stop = load_json(CONFIG / 'stopwords.json')
-    if args.version == 'v2':
-        register_lexicon(lexicon)
-
-    records = load_records(args.input, args.scenic)
-    if not records:
-        raise SystemExit(f'未找到景区 {args.scenic} 的记录: {args.input}')
-
-    entities, per_doc = extract(records, args.version, lexicon, stop)
-    stats = summarize(entities, per_doc, args.version)
+    stop_raw = load_json(CONFIG / 'stopwords.json')
+    scenics = list(SCENICS) if args.scenic == ['all'] else args.scenic
+    unknown = [s for s in scenics if s not in SCENICS]
+    if unknown:
+        raise SystemExit(f'未知景区编号: {unknown}，可选 {SCENICS}')
 
     args.outputs.mkdir(parents=True, exist_ok=True)
-    (args.outputs / f'entities_{args.version}.json').write_text(
-        json.dumps(entities, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
-    (args.outputs / f'stats_{args.version}.json').write_text(
-        json.dumps(stats, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
+    summary = {}
+    for scenic in scenics:
+        groups = build_lexicon(lexicon, scenic)
+        stop = build_stopwords(stop_raw, scenic)
+        if args.version == 'v2':
+            register_lexicon(groups)
 
-    rows = write_frequency(entities, args.outputs, args.version)
-    png = plot_frequency(rows, args.outputs, args.version)
+        records = load_records(args.input, scenic)
+        if not records:
+            raise SystemExit(f'未找到景区 {scenic} 的记录: {args.input}')
 
-    print(json.dumps({
+        entities, per_doc = extract(records, args.version, groups, stop, scenic)
+        stats = summarize(entities, per_doc, args.version, scenic)
+
+        (args.outputs / f'entities_{scenic}_{args.version}.json').write_text(
+            json.dumps(entities, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
+        (args.outputs / f'stats_{scenic}_{args.version}.json').write_text(
+            json.dumps(stats, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
+
+        rows = write_frequency(entities, args.outputs, args.version, scenic)
+        png = plot_frequency(rows, args.outputs, args.version, scenic)
+        summary[scenic] = {
+            'name': SCENIC_CN.get(scenic, scenic),
+            'docs': stats['doc_count'],
+            'chars': stats['chars'],
+            'mentions': stats['entity_mentions'],
+            'by_type': stats['by_type'],
+            'unique': stats['unique_names'],
+            'chart': png.name,
+        }
+        print(json.dumps(summary[scenic], ensure_ascii=False))
+
+    aggregate = {
         'version': args.version,
-        'docs': stats['doc_count'],
-        'mentions': stats['entity_mentions'],
-        'by_type': stats['by_type'],
-        'unique_names': stats['unique_names'],
-        'granularity': stats['granularity'],
-        'chart': str(png),
-    }, ensure_ascii=False, indent=2))
+        'scenics': summary,
+        'totals': {
+            'docs': sum(v['docs'] for v in summary.values()),
+            'chars': sum(v['chars'] for v in summary.values()),
+            'mentions': sum(v['mentions'] for v in summary.values()),
+            'by_type': {t: sum(v['by_type'][t] for v in summary.values())
+                        for t in ('POI', 'TRANSPORT', 'TIME')},
+        },
+    }
+    (args.outputs / f'stats_all_{args.version}.json').write_text(
+        json.dumps(aggregate, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
+    print(json.dumps(aggregate['totals'], ensure_ascii=False))
     return 0
 
 

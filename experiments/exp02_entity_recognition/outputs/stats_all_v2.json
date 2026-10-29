@@ -1,0 +1,66 @@
+{
+  "version": "v2",
+  "scenics": {
+    "TAISHAN": {
+      "name": "泰山",
+      "docs": 10,
+      "chars": 18928,
+      "mentions": 717,
+      "by_type": {
+        "POI": 560,
+        "TRANSPORT": 83,
+        "TIME": 74
+      },
+      "unique": {
+        "POI": 95,
+        "TRANSPORT": 11,
+        "TIME": 53
+      },
+      "chart": "entity_freq_TAISHAN_v2.png"
+    },
+    "WULINGYUAN": {
+      "name": "张家界武陵源",
+      "docs": 10,
+      "chars": 8393,
+      "mentions": 392,
+      "by_type": {
+        "POI": 257,
+        "TRANSPORT": 82,
+        "TIME": 53
+      },
+      "unique": {
+        "POI": 41,
+        "TRANSPORT": 14,
+        "TIME": 22
+      },
+      "chart": "entity_freq_WULINGYUAN_v2.png"
+    },
+    "JINGYUETAN": {
+      "name": "净月潭",
+      "docs": 10,
+      "chars": 8136,
+      "mentions": 225,
+      "by_type": {
+        "POI": 132,
+        "TRANSPORT": 71,
+        "TIME": 22
+      },
+      "unique": {
+        "POI": 33,
+        "TRANSPORT": 9,
+        "TIME": 20
+      },
+      "chart": "entity_freq_JINGYUETAN_v2.png"
+    }
+  },
+  "totals": {
+    "docs": 30,
+    "chars": 35457,
+    "mentions": 1334,
+    "by_type": {
+      "POI": 949,
+      "TRANSPORT": 236,
+      "TIME": 149
+    }
+  }
+}
