@@ -1,0 +1,4361 @@
+{
+  "schema_version": "1.1",
+  "scenic_id": "huangshan",
+  "input_sha256": "42710952ad82ebec2ab0f6ac99618a761642a589cb83ca62d7e6a7940025e86d",
+  "config_sha256": "a2867902be062d26c667b707b4526fe6efafb114d25d87afbbd708010d09f74a",
+  "input_doc_ids": [
+    "HS_NOTE_001",
+    "HS_OFF_001"
+  ],
+  "clean_text_sha256": {
+    "HS_NOTE_001": "f7bbef731b1a9e1f5abcf7a1b709c5dc50f8d327cac6c686725abd80dd7995fe",
+    "HS_OFF_001": "d295da07405805d895d6f8df0a27c3c47ea56c1c5529684b792d6a80b00d64b7"
+  },
+  "entity_source": "exp02_entities_v2",
+  "exp02_integration_status": "integrated_position_validated",
+  "scope": "黄山两条开发文本的规则基线，尚无独立人工金标准；不报告抽取准确率。",
+  "routes": [
+    {
+      "route_id": "HS_NOTE_001:tourist_observed",
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "scenic_name": "黄山风景区",
+      "source_url": "https://nova.moe/2024-huangshan/",
+      "text_type": "tourist_note",
+      "route_kind": "tourist_observed",
+      "steps": [
+        {
+          "poi": null,
+          "activity_label": "乘面包车前往车站",
+          "surface": null,
+          "entity_type": "activity",
+          "mention_span": null,
+          "activity": "由于酒店门口免费停车，车就丢在了酒店，并在早上坐酒店提供的面包车前往车站。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "morning",
+          "time_expression": "早上",
+          "time_basis": "exp02_time_same_clause",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_unnamed_transport",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 8,
+            "end": 45,
+            "text": "由于酒店门口免费停车，车就丢在了酒店，并在早上坐酒店提供的面包车前往车站。"
+          },
+          "source_entity_id": null,
+          "context_entity_ids": [
+            "HS_NOTE_001:TIME:29:31",
+            "HS_NOTE_001:TRANSPORT:37:40"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:37:40"
+          ],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:29:31"
+          ],
+          "assigned_time_entity_ids": [
+            "HS_NOTE_001:TIME:29:31"
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s001",
+          "order": 1
+        },
+        {
+          "poi": null,
+          "activity_label": "索道上山（线路未消解）",
+          "surface": null,
+          "entity_type": "activity",
+          "mention_span": null,
+          "activity": "由于对自己体力和接下来的自驾有充足的信心，这里上下山全部选择索道，大巴到了云谷寺索道时候便是索道上山。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "unresolved_transport_activity",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 128,
+            "end": 179,
+            "text": "由于对自己体力和接下来的自驾有充足的信心，这里上下山全部选择索道，大巴到了云谷寺索道时候便是索道上山。"
+          },
+          "source_entity_id": null,
+          "context_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:140:142",
+            "HS_NOTE_001:TRANSPORT:158:160",
+            "HS_NOTE_001:TRANSPORT:161:163",
+            "HS_NOTE_001:POI:165:168",
+            "HS_NOTE_001:TRANSPORT:168:170",
+            "HS_NOTE_001:TRANSPORT:174:176"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:140:142",
+            "HS_NOTE_001:TRANSPORT:158:160",
+            "HS_NOTE_001:TRANSPORT:161:163",
+            "HS_NOTE_001:TRANSPORT:168:170",
+            "HS_NOTE_001:TRANSPORT:174:176"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_observed:s002",
+          "order": 2
+        },
+        {
+          "poi": "蘑菇亭",
+          "activity_label": "蘑菇亭",
+          "surface": "蘑菇亭",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 253,
+            "end": 256
+          },
+          "activity": "于是到了山上之后就开始沿着为数不多的两条小路走，穿过了蘑菇亭走到了始信峰。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 226,
+            "end": 263,
+            "text": "于是到了山上之后就开始沿着为数不多的两条小路走，穿过了蘑菇亭走到了始信峰。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:253:256",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:253:256",
+            "HS_NOTE_001:POI:259:262"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_observed:s003",
+          "order": 3
+        },
+        {
+          "poi": "始信峰",
+          "activity_label": "始信峰",
+          "surface": "始信峰",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 259,
+            "end": 262
+          },
+          "activity": "于是到了山上之后就开始沿着为数不多的两条小路走，穿过了蘑菇亭走到了始信峰。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 226,
+            "end": 263,
+            "text": "于是到了山上之后就开始沿着为数不多的两条小路走，穿过了蘑菇亭走到了始信峰。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:259:262",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:253:256",
+            "HS_NOTE_001:POI:259:262"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "additional_evidence": [
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 264,
+              "end": 282,
+              "text": "到了始信峰山顶的时候，视野是这样的。"
+            }
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s004",
+          "order": 4
+        },
+        {
+          "poi": "北海宾馆",
+          "activity_label": "北海宾馆",
+          "surface": "北海宾馆",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 588,
+            "end": 592
+          },
+          "activity": "稍作停留后继续往下便看到了正在修正的北海宾馆，从 可以看到是 「北海宾馆环境整治改造项目室外管网开挖及新建电缆沟工程」",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 570,
+            "end": 629,
+            "text": "稍作停留后继续往下便看到了正在修正的北海宾馆，从 可以看到是 「北海宾馆环境整治改造项目室外管网开挖及新建电缆沟工程」"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:588:592",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:588:592",
+            "HS_NOTE_001:POI:602:606"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_observed:s005",
+          "order": 5
+        },
+        {
+          "poi": "猴子观海",
+          "activity_label": "猴子观海",
+          "surface": "猴子观海",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 824,
+            "end": 828
+          },
+          "activity": "等到达猴子观海的观景台的时候，雾又非常巧合的出现了，可以看到很多人在雾中不知道在拍些什么，同时占据着有利地形",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 821,
+            "end": 875,
+            "text": "等到达猴子观海的观景台的时候，雾又非常巧合的出现了，可以看到很多人在雾中不知道在拍些什么，同时占据着有利地形"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:824:828",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:824:828"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "additional_evidence": [
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 950,
+              "end": 984,
+              "text": "从差点摔死的猴子观海观景台下来之后便到达了当晚要入住的「西海饭店」。"
+            }
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s006",
+          "order": 6
+        },
+        {
+          "poi": "西海饭店",
+          "activity_label": "西海饭店",
+          "surface": "西海饭店",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 978,
+            "end": 982
+          },
+          "activity": "从差点摔死的猴子观海观景台下来之后便到达了当晚要入住的「西海饭店」。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "evening",
+          "time_expression": "当晚",
+          "time_basis": "exp02_time_same_clause",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 950,
+            "end": 984,
+            "text": "从差点摔死的猴子观海观景台下来之后便到达了当晚要入住的「西海饭店」。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:978:982",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:956:960",
+            "HS_NOTE_001:TIME:971:973",
+            "HS_NOTE_001:POI:978:982"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:971:973"
+          ],
+          "assigned_time_entity_ids": [
+            "HS_NOTE_001:TIME:971:973"
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s007",
+          "order": 7
+        },
+        {
+          "poi": "丹霞峰",
+          "activity_label": "丹霞峰",
+          "surface": "丹霞峰",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1146,
+            "end": 1149
+          },
+          "activity": "绕了一圈发现雾越来越大之后便开始往回了，在酒店登记入住的时候听前台说丹霞峰一般可以用来看日落，虽然当时山上起着较浓的雾，但是看到天色还比较早，本着「来都来了」的想法便决定爬一波丹霞峰之后再回饭店。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1058,
+            "end": 1156,
+            "text": "绕了一圈发现雾越来越大之后便开始往回了，在酒店登记入住的时候听前台说丹霞峰一般可以用来看日落，虽然当时山上起着较浓的雾，但是看到天色还比较早，本着「来都来了」的想法便决定爬一波丹霞峰之后再回饭店。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1146:1149",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1092:1095",
+            "HS_NOTE_001:TIME:1102:1104",
+            "HS_NOTE_001:POI:1146:1149"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:1102:1104"
+          ],
+          "assigned_time_entity_ids": [],
+          "additional_evidence": [
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 1201,
+              "end": 1248,
+              "text": "爬丹霞峰的路上几乎一路无人，到了山顶之后才发现这里聚集了一小撮人尝试在浓雾的情况下「看日落」。"
+            },
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 1318,
+              "end": 1379,
+              "text": "日落后温度开始快速下降，便开始一路冲刺下山（此处由于丹霞峰下山楼梯非常陡峭），冲刺下山对于膝盖和小腿控制力有非常大的考验。"
+            }
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s008",
+          "order": 8
+        },
+        {
+          "poi": "西海饭店",
+          "activity_label": "西海饭店",
+          "surface": "西海饭店",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1709,
+            "end": 1713
+          },
+          "activity": "从西海饭店出来，发现天气不错！",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "departure_reference",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1708,
+            "end": 1723,
+            "text": "从西海饭店出来，发现天气不错！"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1709:1713",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1709:1713"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_observed:s009",
+          "order": 9
+        },
+        {
+          "poi": "光明顶",
+          "activity_label": "光明顶",
+          "surface": "光明顶",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1952,
+            "end": 1955
+          },
+          "activity": "从西海饭店走到光明顶，比想象中耗时更长，走的更累，到了光明顶之后是在黄山上的两天中看到人最多的地方，让我意识到所在景区当中",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1945,
+            "end": 2006,
+            "text": "从西海饭店走到光明顶，比想象中耗时更长，走的更累，到了光明顶之后是在黄山上的两天中看到人最多的地方，让我意识到所在景区当中"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1952:1955",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1946:1950",
+            "HS_NOTE_001:POI:1952:1955",
+            "HS_NOTE_001:POI:1972:1975",
+            "HS_NOTE_001:TIME:1983:1985"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:1983:1985"
+          ],
+          "assigned_time_entity_ids": [],
+          "additional_evidence": [
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 1945,
+              "end": 2006,
+              "text": "从西海饭店走到光明顶，比想象中耗时更长，走的更累，到了光明顶之后是在黄山上的两天中看到人最多的地方，让我意识到所在景区当中"
+            },
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 2007,
+              "end": 2132,
+              "text": "虽然这里人多，但还是一副老派旅游景区的模样，没有「我在黄山顶上很想你」的字样，没有各种奇怪的卖 xx 特色小吃的地方，只有简单的商店，和到处在休息的人，从西海饭店过来的路上经历了一路上上下下之后终于到达光明顶的时候，我内心想到的最贴切的画面是这样的："
+            },
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 2155,
+              "end": 2212,
+              "text": "过了光明顶开始下山之后游客就开始变多，仿佛大家都是从前山上的（可能因为前一天山上有雾，后山上山的游客没有那么多）。"
+            }
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s010",
+          "order": 10
+        },
+        {
+          "poi": "徽味楼",
+          "activity_label": "徽味楼",
+          "surface": "徽味楼",
+          "entity_type": "restaurant",
+          "mention_span": {
+            "start": 2462,
+            "end": 2465
+          },
+          "activity": "下山之后怒搓一顿徽味楼，便开始了黄山->上海的旅程。",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_movement",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2454,
+            "end": 2480,
+            "text": "下山之后怒搓一顿徽味楼，便开始了黄山->上海的旅程。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2462:2465",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2462:2465"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_observed:s011",
+          "order": 11
+        },
+        {
+          "poi": null,
+          "activity_label": "行程结束",
+          "surface": null,
+          "entity_type": "activity",
+          "mention_span": null,
+          "activity": "晚上 2100 ，终于将 FK7 安全带回，这次黄山自驾旅到这里也就结束了，非常感谢你能看到这里，从文字+图片上和我一起进行了这段神奇的旅程。",
+          "day": 2,
+          "time": "21:00",
+          "duration_minutes": null,
+          "time_period": "evening",
+          "time_expression": "晚上 / 2100",
+          "time_basis": "exp02_time_same_clause",
+          "inferred": false,
+          "visit_status": "confirmed",
+          "extraction_rule": "explicit_trip_end",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2629,
+            "end": 2700,
+            "text": "晚上 2100 ，终于将 FK7 安全带回，这次黄山自驾旅到这里也就结束了，非常感谢你能看到这里，从文字+图片上和我一起进行了这段神奇的旅程。"
+          },
+          "source_entity_id": null,
+          "context_entity_ids": [
+            "HS_NOTE_001:TIME:2629:2631",
+            "HS_NOTE_001:TIME:2632:2636",
+            "HS_NOTE_001:TRANSPORT:2655:2657"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2655:2657"
+          ],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:2629:2631",
+            "HS_NOTE_001:TIME:2632:2636"
+          ],
+          "assigned_time_entity_ids": [
+            "HS_NOTE_001:TIME:2629:2631",
+            "HS_NOTE_001:TIME:2632:2636"
+          ],
+          "step_id": "HS_NOTE_001:tourist_observed:s012",
+          "order": 12
+        }
+      ],
+      "optional_branches": [],
+      "non_main_mentions": [
+        {
+          "poi": "云谷寺",
+          "activity_label": "云谷寺",
+          "surface": "云谷寺",
+          "entity_type": "place",
+          "mention_span": {
+            "start": 111,
+            "end": 114
+          },
+          "activity": "参考许多人的做法，这里我的选择是通过云谷寺（后山）上，前山下的模式。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "no_visit_evidence",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 93,
+            "end": 127,
+            "text": "参考许多人的做法，这里我的选择是通过云谷寺（后山）上，前山下的模式。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:111:114",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:111:114",
+            "HS_NOTE_001:POI:115:117",
+            "HS_NOTE_001:POI:120:122"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "后山",
+          "activity_label": "后山",
+          "surface": "后山",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 115,
+            "end": 117
+          },
+          "activity": "参考许多人的做法，这里我的选择是通过云谷寺（后山）上，前山下的模式。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "no_visit_evidence",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 93,
+            "end": 127,
+            "text": "参考许多人的做法，这里我的选择是通过云谷寺（后山）上，前山下的模式。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:115:117",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:111:114",
+            "HS_NOTE_001:POI:115:117",
+            "HS_NOTE_001:POI:120:122"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "前山",
+          "activity_label": "前山",
+          "surface": "前山",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 120,
+            "end": 122
+          },
+          "activity": "参考许多人的做法，这里我的选择是通过云谷寺（后山）上，前山下的模式。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "no_visit_evidence",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 93,
+            "end": 127,
+            "text": "参考许多人的做法，这里我的选择是通过云谷寺（后山）上，前山下的模式。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:120:122",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:111:114",
+            "HS_NOTE_001:POI:115:117",
+            "HS_NOTE_001:POI:120:122"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "云谷寺",
+          "activity_label": "云谷寺",
+          "surface": "云谷寺",
+          "entity_type": "place",
+          "mention_span": {
+            "start": 165,
+            "end": 168
+          },
+          "activity": "由于对自己体力和接下来的自驾有充足的信心，这里上下山全部选择索道，大巴到了云谷寺索道时候便是索道上山。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "boundary_ambiguous",
+          "extraction_rule": "place_transport_composite",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 128,
+            "end": 179,
+            "text": "由于对自己体力和接下来的自驾有充足的信心，这里上下山全部选择索道，大巴到了云谷寺索道时候便是索道上山。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:165:168",
+          "context_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:140:142",
+            "HS_NOTE_001:TRANSPORT:158:160",
+            "HS_NOTE_001:TRANSPORT:161:163",
+            "HS_NOTE_001:POI:165:168",
+            "HS_NOTE_001:TRANSPORT:168:170",
+            "HS_NOTE_001:TRANSPORT:174:176"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:140:142",
+            "HS_NOTE_001:TRANSPORT:158:160",
+            "HS_NOTE_001:TRANSPORT:161:163",
+            "HS_NOTE_001:TRANSPORT:168:170",
+            "HS_NOTE_001:TRANSPORT:174:176"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "始信峰",
+          "activity_label": "始信峰",
+          "surface": "始信峰",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 376,
+            "end": 379
+          },
+          "activity": "从始信峰往下走了一点之后，云突然散开了，并保持了接近一整天。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "retrospective_reference",
+          "extraction_rule": "departure_reference",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 375,
+            "end": 405,
+            "text": "从始信峰往下走了一点之后，云突然散开了，并保持了接近一整天。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:376:379",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:376:379"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "始信峰",
+          "activity_label": "始信峰",
+          "surface": "始信峰",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 501,
+            "end": 504
+          },
+          "activity": "此地也可以看到始信峰山顶的人们（200MM 显得有些焦距不足），此时照片中可以看到有大量的落灰，猜猜看是谁没有在雾中拍摄之后把镜头 UV 镜给擦干净？",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "description_or_hearsay",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 494,
+            "end": 569,
+            "text": "此地也可以看到始信峰山顶的人们（200MM 显得有些焦距不足），此时照片中可以看到有大量的落灰，猜猜看是谁没有在雾中拍摄之后把镜头 UV 镜给擦干净？"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:501:504",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:501:504"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "北海宾馆",
+          "activity_label": "北海宾馆",
+          "surface": "北海宾馆",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 602,
+            "end": 606
+          },
+          "activity": "稍作停留后继续往下便看到了正在修正的北海宾馆，从 可以看到是 「北海宾馆环境整治改造项目室外管网开挖及新建电缆沟工程」",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "description_or_hearsay",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 570,
+            "end": 629,
+            "text": "稍作停留后继续往下便看到了正在修正的北海宾馆，从 可以看到是 「北海宾馆环境整治改造项目室外管网开挖及新建电缆沟工程」"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:602:606",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:588:592",
+            "HS_NOTE_001:POI:602:606"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "猴子观海",
+          "activity_label": "猴子观海",
+          "surface": "猴子观海",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 663,
+            "end": 667
+          },
+          "activity": "在此地买了一份 10 元 3 个非常难吃的热狗之后便继续上山，去往猴子观海方向。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "approach",
+          "extraction_rule": "direction_not_arrival",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 630,
+            "end": 670,
+            "text": "在此地买了一份 10 元 3 个非常难吃的热狗之后便继续上山，去往猴子观海方向。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:663:667",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:663:667"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "猴子观海",
+          "activity_label": "猴子观海",
+          "surface": "猴子观海",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 730,
+            "end": 734
+          },
+          "activity": "在到达猴子观海前的一个观景平台上，看到了一个形状非常独特的石头，你说它像什么呢？",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "approach",
+          "extraction_rule": "before_arrival",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 727,
+            "end": 767,
+            "text": "在到达猴子观海前的一个观景平台上，看到了一个形状非常独特的石头，你说它像什么呢？"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:730:734",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:730:734"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "西海大峡谷",
+          "activity_label": "西海大峡谷",
+          "surface": "西海大峡谷",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1002,
+            "end": 1007
+          },
+          "activity": "在酒店丢下一些东西之后便继续上路往西海大峡谷方向摸索，不过由于云雾持续变浓，这里并未拍到什么非常好看的照片.",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "approach",
+          "extraction_rule": "direction_not_arrival",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 985,
+            "end": 1039,
+            "text": "在酒店丢下一些东西之后便继续上路往西海大峡谷方向摸索，不过由于云雾持续变浓，这里并未拍到什么非常好看的照片."
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1002:1007",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1002:1007"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "西海大峡谷",
+          "activity_label": "西海大峡谷",
+          "surface": "西海大峡谷",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1047,
+            "end": 1052
+          },
+          "activity": "从山上可以看到西海大峡谷小火车轨道",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "description_or_hearsay",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1040,
+            "end": 1057,
+            "text": "从山上可以看到西海大峡谷小火车轨道"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1047:1052",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1047:1052",
+            "HS_NOTE_001:TRANSPORT:1053:1055"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1053:1055"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "丹霞峰",
+          "activity_label": "丹霞峰",
+          "surface": "丹霞峰",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1092,
+            "end": 1095
+          },
+          "activity": "绕了一圈发现雾越来越大之后便开始往回了，在酒店登记入住的时候听前台说丹霞峰一般可以用来看日落，虽然当时山上起着较浓的雾，但是看到天色还比较早，本着「来都来了」的想法便决定爬一波丹霞峰之后再回饭店。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "evening",
+          "time_expression": "日落",
+          "time_basis": "exp02_time_same_clause",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "description_or_hearsay",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1058,
+            "end": 1156,
+            "text": "绕了一圈发现雾越来越大之后便开始往回了，在酒店登记入住的时候听前台说丹霞峰一般可以用来看日落，虽然当时山上起着较浓的雾，但是看到天色还比较早，本着「来都来了」的想法便决定爬一波丹霞峰之后再回饭店。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1092:1095",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1092:1095",
+            "HS_NOTE_001:TIME:1102:1104",
+            "HS_NOTE_001:POI:1146:1149"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:1102:1104"
+          ],
+          "assigned_time_entity_ids": [
+            "HS_NOTE_001:TIME:1102:1104"
+          ]
+        },
+        {
+          "poi": "西海饭店",
+          "activity_label": "西海饭店",
+          "surface": "西海饭店",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1539,
+            "end": 1543
+          },
+          "activity": "西海饭店可能由于建设时间比较早，有个比较大的 Bug——空调只有中央空调，考虑到这次基本是秋冬季节，房间内的空调只有热风和不出风两个选择，再加上是在山上，所以晚上只有热+干或者干两个选择，体验有点小差（当然，除了空调这一岔以外，其余的体验还是对得起这 1100+CNY 的售价的）。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "description_or_hearsay",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1539,
+            "end": 1680,
+            "text": "西海饭店可能由于建设时间比较早，有个比较大的 Bug——空调只有中央空调，考虑到这次基本是秋冬季节，房间内的空调只有热风和不出风两个选择，再加上是在山上，所以晚上只有热+干或者干两个选择，体验有点小差（当然，除了空调这一岔以外，其余的体验还是对得起这 1100+CNY 的售价的）。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1539:1543",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1539:1543",
+            "HS_NOTE_001:TIME:1618:1620"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:1618:1620"
+          ],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "光明顶",
+          "activity_label": "光明顶",
+          "surface": "光明顶",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1941,
+            "end": 1944
+          },
+          "activity": "光明顶",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "no_visit_evidence",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1941,
+            "end": 1944,
+            "text": "光明顶"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1941:1944",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1941:1944"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "西海饭店",
+          "activity_label": "西海饭店",
+          "surface": "西海饭店",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1946,
+            "end": 1950
+          },
+          "activity": "从西海饭店走到光明顶，比想象中耗时更长，走的更累，到了光明顶之后是在黄山上的两天中看到人最多的地方，让我意识到所在景区当中",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "retrospective_reference",
+          "extraction_rule": "departure_reference",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1945,
+            "end": 2006,
+            "text": "从西海饭店走到光明顶，比想象中耗时更长，走的更累，到了光明顶之后是在黄山上的两天中看到人最多的地方，让我意识到所在景区当中"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1946:1950",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1946:1950",
+            "HS_NOTE_001:POI:1952:1955",
+            "HS_NOTE_001:POI:1972:1975",
+            "HS_NOTE_001:TIME:1983:1985"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:1983:1985"
+          ],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "西海饭店",
+          "activity_label": "西海饭店",
+          "surface": "西海饭店",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 2084,
+            "end": 2088
+          },
+          "activity": "虽然这里人多，但还是一副老派旅游景区的模样，没有「我在黄山顶上很想你」的字样，没有各种奇怪的卖 xx 特色小吃的地方，只有简单的商店，和到处在休息的人，从西海饭店过来的路上经历了一路上上下下之后终于到达光明顶的时候，我内心想到的最贴切的画面是这样的：",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "retrospective_reference",
+          "extraction_rule": "departure_reference",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2007,
+            "end": 2132,
+            "text": "虽然这里人多，但还是一副老派旅游景区的模样，没有「我在黄山顶上很想你」的字样，没有各种奇怪的卖 xx 特色小吃的地方，只有简单的商店，和到处在休息的人，从西海饭店过来的路上经历了一路上上下下之后终于到达光明顶的时候，我内心想到的最贴切的画面是这样的："
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2084:2088",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2084:2088",
+            "HS_NOTE_001:POI:2108:2111"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "光明顶",
+          "activity_label": "光明顶",
+          "surface": "光明顶",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 2135,
+            "end": 2138
+          },
+          "activity": "说回光明顶：",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "no_visit_evidence",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2133,
+            "end": 2139,
+            "text": "说回光明顶："
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2135:2138",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2135:2138"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "前山",
+          "activity_label": "前山",
+          "surface": "前山",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 2181,
+            "end": 2183
+          },
+          "activity": "过了光明顶开始下山之后游客就开始变多，仿佛大家都是从前山上的（可能因为前一天山上有雾，后山上山的游客没有那么多）。",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "description_or_hearsay",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2155,
+            "end": 2212,
+            "text": "过了光明顶开始下山之后游客就开始变多，仿佛大家都是从前山上的（可能因为前一天山上有雾，后山上山的游客没有那么多）。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2181:2183",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2157:2160",
+            "HS_NOTE_001:POI:2181:2183",
+            "HS_NOTE_001:POI:2198:2200"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "后山",
+          "activity_label": "后山",
+          "surface": "后山",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 2198,
+            "end": 2200
+          },
+          "activity": "过了光明顶开始下山之后游客就开始变多，仿佛大家都是从前山上的（可能因为前一天山上有雾，后山上山的游客没有那么多）。",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "other_travellers",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2155,
+            "end": 2212,
+            "text": "过了光明顶开始下山之后游客就开始变多，仿佛大家都是从前山上的（可能因为前一天山上有雾，后山上山的游客没有那么多）。"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2198:2200",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2157:2160",
+            "HS_NOTE_001:POI:2181:2183",
+            "HS_NOTE_001:POI:2198:2200"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "一线天",
+          "activity_label": "一线天",
+          "surface": "一线天",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 2252,
+            "end": 2255
+          },
+          "activity": "这次爬一线天的人也特别多，考虑到安全因素+腿/膝盖实在不太行了，未能前往（下次或许一定）",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "not_visited",
+          "extraction_rule": "explicit_negation",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2249,
+            "end": 2293,
+            "text": "这次爬一线天的人也特别多，考虑到安全因素+腿/膝盖实在不太行了，未能前往（下次或许一定）"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2252:2255",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2252:2255"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "前山",
+          "activity_label": "前山",
+          "surface": "前山",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 2379,
+            "end": 2381
+          },
+          "activity": "坐上索道的时候感觉人终于放松了，不用继续走路了（当然，要是还能多做停留的话，或许休息两天之后再次从前山上山并去看看迎客松啥的或许也是可以接受的，就是个人感觉只是一颗普通的松树而已，不是特别值得一看）",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "hypothetical",
+          "extraction_rule": "future_or_counterfactual",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2330,
+            "end": 2429,
+            "text": "坐上索道的时候感觉人终于放松了，不用继续走路了（当然，要是还能多做停留的话，或许休息两天之后再次从前山上山并去看看迎客松啥的或许也是可以接受的，就是个人感觉只是一颗普通的松树而已，不是特别值得一看）"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2379:2381",
+          "context_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2332:2334",
+            "HS_NOTE_001:TIME:2372:2374",
+            "HS_NOTE_001:POI:2379:2381",
+            "HS_NOTE_001:POI:2387:2390"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2332:2334"
+          ],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:2372:2374"
+          ],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "迎客松",
+          "activity_label": "迎客松",
+          "surface": "迎客松",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 2387,
+            "end": 2390
+          },
+          "activity": "坐上索道的时候感觉人终于放松了，不用继续走路了（当然，要是还能多做停留的话，或许休息两天之后再次从前山上山并去看看迎客松啥的或许也是可以接受的，就是个人感觉只是一颗普通的松树而已，不是特别值得一看）",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "hypothetical",
+          "extraction_rule": "future_or_counterfactual",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2330,
+            "end": 2429,
+            "text": "坐上索道的时候感觉人终于放松了，不用继续走路了（当然，要是还能多做停留的话，或许休息两天之后再次从前山上山并去看看迎客松啥的或许也是可以接受的，就是个人感觉只是一颗普通的松树而已，不是特别值得一看）"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2387:2390",
+          "context_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2332:2334",
+            "HS_NOTE_001:TIME:2372:2374",
+            "HS_NOTE_001:POI:2379:2381",
+            "HS_NOTE_001:POI:2387:2390"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2332:2334"
+          ],
+          "time_entity_ids": [
+            "HS_NOTE_001:TIME:2372:2374"
+          ],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "东黄山旅游度假区",
+          "activity_label": "东黄山旅游度假区",
+          "surface": "东黄山旅游度假区",
+          "entity_type": "peripheral",
+          "mention_span": {
+            "start": 2532,
+            "end": 2540
+          },
+          "activity": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息：",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "peripheral",
+          "extraction_rule": "peripheral_dictionary",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2481,
+            "end": 2628,
+            "text": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息："
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2532:2540",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2532:2540",
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568",
+            "HS_NOTE_001:POI:2583:2585",
+            "HS_NOTE_001:POI:2598:2600"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "云谷索道",
+          "activity_label": "云谷索道",
+          "surface": "云谷索道",
+          "entity_type": "transport",
+          "mention_span": {
+            "start": 2564,
+            "end": 2568
+          },
+          "activity": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息：",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "mentioned",
+          "extraction_rule": "no_visit_evidence",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2481,
+            "end": 2628,
+            "text": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息："
+          },
+          "source_entity_id": "HS_NOTE_001:TRANSPORT:2564:2568",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2532:2540",
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568",
+            "HS_NOTE_001:POI:2583:2585",
+            "HS_NOTE_001:POI:2598:2600"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "汤口",
+          "activity_label": "汤口",
+          "surface": "汤口",
+          "entity_type": "peripheral",
+          "mention_span": {
+            "start": 2583,
+            "end": 2585
+          },
+          "activity": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息：",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "peripheral",
+          "extraction_rule": "peripheral_dictionary",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2481,
+            "end": 2628,
+            "text": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息："
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2583:2585",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2532:2540",
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568",
+            "HS_NOTE_001:POI:2583:2585",
+            "HS_NOTE_001:POI:2598:2600"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "汤口",
+          "activity_label": "汤口",
+          "surface": "汤口",
+          "entity_type": "peripheral",
+          "mention_span": {
+            "start": 2598,
+            "end": 2600
+          },
+          "activity": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息：",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "peripheral",
+          "extraction_rule": "peripheral_dictionary",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2481,
+            "end": 2628,
+            "text": "回程路上在上高速前走很多风景优美的省道，不过由于太累了无心拍照并没有留下照片纪念，让我最印象深刻的是「东黄山旅游度假区」附近一条没有建成的索道下端点，从名字上看叫做「云谷索道下端」，看上去黄山试图解决南端汤口镇过于拥挤，所有游客必须从汤口（黄山南部）出发的单点问题，从 文章中也能看到一些信息："
+          },
+          "source_entity_id": "HS_NOTE_001:POI:2598:2600",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:2532:2540",
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568",
+            "HS_NOTE_001:POI:2583:2585",
+            "HS_NOTE_001:POI:2598:2600"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:2550:2552",
+            "HS_NOTE_001:TRANSPORT:2564:2568"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        }
+      ],
+      "excluded_steps": [],
+      "warnings": [
+        "叙述事件是保守规则候选；同句实体间的微观先后未经人工标注验收，不能视作完整真实轨迹。",
+        "time和duration_minutes为空表示来源未提供；时间层级保留unknown，不按步骤均分上午/下午。"
+      ],
+      "format": "narrative_rules",
+      "time_hierarchy": [
+        {
+          "day": 1,
+          "periods": {
+            "morning": [
+              "HS_NOTE_001:tourist_observed:s001"
+            ],
+            "noon": [],
+            "afternoon": [],
+            "evening": [
+              "HS_NOTE_001:tourist_observed:s007"
+            ],
+            "unknown": [
+              "HS_NOTE_001:tourist_observed:s002",
+              "HS_NOTE_001:tourist_observed:s003",
+              "HS_NOTE_001:tourist_observed:s004",
+              "HS_NOTE_001:tourist_observed:s005",
+              "HS_NOTE_001:tourist_observed:s006",
+              "HS_NOTE_001:tourist_observed:s008"
+            ]
+          }
+        },
+        {
+          "day": 2,
+          "periods": {
+            "morning": [],
+            "noon": [],
+            "afternoon": [],
+            "evening": [
+              "HS_NOTE_001:tourist_observed:s012"
+            ],
+            "unknown": [
+              "HS_NOTE_001:tourist_observed:s009",
+              "HS_NOTE_001:tourist_observed:s010",
+              "HS_NOTE_001:tourist_observed:s011"
+            ]
+          }
+        }
+      ],
+      "temporal_context": [
+        {
+          "entity_id": "HS_NOTE_001:TIME:29:31",
+          "day": 1,
+          "time_period": "morning",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:971:973",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1102:1104",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1244:1246",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1306:1308",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1318:1320",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1618:1620",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1681:1686",
+          "day": 2,
+          "time_period": "unknown",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1983:1985",
+          "day": 2,
+          "time_period": "unknown",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:2372:2374",
+          "day": 2,
+          "time_period": "unknown",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:2629:2631",
+          "day": 2,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:2632:2636",
+          "day": 2,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        }
+      ]
+    },
+    {
+      "route_id": "HS_NOTE_001:tourist_declared",
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "scenic_name": "黄山风景区",
+      "source_url": "https://nova.moe/2024-huangshan/",
+      "text_type": "tourist_note",
+      "route_kind": "tourist_declared",
+      "steps": [
+        {
+          "poi": "西海饭店",
+          "activity_label": "西海饭店",
+          "surface": "西海饭店",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1754,
+            "end": 1758
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "corroborated",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1754:1758",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "corroborating_evidence": [
+            {
+              "doc_id": "HS_NOTE_001",
+              "start": 1708,
+              "end": 1723,
+              "text": "从西海饭店出来，发现天气不错！"
+            }
+          ],
+          "step_id": "HS_NOTE_001:tourist_declared:s001",
+          "order": 1
+        },
+        {
+          "poi": "排云楼宾馆",
+          "activity_label": "排云楼宾馆",
+          "surface": "排云楼宾馆",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1762,
+            "end": 1767
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1762:1767",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s002",
+          "order": 2
+        },
+        {
+          "poi": "飞来石",
+          "activity_label": "飞来石",
+          "surface": "飞来石",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1771,
+            "end": 1774
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1771:1774",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s003",
+          "order": 3
+        },
+        {
+          "poi": "光明顶山庄",
+          "activity_label": "光明顶山庄",
+          "surface": "光明顶山庄",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1778,
+            "end": 1783
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1778:1783",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s004",
+          "order": 4
+        },
+        {
+          "poi": "天海宾馆",
+          "activity_label": "天海宾馆",
+          "surface": "天海宾馆",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1787,
+            "end": 1791
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1787:1791",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s005",
+          "order": 5
+        },
+        {
+          "poi": "海心亭",
+          "activity_label": "海心亭",
+          "surface": "海心亭",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1795,
+            "end": 1798
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1795:1798",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s006",
+          "order": 6
+        },
+        {
+          "poi": "莲花亭",
+          "activity_label": "莲花亭",
+          "surface": "莲花亭",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1809,
+            "end": 1812
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1809:1812",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s007",
+          "order": 7
+        },
+        {
+          "poi": "玉屏楼宾馆",
+          "activity_label": "玉屏楼宾馆",
+          "surface": "玉屏楼宾馆",
+          "entity_type": "hotel",
+          "mention_span": {
+            "start": 1816,
+            "end": 1821
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1816:1821",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s008",
+          "order": 8
+        },
+        {
+          "poi": "玉屏索道",
+          "activity_label": "玉屏索道",
+          "surface": "玉屏索道",
+          "entity_type": "transport",
+          "mention_span": {
+            "start": 1825,
+            "end": 1829
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "reported",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:TRANSPORT:1825:1829",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_NOTE_001:tourist_declared:s009",
+          "order": 9
+        }
+      ],
+      "optional_branches": [],
+      "non_main_mentions": [],
+      "excluded_steps": [
+        {
+          "poi": "一线天",
+          "activity_label": "一线天",
+          "surface": "一线天",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 1802,
+            "end": 1805
+          },
+          "activity": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山",
+          "day": 2,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "not_visited",
+          "extraction_rule": "tourist_arrow_list",
+          "evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 1750,
+            "end": 1831,
+            "text": "路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山"
+          },
+          "source_entity_id": "HS_NOTE_001:POI:1802:1805",
+          "context_entity_ids": [
+            "HS_NOTE_001:POI:1754:1758",
+            "HS_NOTE_001:POI:1762:1767",
+            "HS_NOTE_001:POI:1771:1774",
+            "HS_NOTE_001:POI:1778:1783",
+            "HS_NOTE_001:POI:1787:1791",
+            "HS_NOTE_001:POI:1795:1798",
+            "HS_NOTE_001:POI:1802:1805",
+            "HS_NOTE_001:POI:1809:1812",
+            "HS_NOTE_001:POI:1816:1821",
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "transport_entity_ids": [
+            "HS_NOTE_001:TRANSPORT:1825:1829"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "contradiction_evidence": {
+            "doc_id": "HS_NOTE_001",
+            "start": 2249,
+            "end": 2293,
+            "text": "这次爬一线天的人也特别多，考虑到安全因素+腿/膝盖实在不太行了，未能前往（下次或许一定）"
+          }
+        }
+      ],
+      "warnings": [
+        "列表中未被否定的节点仅为作者报告路线；未被叙述证实不等于已到访。删除否定节点不证明其前后节点之间有直接通路。",
+        "time和duration_minutes为空表示来源未提供；时间层级保留unknown，不按步骤均分上午/下午。"
+      ],
+      "format": "arrow_list",
+      "time_hierarchy": [
+        {
+          "day": 2,
+          "periods": {
+            "morning": [],
+            "noon": [],
+            "afternoon": [],
+            "evening": [],
+            "unknown": [
+              "HS_NOTE_001:tourist_declared:s001",
+              "HS_NOTE_001:tourist_declared:s002",
+              "HS_NOTE_001:tourist_declared:s003",
+              "HS_NOTE_001:tourist_declared:s004",
+              "HS_NOTE_001:tourist_declared:s005",
+              "HS_NOTE_001:tourist_declared:s006",
+              "HS_NOTE_001:tourist_declared:s007",
+              "HS_NOTE_001:tourist_declared:s008",
+              "HS_NOTE_001:tourist_declared:s009"
+            ]
+          }
+        }
+      ],
+      "temporal_context": [
+        {
+          "entity_id": "HS_NOTE_001:TIME:29:31",
+          "day": 1,
+          "time_period": "morning",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:971:973",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1102:1104",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1244:1246",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1306:1308",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1318:1320",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1618:1620",
+          "day": 1,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1681:1686",
+          "day": 2,
+          "time_period": "unknown",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:1983:1985",
+          "day": 2,
+          "time_period": "unknown",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:2372:2374",
+          "day": 2,
+          "time_period": "unknown",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:2629:2631",
+          "day": 2,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        },
+        {
+          "entity_id": "HS_NOTE_001:TIME:2632:2636",
+          "day": 2,
+          "time_period": "evening",
+          "scope": "document_context_not_automatic_step_assignment"
+        }
+      ]
+    },
+    {
+      "route_id": "HS_OFF_001:official_recommended",
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "scenic_name": "黄山风景区",
+      "source_url": "https://hsgwh.huangshan.gov.cn/lyfw/xltj/9195903.html",
+      "text_type": "official_route",
+      "route_kind": "official_recommended",
+      "steps": [
+        {
+          "poi": null,
+          "activity_label": "上山索道二选一",
+          "surface": null,
+          "entity_type": "activity",
+          "mention_span": null,
+          "activity": "（1）一日游线路\n乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "transport_choice",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 0,
+            "end": 38,
+            "text": "（1）一日游线路\n乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭"
+          },
+          "source_entity_id": null,
+          "context_entity_ids": [
+            "HS_OFF_001:TRANSPORT:11:15",
+            "HS_OFF_001:TRANSPORT:16:20",
+            "HS_OFF_001:POI:26:28",
+            "HS_OFF_001:POI:35:38"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:11:15",
+            "HS_OFF_001:TRANSPORT:16:20"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "choices": [
+            "云谷索道",
+            "太平索道"
+          ],
+          "choice_mentions": [
+            {
+              "name": "云谷索道",
+              "surface": "云谷索道",
+              "entity_type": "transport",
+              "start": 11,
+              "end": 15,
+              "source_entity_id": "HS_OFF_001:TRANSPORT:11:15",
+              "upstream_entity_type": "TRANSPORT",
+              "upstream_subtype": "cableway",
+              "granularity": "specific"
+            },
+            {
+              "name": "太平索道",
+              "surface": "太平索道",
+              "entity_type": "transport",
+              "start": 16,
+              "end": 20,
+              "source_entity_id": "HS_OFF_001:TRANSPORT:16:20",
+              "upstream_entity_type": "TRANSPORT",
+              "upstream_subtype": "cableway",
+              "granularity": "specific"
+            }
+          ],
+          "choice_semantics": "choose_one",
+          "step_id": "HS_OFF_001:official_recommended:s001",
+          "order": 1
+        },
+        {
+          "poi": "后山",
+          "activity_label": "后山",
+          "surface": "后山",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 26,
+            "end": 28
+          },
+          "activity": "（1）一日游线路\n乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 0,
+            "end": 38,
+            "text": "（1）一日游线路\n乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭"
+          },
+          "source_entity_id": "HS_OFF_001:POI:26:28",
+          "context_entity_ids": [
+            "HS_OFF_001:TRANSPORT:11:15",
+            "HS_OFF_001:TRANSPORT:16:20",
+            "HS_OFF_001:POI:26:28",
+            "HS_OFF_001:POI:35:38"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:11:15",
+            "HS_OFF_001:TRANSPORT:16:20"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s002",
+          "order": 2
+        },
+        {
+          "poi": "排云亭",
+          "activity_label": "排云亭",
+          "surface": "排云亭",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 35,
+            "end": 38
+          },
+          "activity": "（1）一日游线路\n乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 0,
+            "end": 38,
+            "text": "（1）一日游线路\n乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭"
+          },
+          "source_entity_id": "HS_OFF_001:POI:35:38",
+          "context_entity_ids": [
+            "HS_OFF_001:TRANSPORT:11:15",
+            "HS_OFF_001:TRANSPORT:16:20",
+            "HS_OFF_001:POI:26:28",
+            "HS_OFF_001:POI:35:38"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:11:15",
+            "HS_OFF_001:TRANSPORT:16:20"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s003",
+          "order": 3
+        },
+        {
+          "poi": "西海大峡谷北入口",
+          "activity_label": "西海大峡谷北入口",
+          "surface": "西海大峡谷北入口",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 39,
+            "end": 47
+          },
+          "activity": "西海大峡谷北入口（途中可远观光明顶，飞来石等景点）",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 39,
+            "end": 64,
+            "text": "西海大峡谷北入口（途中可远观光明顶，飞来石等景点）"
+          },
+          "source_entity_id": "HS_OFF_001:POI:39:47",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:39:47",
+            "HS_OFF_001:POI:53:56",
+            "HS_OFF_001:POI:57:60"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s004",
+          "order": 4
+        },
+        {
+          "poi": "一环",
+          "activity_label": "一环",
+          "surface": "一环",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 65,
+            "end": 67
+          },
+          "activity": "一环",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 65,
+            "end": 67,
+            "text": "一环"
+          },
+          "source_entity_id": "HS_OFF_001:POI:65:67",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:65:67"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s005",
+          "order": 5
+        },
+        {
+          "poi": "二环",
+          "activity_label": "二环",
+          "surface": "二环",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 68,
+            "end": 70
+          },
+          "activity": "二环",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 68,
+            "end": 70,
+            "text": "二环"
+          },
+          "source_entity_id": "HS_OFF_001:POI:68:70",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:68:70"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s006",
+          "order": 6
+        },
+        {
+          "poi": "谷底",
+          "activity_label": "谷底",
+          "surface": "谷底",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 71,
+            "end": 73
+          },
+          "activity": "谷底",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 71,
+            "end": 73,
+            "text": "谷底"
+          },
+          "source_entity_id": "HS_OFF_001:POI:71:73",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:71:73"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s007",
+          "order": 7
+        },
+        {
+          "poi": "西海观光缆车",
+          "activity_label": "西海观光缆车",
+          "surface": "西海观光缆车",
+          "entity_type": "transport",
+          "mention_span": {
+            "start": 76,
+            "end": 82
+          },
+          "activity": "乘坐西海观光缆车",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 74,
+            "end": 82,
+            "text": "乘坐西海观光缆车"
+          },
+          "source_entity_id": "HS_OFF_001:TRANSPORT:76:82",
+          "context_entity_ids": [
+            "HS_OFF_001:TRANSPORT:76:82"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:76:82"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s008",
+          "order": 8
+        },
+        {
+          "poi": "天海",
+          "activity_label": "天海",
+          "surface": "天海",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 83,
+            "end": 85
+          },
+          "activity": "天海（如体力可行，可先上光明顶，再原路返回天海）",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 83,
+            "end": 107,
+            "text": "天海（如体力可行，可先上光明顶，再原路返回天海）"
+          },
+          "source_entity_id": "HS_OFF_001:POI:83:85",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:83:85",
+            "HS_OFF_001:POI:95:98",
+            "HS_OFF_001:POI:104:106"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s009",
+          "order": 9
+        },
+        {
+          "poi": "海心亭",
+          "activity_label": "海心亭",
+          "surface": "海心亭",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 108,
+            "end": 111
+          },
+          "activity": "海心亭",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 108,
+            "end": 111,
+            "text": "海心亭"
+          },
+          "source_entity_id": "HS_OFF_001:POI:108:111",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:108:111"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s010",
+          "order": 10
+        },
+        {
+          "poi": "鳌鱼峰",
+          "activity_label": "鳌鱼峰",
+          "surface": "鳌鱼峰",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 112,
+            "end": 115
+          },
+          "activity": "鳌鱼峰",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 112,
+            "end": 115,
+            "text": "鳌鱼峰"
+          },
+          "source_entity_id": "HS_OFF_001:POI:112:115",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:112:115"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s011",
+          "order": 11
+        },
+        {
+          "poi": "玉屏景区",
+          "activity_label": "玉屏景区",
+          "surface": "玉屏景区",
+          "entity_type": "region",
+          "mention_span": {
+            "start": 116,
+            "end": 120
+          },
+          "activity": "玉屏景区，观看迎客松后乘坐玉屏索道下山。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 116,
+            "end": 136,
+            "text": "玉屏景区，观看迎客松后乘坐玉屏索道下山。"
+          },
+          "source_entity_id": "HS_OFF_001:POI:116:120",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:116:120",
+            "HS_OFF_001:POI:123:126",
+            "HS_OFF_001:TRANSPORT:129:133"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:129:133"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s012",
+          "order": 12
+        },
+        {
+          "poi": "迎客松",
+          "activity_label": "迎客松",
+          "surface": "迎客松",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 123,
+            "end": 126
+          },
+          "activity": "玉屏景区，观看迎客松后乘坐玉屏索道下山。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 116,
+            "end": 136,
+            "text": "玉屏景区，观看迎客松后乘坐玉屏索道下山。"
+          },
+          "source_entity_id": "HS_OFF_001:POI:123:126",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:116:120",
+            "HS_OFF_001:POI:123:126",
+            "HS_OFF_001:TRANSPORT:129:133"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:129:133"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s013",
+          "order": 13
+        },
+        {
+          "poi": "玉屏索道",
+          "activity_label": "玉屏索道",
+          "surface": "玉屏索道",
+          "entity_type": "transport",
+          "mention_span": {
+            "start": 129,
+            "end": 133
+          },
+          "activity": "玉屏景区，观看迎客松后乘坐玉屏索道下山。",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "recommended",
+          "extraction_rule": "arrow_narrative",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 116,
+            "end": 136,
+            "text": "玉屏景区，观看迎客松后乘坐玉屏索道下山。"
+          },
+          "source_entity_id": "HS_OFF_001:TRANSPORT:129:133",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:116:120",
+            "HS_OFF_001:POI:123:126",
+            "HS_OFF_001:TRANSPORT:129:133"
+          ],
+          "transport_entity_ids": [
+            "HS_OFF_001:TRANSPORT:129:133"
+          ],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": [],
+          "step_id": "HS_OFF_001:official_recommended:s014",
+          "order": 14
+        }
+      ],
+      "optional_branches": [
+        {
+          "anchor_poi": "天海",
+          "condition": "如体力可行",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 85,
+            "end": 107,
+            "text": "（如体力可行，可先上光明顶，再原路返回天海）"
+          },
+          "steps": [
+            {
+              "poi": "光明顶",
+              "activity_label": "光明顶",
+              "surface": "光明顶",
+              "entity_type": "poi",
+              "mention_span": {
+                "start": 95,
+                "end": 98
+              },
+              "activity": "（如体力可行，可先上光明顶，再原路返回天海）",
+              "day": 1,
+              "time": null,
+              "duration_minutes": null,
+              "time_period": "unknown",
+              "time_expression": null,
+              "time_basis": "unknown",
+              "inferred": false,
+              "visit_status": "optional",
+              "extraction_rule": "conditional_parenthesis",
+              "evidence": {
+                "doc_id": "HS_OFF_001",
+                "start": 85,
+                "end": 107,
+                "text": "（如体力可行，可先上光明顶，再原路返回天海）"
+              },
+              "source_entity_id": "HS_OFF_001:POI:95:98",
+              "context_entity_ids": [
+                "HS_OFF_001:POI:95:98",
+                "HS_OFF_001:POI:104:106"
+              ],
+              "transport_entity_ids": [],
+              "time_entity_ids": [],
+              "assigned_time_entity_ids": [],
+              "return_to_anchor": false,
+              "step_id": "HS_OFF_001:official_recommended:b001:s001",
+              "order": 1
+            },
+            {
+              "poi": "天海",
+              "activity_label": "天海",
+              "surface": "天海",
+              "entity_type": "region",
+              "mention_span": {
+                "start": 104,
+                "end": 106
+              },
+              "activity": "（如体力可行，可先上光明顶，再原路返回天海）",
+              "day": 1,
+              "time": null,
+              "duration_minutes": null,
+              "time_period": "unknown",
+              "time_expression": null,
+              "time_basis": "unknown",
+              "inferred": false,
+              "visit_status": "optional",
+              "extraction_rule": "conditional_parenthesis",
+              "evidence": {
+                "doc_id": "HS_OFF_001",
+                "start": 85,
+                "end": 107,
+                "text": "（如体力可行，可先上光明顶，再原路返回天海）"
+              },
+              "source_entity_id": "HS_OFF_001:POI:104:106",
+              "context_entity_ids": [
+                "HS_OFF_001:POI:95:98",
+                "HS_OFF_001:POI:104:106"
+              ],
+              "transport_entity_ids": [],
+              "time_entity_ids": [],
+              "assigned_time_entity_ids": [],
+              "return_to_anchor": true,
+              "step_id": "HS_OFF_001:official_recommended:b001:s002",
+              "order": 2
+            }
+          ],
+          "branch_id": "HS_OFF_001:official_recommended:b001",
+          "anchor_step_id": "HS_OFF_001:official_recommended:s009"
+        }
+      ],
+      "non_main_mentions": [
+        {
+          "poi": "光明顶",
+          "activity_label": "光明顶",
+          "surface": "光明顶",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 53,
+            "end": 56
+          },
+          "activity": "（途中可远观光明顶，飞来石等景点）",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "remote_view",
+          "extraction_rule": "remote_parenthesis",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 47,
+            "end": 64,
+            "text": "（途中可远观光明顶，飞来石等景点）"
+          },
+          "source_entity_id": "HS_OFF_001:POI:53:56",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:53:56",
+            "HS_OFF_001:POI:57:60"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        },
+        {
+          "poi": "飞来石",
+          "activity_label": "飞来石",
+          "surface": "飞来石",
+          "entity_type": "poi",
+          "mention_span": {
+            "start": 57,
+            "end": 60
+          },
+          "activity": "（途中可远观光明顶，飞来石等景点）",
+          "day": 1,
+          "time": null,
+          "duration_minutes": null,
+          "time_period": "unknown",
+          "time_expression": null,
+          "time_basis": "unknown",
+          "inferred": false,
+          "visit_status": "remote_view",
+          "extraction_rule": "remote_parenthesis",
+          "evidence": {
+            "doc_id": "HS_OFF_001",
+            "start": 47,
+            "end": 64,
+            "text": "（途中可远观光明顶，飞来石等景点）"
+          },
+          "source_entity_id": "HS_OFF_001:POI:57:60",
+          "context_entity_ids": [
+            "HS_OFF_001:POI:53:56",
+            "HS_OFF_001:POI:57:60"
+          ],
+          "transport_entity_ids": [],
+          "time_entity_ids": [],
+          "assigned_time_entity_ids": []
+        }
+      ],
+      "excluded_steps": [],
+      "warnings": [
+        "time和duration_minutes为空表示来源未提供；时间层级保留unknown，不按步骤均分上午/下午。"
+      ],
+      "format": "arrow_narrative",
+      "time_hierarchy": [
+        {
+          "day": 1,
+          "periods": {
+            "morning": [],
+            "noon": [],
+            "afternoon": [],
+            "evening": [],
+            "unknown": [
+              "HS_OFF_001:official_recommended:s001",
+              "HS_OFF_001:official_recommended:s002",
+              "HS_OFF_001:official_recommended:s003",
+              "HS_OFF_001:official_recommended:s004",
+              "HS_OFF_001:official_recommended:s005",
+              "HS_OFF_001:official_recommended:s006",
+              "HS_OFF_001:official_recommended:s007",
+              "HS_OFF_001:official_recommended:s008",
+              "HS_OFF_001:official_recommended:s009",
+              "HS_OFF_001:official_recommended:s010",
+              "HS_OFF_001:official_recommended:s011",
+              "HS_OFF_001:official_recommended:s012",
+              "HS_OFF_001:official_recommended:s013",
+              "HS_OFF_001:official_recommended:s014"
+            ]
+          }
+        }
+      ],
+      "temporal_context": []
+    }
+  ],
+  "upstream_entities": {
+    "artifact_name": "entities_v2.json",
+    "sha256": "29a5a6111a034e19e4a22be46d7ec2dac9f7d7c1756dbca421f4c7e55ff87691",
+    "entity_mentions": 100,
+    "by_type": {
+      "POI": 65,
+      "TIME": 12,
+      "TRANSPORT": 23
+    },
+    "per_doc": {
+      "HS_NOTE_001": 81,
+      "HS_OFF_001": 19
+    },
+    "position_validation": "passed",
+    "identity_policy": "doc_id:type:start:end；名称使用text去空白，canonical仅保留为类别属性"
+  },
+  "source_entities": [
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "早上",
+      "entity_type": "TIME",
+      "subtype": "period",
+      "start": 29,
+      "end": 31,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "早上",
+      "entity_id": "HS_NOTE_001:TIME:29:31"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "面包车",
+      "entity_type": "TRANSPORT",
+      "subtype": "shuttle",
+      "start": 37,
+      "end": 40,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "面包车",
+      "entity_id": "HS_NOTE_001:TRANSPORT:37:40"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "大巴",
+      "entity_type": "TRANSPORT",
+      "subtype": "shuttle",
+      "start": 64,
+      "end": 66,
+      "sentence_id": 3,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "大巴",
+      "entity_id": "HS_NOTE_001:TRANSPORT:64:66"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 71,
+      "end": 73,
+      "sentence_id": 3,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:71:73"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 87,
+      "end": 89,
+      "sentence_id": 3,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:87:89"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "云谷寺",
+      "entity_type": "POI",
+      "subtype": "gate",
+      "start": 111,
+      "end": 114,
+      "sentence_id": 4,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "云谷寺",
+      "entity_id": "HS_NOTE_001:POI:111:114"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "后山",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 115,
+      "end": 117,
+      "sentence_id": 4,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "后山",
+      "entity_id": "HS_NOTE_001:POI:115:117"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "前山",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 120,
+      "end": 122,
+      "sentence_id": 4,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "前山",
+      "entity_id": "HS_NOTE_001:POI:120:122"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "自驾",
+      "entity_type": "TRANSPORT",
+      "subtype": "self_drive",
+      "start": 140,
+      "end": 142,
+      "sentence_id": 5,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "自驾",
+      "entity_id": "HS_NOTE_001:TRANSPORT:140:142"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 158,
+      "end": 160,
+      "sentence_id": 5,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:158:160"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "大巴",
+      "entity_type": "TRANSPORT",
+      "subtype": "shuttle",
+      "start": 161,
+      "end": 163,
+      "sentence_id": 5,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "大巴",
+      "entity_id": "HS_NOTE_001:TRANSPORT:161:163"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "云谷寺",
+      "entity_type": "POI",
+      "subtype": "gate",
+      "start": 165,
+      "end": 168,
+      "sentence_id": 5,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "云谷寺",
+      "entity_id": "HS_NOTE_001:POI:165:168"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 168,
+      "end": 170,
+      "sentence_id": 5,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:168:170"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 174,
+      "end": 176,
+      "sentence_id": 5,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:174:176"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 202,
+      "end": 204,
+      "sentence_id": 6,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:202:204"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "蘑菇亭",
+      "entity_type": "POI",
+      "subtype": "pavilion",
+      "start": 253,
+      "end": 256,
+      "sentence_id": 7,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "蘑菇亭",
+      "entity_id": "HS_NOTE_001:POI:253:256"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "始信峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 259,
+      "end": 262,
+      "sentence_id": 7,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "始信峰",
+      "entity_id": "HS_NOTE_001:POI:259:262"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "始信峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 266,
+      "end": 269,
+      "sentence_id": 8,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "始信峰",
+      "entity_id": "HS_NOTE_001:POI:266:269"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "始信峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 376,
+      "end": 379,
+      "sentence_id": 13,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "始信峰",
+      "entity_id": "HS_NOTE_001:POI:376:379"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "徒步",
+      "entity_type": "TRANSPORT",
+      "subtype": "walk",
+      "start": 445,
+      "end": 447,
+      "sentence_id": 14,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "徒步",
+      "entity_id": "HS_NOTE_001:TRANSPORT:445:447"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "始信峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 501,
+      "end": 504,
+      "sentence_id": 17,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "始信峰",
+      "entity_id": "HS_NOTE_001:POI:501:504"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "北海宾馆",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 588,
+      "end": 592,
+      "sentence_id": 18,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "北海宾馆",
+      "entity_id": "HS_NOTE_001:POI:588:592"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "北海宾馆",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 602,
+      "end": 606,
+      "sentence_id": 18,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "北海宾馆",
+      "entity_id": "HS_NOTE_001:POI:602:606"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "猴子观海",
+      "entity_type": "POI",
+      "subtype": "viewpoint",
+      "start": 663,
+      "end": 667,
+      "sentence_id": 19,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "猴子观海",
+      "entity_id": "HS_NOTE_001:POI:663:667"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "猴子观海",
+      "entity_type": "POI",
+      "subtype": "viewpoint",
+      "start": 730,
+      "end": 734,
+      "sentence_id": 26,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "猴子观海",
+      "entity_id": "HS_NOTE_001:POI:730:734"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "猴子观海",
+      "entity_type": "POI",
+      "subtype": "viewpoint",
+      "start": 824,
+      "end": 828,
+      "sentence_id": 28,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "猴子观海",
+      "entity_id": "HS_NOTE_001:POI:824:828"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "猴子观海",
+      "entity_type": "POI",
+      "subtype": "viewpoint",
+      "start": 956,
+      "end": 960,
+      "sentence_id": 32,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "猴子观海",
+      "entity_id": "HS_NOTE_001:POI:956:960"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "当晚",
+      "entity_type": "TIME",
+      "subtype": "period",
+      "start": 971,
+      "end": 973,
+      "sentence_id": 32,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "当晚",
+      "entity_id": "HS_NOTE_001:TIME:971:973"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海饭店",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 978,
+      "end": 982,
+      "sentence_id": 32,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海饭店",
+      "entity_id": "HS_NOTE_001:POI:978:982"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海大峡谷",
+      "entity_type": "POI",
+      "subtype": "canyon",
+      "start": 1002,
+      "end": 1007,
+      "sentence_id": 33,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海大峡谷",
+      "entity_id": "HS_NOTE_001:POI:1002:1007"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海大峡谷",
+      "entity_type": "POI",
+      "subtype": "canyon",
+      "start": 1047,
+      "end": 1052,
+      "sentence_id": 34,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海大峡谷",
+      "entity_id": "HS_NOTE_001:POI:1047:1052"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "火车",
+      "entity_type": "TRANSPORT",
+      "subtype": "rail",
+      "start": 1053,
+      "end": 1055,
+      "sentence_id": 34,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "火车",
+      "entity_id": "HS_NOTE_001:TRANSPORT:1053:1055"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "丹霞峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1092,
+      "end": 1095,
+      "sentence_id": 35,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "丹霞峰",
+      "entity_id": "HS_NOTE_001:POI:1092:1095"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "日落",
+      "entity_type": "TIME",
+      "subtype": "event",
+      "start": 1102,
+      "end": 1104,
+      "sentence_id": 35,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "日落",
+      "entity_id": "HS_NOTE_001:TIME:1102:1104"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "丹霞峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1146,
+      "end": 1149,
+      "sentence_id": 35,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "丹霞峰",
+      "entity_id": "HS_NOTE_001:POI:1146:1149"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "丹霞峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1202,
+      "end": 1205,
+      "sentence_id": 37,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "丹霞峰",
+      "entity_id": "HS_NOTE_001:POI:1202:1205"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "日落",
+      "entity_type": "TIME",
+      "subtype": "event",
+      "start": 1244,
+      "end": 1246,
+      "sentence_id": 37,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "日落",
+      "entity_id": "HS_NOTE_001:TIME:1244:1246"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "日落",
+      "entity_type": "TIME",
+      "subtype": "event",
+      "start": 1306,
+      "end": 1308,
+      "sentence_id": 38,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "日落",
+      "entity_id": "HS_NOTE_001:TIME:1306:1308"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "日落",
+      "entity_type": "TIME",
+      "subtype": "event",
+      "start": 1318,
+      "end": 1320,
+      "sentence_id": 39,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "日落",
+      "entity_id": "HS_NOTE_001:TIME:1318:1320"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "丹霞峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1344,
+      "end": 1347,
+      "sentence_id": 39,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "丹霞峰",
+      "entity_id": "HS_NOTE_001:POI:1344:1347"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海饭店",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1539,
+      "end": 1543,
+      "sentence_id": 43,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海饭店",
+      "entity_id": "HS_NOTE_001:POI:1539:1543"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "晚上",
+      "entity_type": "TIME",
+      "subtype": "period",
+      "start": 1618,
+      "end": 1620,
+      "sentence_id": 43,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "晚上",
+      "entity_id": "HS_NOTE_001:TIME:1618:1620"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "T + 1",
+      "entity_type": "TIME",
+      "subtype": "day",
+      "start": 1681,
+      "end": 1686,
+      "sentence_id": 44,
+      "method": "regex_day",
+      "granularity": "specific",
+      "canonical": "T + 1",
+      "entity_id": "HS_NOTE_001:TIME:1681:1686"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海饭店",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1709,
+      "end": 1713,
+      "sentence_id": 47,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海饭店",
+      "entity_id": "HS_NOTE_001:POI:1709:1713"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海饭店",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1754,
+      "end": 1758,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海饭店",
+      "entity_id": "HS_NOTE_001:POI:1754:1758"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "排云楼宾馆",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1762,
+      "end": 1767,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "排云楼宾馆",
+      "entity_id": "HS_NOTE_001:POI:1762:1767"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "飞来石",
+      "entity_type": "POI",
+      "subtype": "landmark",
+      "start": 1771,
+      "end": 1774,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "飞来石",
+      "entity_id": "HS_NOTE_001:POI:1771:1774"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶山庄",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1778,
+      "end": 1783,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶山庄",
+      "entity_id": "HS_NOTE_001:POI:1778:1783"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "天海宾馆",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1787,
+      "end": 1791,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "天海宾馆",
+      "entity_id": "HS_NOTE_001:POI:1787:1791"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "海心亭",
+      "entity_type": "POI",
+      "subtype": "pavilion",
+      "start": 1795,
+      "end": 1798,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "海心亭",
+      "entity_id": "HS_NOTE_001:POI:1795:1798"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "一线天",
+      "entity_type": "POI",
+      "subtype": "passage",
+      "start": 1802,
+      "end": 1805,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "一线天",
+      "entity_id": "HS_NOTE_001:POI:1802:1805"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "莲花亭",
+      "entity_type": "POI",
+      "subtype": "pavilion",
+      "start": 1809,
+      "end": 1812,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "莲花亭",
+      "entity_id": "HS_NOTE_001:POI:1809:1812"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "玉屏楼宾馆",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1816,
+      "end": 1821,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "玉屏楼宾馆",
+      "entity_id": "HS_NOTE_001:POI:1816:1821"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "玉屏索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 1825,
+      "end": 1829,
+      "sentence_id": 49,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:1825:1829"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1941,
+      "end": 1944,
+      "sentence_id": 52,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_NOTE_001:POI:1941:1944"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海饭店",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 1946,
+      "end": 1950,
+      "sentence_id": 53,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海饭店",
+      "entity_id": "HS_NOTE_001:POI:1946:1950"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1952,
+      "end": 1955,
+      "sentence_id": 53,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_NOTE_001:POI:1952:1955"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 1972,
+      "end": 1975,
+      "sentence_id": 53,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_NOTE_001:POI:1972:1975"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "两天",
+      "entity_type": "TIME",
+      "subtype": "duration",
+      "start": 1983,
+      "end": 1985,
+      "sentence_id": 53,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "两天",
+      "entity_id": "HS_NOTE_001:TIME:1983:1985"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "西海饭店",
+      "entity_type": "POI",
+      "subtype": "lodging",
+      "start": 2084,
+      "end": 2088,
+      "sentence_id": 54,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海饭店",
+      "entity_id": "HS_NOTE_001:POI:2084:2088"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 2108,
+      "end": 2111,
+      "sentence_id": 54,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_NOTE_001:POI:2108:2111"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 2135,
+      "end": 2138,
+      "sentence_id": 55,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_NOTE_001:POI:2135:2138"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 2157,
+      "end": 2160,
+      "sentence_id": 58,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_NOTE_001:POI:2157:2160"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "前山",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 2181,
+      "end": 2183,
+      "sentence_id": 58,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "前山",
+      "entity_id": "HS_NOTE_001:POI:2181:2183"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "后山",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 2198,
+      "end": 2200,
+      "sentence_id": 58,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "后山",
+      "entity_id": "HS_NOTE_001:POI:2198:2200"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "一线天",
+      "entity_type": "POI",
+      "subtype": "passage",
+      "start": 2252,
+      "end": 2255,
+      "sentence_id": 60,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "一线天",
+      "entity_id": "HS_NOTE_001:POI:2252:2255"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 2320,
+      "end": 2322,
+      "sentence_id": 61,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:2320:2322"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 2323,
+      "end": 2325,
+      "sentence_id": 61,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:2323:2325"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 2332,
+      "end": 2334,
+      "sentence_id": 62,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:2332:2334"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "两天",
+      "entity_type": "TIME",
+      "subtype": "duration",
+      "start": 2372,
+      "end": 2374,
+      "sentence_id": 62,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "两天",
+      "entity_id": "HS_NOTE_001:TIME:2372:2374"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "前山",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 2379,
+      "end": 2381,
+      "sentence_id": 62,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "前山",
+      "entity_id": "HS_NOTE_001:POI:2379:2381"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "迎客松",
+      "entity_type": "POI",
+      "subtype": "landmark",
+      "start": 2387,
+      "end": 2390,
+      "sentence_id": 62,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "迎客松",
+      "entity_id": "HS_NOTE_001:POI:2387:2390"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "徽味楼",
+      "entity_type": "POI",
+      "subtype": "restaurant",
+      "start": 2462,
+      "end": 2465,
+      "sentence_id": 65,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "徽味楼",
+      "entity_id": "HS_NOTE_001:POI:2462:2465"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "东黄山旅游度假区",
+      "entity_type": "POI",
+      "subtype": "resort",
+      "start": 2532,
+      "end": 2540,
+      "sentence_id": 66,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "东黄山旅游度假区",
+      "entity_id": "HS_NOTE_001:POI:2532:2540"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 2550,
+      "end": 2552,
+      "sentence_id": 66,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:2550:2552"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "云谷索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 2564,
+      "end": 2568,
+      "sentence_id": 66,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "索道",
+      "entity_id": "HS_NOTE_001:TRANSPORT:2564:2568"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "汤口",
+      "entity_type": "POI",
+      "subtype": "town",
+      "start": 2583,
+      "end": 2585,
+      "sentence_id": 66,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "汤口",
+      "entity_id": "HS_NOTE_001:POI:2583:2585"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "汤口",
+      "entity_type": "POI",
+      "subtype": "town",
+      "start": 2598,
+      "end": 2600,
+      "sentence_id": 66,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "汤口",
+      "entity_id": "HS_NOTE_001:POI:2598:2600"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "晚上",
+      "entity_type": "TIME",
+      "subtype": "period",
+      "start": 2629,
+      "end": 2631,
+      "sentence_id": 67,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "晚上",
+      "entity_id": "HS_NOTE_001:TIME:2629:2631"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "2100",
+      "entity_type": "TIME",
+      "subtype": "clock",
+      "start": 2632,
+      "end": 2636,
+      "sentence_id": 67,
+      "method": "number",
+      "granularity": "specific",
+      "canonical": "2100",
+      "entity_id": "HS_NOTE_001:TIME:2632:2636"
+    },
+    {
+      "doc_id": "HS_NOTE_001",
+      "scenic_id": "huangshan",
+      "text": "自驾",
+      "entity_type": "TRANSPORT",
+      "subtype": "self_drive",
+      "start": 2655,
+      "end": 2657,
+      "sentence_id": 67,
+      "method": "lexicon",
+      "granularity": "generic",
+      "canonical": "自驾",
+      "entity_id": "HS_NOTE_001:TRANSPORT:2655:2657"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "云谷索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 11,
+      "end": 15,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "索道",
+      "entity_id": "HS_OFF_001:TRANSPORT:11:15"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "太平索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 16,
+      "end": 20,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "索道",
+      "entity_id": "HS_OFF_001:TRANSPORT:16:20"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "后山",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 26,
+      "end": 28,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "后山",
+      "entity_id": "HS_OFF_001:POI:26:28"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "排云亭",
+      "entity_type": "POI",
+      "subtype": "pavilion",
+      "start": 35,
+      "end": 38,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "排云亭",
+      "entity_id": "HS_OFF_001:POI:35:38"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "西海大峡谷北入口",
+      "entity_type": "POI",
+      "subtype": "entrance",
+      "start": 39,
+      "end": 47,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "西海大峡谷北入口",
+      "entity_id": "HS_OFF_001:POI:39:47"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 53,
+      "end": 56,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_OFF_001:POI:53:56"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "飞来石",
+      "entity_type": "POI",
+      "subtype": "landmark",
+      "start": 57,
+      "end": 60,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "飞来石",
+      "entity_id": "HS_OFF_001:POI:57:60"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "一环",
+      "entity_type": "POI",
+      "subtype": "trail",
+      "start": 65,
+      "end": 67,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "一环",
+      "entity_id": "HS_OFF_001:POI:65:67"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "二环",
+      "entity_type": "POI",
+      "subtype": "trail",
+      "start": 68,
+      "end": 70,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "二环",
+      "entity_id": "HS_OFF_001:POI:68:70"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "谷底",
+      "entity_type": "POI",
+      "subtype": "canyon_bottom",
+      "start": 71,
+      "end": 73,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "谷底",
+      "entity_id": "HS_OFF_001:POI:71:73"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "西海观光缆车",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 76,
+      "end": 82,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "索道",
+      "entity_id": "HS_OFF_001:TRANSPORT:76:82"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "天海",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 83,
+      "end": 85,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "天海",
+      "entity_id": "HS_OFF_001:POI:83:85"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "光明顶",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 95,
+      "end": 98,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "光明顶",
+      "entity_id": "HS_OFF_001:POI:95:98"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "天海",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 104,
+      "end": 106,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "天海",
+      "entity_id": "HS_OFF_001:POI:104:106"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "海心亭",
+      "entity_type": "POI",
+      "subtype": "pavilion",
+      "start": 108,
+      "end": 111,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "海心亭",
+      "entity_id": "HS_OFF_001:POI:108:111"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "鳌鱼峰",
+      "entity_type": "POI",
+      "subtype": "peak",
+      "start": 112,
+      "end": 115,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "鳌鱼峰",
+      "entity_id": "HS_OFF_001:POI:112:115"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "玉屏景区",
+      "entity_type": "POI",
+      "subtype": "area",
+      "start": 116,
+      "end": 120,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "玉屏景区",
+      "entity_id": "HS_OFF_001:POI:116:120"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "迎客松",
+      "entity_type": "POI",
+      "subtype": "landmark",
+      "start": 123,
+      "end": 126,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "迎客松",
+      "entity_id": "HS_OFF_001:POI:123:126"
+    },
+    {
+      "doc_id": "HS_OFF_001",
+      "scenic_id": "huangshan",
+      "text": "玉屏索道",
+      "entity_type": "TRANSPORT",
+      "subtype": "cableway",
+      "start": 129,
+      "end": 133,
+      "sentence_id": 2,
+      "method": "lexicon",
+      "granularity": "specific",
+      "canonical": "索道",
+      "entity_id": "HS_OFF_001:TRANSPORT:129:133"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿route_id,doc_id,order,day,poi,surface,entity_type,visit_status,time_period,time,activity_label,activity,source_entity_id,start,end
+HS_NOTE_001:tourist_observed,HS_NOTE_001,1,1,,,activity,confirmed,morning,,乘面包车前往车站,由于酒店门口免费停车，车就丢在了酒店，并在早上坐酒店提供的面包车前往车站。,,8,45
+HS_NOTE_001:tourist_observed,HS_NOTE_001,2,1,,,activity,confirmed,unknown,,索道上山（线路未消解）,由于对自己体力和接下来的自驾有充足的信心，这里上下山全部选择索道，大巴到了云谷寺索道时候便是索道上山。,,128,179
+HS_NOTE_001:tourist_observed,HS_NOTE_001,3,1,蘑菇亭,蘑菇亭,poi,confirmed,unknown,,蘑菇亭,于是到了山上之后就开始沿着为数不多的两条小路走，穿过了蘑菇亭走到了始信峰。,HS_NOTE_001:POI:253:256,226,263
+HS_NOTE_001:tourist_observed,HS_NOTE_001,4,1,始信峰,始信峰,poi,confirmed,unknown,,始信峰,于是到了山上之后就开始沿着为数不多的两条小路走，穿过了蘑菇亭走到了始信峰。,HS_NOTE_001:POI:259:262,226,263
+HS_NOTE_001:tourist_observed,HS_NOTE_001,5,1,北海宾馆,北海宾馆,hotel,confirmed,unknown,,北海宾馆,稍作停留后继续往下便看到了正在修正的北海宾馆，从 可以看到是 「北海宾馆环境整治改造项目室外管网开挖及新建电缆沟工程」,HS_NOTE_001:POI:588:592,570,629
+HS_NOTE_001:tourist_observed,HS_NOTE_001,6,1,猴子观海,猴子观海,poi,confirmed,unknown,,猴子观海,等到达猴子观海的观景台的时候，雾又非常巧合的出现了，可以看到很多人在雾中不知道在拍些什么，同时占据着有利地形,HS_NOTE_001:POI:824:828,821,875
+HS_NOTE_001:tourist_observed,HS_NOTE_001,7,1,西海饭店,西海饭店,hotel,confirmed,evening,,西海饭店,从差点摔死的猴子观海观景台下来之后便到达了当晚要入住的「西海饭店」。,HS_NOTE_001:POI:978:982,950,984
+HS_NOTE_001:tourist_observed,HS_NOTE_001,8,1,丹霞峰,丹霞峰,poi,confirmed,unknown,,丹霞峰,绕了一圈发现雾越来越大之后便开始往回了，在酒店登记入住的时候听前台说丹霞峰一般可以用来看日落，虽然当时山上起着较浓的雾，但是看到天色还比较早，本着「来都来了」的想法便决定爬一波丹霞峰之后再回饭店。,HS_NOTE_001:POI:1146:1149,1058,1156
+HS_NOTE_001:tourist_observed,HS_NOTE_001,9,2,西海饭店,西海饭店,hotel,confirmed,unknown,,西海饭店,从西海饭店出来，发现天气不错！,HS_NOTE_001:POI:1709:1713,1708,1723
+HS_NOTE_001:tourist_observed,HS_NOTE_001,10,2,光明顶,光明顶,poi,confirmed,unknown,,光明顶,从西海饭店走到光明顶，比想象中耗时更长，走的更累，到了光明顶之后是在黄山上的两天中看到人最多的地方，让我意识到所在景区当中,HS_NOTE_001:POI:1952:1955,1945,2006
+HS_NOTE_001:tourist_observed,HS_NOTE_001,11,2,徽味楼,徽味楼,restaurant,confirmed,unknown,,徽味楼,下山之后怒搓一顿徽味楼，便开始了黄山->上海的旅程。,HS_NOTE_001:POI:2462:2465,2454,2480
+HS_NOTE_001:tourist_observed,HS_NOTE_001,12,2,,,activity,confirmed,evening,21:00,行程结束,晚上 2100 ，终于将 FK7 安全带回，这次黄山自驾旅到这里也就结束了，非常感谢你能看到这里，从文字+图片上和我一起进行了这段神奇的旅程。,,2629,2700
+HS_NOTE_001:tourist_declared,HS_NOTE_001,1,2,西海饭店,西海饭店,hotel,corroborated,unknown,,西海饭店,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1754:1758,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,2,2,排云楼宾馆,排云楼宾馆,hotel,reported,unknown,,排云楼宾馆,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1762:1767,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,3,2,飞来石,飞来石,poi,reported,unknown,,飞来石,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1771:1774,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,4,2,光明顶山庄,光明顶山庄,hotel,reported,unknown,,光明顶山庄,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1778:1783,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,5,2,天海宾馆,天海宾馆,hotel,reported,unknown,,天海宾馆,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1787:1791,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,6,2,海心亭,海心亭,poi,reported,unknown,,海心亭,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1795:1798,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,7,2,莲花亭,莲花亭,poi,reported,unknown,,莲花亭,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1809:1812,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,8,2,玉屏楼宾馆,玉屏楼宾馆,hotel,reported,unknown,,玉屏楼宾馆,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:POI:1816:1821,1750,1831
+HS_NOTE_001:tourist_declared,HS_NOTE_001,9,2,玉屏索道,玉屏索道,transport,reported,unknown,,玉屏索道,路线是：西海饭店 -> 排云楼宾馆 -> 飞来石 -> 光明顶山庄 -> 天海宾馆 -> 海心亭 -> 一线天 -> 莲花亭 -> 玉屏楼宾馆 -> 玉屏索道下山,HS_NOTE_001:TRANSPORT:1825:1829,1750,1831
+HS_OFF_001:official_recommended,HS_OFF_001,1,1,,,activity,recommended,unknown,,上山索道二选一,"（1）一日游线路
+乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭",,0,38
+HS_OFF_001:official_recommended,HS_OFF_001,2,1,后山,后山,region,recommended,unknown,,后山,"（1）一日游线路
+乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭",HS_OFF_001:POI:26:28,0,38
+HS_OFF_001:official_recommended,HS_OFF_001,3,1,排云亭,排云亭,poi,recommended,unknown,,排云亭,"（1）一日游线路
+乘坐云谷索道或太平索道上山，先游览后山精华部分，再经排云亭",HS_OFF_001:POI:35:38,0,38
+HS_OFF_001:official_recommended,HS_OFF_001,4,1,西海大峡谷北入口,西海大峡谷北入口,poi,recommended,unknown,,西海大峡谷北入口,西海大峡谷北入口（途中可远观光明顶，飞来石等景点）,HS_OFF_001:POI:39:47,39,64
+HS_OFF_001:official_recommended,HS_OFF_001,5,1,一环,一环,poi,recommended,unknown,,一环,一环,HS_OFF_001:POI:65:67,65,67
+HS_OFF_001:official_recommended,HS_OFF_001,6,1,二环,二环,poi,recommended,unknown,,二环,二环,HS_OFF_001:POI:68:70,68,70
+HS_OFF_001:official_recommended,HS_OFF_001,7,1,谷底,谷底,poi,recommended,unknown,,谷底,谷底,HS_OFF_001:POI:71:73,71,73
+HS_OFF_001:official_recommended,HS_OFF_001,8,1,西海观光缆车,西海观光缆车,transport,recommended,unknown,,西海观光缆车,乘坐西海观光缆车,HS_OFF_001:TRANSPORT:76:82,74,82
+HS_OFF_001:official_recommended,HS_OFF_001,9,1,天海,天海,region,recommended,unknown,,天海,天海（如体力可行，可先上光明顶，再原路返回天海）,HS_OFF_001:POI:83:85,83,107
+HS_OFF_001:official_recommended,HS_OFF_001,10,1,海心亭,海心亭,poi,recommended,unknown,,海心亭,海心亭,HS_OFF_001:POI:108:111,108,111
+HS_OFF_001:official_recommended,HS_OFF_001,11,1,鳌鱼峰,鳌鱼峰,poi,recommended,unknown,,鳌鱼峰,鳌鱼峰,HS_OFF_001:POI:112:115,112,115
+HS_OFF_001:official_recommended,HS_OFF_001,12,1,玉屏景区,玉屏景区,region,recommended,unknown,,玉屏景区,玉屏景区，观看迎客松后乘坐玉屏索道下山。,HS_OFF_001:POI:116:120,116,136
+HS_OFF_001:official_recommended,HS_OFF_001,13,1,迎客松,迎客松,poi,recommended,unknown,,迎客松,玉屏景区，观看迎客松后乘坐玉屏索道下山。,HS_OFF_001:POI:123:126,116,136
+HS_OFF_001:official_recommended,HS_OFF_001,14,1,玉屏索道,玉屏索道,transport,recommended,unknown,,玉屏索道,玉屏景区，观看迎客松后乘坐玉屏索道下山。,HS_OFF_001:TRANSPORT:129:133,116,136

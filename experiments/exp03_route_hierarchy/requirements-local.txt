@@ -1,0 +1,4 @@
+# Optional: tested on Python 3.12 to rerun project 2 and draw the static figure.
+# The project 3 parser and tests only require the Python standard library.
+jieba==0.42.1
+matplotlib==3.11.2
