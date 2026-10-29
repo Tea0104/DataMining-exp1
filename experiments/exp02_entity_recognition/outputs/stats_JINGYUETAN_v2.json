@@ -1,0 +1,185 @@
+{
+  "version": "v2",
+  "scenic_id": "JINGYUETAN",
+  "scenic_name": "净月潭",
+  "doc_count": 10,
+  "chars": 8136,
+  "entity_mentions": 225,
+  "by_type": {
+    "POI": 132,
+    "TRANSPORT": 71,
+    "TIME": 22
+  },
+  "unique_names": {
+    "POI": 33,
+    "TRANSPORT": 9,
+    "TIME": 20
+  },
+  "by_canonical": {
+    "POI": {
+      "女神广场": 18,
+      "黑松林": 11,
+      "景区正门": 10,
+      "森林浴场": 9,
+      "湿地公园": 9,
+      "蘑菇广场": 6,
+      "东北虎园": 5,
+      "望潭广场": 5,
+      "大坝西": 4,
+      "朝夕水岸": 4,
+      "观潭山": 4,
+      "东环潭": 3,
+      "中国瓦萨博物馆": 3,
+      "中韩友谊林": 3,
+      "水上栈道": 3,
+      "水库大坝": 3,
+      "灵草芳洲": 3,
+      "西门": 3,
+      "高尔夫球场": 3,
+      "大坝东": 2,
+      "月亮湾": 2,
+      "月潭揽胜": 2,
+      "森林探险乐园": 2,
+      "溢水湾": 2,
+      "童趣营地": 2,
+      "荷花垂柳园": 2,
+      "西环潭": 2,
+      "避暑山庄": 2,
+      "净月潭滑雪场": 1,
+      "太平钟楼": 1,
+      "湿地竹筏游览区": 1,
+      "碧松净月塔楼": 1,
+      "雪世界彩头雁": 1
+    },
+    "TRANSPORT": {
+      "大巴": 19,
+      "徒步": 19,
+      "竹筏": 19,
+      "地铁": 7,
+      "自驾": 5,
+      "游船": 1,
+      "索道": 1
+    },
+    "TIME": {
+      "当天": 3,
+      "05:00": 1,
+      "06:00": 1,
+      "08:30": 1,
+      "10:12": 1,
+      "10:58": 1,
+      "11:35": 1,
+      "11:58": 1,
+      "12点": 1,
+      "15:00": 1,
+      "19:00": 1,
+      "1:15": 1,
+      "20:00": 1,
+      "9:22": 1,
+      "9:50": 1,
+      "中午": 1,
+      "日出": 1,
+      "日落": 1,
+      "次日": 1,
+      "第二天": 1
+    }
+  },
+  "granularity": {
+    "specific": 154,
+    "unknown": 5,
+    "generic": 66
+  },
+  "per_doc": {
+    "JYT_OFF_001": {
+      "chars": 73,
+      "sentences": 1,
+      "entities": 11,
+      "by_type": {
+        "POI": 11
+      }
+    },
+    "JYT_OFF_002": {
+      "chars": 169,
+      "sentences": 1,
+      "entities": 22,
+      "by_type": {
+        "POI": 21,
+        "TRANSPORT": 1
+      }
+    },
+    "JYT_OFF_003": {
+      "chars": 150,
+      "sentences": 1,
+      "entities": 19,
+      "by_type": {
+        "POI": 11,
+        "TRANSPORT": 8
+      }
+    },
+    "JYT_OFF_004": {
+      "chars": 95,
+      "sentences": 1,
+      "entities": 12,
+      "by_type": {
+        "POI": 10,
+        "TRANSPORT": 2
+      }
+    },
+    "JYT_OFF_005": {
+      "chars": 125,
+      "sentences": 3,
+      "entities": 4,
+      "by_type": {
+        "POI": 4
+      }
+    },
+    "JYT_NOTE_001": {
+      "chars": 3742,
+      "sentences": 139,
+      "entities": 101,
+      "by_type": {
+        "TRANSPORT": 39,
+        "POI": 56,
+        "TIME": 6
+      }
+    },
+    "JYT_NOTE_002": {
+      "chars": 1227,
+      "sentences": 33,
+      "entities": 21,
+      "by_type": {
+        "TIME": 8,
+        "TRANSPORT": 9,
+        "POI": 4
+      }
+    },
+    "JYT_NOTE_003": {
+      "chars": 1251,
+      "sentences": 31,
+      "entities": 19,
+      "by_type": {
+        "TRANSPORT": 4,
+        "TIME": 4,
+        "POI": 11
+      }
+    },
+    "JYT_NOTE_004": {
+      "chars": 960,
+      "sentences": 38,
+      "entities": 10,
+      "by_type": {
+        "TRANSPORT": 7,
+        "TIME": 3
+      }
+    },
+    "JYT_NOTE_005": {
+      "chars": 344,
+      "sentences": 10,
+      "entities": 6,
+      "by_type": {
+        "TIME": 1,
+        "TRANSPORT": 1,
+        "POI": 4
+      }
+    }
+  }
+}
