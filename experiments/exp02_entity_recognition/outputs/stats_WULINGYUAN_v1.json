@@ -1,0 +1,204 @@
+{
+  "version": "v1",
+  "scenic_id": "WULINGYUAN",
+  "scenic_name": "张家界武陵源",
+  "doc_count": 10,
+  "chars": 8393,
+  "entity_mentions": 303,
+  "by_type": {
+    "POI": 167,
+    "TRANSPORT": 81,
+    "TIME": 55
+  },
+  "unique_names": {
+    "POI": 44,
+    "TRANSPORT": 11,
+    "TIME": 23
+  },
+  "by_canonical": {
+    "POI": {
+      "黄石寨": 23,
+      "国家森林公园": 19,
+      "东门": 17,
+      "南门": 16,
+      "鞭溪": 9,
+      "公园": 6,
+      "山顶": 6,
+      "峡谷": 6,
+      "西门": 6,
+      "入园": 4,
+      "大门": 4,
+      "六奇阁": 3,
+      "平台": 3,
+      "森林公园": 3,
+      "登顶": 3,
+      "观景台": 3,
+      "五指峰": 2,
+      "四门": 2,
+      "奇峰": 2,
+      "小溪": 2,
+      "点入园": 2,
+      "点将台": 2,
+      "石桥": 2,
+      "黄龙洞": 2,
+      "上门": 1,
+      "专门": 1,
+      "两峰": 1,
+      "出门": 1,
+      "千峰": 1,
+      "南天门": 1,
+      "后花园": 1,
+      "地质公园": 1,
+      "大峡谷": 1,
+      "天桥": 1,
+      "奇楼": 1,
+      "层楼": 1,
+      "山峰": 1,
+      "幽溪": 1,
+      "清溪": 1,
+      "田园": 1,
+      "石峰": 1,
+      "绝顶": 1,
+      "险峰": 1,
+      "高峰": 1
+    },
+    "TRANSPORT": {
+      "索道": 39,
+      "大巴": 22,
+      "徒步": 12,
+      "火车": 5,
+      "公交": 3
+    },
+    "TIME": {
+      "早上": 9,
+      "晚上": 8,
+      "下午": 7,
+      "一日": 4,
+      "180": 3,
+      "两天": 3,
+      "上午": 2,
+      "中午": 2,
+      "当天": 2,
+      "第二天": 2,
+      "110": 1,
+      "144": 1,
+      "150": 1,
+      "154": 1,
+      "172": 1,
+      "200": 1,
+      "210": 1,
+      "326": 1,
+      "335": 1,
+      "357": 1,
+      "360": 1,
+      "半天": 1,
+      "日落": 1
+    }
+  },
+  "granularity": {
+    "unknown": 135,
+    "generic": 76,
+    "specific": 92
+  },
+  "per_doc": {
+    "ZJJ_OFF_001": {
+      "chars": 340,
+      "sentences": 10,
+      "entities": 23,
+      "by_type": {
+        "POI": 13,
+        "TRANSPORT": 9,
+        "TIME": 1
+      }
+    },
+    "ZJJ_OFF_002": {
+      "chars": 217,
+      "sentences": 6,
+      "entities": 10,
+      "by_type": {
+        "TIME": 1,
+        "POI": 6,
+        "TRANSPORT": 3
+      }
+    },
+    "ZJJ_OFF_003": {
+      "chars": 230,
+      "sentences": 9,
+      "entities": 10,
+      "by_type": {
+        "TIME": 1,
+        "POI": 9
+      }
+    },
+    "ZJJ_OFF_004": {
+      "chars": 234,
+      "sentences": 7,
+      "entities": 14,
+      "by_type": {
+        "TIME": 1,
+        "POI": 11,
+        "TRANSPORT": 2
+      }
+    },
+    "ZJJ_OFF_005": {
+      "chars": 257,
+      "sentences": 7,
+      "entities": 7,
+      "by_type": {
+        "TIME": 1,
+        "POI": 4,
+        "TRANSPORT": 2
+      }
+    },
+    "ZJJ_NOTE_001": {
+      "chars": 2176,
+      "sentences": 54,
+      "entities": 93,
+      "by_type": {
+        "TRANSPORT": 28,
+        "POI": 45,
+        "TIME": 20
+      }
+    },
+    "ZJJ_NOTE_002": {
+      "chars": 1078,
+      "sentences": 40,
+      "entities": 31,
+      "by_type": {
+        "TRANSPORT": 10,
+        "POI": 13,
+        "TIME": 8
+      }
+    },
+    "ZJJ_NOTE_003": {
+      "chars": 1212,
+      "sentences": 38,
+      "entities": 28,
+      "by_type": {
+        "TIME": 11,
+        "POI": 13,
+        "TRANSPORT": 4
+      }
+    },
+    "ZJJ_NOTE_004": {
+      "chars": 1632,
+      "sentences": 37,
+      "entities": 60,
+      "by_type": {
+        "POI": 43,
+        "TRANSPORT": 13,
+        "TIME": 4
+      }
+    },
+    "ZJJ_NOTE_005": {
+      "chars": 1017,
+      "sentences": 22,
+      "entities": 27,
+      "by_type": {
+        "POI": 10,
+        "TRANSPORT": 10,
+        "TIME": 7
+      }
+    }
+  }
+}

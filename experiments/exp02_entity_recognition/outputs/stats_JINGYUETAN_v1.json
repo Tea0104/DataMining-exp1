@@ -1,0 +1,182 @@
+{
+  "version": "v1",
+  "scenic_id": "JINGYUETAN",
+  "scenic_name": "净月潭",
+  "doc_count": 10,
+  "chars": 8136,
+  "entity_mentions": 249,
+  "by_type": {
+    "POI": 161,
+    "TRANSPORT": 65,
+    "TIME": 23
+  },
+  "unique_names": {
+    "POI": 36,
+    "TRANSPORT": 7,
+    "TIME": 15
+  },
+  "by_canonical": {
+    "POI": {
+      "净月潭": 69,
+      "公园": 24,
+      "正门": 13,
+      "环潭": 5,
+      "望潭": 4,
+      "东环潭": 3,
+      "国家森林公园": 3,
+      "绕湖": 3,
+      "西门": 3,
+      "乐园": 2,
+      "塔楼": 2,
+      "小楼": 2,
+      "水湾": 2,
+      "环湖": 2,
+      "西环潭": 2,
+      "高架桥": 2,
+      "一潭": 1,
+      "入园": 1,
+      "出门": 1,
+      "台湾": 1,
+      "城市公园": 1,
+      "天桥": 1,
+      "屋顶": 1,
+      "山谷": 1,
+      "张二麻岭": 1,
+      "日月潭": 1,
+      "机入园": 1,
+      "森林公园": 1,
+      "深潭": 1,
+      "游湖": 1,
+      "观潭": 1,
+      "该园": 1,
+      "进园": 1,
+      "逯家湾": 1,
+      "钟楼": 1,
+      "高峰": 1
+    },
+    "TRANSPORT": {
+      "竹筏": 20,
+      "徒步": 19,
+      "大巴": 17,
+      "地铁": 7,
+      "索道": 1,
+      "自驾": 1
+    },
+    "TIME": {
+      "100": 3,
+      "300": 3,
+      "5840": 3,
+      "当天": 3,
+      "1931": 1,
+      "1934": 1,
+      "1948": 1,
+      "1999": 1,
+      "2002": 1,
+      "2011": 1,
+      "中午": 1,
+      "日出": 1,
+      "日落": 1,
+      "次日": 1,
+      "第二天": 1
+    }
+  },
+  "granularity": {
+    "unknown": 158,
+    "generic": 65,
+    "specific": 26
+  },
+  "per_doc": {
+    "JYT_OFF_001": {
+      "chars": 73,
+      "sentences": 1,
+      "entities": 5,
+      "by_type": {
+        "POI": 5
+      }
+    },
+    "JYT_OFF_002": {
+      "chars": 169,
+      "sentences": 1,
+      "entities": 6,
+      "by_type": {
+        "POI": 4,
+        "TRANSPORT": 2
+      }
+    },
+    "JYT_OFF_003": {
+      "chars": 150,
+      "sentences": 1,
+      "entities": 13,
+      "by_type": {
+        "POI": 6,
+        "TRANSPORT": 7
+      }
+    },
+    "JYT_OFF_004": {
+      "chars": 95,
+      "sentences": 1,
+      "entities": 6,
+      "by_type": {
+        "POI": 4,
+        "TRANSPORT": 2
+      }
+    },
+    "JYT_OFF_005": {
+      "chars": 125,
+      "sentences": 3,
+      "entities": 3,
+      "by_type": {
+        "POI": 3
+      }
+    },
+    "JYT_NOTE_001": {
+      "chars": 3742,
+      "sentences": 139,
+      "entities": 132,
+      "by_type": {
+        "POI": 87,
+        "TRANSPORT": 35,
+        "TIME": 10
+      }
+    },
+    "JYT_NOTE_002": {
+      "chars": 1227,
+      "sentences": 33,
+      "entities": 16,
+      "by_type": {
+        "POI": 9,
+        "TRANSPORT": 7
+      }
+    },
+    "JYT_NOTE_003": {
+      "chars": 1251,
+      "sentences": 31,
+      "entities": 39,
+      "by_type": {
+        "POI": 27,
+        "TRANSPORT": 4,
+        "TIME": 8
+      }
+    },
+    "JYT_NOTE_004": {
+      "chars": 960,
+      "sentences": 38,
+      "entities": 19,
+      "by_type": {
+        "POI": 8,
+        "TRANSPORT": 7,
+        "TIME": 4
+      }
+    },
+    "JYT_NOTE_005": {
+      "chars": 344,
+      "sentences": 10,
+      "entities": 10,
+      "by_type": {
+        "TIME": 1,
+        "TRANSPORT": 1,
+        "POI": 8
+      }
+    }
+  }
+}
