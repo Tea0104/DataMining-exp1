@@ -1,0 +1,2374 @@
+{
+  "version": "v1",
+  "evaluation_level": "document_type_surface_name",
+  "limitations": [
+    "同篇同类型同名实体去重，不是逐次出现位置的准确率。",
+    "只评价金标 doc_scope；词表与金标同源，不代表新数据泛化性能。",
+    "当前金标含用户授权合入的审计修订；原始复核记录已归档，变更见 gold_audit.json。"
+  ],
+  "overall": {
+    "tp": 30,
+    "fp": 40,
+    "fn": 97,
+    "precision": 0.4286,
+    "recall": 0.2362,
+    "f1": 0.3046
+  },
+  "results": [
+    {
+      "version": "v1",
+      "scenic_id": "JINGYUETAN",
+      "doc_scope": [
+        "JYT_NOTE_005",
+        "JYT_OFF_002"
+      ],
+      "prediction_names_in_scope": 13,
+      "prediction_mentions_in_scope": 16,
+      "gold_items": 34,
+      "gold_file": "gold_JINGYUETAN.json",
+      "overall": {
+        "tp": 3,
+        "fp": 10,
+        "fn": 31,
+        "precision": 0.2308,
+        "recall": 0.0882,
+        "f1": 0.1277
+      },
+      "by_type": {
+        "POI": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 29,
+          "precision": 0.1111,
+          "recall": 0.0333,
+          "f1": 0.0513,
+          "false_positive": [
+            "一潭",
+            "乐园",
+            "公园",
+            "净月潭",
+            "塔楼",
+            "山谷",
+            "正门",
+            "环湖"
+          ],
+          "false_negative": [
+            "东环潭",
+            "中国瓦萨博物馆",
+            "中韩友谊林",
+            "大坝西",
+            "女神广场",
+            "女神广场",
+            "徒步惊喜",
+            "景区正门",
+            "月亮湾",
+            "月塔楼",
+            "月潭揽胜",
+            "朝夕水岸",
+            "森林探险乐园",
+            "森林浴场",
+            "森林浴场",
+            "橡树岭",
+            "水上栈道",
+            "水库大坝",
+            "湿地",
+            "湿地竹筏游览区",
+            "滑雪场",
+            "灵草芳洲",
+            "瓦萨滑雪博物馆",
+            "童趣营地",
+            "荷花垂柳",
+            "观潭山",
+            "避暑山庄",
+            "雪世界彩头雁",
+            "黑松林"
+          ]
+        },
+        "TRANSPORT": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 1,
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "false_positive": [
+            "徒步",
+            "竹筏"
+          ],
+          "false_negative": [
+            "景区车"
+          ]
+        },
+        "TIME": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "false_positive": [],
+          "false_negative": [
+            "十分钟"
+          ]
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "一潭",
+            "occurrences_in_source": [
+              {
+                "start": 311,
+                "end": 313,
+                "context": "稍有残雪。起伏的群山绵延成纵横的山谷，将一潭形似弯月的碧水环绕其中。可以说阅尽了这个"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "公园",
+            "occurrences_in_source": [
+              {
+                "start": 50,
+                "end": 52,
+                "context": "，我乘坐地铁一号线转三号线，游玩了净月潭公园。\n\n净月潭景区位于长春东南部，距市中心"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "净月潭",
+            "occurrences_in_source": [
+              {
+                "start": 47,
+                "end": 50,
+                "context": "。次日，我乘坐地铁一号线转三号线，游玩了净月潭公园。\n\n净月潭景区位于长春东南部，距市"
+              },
+              {
+                "start": 55,
+                "end": 58,
+                "context": "铁一号线转三号线，游玩了净月潭公园。\n\n净月潭景区位于长春东南部，距市中心18公里，景"
+              },
+              {
+                "start": 120,
+                "end": 123,
+                "context": ".3平方公里，森林覆盖率达到96%以上。净月潭因形似弯月状而得名。进入景区人不算多，基"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "塔楼",
+            "occurrences_in_source": [
+              {
+                "start": 233,
+                "end": 235,
+                "context": "。我基本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "山谷",
+            "occurrences_in_source": [
+              {
+                "start": 307,
+                "end": 309,
+                "context": "水，栈道稍有残雪。起伏的群山绵延成纵横的山谷，将一潭形似弯月的碧水环绕其中。可以说阅"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "环湖",
+            "occurrences_in_source": [
+              {
+                "start": 154,
+                "end": 156,
+                "context": "入景区人不算多，基本上都是依靠景区车游览环湖景色，２０元景区车票，围绕十几个景点搭乘"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "乐园",
+            "occurrences_in_source": [
+              {
+                "start": 147,
+                "end": 149,
+                "context": "岭）→月亮湾→观潭山（童趣营地、森林探险乐园）→荷花垂柳（卡丁船）→景区正门女神广场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "正门",
+            "occurrences_in_source": [
+              {
+                "start": 2,
+                "end": 4,
+                "context": "景区正门女神广场（西环潭方向）→中韩友谊林→大坝"
+              },
+              {
+                "start": 163,
+                "end": 165,
+                "context": "森林探险乐园）→荷花垂柳（卡丁船）→景区正门女神广场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "TRANSPORT",
+            "text": "徒步",
+            "occurrences_in_source": [
+              {
+                "start": 80,
+                "end": 82,
+                "context": "萨博物馆→雪世界彩头雁→湿地竹筏游览区→徒步惊喜（东环潭处“长得奇怪的树”打卡群）→"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "TRANSPORT",
+            "text": "竹筏",
+            "occurrences_in_source": [
+              {
+                "start": 74,
+                "end": 76,
+                "context": "氧）→中国瓦萨博物馆→雪世界彩头雁→湿地竹筏游览区→徒步惊喜（东环潭处“长得奇怪的树"
+              }
+            ]
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "女神广场",
+            "occurrences_in_source": [
+              {
+                "start": 227,
+                "end": 231,
+                "context": "了极大的便利。我基本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "月塔楼",
+            "occurrences_in_source": [
+              {
+                "start": 232,
+                "end": 235,
+                "context": "利。我基本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "森林浴场",
+            "occurrences_in_source": [
+              {
+                "start": 241,
+                "end": 245,
+                "context": "，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "水库大坝",
+            "occurrences_in_source": [
+              {
+                "start": 236,
+                "end": 240,
+                "context": "本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北虎"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "湿地",
+            "occurrences_in_source": [
+              {
+                "start": 246,
+                "end": 248,
+                "context": "了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场。这样"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "滑雪场",
+            "occurrences_in_source": [
+              {
+                "start": 262,
+                "end": 265,
+                "context": "林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场。这样玩一点都不累。那天天气晴好，湖面半"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "瓦萨滑雪博物馆",
+            "occurrences_in_source": [
+              {
+                "start": 249,
+                "end": 256,
+                "context": "广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场。这样玩一点都不累。那"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "TIME",
+            "text": "十分钟",
+            "occurrences_in_source": [
+              {
+                "start": 187,
+                "end": 190,
+                "context": "围绕十几个景点搭乘游客，可以随时停下，每十分钟有一班后来车，这为游客玩遍景点提供了极大"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "TRANSPORT",
+            "text": "景区车",
+            "occurrences_in_source": [
+              {
+                "start": 149,
+                "end": 152,
+                "context": "而得名。进入景区人不算多，基本上都是依靠景区车游览环湖景色，２０元景区车票，围绕十几个"
+              },
+              {
+                "start": 162,
+                "end": 165,
+                "context": "基本上都是依靠景区车游览环湖景色，２０元景区车票，围绕十几个景点搭乘游客，可以随时停下"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "东环潭",
+            "occurrences_in_source": [
+              {
+                "start": 85,
+                "end": 88,
+                "context": "雪世界彩头雁→湿地竹筏游览区→徒步惊喜（东环潭处“长得奇怪的树”打卡群）→灵草芳洲（景"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "中国瓦萨博物馆",
+            "occurrences_in_source": [
+              {
+                "start": 57,
+                "end": 64,
+                "context": "黑松林→水上栈道→森林浴场（润肺吸氧）→中国瓦萨博物馆→雪世界彩头雁→湿地竹筏游览区→徒步惊喜"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "中韩友谊林",
+            "occurrences_in_source": [
+              {
+                "start": 16,
+                "end": 21,
+                "context": "景区正门女神广场（西环潭方向）→中韩友谊林→大坝西→朝夕水岸（拍照露营）→黑松林→"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "大坝西",
+            "occurrences_in_source": [
+              {
+                "start": 22,
+                "end": 25,
+                "context": "正门女神广场（西环潭方向）→中韩友谊林→大坝西→朝夕水岸（拍照露营）→黑松林→水上栈道"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "女神广场",
+            "occurrences_in_source": [
+              {
+                "start": 4,
+                "end": 8,
+                "context": "景区正门女神广场（西环潭方向）→中韩友谊林→大坝西→朝夕"
+              },
+              {
+                "start": 165,
+                "end": 169,
+                "context": "探险乐园）→荷花垂柳（卡丁船）→景区正门女神广场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "徒步惊喜",
+            "occurrences_in_source": [
+              {
+                "start": 80,
+                "end": 84,
+                "context": "萨博物馆→雪世界彩头雁→湿地竹筏游览区→徒步惊喜（东环潭处“长得奇怪的树”打卡群）→灵草"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "景区正门",
+            "occurrences_in_source": [
+              {
+                "start": 0,
+                "end": 4,
+                "context": "景区正门女神广场（西环潭方向）→中韩友谊林→大坝"
+              },
+              {
+                "start": 161,
+                "end": 165,
+                "context": "地、森林探险乐园）→荷花垂柳（卡丁船）→景区正门女神广场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "月亮湾",
+            "occurrences_in_source": [
+              {
+                "start": 130,
+                "end": 133,
+                "context": "品打卡）→月潭揽胜→避暑山庄（橡树岭）→月亮湾→观潭山（童趣营地、森林探险乐园）→荷花"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "月潭揽胜",
+            "occurrences_in_source": [
+              {
+                "start": 115,
+                "end": 119,
+                "context": "树”打卡群）→灵草芳洲（景观小品打卡）→月潭揽胜→避暑山庄（橡树岭）→月亮湾→观潭山（童"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "朝夕水岸",
+            "occurrences_in_source": [
+              {
+                "start": 26,
+                "end": 30,
+                "context": "广场（西环潭方向）→中韩友谊林→大坝西→朝夕水岸（拍照露营）→黑松林→水上栈道→森林浴场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "森林探险乐园",
+            "occurrences_in_source": [
+              {
+                "start": 143,
+                "end": 149,
+                "context": "庄（橡树岭）→月亮湾→观潭山（童趣营地、森林探险乐园）→荷花垂柳（卡丁船）→景区正门女神广场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "森林浴场",
+            "occurrences_in_source": [
+              {
+                "start": 46,
+                "end": 50,
+                "context": "朝夕水岸（拍照露营）→黑松林→水上栈道→森林浴场（润肺吸氧）→中国瓦萨博物馆→雪世界彩头"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "橡树岭",
+            "occurrences_in_source": [
+              {
+                "start": 125,
+                "end": 128,
+                "context": "洲（景观小品打卡）→月潭揽胜→避暑山庄（橡树岭）→月亮湾→观潭山（童趣营地、森林探险乐"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "水上栈道",
+            "occurrences_in_source": [
+              {
+                "start": 41,
+                "end": 45,
+                "context": "→大坝西→朝夕水岸（拍照露营）→黑松林→水上栈道→森林浴场（润肺吸氧）→中国瓦萨博物馆→"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "湿地竹筏游览区",
+            "occurrences_in_source": [
+              {
+                "start": 72,
+                "end": 79,
+                "context": "肺吸氧）→中国瓦萨博物馆→雪世界彩头雁→湿地竹筏游览区→徒步惊喜（东环潭处“长得奇怪的树”打卡"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "灵草芳洲",
+            "occurrences_in_source": [
+              {
+                "start": 102,
+                "end": 106,
+                "context": "惊喜（东环潭处“长得奇怪的树”打卡群）→灵草芳洲（景观小品打卡）→月潭揽胜→避暑山庄（橡"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "童趣营地",
+            "occurrences_in_source": [
+              {
+                "start": 138,
+                "end": 142,
+                "context": "胜→避暑山庄（橡树岭）→月亮湾→观潭山（童趣营地、森林探险乐园）→荷花垂柳（卡丁船）→景"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "荷花垂柳",
+            "occurrences_in_source": [
+              {
+                "start": 151,
+                "end": 155,
+                "context": "亮湾→观潭山（童趣营地、森林探险乐园）→荷花垂柳（卡丁船）→景区正门女神广场"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "观潭山",
+            "occurrences_in_source": [
+              {
+                "start": 134,
+                "end": 137,
+                "context": "→月潭揽胜→避暑山庄（橡树岭）→月亮湾→观潭山（童趣营地、森林探险乐园）→荷花垂柳（卡"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "避暑山庄",
+            "occurrences_in_source": [
+              {
+                "start": 120,
+                "end": 124,
+                "context": "）→灵草芳洲（景观小品打卡）→月潭揽胜→避暑山庄（橡树岭）→月亮湾→观潭山（童趣营地、森"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "雪世界彩头雁",
+            "occurrences_in_source": [
+              {
+                "start": 65,
+                "end": 71,
+                "context": "→森林浴场（润肺吸氧）→中国瓦萨博物馆→雪世界彩头雁→湿地竹筏游览区→徒步惊喜（东环潭处“长"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_OFF_002",
+            "entity_type": "POI",
+            "text": "黑松林",
+            "occurrences_in_source": [
+              {
+                "start": 37,
+                "end": 40,
+                "context": "韩友谊林→大坝西→朝夕水岸（拍照露营）→黑松林→水上栈道→森林浴场（润肺吸氧）→中国瓦"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "version": "v1",
+      "scenic_id": "TAISHAN",
+      "doc_scope": [
+        "TS_OFF_001"
+      ],
+      "prediction_names_in_scope": 29,
+      "prediction_mentions_in_scope": 54,
+      "gold_items": 36,
+      "gold_file": "gold_TAISHAN.json",
+      "overall": {
+        "tp": 16,
+        "fp": 13,
+        "fn": 20,
+        "precision": 0.5517,
+        "recall": 0.4444,
+        "f1": 0.4923
+      },
+      "by_type": {
+        "POI": {
+          "tp": 9,
+          "fp": 10,
+          "fn": 16,
+          "precision": 0.4737,
+          "recall": 0.36,
+          "f1": 0.4091,
+          "false_positive": [
+            "处坊",
+            "天门",
+            "天阁",
+            "寺庙",
+            "摩崖",
+            "步桥",
+            "泉溪",
+            "由红门",
+            "至红门",
+            "马岭"
+          ],
+          "false_negative": [
+            "一天门",
+            "中天门",
+            "云步桥",
+            "五大夫松",
+            "五岳独尊",
+            "十八盘",
+            "唐摩崖",
+            "回马岭",
+            "壶天阁",
+            "天街",
+            "孔子登临处坊",
+            "岱宗坊",
+            "快活三里",
+            "拱北石",
+            "碧霞祠",
+            "经石峪"
+          ]
+        },
+        "TRANSPORT": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "false_positive": [
+            "200",
+            "300",
+            "7000"
+          ],
+          "false_negative": [
+            "1--2个小时",
+            "3个小时",
+            "4--6小时",
+            "40分钟"
+          ]
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "处坊",
+            "occurrences_in_source": [
+              {
+                "start": 330,
+                "end": 332,
+                "context": "出发开始登山，经关帝庙、一天门、孔子登临处坊、红门宫等景点后，到达进山检票处--万仙"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "天门",
+            "occurrences_in_source": [
+              {
+                "start": 238,
+                "end": 240,
+                "context": "母宫——经石峪——壶天阁——回马岭——中天门——快活三里——云步桥——五大夫松——十"
+              },
+              {
+                "start": 265,
+                "end": 267,
+                "context": "里——云步桥——五大夫松——十八盘——南天门——天街——碧霞祠——唐摩崖——五岳独尊"
+              },
+              {
+                "start": 323,
+                "end": 325,
+                "context": "程：\n\n由红门出发开始登山，经关帝庙、一天门、孔子登临处坊、红门宫等景点后，到达进山"
+              },
+              {
+                "start": 384,
+                "end": 386,
+                "context": "宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在此可稍作休息，如体"
+              },
+              {
+                "start": 389,
+                "end": 391,
+                "context": "、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在此可稍作休息，如体力不支，可"
+              },
+              {
+                "start": 543,
+                "end": 545,
+                "context": "心灵震撼，使您终身难忘！经由十八盘登上南天门，会有如登天境、豁然开朗的感觉。到了这里"
+              },
+              {
+                "start": 823,
+                "end": 825,
+                "context": "。如登山途中感觉体力不支，可在徒步到达中天门后，换乘索道直达岱顶。\n\n■交通：如果您"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "天阁",
+            "occurrences_in_source": [
+              {
+                "start": 228,
+                "end": 230,
+                "context": "（进山购票处）——斗母宫——经石峪——壶天阁——回马岭——中天门——快活三里——云步"
+              },
+              {
+                "start": 371,
+                "end": 373,
+                "context": "仙楼。进山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "寺庙",
+            "occurrences_in_source": [
+              {
+                "start": 134,
+                "end": 136,
+                "context": "自然景观雄奇秀美。沿途古迹众多，共计有古寺庙8处，碑碣200多块，摩崖刻石300多处"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "摩崖",
+            "occurrences_in_source": [
+              {
+                "start": 147,
+                "end": 149,
+                "context": "众多，共计有古寺庙8处，碑碣200多块，摩崖刻石300多处，传统文化韵味浓郁。\n\n■"
+              },
+              {
+                "start": 279,
+                "end": 281,
+                "context": "十八盘——南天门——天街——碧霞祠——唐摩崖——五岳独尊——玉皇顶——拱北石\n\n■游"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "步桥",
+            "occurrences_in_source": [
+              {
+                "start": 249,
+                "end": 251,
+                "context": "阁——回马岭——中天门——快活三里——云步桥——五大夫松——十八盘——南天门——天街"
+              },
+              {
+                "start": 437,
+                "end": 439,
+                "context": "道直达岱顶。继续往上攀登，经快活三里、云步桥、五大夫松等景点，就到了泰山上最难爬的一"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "泉溪",
+            "occurrences_in_source": [
+              {
+                "start": 109,
+                "end": 111,
+                "context": "。登山沿途树荫夹道，石阶盘旋，峰峦竞秀，泉溪争流，自然景观雄奇秀美。沿途古迹众多，共"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "由红门",
+            "occurrences_in_source": [
+              {
+                "start": 307,
+                "end": 310,
+                "context": "——玉皇顶——拱北石\n\n■游览行程：\n\n由红门出发开始登山，经关帝庙、一天门、孔子登临"
+              },
+              {
+                "start": 710,
+                "end": 713,
+                "context": "游览过泰山，初次登泰山者强烈推荐。\n\n②由红门步行至岱顶，约需4--6小时；也可把岱庙"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "至红门",
+            "occurrences_in_source": [
+              {
+                "start": 912,
+                "end": 915,
+                "context": "；若是由泰安高铁站下车，可乘37路公交车至红门，也可选择乘坐出租车从高铁站至红门，约需"
+              },
+              {
+                "start": 929,
+                "end": 932,
+                "context": "公交车至红门，也可选择乘坐出租车从高铁站至红门，约需40分钟，车费大约在35元左右。"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "马岭",
+            "occurrences_in_source": [
+              {
+                "start": 233,
+                "end": 235,
+                "context": "处）——斗母宫——经石峪——壶天阁——回马岭——中天门——快活三里——云步桥——五大"
+              },
+              {
+                "start": 375,
+                "end": 377,
+                "context": "山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "200",
+            "occurrences_in_source": [
+              {
+                "start": 141,
+                "end": 144,
+                "context": "美。沿途古迹众多，共计有古寺庙8处，碑碣200多块，摩崖刻石300多处，传统文化韵味浓"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "300",
+            "occurrences_in_source": [
+              {
+                "start": 151,
+                "end": 154,
+                "context": "计有古寺庙8处，碑碣200多块，摩崖刻石300多处，传统文化韵味浓郁。\n\n■游览方式："
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "7000",
+            "occurrences_in_source": [
+              {
+                "start": 55,
+                "end": 59,
+                "context": "，是泰山的精华所在，全程9.5公里，盘道7000余级，其间几无平路。因为历朝皇帝也从这条"
+              }
+            ]
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "一天门",
+            "occurrences_in_source": [
+              {
+                "start": 322,
+                "end": 325,
+                "context": "行程：\n\n由红门出发开始登山，经关帝庙、一天门、孔子登临处坊、红门宫等景点后，到达进山"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "中天门",
+            "occurrences_in_source": [
+              {
+                "start": 237,
+                "end": 240,
+                "context": "斗母宫——经石峪——壶天阁——回马岭——中天门——快活三里——云步桥——五大夫松——十"
+              },
+              {
+                "start": 383,
+                "end": 386,
+                "context": "母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在此可稍作休息，如体"
+              },
+              {
+                "start": 388,
+                "end": 391,
+                "context": "峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在此可稍作休息，如体力不支，可"
+              },
+              {
+                "start": 822,
+                "end": 825,
+                "context": "备。如登山途中感觉体力不支，可在徒步到达中天门后，换乘索道直达岱顶。\n\n■交通：如果您"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "云步桥",
+            "occurrences_in_source": [
+              {
+                "start": 248,
+                "end": 251,
+                "context": "天阁——回马岭——中天门——快活三里——云步桥——五大夫松——十八盘——南天门——天街"
+              },
+              {
+                "start": 436,
+                "end": 439,
+                "context": "索道直达岱顶。继续往上攀登，经快活三里、云步桥、五大夫松等景点，就到了泰山上最难爬的一"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "五大夫松",
+            "occurrences_in_source": [
+              {
+                "start": 253,
+                "end": 257,
+                "context": "马岭——中天门——快活三里——云步桥——五大夫松——十八盘——南天门——天街——碧霞祠—"
+              },
+              {
+                "start": 440,
+                "end": 444,
+                "context": "岱顶。继续往上攀登，经快活三里、云步桥、五大夫松等景点，就到了泰山上最难爬的一段路——十"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "五岳独尊",
+            "occurrences_in_source": [
+              {
+                "start": 283,
+                "end": 287,
+                "context": "—南天门——天街——碧霞祠——唐摩崖——五岳独尊——玉皇顶——拱北石\n\n■游览行程：\n\n"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "十八盘",
+            "occurrences_in_source": [
+              {
+                "start": 259,
+                "end": 262,
+                "context": "门——快活三里——云步桥——五大夫松——十八盘——南天门——天街——碧霞祠——唐摩崖—"
+              },
+              {
+                "start": 463,
+                "end": 466,
+                "context": "松等景点，就到了泰山上最难爬的一段路——十八盘。泰山十八盘，是泰山整个景区中精华中的精"
+              },
+              {
+                "start": 469,
+                "end": 472,
+                "context": "到了泰山上最难爬的一段路——十八盘。泰山十八盘，是泰山整个景区中精华中的精华，其磅礴宏"
+              },
+              {
+                "start": 537,
+                "end": 540,
+                "context": "来难以形容的心灵震撼，使您终身难忘！经由十八盘登上南天门，会有如登天境、豁然开朗的感觉"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "唐摩崖",
+            "occurrences_in_source": [
+              {
+                "start": 278,
+                "end": 281,
+                "context": "—十八盘——南天门——天街——碧霞祠——唐摩崖——五岳独尊——玉皇顶——拱北石\n\n■游"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "回马岭",
+            "occurrences_in_source": [
+              {
+                "start": 232,
+                "end": 235,
+                "context": "票处）——斗母宫——经石峪——壶天阁——回马岭——中天门——快活三里——云步桥——五大"
+              },
+              {
+                "start": 374,
+                "end": 377,
+                "context": "进山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "壶天阁",
+            "occurrences_in_source": [
+              {
+                "start": 227,
+                "end": 230,
+                "context": "楼（进山购票处）——斗母宫——经石峪——壶天阁——回马岭——中天门——快活三里——云步"
+              },
+              {
+                "start": 370,
+                "end": 373,
+                "context": "万仙楼。进山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "天街",
+            "occurrences_in_source": [
+              {
+                "start": 269,
+                "end": 271,
+                "context": "步桥——五大夫松——十八盘——南天门——天街——碧霞祠——唐摩崖——五岳独尊——玉皇"
+              },
+              {
+                "start": 593,
+                "end": 595,
+                "context": "巅，你可以放慢脚步，慢慢游览天上街市——天街，到泰山老奶奶的上庙——碧霞祠朝拜许愿，"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "孔子登临处坊",
+            "occurrences_in_source": [
+              {
+                "start": 326,
+                "end": 332,
+                "context": "\n由红门出发开始登山，经关帝庙、一天门、孔子登临处坊、红门宫等景点后，到达进山检票处--万仙"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "岱宗坊",
+            "occurrences_in_source": [
+              {
+                "start": 194,
+                "end": 197,
+                "context": "石阶盘路步行。\n\n■主要景点：（岱庙——岱宗坊——）红门宫——万仙楼（进山购票处）——"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "快活三里",
+            "occurrences_in_source": [
+              {
+                "start": 242,
+                "end": 246,
+                "context": "经石峪——壶天阁——回马岭——中天门——快活三里——云步桥——五大夫松——十八盘——南天"
+              },
+              {
+                "start": 431,
+                "end": 435,
+                "context": "在此处换乘索道直达岱顶。继续往上攀登，经快活三里、云步桥、五大夫松等景点，就到了泰山上最"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "拱北石",
+            "occurrences_in_source": [
+              {
+                "start": 294,
+                "end": 297,
+                "context": "霞祠——唐摩崖——五岳独尊——玉皇顶——拱北石\n\n■游览行程：\n\n由红门出发开始登山，"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "碧霞祠",
+            "occurrences_in_source": [
+              {
+                "start": 273,
+                "end": 276,
+                "context": "五大夫松——十八盘——南天门——天街——碧霞祠——唐摩崖——五岳独尊——玉皇顶——拱北"
+              },
+              {
+                "start": 607,
+                "end": 610,
+                "context": "天上街市——天街，到泰山老奶奶的上庙——碧霞祠朝拜许愿，到泰山最高处——玉皇顶感受“一"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "POI",
+            "text": "经石峪",
+            "occurrences_in_source": [
+              {
+                "start": 222,
+                "end": 225,
+                "context": "宫——万仙楼（进山购票处）——斗母宫——经石峪——壶天阁——回马岭——中天门——快活三"
+              },
+              {
+                "start": 366,
+                "end": 369,
+                "context": "票处--万仙楼。进山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "1--2个小时",
+            "occurrences_in_source": [
+              {
+                "start": 744,
+                "end": 751,
+                "context": "6小时；也可把岱庙作为登山的起点，需多出1--2个小时的游览时间。下山时间约需3个小时。\n\n③"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "3个小时",
+            "occurrences_in_source": [
+              {
+                "start": 763,
+                "end": 767,
+                "context": "出1--2个小时的游览时间。下山时间约需3个小时。\n\n③全程攀登需要一定的体力和毅力，对"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "4--6小时",
+            "occurrences_in_source": [
+              {
+                "start": 721,
+                "end": 727,
+                "context": "者强烈推荐。\n\n②由红门步行至岱顶，约需4--6小时；也可把岱庙作为登山的起点，需多出1--"
+              }
+            ]
+          },
+          {
+            "doc_id": "TS_OFF_001",
+            "entity_type": "TIME",
+            "text": "40分钟",
+            "occurrences_in_source": [
+              {
+                "start": 935,
+                "end": 939,
+                "context": "，也可选择乘坐出租车从高铁站至红门，约需40分钟，车费大约在35元左右。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "version": "v1",
+      "scenic_id": "WULINGYUAN",
+      "doc_scope": [
+        "ZJJ_NOTE_005",
+        "ZJJ_OFF_001"
+      ],
+      "prediction_names_in_scope": 28,
+      "prediction_mentions_in_scope": 50,
+      "gold_items": 57,
+      "gold_file": "gold_WULINGYUAN.json",
+      "overall": {
+        "tp": 11,
+        "fp": 17,
+        "fn": 46,
+        "precision": 0.3929,
+        "recall": 0.193,
+        "f1": 0.2588
+      },
+      "by_type": {
+        "POI": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 31,
+          "precision": 0.2,
+          "recall": 0.0882,
+          "f1": 0.1224,
+          "false_positive": [
+            "上门",
+            "专门",
+            "东门",
+            "公园",
+            "南门",
+            "四门",
+            "国家森林公园",
+            "天桥",
+            "小溪",
+            "山顶",
+            "观景台",
+            "鞭溪"
+          ],
+          "false_negative": [
+            "东门门票站",
+            "仙女献花",
+            "凌空观景台",
+            "十里画廊",
+            "十里画廊",
+            "千里相会",
+            "南门门票站",
+            "吴家峪",
+            "哈里路亚山",
+            "地质博物馆",
+            "天下第一桥",
+            "天子山",
+            "天子山",
+            "天桥遗墩",
+            "张家界国家森林公园",
+            "御笔峰",
+            "手掌峰",
+            "摘星台",
+            "杨家界",
+            "武陵源",
+            "武陵源",
+            "水绕四门",
+            "紫草潭",
+            "袁家界",
+            "袁家界",
+            "西海",
+            "贺龙公园",
+            "迷魂台",
+            "金鞭岩",
+            "金鞭溪",
+            "金鞭溪"
+          ]
+        },
+        "TRANSPORT": {
+          "tp": 6,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.75,
+          "recall": 0.6667,
+          "f1": 0.7059,
+          "false_positive": [
+            "天梯",
+            "火车"
+          ],
+          "false_negative": [
+            "天子山索道",
+            "小火车",
+            "百龙天梯"
+          ]
+        },
+        "TIME": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 12,
+          "precision": 0.4,
+          "recall": 0.1429,
+          "f1": 0.2105,
+          "false_positive": [
+            "144",
+            "180",
+            "210"
+          ],
+          "false_negative": [
+            "1.5-2小时",
+            "10分钟",
+            "2小时",
+            "45分钟",
+            "90分钟",
+            "Day4",
+            "Day5",
+            "一整天",
+            "一早",
+            "前一天",
+            "第五天",
+            "第四天"
+          ]
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "上门",
+            "occurrences_in_source": [
+              {
+                "start": 197,
+                "end": 199,
+                "context": "地址，老板会联系当地专门做托运行李的商家上门取件送货，15元一件（一个行李箱）。这样"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "专门",
+            "occurrences_in_source": [
+              {
+                "start": 187,
+                "end": 189,
+                "context": "写清下一家入住的民宿地址，老板会联系当地专门做托运行李的商家上门取件送货，15元一件"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "国家森林公园",
+            "occurrences_in_source": [
+              {
+                "start": 10,
+                "end": 16,
+                "context": "Day4：打卡张家界国家森林公园（索道上山→天子山→杨家界→袁家界→金鞭"
+              },
+              {
+                "start": 50,
+                "end": 56,
+                "context": "袁家界→金鞭溪）\n\nDay5：打卡张家界国家森林公园（十里画廊→地质博物馆→金鞭溪）\n\n本次"
+              },
+              {
+                "start": 370,
+                "end": 376,
+                "context": "钟左右的字画推销）。\n\n第四天进入张家界国家森林公园，成人票210，65岁以上老人和14岁以"
+              },
+              {
+                "start": 674,
+                "end": 680,
+                "context": "的塑料袋拉破，开心的捡栗子吃。\n\n张家界国家森林公园景区全貌\n\n等待游客喂食的猴子，不建议喂"
+              },
+              {
+                "start": 754,
+                "end": 760,
+                "context": "它们只吃蛋黄\n\n第五天，我们再度进张家界国家森林公园景区内，把前一天没有玩的十里画廊，地质博"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "小溪",
+            "occurrences_in_source": [
+              {
+                "start": 992,
+                "end": 994,
+                "context": "程7公里多，我们只走了一小段，主要孩子在小溪里抓鱼玩，看猴子。\n\n金鞭溪溪水\n\n和猴"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "鞭溪",
+            "occurrences_in_source": [
+              {
+                "start": 35,
+                "end": 37,
+                "context": "园（索道上山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5：打卡张家界国家森林公园（"
+              },
+              {
+                "start": 69,
+                "end": 71,
+                "context": "界国家森林公园（十里画廊→地质博物馆→金鞭溪）\n\n本次是带着女儿和爸爸一起游张家界、"
+              },
+              {
+                "start": 469,
+                "end": 471,
+                "context": "是：索道上山→天子山→杨家界→袁家界→金鞭溪，景点与景点之间有环保车送达，我们走马观"
+              },
+              {
+                "start": 511,
+                "end": 513,
+                "context": "花游玩了这几个地方的主要景点，袁家界和金鞭溪的猴子比较多，是一群可爱的强盗，不用担心"
+              },
+              {
+                "start": 790,
+                "end": 792,
+                "context": "玩的十里画廊，地质博物馆和没有玩尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，"
+              },
+              {
+                "start": 969,
+                "end": 971,
+                "context": "内有分两个馆，一个免费看，一个收费进。金鞭溪全程7公里多，我们只走了一小段，主要孩子"
+              },
+              {
+                "start": 1006,
+                "end": 1008,
+                "context": "，主要孩子在小溪里抓鱼玩，看猴子。\n\n金鞭溪溪水\n\n和猴哥合影"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "144",
+            "occurrences_in_source": [
+              {
+                "start": 442,
+                "end": 445,
+                "context": "择先由索道上山，索道票需要另外购买，三人144元。路线是：索道上山→天子山→杨家界→袁"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "180",
+            "occurrences_in_source": [
+              {
+                "start": 291,
+                "end": 294,
+                "context": "吃饭，晚上观看《魅力湘西》（超vip门票180+180+180），演出时长共90分钟，"
+              },
+              {
+                "start": 295,
+                "end": 298,
+                "context": "上观看《魅力湘西》（超vip门票180+180+180），演出时长共90分钟，室内看4"
+              },
+              {
+                "start": 299,
+                "end": 302,
+                "context": "魅力湘西》（超vip门票180+180+180），演出时长共90分钟，室内看45分钟，"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "210",
+            "occurrences_in_source": [
+              {
+                "start": 380,
+                "end": 383,
+                "context": "\n\n第四天进入张家界国家森林公园，成人票210，65岁以上老人和14岁以下儿童免票，但"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TRANSPORT",
+            "text": "火车",
+            "occurrences_in_source": [
+              {
+                "start": 806,
+                "end": 808,
+                "context": "尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，我们选择坐小火车进，步行出来，单"
+              },
+              {
+                "start": 818,
+                "end": 820,
+                "context": "十里画廊可以坐小火车或步行，我们选择坐小火车进，步行出来，单程我们三个的车票（75元"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "东门",
+            "occurrences_in_source": [
+              {
+                "start": 26,
+                "end": 28,
+                "context": "\n路线一：天子山-袁家界-十里画廊\n\n从东门门票站进入，乘坐景区环保车至天子山索道下"
+              },
+              {
+                "start": 319,
+                "end": 321,
+                "context": "紫草潭、千里相会、水绕四门等景点；环保车东门门票站，住武陵源，可观看魅力湘西演出。"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "公园",
+            "occurrences_in_source": [
+              {
+                "start": 59,
+                "end": 61,
+                "context": "保车至天子山索道下站，索道上山，游览贺龙公园、御笔峰、仙女献花、西海等景点；中餐可在"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "南门",
+            "occurrences_in_source": [
+              {
+                "start": 196,
+                "end": 198,
+                "context": "西演出。\n\n路线二：黄石寨-金鞭溪\n\n从南门门票站进入，徒步（1.5-2小时）或索道"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "四门",
+            "occurrences_in_source": [
+              {
+                "start": 310,
+                "end": 312,
+                "context": "左右）游览金鞭岩、紫草潭、千里相会、水绕四门等景点；环保车东门门票站，住武陵源，可观"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "天桥",
+            "occurrences_in_source": [
+              {
+                "start": 244,
+                "end": 246,
+                "context": "黄石寨景区，游览六奇阁、手掌峰、摘星台、天桥遗墩等景点；中餐可在黄石寨山顶选择快餐或"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "山顶",
+            "occurrences_in_source": [
+              {
+                "start": 259,
+                "end": 261,
+                "context": "、摘星台、天桥遗墩等景点；中餐可在黄石寨山顶选择快餐或自带干粮，下午徒步金鞭溪（全长"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "观景台",
+            "occurrences_in_source": [
+              {
+                "start": 221,
+                "end": 224,
+                "context": "进入，徒步（1.5-2小时）或索道上凌空观景台黄石寨景区，游览六奇阁、手掌峰、摘星台、"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "TRANSPORT",
+            "text": "天梯",
+            "occurrences_in_source": [
+              {
+                "start": 138,
+                "end": 140,
+                "context": "路亚山原型、后花园、迷魂台等景点；从百龙天梯下山，可选择往上游游览金鞭溪或往下游游览"
+              }
+            ]
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "十里画廊",
+            "occurrences_in_source": [
+              {
+                "start": 57,
+                "end": 61,
+                "context": "）\n\nDay5：打卡张家界国家森林公园（十里画廊→地质博物馆→金鞭溪）\n\n本次是带着女儿"
+              },
+              {
+                "start": 772,
+                "end": 776,
+                "context": "家界国家森林公园景区内，把前一天没有玩的十里画廊，地质博物馆和没有玩尽性的金鞭溪玩了一整"
+              },
+              {
+                "start": 798,
+                "end": 802,
+                "context": "质博物馆和没有玩尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，我们选择坐小火车进，"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "吴家峪",
+            "occurrences_in_source": [
+              {
+                "start": 142,
+                "end": 145,
+                "context": "惠）\n\n注：李行托运。由于晚上换到武陵源吴家峪附近入住，所以一早把行李托给民宿老板，并"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "地质博物馆",
+            "occurrences_in_source": [
+              {
+                "start": 62,
+                "end": 67,
+                "context": "y5：打卡张家界国家森林公园（十里画廊→地质博物馆→金鞭溪）\n\n本次是带着女儿和爸爸一起游"
+              },
+              {
+                "start": 777,
+                "end": 782,
+                "context": "林公园景区内，把前一天没有玩的十里画廊，地质博物馆和没有玩尽性的金鞭溪玩了一整天。十里画廊"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "天子山",
+            "occurrences_in_source": [
+              {
+                "start": 22,
+                "end": 25,
+                "context": "y4：打卡张家界国家森林公园（索道上山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5："
+              },
+              {
+                "start": 456,
+                "end": 459,
+                "context": "外购买，三人144元。路线是：索道上山→天子山→杨家界→袁家界→金鞭溪，景点与景点之间"
+              },
+              {
+                "start": 598,
+                "end": 601,
+                "context": "子在背包里，不要在它们面前开包哟。我们在天子山卖了小袋栗子吃，到杨家界时偶遇一只大猴子"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "张家界国家森林公园",
+            "occurrences_in_source": [
+              {
+                "start": 7,
+                "end": 16,
+                "context": "Day4：打卡张家界国家森林公园（索道上山→天子山→杨家界→袁家界→金鞭"
+              },
+              {
+                "start": 47,
+                "end": 56,
+                "context": "家界→袁家界→金鞭溪）\n\nDay5：打卡张家界国家森林公园（十里画廊→地质博物馆→金鞭溪）\n\n本次"
+              },
+              {
+                "start": 367,
+                "end": 376,
+                "context": "10分钟左右的字画推销）。\n\n第四天进入张家界国家森林公园，成人票210，65岁以上老人和14岁以"
+              },
+              {
+                "start": 671,
+                "end": 680,
+                "context": "爸手里的塑料袋拉破，开心的捡栗子吃。\n\n张家界国家森林公园景区全貌\n\n等待游客喂食的猴子，不建议喂"
+              },
+              {
+                "start": 751,
+                "end": 760,
+                "context": "，发现它们只吃蛋黄\n\n第五天，我们再度进张家界国家森林公园景区内，把前一天没有玩的十里画廊，地质博"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "杨家界",
+            "occurrences_in_source": [
+              {
+                "start": 26,
+                "end": 29,
+                "context": "卡张家界国家森林公园（索道上山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5：打卡张家"
+              },
+              {
+                "start": 460,
+                "end": 463,
+                "context": "三人144元。路线是：索道上山→天子山→杨家界→袁家界→金鞭溪，景点与景点之间有环保车"
+              },
+              {
+                "start": 610,
+                "end": 613,
+                "context": "前开包哟。我们在天子山卖了小袋栗子吃，到杨家界时偶遇一只大猴子，它发现了我爸爸手里的栗"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "武陵源",
+            "occurrences_in_source": [
+              {
+                "start": 139,
+                "end": 142,
+                "context": "都有优惠）\n\n注：李行托运。由于晚上换到武陵源吴家峪附近入住，所以一早把行李托给民宿老"
+              },
+              {
+                "start": 256,
+                "end": 259,
+                "context": "接去下一家民宿，不用来回取行李。\n\n到达武陵源的民宿，办理入住后，出来吃饭，晚上观看《"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "袁家界",
+            "occurrences_in_source": [
+              {
+                "start": 30,
+                "end": 33,
+                "context": "国家森林公园（索道上山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5：打卡张家界国家森"
+              },
+              {
+                "start": 464,
+                "end": 467,
+                "context": "4元。路线是：索道上山→天子山→杨家界→袁家界→金鞭溪，景点与景点之间有环保车送达，我"
+              },
+              {
+                "start": 506,
+                "end": 509,
+                "context": "我们走马观花游玩了这几个地方的主要景点，袁家界和金鞭溪的猴子比较多，是一群可爱的强盗，"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "POI",
+            "text": "金鞭溪",
+            "occurrences_in_source": [
+              {
+                "start": 34,
+                "end": 37,
+                "context": "公园（索道上山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5：打卡张家界国家森林公园（"
+              },
+              {
+                "start": 68,
+                "end": 71,
+                "context": "家界国家森林公园（十里画廊→地质博物馆→金鞭溪）\n\n本次是带着女儿和爸爸一起游张家界、"
+              },
+              {
+                "start": 468,
+                "end": 471,
+                "context": "线是：索道上山→天子山→杨家界→袁家界→金鞭溪，景点与景点之间有环保车送达，我们走马观"
+              },
+              {
+                "start": 510,
+                "end": 513,
+                "context": "观花游玩了这几个地方的主要景点，袁家界和金鞭溪的猴子比较多，是一群可爱的强盗，不用担心"
+              },
+              {
+                "start": 789,
+                "end": 792,
+                "context": "有玩的十里画廊，地质博物馆和没有玩尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，"
+              },
+              {
+                "start": 968,
+                "end": 971,
+                "context": "馆内有分两个馆，一个免费看，一个收费进。金鞭溪全程7公里多，我们只走了一小段，主要孩子"
+              },
+              {
+                "start": 1005,
+                "end": 1008,
+                "context": "段，主要孩子在小溪里抓鱼玩，看猴子。\n\n金鞭溪溪水\n\n和猴哥合影"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "10分钟",
+            "occurrences_in_source": [
+              {
+                "start": 347,
+                "end": 351,
+                "context": "分钟（无固定座位，自己现场随机，其中还有10分钟左右的字画推销）。\n\n第四天进入张家界国"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "45分钟",
+            "occurrences_in_source": [
+              {
+                "start": 317,
+                "end": 321,
+                "context": "0+180），演出时长共90分钟，室内看45分钟，室外看45分钟（无固定座位，自己现场随"
+              },
+              {
+                "start": 325,
+                "end": 329,
+                "context": "出时长共90分钟，室内看45分钟，室外看45分钟（无固定座位，自己现场随机，其中还有10"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "90分钟",
+            "occurrences_in_source": [
+              {
+                "start": 309,
+                "end": 313,
+                "context": "门票180+180+180），演出时长共90分钟，室内看45分钟，室外看45分钟（无固定"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "Day4",
+            "occurrences_in_source": [
+              {
+                "start": 0,
+                "end": 4,
+                "context": "Day4：打卡张家界国家森林公园（索道上山→天子"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "Day5",
+            "occurrences_in_source": [
+              {
+                "start": 40,
+                "end": 44,
+                "context": "山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5：打卡张家界国家森林公园（十里画廊→地质"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "一整天",
+            "occurrences_in_source": [
+              {
+                "start": 794,
+                "end": 797,
+                "context": "画廊，地质博物馆和没有玩尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，我们选择坐"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "一早",
+            "occurrences_in_source": [
+              {
+                "start": 152,
+                "end": 154,
+                "context": "。由于晚上换到武陵源吴家峪附近入住，所以一早把行李托给民宿老板，并详细写清下一家入住"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "前一天",
+            "occurrences_in_source": [
+              {
+                "start": 765,
+                "end": 768,
+                "context": "，我们再度进张家界国家森林公园景区内，把前一天没有玩的十里画廊，地质博物馆和没有玩尽性"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "第五天",
+            "occurrences_in_source": [
+              {
+                "start": 742,
+                "end": 745,
+                "context": "\n\n大小猴子吃鸡蛋，发现它们只吃蛋黄\n\n第五天，我们再度进张家界国家森林公园景区内，把"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TIME",
+            "text": "第四天",
+            "occurrences_in_source": [
+              {
+                "start": 362,
+                "end": 365,
+                "context": "，其中还有10分钟左右的字画推销）。\n\n第四天进入张家界国家森林公园，成人票210，6"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_NOTE_005",
+            "entity_type": "TRANSPORT",
+            "text": "小火车",
+            "occurrences_in_source": [
+              {
+                "start": 805,
+                "end": 808,
+                "context": "玩尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，我们选择坐小火车进，步行出来，单"
+              },
+              {
+                "start": 817,
+                "end": 820,
+                "context": "。十里画廊可以坐小火车或步行，我们选择坐小火车进，步行出来，单程我们三个的车票（75元"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "东门门票站",
+            "occurrences_in_source": [
+              {
+                "start": 26,
+                "end": 31,
+                "context": "\n路线一：天子山-袁家界-十里画廊\n\n从东门门票站进入，乘坐景区环保车至天子山索道下站，索"
+              },
+              {
+                "start": 319,
+                "end": 324,
+                "context": "紫草潭、千里相会、水绕四门等景点；环保车东门门票站，住武陵源，可观看魅力湘西演出。"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "仙女献花",
+            "occurrences_in_source": [
+              {
+                "start": 66,
+                "end": 70,
+                "context": "道下站，索道上山，游览贺龙公园、御笔峰、仙女献花、西海等景点；中餐可在天子山选择快餐或自"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "凌空观景台",
+            "occurrences_in_source": [
+              {
+                "start": 219,
+                "end": 224,
+                "context": "票站进入，徒步（1.5-2小时）或索道上凌空观景台黄石寨景区，游览六奇阁、手掌峰、摘星台、"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "十里画廊",
+            "occurrences_in_source": [
+              {
+                "start": 19,
+                "end": 23,
+                "context": "一日游路线\n\n路线一：天子山-袁家界-十里画廊\n\n从东门门票站进入，乘坐景区环保车至天"
+              },
+              {
+                "start": 160,
+                "end": 164,
+                "context": "下山，可选择往上游游览金鞭溪或往下游游览十里画廊；住武陵源，可观看魅力湘西演出。\n\n路线"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "千里相会",
+            "occurrences_in_source": [
+              {
+                "start": 303,
+                "end": 307,
+                "context": "5公里，2小时左右）游览金鞭岩、紫草潭、千里相会、水绕四门等景点；环保车东门门票站，住武"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "南门门票站",
+            "occurrences_in_source": [
+              {
+                "start": 196,
+                "end": 201,
+                "context": "西演出。\n\n路线二：黄石寨-金鞭溪\n\n从南门门票站进入，徒步（1.5-2小时）或索道上凌空"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "哈里路亚山",
+            "occurrences_in_source": [
+              {
+                "start": 116,
+                "end": 121,
+                "context": "后环保车至袁家界景区，可游览天下第一桥、哈里路亚山原型、后花园、迷魂台等景点；从百龙天梯下"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "天下第一桥",
+            "occurrences_in_source": [
+              {
+                "start": 110,
+                "end": 115,
+                "context": "带干粮，中饭后环保车至袁家界景区，可游览天下第一桥、哈里路亚山原型、后花园、迷魂台等景点；"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "天子山",
+            "occurrences_in_source": [
+              {
+                "start": 11,
+                "end": 14,
+                "context": "一日游路线\n\n路线一：天子山-袁家界-十里画廊\n\n从东门门票站进入，"
+              },
+              {
+                "start": 42,
+                "end": 45,
+                "context": "廊\n\n从东门门票站进入，乘坐景区环保车至天子山索道下站，索道上山，游览贺龙公园、御笔峰"
+              },
+              {
+                "start": 81,
+                "end": 84,
+                "context": "、御笔峰、仙女献花、西海等景点；中餐可在天子山选择快餐或自带干粮，中饭后环保车至袁家界"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "天桥遗墩",
+            "occurrences_in_source": [
+              {
+                "start": 244,
+                "end": 248,
+                "context": "黄石寨景区，游览六奇阁、手掌峰、摘星台、天桥遗墩等景点；中餐可在黄石寨山顶选择快餐或自带"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "御笔峰",
+            "occurrences_in_source": [
+              {
+                "start": 62,
+                "end": 65,
+                "context": "天子山索道下站，索道上山，游览贺龙公园、御笔峰、仙女献花、西海等景点；中餐可在天子山选"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "手掌峰",
+            "occurrences_in_source": [
+              {
+                "start": 236,
+                "end": 239,
+                "context": "索道上凌空观景台黄石寨景区，游览六奇阁、手掌峰、摘星台、天桥遗墩等景点；中餐可在黄石寨"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "摘星台",
+            "occurrences_in_source": [
+              {
+                "start": 240,
+                "end": 243,
+                "context": "空观景台黄石寨景区，游览六奇阁、手掌峰、摘星台、天桥遗墩等景点；中餐可在黄石寨山顶选择"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "武陵源",
+            "occurrences_in_source": [
+              {
+                "start": 166,
+                "end": 169,
+                "context": "往上游游览金鞭溪或往下游游览十里画廊；住武陵源，可观看魅力湘西演出。\n\n路线二：黄石寨"
+              },
+              {
+                "start": 326,
+                "end": 329,
+                "context": "会、水绕四门等景点；环保车东门门票站，住武陵源，可观看魅力湘西演出。"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "水绕四门",
+            "occurrences_in_source": [
+              {
+                "start": 308,
+                "end": 312,
+                "context": "小时左右）游览金鞭岩、紫草潭、千里相会、水绕四门等景点；环保车东门门票站，住武陵源，可观"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "紫草潭",
+            "occurrences_in_source": [
+              {
+                "start": 299,
+                "end": 302,
+                "context": "全长7.5公里，2小时左右）游览金鞭岩、紫草潭、千里相会、水绕四门等景点；环保车东门门"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "袁家界",
+            "occurrences_in_source": [
+              {
+                "start": 15,
+                "end": 18,
+                "context": "一日游路线\n\n路线一：天子山-袁家界-十里画廊\n\n从东门门票站进入，乘坐景区"
+              },
+              {
+                "start": 101,
+                "end": 104,
+                "context": "天子山选择快餐或自带干粮，中饭后环保车至袁家界景区，可游览天下第一桥、哈里路亚山原型、"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "西海",
+            "occurrences_in_source": [
+              {
+                "start": 71,
+                "end": 73,
+                "context": "道上山，游览贺龙公园、御笔峰、仙女献花、西海等景点；中餐可在天子山选择快餐或自带干粮"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "贺龙公园",
+            "occurrences_in_source": [
+              {
+                "start": 57,
+                "end": 61,
+                "context": "区环保车至天子山索道下站，索道上山，游览贺龙公园、御笔峰、仙女献花、西海等景点；中餐可在"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "迷魂台",
+            "occurrences_in_source": [
+              {
+                "start": 128,
+                "end": 131,
+                "context": "游览天下第一桥、哈里路亚山原型、后花园、迷魂台等景点；从百龙天梯下山，可选择往上游游览"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "金鞭岩",
+            "occurrences_in_source": [
+              {
+                "start": 295,
+                "end": 298,
+                "context": "金鞭溪（全长7.5公里，2小时左右）游览金鞭岩、紫草潭、千里相会、水绕四门等景点；环保"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "POI",
+            "text": "金鞭溪",
+            "occurrences_in_source": [
+              {
+                "start": 151,
+                "end": 154,
+                "context": "等景点；从百龙天梯下山，可选择往上游游览金鞭溪或往下游游览十里画廊；住武陵源，可观看魅"
+              },
+              {
+                "start": 190,
+                "end": 193,
+                "context": "可观看魅力湘西演出。\n\n路线二：黄石寨-金鞭溪\n\n从南门门票站进入，徒步（1.5-2小"
+              },
+              {
+                "start": 275,
+                "end": 278,
+                "context": "在黄石寨山顶选择快餐或自带干粮，下午徒步金鞭溪（全长7.5公里，2小时左右）游览金鞭岩"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "TIME",
+            "text": "1.5-2小时",
+            "occurrences_in_source": [
+              {
+                "start": 207,
+                "end": 214,
+                "context": "石寨-金鞭溪\n\n从南门门票站进入，徒步（1.5-2小时）或索道上凌空观景台黄石寨景区，游览六奇"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "TIME",
+            "text": "2小时",
+            "occurrences_in_source": [
+              {
+                "start": 211,
+                "end": 214,
+                "context": "鞭溪\n\n从南门门票站进入，徒步（1.5-2小时）或索道上凌空观景台黄石寨景区，游览六奇"
+              },
+              {
+                "start": 287,
+                "end": 290,
+                "context": "带干粮，下午徒步金鞭溪（全长7.5公里，2小时左右）游览金鞭岩、紫草潭、千里相会、水绕"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "TRANSPORT",
+            "text": "天子山索道",
+            "occurrences_in_source": [
+              {
+                "start": 42,
+                "end": 47,
+                "context": "廊\n\n从东门门票站进入，乘坐景区环保车至天子山索道下站，索道上山，游览贺龙公园、御笔峰、仙"
+              }
+            ]
+          },
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "TRANSPORT",
+            "text": "百龙天梯",
+            "occurrences_in_source": [
+              {
+                "start": 136,
+                "end": 140,
+                "context": "哈里路亚山原型、后花园、迷魂台等景点；从百龙天梯下山，可选择往上游游览金鞭溪或往下游游览"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,373 @@
+{
+  "version": "v3",
+  "evaluation_status": "unreviewed_inference_only",
+  "excluded_docs": [
+    "TS_NOTE_001",
+    "TS_NOTE_005",
+    "ZJJ_NOTE_005",
+    "JYT_NOTE_001",
+    "JYT_NOTE_004"
+  ],
+  "documents": 25,
+  "document_types": {
+    "official_route": 15,
+    "tourist_note": 10
+  },
+  "detected_pronouns": 143,
+  "predicted_links": 140,
+  "unresolved": 3,
+  "automatic_link_rate": 0.979,
+  "accuracy": null,
+  "precision": null,
+  "recall": null,
+  "note": "自动链接率不是准确率；未人工标注，不能评价检测漏识或消解错误率。",
+  "documents_with_pronouns": 19,
+  "documents_without_detected_pronouns": [
+    "ZJJ_OFF_001",
+    "JYT_OFF_001",
+    "JYT_OFF_002",
+    "JYT_OFF_003",
+    "JYT_OFF_004",
+    "JYT_OFF_005"
+  ],
+  "by_scenic": {
+    "TAISHAN": {
+      "documents": 8,
+      "pronouns": 89,
+      "predicted_links": 86,
+      "unresolved": 3
+    },
+    "WULINGYUAN": {
+      "documents": 9,
+      "pronouns": 35,
+      "predicted_links": 35,
+      "unresolved": 0
+    },
+    "JINGYUETAN": {
+      "documents": 8,
+      "pronouns": 19,
+      "predicted_links": 19,
+      "unresolved": 0
+    }
+  },
+  "by_doc": [
+    {
+      "doc_id": "TS_OFF_001",
+      "title": "红门游览路：最经典的登山线路",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 6,
+      "predicted_links": 6,
+      "unresolved": 0,
+      "source_url": "https://tsgw.taian.gov.cn/art/2019/4/28/art_363479_10320190.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_002",
+      "title": "天外村游览路：最省力的登山线路",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 2,
+      "predicted_links": 2,
+      "unresolved": 0,
+      "source_url": "https://tsgw.taian.gov.cn/art/2026/1/21/art_363479_10320191.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "title": "桃花峪游览线（景点介绍）",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 10,
+      "predicted_links": 10,
+      "unresolved": 0,
+      "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "title": "东御道游览线（景点介绍）",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 8,
+      "predicted_links": 8,
+      "unresolved": 0,
+      "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "title": "天烛峰景区（景点介绍）",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 20,
+      "predicted_links": 17,
+      "unresolved": 3,
+      "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "title": "9月山东费腿之旅（泰山篇）",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "tourist_note",
+      "pronouns": 40,
+      "predicted_links": 40,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "title": "登泰山观日出记（2024.3.23 - 24）",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "tourist_note",
+      "pronouns": 1,
+      "predicted_links": 1,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/Taian746/4128913.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "title": "泰山 适合说走就走",
+      "scenic_id": "TAISHAN",
+      "scenic_name": "泰山风景名胜区",
+      "text_type": "tourist_note",
+      "pronouns": 2,
+      "predicted_links": 2,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/MountTaishan6/4131979.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "title": "一日游路线",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "official_route",
+      "pronouns": 0,
+      "predicted_links": 0,
+      "unresolved": 0,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026032620071642379.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "title": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "official_route",
+      "pronouns": 2,
+      "predicted_links": 2,
+      "unresolved": 0,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "title": "【徒步路线】十里画廊-天子山徒步路线",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "official_route",
+      "pronouns": 2,
+      "predicted_links": 2,
+      "unresolved": 0,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "title": "【休闲路线】黄石寨-金鞭溪-十里画廊",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "official_route",
+      "pronouns": 1,
+      "predicted_links": 1,
+      "unresolved": 0,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "title": "【休闲路线】袁家界-杨家界-天子山（山上大环线）",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "official_route",
+      "pronouns": 1,
+      "predicted_links": 1,
+      "unresolved": 0,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "title": "张家界森林公园，天门山，长沙5日游记",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "tourist_note",
+      "pronouns": 8,
+      "predicted_links": 8,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "title": "最美张家界 感受春节的张家界之美",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "tourist_note",
+      "pronouns": 12,
+      "predicted_links": 12,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "title": "武汉-张家界-凤凰-衡山-南昌，八日游！日均步数三万起，务求所到之前，没有遗珠",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "tourist_note",
+      "pronouns": 4,
+      "predicted_links": 4,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "title": "广东清远出发，张家界、凤凰古城湘西环线自驾游",
+      "scenic_id": "WULINGYUAN",
+      "scenic_name": "张家界武陵源核心景区",
+      "text_type": "tourist_note",
+      "pronouns": 5,
+      "predicted_links": 5,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "title": "3.5公里慢徒步路线",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 0,
+      "predicted_links": 0,
+      "unresolved": 0,
+      "source_url": "https://www.ijingyuetan.com/index.php/scenicguidee/67",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "title": "17公里健身徒步路线",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 0,
+      "predicted_links": 0,
+      "unresolved": 0,
+      "source_url": "https://www.ijingyuetan.com/index.php/scenicguidee/66",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "title": "“水陆”结合畅游净月潭路线",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 0,
+      "predicted_links": 0,
+      "unresolved": 0,
+      "source_url": "https://www.ijingyuetan.com/index.php/scenicguidee/65",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "title": "遛娃亲子路线",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 0,
+      "predicted_links": 0,
+      "unresolved": 0,
+      "source_url": "https://www.ijingyuetan.com/index.php/scenicguidee/64",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "title": "3.5公里短途健身路线",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "official_route",
+      "pronouns": 0,
+      "predicted_links": 0,
+      "unresolved": 0,
+      "source_url": "https://www.ijingyuetan.com/index.php/recommendroutee/63",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "title": "我要去东北之：长春净月潭国家森林公园",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "tourist_note",
+      "pronouns": 9,
+      "predicted_links": 9,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "title": "初见吉林，是雪后晚晴看山野皆青，来一场观星雾凇冬漂狩猎的大狂欢",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "tourist_note",
+      "pronouns": 7,
+      "predicted_links": 7,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "title": "从长春到海参崴",
+      "scenic_id": "JINGYUETAN",
+      "scenic_name": "净月潭国家级风景名胜区",
+      "text_type": "tourist_note",
+      "pronouns": 3,
+      "predicted_links": 3,
+      "unresolved": 0,
+      "source_url": "https://you.ctrip.com/travels/Vladivostok4690/4122141.html",
+      "human_reviewed": false
+    }
+  ],
+  "model_source_sha256": {
+    "experiments/exp04_coreference/src/detect.py": "55815876c98f8f5638961f14036ce428d5f199b5b519cb98d55d310ff46bc4c2",
+    "experiments/exp04_coreference/src/resolve.py": "a2742219e4445920fc9ff60bc05f8ec8af21341b50e30c63b927e0e7c6028a9c",
+    "experiments/exp04_coreference/src/context_rules.py": "2d12d2e1adc4aa37b3cc1be425aa816801060e7c010d6df64671a63f9878689b",
+    "experiments/exp04_coreference/src/common.py": "83eb20be35b1efee977098cd1439d8381a4c0f03f155a330c1ef6d501a73bced"
+  },
+  "input_sha256": "f92e434fb12f8d88c37a8fae8ea56a3749402c0398df06b34ff31534ae251b35",
+  "human_reviewed_items": 0,
+  "verification": "全部检测样本均有预测；代词与先行词位置合法；已复核五篇及金标未改动。",
+  "assistant_semantic_assessment": {
+    "file": "assistant_agreement.json",
+    "consistent": 30,
+    "inconsistent": 98,
+    "uncertain": 15,
+    "conservative_agreement": 0.20979,
+    "optimistic_agreement_if_all_uncertain_accepted": 0.314685,
+    "note": "助手估计，不是人工金标准确率；语义口径与原五篇严格位置口径不同。"
+  }
+}

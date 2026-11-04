@@ -1,0 +1,258 @@
+{
+  "audit_date": "2026-11-01",
+  "audited_by": "AI 助手复查原文与用户已复核的 gold_review.md",
+  "human_review_record": {
+    "file": "gold_review.md",
+    "status": "原复核记录已原样归档；当前 gold_review.md 已注明本次用户授权修订。",
+    "sha256": "4aad49a3e4f9bb4acbfbf3376b8e934b75cde44d29938f182dd4545d6e79372a",
+    "archived_file": "../archive/gold_before_20261101_corrections/gold_review.md"
+  },
+  "status": "applied_with_user_authorization",
+  "original_gold_modified": true,
+  "scope": {
+    "documents": 5,
+    "original_items": 115,
+    "literal_presence_and_uniqueness": "全部通过；字符串可定位不代表边界和标注完整性都正确。",
+    "current_items": 127
+  },
+  "original_gold_files": [
+    {
+      "file": "gold_TAISHAN.json",
+      "items": 35,
+      "sha256": "871a1e30c18196f0a945524bdb63b29a06f65f8ab873d184e81d728b004852e5",
+      "archived_file": "../archive/gold_before_20261101_corrections/gold_TAISHAN.json"
+    },
+    {
+      "file": "gold_WULINGYUAN.json",
+      "items": 48,
+      "sha256": "2ab87eb86d7a401608a4a513ebb2463d82a4a941328de428b51ad0a82c743cb5",
+      "archived_file": "../archive/gold_before_20261101_corrections/gold_WULINGYUAN.json"
+    },
+    {
+      "file": "gold_JINGYUETAN.json",
+      "items": 32,
+      "sha256": "bfe97d8bea50ac105effe63cc697699207c75cc2c9fd1efb335ca9be2282a3a8",
+      "archived_file": "../archive/gold_before_20261101_corrections/gold_JINGYUETAN.json"
+    }
+  ],
+  "proposed_changes": [
+    {
+      "doc_id": "TS_OFF_001",
+      "entity_type": "TRANSPORT",
+      "text": "徒步",
+      "proposed_action": "add",
+      "reason": "符合现行实体规范，原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 818,
+          "end": 820,
+          "context": "要有一定的思想准备。如登山途中感觉体力不支，可在徒步到达中天门后，换乘索道直达岱顶。\n\n■交通：如果"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TIME",
+      "text": "下午",
+      "proposed_action": "add",
+      "reason": "符合现行实体规范，原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 271,
+          "end": 273,
+          "context": "墩等景点；中餐可在黄石寨山顶选择快餐或自带干粮，下午徒步金鞭溪（全长7.5公里，2小时左右）游览金鞭"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TIME",
+      "text": "次日",
+      "proposed_action": "add",
+      "reason": "符合现行实体规范，原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 28,
+          "end": 30,
+          "context": "零上了，大地依然白雪皑皑，阳光露出了和煦的笑脸。次日，我乘坐地铁一号线转三号线，游玩了净月潭公园。\n"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "晚上",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 135,
+          "end": 137,
+          "context": "以下，他们的门票都有优惠）\n\n注：李行托运。由于晚上换到武陵源吴家峪附近入住，所以一早把行李托给民宿"
+        },
+        {
+          "start": 274,
+          "end": 276,
+          "context": "李。\n\n到达武陵源的民宿，办理入住后，出来吃饭，晚上观看《魅力湘西》（超vip门票180+180+1"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "一早",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 152,
+          "end": 154,
+          "context": "李行托运。由于晚上换到武陵源吴家峪附近入住，所以一早把行李托给民宿老板，并详细写清下一家入住的民宿地"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "Day4",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 0,
+          "end": 4,
+          "context": "Day4：打卡张家界国家森林公园（索道上山→天子山→杨家"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "Day5",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 40,
+          "end": 44,
+          "context": "（索道上山→天子山→杨家界→袁家界→金鞭溪）\n\nDay5：打卡张家界国家森林公园（十里画廊→地质博物馆→"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "第四天",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 362,
+          "end": 365,
+          "context": "现场随机，其中还有10分钟左右的字画推销）。\n\n第四天进入张家界国家森林公园，成人票210，65岁以上"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "第五天",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 742,
+          "end": 745,
+          "context": "看看没事\n\n大小猴子吃鸡蛋，发现它们只吃蛋黄\n\n第五天，我们再度进张家界国家森林公园景区内，把前一天没"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "前一天",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 765,
+          "end": 768,
+          "context": "\n第五天，我们再度进张家界国家森林公园景区内，把前一天没有玩的十里画廊，地质博物馆和没有玩尽性的金鞭溪"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "一整天",
+      "proposed_action": "add",
+      "reason": "时段、行程日或时长表达；原名称级金标未收录。",
+      "occurrences": [
+        {
+          "start": 794,
+          "end": 797,
+          "context": "玩的十里画廊，地质博物馆和没有玩尽性的金鞭溪玩了一整天。十里画廊可以坐小火车或步行，我们选择坐小火车进"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "月塔楼",
+      "proposed_action": "replace",
+      "reason": "原文名单中的完整名称是“月塔楼”，旧金标只取“塔楼”，边界不完整。",
+      "occurrences": [
+        {
+          "start": 232,
+          "end": 235,
+          "context": "极大的便利。我基本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北"
+        }
+      ],
+      "old_text": "塔楼",
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "橡树岭",
+      "proposed_action": "policy_review",
+      "reason": "原复核按同一节点别名不重复计；名称级评价按表面形式区分，与该裁决不一致。本次输出保留原文别名并加 alias_of，原金标不改。",
+      "occurrences": [
+        {
+          "start": 125,
+          "end": 128,
+          "context": "→灵草芳洲（景观小品打卡）→月潭揽胜→避暑山庄（橡树岭）→月亮湾→观潭山（童趣营地、森林探险乐园）→荷"
+        }
+      ],
+      "status": "applied_with_user_authorization",
+      "applied_date": "2026-11-01",
+      "resolution": "按名称级表面形式计入橡树岭；它与避暑山庄是同一节点的别名，不据此新增图谱节点。"
+    }
+  ],
+  "evaluation_policy": "两版统一使用修订后的127项名称级金标；仅评价原来的5篇文档；规则与金标同源，不是独立测试。",
+  "applied_date": "2026-11-01",
+  "authorization": "用户明确授权将13项审计建议合入金标。"
+}

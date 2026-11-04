@@ -30,12 +30,12 @@
     "scenic_id": "JINGYUETAN",
     "text": "东环潭",
     "entity_type": "POI",
-    "subtype": "suffix",
+    "subtype": "area",
     "start": 9,
     "end": 12,
     "sentence_id": 1,
-    "method": "suffix",
-    "granularity": "unknown",
+    "method": "lexicon",
+    "granularity": "specific",
     "canonical": "东环潭"
   },
   {
@@ -173,12 +173,12 @@
     "scenic_id": "JINGYUETAN",
     "text": "西环潭",
     "entity_type": "POI",
-    "subtype": "suffix",
+    "subtype": "area",
     "start": 9,
     "end": 12,
     "sentence_id": 1,
-    "method": "suffix",
-    "granularity": "unknown",
+    "method": "lexicon",
+    "granularity": "specific",
     "canonical": "西环潭"
   },
   {
@@ -301,15 +301,28 @@
   {
     "doc_id": "JYT_OFF_002",
     "scenic_id": "JINGYUETAN",
-    "text": "徒步",
-    "entity_type": "TRANSPORT",
-    "subtype": "walk",
+    "text": "徒步惊喜",
+    "entity_type": "POI",
+    "subtype": "landmark",
     "start": 80,
-    "end": 82,
+    "end": 84,
     "sentence_id": 1,
     "method": "lexicon",
-    "granularity": "generic",
-    "canonical": "徒步"
+    "granularity": "specific",
+    "canonical": "徒步惊喜"
+  },
+  {
+    "doc_id": "JYT_OFF_002",
+    "scenic_id": "JINGYUETAN",
+    "text": "东环潭",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 85,
+    "end": 88,
+    "sentence_id": 1,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "东环潭"
   },
   {
     "doc_id": "JYT_OFF_002",
@@ -349,6 +362,20 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "避暑山庄"
+  },
+  {
+    "doc_id": "JYT_OFF_002",
+    "scenic_id": "JINGYUETAN",
+    "text": "橡树岭",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 125,
+    "end": 128,
+    "sentence_id": 1,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "橡树岭",
+    "alias_of": "避暑山庄"
   },
   {
     "doc_id": "JYT_OFF_002",
@@ -401,6 +428,20 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "森林探险乐园"
+  },
+  {
+    "doc_id": "JYT_OFF_002",
+    "scenic_id": "JINGYUETAN",
+    "text": "荷花垂柳",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 151,
+    "end": 155,
+    "sentence_id": 1,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "荷花垂柳",
+    "alias_of": "荷花垂柳园"
   },
   {
     "doc_id": "JYT_OFF_002",
@@ -459,12 +500,12 @@
     "scenic_id": "JINGYUETAN",
     "text": "西环潭",
     "entity_type": "POI",
-    "subtype": "suffix",
+    "subtype": "area",
     "start": 9,
     "end": 12,
     "sentence_id": 1,
-    "method": "suffix",
-    "granularity": "unknown",
+    "method": "lexicon",
+    "granularity": "specific",
     "canonical": "西环潭"
   },
   {
@@ -587,6 +628,19 @@
   {
     "doc_id": "JYT_OFF_003",
     "scenic_id": "JINGYUETAN",
+    "text": "东环潭",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 89,
+    "end": 92,
+    "sentence_id": 1,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "东环潭"
+  },
+  {
+    "doc_id": "JYT_OFF_003",
+    "scenic_id": "JINGYUETAN",
     "text": "徒步",
     "entity_type": "TRANSPORT",
     "subtype": "walk",
@@ -628,13 +682,27 @@
     "scenic_id": "JINGYUETAN",
     "text": "东环潭",
     "entity_type": "POI",
-    "subtype": "suffix",
+    "subtype": "area",
     "start": 121,
     "end": 124,
     "sentence_id": 1,
-    "method": "suffix",
-    "granularity": "unknown",
+    "method": "lexicon",
+    "granularity": "specific",
     "canonical": "东环潭"
+  },
+  {
+    "doc_id": "JYT_OFF_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "荷花垂柳",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 129,
+    "end": 133,
+    "sentence_id": 1,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "荷花垂柳",
+    "alias_of": "荷花垂柳园"
   },
   {
     "doc_id": "JYT_OFF_003",
@@ -706,12 +774,12 @@
     "scenic_id": "JINGYUETAN",
     "text": "东环潭",
     "entity_type": "POI",
-    "subtype": "suffix",
+    "subtype": "area",
     "start": 9,
     "end": 12,
     "sentence_id": 1,
-    "method": "suffix",
-    "granularity": "unknown",
+    "method": "lexicon",
+    "granularity": "specific",
     "canonical": "东环潭"
   },
   {
@@ -847,6 +915,19 @@
   {
     "doc_id": "JYT_OFF_005",
     "scenic_id": "JINGYUETAN",
+    "text": "西环潭",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 9,
+    "end": 12,
+    "sentence_id": 1,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "西环潭"
+  },
+  {
+    "doc_id": "JYT_OFF_005",
+    "scenic_id": "JINGYUETAN",
     "text": "水库大坝",
     "entity_type": "POI",
     "subtype": "facility",
@@ -882,6 +963,32 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "西门"
+  },
+  {
+    "doc_id": "JYT_OFF_005",
+    "scenic_id": "JINGYUETAN",
+    "text": "35分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 45,
+    "end": 49,
+    "sentence_id": 1,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "35分钟"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "一天",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 128,
+    "end": 130,
+    "sentence_id": 4,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "一天"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -951,54 +1058,28 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "05:00",
+    "text": "05:00-20:00",
     "entity_type": "TIME",
     "subtype": "clock",
     "start": 349,
-    "end": 354,
-    "sentence_id": 13,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "05:00"
-  },
-  {
-    "doc_id": "JYT_NOTE_001",
-    "scenic_id": "JINGYUETAN",
-    "text": "20:00",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 355,
     "end": 360,
     "sentence_id": 13,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "20:00"
+    "canonical": "05:00-20:00"
   },
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "06:00",
+    "text": "06:00-19:00",
     "entity_type": "TIME",
     "subtype": "clock",
     "start": 367,
-    "end": 372,
-    "sentence_id": 13,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "06:00"
-  },
-  {
-    "doc_id": "JYT_NOTE_001",
-    "scenic_id": "JINGYUETAN",
-    "text": "19:00",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 373,
     "end": 378,
     "sentence_id": 13,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "19:00"
+    "canonical": "06:00-19:00"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1029,28 +1110,41 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "08:30",
+    "text": "1小时",
     "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 653,
-    "end": 658,
+    "subtype": "duration",
+    "start": 638,
+    "end": 641,
     "sentence_id": 23,
-    "method": "regex_clock",
+    "method": "regex_duration",
     "granularity": "specific",
-    "canonical": "08:30"
+    "canonical": "1小时"
   },
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "15:00",
+    "text": "30分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 643,
+    "end": 647,
+    "sentence_id": 23,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "30分钟"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "08:30-15:00",
     "entity_type": "TIME",
     "subtype": "clock",
-    "start": 659,
+    "start": 653,
     "end": 664,
     "sentence_id": 23,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "15:00"
+    "canonical": "08:30-15:00"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1116,6 +1210,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "10分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 790,
+    "end": 794,
+    "sentence_id": 28,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "10分钟"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1276,6 +1383,20 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 877,
+    "end": 882,
+    "sentence_id": 30,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
     "text": "湿地公园",
     "entity_type": "POI",
     "subtype": "area",
@@ -1402,6 +1523,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "女神广场"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "10 分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1103,
+    "end": 1108,
+    "sentence_id": 35,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "10 分钟"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1640,6 +1774,20 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 1791,
+    "end": 1796,
+    "sentence_id": 65,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
     "text": "望潭广场",
     "entity_type": "POI",
     "subtype": "facility",
@@ -1714,6 +1862,90 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 2012,
+    "end": 2017,
+    "sentence_id": 74,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 2033,
+    "end": 2038,
+    "sentence_id": 75,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 2130,
+    "end": 2135,
+    "sentence_id": 78,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 2333,
+    "end": 2338,
+    "sentence_id": 82,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 2374,
+    "end": 2379,
+    "sentence_id": 84,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 2410,
+    "end": 2415,
+    "sentence_id": 85,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1818,6 +2050,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "竹筏"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "10分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 2628,
+    "end": 2632,
+    "sentence_id": 92,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "10分钟"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -2004,6 +2249,19 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
+    "text": "25分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 2969,
+    "end": 2973,
+    "sentence_id": 109,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "25分钟"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
     "text": "竹筏",
     "entity_type": "TRANSPORT",
     "subtype": "boat",
@@ -2017,6 +2275,19 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
+    "text": "25分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 2989,
+    "end": 2993,
+    "sentence_id": 110,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "25分钟"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
     "text": "竹筏",
     "entity_type": "TRANSPORT",
     "subtype": "boat",
@@ -2026,6 +2297,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "竹筏"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "text": "湿地",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 3014,
+    "end": 3016,
+    "sentence_id": 111,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "湿地"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -2147,54 +2431,42 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "东北虎园",
+    "text": "瓦萨滑雪场",
     "entity_type": "POI",
     "subtype": "facility",
-    "start": 3420,
-    "end": 3424,
-    "sentence_id": 129,
+    "start": 3367,
+    "end": 3372,
+    "sentence_id": 127,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "东北虎园"
+    "canonical": "瓦萨滑雪场",
+    "alias_of": "净月潭滑雪场"
   },
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "东北虎园",
-    "entity_type": "POI",
-    "subtype": "facility",
-    "start": 3429,
-    "end": 3433,
-    "sentence_id": 130,
-    "method": "lexicon",
+    "text": "一小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 3684,
+    "end": 3687,
+    "sentence_id": 136,
+    "method": "regex_duration",
     "granularity": "specific",
-    "canonical": "东北虎园"
+    "canonical": "一小时"
   },
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "text": "东北虎园",
-    "entity_type": "POI",
-    "subtype": "facility",
-    "start": 3465,
-    "end": 3469,
-    "sentence_id": 131,
-    "method": "lexicon",
+    "text": "一小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 3709,
+    "end": 3712,
+    "sentence_id": 137,
+    "method": "regex_duration",
     "granularity": "specific",
-    "canonical": "东北虎园"
-  },
-  {
-    "doc_id": "JYT_NOTE_001",
-    "scenic_id": "JINGYUETAN",
-    "text": "东北虎园",
-    "entity_type": "POI",
-    "subtype": "facility",
-    "start": 3474,
-    "end": 3478,
-    "sentence_id": 132,
-    "method": "lexicon",
-    "granularity": "specific",
-    "canonical": "东北虎园"
+    "canonical": "一小时"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -2208,6 +2480,19 @@
     "method": "regex_clock",
     "granularity": "specific",
     "canonical": "9:22"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "scenic_id": "JINGYUETAN",
+    "text": "24分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 23,
+    "end": 27,
+    "sentence_id": 1,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "24分钟"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -2368,6 +2653,19 @@
   {
     "doc_id": "JYT_NOTE_002",
     "scenic_id": "JINGYUETAN",
+    "text": "50分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 450,
+    "end": 454,
+    "sentence_id": 11,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "50分钟"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "scenic_id": "JINGYUETAN",
     "text": "观光车",
     "entity_type": "TRANSPORT",
     "subtype": "shuttle",
@@ -2407,6 +2705,34 @@
   {
     "doc_id": "JYT_NOTE_002",
     "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 578,
+    "end": 583,
+    "sentence_id": 16,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 668,
+    "end": 673,
+    "sentence_id": 18,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "scenic_id": "JINGYUETAN",
     "text": "11:58",
     "entity_type": "TIME",
     "subtype": "clock",
@@ -2420,15 +2746,29 @@
   {
     "doc_id": "JYT_NOTE_002",
     "scenic_id": "JINGYUETAN",
-    "text": "12点",
+    "text": "瓦萨博物馆",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 691,
+    "end": 696,
+    "sentence_id": 19,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "瓦萨博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "scenic_id": "JINGYUETAN",
+    "text": "12点半",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 938,
-    "end": 941,
+    "end": 942,
     "sentence_id": 25,
     "method": "regex_point",
     "granularity": "specific",
-    "canonical": "12点"
+    "canonical": "12点半"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -2485,6 +2825,19 @@
   {
     "doc_id": "JYT_NOTE_003",
     "scenic_id": "JINGYUETAN",
+    "text": "1个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 64,
+    "end": 68,
+    "sentence_id": 2,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "1个小时"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
     "text": "当天",
     "entity_type": "TIME",
     "subtype": "day",
@@ -2520,6 +2873,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "地铁"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "1小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 182,
+    "end": 185,
+    "sentence_id": 4,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "1小时"
   },
   {
     "doc_id": "JYT_NOTE_003",
@@ -2563,6 +2929,71 @@
   {
     "doc_id": "JYT_NOTE_003",
     "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 679,
+    "end": 682,
+    "sentence_id": 19,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 686,
+    "end": 689,
+    "sentence_id": 19,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 718,
+    "end": 721,
+    "sentence_id": 19,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 724,
+    "end": 727,
+    "sentence_id": 20,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "半小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 733,
+    "end": 736,
+    "sentence_id": 20,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "半小时"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
     "text": "湿地公园",
     "entity_type": "POI",
     "subtype": "area",
@@ -2585,6 +3016,32 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "高尔夫球场"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 754,
+    "end": 757,
+    "sentence_id": 21,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "15分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 758,
+    "end": 762,
+    "sentence_id": 21,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "15分钟"
   },
   {
     "doc_id": "JYT_NOTE_003",
@@ -2641,6 +3098,19 @@
   {
     "doc_id": "JYT_NOTE_003",
     "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 1014,
+    "end": 1017,
+    "sentence_id": 27,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
     "text": "高尔夫球场",
     "entity_type": "POI",
     "subtype": "facility",
@@ -2693,6 +3163,19 @@
   {
     "doc_id": "JYT_NOTE_003",
     "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 1076,
+    "end": 1079,
+    "sentence_id": 28,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
     "text": "水库大坝",
     "entity_type": "POI",
     "subtype": "facility",
@@ -2702,6 +3185,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "水库大坝"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "scenic_id": "JINGYUETAN",
+    "text": "接驳车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 1166,
+    "end": 1169,
+    "sentence_id": 29,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
   },
   {
     "doc_id": "JYT_NOTE_003",
@@ -2771,6 +3267,19 @@
   {
     "doc_id": "JYT_NOTE_004",
     "scenic_id": "JINGYUETAN",
+    "text": "六七小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 571,
+    "end": 575,
+    "sentence_id": 22,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "六七小时"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
     "text": "徒步",
     "entity_type": "TRANSPORT",
     "subtype": "walk",
@@ -2797,6 +3306,19 @@
   {
     "doc_id": "JYT_NOTE_004",
     "scenic_id": "JINGYUETAN",
+    "text": "一个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 711,
+    "end": 715,
+    "sentence_id": 26,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "一个小时"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
     "text": "自驾",
     "entity_type": "TRANSPORT",
     "subtype": "self_drive",
@@ -2806,6 +3328,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "自驾"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
+    "text": "2小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 819,
+    "end": 822,
+    "sentence_id": 34,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "2小时"
   },
   {
     "doc_id": "JYT_NOTE_004",
@@ -2847,6 +3382,19 @@
     "canonical": "第二天"
   },
   {
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
+    "text": "一天",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 938,
+    "end": 940,
+    "sentence_id": 38,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "一天"
+  },
+  {
     "doc_id": "JYT_NOTE_005",
     "scenic_id": "JINGYUETAN",
     "text": "次日",
@@ -2875,6 +3423,45 @@
   {
     "doc_id": "JYT_NOTE_005",
     "scenic_id": "JINGYUETAN",
+    "text": "景区车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 149,
+    "end": 152,
+    "sentence_id": 5,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "scenic_id": "JINGYUETAN",
+    "text": "景区车",
+    "entity_type": "TRANSPORT",
+    "subtype": "shuttle",
+    "start": 162,
+    "end": 165,
+    "sentence_id": 5,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "大巴"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "scenic_id": "JINGYUETAN",
+    "text": "十分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 187,
+    "end": 190,
+    "sentence_id": 5,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "十分钟"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "scenic_id": "JINGYUETAN",
     "text": "女神广场",
     "entity_type": "POI",
     "subtype": "facility",
@@ -2884,6 +3471,20 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "女神广场"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "scenic_id": "JINGYUETAN",
+    "text": "月塔楼",
+    "entity_type": "POI",
+    "subtype": "landmark",
+    "start": 232,
+    "end": 235,
+    "sentence_id": 6,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "月塔楼",
+    "alias_of": "碧松净月塔楼"
   },
   {
     "doc_id": "JYT_NOTE_005",
@@ -2914,14 +3515,42 @@
   {
     "doc_id": "JYT_NOTE_005",
     "scenic_id": "JINGYUETAN",
-    "text": "东北虎园",
+    "text": "湿地",
+    "entity_type": "POI",
+    "subtype": "area",
+    "start": 246,
+    "end": 248,
+    "sentence_id": 6,
+    "method": "lexicon",
+    "granularity": "generic",
+    "canonical": "湿地"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "scenic_id": "JINGYUETAN",
+    "text": "瓦萨滑雪博物馆",
     "entity_type": "POI",
     "subtype": "facility",
-    "start": 257,
-    "end": 261,
+    "start": 249,
+    "end": 256,
     "sentence_id": 6,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "东北虎园"
+    "canonical": "瓦萨滑雪博物馆",
+    "alias_of": "中国瓦萨博物馆"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "scenic_id": "JINGYUETAN",
+    "text": "滑雪场",
+    "entity_type": "POI",
+    "subtype": "facility",
+    "start": 262,
+    "end": 265,
+    "sentence_id": 6,
+    "method": "lexicon",
+    "granularity": "specific",
+    "canonical": "滑雪场",
+    "alias_of": "净月潭滑雪场"
   }
 ]

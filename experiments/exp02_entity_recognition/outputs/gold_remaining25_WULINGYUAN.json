@@ -1,0 +1,2239 @@
+{
+  "schema_version": "3",
+  "annotation_date": "2026-11-02",
+  "annotated_by": "AI 助手逐篇阅读 clean_text 标注；未经用户人工复核",
+  "human_reviewed": false,
+  "evaluation_level": "document_type_surface_name",
+  "granularity": "名称级；每项附一处原文位置证据，不是所有出现次数的逐次金标。",
+  "annotation_input_sha256": "52ff588dbea0af40ddbf37dca66cbc6e6c0d24feef08eb8e5d106f13d50a63e5",
+  "source_text_sha256": {
+    "ZJJ_OFF_002": "ae6afb41c36e3a2248a25f9f66135a60c3fc3b9b92f10cbb3037816e4874c89f",
+    "ZJJ_OFF_003": "f79ed248686618f5d198d30581578dece7a9229261eed719a1f44bc5775315b0",
+    "ZJJ_OFF_004": "01e7c3086be3eab075dbe621edbda0c1ae296f548263d388968c547e0e5ab3d5",
+    "ZJJ_OFF_005": "75166cfb8c1986c28cb1529e2d58a574ccd279c94b59977b2c0b83ca6e13969c",
+    "ZJJ_NOTE_001": "3793c78708c33eb2f78996871c080d9b62327c0305b9399cc81fb79695308b28",
+    "ZJJ_NOTE_002": "39c995e9ef9ea73d226b1b7e91412a026182ec6d2c6f982ed0de161de410ae24",
+    "ZJJ_NOTE_003": "bd38aa37cffe599369a56c65727096b0dd6a0e937b53d5588ad2f38e07f935a8",
+    "ZJJ_NOTE_004": "ad66d734c81bb993d605a38ccbd6146094e222aa7067878cecd7b8daabcbbf49"
+  },
+  "notes": [
+    "在查看本轮预测对照结果之前保存名称清单；导出脚本不读取 entities、词典或识别规则。",
+    "这些文章已用于此前词典开发，不是未见过的独立测试集；助手标注可能存在遗漏或歧义。",
+    "名称严格按原文匹配，全称、简称、别名不自动合并；同类型长名包含的短名不重复计。",
+    "景区主题名、外部地点、未具名通名、人物、神灵、历史年份和地质年龄不标。",
+    "具名内部设施、地标碑刻、别名及直接接入的具名车站和住宿节点计POI；连锁品牌无具体门店名不单列。",
+    "明确的交通同义表达（如打车、骑马、漫步）和具名交通线路按原词标；娱乐项目不当交通。",
+    "与游览有关的日期、季节、时段、节日、时刻、时长和有效期计TIME；历史年代和单独单位不计。",
+    "早餐后、午餐后等是时间锚点；作为餐食或活动的早餐、演出名称不单独标为时间。",
+    "原文疑似错名仍按表面形式标注（如金鞭溪索道、天外天客运站），不证明该设施真实存在。"
+  ],
+  "scenic_id": "WULINGYUAN",
+  "doc_scope": [
+    "ZJJ_OFF_002",
+    "ZJJ_OFF_003",
+    "ZJJ_OFF_004",
+    "ZJJ_OFF_005",
+    "ZJJ_NOTE_001",
+    "ZJJ_NOTE_002",
+    "ZJJ_NOTE_003",
+    "ZJJ_NOTE_004"
+  ],
+  "items": [
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 91,
+      "end": 94,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "线路是公园内极具挑战与野趣的硬核徒步穿越路线，串联起杨家界、袁家界与金鞭溪三大核心区域，形成一条从山巅绝壁深入谷底幽溪的立体景"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 87,
+      "end": 90,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "界\n\n此线路是公园内极具挑战与野趣的硬核徒步穿越路线，串联起杨家界、袁家界与金鞭溪三大核心区域，形成一条从山巅绝壁深入谷底幽溪"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 194,
+      "end": 197,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，尽享峡谷清溪与原始森林的静谧与清凉。"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "空中走廊",
+      "start": 135,
+      "end": 139,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "形成一条从山巅绝壁深入谷底幽溪的立体景观长廊。沿线可徒步征服空中走廊，一步登天感受绝壁险峰的雄奇，打卡《阿凡达》悬浮山原型乾坤柱"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "一步登天",
+      "start": 140,
+      "end": 144,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "山巅绝壁深入谷底幽溪的立体景观长廊。沿线可徒步征服空中走廊，一步登天感受绝壁险峰的雄奇，打卡《阿凡达》悬浮山原型乾坤柱与天下第一"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 166,
+      "end": 169,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "中走廊，一步登天感受绝壁险峰的雄奇，打卡《阿凡达》悬浮山原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 170,
+      "end": 175,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "一步登天感受绝壁险峰的雄奇，打卡《阿凡达》悬浮山原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，尽享峡谷清溪"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "POI",
+      "text": "乱窜坡",
+      "start": 184,
+      "end": 187,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "打卡《阿凡达》悬浮山原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，尽享峡谷清溪与原始森林的静谧与清凉。"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "TRANSPORT",
+      "text": "徒步",
+      "start": 187,
+      "end": 189,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "阿凡达》悬浮山原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，尽享峡谷清溪与原始森林的静谧与清凉。"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "TIME",
+      "text": "一日",
+      "start": 7,
+      "end": 9,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022113277952.html",
+      "context": "游览时间建议：一日\n\n难度：☆☆☆☆\n\n住宿建议：此路线起点与终点距离较远，需"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 24,
+      "end": 26,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "游览时间建议：一日\n\n难度：☆☆☆\n\n住宿建议：东门\n\n午餐地点建议：贺龙公园\n\n此线路是从幽深峡谷直抵云端峰林"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 154,
+      "end": 158,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "原始次生林，体验从幽深峡谷直升绝壁之巅的凌空之感；登顶后驻足贺龙公园，俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 65,
+      "end": 69,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "贺龙公园\n\n此线路是从幽深峡谷直抵云端峰林的立体穿越路线，沿十里画廊蜿蜒而上，最终登顶天子山，形成一条从谷底仰视到绝顶俯瞰的绝美"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 78,
+      "end": 81,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "峡谷直抵云端峰林的立体穿越路线，沿十里画廊蜿蜒而上，最终登顶天子山，形成一条从谷底仰视到绝顶俯瞰的绝美景观长廊。沿线可观赏采药"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "采药老人",
+      "start": 109,
+      "end": 113,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "子山，形成一条从谷底仰视到绝顶俯瞰的绝美景观长廊。沿线可观赏采药老人的惟妙惟肖；穿越卧龙岭原始次生林，体验从幽深峡谷直升绝壁之巅"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "卧龙岭",
+      "start": 121,
+      "end": 124,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "到绝顶俯瞰的绝美景观长廊。沿线可观赏采药老人的惟妙惟肖；穿越卧龙岭原始次生林，体验从幽深峡谷直升绝壁之巅的凌空之感；登顶后驻足"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 161,
+      "end": 164,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "验从幽深峡谷直升绝壁之巅的凌空之感；登顶后驻足贺龙公园，俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石拱南天门缓缓"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "仙女散花",
+      "start": 172,
+      "end": 176,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "巅的凌空之感；登顶后驻足贺龙公园，俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石拱南天门缓缓而下。此路线兼具平缓漫游"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "南天门",
+      "start": 189,
+      "end": 192,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石拱南天门缓缓而下。此路线兼具平缓漫游闲适感与登高望远壮阔感，景致层次"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "TIME",
+      "text": "一日",
+      "start": 7,
+      "end": 9,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063022100487416.html",
+      "context": "游览时间建议：一日\n\n难度：☆☆☆\n\n住宿建议：东门\n\n午餐地点建议：贺龙公园"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "南门",
+      "start": 16,
+      "end": 18,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "游览时间建议：一日\n\n住宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点建议：大氧吧广场\n"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "武陵源城区",
+      "start": 28,
+      "end": 33,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "游览时间建议：一日\n\n住宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点建议：大氧吧广场\n\n此线路串联黄石寨、金鞭溪与十"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "大氧吧广场",
+      "start": 42,
+      "end": 47,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点建议：大氧吧广场\n\n此线路串联黄石寨、金鞭溪与十里画廊，形成一条完整的方山-"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 181,
+      "end": 184,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "林之间，尽显张家界方山、峰林峡谷独具一格的地貌神韵。您既能乘黄石寨索道直抵峰巅，也能沿金鞭溪悠然漫步，还能乘十里画廊观光小火车"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 194,
+      "end": 197,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "林峡谷独具一格的地貌神韵。您既能乘黄石寨索道直抵峰巅，也能沿金鞭溪悠然漫步，还能乘十里画廊观光小火车沿途赏景，沉浸式感受山水相"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 205,
+      "end": 209,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "韵。您既能乘黄石寨索道直抵峰巅，也能沿金鞭溪悠然漫步，还能乘十里画廊观光小火车沿途赏景，沉浸式感受山水相融的清幽意境。"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "六奇阁",
+      "start": 91,
+      "end": 94,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "与十里画廊，形成一条完整的方山-峡谷观景路线。沿途打卡黄石寨六奇阁、摘星台，金鞭溪神鹰护鞭、劈山救母等标志性景观，感受原始森林"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "摘星台",
+      "start": 95,
+      "end": 98,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "廊，形成一条完整的方山-峡谷观景路线。沿途打卡黄石寨六奇阁、摘星台，金鞭溪神鹰护鞭、劈山救母等标志性景观，感受原始森林与奇峰倒"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "神鹰护鞭",
+      "start": 102,
+      "end": 106,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "整的方山-峡谷观景路线。沿途打卡黄石寨六奇阁、摘星台，金鞭溪神鹰护鞭、劈山救母等标志性景观，感受原始森林与奇峰倒映的灵动画卷。步"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "POI",
+      "text": "劈山救母",
+      "start": 107,
+      "end": 111,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "峡谷观景路线。沿途打卡黄石寨六奇阁、摘星台，金鞭溪神鹰护鞭、劈山救母等标志性景观，感受原始森林与奇峰倒映的灵动画卷。步道与峡谷栈"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "TRANSPORT",
+      "text": "黄石寨索道",
+      "start": 181,
+      "end": 186,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "林之间，尽显张家界方山、峰林峡谷独具一格的地貌神韵。您既能乘黄石寨索道直抵峰巅，也能沿金鞭溪悠然漫步，还能乘十里画廊观光小火车沿途"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "TRANSPORT",
+      "text": "十里画廊观光小火车",
+      "start": 205,
+      "end": 214,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "韵。您既能乘黄石寨索道直抵峰巅，也能沿金鞭溪悠然漫步，还能乘十里画廊观光小火车沿途赏景，沉浸式感受山水相融的清幽意境。"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "TRANSPORT",
+      "text": "漫步",
+      "start": 199,
+      "end": 201,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "一格的地貌神韵。您既能乘黄石寨索道直抵峰巅，也能沿金鞭溪悠然漫步，还能乘十里画廊观光小火车沿途赏景，沉浸式感受山水相融的清幽"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "entity_type": "TIME",
+      "text": "一日",
+      "start": 7,
+      "end": 9,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021583057917.html",
+      "context": "游览时间建议：一日\n\n住宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "武陵源城区",
+      "start": 16,
+      "end": 21,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "游览时间建议：一日\n\n住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 124,
+      "end": 127,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "景环线。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、西海峰林壮阔全景。步道与"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "天下第一桥站",
+      "start": 34,
+      "end": 40,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "建议：一日\n\n住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公园经典游览路线之一，串联袁家界、"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "张家界世界地质公园",
+      "start": 46,
+      "end": 55,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公园经典游览路线之一，串联袁家界、杨家界、天子山三大核心区域，形"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 103,
+      "end": 106,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "、天子山三大核心区域，形成一条完整的山顶观景环线。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 221,
+      "end": 224,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "林”的演化序列。游客还可搭乘百龙天梯凌空攀升、直抵峰巅，乘坐天子山索道穿云而行，纵览千峰竞秀的开阔视野，兼具观光体验与地质科普"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 106,
+      "end": 109,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "山三大核心区域，形成一条完整的山顶观景环线。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 110,
+      "end": 115,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "心区域，形成一条完整的山顶观景环线。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "天然长城",
+      "start": 127,
+      "end": 131,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、西海峰林壮阔全景。步道与绝壁栈道"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 141,
+      "end": 144,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、西海峰林壮阔全景。步道与绝壁栈道交错，云海变幻，移步换景，"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "西海峰林",
+      "start": 145,
+      "end": 149,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、西海峰林壮阔全景。步道与绝壁栈道交错，云海变幻，移步换景，清晰展现张"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "TRANSPORT",
+      "text": "百龙天梯",
+      "start": 205,
+      "end": 209,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "晰展现张家界地貌“平台—峰墙—峰林”的演化序列。游客还可搭乘百龙天梯凌空攀升、直抵峰巅，乘坐天子山索道穿云而行，纵览千峰竞秀的开"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "TRANSPORT",
+      "text": "天子山索道",
+      "start": 221,
+      "end": 226,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "林”的演化序列。游客还可搭乘百龙天梯凌空攀升、直抵峰巅，乘坐天子山索道穿云而行，纵览千峰竞秀的开阔视野，兼具观光体验与地质科普价值"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "TIME",
+      "text": "一日",
+      "start": 7,
+      "end": 9,
+      "source_url": "https://www.zhangjiajieuggp.org.cn/html/2026/2026063021531356375.html",
+      "context": "游览时间建议：一日\n\n住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "武陵源",
+      "start": 587,
+      "end": 590,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "（张家界国家森林公园标志门店），寄存行李后步行大概3分钟到达武陵源（东门），反正是很近。\n\n张家界国家森林公园东门标志门\n\n我"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 1633,
+      "end": 1642,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "离酒店很近，走路5分钟就到了。\n\n24号早上吃完早餐，退房去张家界国家森林公园南门。从酒店出来去客运站，走路大概10分钟，客运站有去南门的"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 1519,
+      "end": 1521,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "车可以去十里画廊景点，也可以直接坐回东门出景区。我们直接坐到东门，出景区大概下午3点，游玩后一点没觉得累，没有什么台阶，基本"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "南门",
+      "start": 1758,
+      "end": 1760,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "10点入园，到早了要等一等，景区门口把行李寄存了10元一天。南门的景点包括黄石寨，金鞭溪。9点入园进景区，先乘环保车几分钟到"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 1294,
+      "end": 1297,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "散去，有点不死心，再想去看看天子山，乘2段环保车又折返，但是天子山的那片山头雨大雾大，还是啥都看不见，这样耽误了一个小时，又回"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 992,
+      "end": 995,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "前只能用壮观、惊叹来形容，太美啦。\n\n杨家界的天然长城\n\n在杨家界的环保车乘车点排队坐车去袁家界，乘环保车大概10分钟。袁家界"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 1328,
+      "end": 1331,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "那片山头雨大雾大，还是啥都看不见，这样耽误了一个小时，又回到袁家界乘坐环保车，大概5分钟到了百龙电梯。百龙电梯是下行，大概1分"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 733,
+      "end": 737,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，乘坐环保车到天子山索道上山，有小雨山上全是雾，天子山就去了贺龙公园，因为雾大山上什么都看不见，就没有去天子山的其它景点。\n\nA"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "贺龙元帅之墓",
+      "start": 775,
+      "end": 781,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "么都看不见，就没有去天子山的其它景点。\n\nA线索道乘车点\n\n贺龙元帅之墓\n\n在天子山的环保车乘车点排队坐车去杨家界，这一段车型是小巴"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "天然长城",
+      "start": 985,
+      "end": 989,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "逐渐退去后，眼前只能用壮观、惊叹来形容，太美啦。\n\n杨家界的天然长城\n\n在杨家界的环保车乘车点排队坐车去袁家界，乘环保车大概10"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "一步登天",
+      "start": 892,
+      "end": 896,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "的雾气慢慢地散去，有了希望了。杨家界主要景点包括：天然长城、一步登天、空中走廊。我们去了天然长城，天然长城作为必游景点，峰林密集"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "空中走廊",
+      "start": 897,
+      "end": 901,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "地散去，有了希望了。杨家界主要景点包括：天然长城、一步登天、空中走廊。我们去了天然长城，天然长城作为必游景点，峰林密集如屏障，形"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 1231,
+      "end": 1236,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "影《阿凡达》取景闻名。峰体纹理嶙峋，堪称三千奇峰的代表。\n\n天下第一桥\n\n从袁家界乘环保车去百龙电梯就下山了，当时的雾气已逐渐散去"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "迷魂台",
+      "start": 1117,
+      "end": 1120,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "。云雾缭绕时如悬空天路，是张家界十大绝景之首。闺女还许愿了。迷魂台，最佳全景观景台，可360°环视上百座石峰。雨后云海漫过峰林"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 1169,
+      "end": 1172,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "石峰。雨后云海漫过峰林，形成“峰在云中浮”的幻境，令人沉醉。乾坤柱，垂直高度150米的擎天石柱，顶部植被苍翠如悬浮空中，因电影"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 1493,
+      "end": 1497,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "创意电梯。\n\n百龙电梯出口\n\n从百龙电梯下来，乘环保车可以去十里画廊景点，也可以直接坐回东门出景区。我们直接坐到东门，出景区大概"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 1933,
+      "end": 1936,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "看看它就好了。\n\n黄石寨山上猕猴\n\n五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步游览金鞭溪"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 2032,
+      "end": 2035,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "全段再折返时间很长，我们只走到《西游记》的取景地折返了。\n\n金鞭溪沿路的风景\n\n《西游记》取景地\n\n中午1点多出了景区，全程不"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "六奇阁",
+      "start": 1815,
+      "end": 1818,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "车几分钟到黄石寨的索道站，上山游览黄石寨的景点。黄石寨景点：六奇阁、摘星台、五指峰、黄公悟道、点将台等等，我们去了几个精华景点"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "摘星台",
+      "start": 1819,
+      "end": 1822,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "到黄石寨的索道站，上山游览黄石寨的景点。黄石寨景点：六奇阁、摘星台、五指峰、黄公悟道、点将台等等，我们去了几个精华景点，沿路看"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "五指峰",
+      "start": 1921,
+      "end": 1924,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，还是很友好的，保持距离看看它就好了。\n\n黄石寨山上猕猴\n\n五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "黄公悟道",
+      "start": 1827,
+      "end": 1831,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，上山游览黄石寨的景点。黄石寨景点：六奇阁、摘星台、五指峰、黄公悟道、点将台等等，我们去了几个精华景点，沿路看路标，这样时间能节"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "点将台",
+      "start": 1832,
+      "end": 1835,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "黄石寨的景点。黄石寨景点：六奇阁、摘星台、五指峰、黄公悟道、点将台等等，我们去了几个精华景点，沿路看路标，这样时间能节省。\n\n"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "神鹰护鞭",
+      "start": 1986,
+      "end": 1990,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "鞭溪，徒步游览金鞭溪景点。金鞭溪全长 7.5公里，平步道串联神鹰护鞭、劈山救母等地质奇观，走全段再折返时间很长，我们只走到《西游"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "劈山救母",
+      "start": 1991,
+      "end": 1995,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "游览金鞭溪景点。金鞭溪全长 7.5公里，平步道串联神鹰护鞭、劈山救母等地质奇观，走全段再折返时间很长，我们只走到《西游记》的取景"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "柏曼国际酒店",
+      "start": 551,
+      "end": 557,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "分钟到达武陵源。下车后先去酒店寄存行李，走了不到10分钟到达柏曼国际酒店（张家界国家森林公园标志门店），寄存行李后步行大概3分钟到达"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "高铁",
+      "start": 46,
+      "end": 48,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，G689北京西09：20至张家界西20：22，11个小时的高铁坐着着实难受，从张家界西出站口出来，右手边看到客运站再往前走"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "公交",
+      "start": 110,
+      "end": 112,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "0米，公交总站乘17路车到武陵山珍馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒店，市区不大打车15元到酒店。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "打车",
+      "start": 133,
+      "end": 135,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "能赶上末班车，公交上车扫码一人一元，或者打车到酒店，市区不大打车15元到酒店。我们预定的富蓝特·和酒店（张家界天门山店），酒"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "旅游大巴",
+      "start": 205,
+      "end": 209,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "门山索道A线（BC线也在此），对面也是明早乘车去武陵源东门的旅游大巴的车站，酒店后面全是小餐馆，吃饭非常方便，走路去麦当劳5分钟"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "步行",
+      "start": 1569,
+      "end": 1571,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "得累，没有什么台阶，基本徒步。景区门口有个肯德基，打包点吃的步行回酒店，休息洗漱归着。晚上7点多钟出来逛逛夜市，吃了点小吃，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "大巴车",
+      "start": 2113,
+      "end": 2116,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "儿。出景区后取行李，走路一百米就能看见去张家界市区的专线蓝色大巴车，到市中心汽车站的，上车扫码一人12元，大概半小时到武陵山珍"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "天子山索道",
+      "start": 710,
+      "end": 715,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "身份证了，一切刷脸很方便。入园后看路标A线方向，乘坐环保车到天子山索道上山，有小雨山上全是雾，天子山就去了贺龙公园，因为雾大山上什"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "百龙天梯",
+      "start": 644,
+      "end": 648,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "标志门\n\n我们选择的是东门A线天子山索道上-杨家界-袁家界-百龙天梯下，提前买好了三索一梯的票，大门口刷身份证入园，录头像后续就"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "环保车",
+      "start": 1951,
+      "end": 1954,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步游览金鞭溪景点。金鞭溪全长 7.5公里，平步道"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "索道",
+      "start": 1945,
+      "end": 1947,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "山上猕猴\n\n五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步游览金鞭溪景点。金鞭溪全长 7."
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "小巴车",
+      "start": 809,
+      "end": 812,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "之墓\n\n在天子山的环保车乘车点排队坐车去杨家界，这一段车型是小巴车，乘车时间大概20多分钟，一路上全是弯道，坐的老刺激了。雾大"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "百龙电梯",
+      "start": 1479,
+      "end": 1483,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "德国鱼缸电梯等并称全球11大创意电梯。\n\n百龙电梯出口\n\n从百龙电梯下来，乘环保车可以去十里画廊景点，也可以直接坐回东门出景区。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "徒步",
+      "start": 1959,
+      "end": 1961,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步游览金鞭溪景点。金鞭溪全长 7.5公里，平步道串联神鹰护鞭、"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "金鞭溪索道",
+      "start": 1865,
+      "end": 1870,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "等等，我们去了几个精华景点，沿路看路标，这样时间能节省。\n\n金鞭溪索道\n\n黄石寨山上有很多猕猴，不怕人，不招惹它，还是很友好的，保"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "2025.7.22",
+      "start": 0,
+      "end": 9,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "2025.7.22北京出发张家界，G689北京西09：20至张家界西20：22"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "09：20",
+      "start": 24,
+      "end": 29,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "2025.7.22北京出发张家界，G689北京西09：20至张家界西20：22，11个小时的高铁坐着着实难受，从张家界"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "20：22",
+      "start": 34,
+      "end": 39,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": ".7.22北京出发张家界，G689北京西09：20至张家界西20：22，11个小时的高铁坐着着实难受，从张家界西出站口出来，右手边"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "11个小时",
+      "start": 40,
+      "end": 45,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "京出发张家界，G689北京西09：20至张家界西20：22，11个小时的高铁坐着着实难受，从张家界西出站口出来，右手边看到客运站再"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "明早",
+      "start": 249,
+      "end": 251,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "小餐馆，吃饭非常方便，走路去麦当劳5分钟就到，晚上休息好准备明早的张家界森林公园2日游。下图附上酒店拍到的索道照片，后来从张"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "5分钟",
+      "start": 1611,
+      "end": 1614,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "。晚上7点多钟出来逛逛夜市，吃了点小吃，夜市离酒店很近，走路5分钟就到了。\n\n24号早上吃完早餐，退房去张家界国家森林公园南门"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "晚上",
+      "start": 1582,
+      "end": 1584,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "步。景区门口有个肯德基，打包点吃的步行回酒店，休息洗漱归着。晚上7点多钟出来逛逛夜市，吃了点小吃，夜市离酒店很近，走路5分钟"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "2025.7.23和24号",
+      "start": 302,
+      "end": 315,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "索道照片，后来从张家界国家森林公园回来也是住的这个酒店。\n\n2025.7.23和24号张家界国家森林公园2日游，两天都是小雨转多云，提前预定门票和"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "两天",
+      "start": 2068,
+      "end": 2070,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "风景\n\n《西游记》取景地\n\n中午1点多出了景区，全程不累，这两天都不需要爬山，基本都是平地儿。出景区后取行李，走路一百米就能"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "第二天",
+      "start": 394,
+      "end": 397,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "约。张家界国家森林公园的门票四日有效，我们第一天从东门进出，第二天从南门进出，记住要按照预约的时间段进去，我们正好在那个时间里"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "四日",
+      "start": 378,
+      "end": 380,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "二天的入园时间，在微信公众号上预约。张家界国家森林公园的门票四日有效，我们第一天从东门进出，第二天从南门进出，记住要按照预约"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "第一天",
+      "start": 385,
+      "end": 388,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，在微信公众号上预约。张家界国家森林公园的门票四日有效，我们第一天从东门进出，第二天从南门进出，记住要按照预约的时间段进去，我"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "23号",
+      "start": 430,
+      "end": 433,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "进出，记住要按照预约的时间段进去，我们正好在那个时间里入园。23号早上酒店对面车站乘坐去武陵源的蓝色专线大巴车，6：00第一班"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "早上",
+      "start": 1623,
+      "end": 1625,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "市，吃了点小吃，夜市离酒店很近，走路5分钟就到了。\n\n24号早上吃完早餐，退房去张家界国家森林公园南门。从酒店出来去客运站，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "6：00",
+      "start": 456,
+      "end": 460,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "里入园。23号早上酒店对面车站乘坐去武陵源的蓝色专线大巴车，6：00第一班车从市中心汽车站发出，5分钟就能到酒店对面，10分钟一"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "10分钟",
+      "start": 1659,
+      "end": 1663,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，退房去张家界国家森林公园南门。从酒店出来去客运站，走路大概10分钟，客运站有去南门的车，人满发车，不满就等着到点发，大概10多"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "7：05",
+      "start": 507,
+      "end": 511,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "就能到酒店对面，10分钟一班，票价13元上车扫码。早上退房，7：05就坐上车了，大概40分钟到达武陵源。下车后先去酒店寄存行李，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "40分钟",
+      "start": 519,
+      "end": 523,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "一班，票价13元上车扫码。早上退房，7：05就坐上车了，大概40分钟到达武陵源。下车后先去酒店寄存行李，走了不到10分钟到达柏曼"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "3分钟",
+      "start": 582,
+      "end": 585,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "曼国际酒店（张家界国家森林公园标志门店），寄存行李后步行大概3分钟到达武陵源（东门），反正是很近。\n\n张家界国家森林公园东门标"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "20多分钟",
+      "start": 819,
+      "end": 824,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "保车乘车点排队坐车去杨家界，这一段车型是小巴车，乘车时间大概20多分钟，一路上全是弯道，坐的老刺激了。雾大，以为今天啥都看不见了，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "今天",
+      "start": 845,
+      "end": 847,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "时间大概20多分钟，一路上全是弯道，坐的老刺激了。雾大，以为今天啥都看不见了，快到杨家界时山上的雾气慢慢地散去，有了希望了。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "日落",
+      "start": 942,
+      "end": 944,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "然长城作为必游景点，峰林密集如屏障，形态类似古代城墙，是观赏日落和摄影的理想地，当云雾逐渐退去后，眼前只能用壮观、惊叹来形容"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "一个小时",
+      "start": 1320,
+      "end": 1324,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "返，但是天子山的那片山头雨大雾大，还是啥都看不见，这样耽误了一个小时，又回到袁家界乘坐环保车，大概5分钟到了百龙电梯。百龙电梯是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "1分钟",
+      "start": 1359,
+      "end": 1362,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "家界乘坐环保车，大概5分钟到了百龙电梯。百龙电梯是下行，大概1分钟就下去啦，要靠近玻璃，能看到外面的景色，垂直高差335米（含"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "下午",
+      "start": 1527,
+      "end": 1529,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "景点，也可以直接坐回东门出景区。我们直接坐到东门，出景区大概下午3点，游玩后一点没觉得累，没有什么台阶，基本徒步。景区门口有"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "3点",
+      "start": 1529,
+      "end": 1531,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "，也可以直接坐回东门出景区。我们直接坐到东门，出景区大概下午3点，游玩后一点没觉得累，没有什么台阶，基本徒步。景区门口有个肯"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "7点多钟",
+      "start": 1584,
+      "end": 1588,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "景区门口有个肯德基，打包点吃的步行回酒店，休息洗漱归着。晚上7点多钟出来逛逛夜市，吃了点小吃，夜市离酒店很近，走路5分钟就到了。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "24号",
+      "start": 1620,
+      "end": 1623,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "逛逛夜市，吃了点小吃，夜市离酒店很近，走路5分钟就到了。\n\n24号早上吃完早餐，退房去张家界国家森林公园南门。从酒店出来去客运"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "10多分钟",
+      "start": 1690,
+      "end": 1695,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "0分钟，客运站有去南门的车，人满发车，不满就等着到点发，大概10多分钟一班吧，门口扫码一人8元，车程不到半小时到南门。\n\n我们预定"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "半小时",
+      "start": 2138,
+      "end": 2141,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "的专线蓝色大巴车，到市中心汽车站的，上车扫码一人12元，大概半小时到武陵山珍馆站去富蓝特·和酒店（张家界天门山店），下车2分钟"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "9-10点",
+      "start": 1726,
+      "end": 1731,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "班吧，门口扫码一人8元，车程不到半小时到南门。\n\n我们预定的9-10点入园，到早了要等一等，景区门口把行李寄存了10元一天。南门的"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "一天",
+      "start": 1755,
+      "end": 1757,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "的9-10点入园，到早了要等一等，景区门口把行李寄存了10元一天。南门的景点包括黄石寨，金鞭溪。9点入园进景区，先乘环保车几"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "9点",
+      "start": 1773,
+      "end": 1775,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "区门口把行李寄存了10元一天。南门的景点包括黄石寨，金鞭溪。9点入园进景区，先乘环保车几分钟到黄石寨的索道站，上山游览黄石寨"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "几分钟",
+      "start": 1786,
+      "end": 1789,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "天。南门的景点包括黄石寨，金鞭溪。9点入园进景区，先乘环保车几分钟到黄石寨的索道站，上山游览黄石寨的景点。黄石寨景点：六奇阁、"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "2小时",
+      "start": 1940,
+      "end": 1943,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "\n\n黄石寨山上猕猴\n\n五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步游览金鞭溪景点。金鞭溪全"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "中午",
+      "start": 2052,
+      "end": 2054,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "的取景地折返了。\n\n金鞭溪沿路的风景\n\n《西游记》取景地\n\n中午1点多出了景区，全程不累，这两天都不需要爬山，基本都是平地儿"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "1点多",
+      "start": 2054,
+      "end": 2057,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "景地折返了。\n\n金鞭溪沿路的风景\n\n《西游记》取景地\n\n中午1点多出了景区，全程不累，这两天都不需要爬山，基本都是平地儿。出景"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TIME",
+      "text": "2分钟",
+      "start": 2168,
+      "end": 2171,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+      "context": "半小时到武陵山珍馆站去富蓝特·和酒店（张家界天门山店），下车2分钟就到酒店。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 675,
+      "end": 684,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "速干衣放空调底下吹干，把在读的一本书看完了。\n\nDay3再看张家界国家森林公园\n\n昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 326,
+      "end": 329,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "然后坐天子山索道，半山腰还能看到石柱，下索道后完全是白茫茫，御笔峰、贺龙公园、点将台等基本看不清。于是，跟着前面一个小队伍，从"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 330,
+      "end": 334,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "子山索道，半山腰还能看到石柱，下索道后完全是白茫茫，御笔峰、贺龙公园、点将台等基本看不清。于是，跟着前面一个小队伍，从天子阁走下"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "点将台",
+      "start": 335,
+      "end": 338,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "半山腰还能看到石柱，下索道后完全是白茫茫，御笔峰、贺龙公园、点将台等基本看不清。于是，跟着前面一个小队伍，从天子阁走下山，走到"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "天子阁",
+      "start": 359,
+      "end": 362,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "、贺龙公园、点将台等基本看不清。于是，跟着前面一个小队伍，从天子阁走下山，走到了十里长廊。\n\n虽然这样写下来好像很快，但现实是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "十里长廊",
+      "start": 507,
+      "end": 511,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "途中雾茫茫没什么好拍的，山下的十里长廊好看，一路上都在拍。从十里长廊坐环保车回到东门，出景区。喝了一杯茶颜悦色的招牌奶茶，在酒店"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 517,
+      "end": 519,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "的，山下的十里长廊好看，一路上都在拍。从十里长廊坐环保车回到东门，出景区。喝了一杯茶颜悦色的招牌奶茶，在酒店附近吃粉，下午在"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "溪布街",
+      "start": 613,
+      "end": 616,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "逛完。\n\n晚上依然在美食街附近吃饭，如果不是下雨的话，可以去溪布街和对面的索溪河街道走走，下雨就算了。继续泡脚，又洗了内搭的速"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "索溪河街道",
+      "start": 620,
+      "end": 625,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "依然在美食街附近吃饭，如果不是下雨的话，可以去溪布街和对面的索溪河街道走走，下雨就算了。继续泡脚，又洗了内搭的速干衣放空调底下吹干"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 843,
+      "end": 846,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "佳处的视频拍摄点，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "迷魂台",
+      "start": 847,
+      "end": 850,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "频拍摄点，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 851,
+      "end": 854,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花20元让"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 855,
+      "end": 860,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花20元让那边的收费拍"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 963,
+      "end": 966,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "景照，然后静静欣赏这些披上云裳的石柱。坐环保车到天子山，又坐天子山索道下山。回来看我们在山上拍的照片。我老公和孩子们的感叹都是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "高铁",
+      "start": 60,
+      "end": 62,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "亲戚有意思多了。想来也是！于是，大年初一，我们一家四口，坐着高铁，到了张家界。\n\n先说一下，其实这次旅行还是有一点遗憾的。出"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "开车",
+      "start": 270,
+      "end": 272,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "起床，外面一直下雨，天并没有完全亮。\n\n洗漱，喝了点燕麦粥。开车出发去张家界国家森林公园。8点入园，先坐环保车，然后坐天子山"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "环保车",
+      "start": 953,
+      "end": 956,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "些了，赶紧拍了一些风景照，然后静静欣赏这些披上云裳的石柱。坐环保车到天子山，又坐天子山索道下山。回来看我们在山上拍的照片。我老"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "天子山索道",
+      "start": 963,
+      "end": 968,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "景照，然后静静欣赏这些披上云裳的石柱。坐环保车到天子山，又坐天子山索道下山。回来看我们在山上拍的照片。我老公和孩子们的感叹都是，还"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "索道",
+      "start": 316,
+      "end": 318,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "点入园，先坐环保车，然后坐天子山索道，半山腰还能看到石柱，下索道后完全是白茫茫，御笔峰、贺龙公园、点将台等基本看不清。于是，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "百龙天梯",
+      "start": 778,
+      "end": 782,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "走。今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯。\n\n当然，这一段原本应该是风景"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "电梯",
+      "start": 794,
+      "end": 796,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯。\n\n当然，这一段原本应该是风景绝佳处的视频拍摄点，因为大雾"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "杨家界索道",
+      "start": 910,
+      "end": 915,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "20元让那边的收费拍照人员帮忙拍了照，也算到此一游了。\n\n坐杨家界索道的途中，能看清一些了，赶紧拍了一些风景照，然后静静欣赏这些披"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "春节",
+      "start": 22,
+      "end": 24,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "春节期间，就是出来旅行的好时节。我和老公说，春节出来玩可比串亲戚有意思多了。想来也是！于是，大年初一，我们一"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "大年初一",
+      "start": 46,
+      "end": 50,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "我和老公说，春节出来玩可比串亲戚有意思多了。想来也是！于是，大年初一，我们一家四口，坐着高铁，到了张家界。\n\n先说一下，其实这次"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "Day2",
+      "start": 185,
+      "end": 189,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "便会有遗憾，但见一见雨雾中的张家界，说不定也没那么糟糕。\n\nDay2国家森林公园\n\n国家森林公园发公告说景区春节假期提前到早上6"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "春节假期",
+      "start": 209,
+      "end": 213,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "么糟糕。\n\nDay2国家森林公园\n\n国家森林公园发公告说景区春节假期提前到早上6点半开园，我心想，谁会这么早去啊。早上7点起床，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "早上",
+      "start": 236,
+      "end": 238,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "说景区春节假期提前到早上6点半开园，我心想，谁会这么早去啊。早上7点起床，外面一直下雨，天并没有完全亮。\n\n洗漱，喝了点燕麦"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "6点半",
+      "start": 218,
+      "end": 221,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "2国家森林公园\n\n国家森林公园发公告说景区春节假期提前到早上6点半开园，我心想，谁会这么早去啊。早上7点起床，外面一直下雨，天"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "7点",
+      "start": 238,
+      "end": 240,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "区春节假期提前到早上6点半开园，我心想，谁会这么早去啊。早上7点起床，外面一直下雨，天并没有完全亮。\n\n洗漱，喝了点燕麦粥。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "8点",
+      "start": 285,
+      "end": 287,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "全亮。\n\n洗漱，喝了点燕麦粥。开车出发去张家界国家森林公园。8点入园，先坐环保车，然后坐天子山索道，半山腰还能看到石柱，下索"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "一天",
+      "start": 395,
+      "end": 397,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "，走到了十里长廊。\n\n虽然这样写下来好像很快，但现实是，走这一天，整个人都是麻的。张家界的山峰确实很好看，但同时也是确实累啊"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "下午",
+      "start": 1050,
+      "end": 1052,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "公园之旅就结束啦。继续喝茶颜悦色的招牌奶茶，在酒店附近吃粉。下午补觉，翻开新的一本书来读。晚上出门觅食，回酒店休息。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "4天",
+      "start": 719,
+      "end": 721,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "当天",
+      "start": 581,
+      "end": 583,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "睡觉，看书，听河边的流水声。主要是门票4天有效，所以也不着急当天逛完。\n\n晚上依然在美食街附近吃饭，如果不是下雨的话，可以去"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "晚上",
+      "start": 1065,
+      "end": 1067,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "色的招牌奶茶，在酒店附近吃粉。下午补觉，翻开新的一本书来读。晚上出门觅食，回酒店休息。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "Day3",
+      "start": 669,
+      "end": 673,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "又洗了内搭的速干衣放空调底下吹干，把在读的一本书看完了。\n\nDay3再看张家界国家森林公园\n\n昨天下山途中有点纠结要不要多待两天"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "昨天",
+      "start": 686,
+      "end": 688,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "把在读的一本书看完了。\n\nDay3再看张家界国家森林公园\n\n昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "两天",
+      "start": 701,
+      "end": 703,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "y3再看张家界国家森林公园\n\n昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴那天刚好是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "那天",
+      "start": 728,
+      "end": 730,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今天的行程就完全按照"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "第4天",
+      "start": 733,
+      "end": 736,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今天的行程就完全按照攻略说的来游"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "今天",
+      "start": 750,
+      "end": 752,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "88秒",
+      "start": 786,
+      "end": 789,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+      "context": "完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯。\n\n当然，这一段原本应该是风景绝佳处的视频拍"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "武陵源",
+      "start": 882,
+      "end": 885,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "达成。\n\n步数：29494\n\n经验：1、当天下雨了，下雨天，武陵源就是白茫茫一片，什么都看不到。\n\n2、山上的景交车不会特意问"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 319,
+      "end": 322,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "，而且默认为有一块钱的保险费，我是没找到取消的按键。\n\n8、黄石寨和金鞭溪的猴子非常的多，而且很不客气，只要人手中提着东西，一"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 598,
+      "end": 601,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "水绕四门，然后坐车到东门住宿。猴子会出现在所有有声响的地方，金鞭溪里有些地方会有个电视放宣传片，就会围上好多头猴子。\n\n11、"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "南门",
+      "start": 245,
+      "end": 247,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "已经等了四十多分钟了。我们买到了森林公园的门票，是到南门的，南门和东门的车子是不同的，应该不太可能上错车。不过如果车站内购票"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 578,
+      "end": 580,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "不如入口处，我们走了一个半小时多，走到了水绕四门，然后坐车到东门住宿。猴子会出现在所有有声响的地方，金鞭溪里有些地方会有个电"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 1059,
+      "end": 1062,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "袁家界是人最多的地方，所有旅行团好像只到这里。而且从天子山往袁家界逛还有个好处，早上的雾慢慢散去了，总算风景最好的地方可以看到"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "水绕四门",
+      "start": 568,
+      "end": 572,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "、金鞭溪中间的景色远不如入口处，我们走了一个半小时多，走到了水绕四门，然后坐车到东门住宿。猴子会出现在所有有声响的地方，金鞭溪里"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "黄龙洞",
+      "start": 831,
+      "end": 834,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "置不一样。\n\n第四天（张家界）：\n\n原计划：早上武陵源，下午黄龙洞，晚上七十二奇楼。\n\n实际成行：计划达成。\n\n步数：2949"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "空中田园",
+      "start": 968,
+      "end": 972,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "里下车。不过在空中田车肯定会停车下客，因为这里需要你花钱坐去空中田园的车了，你当然可以不去，直接去杨家界。\n\n3、杨家界几乎都封"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 1179,
+      "end": 1182,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "想多坐几遍百龙天梯来值回票价，但儿子觉得无趣。后面想想没坐过杨家界的索道，想去坐坐，可是山下居然没有景交车可以过去，也就算了。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "空中长城",
+      "start": 1009,
+      "end": 1013,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "可以不去，直接去杨家界。\n\n3、杨家界几乎都封路了，只有一处空中长城景点，其它地方都过不去。\n\n4、袁家界是人最多的地方，所有旅"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 1055,
+      "end": 1058,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "\n\n4、袁家界是人最多的地方，所有旅行团好像只到这里。而且从天子山往袁家界逛还有个好处，早上的雾慢慢散去了，总算风景最好的地方"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TRANSPORT",
+      "text": "公交车",
+      "start": 163,
+      "end": 166,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "\n\n步数：37184\n\n7、过了中午，张家界市区去往武陵源的公交车发车时间就不太准时了。听说早上是二十分钟一班，下午是三十分钟"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TRANSPORT",
+      "text": "景交车",
+      "start": 1199,
+      "end": 1202,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "无趣。后面想想没坐过杨家界的索道，想去坐坐，可是山下居然没有景交车可以过去，也就算了。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TRANSPORT",
+      "text": "百龙天梯",
+      "start": 1154,
+      "end": 1158,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "我买了多程联票，其实真的只需要买4程票就够了。本来想多坐几遍百龙天梯来值回票价，但儿子觉得无趣。后面想想没坐过杨家界的索道，想去"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TRANSPORT",
+      "text": "索道",
+      "start": 1183,
+      "end": 1185,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "遍百龙天梯来值回票价，但儿子觉得无趣。后面想想没坐过杨家界的索道，想去坐坐，可是山下居然没有景交车可以过去，也就算了。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "淡季",
+      "start": 733,
+      "end": 735,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "正中间的，一般在11-17排，再前面应该是要现场卖的。而且在淡季，这几排很空，可以自己选位置，如果有人拿着票过来让你让座，你"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "第三天",
+      "start": 74,
+      "end": 77,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "所偏差，各处的坑都有所不同，摔出来的姿势也就千奇百怪了。\n\n第三天（张家界）：\n\n原计划：早上天门山，下午武陵源的黄石寨和金鞭"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "早上",
+      "start": 1069,
+      "end": 1071,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "，所有旅行团好像只到这里。而且从天子山往袁家界逛还有个好处，早上的雾慢慢散去了，总算风景最好的地方可以看到景了。\n\n5、百龙"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "下午",
+      "start": 829,
+      "end": 831,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "的位置不一样。\n\n第四天（张家界）：\n\n原计划：早上武陵源，下午黄龙洞，晚上七十二奇楼。\n\n实际成行：计划达成。\n\n步数：2"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "晚上",
+      "start": 835,
+      "end": 837,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "。\n\n第四天（张家界）：\n\n原计划：早上武陵源，下午黄龙洞，晚上七十二奇楼。\n\n实际成行：计划达成。\n\n步数：29494\n\n"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "中午",
+      "start": 149,
+      "end": 151,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "\n\n实际成行：计划终于达成。\n\n步数：37184\n\n7、过了中午，张家界市区去往武陵源的公交车发车时间就不太准时了。听说早上"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "二十分钟",
+      "start": 182,
+      "end": 186,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "张家界市区去往武陵源的公交车发车时间就不太准时了。听说早上是二十分钟一班，下午是三十分钟，可车上一大哥拿着车票上的购买时间说他已"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "三十分钟",
+      "start": 192,
+      "end": 196,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "的公交车发车时间就不太准时了。听说早上是二十分钟一班，下午是三十分钟，可车上一大哥拿着车票上的购买时间说他已经等了四十多分钟了。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "四十多分钟",
+      "start": 219,
+      "end": 224,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "下午是三十分钟，可车上一大哥拿着车票上的购买时间说他已经等了四十多分钟了。我们买到了森林公园的门票，是到南门的，南门和东门的车子是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "十几分钟",
+      "start": 519,
+      "end": 523,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "可怕的。\n\n9、金鞭溪中有条小路，百度地图显示爬上袁家界只要十几分钟，没试过，不知道真假。\n\n10、金鞭溪中间的景色远不如入口处"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "一个半小时多",
+      "start": 558,
+      "end": 564,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "不知道真假。\n\n10、金鞭溪中间的景色远不如入口处，我们走了一个半小时多，走到了水绕四门，然后坐车到东门住宿。猴子会出现在所有有声响"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "第四天",
+      "start": 808,
+      "end": 811,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "你是拿不到票的，因为上面的位置和你实际上坐的位置不一样。\n\n第四天（张家界）：\n\n原计划：早上武陵源，下午黄龙洞，晚上七十二奇"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "TIME",
+      "text": "当天",
+      "start": 872,
+      "end": 874,
+      "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+      "context": "。\n\n实际成行：计划达成。\n\n步数：29494\n\n经验：1、当天下雨了，下雨天，武陵源就是白茫茫一片，什么都看不到。\n\n2、"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "武陵源西门",
+      "start": 682,
+      "end": 687,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "梯88秒到山顶，把这么长的时间用在排队上不如来欣赏美景。\n\n武陵源西门附近的小镇\n\n为了避开人流我选择的路线是西门（杨家界索道上行"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 1586,
+      "end": 1589,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "轻松一点至少需要3天时间。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 973,
+      "end": 976,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "等小景点，所以上午时间不管是从哪个大门入山的游客大多数都先去袁家界，所以上午入山想避开人流高峰可以先去其它地方。\n\n黄石寨景区"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 1592,
+      "end": 1595,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "需要3天时间。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数乘坐，也方便"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "武陵源南门",
+      "start": 65,
+      "end": 70,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "西门—天子山—武陵源南门—金鞭溪 宿武陵源南门\n\nDay9 武陵源南门—黄石寨—凤凰古城（3小时） 宿凤凰古城\n\n二、张家界\n\n张"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 1302,
+      "end": 1305,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "都懒得去拍照。本次行程没有去十里画廊，是因为我觉得十里画廊和金鞭溪都是在山下丛林之间仰视的角度看张家界地貌，而且张很多小景点的"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 1598,
+      "end": 1601,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数乘坐，也方便随时更改路线"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 259,
+      "end": 268,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "家界国家森林公园，为什么还要提一次，因为很多人第一次来会以为张家界国家森林公园就是整个张家界景区。武陵源是一片面积很大的山，总体上可以理解"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "武陵源景区",
+      "start": 1539,
+      "end": 1544,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "，先在官网看清楚优惠票是否必须现场购买，提前准备好相应证件。武陵源景区的门票4天内有效，要想玩轻松一点至少需要3天时间。游玩3天以"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "武陵源",
+      "start": 581,
+      "end": 584,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "合自己的。\n\n各种平台的攻略大多数推荐走东门进入，东门外就是武陵源区政府所在地，所以这里配套设施最好，如果淡季来从东门入绝对是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "黄龙洞",
+      "start": 172,
+      "end": 175,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "一是天门山景区，二是张家界国家森林公园，又叫武陵源景区，三是黄龙洞和大峡谷景区。考虑时间、兴趣我只去了天门山、武陵源两个地方，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "大峡谷景区",
+      "start": 176,
+      "end": 181,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "山景区，二是张家界国家森林公园，又叫武陵源景区，三是黄龙洞和大峡谷景区。考虑时间、兴趣我只去了天门山、武陵源两个地方，总共在张家界"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 1297,
+      "end": 1301,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "走在栈道上都懒得去拍照。本次行程没有去十里画廊，是因为我觉得十里画廊和金鞭溪都是在山下丛林之间仰视的角度看张家界地貌，而且张很多"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 735,
+      "end": 737,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "线是西门（杨家界索道上行）-杨家界-袁家界（百龙天梯下行）-东门-（天子山索道上行）天子山-杨家界，这条路线的好处，一是不走"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "西门",
+      "start": 1017,
+      "end": 1019,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "流高峰可以先去其它地方。\n\n黄石寨景区需要从南门入，景区内从西门到南门其实很近，但是要步行一段山路，由于孩子小的缘故，我还是"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "南门",
+      "start": 1106,
+      "end": 1108,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "排一天时间就够了，金鞭溪全长7.5公里，全程走下来太累，我从南门进入走到西游记取景处就原路折返了。金鞭溪的泉水清澈凉快，很多"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "乌龙寨",
+      "start": 811,
+      "end": 814,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "样可以体验百龙天梯，但是下行基本不用排队。因为杨家界的小景点乌龙寨刚好封闭了，只有“天然长城”小景点开放，所以杨家界游玩的时间"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "天然长城",
+      "start": 823,
+      "end": 827,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "下行基本不用排队。因为杨家界的小景点乌龙寨刚好封闭了，只有“天然长城”小景点开放，所以杨家界游玩的时间很短。我原本计划1天时间游"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 940,
+      "end": 943,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "柱。\n\n由于各个平台都宣传袁家界的景点最精华，有天下第一桥、乾坤柱等小景点，所以上午时间不管是从哪个大门入山的游客大多数都先去"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 934,
+      "end": 939,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "》取景点乾坤柱。\n\n由于各个平台都宣传袁家界的景点最精华，有天下第一桥、乾坤柱等小景点，所以上午时间不管是从哪个大门入山的游客大多"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "采药老人",
+      "start": 1340,
+      "end": 1344,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "丛林之间仰视的角度看张家界地貌，而且张很多小景点的名字，如“采药老人、夫妻抱子、三姐妹峰”等都是“三分靠景色、七分靠想象”，看多"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "夫妻抱子",
+      "start": 1345,
+      "end": 1349,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "视的角度看张家界地貌，而且张很多小景点的名字，如“采药老人、夫妻抱子、三姐妹峰”等都是“三分靠景色、七分靠想象”，看多了都会审美"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "三姐妹峰",
+      "start": 1350,
+      "end": 1354,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "张家界地貌，而且张很多小景点的名字，如“采药老人、夫妻抱子、三姐妹峰”等都是“三分靠景色、七分靠想象”，看多了都会审美疲劳。\n\n"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "百龙天梯",
+      "start": 1604,
+      "end": 1608,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数乘坐，也方便随时更改路线。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "电梯",
+      "start": 651,
+      "end": 653,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "东门入的游客最多，听说在百龙天梯排队就要2-3个小时，然后坐电梯88秒到山顶，把这么长的时间用在排队上不如来欣赏美景。\n\n武"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "杨家界索道",
+      "start": 1586,
+      "end": 1591,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "轻松一点至少需要3天时间。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数乘坐"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "天子山索道",
+      "start": 1592,
+      "end": 1597,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "需要3天时间。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数乘坐，也方便随时"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "步行",
+      "start": 1030,
+      "end": 1032,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "\n黄石寨景区需要从南门入，景区内从西门到南门其实很近，但是要步行一段山路，由于孩子小的缘故，我还是选择提前在南门外住宿再从南"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "索道",
+      "start": 1463,
+      "end": 1465,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "门票和索道（含百龙天梯）票是单独售卖的，门票200多元，单次索道约70元，根据个人的路线有不同组合方式。门票对特定人群有一定"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TRANSPORT",
+      "text": "黄石寨索道",
+      "start": 1598,
+      "end": 1603,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道和百龙天梯）通票更省钱，不限次数乘坐，也方便随时更改路线。"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "Day7",
+      "start": 0,
+      "end": 4,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "Day7 武陵源西门—杨家界—袁家界 宿武陵源西门\n\nDay8 武陵"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "Day8",
+      "start": 27,
+      "end": 31,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "Day7 武陵源西门—杨家界—袁家界 宿武陵源西门\n\nDay8 武陵源西门—天子山—武陵源南门—金鞭溪 宿武陵源南门\n\nD"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "Day9",
+      "start": 60,
+      "end": 64,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "8 武陵源西门—天子山—武陵源南门—金鞭溪 宿武陵源南门\n\nDay9 武陵源南门—黄石寨—凤凰古城（3小时） 宿凤凰古城\n\n二、"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "3小时",
+      "start": 80,
+      "end": 83,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "溪 宿武陵源南门\n\nDay9 武陵源南门—黄石寨—凤凰古城（3小时） 宿凤凰古城\n\n二、张家界\n\n张家界这个为了发展旅游成立的"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "4天4晚",
+      "start": 213,
+      "end": 217,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "虑时间、兴趣我只去了天门山、武陵源两个地方，总共在张家界呆了4天4晚。\n\n武陵源景区：又名张家界国家森林公园，为什么还要提一次，"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "淡季",
+      "start": 604,
+      "end": 606,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "入，东门外就是武陵源区政府所在地，所以这里配套设施最好，如果淡季来从东门入绝对是最好选择。旺季东门入的游客最多，听说在百龙天"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "旺季",
+      "start": 1412,
+      "end": 1414,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "\n\n特别提醒：张家界不是一个想来就来的地方，尤其是在暑假旅游旺季，来之前一定要做好攻略。1.关于门票。门票和索道（含百龙天梯"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "2-3个小时",
+      "start": 641,
+      "end": 647,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "绝对是最好选择。旺季东门入的游客最多，听说在百龙天梯排队就要2-3个小时，然后坐电梯88秒到山顶，把这么长的时间用在排队上不如来欣赏"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "88秒",
+      "start": 653,
+      "end": 656,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "入的游客最多，听说在百龙天梯排队就要2-3个小时，然后坐电梯88秒到山顶，把这么长的时间用在排队上不如来欣赏美景。\n\n武陵源西"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "1天",
+      "start": 852,
+      "end": 854,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "“天然长城”小景点开放，所以杨家界游玩的时间很短。我原本计划1天时间游完，由于小孩太小花了2天时间，所以还是走了回头路，2天"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "2天",
+      "start": 1248,
+      "end": 1250,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "实很不错，有些小景点也是电影《阿凡达》的取景地，但是已经看了2天的张家界地貌，这时候会有审美疲劳，走在栈道上都懒得去拍照。本"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "上午",
+      "start": 979,
+      "end": 981,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "以上午时间不管是从哪个大门入山的游客大多数都先去袁家界，所以上午入山想避开人流高峰可以先去其它地方。\n\n黄石寨景区需要从南门"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "一天",
+      "start": 1077,
+      "end": 1079,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "还是选择提前在南门外住宿再从南门入。黄石寨和金鞭溪合起来安排一天时间就够了，金鞭溪全长7.5公里，全程走下来太累，我从南门进"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "半天",
+      "start": 1192,
+      "end": 1194,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "\n下完小雨后，小溪里泛起烟雾\n\n黄石寨山顶分小环线和大环线，半天时间大环线能走下来，毕竟来都来了。黄石寨的景色其实很不错，有"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "暑假",
+      "start": 1408,
+      "end": 1410,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "美疲劳。\n\n特别提醒：张家界不是一个想来就来的地方，尤其是在暑假旅游旺季，来之前一定要做好攻略。1.关于门票。门票和索道（含"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "4天",
+      "start": 1547,
+      "end": 1549,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "优惠票是否必须现场购买，提前准备好相应证件。武陵源景区的门票4天内有效，要想玩轻松一点至少需要3天时间。游玩3天以上的建议买"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "TIME",
+      "text": "3天",
+      "start": 1571,
+      "end": 1573,
+      "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+      "context": "源景区的门票4天内有效，要想玩轻松一点至少需要3天时间。游玩3天以上的建议买“三索一梯”（杨家界索道、天子山索道、黄石寨索道"
+    }
+  ]
+}

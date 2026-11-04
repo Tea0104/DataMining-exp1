@@ -1,0 +1,2187 @@
+[
+  {
+    "doc_id": "TS_OFF_001",
+    "source_url": "https://tsgw.taian.gov.cn/art/2019/4/28/art_363479_10320190.html",
+    "subject": {
+      "start": 397,
+      "end": 398,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 388,
+      "end": 391,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_OFF_001:397:398"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "source_url": "https://tsgw.taian.gov.cn/art/2019/4/28/art_363479_10320190.html",
+    "subject": {
+      "start": 412,
+      "end": 414,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 388,
+      "end": 391,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_OFF_001:412:414"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "source_url": "https://tsgw.taian.gov.cn/art/2019/4/28/art_363479_10320190.html",
+    "subject": {
+      "start": 563,
+      "end": 565,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 542,
+      "end": 545,
+      "text": "南天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_OFF_001:563:565"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "source_url": "https://tsgw.taian.gov.cn/art/2019/4/28/art_363479_10320190.html",
+    "subject": {
+      "start": 787,
+      "end": 788,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 770,
+      "end": 785,
+      "text": "③全程攀登需要一定的体力和毅力",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_OFF_001:787:788"
+  },
+  {
+    "doc_id": "TS_OFF_002",
+    "source_url": "https://tsgw.taian.gov.cn/art/2026/1/21/art_363479_10320191.html",
+    "subject": {
+      "start": 66,
+      "end": 67,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 17,
+      "end": 27,
+      "text": "天外村—中天门—岱顶",
+      "entity_type": "route",
+      "source": "dash_route"
+    },
+    "sample_id": "TS_OFF_002:66:67"
+  },
+  {
+    "doc_id": "TS_OFF_002",
+    "source_url": "https://tsgw.taian.gov.cn/art/2026/1/21/art_363479_10320191.html",
+    "subject": {
+      "start": 376,
+      "end": 377,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 17,
+      "end": 27,
+      "text": "天外村—中天门—岱顶",
+      "entity_type": "route",
+      "source": "dash_route"
+    },
+    "sample_id": "TS_OFF_002:376:377"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 180,
+      "end": 181,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 143,
+      "end": 146,
+      "text": "元君庙",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:180:181"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 230,
+      "end": 232,
+      "text": "它们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 198,
+      "end": 207,
+      "text": "中这两棵柏树和松树",
+      "entity_type": "plant_group",
+      "source": "coordinated_plants"
+    },
+    "sample_id": "TS_OFF_003:230:232"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 444,
+      "end": 446,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 292,
+      "end": 295,
+      "text": "碧峰寺",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:444:446"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 479,
+      "end": 480,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 292,
+      "end": 295,
+      "text": "碧峰寺",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:479:480"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 604,
+      "end": 605,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 556,
+      "end": 603,
+      "text": "进入桃花峪，行约2公里，溪中流水之下忽如彩石铺就，溪底一条条石纹五彩纷呈，阳光照耀下，分外生动",
+      "entity_type": "scene",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_OFF_003:604:605"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 645,
+      "end": 646,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 551,
+      "end": 554,
+      "text": "彩石溪",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:645:646"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 959,
+      "end": 960,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 915,
+      "end": 917,
+      "text": "龙湾",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:959:960"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 1006,
+      "end": 1008,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 915,
+      "end": 917,
+      "text": "龙湾",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:1006:1008"
+  },
+  {
+    "doc_id": "TS_OFF_003",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320186.html",
+    "subject": {
+      "start": 1117,
+      "end": 1118,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1079,
+      "end": 1082,
+      "text": "一线天",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_003:1117:1118"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+    "subject": {
+      "start": 138,
+      "end": 139,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 132,
+      "end": 136,
+      "text": "东御道坊",
+      "entity_type": "place",
+      "source": "context_named_place",
+      "expanded_from": "东御道"
+    },
+    "sample_id": "TS_OFF_004:138:139"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+    "subject": {
+      "start": 213,
+      "end": 215,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 0,
+      "end": 5,
+      "text": "东御道牌坊",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_004:213:215"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+    "subject": {
+      "start": 495,
+      "end": 497,
+      "text": "此地"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 489,
+      "end": 493,
+      "text": "汉阙广场",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_004:495:497"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+    "subject": {
+      "start": 884,
+      "end": 886,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 787,
+      "end": 790,
+      "text": "甘泉榭",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_004:884:886"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+    "subject": {
+      "start": 1023,
+      "end": 1024,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 989,
+      "end": 992,
+      "text": "启天亭",
+      "entity_type": "building",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_OFF_004:1023:1024"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "source_url": "https://tsgw.taian.gov.cn/art/2024/10/5/art_363479_10320192.html",
+    "subject": {
+      "start": 1104,
+      "end": 1106,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1056,
+      "end": 1059,
+      "text": "未央湖",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_004:1104:1106"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 160,
+      "end": 162,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 95,
+      "end": 112,
+      "text": "从泰山天烛峰景区到山顶的后石坞景区",
+      "entity_type": "route",
+      "source": "movement_route"
+    },
+    "sample_id": "TS_OFF_005:160:162"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 286,
+      "end": 288,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 95,
+      "end": 112,
+      "text": "从泰山天烛峰景区到山顶的后石坞景区",
+      "entity_type": "route",
+      "source": "movement_route"
+    },
+    "sample_id": "TS_OFF_005:286:288"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 351,
+      "end": 353,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 95,
+      "end": 112,
+      "text": "从泰山天烛峰景区到山顶的后石坞景区",
+      "entity_type": "route",
+      "source": "movement_route"
+    },
+    "sample_id": "TS_OFF_005:351:353"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 387,
+      "end": 389,
+      "text": "这儿"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 95,
+      "end": 112,
+      "text": "从泰山天烛峰景区到山顶的后石坞景区",
+      "entity_type": "route",
+      "source": "movement_route"
+    },
+    "sample_id": "TS_OFF_005:387:389"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 404,
+      "end": 405,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 95,
+      "end": 112,
+      "text": "从泰山天烛峰景区到山顶的后石坞景区",
+      "entity_type": "route",
+      "source": "movement_route"
+    },
+    "sample_id": "TS_OFF_005:404:405"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 681,
+      "end": 682,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 629,
+      "end": 632,
+      "text": "天烛瀑",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:681:682"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 696,
+      "end": 697,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 683,
+      "end": 694,
+      "text": "“千尺瀑”、“千丈瀑”",
+      "entity_type": "name_group",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_OFF_005:696:697"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 729,
+      "end": 730,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 720,
+      "end": 723,
+      "text": "天烛瀑",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_OFF_005:729:730"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 776,
+      "end": 777,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 752,
+      "end": 755,
+      "text": "洗鹤湾",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:776:777"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 856,
+      "end": 858,
+      "text": "此地"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 799,
+      "end": 802,
+      "text": "后石坞",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:856:858"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 927,
+      "end": 929,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 799,
+      "end": 802,
+      "text": "后石坞",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:927:929"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1383,
+      "end": 1384,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1377,
+      "end": 1382,
+      "text": "圣母寝宫楼",
+      "entity_type": "building",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_OFF_005:1383:1384"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1432,
+      "end": 1433,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1114,
+      "end": 1117,
+      "text": "元君庙",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:1432:1433"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1439,
+      "end": 1441,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1114,
+      "end": 1117,
+      "text": "元君庙",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:1439:1441"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1599,
+      "end": 1600,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1588,
+      "end": 1591,
+      "text": "灵异泉",
+      "entity_type": "water",
+      "source": "quoted_water_name"
+    },
+    "sample_id": "TS_OFF_005:1599:1600"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1718,
+      "end": 1719,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1670,
+      "end": 1673,
+      "text": "莲花洞",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_OFF_005:1718:1719"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1868,
+      "end": 1869,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1822,
+      "end": 1867,
+      "text": "1988年，来泰山考察的原中共中央总书记胡耀邦慨然提笔，在宣纸上写下“泰山姊妹松”五个大字",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_OFF_005:1868:1869"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1892,
+      "end": 1893,
+      "text": "她"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1873,
+      "end": 1876,
+      "text": "姊妹松",
+      "entity_type": "plant",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_OFF_005:1892:1893"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1920,
+      "end": 1921,
+      "text": "她"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1873,
+      "end": 1876,
+      "text": "姊妹松",
+      "entity_type": "plant",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_OFF_005:1920:1921"
+  },
+  {
+    "doc_id": "TS_OFF_005",
+    "source_url": "https://tsgw.taian.gov.cn/art/2021/5/26/art_363479_10320185.html",
+    "subject": {
+      "start": 1949,
+      "end": 1950,
+      "text": "她"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1873,
+      "end": 1876,
+      "text": "姊妹松",
+      "entity_type": "plant",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_OFF_005:1949:1950"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 40,
+      "end": 42,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 18,
+      "end": 33,
+      "text": "整个行程最核心、最累的一段旅程",
+      "entity_type": "trip",
+      "source": "nominal_trip"
+    },
+    "sample_id": "TS_NOTE_002:40:42"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 496,
+      "end": 497,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 481,
+      "end": 495,
+      "text": "红门—中天门—南天门—玉皇顶",
+      "entity_type": "route",
+      "source": "dash_route"
+    },
+    "sample_id": "TS_NOTE_002:496:497"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 553,
+      "end": 554,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 537,
+      "end": 552,
+      "text": "天外村—中天门—南天门—玉皇顶",
+      "entity_type": "route",
+      "source": "dash_route"
+    },
+    "sample_id": "TS_NOTE_002:553:554"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 710,
+      "end": 711,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 653,
+      "end": 668,
+      "text": "桃花峪—桃花源—南天门—玉皇顶",
+      "entity_type": "route",
+      "source": "dash_route"
+    },
+    "sample_id": "TS_NOTE_002:710:711"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1046,
+      "end": 1047,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1016,
+      "end": 1040,
+      "text": "由于习惯问题，我没有准备登山杖，因为我从来都不用",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_NOTE_002:1046:1047"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1236,
+      "end": 1237,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1220,
+      "end": 1225,
+      "text": "12位皇帝",
+      "entity_type": "person_group",
+      "source": "quantified_group"
+    },
+    "sample_id": "TS_NOTE_002:1236:1237"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1484,
+      "end": 1486,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1477,
+      "end": 1483,
+      "text": "中天门小广场",
+      "entity_type": "place",
+      "source": "extended_place"
+    },
+    "sample_id": "TS_NOTE_002:1484:1486"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1553,
+      "end": 1555,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1544,
+      "end": 1547,
+      "text": "连锁店",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_002:1553:1555"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1691,
+      "end": 1693,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1687,
+      "end": 1690,
+      "text": "增福庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_NOTE_002:1691:1693"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1711,
+      "end": 1713,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1687,
+      "end": 1690,
+      "text": "增福庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_002:1711:1713"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1816,
+      "end": 1818,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1774,
+      "end": 1777,
+      "text": "斩云剑",
+      "entity_type": "place",
+      "source": "section_topic"
+    },
+    "sample_id": "TS_NOTE_002:1816:1818"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 1879,
+      "end": 1880,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1865,
+      "end": 1868,
+      "text": "搬运工",
+      "entity_type": "person",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:1879:1880"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 2251,
+      "end": 2252,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2237,
+      "end": 2239,
+      "text": "大树",
+      "entity_type": "plant",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:2251:2252"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 2271,
+      "end": 2272,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2237,
+      "end": 2239,
+      "text": "大树",
+      "entity_type": "plant",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:2271:2272"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 2792,
+      "end": 2794,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2787,
+      "end": 2790,
+      "text": "升仙坊",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_NOTE_002:2792:2794"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 2835,
+      "end": 2836,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2829,
+      "end": 2832,
+      "text": "升仙坊",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_NOTE_002:2835:2836"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 3088,
+      "end": 3090,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3012,
+      "end": 3026,
+      "text": "攀登泰山中天门至南天门的旅程",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_NOTE_002:3088:3090"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 3363,
+      "end": 3364,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3334,
+      "end": 3339,
+      "text": "五岳真形图",
+      "entity_type": "inscription",
+      "source": "quoted_object_name"
+    },
+    "sample_id": "TS_NOTE_002:3363:3364"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 3493,
+      "end": 3495,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3487,
+      "end": 3491,
+      "text": "望吴胜迹",
+      "entity_type": "place",
+      "source": "quoted_place_name"
+    },
+    "sample_id": "TS_NOTE_002:3493:3495"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4347,
+      "end": 4348,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4344,
+      "end": 4346,
+      "text": "石刻",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_002:4347:4348"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4408,
+      "end": 4410,
+      "text": "这儿"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4379,
+      "end": 4384,
+      "text": "五岳独尊石",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "TS_NOTE_002:4408:4410"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4572,
+      "end": 4573,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4555,
+      "end": 4571,
+      "text": "孔子登东山而小鲁，登泰山而小天下",
+      "entity_type": "quotation",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_NOTE_002:4572:4573"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4672,
+      "end": 4673,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4649,
+      "end": 4651,
+      "text": "石碑",
+      "entity_type": "inscription",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:4672:4673"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4691,
+      "end": 4692,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4649,
+      "end": 4651,
+      "text": "石碑",
+      "entity_type": "inscription",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:4691:4692"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4716,
+      "end": 4717,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4649,
+      "end": 4651,
+      "text": "石碑",
+      "entity_type": "inscription",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:4716:4717"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4911,
+      "end": 4912,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4884,
+      "end": 4892,
+      "text": "从后山天烛峰下山",
+      "entity_type": "route",
+      "source": "chosen_route"
+    },
+    "sample_id": "TS_NOTE_002:4911:4912"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 4925,
+      "end": 4926,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 4895,
+      "end": 4924,
+      "text": "网上的攻略都写得比较简单，也写得这条路线没有难度，事实并非",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_NOTE_002:4925:4926"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5016,
+      "end": 5017,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5004,
+      "end": 5011,
+      "text": "后山天烛峰路线",
+      "entity_type": "route",
+      "source": "named_route"
+    },
+    "sample_id": "TS_NOTE_002:5016:5017"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5219,
+      "end": 5221,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5213,
+      "end": 5218,
+      "text": "后石坞景区",
+      "entity_type": "place",
+      "source": "extended_place"
+    },
+    "sample_id": "TS_NOTE_002:5219:5221"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5284,
+      "end": 5286,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5281,
+      "end": 5284,
+      "text": "后石坞",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_002:5284:5286"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5323,
+      "end": 5325,
+      "text": "他们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5295,
+      "end": 5297,
+      "text": "游人",
+      "entity_type": "person",
+      "source": "nominal_head"
+    },
+    "sample_id": "TS_NOTE_002:5323:5325"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5338,
+      "end": 5340,
+      "text": "那边"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5335,
+      "end": 5338,
+      "text": "元君庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_002:5338:5340"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5718,
+      "end": 5719,
+      "text": "他"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5707,
+      "end": 5711,
+      "text": "工作人员",
+      "entity_type": "person",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_002:5718:5719"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5743,
+      "end": 5745,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5693,
+      "end": 5701,
+      "text": "仙鹤湾有个检查站",
+      "entity_type": "place",
+      "source": "located_facility"
+    },
+    "sample_id": "TS_NOTE_002:5743:5745"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 5944,
+      "end": 5946,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 5897,
+      "end": 5910,
+      "text": "景区就是封禅大典演出的地方",
+      "entity_type": "place",
+      "source": "located_facility"
+    },
+    "sample_id": "TS_NOTE_002:5944:5946"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 6084,
+      "end": 6086,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 6068,
+      "end": 6083,
+      "text": " 南天门矿泉水2元，登山杖5元",
+      "entity_type": "price_level",
+      "source": "clause_frame"
+    },
+    "sample_id": "TS_NOTE_002:6084:6086"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 6415,
+      "end": 6416,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 6385,
+      "end": 6390,
+      "text": "天烛峰路线",
+      "entity_type": "route",
+      "source": "named_route"
+    },
+    "sample_id": "TS_NOTE_002:6415:6416"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4147535.html",
+    "subject": {
+      "start": 6467,
+      "end": 6468,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 6385,
+      "end": 6390,
+      "text": "天烛峰路线",
+      "entity_type": "route",
+      "source": "named_route"
+    },
+    "sample_id": "TS_NOTE_002:6467:6468"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 187,
+      "end": 188,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 174,
+      "end": 181,
+      "text": "天门山索道A线",
+      "entity_type": "place",
+      "source": "extended_place"
+    },
+    "sample_id": "ZJJ_NOTE_001:187:188"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 295,
+      "end": 297,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 147,
+      "end": 163,
+      "text": "富蓝特·和酒店（张家界天门山店）",
+      "entity_type": "hotel",
+      "source": "named_nominal"
+    },
+    "sample_id": "ZJJ_NOTE_001:295:297"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 422,
+      "end": 424,
+      "text": "那个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 408,
+      "end": 414,
+      "text": "预约的时间段",
+      "entity_type": "time",
+      "source": "appointment_time"
+    },
+    "sample_id": "ZJJ_NOTE_001:422:424"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 803,
+      "end": 804,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 783,
+      "end": 802,
+      "text": "在天子山的环保车乘车点排队坐车去杨家界",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_001:803:804"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 1298,
+      "end": 1299,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1294,
+      "end": 1297,
+      "text": "天子山",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "ZJJ_NOTE_001:1298:1299"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 1890,
+      "end": 1891,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1880,
+      "end": 1882,
+      "text": "猕猴",
+      "entity_type": "animal",
+      "source": "nominal_head"
+    },
+    "sample_id": "ZJJ_NOTE_001:1890:1891"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 1905,
+      "end": 1906,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1880,
+      "end": 1882,
+      "text": "猕猴",
+      "entity_type": "animal",
+      "source": "nominal_head"
+    },
+    "sample_id": "ZJJ_NOTE_001:1905:1906"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4170623.html",
+    "subject": {
+      "start": 2067,
+      "end": 2068,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 302,
+      "end": 315,
+      "text": "2025.7.23和24号",
+      "entity_type": "time",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_001:2067:2068"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 394,
+      "end": 395,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 185,
+      "end": 195,
+      "text": "Day2国家森林公园",
+      "entity_type": "time",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_002:394:395"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 431,
+      "end": 433,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 335,
+      "end": 338,
+      "text": "点将台",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "ZJJ_NOTE_002:431:433"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 728,
+      "end": 729,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 686,
+      "end": 728,
+      "text": "昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_002:728:729"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 802,
+      "end": 803,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 750,
+      "end": 796,
+      "text": "今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_002:802:803"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 833,
+      "end": 834,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 810,
+      "end": 821,
+      "text": "风景绝佳处的视频拍摄点",
+      "entity_type": "function",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_002:833:834"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 884,
+      "end": 886,
+      "text": "那边"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 876,
+      "end": 879,
+      "text": "观景台",
+      "entity_type": "place",
+      "source": "nominal_head"
+    },
+    "sample_id": "ZJJ_NOTE_002:884:886"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4158164.html",
+    "subject": {
+      "start": 902,
+      "end": 903,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 876,
+      "end": 879,
+      "text": "观景台",
+      "entity_type": "place",
+      "source": "nominal_head"
+    },
+    "sample_id": "ZJJ_NOTE_002:902:903"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+    "subject": {
+      "start": 214,
+      "end": 215,
+      "text": "他"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 201,
+      "end": 203,
+      "text": "大哥",
+      "entity_type": "person",
+      "source": "nominal_head"
+    },
+    "sample_id": "ZJJ_NOTE_003:214:215"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+    "subject": {
+      "start": 736,
+      "end": 737,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 711,
+      "end": 717,
+      "text": "11-17排",
+      "entity_type": "position_group",
+      "source": "quantified_group"
+    },
+    "sample_id": "ZJJ_NOTE_003:736:737"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+    "subject": {
+      "start": 959,
+      "end": 961,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 882,
+      "end": 885,
+      "text": "武陵源",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "ZJJ_NOTE_003:959:961"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/Wuhan145/4152572.html",
+    "subject": {
+      "start": 1049,
+      "end": 1051,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1029,
+      "end": 1032,
+      "text": "袁家界",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "ZJJ_NOTE_003:1049:1051"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+    "subject": {
+      "start": 102,
+      "end": 104,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 99,
+      "end": 102,
+      "text": "张家界",
+      "entity_type": "place",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_004:102:104"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+    "subject": {
+      "start": 364,
+      "end": 365,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 352,
+      "end": 363,
+      "text": "袁家界、天子山、杨家界",
+      "entity_type": "place_group",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_004:364:365"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+    "subject": {
+      "start": 593,
+      "end": 595,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 576,
+      "end": 590,
+      "text": "东门外就是武陵源区政府所在地",
+      "entity_type": "place",
+      "source": "located_facility"
+    },
+    "sample_id": "ZJJ_NOTE_004:593:595"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+    "subject": {
+      "start": 755,
+      "end": 756,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 707,
+      "end": 754,
+      "text": "西门（杨家界索道上行）-杨家界-袁家界（百龙天梯下行）-东门-（天子山索道上行）天子山-杨家界",
+      "entity_type": "route",
+      "source": "defined_route"
+    },
+    "sample_id": "ZJJ_NOTE_004:755:756"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Zhangjiajie23/4143908.html",
+    "subject": {
+      "start": 1257,
+      "end": 1258,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1211,
+      "end": 1256,
+      "text": "黄石寨的景色其实很不错，有些小景点也是电影《阿凡达》的取景地，但是已经看了2天的张家界地貌",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "ZJJ_NOTE_004:1257:1258"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 79,
+      "end": 81,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 10,
+      "end": 15,
+      "text": "净月潭公园",
+      "entity_type": "place",
+      "source": "extended_place"
+    },
+    "sample_id": "JYT_NOTE_002:79:81"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 505,
+      "end": 507,
+      "text": "他们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 490,
+      "end": 492,
+      "text": "司机",
+      "entity_type": "person",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_002:505:507"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 584,
+      "end": 585,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 578,
+      "end": 583,
+      "text": "瓦萨博物馆",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "JYT_NOTE_002:584:585"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 740,
+      "end": 741,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 699,
+      "end": 738,
+      "text": "在博物馆转了一圈，才了解瓦萨和长春的缘分，瓦萨冰雪运动已经在长春有了多年的推广",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_002:740:741"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 801,
+      "end": 802,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 793,
+      "end": 800,
+      "text": "尤其是冬季之美",
+      "entity_type": "scene",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_002:801:802"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 848,
+      "end": 849,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 833,
+      "end": 847,
+      "text": "不远处有人在空旷处唱卡拉OK",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_002:848:849"
+  },
+  {
+    "doc_id": "JYT_NOTE_002",
+    "source_url": "https://you.ctrip.com/travels/UniversitycityJingyuetan2036805/4174717.html",
+    "subject": {
+      "start": 1116,
+      "end": 1118,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 10,
+      "end": 15,
+      "text": "净月潭公园",
+      "entity_type": "place",
+      "source": "extended_place"
+    },
+    "sample_id": "JYT_NOTE_002:1116:1118"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 87,
+      "end": 88,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 20,
+      "end": 87,
+      "text": "我住在 长春 市市中心人民广场附近的亚泰饭店，从人民广场前往净月潭景区搭乘地铁需要差不多1个小时，所以当天我特地早早起床，拉开房间窗帘",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_003:87:88"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 114,
+      "end": 115,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 20,
+      "end": 113,
+      "text": "我住在 长春 市市中心人民广场附近的亚泰饭店，从人民广场前往净月潭景区搭乘地铁需要差不多1个小时，所以当天我特地早早起床，拉开房间窗帘那会天才刚刚微微亮，远方的天空日出的光芒逐渐驱散黑暗",
+      "entity_type": "scene",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_003:114:115"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 834,
+      "end": 836,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 829,
+      "end": 833,
+      "text": "森林浴场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "JYT_NOTE_003:834:836"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 972,
+      "end": 973,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 919,
+      "end": 923,
+      "text": "森林浴场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "JYT_NOTE_003:972:973"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 992,
+      "end": 993,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 990,
+      "end": 992,
+      "text": "长春",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_003:992:993"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 1033,
+      "end": 1034,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1023,
+      "end": 1033,
+      "text": "高尔夫球场、湿地公园",
+      "entity_type": "place_group",
+      "source": "colocated_places"
+    },
+    "sample_id": "JYT_NOTE_003:1033:1034"
+  },
+  {
+    "doc_id": "JYT_NOTE_003",
+    "source_url": "https://you.ctrip.com/travels/WestSlopeofChangbaiMountainScenicArea120439/3990673.html",
+    "subject": {
+      "start": 1098,
+      "end": 1100,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1090,
+      "end": 1094,
+      "text": "水库大坝",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false,
+      "type_evidence": "exp02_v2"
+    },
+    "sample_id": "JYT_NOTE_003:1098:1100"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/Vladivostok4690/4122141.html",
+    "subject": {
+      "start": 197,
+      "end": 198,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 133,
+      "end": 196,
+      "text": "进入景区人不算多，基本上都是依靠景区车游览环湖景色，２０元景区车票，围绕十几个景点搭乘游客，可以随时停下，每十分钟有一班后来车",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_005:197:198"
+  },
+  {
+    "doc_id": "JYT_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/Vladivostok4690/4122141.html",
+    "subject": {
+      "start": 275,
+      "end": 276,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 266,
+      "end": 274,
+      "text": "这样玩一点都不累",
+      "entity_type": "event",
+      "source": "clause_frame"
+    },
+    "sample_id": "JYT_NOTE_005:275:276"
+  }
+]

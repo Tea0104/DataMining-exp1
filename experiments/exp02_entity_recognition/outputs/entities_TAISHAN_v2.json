@@ -652,6 +652,19 @@
   {
     "doc_id": "TS_OFF_001",
     "scenic_id": "TAISHAN",
+    "text": "4--6小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 721,
+    "end": 727,
+    "sentence_id": 18,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "4--6小时"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "scenic_id": "TAISHAN",
     "text": "岱庙",
     "entity_type": "POI",
     "subtype": "temple",
@@ -661,6 +674,32 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "岱庙"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "scenic_id": "TAISHAN",
+    "text": "1--2个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 744,
+    "end": 751,
+    "sentence_id": 19,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "1--2个小时"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "scenic_id": "TAISHAN",
+    "text": "3个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 763,
+    "end": 767,
+    "sentence_id": 20,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "3个小时"
   },
   {
     "doc_id": "TS_OFF_001",
@@ -843,6 +882,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "红门"
+  },
+  {
+    "doc_id": "TS_OFF_001",
+    "scenic_id": "TAISHAN",
+    "text": "40分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 935,
+    "end": 939,
+    "sentence_id": 24,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "40分钟"
   },
   {
     "doc_id": "TS_OFF_002",
@@ -1133,6 +1185,19 @@
   {
     "doc_id": "TS_OFF_002",
     "scenic_id": "TAISHAN",
+    "text": "30分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 273,
+    "end": 277,
+    "sentence_id": 8,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "30分钟"
+  },
+  {
+    "doc_id": "TS_OFF_002",
+    "scenic_id": "TAISHAN",
     "text": "中天门",
     "entity_type": "POI",
     "subtype": "gate",
@@ -1168,6 +1233,32 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "索道"
+  },
+  {
+    "doc_id": "TS_OFF_002",
+    "scenic_id": "TAISHAN",
+    "text": "15分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 304,
+    "end": 308,
+    "sentence_id": 9,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "15分钟"
+  },
+  {
+    "doc_id": "TS_OFF_002",
+    "scenic_id": "TAISHAN",
+    "text": "一小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 317,
+    "end": 320,
+    "sentence_id": 9,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "一小时"
   },
   {
     "doc_id": "TS_OFF_002",
@@ -1363,6 +1454,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "天外村"
+  },
+  {
+    "doc_id": "TS_OFF_002",
+    "scenic_id": "TAISHAN",
+    "text": "40分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 545,
+    "end": 549,
+    "sentence_id": 15,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "40分钟"
   },
   {
     "doc_id": "TS_OFF_002",
@@ -1961,6 +2065,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "青阳堂"
+  },
+  {
+    "doc_id": "TS_OFF_004",
+    "scenic_id": "TAISHAN",
+    "text": "九天",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 352,
+    "end": 354,
+    "sentence_id": 10,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "九天"
   },
   {
     "doc_id": "TS_OFF_004",
@@ -3109,6 +3226,32 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
+    "text": "5-6小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 34,
+    "end": 39,
+    "sentence_id": 2,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "5-6小时"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "text": "7个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 60,
+    "end": 64,
+    "sentence_id": 3,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "7个小时"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
     "text": "岱顶",
     "entity_type": "POI",
     "subtype": "area",
@@ -3176,13 +3319,26 @@
     "scenic_id": "TAISHAN",
     "text": "8点",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 340,
     "end": 342,
     "sentence_id": 10,
     "method": "regex_point",
     "granularity": "specific",
     "canonical": "8点"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "text": "三天",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 367,
+    "end": 369,
+    "sentence_id": 11,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "三天"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -3408,6 +3564,19 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
+    "text": "50分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 858,
+    "end": 862,
+    "sentence_id": 31,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "50分钟"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
     "text": "红门",
     "entity_type": "POI",
     "subtype": "gate",
@@ -3501,13 +3670,26 @@
     "scenic_id": "TAISHAN",
     "text": "9点54分",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1174,
     "end": 1179,
     "sentence_id": 47,
     "method": "regex_point",
     "granularity": "specific",
     "canonical": "9点54分"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "text": "2 个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1185,
+    "end": 1190,
+    "sentence_id": 47,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "2 个小时"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -3592,7 +3774,7 @@
     "scenic_id": "TAISHAN",
     "text": "11点5分",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1466,
     "end": 1471,
     "sentence_id": 59,
@@ -3668,9 +3850,22 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
+    "text": "10分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1620,
+    "end": 1624,
+    "sentence_id": 65,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "10分钟"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
     "text": "11点15分",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1636,
     "end": 1642,
     "sentence_id": 66,
@@ -3694,15 +3889,15 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
-    "text": "11点",
+    "text": "11点半",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1649,
-    "end": 1652,
+    "end": 1653,
     "sentence_id": 67,
     "method": "regex_point",
     "granularity": "specific",
-    "canonical": "11点"
+    "canonical": "11点半"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -3748,7 +3943,7 @@
     "scenic_id": "TAISHAN",
     "text": "12点15分",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1709,
     "end": 1715,
     "sentence_id": 73,
@@ -3811,6 +4006,19 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
+    "text": "3个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1765,
+    "end": 1769,
+    "sentence_id": 74,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "3个小时"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
     "text": "南天门",
     "entity_type": "POI",
     "subtype": "gate",
@@ -3839,7 +4047,7 @@
     "scenic_id": "TAISHAN",
     "text": "4点",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1780,
     "end": 1782,
     "sentence_id": 74,
@@ -3928,6 +4136,19 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
+    "text": "20分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1848,
+    "end": 1852,
+    "sentence_id": 76,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "20分钟"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
     "text": "中天门",
     "entity_type": "POI",
     "subtype": "gate",
@@ -3950,6 +4171,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "十八盘"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "text": "20分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1904,
+    "end": 1908,
+    "sentence_id": 77,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "20分钟"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -3982,7 +4216,7 @@
     "scenic_id": "TAISHAN",
     "text": "12点40分",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 1990,
     "end": 1996,
     "sentence_id": 80,
@@ -4002,6 +4236,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "索道"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "text": "8分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 2004,
+    "end": 2007,
+    "sentence_id": 81,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "8分钟"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -4084,15 +4331,15 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
-    "text": "5点",
+    "text": "5点半",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 2051,
-    "end": 2053,
+    "end": 2054,
     "sentence_id": 82,
     "method": "regex_point",
     "granularity": "specific",
-    "canonical": "5点"
+    "canonical": "5点半"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -4138,7 +4385,7 @@
     "scenic_id": "TAISHAN",
     "text": "1点",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 2082,
     "end": 2084,
     "sentence_id": 85,
@@ -4929,15 +5176,15 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
-    "text": "4点",
+    "text": "4点半",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 3268,
-    "end": 3270,
+    "end": 3271,
     "sentence_id": 128,
     "method": "regex_point",
     "granularity": "specific",
-    "canonical": "4点"
+    "canonical": "4点半"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -4994,15 +5241,15 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
-    "text": "5点",
+    "text": "5点半",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 3341,
-    "end": 3343,
+    "end": 3344,
     "sentence_id": 131,
     "method": "regex_point",
     "granularity": "specific",
-    "canonical": "5点"
+    "canonical": "5点半"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -5087,7 +5334,7 @@
     "scenic_id": "TAISHAN",
     "text": "6点20分",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 3400,
     "end": 3405,
     "sentence_id": 134,
@@ -5139,7 +5386,7 @@
     "scenic_id": "TAISHAN",
     "text": "8点",
     "entity_type": "TIME",
-    "subtype": "period",
+    "subtype": "clock",
     "start": 3443,
     "end": 3445,
     "sentence_id": 137,
@@ -5861,6 +6108,45 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "天外村"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "scenic_id": "TAISHAN",
+    "text": "第一天",
+    "entity_type": "TIME",
+    "subtype": "day",
+    "start": 1414,
+    "end": 1417,
+    "sentence_id": 43,
+    "method": "regex_day",
+    "granularity": "specific",
+    "canonical": "第一天"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "scenic_id": "TAISHAN",
+    "text": "10分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1426,
+    "end": 1430,
+    "sentence_id": 43,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "10分钟"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "scenic_id": "TAISHAN",
+    "text": "20分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 1448,
+    "end": 1452,
+    "sentence_id": 44,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "20分钟"
   },
   {
     "doc_id": "TS_NOTE_002",
@@ -7347,6 +7633,19 @@
   {
     "doc_id": "TS_NOTE_002",
     "scenic_id": "TAISHAN",
+    "text": "1个小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 5934,
+    "end": 5938,
+    "sentence_id": 175,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "1个小时"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "scenic_id": "TAISHAN",
     "text": "公交",
     "entity_type": "TRANSPORT",
     "subtype": "bus",
@@ -7464,6 +7763,19 @@
   {
     "doc_id": "TS_NOTE_002",
     "scenic_id": "TAISHAN",
+    "text": "8小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 6264,
+    "end": 6267,
+    "sentence_id": 192,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "8小时"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "scenic_id": "TAISHAN",
     "text": "十八盘",
     "entity_type": "POI",
     "subtype": "trail",
@@ -7486,6 +7798,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "天烛峰"
+  },
+  {
+    "doc_id": "TS_NOTE_002",
+    "scenic_id": "TAISHAN",
+    "text": "3小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 6301,
+    "end": 6304,
+    "sentence_id": 193,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "3小时"
   },
   {
     "doc_id": "TS_NOTE_002",
@@ -7724,6 +8049,19 @@
   {
     "doc_id": "TS_NOTE_003",
     "scenic_id": "TAISHAN",
+    "text": "1小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 93,
+    "end": 96,
+    "sentence_id": 6,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "1小时"
+  },
+  {
+    "doc_id": "TS_NOTE_003",
+    "scenic_id": "TAISHAN",
     "text": "9:44",
     "entity_type": "TIME",
     "subtype": "clock",
@@ -7785,6 +8123,19 @@
     "method": "regex_clock",
     "granularity": "specific",
     "canonical": "11:33"
+  },
+  {
+    "doc_id": "TS_NOTE_003",
+    "scenic_id": "TAISHAN",
+    "text": "2小时",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 137,
+    "end": 140,
+    "sentence_id": 9,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "2小时"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -8075,28 +8426,15 @@
   {
     "doc_id": "TS_NOTE_003",
     "scenic_id": "TAISHAN",
-    "text": "5:30",
+    "text": "5:30 - 6:30",
     "entity_type": "TIME",
     "subtype": "clock",
     "start": 282,
-    "end": 286,
-    "sentence_id": 21,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "5:30"
-  },
-  {
-    "doc_id": "TS_NOTE_003",
-    "scenic_id": "TAISHAN",
-    "text": "6:30",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 289,
     "end": 293,
     "sentence_id": 21,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "6:30"
+    "canonical": "5:30 - 6:30"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -8153,28 +8491,15 @@
   {
     "doc_id": "TS_NOTE_003",
     "scenic_id": "TAISHAN",
-    "text": "8:00",
+    "text": "8:00 - 9:43",
     "entity_type": "TIME",
     "subtype": "clock",
     "start": 401,
-    "end": 405,
-    "sentence_id": 26,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "8:00"
-  },
-  {
-    "doc_id": "TS_NOTE_003",
-    "scenic_id": "TAISHAN",
-    "text": "9:43",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 408,
     "end": 412,
     "sentence_id": 26,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "9:43"
+    "canonical": "8:00 - 9:43"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -8201,6 +8526,19 @@
     "method": "lexicon",
     "granularity": "generic",
     "canonical": "徒步"
+  },
+  {
+    "doc_id": "TS_NOTE_003",
+    "scenic_id": "TAISHAN",
+    "text": "40分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 452,
+    "end": 456,
+    "sentence_id": 29,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "40分钟"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -8257,28 +8595,15 @@
   {
     "doc_id": "TS_NOTE_003",
     "scenic_id": "TAISHAN",
-    "text": "10:16",
+    "text": "10:16 - 11:19",
     "entity_type": "TIME",
     "subtype": "clock",
     "start": 498,
-    "end": 503,
-    "sentence_id": 30,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "10:16"
-  },
-  {
-    "doc_id": "TS_NOTE_003",
-    "scenic_id": "TAISHAN",
-    "text": "11:19",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 506,
     "end": 511,
     "sentence_id": 30,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "11:19"
+    "canonical": "10:16 - 11:19"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -8396,6 +8721,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "晚上"
+  },
+  {
+    "doc_id": "TS_NOTE_004",
+    "scenic_id": "TAISHAN",
+    "text": "2天",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 82,
+    "end": 84,
+    "sentence_id": 3,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "2天"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -8582,41 +8920,15 @@
   {
     "doc_id": "TS_NOTE_004",
     "scenic_id": "TAISHAN",
-    "text": "19:30",
+    "text": "19:30-20:50",
     "entity_type": "TIME",
     "subtype": "clock",
     "start": 556,
-    "end": 561,
-    "sentence_id": 19,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "19:30"
-  },
-  {
-    "doc_id": "TS_NOTE_004",
-    "scenic_id": "TAISHAN",
-    "text": "20:50",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 562,
     "end": 567,
     "sentence_id": 19,
-    "method": "regex_clock",
+    "method": "regex_range",
     "granularity": "specific",
-    "canonical": "20:50"
-  },
-  {
-    "doc_id": "TS_NOTE_004",
-    "scenic_id": "TAISHAN",
-    "text": "20:00",
-    "entity_type": "TIME",
-    "subtype": "clock",
-    "start": 580,
-    "end": 585,
-    "sentence_id": 19,
-    "method": "regex_clock",
-    "granularity": "specific",
-    "canonical": "20:00"
+    "canonical": "19:30-20:50"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -8712,6 +9024,19 @@
   {
     "doc_id": "TS_NOTE_004",
     "scenic_id": "TAISHAN",
+    "text": "40分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 772,
+    "end": 776,
+    "sentence_id": 27,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "40分钟"
+  },
+  {
+    "doc_id": "TS_NOTE_004",
+    "scenic_id": "TAISHAN",
     "text": "红门",
     "entity_type": "POI",
     "subtype": "gate",
@@ -8721,6 +9046,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "红门"
+  },
+  {
+    "doc_id": "TS_NOTE_004",
+    "scenic_id": "TAISHAN",
+    "text": "40分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 832,
+    "end": 836,
+    "sentence_id": 28,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "40分钟"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -9258,6 +9596,19 @@
   {
     "doc_id": "TS_NOTE_005",
     "scenic_id": "TAISHAN",
+    "text": "六点",
+    "entity_type": "TIME",
+    "subtype": "clock",
+    "start": 747,
+    "end": 749,
+    "sentence_id": 25,
+    "method": "regex_point",
+    "granularity": "specific",
+    "canonical": "六点"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
     "text": "日出",
     "entity_type": "TIME",
     "subtype": "event",
@@ -9267,6 +9618,19 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "日出"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "text": "第一天",
+    "entity_type": "TIME",
+    "subtype": "day",
+    "start": 863,
+    "end": 866,
+    "sentence_id": 28,
+    "method": "regex_day",
+    "granularity": "specific",
+    "canonical": "第一天"
   },
   {
     "doc_id": "TS_NOTE_005",
@@ -9319,5 +9683,18 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "日出"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "text": "15分钟",
+    "entity_type": "TIME",
+    "subtype": "duration",
+    "start": 916,
+    "end": 920,
+    "sentence_id": 29,
+    "method": "regex_duration",
+    "granularity": "specific",
+    "canonical": "15分钟"
   }
 ]

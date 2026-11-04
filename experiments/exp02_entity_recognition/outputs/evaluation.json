@@ -1,0 +1,7 @@
+{
+  "evaluation_level": "document_type_surface_name",
+  "versions": {
+    "v1": "evaluation_v1.json",
+    "v2": "evaluation_v2.json"
+  }
+}

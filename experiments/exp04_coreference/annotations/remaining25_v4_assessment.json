@@ -1,0 +1,1162 @@
+{
+  "date": "2026-11-02",
+  "version": "v4",
+  "assessment_kind": "assistant_semantic_agreement_not_human_accuracy",
+  "reference_sha256": "bff8402513a35cea266e9a336efa37bd5cfdf3c33be9db71d5439531c7252247",
+  "predictions_sha256": "787b9784070820ee20b048badad20a307ceff5a1775e7837932c025fc2f435aa",
+  "human_gold_sha256": "daad1d9aac247a0c22fde44fb5a7a61656da8f2296a98f55012200a7958df7da",
+  "human_reviewed_items": 0,
+  "rules": [
+    "固定参考不改动；逐条对照原文及预测的含义。",
+    "同指异名可接受；路线端点、事件物体、集合末项不能代替完整目标。",
+    "语义范围或原文有歧义列待定，待定不计保守正确数。",
+    "判定文件仅供评价，算法不读取。"
+  ],
+  "items": [
+    {
+      "sample_id": "TS_OFF_001:77:78",
+      "number": 1,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_001:397:398",
+      "number": 2,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_001:412:414",
+      "number": 3,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_001:563:565",
+      "number": 4,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_001:677:678",
+      "number": 5,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_001:787:788",
+      "number": 6,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_002:66:67",
+      "number": 7,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_002:376:377",
+      "number": 8,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:180:181",
+      "number": 9,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:199:200",
+      "number": 10,
+      "verdict": "consistent",
+      "reason": "保留现场指示对象说明，不伪造正文前置跨度；未声称理解图片。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:230:232",
+      "number": 11,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:444:446",
+      "number": 12,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:479:480",
+      "number": 13,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:604:605",
+      "number": 14,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:645:646",
+      "number": 15,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:959:960",
+      "number": 16,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:1006:1008",
+      "number": 17,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_003:1117:1118",
+      "number": 18,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:120:121",
+      "number": 19,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:138:139",
+      "number": 20,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:213:215",
+      "number": 21,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:495:497",
+      "number": 22,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:694:695",
+      "number": 23,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:884:886",
+      "number": 24,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:1023:1024",
+      "number": 25,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_004:1104:1106",
+      "number": 26,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:160:162",
+      "number": 27,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:286:288",
+      "number": 28,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:351:353",
+      "number": 29,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:387:389",
+      "number": 30,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:404:405",
+      "number": 31,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:681:682",
+      "number": 32,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:696:697",
+      "number": 33,
+      "verdict": "consistent",
+      "reason": "保留千尺瀑、千丈瀑两个旧称的名称集合，未只保留一个名称。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:729:730",
+      "number": 34,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:776:777",
+      "number": 35,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:856:858",
+      "number": 36,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:927:929",
+      "number": 37,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1383:1384",
+      "number": 38,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1432:1433",
+      "number": 39,
+      "verdict": "uncertain",
+      "reason": "元君庙是合理上层场所，但具体修炼院落或楼阁未唯一确定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1439:1441",
+      "number": 40,
+      "verdict": "uncertain",
+      "reason": "固定初标对修炼处范围本身也只作推测。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1599:1600",
+      "number": 41,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1718:1719",
+      "number": 42,
+      "verdict": "uncertain",
+      "reason": "已改为莲花洞，与v3同一输出；题刻旁具体落点仍不明确，继续按旧口径保留待定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1868:1869",
+      "number": 43,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1892:1893",
+      "number": 44,
+      "verdict": "consistent",
+      "reason": "姊妹松为植物拟人写法，不是女性人物。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1920:1921",
+      "number": 45,
+      "verdict": "consistent",
+      "reason": "姊妹松为植物拟人写法，不是女性人物。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_OFF_005:1949:1950",
+      "number": 46,
+      "verdict": "consistent",
+      "reason": "姊妹松为植物拟人写法，不是女性人物。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4:5",
+      "number": 47,
+      "verdict": "consistent",
+      "reason": "识别当前文章自身，不伪造正文先行词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:40:42",
+      "number": 48,
+      "verdict": "consistent",
+      "reason": "完整保留整个行程最核心、最累的一段旅程，与泰山核心旅程的固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:496:497",
+      "number": 49,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:553:554",
+      "number": 50,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:710:711",
+      "number": 51,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1046:1047",
+      "number": 52,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1236:1237",
+      "number": 53,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1484:1486",
+      "number": 54,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1553:1555",
+      "number": 55,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1691:1693",
+      "number": 56,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1711:1713",
+      "number": 57,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1816:1818",
+      "number": 58,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:1879:1880",
+      "number": 59,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:2251:2252",
+      "number": 60,
+      "verdict": "consistent",
+      "reason": "指原先避雨且获封的同一棵大树，未误取后文讹传的五株松树。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:2271:2272",
+      "number": 61,
+      "verdict": "consistent",
+      "reason": "指原先避雨且获封的同一棵大树，未误取后文讹传的五株松树。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:2792:2794",
+      "number": 62,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:2835:2836",
+      "number": 63,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:3088:3090",
+      "number": 64,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:3363:3364",
+      "number": 65,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:3493:3495",
+      "number": 66,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4347:4348",
+      "number": 67,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4408:4410",
+      "number": 68,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4572:4573",
+      "number": 69,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4672:4673",
+      "number": 70,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4691:4692",
+      "number": 71,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4716:4717",
+      "number": 72,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4911:4912",
+      "number": 73,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:4925:4926",
+      "number": 74,
+      "verdict": "uncertain",
+      "reason": "包含攻略命题及事实并非的残缺否定前缀，完整性需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5016:5017",
+      "number": 75,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5219:5221",
+      "number": 76,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5284:5286",
+      "number": 77,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5323:5325",
+      "number": 78,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5338:5340",
+      "number": 79,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5598:5599",
+      "number": 80,
+      "verdict": "consistent",
+      "reason": "无他作为固定表达，不冒认人物先行词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5718:5719",
+      "number": 81,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5743:5745",
+      "number": 82,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:5944:5946",
+      "number": 83,
+      "verdict": "consistent",
+      "reason": "跨度包含介绍性成分，但核心对象是封禅大典演出场地。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:6084:6086",
+      "number": 84,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:6415:6416",
+      "number": 85,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_002:6467:6468",
+      "number": 86,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_003:633:634",
+      "number": 87,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_004:61:62",
+      "number": 88,
+      "verdict": "consistent",
+      "reason": "识别当前文章自身，不伪造正文先行词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "TS_NOTE_004:70:71",
+      "number": 89,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_OFF_002:25:26",
+      "number": 90,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_OFF_002:60:61",
+      "number": 91,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_OFF_003:41:42",
+      "number": 92,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_OFF_003:197:198",
+      "number": 93,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_OFF_004:49:50",
+      "number": 94,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_OFF_005:42:43",
+      "number": 95,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:187:188",
+      "number": 96,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:295:297",
+      "number": 97,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:422:424",
+      "number": 98,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:803:804",
+      "number": 99,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:1298:1299",
+      "number": 100,
+      "verdict": "uncertain",
+      "reason": "整个天子山与当时所见的一片山头范围不同。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:1890:1891",
+      "number": 101,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:1905:1906",
+      "number": 102,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:2067:2068",
+      "number": 103,
+      "verdict": "consistent",
+      "reason": "保留2025.7.23和24号两天完整日期范围。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:78:79",
+      "number": 104,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:113:114",
+      "number": 105,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:394:395",
+      "number": 106,
+      "verdict": "consistent",
+      "reason": "Day2国家森林公园标题确定的正是当天天子阁下山至十里长廊这一游览日，跳过元话语干扰。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:431:433",
+      "number": 107,
+      "verdict": "uncertain",
+      "reason": "固定初标未唯一确认当前位置，点将台不能确认。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:458:459",
+      "number": 108,
+      "verdict": "consistent",
+      "reason": "概括云雾缭绕的游览感受，与固定参考同义。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:728:729",
+      "number": 109,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:802:803",
+      "number": 110,
+      "verdict": "uncertain",
+      "reason": "整句游览安排、环保车和电梯过程与88秒登顶这一段的范围不同。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:833:834",
+      "number": 111,
+      "verdict": "consistent",
+      "reason": "保留风景绝佳的视频拍摄点这一用途。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:884:886",
+      "number": 112,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:902:903",
+      "number": 113,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:942:944",
+      "number": 114,
+      "verdict": "consistent",
+      "reason": "保留现场指示对象说明，不伪造正文前置跨度；未声称理解图片。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:1012:1013",
+      "number": 115,
+      "verdict": "consistent",
+      "reason": "指当前行程完成时点或作者游览当天，未误指附近景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:214:215",
+      "number": 116,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:736:737",
+      "number": 117,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:959:961",
+      "number": 118,
+      "verdict": "uncertain",
+      "reason": "空中田车疑有笔误，预测武陵源也未定位换乘点，保留原有疑义。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:1049:1051",
+      "number": 119,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:102:104",
+      "number": 120,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:364:365",
+      "number": 121,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:593:595",
+      "number": 122,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:755:756",
+      "number": 123,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:1257:1258",
+      "number": 124,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:79:81",
+      "number": 125,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:505:507",
+      "number": 126,
+      "verdict": "uncertain",
+      "reason": "他们可能指司机，也可能指运营管理方，原文不明确。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:584:585",
+      "number": 127,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:740:741",
+      "number": 128,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:801:802",
+      "number": 129,
+      "verdict": "consistent",
+      "reason": "冬季之美是四季美景尤其冬季之美的核心，指代含义一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:848:849",
+      "number": 130,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:928:929",
+      "number": 131,
+      "verdict": "uncertain",
+      "reason": "只概括景区问题及管理，没有明确噪声和游客干扰，语义范围偏宽。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:1031:1032",
+      "number": 132,
+      "verdict": "consistent",
+      "reason": "保留现场指示对象说明，不伪造正文前置跨度；未声称理解图片。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_002:1116:1118",
+      "number": 133,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:87:88",
+      "number": 134,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:114:115",
+      "number": 135,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:834:836",
+      "number": 136,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:972:973",
+      "number": 137,
+      "verdict": "uncertain",
+      "reason": "整体森林浴场与栈道旁局部林区范围需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:992:993",
+      "number": 138,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:1033:1034",
+      "number": 139,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_003:1098:1100",
+      "number": 140,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_005:197:198",
+      "number": 141,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_005:275:276",
+      "number": 142,
+      "verdict": "consistent",
+      "reason": "指当前行程完成时点或作者游览当天，未误指附近景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "JYT_NOTE_005:331:333",
+      "number": 143,
+      "verdict": "consistent",
+      "reason": "指此次游览的季节；参考对冬春交替也只是推测，不强行虚构精确季节。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    }
+  ],
+  "revision_note": "最后一次规则改动仅改变第42、48、106处的输出，已逐项复评；其余140处输出含义不变，原判定保留。第42处仍有原文范围歧义，不计明确正确。"
+}

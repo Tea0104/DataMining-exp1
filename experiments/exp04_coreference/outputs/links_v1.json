@@ -1,0 +1,1142 @@
+[
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 93,
+      "end": 94,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 88,
+      "end": 90,
+      "text": "情况",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:93:94"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 411,
+      "end": 412,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 408,
+      "end": 411,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:411:412"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 823,
+      "end": 825,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 819,
+      "end": 822,
+      "text": "万仙楼",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:823:825"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 832,
+      "end": 833,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 828,
+      "end": 831,
+      "text": "检票口",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:832:833"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1171,
+      "end": 1173,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1152,
+      "end": 1155,
+      "text": "经石峪",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1171:1173"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1225,
+      "end": 1226,
+      "text": "该"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1220,
+      "end": 1224,
+      "text": "摩崖石刻",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1225:1226"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1314,
+      "end": 1316,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1303,
+      "end": 1305,
+      "text": "现存",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:1314:1316"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1335,
+      "end": 1336,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1327,
+      "end": 1329,
+      "text": "游客",
+      "entity_type": "person",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1335:1336"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1459,
+      "end": 1461,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1456,
+      "end": 1458,
+      "text": "柏洞",
+      "entity_type": "person",
+      "source": "pos_or_semantic_lexicon",
+      "gender": "unspecified"
+    },
+    "sample_id": "TS_NOTE_001:1459:1461"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1495,
+      "end": 1497,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1490,
+      "end": 1493,
+      "text": "太亲民",
+      "entity_type": "person",
+      "source": "pos_or_semantic_lexicon",
+      "gender": "unspecified"
+    },
+    "sample_id": "TS_NOTE_001:1495:1497"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1616,
+      "end": 1618,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1612,
+      "end": 1614,
+      "text": "所题",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:1616:1618"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1662,
+      "end": 1663,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1658,
+      "end": 1660,
+      "text": "石坊",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1662:1663"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1688,
+      "end": 1690,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1682,
+      "end": 1684,
+      "text": "天桥",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1688:1690"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1843,
+      "end": 1845,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1840,
+      "end": 1843,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1843:1845"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1860,
+      "end": 1862,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1857,
+      "end": 1859,
+      "text": "景色",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:1860:1862"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1897,
+      "end": 1898,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1892,
+      "end": 1895,
+      "text": "十八盘",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:1897:1898"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 1939,
+      "end": 1941,
+      "text": "这些"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1936,
+      "end": 1938,
+      "text": "半价",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:1939:1941"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2370,
+      "end": 2371,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2364,
+      "end": 2366,
+      "text": "香火",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:2370:2371"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2447,
+      "end": 2449,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2444,
+      "end": 2447,
+      "text": "孔子庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:2447:2449"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2539,
+      "end": 2540,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2535,
+      "end": 2537,
+      "text": "孔子",
+      "entity_type": "person",
+      "source": "pos_or_semantic_lexicon",
+      "gender": "unspecified"
+    },
+    "sample_id": "TS_NOTE_001:2539:2540"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2545,
+      "end": 2546,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2542,
+      "end": 2544,
+      "text": "鲁国",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:2545:2546"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2595,
+      "end": 2596,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2589,
+      "end": 2593,
+      "text": "摩崖石刻",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:2595:2596"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2718,
+      "end": 2720,
+      "text": "此处"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2703,
+      "end": 2707,
+      "text": "摩崖石刻",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:2718:2720"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 2738,
+      "end": 2740,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2726,
+      "end": 2728,
+      "text": "秩序",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:2738:2740"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 3028,
+      "end": 3030,
+      "text": "这些"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3024,
+      "end": 3026,
+      "text": "密集",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_001:3028:3030"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "subject": {
+      "start": 3227,
+      "end": 3229,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3220,
+      "end": 3223,
+      "text": "孔子庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_001:3227:3229"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 15,
+      "end": 16,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 12,
+      "end": 14,
+      "text": "岱庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_005:15:16"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 61,
+      "end": 62,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 58,
+      "end": 60,
+      "text": "大门",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "TS_NOTE_005:61:62"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 286,
+      "end": 287,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 283,
+      "end": 285,
+      "text": "寺庙",
+      "entity_type": "place",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": true
+    },
+    "sample_id": "TS_NOTE_005:286:287"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 501,
+      "end": 503,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 497,
+      "end": 499,
+      "text": "技艺",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_005:501:503"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 740,
+      "end": 741,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 737,
+      "end": 739,
+      "text": "生平",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_005:740:741"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 750,
+      "end": 751,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 737,
+      "end": 739,
+      "text": "生平",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_005:750:751"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 752,
+      "end": 753,
+      "text": "此"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 737,
+      "end": 739,
+      "text": "生平",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_005:752:753"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 776,
+      "end": 777,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 770,
+      "end": 773,
+      "text": "地平线",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_005:776:777"
+  },
+  {
+    "doc_id": "TS_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "subject": {
+      "start": 803,
+      "end": 804,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 791,
+      "end": 793,
+      "text": "大地",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "TS_NOTE_005:803:804"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 114,
+      "end": 116,
+      "text": "他们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 98,
+      "end": 113,
+      "text": "老人65岁以上，儿童14岁以下",
+      "entity_type": "person",
+      "source": "coordinated_people",
+      "gender": "unspecified",
+      "plural": true
+    },
+    "sample_id": "ZJJ_NOTE_005:114:116"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 495,
+      "end": 496,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 492,
+      "end": 494,
+      "text": "游玩",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "ZJJ_NOTE_005:495:496"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 533,
+      "end": 535,
+      "text": "它们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 526,
+      "end": 528,
+      "text": "强盗",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "ZJJ_NOTE_005:533:535"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 587,
+      "end": 589,
+      "text": "它们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 580,
+      "end": 582,
+      "text": "背包",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "ZJJ_NOTE_005:587:589"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 622,
+      "end": 623,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 618,
+      "end": 621,
+      "text": "大猴子",
+      "entity_type": "animal",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "ZJJ_NOTE_005:622:623"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 702,
+      "end": 703,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 697,
+      "end": 699,
+      "text": "建议",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "ZJJ_NOTE_005:702:703"
+  },
+  {
+    "doc_id": "ZJJ_NOTE_005",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "subject": {
+      "start": 734,
+      "end": 736,
+      "text": "它们"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 729,
+      "end": 731,
+      "text": "鸡蛋",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "ZJJ_NOTE_005:734:736"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 259,
+      "end": 261,
+      "text": "这个"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 252,
+      "end": 256,
+      "text": "公园入口",
+      "entity_type": "place",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": true
+    },
+    "sample_id": "JYT_NOTE_001:259:261"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 511,
+      "end": 512,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 506,
+      "end": 510,
+      "text": "人工湖泊",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:511:512"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 1272,
+      "end": 1274,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1268,
+      "end": 1270,
+      "text": "大坝",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:1272:1274"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 1288,
+      "end": 1290,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1279,
+      "end": 1281,
+      "text": "湖水",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:1288:1290"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 1332,
+      "end": 1334,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1325,
+      "end": 1327,
+      "text": "湖滨",
+      "entity_type": "place",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": true
+    },
+    "sample_id": "JYT_NOTE_001:1332:1334"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 1395,
+      "end": 1397,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1390,
+      "end": 1392,
+      "text": "树木",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_001:1395:1397"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 1823,
+      "end": 1825,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 1812,
+      "end": 1816,
+      "text": "望潭广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:1823:1825"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 2681,
+      "end": 2682,
+      "text": "她"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2676,
+      "end": 2678,
+      "text": "特技",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_001:2681:2682"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 2717,
+      "end": 2718,
+      "text": "她"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 2712,
+      "end": 2714,
+      "text": "特技",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_001:2717:2718"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 3017,
+      "end": 3018,
+      "text": "那"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3014,
+      "end": 3016,
+      "text": "湿地",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": true
+    },
+    "sample_id": "JYT_NOTE_001:3017:3018"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 3083,
+      "end": 3085,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3077,
+      "end": 3079,
+      "text": "饮食",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_001:3083:3085"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 3123,
+      "end": 3125,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3112,
+      "end": 3116,
+      "text": "蘑菇广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:3123:3125"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 3162,
+      "end": 3164,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3156,
+      "end": 3160,
+      "text": "蘑菇广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:3162:3164"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 3373,
+      "end": 3374,
+      "text": "这"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3367,
+      "end": 3372,
+      "text": "瓦萨滑雪场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "sample_id": "JYT_NOTE_001:3373:3374"
+  },
+  {
+    "doc_id": "JYT_NOTE_001",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "subject": {
+      "start": 3531,
+      "end": 3533,
+      "text": "该园"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 3528,
+      "end": 3530,
+      "text": "美景",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_001:3531:3533"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "subject": {
+      "start": 47,
+      "end": 48,
+      "text": "它"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 40,
+      "end": 43,
+      "text": "性价比",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_004:47:48"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "subject": {
+      "start": 99,
+      "end": 101,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 91,
+      "end": 95,
+      "text": "炎炎夏日",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_004:99:101"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "subject": {
+      "start": 194,
+      "end": 196,
+      "text": "这里"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 188,
+      "end": 191,
+      "text": "尖尖角",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_004:194:196"
+  },
+  {
+    "doc_id": "JYT_NOTE_004",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "subject": {
+      "start": 490,
+      "end": 492,
+      "text": "这边"
+    },
+    "predicate": "refers_to",
+    "object": {
+      "start": 473,
+      "end": 475,
+      "text": "懒人",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "sample_id": "JYT_NOTE_004:490:492"
+  }
+]

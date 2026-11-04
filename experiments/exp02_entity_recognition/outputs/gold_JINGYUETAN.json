@@ -1,0 +1,199 @@
+{
+  "schema_version": "2",
+  "scenic_id": "JINGYUETAN",
+  "doc_scope": [
+    "JYT_OFF_002",
+    "JYT_NOTE_005"
+  ],
+  "granularity": "名称级：doc_id + entity_type + 表面形式，不区分同一名称的不同出现位置",
+  "annotated_by": "AI 初标；用户已复核 gold_review.md 的原115项；2026-11-01 用户授权合入助手二次审计的13项修订。",
+  "annotation_date": "2026-10-29",
+  "annotation_notes": [
+    "覆盖 1 篇官方路线 + 1 篇游记，未覆盖其余 8 篇。",
+    "景区本体名“净月潭”不计 POI（规范第 2 条）。",
+    "“东北虎园”按 2026-10-29 裁决不计入本景区。",
+    "“景区车”“地铁”计为交通方式；“徒步惊喜”是打卡点名称，计 POI，不拆出“徒步”。",
+    "“每十分钟”按“十分钟”计为时间节点（时长）。",
+    "原文名称“月塔楼”整体标注，不截成“塔楼”；与碧松净月塔楼的对应关系由 alias_of 表达。",
+    "“橡树岭”作为原文别名保留；名称级金标区分不同表面形式，图谱节点归一化另行处理。",
+    "“次日”补入 TIME/day。"
+  ],
+  "items": [
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "景区正门"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "女神广场"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "中韩友谊林"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "大坝西"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "朝夕水岸"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "黑松林"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "水上栈道"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "森林浴场"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "中国瓦萨博物馆"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "雪世界彩头雁"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "湿地竹筏游览区"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "徒步惊喜"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "灵草芳洲"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "月潭揽胜"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "避暑山庄"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "月亮湾"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "观潭山"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "童趣营地"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "森林探险乐园"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "荷花垂柳"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "西环潭"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "东环潭"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "女神广场"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "月塔楼"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "水库大坝"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "森林浴场"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "湿地"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "瓦萨滑雪博物馆"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "滑雪场"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "地铁"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "景区车"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TIME",
+      "text": "十分钟"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TIME",
+      "text": "次日"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "橡树岭"
+    }
+  ],
+  "revision_date": "2026-11-01",
+  "revision_notes": [
+    "11项补标、1项边界修正、1项别名口径调整，合计由115项更新至127项。",
+    "原始金标和复核记录存于 archive/gold_before_20261101_corrections/；修订证据见 outputs/gold_audit.json。",
+    "本次修订由用户授权合入，不声称是新一轮独立盲标或逐条人工复核。"
+  ]
+}

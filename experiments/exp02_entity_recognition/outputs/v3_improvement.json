@@ -1,0 +1,116 @@
+{
+  "comparison_scope": "remaining25",
+  "reference_items": 882,
+  "annotation_status": "assistant_only_not_human_reviewed",
+  "v2": {
+    "tp": 550,
+    "fp": 25,
+    "fn": 332,
+    "precision": 0.9565,
+    "recall": 0.6236,
+    "f1": 0.755
+  },
+  "v3": {
+    "tp": 739,
+    "fp": 23,
+    "fn": 143,
+    "precision": 0.9698,
+    "recall": 0.8379,
+    "f1": 0.899
+  },
+  "by_type": {
+    "POI": {
+      "v2": {
+        "tp": 306,
+        "fp": 11,
+        "fn": 204,
+        "precision": 0.9653,
+        "recall": 0.6,
+        "f1": 0.74
+      },
+      "v3": {
+        "tp": 378,
+        "fp": 19,
+        "fn": 132,
+        "precision": 0.9521,
+        "recall": 0.7412,
+        "f1": 0.8335
+      }
+    },
+    "TRANSPORT": {
+      "v2": {
+        "tp": 70,
+        "fp": 4,
+        "fn": 43,
+        "precision": 0.9459,
+        "recall": 0.6195,
+        "f1": 0.7487
+      },
+      "v3": {
+        "tp": 113,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.9658,
+        "recall": 1.0,
+        "f1": 0.9826
+      }
+    },
+    "TIME": {
+      "v2": {
+        "tp": 174,
+        "fp": 10,
+        "fn": 85,
+        "precision": 0.9457,
+        "recall": 0.6718,
+        "f1": 0.7856
+      },
+      "v3": {
+        "tp": 248,
+        "fp": 0,
+        "fn": 11,
+        "precision": 1.0,
+        "recall": 0.9575,
+        "f1": 0.9783
+      }
+    }
+  },
+  "newly_recovered_names": 192,
+  "previously_correct_names_lost": 3,
+  "v3_all30_mentions": 1667,
+  "regression_tests_passed": 24,
+  "structural_validation": "30篇1667条：位置、重复、重叠、分类型计数、CSV词频均通过。",
+  "preserved_files_sha256": {
+    "outputs/entities_JINGYUETAN_v2.json": "2eeb05a5d153ecd9b0f45e08657b30080c7145686b6ef7fe67fb0ba0bc7c44d8",
+    "outputs/entities_TAISHAN_v2.json": "8e107906e96987fcc0f15efb571e8c42448511ead39778a5bd29e79d708410fe",
+    "outputs/entities_WULINGYUAN_v2.json": "5331886b1c7fd3c28fa1bd4cb90fd639a85b5f0a4716934d0d42b5b5fc684bd8",
+    "outputs/evaluation_v2.json": "abdbc0ace9636886d375b37d19b5abe49dbcc13590c35ca3aac6d38ffc82051f",
+    "outputs/stats_all_v2.json": "cd09c980c5a4e3f59c9c8fce8232c393789825bf0bc3b885b91e1e0f68d1cd27",
+    "outputs/stats_JINGYUETAN_v2.json": "2bf9113ffb51674dcfeaa41e24d97bc18b02e21fc93ea98741bce7ddc65bcb12",
+    "outputs/stats_TAISHAN_v2.json": "639113026314933e21652c6688a41fe1bae2f593289b65070c9c8462559fe7b7",
+    "outputs/stats_WULINGYUAN_v2.json": "de095b4ac28a480f9e2e3dd7502f55e8de529ec05654c0b404a0dda030f58632",
+    "outputs/entity_freq_JINGYUETAN_v2.csv": "5888c89e96c612d5ae949ed46a1f6ebab2131347fccab99f7d5167aab4876b2b",
+    "outputs/entity_freq_TAISHAN_v2.csv": "5cc97d7cc786ff0987acb15c5262ff76c88acea6e4e3df21d6f4235d68864876",
+    "outputs/entity_freq_WULINGYUAN_v2.csv": "8e80358732a3a82d26e4881535d34777fb22d322773255bcae37d0ed5313da7e",
+    "outputs/entity_freq_JINGYUETAN_v2.png": "82d3306bc673eb9688db0904949533f841ac7732bacf440ce4fa5d06e1c38392",
+    "outputs/entity_freq_TAISHAN_v2.png": "9eb26bd386f05dd7b8f5be344c82d0daa116bea29daf3c1411720d7005976485",
+    "outputs/entity_freq_WULINGYUAN_v2.png": "d696afccf846aac8cb251b577e9b0c7a521f174299603bb529990591787f51f5",
+    "outputs/gold_audit.json": "35d477562c0319b6e234cf568418b313ffe248e2b43cd30d6e5798e2185a4ace",
+    "outputs/gold_JINGYUETAN.json": "afc20ad9a3f1a1acda35251a38aa97ebf3a6e535bfbb6ede9b806fdd522da734",
+    "outputs/gold_remaining25.json": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85",
+    "outputs/gold_remaining25_JINGYUETAN.json": "b39f82beca039ef80ae0f28cbc515e001a2a7d59dc1f0f12a90f49513da65d41",
+    "outputs/gold_remaining25_manifest.json": "187e6ffda8dbd700d0ded9b94a0192f97b9e9a561c38ff608834dd9224553ec5",
+    "outputs/gold_remaining25_TAISHAN.json": "ebb4c90f535b9b2fd7d1bfe7aa100a9a4b3265c388e9a7ef6a89e814782f6d83",
+    "outputs/gold_remaining25_WULINGYUAN.json": "6a7fbe0f23ee13459252f00fb5c2c10aad46838fdc3fe6ba2f6f4fbed9a9704c",
+    "outputs/gold_TAISHAN.json": "5633b34073fa7e83f5a607c04c5cc9223a191b9ae3762057866e80a1a48d03a4",
+    "outputs/gold_WULINGYUAN.json": "b86b74c2210a45d82811c0af921d06165500bad8212924395295a5334b9835f5",
+    "outputs/gold_review.md": "a183dadb99298ab12ceb560d08662eb0f13b6d1fed650494108fa4a340c9618c",
+    "annotations/remaining25_labels.json": "52ff588dbea0af40ddbf37dca66cbc6e6c0d24feef08eb8e5d106f13d50a63e5",
+    "src/config/lexicon.json": "923df5de9c3172d84fb8016b4109a5dcd9e694fce3312b4595d5697ed0847ce6",
+    "src/recognize_entities.py": "663851f8c440727bfa1f100d97e655d3fca02ea71476b76fba07ca9973e9f745"
+  },
+  "limitations": [
+    "改动参考这25篇的漏识类型开发，因此属于固定参考标注上的开发集比较。",
+    "参考金标未经人工复核；新数据泛化性能尚无独立测试。",
+    "规则不读取金标、不根据doc_id或位置写死答案，未把882项标注整表加入词典。"
+  ]
+}

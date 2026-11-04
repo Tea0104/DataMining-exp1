@@ -1,0 +1,2348 @@
+{
+  "version": "v4",
+  "gold_file": "annotations\\gold_draft.json",
+  "evaluation_scope": [
+    "TS_NOTE_001",
+    "TS_NOTE_005",
+    "ZJJ_NOTE_005",
+    "JYT_NOTE_001",
+    "JYT_NOTE_004"
+  ],
+  "metric_definition": "逐次代词位置+先行词位置严格匹配；无明确先行词时拒绝链接视为正确；漏预测计错。",
+  "annotation_kind": "user_reviewed",
+  "reference_comparison": {
+    "samples": 61,
+    "gold_resolvable": 51,
+    "gold_without_antecedent": 10,
+    "predicted_links": 51,
+    "exact_correct_links": 51,
+    "correct_abstentions": 10,
+    "missing_predictions": 0,
+    "end_to_end_accuracy": 1.0,
+    "exact_link_precision": 1.0,
+    "exact_link_recall": 1.0,
+    "exact_link_f1": 1.0,
+    "resolution_coverage": 0.8361,
+    "antecedent_text_accuracy_on_resolvable": 1.0,
+    "abstention_accuracy": 1.0
+  },
+  "assistant_draft_comparison": {
+    "samples": 61,
+    "gold_resolvable": 51,
+    "gold_without_antecedent": 10,
+    "predicted_links": 51,
+    "exact_correct_links": 51,
+    "correct_abstentions": 10,
+    "missing_predictions": 0,
+    "end_to_end_accuracy": 1.0,
+    "exact_link_precision": 1.0,
+    "exact_link_recall": 1.0,
+    "exact_link_f1": 1.0,
+    "resolution_coverage": 0.8361,
+    "antecedent_text_accuracy_on_resolvable": 1.0,
+    "abstention_accuracy": 1.0
+  },
+  "human_reviewed_evaluation": {
+    "samples": 61,
+    "gold_resolvable": 51,
+    "gold_without_antecedent": 10,
+    "predicted_links": 51,
+    "exact_correct_links": 51,
+    "correct_abstentions": 10,
+    "missing_predictions": 0,
+    "end_to_end_accuracy": 1.0,
+    "exact_link_precision": 1.0,
+    "exact_link_recall": 1.0,
+    "exact_link_f1": 1.0,
+    "resolution_coverage": 0.8361,
+    "antecedent_text_accuracy_on_resolvable": 1.0,
+    "abstention_accuracy": 1.0
+  },
+  "human_review_status": "available",
+  "limitations": [
+    "人工复核与规则开发使用同批语料，不是独立测试或泛化性能。",
+    "来源相同的正文和图注重复保留，案例之间不独立。",
+    "规则仅覆盖部分事件/路线表达；同指实体的不同提及位置可能被严格指标判错。",
+    "图片和现场指示仅保留人工语义说明；空链接正确不代表算法理解了图片。"
+  ],
+  "by_doc_reference": {
+    "TS_NOTE_001": {
+      "samples": 26,
+      "gold_resolvable": 19,
+      "gold_without_antecedent": 7,
+      "predicted_links": 19,
+      "exact_correct_links": 19,
+      "correct_abstentions": 7,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 0.7308,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": 1.0
+    },
+    "TS_NOTE_005": {
+      "samples": 9,
+      "gold_resolvable": 6,
+      "gold_without_antecedent": 3,
+      "predicted_links": 6,
+      "exact_correct_links": 6,
+      "correct_abstentions": 3,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 0.6667,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": 1.0
+    },
+    "ZJJ_NOTE_005": {
+      "samples": 7,
+      "gold_resolvable": 7,
+      "gold_without_antecedent": 0,
+      "predicted_links": 7,
+      "exact_correct_links": 7,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "JYT_NOTE_001": {
+      "samples": 15,
+      "gold_resolvable": 15,
+      "gold_without_antecedent": 0,
+      "predicted_links": 15,
+      "exact_correct_links": 15,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "JYT_NOTE_004": {
+      "samples": 4,
+      "gold_resolvable": 4,
+      "gold_without_antecedent": 0,
+      "predicted_links": 4,
+      "exact_correct_links": 4,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    }
+  },
+  "by_target_type_reference": {
+    "animal": {
+      "samples": 5,
+      "gold_resolvable": 5,
+      "gold_without_antecedent": 0,
+      "predicted_links": 5,
+      "exact_correct_links": 5,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "event": {
+      "samples": 7,
+      "gold_resolvable": 7,
+      "gold_without_antecedent": 0,
+      "predicted_links": 7,
+      "exact_correct_links": 7,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "non_anaphoric": {
+      "samples": 10,
+      "gold_resolvable": 0,
+      "gold_without_antecedent": 10,
+      "predicted_links": 0,
+      "exact_correct_links": 0,
+      "correct_abstentions": 10,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": null,
+      "exact_link_recall": null,
+      "exact_link_f1": null,
+      "resolution_coverage": 0.0,
+      "antecedent_text_accuracy_on_resolvable": null,
+      "abstention_accuracy": 1.0
+    },
+    "object": {
+      "samples": 3,
+      "gold_resolvable": 3,
+      "gold_without_antecedent": 0,
+      "predicted_links": 3,
+      "exact_correct_links": 3,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "person": {
+      "samples": 3,
+      "gold_resolvable": 3,
+      "gold_without_antecedent": 0,
+      "predicted_links": 3,
+      "exact_correct_links": 3,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "place": {
+      "samples": 30,
+      "gold_resolvable": 30,
+      "gold_without_antecedent": 0,
+      "predicted_links": 30,
+      "exact_correct_links": 30,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "place_group": {
+      "samples": 1,
+      "gold_resolvable": 1,
+      "gold_without_antecedent": 0,
+      "predicted_links": 1,
+      "exact_correct_links": 1,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    },
+    "time": {
+      "samples": 2,
+      "gold_resolvable": 2,
+      "gold_without_antecedent": 0,
+      "predicted_links": 2,
+      "exact_correct_links": 2,
+      "correct_abstentions": 0,
+      "missing_predictions": 0,
+      "end_to_end_accuracy": 1.0,
+      "exact_link_precision": 1.0,
+      "exact_link_recall": 1.0,
+      "exact_link_f1": 1.0,
+      "resolution_coverage": 1.0,
+      "antecedent_text_accuracy_on_resolvable": 1.0,
+      "abstention_accuracy": null
+    }
+  },
+  "case_results": [
+    {
+      "sample_id": "TS_NOTE_001:93:94",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 93,
+        "end": 94,
+        "text": "那"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "后指紧随其后的引语，没有前文先行词。",
+      "prediction_reason": "后指引语，不存在前文先行词",
+      "review_status": "confirmed",
+      "reference_kind": "cataphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:411:412",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 411,
+        "end": 412,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 404,
+          "end": 411,
+          "text": "从红门到中天门",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 404,
+        "end": 411,
+        "text": "从红门到中天门",
+        "entity_type": "route",
+        "source": "current_movement_prefix"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "指当前所述红门至中天门路段，不能只取中天门。",
+      "prediction_reason": "路段回指保留起点、终点及连续移动过程",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:823:825",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 823,
+        "end": 825,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 819,
+          "end": 822,
+          "text": "万仙楼",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 819,
+        "end": 822,
+        "text": "万仙楼",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同句刚到达万仙楼，是检票口。",
+      "prediction_reason": "类型相容；距离1字；同句；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:832:833",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 832,
+        "end": 833,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 807,
+          "end": 822,
+          "text": "穿过红门，再走一会就到了万仙楼",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 807,
+        "end": 822,
+        "text": "穿过红门，再走一会就到了万仙楼",
+        "entity_type": "route",
+        "source": "movement_route"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "回指刚描述的红门到万仙楼行走路段。",
+      "prediction_reason": "路段回指最近完整移动过程，而非最后一个地点",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1171:1173",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1171,
+        "end": 1173,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1152,
+          "end": 1156,
+          "text": "经石峪坊",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1152,
+        "end": 1156,
+        "text": "经石峪坊",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "standalone": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "前一文本段的所在地为经石峪坊，不是尚未到达的中天门。",
+      "prediction_reason": "类型相容；距离15字；扩展具名地点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1225:1226",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1225,
+        "end": 1226,
+        "text": "该"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1220,
+          "end": 1224,
+          "text": "摩崖石刻",
+          "entity_type": "object"
+        }
+      ],
+      "predicted": {
+        "start": 1220,
+        "end": 1224,
+        "text": "摩崖石刻",
+        "entity_type": "object",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "该石刻回指前句介绍的摩崖石刻。",
+      "prediction_reason": "类型相容；距离1字；名词中心词一致",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1314:1316",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1314,
+        "end": 1316,
+        "text": "这里"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：文章中图片所示的路口",
+      "prediction_reason": "短图注依赖现场路径，正文无明确道路先行词",
+      "review_status": "confirmed",
+      "reference_kind": "image_deixis",
+      "referent_description": "文章中图片所示的路口",
+      "human_interpretation": "文章中图片所示的路口"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1335:1336",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1335,
+        "end": 1336,
+        "text": "这"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：文章中图片所示的桥",
+      "prediction_reason": "首次现场指示，正文无明确前置同类对象",
+      "review_status": "confirmed",
+      "reference_kind": "image_deixis",
+      "referent_description": "文章中图片所示的桥",
+      "human_interpretation": "文章中图片所示的桥"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1459:1461",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1459,
+        "end": 1461,
+        "text": "这个"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：“这个”整体作定语修饰后面的“路边店铺”，没有指代，作指示限定",
+      "prediction_reason": "首次引入的物体或现场指示，前文无同类候选",
+      "review_status": "confirmed",
+      "reference_kind": "demonstrative_determiner",
+      "referent_description": "后面的路边商铺",
+      "human_interpretation": "“这个”整体作定语修饰后面的“路边店铺”，没有指代，作指示限定"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1495:1497",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1495,
+        "end": 1497,
+        "text": "这个"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1461,
+          "end": 1465,
+          "text": "路边商铺",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1461,
+        "end": 1465,
+        "text": "路边商铺",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "回指上一句的商铺所在位置。",
+      "prediction_reason": "位置指示优先最近地点，而非价格等邻近物体",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1616:1618",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1616,
+        "end": 1618,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1598,
+          "end": 1601,
+          "text": "壶天阁",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1598,
+        "end": 1601,
+        "text": "壶天阁",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "当前介绍壶天阁，在此休息。",
+      "prediction_reason": "类型相容；距离15字；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1662:1663",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1662,
+        "end": 1663,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1636,
+          "end": 1660,
+          "text": "11点15分走到壶天阁\n\n11点半走到回马岭石坊",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 1636,
+        "end": 1660,
+        "text": "11点15分走到壶天阁\n\n11点半走到回马岭石坊",
+        "entity_type": "route",
+        "source": "timed_movement_route"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "回指刚经过的两地点间登山路段。",
+      "prediction_reason": "路段回指最近完整移动过程，而非最后一个地点",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1688:1690",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1688,
+        "end": 1690,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1681,
+          "end": 1684,
+          "text": "步天桥",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1681,
+        "end": 1684,
+        "text": "步天桥",
+        "entity_type": "place",
+        "source": "section_topic"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "紧邻前一图注步天桥；地点推断仍需复核。",
+      "prediction_reason": "当前景点小节主题约束",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1843:1845",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1843,
+        "end": 1845,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1840,
+        "end": 1843,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同句“我们在中天门这里”，明确回指。",
+      "prediction_reason": "显式同句地点",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1860:1862",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1860,
+        "end": 1862,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1840,
+        "end": 1843,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同句停留及周边石刻都在中天门，不是计划中的南天门。",
+      "prediction_reason": "类型相容；距离17字；同句；实验二具名景点候选；当前位置线索",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1897:1898",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1897,
+        "end": 1898,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1873,
+          "end": 1896,
+          "text": "从中天门走到景交车换乘站，再继续登山（十八盘）",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 1873,
+        "end": 1896,
+        "text": "从中天门走到景交车换乘站，再继续登山（十八盘）",
+        "entity_type": "route",
+        "source": "current_movement_prefix"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "回指刚描述的继续登山路段。",
+      "prediction_reason": "路段回指保留起点、终点及连续移动过程",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:1939:1941",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1939,
+        "end": 1941,
+        "text": "这些"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：“这些”整体作定语修饰年，代指作者的近几年，",
+      "prediction_reason": "泛指时间范围，不链接景点或物体",
+      "review_status": "confirmed",
+      "reference_kind": "temporal_deixis",
+      "referent_description": "作者的近几年",
+      "human_interpretation": "“这些”整体作定语修饰年，代指作者的近几年，"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2370:2371",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2370,
+        "end": 2371,
+        "text": "这"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：代指文章的图片",
+      "prediction_reason": "整条游览路线级指代",
+      "review_status": "confirmed",
+      "reference_kind": "image_deixis",
+      "referent_description": "文章中的岱顶游览图图片",
+      "human_interpretation": "代指文章的图片"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2447:2449",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2447,
+        "end": 2449,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2444,
+          "end": 2447,
+          "text": "孔子庙",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 2444,
+        "end": 2447,
+        "text": "孔子庙",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同句“从孔子庙这里下去”，地点明确。",
+      "prediction_reason": "显式同句地点",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:2539:2540",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2539,
+        "end": 2540,
+        "text": "此"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2529,
+          "end": 2532,
+          "text": "瞻鲁台",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 2529,
+        "end": 2532,
+        "text": "瞻鲁台",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "孔子于此瞻望鲁国，回指句首的瞻鲁台。",
+      "prediction_reason": "类型相容；距离7字；同句；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:2545:2546",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2545,
+        "end": 2546,
+        "text": "此"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：指代限定，指示当下的这首题",
+      "prediction_reason": "指示限定或现场景观，缺少明确前文同类名词",
+      "review_status": "confirmed",
+      "reference_kind": "demonstrative_determiner",
+      "referent_description": "当下所见的题刻",
+      "human_interpretation": "指代限定，指示当下的这首题"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2595:2596",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2595,
+        "end": 2596,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2570,
+          "end": 2583,
+          "text": "从瞻鲁台下来往拱北石方向走",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 2570,
+        "end": 2583,
+        "text": "从瞻鲁台下来往拱北石方向走",
+        "entity_type": "route",
+        "source": "current_movement_prefix"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "这条路线回指刚描述的行走方向。",
+      "prediction_reason": "路段回指保留起点、终点及连续移动过程",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:2718:2720",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2718,
+        "end": 2720,
+        "text": "此处"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2698,
+          "end": 2702,
+          "text": "五岳独尊",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 2698,
+        "end": 2702,
+        "text": "五岳独尊",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "在五岳独尊石刻处拍照。",
+      "prediction_reason": "类型相容；距离16字；同句；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:2738:2740",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2738,
+        "end": 2740,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2698,
+          "end": 2702,
+          "text": "五岳独尊",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 2698,
+        "end": 2702,
+        "text": "五岳独尊",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同一场景继续回指五岳独尊石刻所在地点。",
+      "prediction_reason": "类型相容；距离36字；同句；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_001:3028:3030",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 3028,
+        "end": 3030,
+        "text": "这些"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3022,
+          "end": 3024,
+          "text": "石刻",
+          "entity_type": "object"
+        }
+      ],
+      "predicted": {
+        "start": 3022,
+        "end": 3024,
+        "text": "石刻",
+        "entity_type": "object",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "人工复核意见：指代限定，指代现场的石刻",
+      "prediction_reason": "类型相容；距离4字；同句；名词中心词一致",
+      "review_status": "confirmed",
+      "reference_kind": "demonstrative_determiner",
+      "referent_description": "大观峰现场的石刻",
+      "human_interpretation": "指代限定，指代现场的石刻"
+    },
+    {
+      "sample_id": "TS_NOTE_001:3227:3229",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 3227,
+        "end": 3229,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3220,
+          "end": 3223,
+          "text": "孔子庙",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 3220,
+        "end": 3223,
+        "text": "孔子庙",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "前一句“错过孔子庙”，应从该处下行。",
+      "prediction_reason": "类型相容；距离4字；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_005:15:16",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 15,
+        "end": 16,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 12,
+          "end": 14,
+          "text": "岱庙",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 12,
+        "end": 14,
+        "text": "岱庙",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "这座庙宇回指上一句岱庙。",
+      "prediction_reason": "类型相容；距离1字；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_005:61:62",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 61,
+        "end": 62,
+        "text": "那"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：指代限定用法，那股二字整体作定语修饰气息，那指代刚才提到的那一股",
+      "prediction_reason": "首次引入的物体或现场指示，前文无同类候选",
+      "review_status": "confirmed",
+      "reference_kind": "demonstrative_determiner",
+      "referent_description": "当下的宁静肃穆的气息",
+      "human_interpretation": "指代限定用法，那股二字整体作定语修饰气息，那指代刚才提到的那一股"
+    },
+    {
+      "sample_id": "TS_NOTE_005:286:287",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 286,
+        "end": 287,
+        "text": "那"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：指代限定用法，那作定语修饰气息，那指代刚才提到的那一股香火味",
+      "prediction_reason": "首次引入的物体或现场指示，前文无同类候选",
+      "review_status": "confirmed",
+      "reference_kind": "demonstrative_determiner",
+      "referent_description": "当下的袅袅香火味",
+      "human_interpretation": "指代限定用法，那作定语修饰气息，那指代刚才提到的那一股香火味"
+    },
+    {
+      "sample_id": "TS_NOTE_005:501:503",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 501,
+        "end": 503,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 453,
+          "end": 456,
+          "text": "普照寺",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 453,
+        "end": 456,
+        "text": "普照寺",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "当前段落持续介绍普照寺。",
+      "prediction_reason": "类型相容；距离45字；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_005:740:741",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 740,
+        "end": 741,
+        "text": "此"
+      },
+      "gold_status": "non_anaphoric",
+      "expected": [],
+      "predicted": null,
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": false,
+      "text_link": false,
+      "gold_reason": "人工复核意见：诗词，指代限定用法，指代登上泰山南天门外所见的壮丽景观",
+      "prediction_reason": "指示限定或现场景观，缺少明确前文同类名词",
+      "review_status": "confirmed",
+      "reference_kind": "situational_deixis",
+      "referent_description": "登上泰山南天门外所见的壮丽景观",
+      "human_interpretation": "诗词，指代限定用法，指代登上泰山南天门外所见的壮丽景观"
+    },
+    {
+      "sample_id": "TS_NOTE_005:750:751",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 750,
+        "end": 751,
+        "text": "此"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time"
+        }
+      ],
+      "predicted": {
+        "start": 745,
+        "end": 749,
+        "text": "凌晨六点",
+        "entity_type": "time",
+        "source": "explicit_time"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "“此时”对应同句明确的凌晨六点。",
+      "prediction_reason": "类型相容；距离1字；同句",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_005:752:753",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 752,
+        "end": 753,
+        "text": "此"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time"
+        }
+      ],
+      "predicted": {
+        "start": 745,
+        "end": 749,
+        "text": "凌晨六点",
+        "entity_type": "time",
+        "source": "explicit_time"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "“此刻”与此时一起指凌晨六点。",
+      "prediction_reason": "类型相容；距离3字；同句",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_005:776:777",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 776,
+        "end": 777,
+        "text": "那"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 765,
+          "end": 775,
+          "text": "太阳慢慢从地平线升起",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 765,
+        "end": 775,
+        "text": "太阳慢慢从地平线升起",
+        "entity_type": "event",
+        "source": "transition_event"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "那一瞬间回指太阳升起的时刻。",
+      "prediction_reason": "时刻指示关联最近的状态变化事件",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "TS_NOTE_005:803:804",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 803,
+        "end": 804,
+        "text": "那"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 765,
+          "end": 775,
+          "text": "太阳慢慢从地平线升起",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 765,
+        "end": 775,
+        "text": "太阳慢慢从地平线升起",
+        "entity_type": "event",
+        "source": "transition_event"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "继续回指前文日出时刻。",
+      "prediction_reason": "时刻指示关联最近的状态变化事件",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:114:116",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 114,
+        "end": 116,
+        "text": "他们"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 98,
+          "end": 113,
+          "text": "老人65岁以上，儿童14岁以下",
+          "entity_type": "person"
+        }
+      ],
+      "predicted": {
+        "start": 98,
+        "end": 113,
+        "text": "老人65岁以上，儿童14岁以下",
+        "entity_type": "person",
+        "source": "coordinated_people",
+        "gender": "unspecified",
+        "plural": true
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "他们指老人和儿童两类享受优惠的人群，不能只指儿童。",
+      "prediction_reason": "类型相容；距离1字；同句；复数人群",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:495:496",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 495,
+        "end": 496,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 456,
+          "end": 471,
+          "text": "天子山→杨家界→袁家界→金鞭溪",
+          "entity_type": "place_group"
+        }
+      ],
+      "predicted": {
+        "start": 456,
+        "end": 471,
+        "text": "天子山→杨家界→袁家界→金鞭溪",
+        "entity_type": "place_group",
+        "source": "arrow_place_group"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "这几个地方回指前文整条景点序列。",
+      "prediction_reason": "复数地点回指最近的连续路线景点集合",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:533:535",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 533,
+        "end": 535,
+        "text": "它们"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 514,
+          "end": 516,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "predicted": {
+        "start": 514,
+        "end": 516,
+        "text": "猴子",
+        "entity_type": "animal",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "它们指袁家界和金鞭溪的猴子，不是环保车或游客。",
+      "prediction_reason": "非人代词优先明确动物",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:587:589",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 587,
+        "end": 589,
+        "text": "它们"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 544,
+          "end": 546,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "predicted": {
+        "start": 544,
+        "end": 546,
+        "text": "猴子",
+        "entity_type": "animal",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同段继续回指猴子群。",
+      "prediction_reason": "非人代词优先明确动物",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:622:623",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 622,
+        "end": 623,
+        "text": "它"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 618,
+          "end": 621,
+          "text": "大猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "predicted": {
+        "start": 618,
+        "end": 621,
+        "text": "大猴子",
+        "entity_type": "animal",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "单数它指刚遇到的大猴子，不是爸爸或栗子。",
+      "prediction_reason": "非人代词优先明确动物",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:702:703",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 702,
+        "end": 703,
+        "text": "它"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 693,
+          "end": 695,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "predicted": {
+        "start": 693,
+        "end": 695,
+        "text": "猴子",
+        "entity_type": "animal",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "当前图注喂食的猴子。",
+      "prediction_reason": "非人代词优先明确动物",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:734:736",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 734,
+        "end": 736,
+        "text": "它们"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 726,
+          "end": 728,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "predicted": {
+        "start": 726,
+        "end": 728,
+        "text": "猴子",
+        "entity_type": "animal",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "大小猴子吃鸡蛋，复数它们回指猴子。",
+      "prediction_reason": "非人代词优先明确动物",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:259:261",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 259,
+        "end": 261,
+        "text": "这个"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 252,
+          "end": 256,
+          "text": "公园入口",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 252,
+        "end": 256,
+        "text": "公园入口",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "上一段过天桥到公园入口。",
+      "prediction_reason": "类型相容；距离3字；名词中心词一致",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:511:512",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 511,
+        "end": 512,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 506,
+          "end": 510,
+          "text": "人工湖泊",
+          "entity_type": "object"
+        }
+      ],
+      "predicted": {
+        "start": 506,
+        "end": 510,
+        "text": "人工湖泊",
+        "entity_type": "object",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "回指人工修建的湖泊，不是逯家湾或日本。",
+      "prediction_reason": "判断句优先最近完整名词短语",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1272:1274",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1272,
+        "end": 1274,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1258,
+          "end": 1261,
+          "text": "坝西站",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1258,
+        "end": 1261,
+        "text": "坝西站",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "type_evidence": "repeated_place"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "当前游览站点为坝西站，观察到大坝不等于已移动到大坝。",
+      "prediction_reason": "类型相容；距离11字；扩展具名地点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1288:1290",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1288,
+        "end": 1290,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1258,
+          "end": 1261,
+          "text": "坝西站",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1258,
+        "end": 1261,
+        "text": "坝西站",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "type_evidence": "repeated_place"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "重复图注仍为坝西站所在场景。",
+      "prediction_reason": "类型相容；距离27字；扩展具名地点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1332:1334",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1332,
+        "end": 1334,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1307,
+          "end": 1310,
+          "text": "溢水湾",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1307,
+        "end": 1310,
+        "text": "溢水湾",
+        "entity_type": "place",
+        "source": "station_heading"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "站点标题表明第二站是溢水湾，经过码头不是停留地点。",
+      "prediction_reason": "类型相容；距离22字；站点标题提供场景",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1395:1397",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1395,
+        "end": 1397,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1307,
+          "end": 1310,
+          "text": "溢水湾",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1307,
+        "end": 1310,
+        "text": "溢水湾",
+        "entity_type": "place",
+        "source": "station_heading"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "重复描述保持第二站溢水湾语境。",
+      "prediction_reason": "类型相容；距离85字；站点标题提供场景",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1823:1825",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1823,
+        "end": 1825,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 1812,
+          "end": 1816,
+          "text": "望潭广场",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 1812,
+        "end": 1816,
+        "text": "望潭广场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "前半句望潭广场是休息站，这里回指该站。",
+      "prediction_reason": "类型相容；距离7字；同句；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:2681:2682",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 2681,
+        "end": 2682,
+        "text": "她"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2669,
+          "end": 2671,
+          "text": "女郎",
+          "entity_type": "person"
+        }
+      ],
+      "predicted": {
+        "start": 2669,
+        "end": 2671,
+        "text": "女郎",
+        "entity_type": "person",
+        "source": "semantic_lexicon",
+        "gender": "female",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "她回指同句表演单竹特技的女郎。",
+      "prediction_reason": "女性人物指代",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:2717:2718",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 2717,
+        "end": 2718,
+        "text": "她"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 2705,
+          "end": 2707,
+          "text": "女郎",
+          "entity_type": "person"
+        }
+      ],
+      "predicted": {
+        "start": 2705,
+        "end": 2707,
+        "text": "女郎",
+        "entity_type": "person",
+        "source": "semantic_lexicon",
+        "gender": "female",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "重复图注内同句的女郎。",
+      "prediction_reason": "女性人物指代",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3017:3018",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3017,
+        "end": 3018,
+        "text": "那"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3002,
+          "end": 3016,
+          "text": "荷花绽开的时候乘竹筏游览湿地",
+          "entity_type": "event"
+        }
+      ],
+      "predicted": {
+        "start": 3002,
+        "end": 3016,
+        "text": "荷花绽开的时候乘竹筏游览湿地",
+        "entity_type": "event",
+        "source": "conditional_scenario"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "那回指条件句中的游览场景，不是码头或竹筏单体。",
+      "prediction_reason": "概括性指代关联前面的完整条件场景",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3083:3085",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3083,
+        "end": 3085,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3056,
+          "end": 3060,
+          "text": "蘑菇广场",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 3056,
+        "end": 3060,
+        "text": "蘑菇广场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "当前第九站蘑菇广场。",
+      "prediction_reason": "类型相容；距离23字；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3123:3125",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3123,
+        "end": 3125,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3112,
+          "end": 3116,
+          "text": "蘑菇广场",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 3112,
+        "end": 3116,
+        "text": "蘑菇广场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同句蘑菇广场。",
+      "prediction_reason": "类型相容；距离7字；同句；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3162:3164",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3162,
+        "end": 3164,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3156,
+          "end": 3160,
+          "text": "蘑菇广场",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 3156,
+        "end": 3160,
+        "text": "蘑菇广场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "紧邻蘑菇广场提问，延续该处语境。",
+      "prediction_reason": "类型相容；距离2字；实验二具名景点候选",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3373:3374",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3373,
+        "end": 3374,
+        "text": "这"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3332,
+          "end": 3335,
+          "text": "净月潭",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 3332,
+        "end": 3335,
+        "text": "净月潭",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "总结净月潭整体，不是列举中的最后一个滑雪场。",
+      "prediction_reason": "概括句回指列举内容的主语",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3531:3533",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3531,
+        "end": 3533,
+        "text": "该园"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 3471,
+          "end": 3478,
+          "text": "吉林省东北虎园",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 3471,
+        "end": 3478,
+        "text": "吉林省东北虎园",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "standalone": false
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "该园回指所介绍的东北虎园，不是其所坐落的净月潭森林公园。",
+      "prediction_reason": "该园回指地址介绍的主语，排除地址中的城市和上级公园",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_004:47:48",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 47,
+        "end": 48,
+        "text": "它"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 9,
+        "end": 18,
+        "text": "净月潭国家森林公园",
+        "entity_type": "place",
+        "source": "document_topic"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "它指标题中的景区本体；实验二不标本体不影响实验四候选。",
+      "prediction_reason": "类型相容；距离29字",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_004:99:101",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 99,
+        "end": 101,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 9,
+        "end": 18,
+        "text": "净月潭国家森林公园",
+        "entity_type": "place",
+        "source": "document_topic"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "同段描述该公园适合避暑。",
+      "prediction_reason": "类型相容；距离81字",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_004:194:196",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 194,
+        "end": 196,
+        "text": "这里"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 180,
+          "end": 183,
+          "text": "荷花池",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 180,
+        "end": 183,
+        "text": "荷花池",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "刚路过荷花池后描述此处适合野餐；需结合全文复核范围。",
+      "prediction_reason": "类型相容；距离11字",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    },
+    {
+      "sample_id": "JYT_NOTE_004:490:492",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 490,
+        "end": 492,
+        "text": "这边"
+      },
+      "gold_status": "resolved",
+      "expected": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place"
+        }
+      ],
+      "predicted": {
+        "start": 9,
+        "end": 18,
+        "text": "净月潭国家森林公园",
+        "entity_type": "place",
+        "source": "document_topic"
+      },
+      "prediction_present": true,
+      "correct": true,
+      "exact_link": true,
+      "text_link": true,
+      "gold_reason": "此处为全园游玩方式讨论，这边泛指净月潭，而不是前段大坝。",
+      "prediction_reason": "全园游览讨论回指文首景区主题",
+      "review_status": "confirmed",
+      "reference_kind": "text_anaphora",
+      "referent_description": null,
+      "human_interpretation": null
+    }
+  ]
+}

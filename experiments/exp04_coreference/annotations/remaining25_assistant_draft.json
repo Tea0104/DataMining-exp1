@@ -1,0 +1,3274 @@
+{
+  "schema_version": "assistant_explanations_1",
+  "annotation_kind": "assistant_only_not_human_reviewed",
+  "created_date": "2026-11-02",
+  "scope_docs": [
+    "TS_OFF_001",
+    "TS_OFF_002",
+    "TS_OFF_003",
+    "TS_OFF_004",
+    "TS_OFF_005",
+    "TS_NOTE_002",
+    "TS_NOTE_003",
+    "TS_NOTE_004",
+    "ZJJ_OFF_001",
+    "ZJJ_OFF_002",
+    "ZJJ_OFF_003",
+    "ZJJ_OFF_004",
+    "ZJJ_OFF_005",
+    "ZJJ_NOTE_001",
+    "ZJJ_NOTE_002",
+    "ZJJ_NOTE_003",
+    "ZJJ_NOTE_004",
+    "JYT_OFF_001",
+    "JYT_OFF_002",
+    "JYT_OFF_003",
+    "JYT_OFF_004",
+    "JYT_OFF_005",
+    "JYT_NOTE_002",
+    "JYT_NOTE_003",
+    "JYT_NOTE_005"
+  ],
+  "excluded_human_reviewed_docs": [
+    "TS_NOTE_001",
+    "TS_NOTE_005",
+    "ZJJ_NOTE_005",
+    "JYT_NOTE_001",
+    "JYT_NOTE_004"
+  ],
+  "items": [
+    {
+      "number": 1,
+      "sample_id": "TS_OFF_001:77:78",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 77,
+        "end": 78,
+        "text": "这"
+      },
+      "referent_description": "泰山中路游览线，也就是红门登山的传统线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 6,
+          "end": 13,
+          "text": "泰山中路游览线"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 2,
+      "sample_id": "TS_OFF_001:397:398",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 397,
+        "end": 398,
+        "text": "此"
+      },
+      "referent_description": "中天门",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 388,
+          "end": 391,
+          "text": "中天门"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 3,
+      "sample_id": "TS_OFF_001:412:414",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 412,
+        "end": 414,
+        "text": "此处"
+      },
+      "referent_description": "中天门",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 388,
+          "end": 391,
+          "text": "中天门"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 4,
+      "sample_id": "TS_OFF_001:563:565",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 563,
+        "end": 565,
+        "text": "这里"
+      },
+      "referent_description": "南天门",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 542,
+          "end": 545,
+          "text": "南天门"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 5,
+      "sample_id": "TS_OFF_001:677:678",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 677,
+        "end": 678,
+        "text": "这"
+      },
+      "referent_description": "本篇介绍的泰山中路／红门登山线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 6,
+          "end": 13,
+          "text": "泰山中路游览线"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 6,
+      "sample_id": "TS_OFF_001:787:788",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 787,
+        "end": 788,
+        "text": "此"
+      },
+      "referent_description": "全程攀登泰山需要体力和毅力这件事",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 771,
+          "end": 785,
+          "text": "全程攀登需要一定的体力和毅力"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 7,
+      "sample_id": "TS_OFF_002:66:67",
+      "doc_id": "TS_OFF_002",
+      "pronoun": {
+        "start": 66,
+        "end": 67,
+        "text": "此"
+      },
+      "referent_description": "天外村—中天门—岱顶这条游览线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 8,
+          "end": 14,
+          "text": "天外村游览路"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 8,
+      "sample_id": "TS_OFF_002:376:377",
+      "doc_id": "TS_OFF_002",
+      "pronoun": {
+        "start": 376,
+        "end": 377,
+        "text": "此"
+      },
+      "referent_description": "天外村—中天门—岱顶这条游览线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 8,
+          "end": 14,
+          "text": "天外村游览路"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 9,
+      "sample_id": "TS_OFF_003:180:181",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 180,
+        "end": 181,
+        "text": "它"
+      },
+      "referent_description": "元君庙",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 154,
+          "end": 157,
+          "text": "元君庙"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 10,
+      "sample_id": "TS_OFF_003:199:200",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 199,
+        "end": 200,
+        "text": "这"
+      },
+      "referent_description": "元君庙院中眼前的两棵树；作指示限定，具体树木由后文说明",
+      "reference_kind": "situational_deixis",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 11,
+      "sample_id": "TS_OFF_003:230:232",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 230,
+        "end": 232,
+        "text": "它们"
+      },
+      "referent_description": "院中相对而生、被称为龙柏凤松的柏树与松树",
+      "reference_kind": "object_group",
+      "supporting_text_spans": [
+        {
+          "start": 202,
+          "end": 207,
+          "text": "柏树和松树"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 12,
+      "sample_id": "TS_OFF_003:444:446",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 444,
+        "end": 446,
+        "text": "这里"
+      },
+      "referent_description": "碧峰寺，也称铁佛寺",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 306,
+          "end": 309,
+          "text": "碧峰寺"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 13,
+      "sample_id": "TS_OFF_003:479:480",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 479,
+        "end": 480,
+        "text": "此"
+      },
+      "referent_description": "碧峰寺，也称铁佛寺",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 306,
+          "end": 309,
+          "text": "碧峰寺"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 14,
+      "sample_id": "TS_OFF_003:604:605",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 604,
+        "end": 605,
+        "text": "这"
+      },
+      "referent_description": "前面描述的溪水流过彩色石纹的景观，即后面命名的彩石溪",
+      "reference_kind": "scene",
+      "supporting_text_spans": [
+        {
+          "start": 581,
+          "end": 592,
+          "text": "溪底一条条石纹五彩纷呈"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 15,
+      "sample_id": "TS_OFF_003:645:646",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 645,
+        "end": 646,
+        "text": "此"
+      },
+      "referent_description": "彩石溪所在的溪谷区域",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 611,
+          "end": 614,
+          "text": "彩石溪"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 16,
+      "sample_id": "TS_OFF_003:959:960",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 959,
+        "end": 960,
+        "text": "此"
+      },
+      "referent_description": "龙湾所在之处，溪水在此汇成湾",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 919,
+          "end": 921,
+          "text": "龙湾"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 17,
+      "sample_id": "TS_OFF_003:1006:1008",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 1006,
+        "end": 1008,
+        "text": "此处"
+      },
+      "referent_description": "龙湾一带",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 977,
+          "end": 979,
+          "text": "龙湾"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 18,
+      "sample_id": "TS_OFF_003:1117:1118",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 1117,
+        "end": 1118,
+        "text": "它"
+      },
+      "referent_description": "一线天这一地质景观",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1079,
+          "end": 1082,
+          "text": "一线天"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 19,
+      "sample_id": "TS_OFF_004:120:121",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 120,
+        "end": 121,
+        "text": "这"
+      },
+      "referent_description": "东御道这条登山通道",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 7,
+          "end": 10,
+          "text": "东御道"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 20,
+      "sample_id": "TS_OFF_004:138:139",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 138,
+        "end": 139,
+        "text": "该"
+      },
+      "referent_description": "刚提到的泰山东御道坊",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 130,
+          "end": 136,
+          "text": "泰山东御道坊"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 21,
+      "sample_id": "TS_OFF_004:213:215",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 213,
+        "end": 215,
+        "text": "此处"
+      },
+      "referent_description": "东御道牌坊所在的登山入口",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 7,
+          "end": 12,
+          "text": "东御道牌坊"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 22,
+      "sample_id": "TS_OFF_004:495:497",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 495,
+        "end": 497,
+        "text": "此地"
+      },
+      "referent_description": "汉阙广场",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 489,
+          "end": 493,
+          "text": "汉阙广场"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 23,
+      "sample_id": "TS_OFF_004:694:695",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 694,
+        "end": 695,
+        "text": "此"
+      },
+      "referent_description": "前面描述的汉武帝从泰山东麓骑马登山之路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 637,
+          "end": 645,
+          "text": "泰山东麓骑马登山"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 24,
+      "sample_id": "TS_OFF_004:884:886",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 884,
+        "end": 886,
+        "text": "此处"
+      },
+      "referent_description": "甘泉榭所在之处",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 824,
+          "end": 827,
+          "text": "甘泉榭"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 25,
+      "sample_id": "TS_OFF_004:1023:1024",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 1023,
+        "end": 1024,
+        "text": "此"
+      },
+      "referent_description": "启天亭",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 989,
+          "end": 992,
+          "text": "启天亭"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 26,
+      "sample_id": "TS_OFF_004:1104:1106",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 1104,
+        "end": 1106,
+        "text": "此处"
+      },
+      "referent_description": "未央湖所在之处，不是汉代未央宫",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1061,
+          "end": 1064,
+          "text": "未央湖"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 27,
+      "sample_id": "TS_OFF_005:160:162",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 160,
+        "end": 162,
+        "text": "这里"
+      },
+      "referent_description": "泰山天烛峰至后石坞登山线路一带",
+      "reference_kind": "area",
+      "supporting_text_spans": [
+        {
+          "start": 96,
+          "end": 103,
+          "text": "泰山天烛峰景区"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 28,
+      "sample_id": "TS_OFF_005:286:288",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 286,
+        "end": 288,
+        "text": "这里"
+      },
+      "referent_description": "泰山天烛峰至后石坞的自然景区一带",
+      "reference_kind": "area",
+      "supporting_text_spans": [
+        {
+          "start": 96,
+          "end": 103,
+          "text": "泰山天烛峰景区"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 29,
+      "sample_id": "TS_OFF_005:351:353",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 351,
+        "end": 353,
+        "text": "这里"
+      },
+      "referent_description": "天烛峰景区及这条登山线路一带",
+      "reference_kind": "area",
+      "supporting_text_spans": [
+        {
+          "start": 96,
+          "end": 103,
+          "text": "泰山天烛峰景区"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 30,
+      "sample_id": "TS_OFF_005:387:389",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 387,
+        "end": 389,
+        "text": "这儿"
+      },
+      "referent_description": "天烛峰景区及这条登山线路一带",
+      "reference_kind": "area",
+      "supporting_text_spans": [
+        {
+          "start": 96,
+          "end": 103,
+          "text": "泰山天烛峰景区"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 31,
+      "sample_id": "TS_OFF_005:404:405",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 404,
+        "end": 405,
+        "text": "这"
+      },
+      "referent_description": "天烛峰通往后石坞的游览路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 95,
+          "end": 112,
+          "text": "从泰山天烛峰景区到山顶的后石坞景区"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 32,
+      "sample_id": "TS_OFF_005:681:682",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 681,
+        "end": 682,
+        "text": "此"
+      },
+      "referent_description": "小天烛峰旁形成的瀑布，即天烛瀑",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 629,
+          "end": 632,
+          "text": "天烛瀑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 33,
+      "sample_id": "TS_OFF_005:696:697",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 696,
+        "end": 697,
+        "text": "这"
+      },
+      "referent_description": "千尺瀑、千丈瀑这两个形容瀑布很长的旧称",
+      "reference_kind": "name_group",
+      "supporting_text_spans": [
+        {
+          "start": 684,
+          "end": 687,
+          "text": "千尺瀑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 34,
+      "sample_id": "TS_OFF_005:729:730",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 729,
+        "end": 730,
+        "text": "那"
+      },
+      "referent_description": "被比作高垂白练的天烛瀑",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 720,
+          "end": 723,
+          "text": "天烛瀑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 35,
+      "sample_id": "TS_OFF_005:776:777",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 776,
+        "end": 777,
+        "text": "此"
+      },
+      "referent_description": "洗鹤湾",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 763,
+          "end": 766,
+          "text": "洗鹤湾"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 36,
+      "sample_id": "TS_OFF_005:856:858",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 856,
+        "end": 858,
+        "text": "此地"
+      },
+      "referent_description": "后石坞",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 834,
+          "end": 837,
+          "text": "后石坞"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 37,
+      "sample_id": "TS_OFF_005:927:929",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 927,
+        "end": 929,
+        "text": "此处"
+      },
+      "referent_description": "后石坞",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 907,
+          "end": 910,
+          "text": "后石坞"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 38,
+      "sample_id": "TS_OFF_005:1383:1384",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1383,
+        "end": 1384,
+        "text": "该"
+      },
+      "referent_description": "圣母寝宫楼",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 1377,
+          "end": 1382,
+          "text": "圣母寝宫楼"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 39,
+      "sample_id": "TS_OFF_005:1432:1433",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1432,
+        "end": 1433,
+        "text": "此"
+      },
+      "referent_description": "推测指元君庙这一修炼场所；具体指哪个院落或楼阁不能仅凭这段文字确定",
+      "reference_kind": "ambiguous",
+      "supporting_text_spans": [
+        {
+          "start": 1132,
+          "end": 1135,
+          "text": "元君庙"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 40,
+      "sample_id": "TS_OFF_005:1439:1441",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1439,
+        "end": 1441,
+        "text": "这里"
+      },
+      "referent_description": "推测指元君庙内被称为玉女修真处的修炼场所，具体范围不够明确",
+      "reference_kind": "ambiguous",
+      "supporting_text_spans": [
+        {
+          "start": 1132,
+          "end": 1135,
+          "text": "元君庙"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 41,
+      "sample_id": "TS_OFF_005:1599:1600",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1599,
+        "end": 1600,
+        "text": "此"
+      },
+      "referent_description": "黄花洞内的泉水，前文称灵异泉",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1588,
+          "end": 1591,
+          "text": "灵异泉"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 42,
+      "sample_id": "TS_OFF_005:1718:1719",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1718,
+        "end": 1719,
+        "text": "此"
+      },
+      "referent_description": "莲花洞旁题刻所指的现场地点；具体落点未明确",
+      "reference_kind": "situational_deixis",
+      "supporting_text_spans": [
+        {
+          "start": 1710,
+          "end": 1713,
+          "text": "莲花洞"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 43,
+      "sample_id": "TS_OFF_005:1868:1869",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1868,
+        "end": 1869,
+        "text": "此"
+      },
+      "referent_description": "1988年胡耀邦题写泰山姊妹松之后",
+      "reference_kind": "event_time",
+      "supporting_text_spans": [
+        {
+          "start": 1822,
+          "end": 1827,
+          "text": "1988年"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 44,
+      "sample_id": "TS_OFF_005:1892:1893",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1892,
+        "end": 1893,
+        "text": "她"
+      },
+      "referent_description": "泰山姊妹松；用她是拟人写法，不是指某位女性",
+      "reference_kind": "personification",
+      "supporting_text_spans": [
+        {
+          "start": 1871,
+          "end": 1876,
+          "text": "泰山姊妹松"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 45,
+      "sample_id": "TS_OFF_005:1920:1921",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1920,
+        "end": 1921,
+        "text": "她"
+      },
+      "referent_description": "泰山姊妹松；拟人写法",
+      "reference_kind": "personification",
+      "supporting_text_spans": [
+        {
+          "start": 1871,
+          "end": 1876,
+          "text": "泰山姊妹松"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 46,
+      "sample_id": "TS_OFF_005:1949:1950",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1949,
+        "end": 1950,
+        "text": "她"
+      },
+      "referent_description": "泰山姊妹松；拟人写法",
+      "reference_kind": "personification",
+      "supporting_text_spans": [
+        {
+          "start": 1871,
+          "end": 1876,
+          "text": "泰山姊妹松"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 47,
+      "sample_id": "TS_NOTE_002:4:5",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4,
+        "end": 5,
+        "text": "这"
+      },
+      "referent_description": "当前这篇泰山行程游记；属于对文章自身的指示",
+      "reference_kind": "document_deixis",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 48,
+      "sample_id": "TS_NOTE_002:40:42",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 40,
+        "end": 42,
+        "text": "这个"
+      },
+      "referent_description": "山东之旅中最核心、最累的泰山这段行程",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 22,
+          "end": 33,
+          "text": "最核心、最累的一段旅程"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 49,
+      "sample_id": "TS_NOTE_002:496:497",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 496,
+        "end": 497,
+        "text": "这"
+      },
+      "referent_description": "红门—中天门—南天门—玉皇顶的红门线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 481,
+          "end": 495,
+          "text": "红门—中天门—南天门—玉皇顶"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 50,
+      "sample_id": "TS_NOTE_002:553:554",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 553,
+        "end": 554,
+        "text": "这"
+      },
+      "referent_description": "天外村—中天门—南天门—玉皇顶的天外村线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 537,
+          "end": 552,
+          "text": "天外村—中天门—南天门—玉皇顶"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 51,
+      "sample_id": "TS_NOTE_002:710:711",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 710,
+        "end": 711,
+        "text": "这"
+      },
+      "referent_description": "经桃花峪、桃花源、南天门到玉皇顶的桃花源线路",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 646,
+          "end": 651,
+          "text": "桃花源线路"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 52,
+      "sample_id": "TS_NOTE_002:1046:1047",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1046,
+        "end": 1047,
+        "text": "这"
+      },
+      "referent_description": "不准备、也不使用登山杖的习惯",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 1024,
+          "end": 1031,
+          "text": "没有准备登山杖"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 53,
+      "sample_id": "TS_NOTE_002:1236:1237",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1236,
+        "end": 1237,
+        "text": "这"
+      },
+      "referent_description": "前句所说登临泰山封禅的12位皇帝",
+      "reference_kind": "person_group",
+      "supporting_text_spans": [
+        {
+          "start": 1220,
+          "end": 1225,
+          "text": "12位皇帝"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 54,
+      "sample_id": "TS_NOTE_002:1484:1486",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1484,
+        "end": 1486,
+        "text": "这里"
+      },
+      "referent_description": "中天门小广场",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1477,
+          "end": 1483,
+          "text": "中天门小广场"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 55,
+      "sample_id": "TS_NOTE_002:1553:1555",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1553,
+        "end": 1555,
+        "text": "这里"
+      },
+      "referent_description": "一路向上可供补给的连锁店等店铺",
+      "reference_kind": "place_group",
+      "supporting_text_spans": [
+        {
+          "start": 1544,
+          "end": 1547,
+          "text": "连锁店"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 56,
+      "sample_id": "TS_NOTE_002:1691:1693",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1691,
+        "end": 1693,
+        "text": "这里"
+      },
+      "referent_description": "增福庙及附近补给点",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1687,
+          "end": 1690,
+          "text": "增福庙"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 57,
+      "sample_id": "TS_NOTE_002:1711:1713",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1711,
+        "end": 1713,
+        "text": "这个"
+      },
+      "referent_description": "增福庙这一补给点",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1687,
+          "end": 1690,
+          "text": "增福庙"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 58,
+      "sample_id": "TS_NOTE_002:1816:1818",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1816,
+        "end": 1818,
+        "text": "此处"
+      },
+      "referent_description": "斩云剑景点所在的谷口",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1811,
+          "end": 1814,
+          "text": "斩云剑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 59,
+      "sample_id": "TS_NOTE_002:1879:1880",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1879,
+        "end": 1880,
+        "text": "这"
+      },
+      "referent_description": "背着矿泉水等物资上山的搬运工，也就是挑山工",
+      "reference_kind": "person_group",
+      "supporting_text_spans": [
+        {
+          "start": 1865,
+          "end": 1868,
+          "text": "搬运工"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 60,
+      "sample_id": "TS_NOTE_002:2251:2252",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2251,
+        "end": 2252,
+        "text": "该"
+      },
+      "referent_description": "秦始皇避雨、后来获封五大夫的那棵大树",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 2237,
+          "end": 2239,
+          "text": "大树"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 61,
+      "sample_id": "TS_NOTE_002:2271:2272",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2271,
+        "end": 2272,
+        "text": "该"
+      },
+      "referent_description": "原先获封五大夫、后来遭雷雨毁坏的树",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 2237,
+          "end": 2239,
+          "text": "大树"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 62,
+      "sample_id": "TS_NOTE_002:2792:2794",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2792,
+        "end": 2794,
+        "text": "此处"
+      },
+      "referent_description": "升仙坊一带",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 2787,
+          "end": 2790,
+          "text": "升仙坊"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 63,
+      "sample_id": "TS_NOTE_002:2835:2836",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2835,
+        "end": 2836,
+        "text": "此"
+      },
+      "referent_description": "升仙坊一带",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 2829,
+          "end": 2832,
+          "text": "升仙坊"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 64,
+      "sample_id": "TS_NOTE_002:3088:3090",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3088,
+        "end": 3090,
+        "text": "这个"
+      },
+      "referent_description": "攀登中天门至南天门并登顶观景的过程",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 3012,
+          "end": 3026,
+          "text": "攀登泰山中天门至南天门的旅程"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 65,
+      "sample_id": "TS_NOTE_002:3363:3364",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3363,
+        "end": 3364,
+        "text": "这"
+      },
+      "referent_description": "刻有五岳真形图的石碑及图案",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 3334,
+          "end": 3339,
+          "text": "五岳真形图"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 66,
+      "sample_id": "TS_NOTE_002:3493:3495",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3493,
+        "end": 3495,
+        "text": "这里"
+      },
+      "referent_description": "望吴胜迹石坊所在处，即望吴峰",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 3487,
+          "end": 3491,
+          "text": "望吴胜迹"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 67,
+      "sample_id": "TS_NOTE_002:4347:4348",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4347,
+        "end": 4348,
+        "text": "这"
+      },
+      "referent_description": "五岳独尊石刻",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 4340,
+          "end": 4346,
+          "text": "五岳独尊石刻"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 68,
+      "sample_id": "TS_NOTE_002:4408:4410",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4408,
+        "end": 4410,
+        "text": "这儿"
+      },
+      "referent_description": "五岳独尊石刻周围的题刻区域",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 4379,
+          "end": 4385,
+          "text": "五岳独尊石碑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 69,
+      "sample_id": "TS_NOTE_002:4572:4573",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4572,
+        "end": 4573,
+        "text": "这"
+      },
+      "referent_description": "刚引用的孔子登东山而小鲁、登泰山而小天下这句话",
+      "reference_kind": "quotation",
+      "supporting_text_spans": [
+        {
+          "start": 4555,
+          "end": 4571,
+          "text": "孔子登东山而小鲁，登泰山而小天下"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 70,
+      "sample_id": "TS_NOTE_002:4672:4673",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4672,
+        "end": 4673,
+        "text": "该"
+      },
+      "referent_description": "玉皇庙下方高6米、没有文字的石碑，后文称无字碑",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 4649,
+          "end": 4651,
+          "text": "石碑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 71,
+      "sample_id": "TS_NOTE_002:4691:4692",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4691,
+        "end": 4692,
+        "text": "此"
+      },
+      "referent_description": "同一块没有文字的石碑，后文称无字碑",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 4649,
+          "end": 4651,
+          "text": "石碑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 72,
+      "sample_id": "TS_NOTE_002:4716:4717",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4716,
+        "end": 4717,
+        "text": "这"
+      },
+      "referent_description": "前面描述的无文字石碑，即无字碑",
+      "reference_kind": "object",
+      "supporting_text_spans": [
+        {
+          "start": 4649,
+          "end": 4651,
+          "text": "石碑"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 73,
+      "sample_id": "TS_NOTE_002:4911:4912",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4911,
+        "end": 4912,
+        "text": "这"
+      },
+      "referent_description": "作者选择的后山天烛峰下山路线",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 4884,
+          "end": 4892,
+          "text": "从后山天烛峰下山"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 74,
+      "sample_id": "TS_NOTE_002:4925:4926",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4925,
+        "end": 4926,
+        "text": "此"
+      },
+      "referent_description": "攻略声称这条路线没有难度这一说法；作者对此否定",
+      "reference_kind": "proposition",
+      "supporting_text_spans": [
+        {
+          "start": 4911,
+          "end": 4919,
+          "text": "这条路线没有难度"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 75,
+      "sample_id": "TS_NOTE_002:5016:5017",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5016,
+        "end": 5017,
+        "text": "这"
+      },
+      "referent_description": "泰山后山天烛峰路线，也就是秦御道",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 5004,
+          "end": 5011,
+          "text": "后山天烛峰路线"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 76,
+      "sample_id": "TS_NOTE_002:5219:5221",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5219,
+        "end": 5221,
+        "text": "这个"
+      },
+      "referent_description": "后石坞景区",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 5213,
+          "end": 5218,
+          "text": "后石坞景区"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 77,
+      "sample_id": "TS_NOTE_002:5284:5286",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5284,
+        "end": 5286,
+        "text": "这个"
+      },
+      "referent_description": "后石坞景区",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 5281,
+          "end": 5284,
+          "text": "后石坞"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 78,
+      "sample_id": "TS_NOTE_002:5323:5325",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5323,
+        "end": 5325,
+        "text": "他们"
+      },
+      "referent_description": "在后石坞遇到的三三两两的游人",
+      "reference_kind": "person_group",
+      "supporting_text_spans": [
+        {
+          "start": 5295,
+          "end": 5297,
+          "text": "游人"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 79,
+      "sample_id": "TS_NOTE_002:5338:5340",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5338,
+        "end": 5340,
+        "text": "那边"
+      },
+      "referent_description": "元君庙所在方向",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 5335,
+          "end": 5338,
+          "text": "元君庙"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 80,
+      "sample_id": "TS_NOTE_002:5598:5599",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5598,
+        "end": 5599,
+        "text": "他"
+      },
+      "referent_description": "无其他原因；无他是固定表达，这里的他不是指某个人",
+      "reference_kind": "non_pronoun_usage",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 81,
+      "sample_id": "TS_NOTE_002:5718:5719",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5718,
+        "end": 5719,
+        "text": "他"
+      },
+      "referent_description": "仙鹤湾检查站的工作人员",
+      "reference_kind": "person",
+      "supporting_text_spans": [
+        {
+          "start": 5707,
+          "end": 5711,
+          "text": "工作人员"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 82,
+      "sample_id": "TS_NOTE_002:5743:5745",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5743,
+        "end": 5745,
+        "text": "这里"
+      },
+      "referent_description": "仙鹤湾检查站附近",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 5698,
+          "end": 5701,
+          "text": "检查站"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 83,
+      "sample_id": "TS_NOTE_002:5944:5946",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5944,
+        "end": 5946,
+        "text": "这里"
+      },
+      "referent_description": "封禅大典的演出场地",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 5901,
+          "end": 5910,
+          "text": "封禅大典演出的地方"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 84,
+      "sample_id": "TS_NOTE_002:6084:6086",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6084,
+        "end": 6086,
+        "text": "这个"
+      },
+      "referent_description": "前面列出的矿泉水2元、登山杖5元这一价格水平",
+      "reference_kind": "price_level",
+      "supporting_text_spans": [
+        {
+          "start": 6072,
+          "end": 6083,
+          "text": "矿泉水2元，登山杖5元"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 85,
+      "sample_id": "TS_NOTE_002:6415:6416",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6415,
+        "end": 6416,
+        "text": "这"
+      },
+      "referent_description": "天烛峰下山路线",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 6385,
+          "end": 6390,
+          "text": "天烛峰路线"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 86,
+      "sample_id": "TS_NOTE_002:6467:6468",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6467,
+        "end": 6468,
+        "text": "这"
+      },
+      "referent_description": "天烛峰下山路线",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 6385,
+          "end": 6390,
+          "text": "天烛峰路线"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 87,
+      "sample_id": "TS_NOTE_003:633:634",
+      "doc_id": "TS_NOTE_003",
+      "pronoun": {
+        "start": 633,
+        "end": 634,
+        "text": "这"
+      },
+      "referent_description": "作者23—24日登泰山、看日出、游岱庙的整次双休日旅行，不是某个车站",
+      "reference_kind": "event_summary",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 88,
+      "sample_id": "TS_NOTE_004:61:62",
+      "doc_id": "TS_NOTE_004",
+      "pronoun": {
+        "start": 61,
+        "end": 62,
+        "text": "这"
+      },
+      "referent_description": "当前这篇说走就走的泰山出行记录",
+      "reference_kind": "document_deixis",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 89,
+      "sample_id": "TS_NOTE_004:70:71",
+      "doc_id": "TS_NOTE_004",
+      "pronoun": {
+        "start": 70,
+        "end": 71,
+        "text": "这"
+      },
+      "referent_description": "后面将介绍的周六周日两天泰山出行安排",
+      "reference_kind": "cataphoric_event",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 90,
+      "sample_id": "ZJJ_OFF_002:25:26",
+      "doc_id": "ZJJ_OFF_002",
+      "pronoun": {
+        "start": 25,
+        "end": 26,
+        "text": "此"
+      },
+      "referent_description": "本篇标题所指的杨家界—袁家界—金鞭溪徒步路线",
+      "reference_kind": "title_reference",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 91,
+      "sample_id": "ZJJ_OFF_002:60:61",
+      "doc_id": "ZJJ_OFF_002",
+      "pronoun": {
+        "start": 60,
+        "end": 61,
+        "text": "此"
+      },
+      "referent_description": "本篇杨家界—袁家界—金鞭溪徒步路线",
+      "reference_kind": "title_reference",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 92,
+      "sample_id": "ZJJ_OFF_003:41:42",
+      "doc_id": "ZJJ_OFF_003",
+      "pronoun": {
+        "start": 41,
+        "end": 42,
+        "text": "此"
+      },
+      "referent_description": "本篇标题所指的十里画廊—天子山徒步路线",
+      "reference_kind": "title_reference",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 93,
+      "sample_id": "ZJJ_OFF_003:197:198",
+      "doc_id": "ZJJ_OFF_003",
+      "pronoun": {
+        "start": 197,
+        "end": 198,
+        "text": "此"
+      },
+      "referent_description": "前文描述的十里画廊登天子山、再经南天门下行的整条路线",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 65,
+          "end": 69,
+          "text": "十里画廊"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 94,
+      "sample_id": "ZJJ_OFF_004:49:50",
+      "doc_id": "ZJJ_OFF_004",
+      "pronoun": {
+        "start": 49,
+        "end": 50,
+        "text": "此"
+      },
+      "referent_description": "本篇黄石寨—金鞭溪—十里画廊游览路线",
+      "reference_kind": "title_reference",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 95,
+      "sample_id": "ZJJ_OFF_005:42:43",
+      "doc_id": "ZJJ_OFF_005",
+      "pronoun": {
+        "start": 42,
+        "end": 43,
+        "text": "此"
+      },
+      "referent_description": "本篇袁家界—杨家界—天子山的山上大环线",
+      "reference_kind": "title_reference",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 96,
+      "sample_id": "ZJJ_NOTE_001:187:188",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 187,
+        "end": 188,
+        "text": "此"
+      },
+      "referent_description": "酒店对面的天门山索道站附近，A、B、C线均在该区域",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 174,
+          "end": 181,
+          "text": "天门山索道A线"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 97,
+      "sample_id": "ZJJ_NOTE_001:295:297",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 295,
+        "end": 297,
+        "text": "这个"
+      },
+      "referent_description": "富蓝特·和酒店（张家界天门山店）",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 147,
+          "end": 154,
+          "text": "富蓝特·和酒店"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 98,
+      "sample_id": "ZJJ_NOTE_001:422:424",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 422,
+        "end": 424,
+        "text": "那个"
+      },
+      "referent_description": "游客事先预约的入园时间段",
+      "reference_kind": "time",
+      "supporting_text_spans": [
+        {
+          "start": 408,
+          "end": 414,
+          "text": "预约的时间段"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 99,
+      "sample_id": "ZJJ_NOTE_001:803:804",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 803,
+        "end": 804,
+        "text": "这"
+      },
+      "referent_description": "从天子山环保车乘车点前往杨家界这一段车程",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 784,
+          "end": 802,
+          "text": "天子山的环保车乘车点排队坐车去杨家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 100,
+      "sample_id": "ZJJ_NOTE_001:1298:1299",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1298,
+        "end": 1299,
+        "text": "那"
+      },
+      "referent_description": "天子山上当时雨雾中的山头；指示限定",
+      "reference_kind": "situational_deixis",
+      "supporting_text_spans": [
+        {
+          "start": 1294,
+          "end": 1297,
+          "text": "天子山"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 101,
+      "sample_id": "ZJJ_NOTE_001:1890:1891",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1890,
+        "end": 1891,
+        "text": "它"
+      },
+      "referent_description": "黄石寨山上的猕猴",
+      "reference_kind": "animal",
+      "supporting_text_spans": [
+        {
+          "start": 1880,
+          "end": 1882,
+          "text": "猕猴"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 102,
+      "sample_id": "ZJJ_NOTE_001:1905:1906",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1905,
+        "end": 1906,
+        "text": "它"
+      },
+      "referent_description": "黄石寨山上的猕猴",
+      "reference_kind": "animal",
+      "supporting_text_spans": [
+        {
+          "start": 1880,
+          "end": 1882,
+          "text": "猕猴"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 103,
+      "sample_id": "ZJJ_NOTE_001:2067:2068",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 2067,
+        "end": 2068,
+        "text": "这"
+      },
+      "referent_description": "前文介绍的2025年7月23日和24日两天",
+      "reference_kind": "time",
+      "supporting_text_spans": [
+        {
+          "start": 302,
+          "end": 315,
+          "text": "2025.7.23和24号"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 104,
+      "sample_id": "ZJJ_NOTE_002:78:79",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 78,
+        "end": 79,
+        "text": "这"
+      },
+      "referent_description": "作者一家春节到张家界的这次旅行",
+      "reference_kind": "event_summary",
+      "supporting_text_spans": [
+        {
+          "start": 46,
+          "end": 50,
+          "text": "大年初一"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 105,
+      "sample_id": "ZJJ_NOTE_002:113:114",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 113,
+        "end": 114,
+        "text": "这"
+      },
+      "referent_description": "同一次春节张家界旅程",
+      "reference_kind": "event_summary",
+      "supporting_text_spans": [
+        {
+          "start": 63,
+          "end": 68,
+          "text": "到了张家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 106,
+      "sample_id": "ZJJ_NOTE_002:394:395",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 394,
+        "end": 395,
+        "text": "这"
+      },
+      "referent_description": "当天从天子阁下山到十里长廊等处的游览行程日",
+      "reference_kind": "event_time",
+      "supporting_text_spans": [
+        {
+          "start": 358,
+          "end": 365,
+          "text": "从天子阁走下山"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 107,
+      "sample_id": "ZJJ_NOTE_002:431:433",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 431,
+        "end": 433,
+        "text": "这里"
+      },
+      "referent_description": "张家界国家森林公园当日游览的山中区域；具体地点未唯一确定",
+      "reference_kind": "ambiguous",
+      "supporting_text_spans": [
+        {
+          "start": 406,
+          "end": 409,
+          "text": "张家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 108,
+      "sample_id": "ZJJ_NOTE_002:458:459",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 458,
+        "end": 459,
+        "text": "这"
+      },
+      "referent_description": "前面描述的雾蒙蒙、云雾缭绕的游览感受",
+      "reference_kind": "scene",
+      "supporting_text_spans": [
+        {
+          "start": 431,
+          "end": 437,
+          "text": "这里雾蒙蒙的"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 109,
+      "sample_id": "ZJJ_NOTE_002:728:729",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 728,
+        "end": 729,
+        "text": "那"
+      },
+      "referent_description": "预报雨过天晴的那一天，即门票有效期的第4天",
+      "reference_kind": "time",
+      "supporting_text_spans": [
+        {
+          "start": 724,
+          "end": 728,
+          "text": "雨过天晴"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 110,
+      "sample_id": "ZJJ_NOTE_002:802:803",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 802,
+        "end": 803,
+        "text": "这"
+      },
+      "referent_description": "乘百龙天梯88秒垂直登顶这一段过程",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 778,
+          "end": 782,
+          "text": "百龙天梯"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 111,
+      "sample_id": "ZJJ_NOTE_002:833:834",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 833,
+        "end": 834,
+        "text": "该"
+      },
+      "referent_description": "充当风景绝佳的视频拍摄点这一用途",
+      "reference_kind": "function",
+      "supporting_text_spans": [
+        {
+          "start": 816,
+          "end": 821,
+          "text": "视频拍摄点"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 112,
+      "sample_id": "ZJJ_NOTE_002:884:886",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 884,
+        "end": 886,
+        "text": "那边"
+      },
+      "referent_description": "袁家界稍微能看清景色的观景台附近",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 876,
+          "end": 879,
+          "text": "观景台"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 113,
+      "sample_id": "ZJJ_NOTE_002:902:903",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 902,
+        "end": 903,
+        "text": "此"
+      },
+      "referent_description": "正在游览和拍照的袁家界观景区域",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 843,
+          "end": 846,
+          "text": "袁家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 114,
+      "sample_id": "ZJJ_NOTE_002:942:944",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 942,
+        "end": 944,
+        "text": "这些"
+      },
+      "referent_description": "乘杨家界索道时眼前披着云雾的石柱，并非某个单独地名",
+      "reference_kind": "situational_deixis",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 115,
+      "sample_id": "ZJJ_NOTE_002:1012:1013",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 1012,
+        "end": 1013,
+        "text": "此"
+      },
+      "referent_description": "完成当天森林公园游览并乘索道下山的这个时点",
+      "reference_kind": "event_time",
+      "supporting_text_spans": [
+        {
+          "start": 963,
+          "end": 970,
+          "text": "天子山索道下山"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 116,
+      "sample_id": "ZJJ_NOTE_003:214:215",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 214,
+        "end": 215,
+        "text": "他"
+      },
+      "referent_description": "公交车上那位拿着车票、说自己等了很久的大哥",
+      "reference_kind": "person",
+      "supporting_text_spans": [
+        {
+          "start": 200,
+          "end": 203,
+          "text": "一大哥"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 117,
+      "sample_id": "ZJJ_NOTE_003:736:737",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 736,
+        "end": 737,
+        "text": "这"
+      },
+      "referent_description": "魅力湘西演出票中VIP正中间的11—17排",
+      "reference_kind": "position_group",
+      "supporting_text_spans": [
+        {
+          "start": 711,
+          "end": 717,
+          "text": "11-17排"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 118,
+      "sample_id": "ZJJ_NOTE_003:959:961",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 959,
+        "end": 961,
+        "text": "这里"
+      },
+      "referent_description": "推测指原文写作空中田车的下客换乘处，可能是空中田园换乘点；名称疑有笔误",
+      "reference_kind": "ambiguous",
+      "supporting_text_spans": [
+        {
+          "start": 945,
+          "end": 949,
+          "text": "空中田车"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 119,
+      "sample_id": "ZJJ_NOTE_003:1049:1051",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 1049,
+        "end": 1051,
+        "text": "这里"
+      },
+      "referent_description": "袁家界",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1029,
+          "end": 1032,
+          "text": "袁家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 120,
+      "sample_id": "ZJJ_NOTE_004:102:104",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 102,
+        "end": 104,
+        "text": "这个"
+      },
+      "referent_description": "张家界这个城市；同位指示限定",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 99,
+          "end": 102,
+          "text": "张家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 121,
+      "sample_id": "ZJJ_NOTE_004:364:365",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 364,
+        "end": 365,
+        "text": "这"
+      },
+      "referent_description": "袁家界、天子山和杨家界三个山顶景点",
+      "reference_kind": "place_group",
+      "supporting_text_spans": [
+        {
+          "start": 352,
+          "end": 363,
+          "text": "袁家界、天子山、杨家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 122,
+      "sample_id": "ZJJ_NOTE_004:593:595",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 593,
+        "end": 595,
+        "text": "这里"
+      },
+      "referent_description": "武陵源东门外、区政府所在地一带",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 581,
+          "end": 590,
+          "text": "武陵源区政府所在地"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 123,
+      "sample_id": "ZJJ_NOTE_004:755:756",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 755,
+        "end": 756,
+        "text": "这"
+      },
+      "referent_description": "西门→杨家界→袁家界→东门→天子山→杨家界的环线",
+      "reference_kind": "route",
+      "supporting_text_spans": [
+        {
+          "start": 707,
+          "end": 754,
+          "text": "西门（杨家界索道上行）-杨家界-袁家界（百龙天梯下行）-东门-（天子山索道上行）天子山-杨家界"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 124,
+      "sample_id": "ZJJ_NOTE_004:1257:1258",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 1257,
+        "end": 1258,
+        "text": "这"
+      },
+      "referent_description": "已经连续看过两天张家界地貌、正在游黄石寨的当时",
+      "reference_kind": "event_time",
+      "supporting_text_spans": [
+        {
+          "start": 1244,
+          "end": 1256,
+          "text": "已经看了2天的张家界地貌"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 125,
+      "sample_id": "JYT_NOTE_002:79:81",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 79,
+        "end": 81,
+        "text": "这个"
+      },
+      "referent_description": "净月潭公园",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 10,
+          "end": 15,
+          "text": "净月潭公园"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 126,
+      "sample_id": "JYT_NOTE_002:505:507",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 505,
+        "end": 507,
+        "text": "他们"
+      },
+      "referent_description": "推测指景区或观光车的运营管理方；前文没有明确说出这群管理人员",
+      "reference_kind": "ambiguous",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 127,
+      "sample_id": "JYT_NOTE_002:584:585",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 584,
+        "end": 585,
+        "text": "那"
+      },
+      "referent_description": "瓦萨博物馆",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 578,
+          "end": 583,
+          "text": "瓦萨博物馆"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 128,
+      "sample_id": "JYT_NOTE_002:740:741",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 740,
+        "end": 741,
+        "text": "此"
+      },
+      "referent_description": "瓦萨冰雪运动在长春多年推广这件事",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 720,
+          "end": 738,
+          "text": "瓦萨冰雪运动已经在长春有了多年的推广"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 129,
+      "sample_id": "JYT_NOTE_002:801:802",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 801,
+        "end": 802,
+        "text": "这"
+      },
+      "referent_description": "净月潭四季景色，尤其是冬季之美",
+      "reference_kind": "scene",
+      "supporting_text_spans": [
+        {
+          "start": 796,
+          "end": 800,
+          "text": "冬季之美"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 130,
+      "sample_id": "JYT_NOTE_002:848:849",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 848,
+        "end": 849,
+        "text": "这"
+      },
+      "referent_description": "公共游览区有人唱卡拉OK、自己感觉良好却干扰旁人的行为",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 836,
+          "end": 847,
+          "text": "有人在空旷处唱卡拉OK"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 131,
+      "sample_id": "JYT_NOTE_002:928:929",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 928,
+        "end": 929,
+        "text": "这"
+      },
+      "referent_description": "景区对噪声和游客干扰行为的管理",
+      "reference_kind": "management_topic",
+      "supporting_text_spans": [
+        {
+          "start": 863,
+          "end": 867,
+          "text": "一种骚扰"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 132,
+      "sample_id": "JYT_NOTE_002:1031:1032",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 1031,
+        "end": 1032,
+        "text": "这"
+      },
+      "referent_description": "作者眼前、可能由图片展示的一排杨树；前文没有这排树的明确介绍",
+      "reference_kind": "image_or_situational_deixis",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 133,
+      "sample_id": "JYT_NOTE_002:1116:1118",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 1116,
+        "end": 1118,
+        "text": "这个"
+      },
+      "referent_description": "净月潭公园",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 10,
+          "end": 15,
+          "text": "净月潭公园"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 134,
+      "sample_id": "JYT_NOTE_003:87:88",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 87,
+        "end": 88,
+        "text": "那"
+      },
+      "referent_description": "当天清晨起床、拉开窗帘的时候",
+      "reference_kind": "time",
+      "supporting_text_spans": [
+        {
+          "start": 71,
+          "end": 80,
+          "text": "当天我特地早早起床"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 135,
+      "sample_id": "JYT_NOTE_003:114:115",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 114,
+        "end": 115,
+        "text": "这"
+      },
+      "referent_description": "刚描述的清晨日光渐渐驱散黑暗的城市景色",
+      "reference_kind": "scene",
+      "supporting_text_spans": [
+        {
+          "start": 97,
+          "end": 113,
+          "text": "远方的天空日出的光芒逐渐驱散黑暗"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 136,
+      "sample_id": "JYT_NOTE_003:834:836",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 834,
+        "end": 836,
+        "text": "这里"
+      },
+      "referent_description": "森林浴场",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 829,
+          "end": 833,
+          "text": "森林浴场"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 137,
+      "sample_id": "JYT_NOTE_003:972:973",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 972,
+        "end": 973,
+        "text": "这"
+      },
+      "referent_description": "森林浴场步行栈道周围的林区",
+      "reference_kind": "area",
+      "supporting_text_spans": [
+        {
+          "start": 919,
+          "end": 930,
+          "text": "森林浴场两边有步行栈道"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 138,
+      "sample_id": "JYT_NOTE_003:992:993",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 992,
+        "end": 993,
+        "text": "这"
+      },
+      "referent_description": "长春这座城市；同位指示限定",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 990,
+          "end": 992,
+          "text": "长春"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 139,
+      "sample_id": "JYT_NOTE_003:1033:1034",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 1033,
+        "end": 1034,
+        "text": "这"
+      },
+      "referent_description": "高尔夫球场与湿地公园所在的接驳车终点区域",
+      "reference_kind": "area",
+      "supporting_text_spans": [
+        {
+          "start": 1023,
+          "end": 1033,
+          "text": "高尔夫球场、湿地公园"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 140,
+      "sample_id": "JYT_NOTE_003:1098:1100",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 1098,
+        "end": 1100,
+        "text": "这里"
+      },
+      "referent_description": "水库大坝及附近空旷区域",
+      "reference_kind": "place",
+      "supporting_text_spans": [
+        {
+          "start": 1090,
+          "end": 1094,
+          "text": "水库大坝"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 141,
+      "sample_id": "JYT_NOTE_005:197:198",
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 197,
+        "end": 198,
+        "text": "这"
+      },
+      "referent_description": "景区车可分站下车、约十分钟就有后续班车的游览安排",
+      "reference_kind": "event",
+      "supporting_text_spans": [
+        {
+          "start": 179,
+          "end": 196,
+          "text": "可以随时停下，每十分钟有一班后来车"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 142,
+      "sample_id": "JYT_NOTE_005:275:276",
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 275,
+        "end": 276,
+        "text": "那"
+      },
+      "referent_description": "作者游览净月潭的当天",
+      "reference_kind": "time",
+      "supporting_text_spans": [
+        {
+          "start": 44,
+          "end": 52,
+          "text": "游玩了净月潭公园"
+        }
+      ],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    },
+    {
+      "number": 143,
+      "sample_id": "JYT_NOTE_005:331:333",
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 331,
+        "end": 333,
+        "text": "这个"
+      },
+      "referent_description": "作者游览净月潭时的季节；从融雪景象推测是冬春交替，原文未给出精确季节",
+      "reference_kind": "inferred_time",
+      "supporting_text_spans": [],
+      "supporting_text_note": "支持解释的前文片段，不自动视为唯一正确的先行词边界。",
+      "review_status": "pending",
+      "reviewer": null,
+      "annotated_by": "assistant"
+    }
+  ],
+  "human_reviewed_items": 0,
+  "evaluation_use": "补充说明与阅读材料，不作为人工金标，不计算准确率。",
+  "source_text_sha256": {
+    "TS_OFF_001": "56b32c52dd7d862a7e2a15fe2366e34ade2e7ffabb48042b6def082cafe719eb",
+    "TS_OFF_002": "6072f3f52fbf2f1aff7bbe69a15febdfeb3fd59ac932f96750acb4107a42c88a",
+    "TS_OFF_003": "43b2f66d2b62d41f4311cb5b84f88088b910a3db2347a6643e824adacccb2ed4",
+    "TS_OFF_004": "abb6b86f1c4a3982731299df5ac3c4078648a11b270e4e10c6ae84240c20bc9b",
+    "TS_OFF_005": "495946d80a5251146c757fcf3bc3ad19af7d56d380d5513679db3663314d126e",
+    "TS_NOTE_002": "18c9d0a29b5964f9c0aac23f11a19c7f512204d72ecd574102bfd4fe5747793f",
+    "TS_NOTE_003": "0463da0564ef42b8f6b06fc7ee0f9841d78cae4f608e80be6a21bef97cd8bc65",
+    "TS_NOTE_004": "645df3f1c135458a832efac523e96f98cce1d3fb547dc98691e37453f5c1c74e",
+    "ZJJ_OFF_001": "0dd00fa1fa8a58bf33d0c970f38bfede293ace6d2cde152fddded3013277170f",
+    "ZJJ_OFF_002": "ae6afb41c36e3a2248a25f9f66135a60c3fc3b9b92f10cbb3037816e4874c89f",
+    "ZJJ_OFF_003": "f79ed248686618f5d198d30581578dece7a9229261eed719a1f44bc5775315b0",
+    "ZJJ_OFF_004": "01e7c3086be3eab075dbe621edbda0c1ae296f548263d388968c547e0e5ab3d5",
+    "ZJJ_OFF_005": "75166cfb8c1986c28cb1529e2d58a574ccd279c94b59977b2c0b83ca6e13969c",
+    "ZJJ_NOTE_001": "3793c78708c33eb2f78996871c080d9b62327c0305b9399cc81fb79695308b28",
+    "ZJJ_NOTE_002": "39c995e9ef9ea73d226b1b7e91412a026182ec6d2c6f982ed0de161de410ae24",
+    "ZJJ_NOTE_003": "bd38aa37cffe599369a56c65727096b0dd6a0e937b53d5588ad2f38e07f935a8",
+    "ZJJ_NOTE_004": "ad66d734c81bb993d605a38ccbd6146094e222aa7067878cecd7b8daabcbbf49",
+    "JYT_OFF_001": "2bed601379f83c7283b56ac7d41f428c4111fc7d68c020e2bac5d4c5a4296ecd",
+    "JYT_OFF_002": "59fffabbd39957ba97ca6974b835a72217028078f4f85124de154fb47fdc52e5",
+    "JYT_OFF_003": "2ad280d36ae944fe535cc03c62ba8f4ec50610f9046998e352692ffe33dcacde",
+    "JYT_OFF_004": "b426b4becacbc5533f884a2203f97e9b570b42da87d4cd66e944ead86af13799",
+    "JYT_OFF_005": "8bbe4398d6a3e3c7093f9e50d8ceb08e45caf5c8b36aef1e9343992d73a42054",
+    "JYT_NOTE_002": "941990a5b801ddb7ebea5eeb86626257a05244e88e39898687f6e7b86daac26a",
+    "JYT_NOTE_003": "6d95427cf32b7592cfdf206b3c979c04e4c5505d24973a18b3d7b635c423e71b",
+    "JYT_NOTE_005": "557666c34bd91cd6ec25bdd84830b10936b9e6854e8ad5022011ea0178d09a04"
+  },
+  "limitations": [
+    "仅覆盖既有检测器找到的143处候选，不能保证全文没有其他漏检指代。",
+    "包含非代词用法、现场指示、标题引用及不能唯一确定的情况；不强行分配前文地点。",
+    "这些解释由助手依据原文初标，未获用户人工复核。"
+  ]
+}

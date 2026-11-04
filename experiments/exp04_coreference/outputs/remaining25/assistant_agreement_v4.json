@@ -1,0 +1,2723 @@
+{
+  "assessment_kind": "assistant_semantic_agreement_not_human_accuracy",
+  "samples": 143,
+  "counts": {
+    "consistent": 132,
+    "inconsistent": 0,
+    "uncertain": 11
+  },
+  "conservative_agreement": 0.9230769230769231,
+  "optimistic_agreement": 1.0,
+  "human_accuracy": null,
+  "human_reviewed_items": 0,
+  "by_doc": {
+    "TS_OFF_001": {
+      "samples": 6,
+      "counts": {
+        "consistent": 6,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_OFF_002": {
+      "samples": 2,
+      "counts": {
+        "consistent": 2,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_OFF_003": {
+      "samples": 10,
+      "counts": {
+        "consistent": 10,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_OFF_004": {
+      "samples": 8,
+      "counts": {
+        "consistent": 8,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_OFF_005": {
+      "samples": 20,
+      "counts": {
+        "consistent": 17,
+        "inconsistent": 0,
+        "uncertain": 3
+      },
+      "conservative_agreement": 0.85,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_NOTE_002": {
+      "samples": 40,
+      "counts": {
+        "consistent": 39,
+        "inconsistent": 0,
+        "uncertain": 1
+      },
+      "conservative_agreement": 0.975,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_NOTE_003": {
+      "samples": 1,
+      "counts": {
+        "consistent": 1,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "TS_NOTE_004": {
+      "samples": 2,
+      "counts": {
+        "consistent": 2,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_OFF_001": {
+      "samples": 0,
+      "counts": {
+        "consistent": 0,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": null,
+      "optimistic_agreement": null,
+      "human_accuracy": null
+    },
+    "ZJJ_OFF_002": {
+      "samples": 2,
+      "counts": {
+        "consistent": 2,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_OFF_003": {
+      "samples": 2,
+      "counts": {
+        "consistent": 2,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_OFF_004": {
+      "samples": 1,
+      "counts": {
+        "consistent": 1,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_OFF_005": {
+      "samples": 1,
+      "counts": {
+        "consistent": 1,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_NOTE_001": {
+      "samples": 8,
+      "counts": {
+        "consistent": 7,
+        "inconsistent": 0,
+        "uncertain": 1
+      },
+      "conservative_agreement": 0.875,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_NOTE_002": {
+      "samples": 12,
+      "counts": {
+        "consistent": 10,
+        "inconsistent": 0,
+        "uncertain": 2
+      },
+      "conservative_agreement": 0.8333333333333334,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_NOTE_003": {
+      "samples": 4,
+      "counts": {
+        "consistent": 3,
+        "inconsistent": 0,
+        "uncertain": 1
+      },
+      "conservative_agreement": 0.75,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "ZJJ_NOTE_004": {
+      "samples": 5,
+      "counts": {
+        "consistent": 5,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "JYT_OFF_001": {
+      "samples": 0,
+      "counts": {
+        "consistent": 0,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": null,
+      "optimistic_agreement": null,
+      "human_accuracy": null
+    },
+    "JYT_OFF_002": {
+      "samples": 0,
+      "counts": {
+        "consistent": 0,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": null,
+      "optimistic_agreement": null,
+      "human_accuracy": null
+    },
+    "JYT_OFF_003": {
+      "samples": 0,
+      "counts": {
+        "consistent": 0,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": null,
+      "optimistic_agreement": null,
+      "human_accuracy": null
+    },
+    "JYT_OFF_004": {
+      "samples": 0,
+      "counts": {
+        "consistent": 0,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": null,
+      "optimistic_agreement": null,
+      "human_accuracy": null
+    },
+    "JYT_OFF_005": {
+      "samples": 0,
+      "counts": {
+        "consistent": 0,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": null,
+      "optimistic_agreement": null,
+      "human_accuracy": null
+    },
+    "JYT_NOTE_002": {
+      "samples": 9,
+      "counts": {
+        "consistent": 7,
+        "inconsistent": 0,
+        "uncertain": 2
+      },
+      "conservative_agreement": 0.7777777777777778,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "JYT_NOTE_003": {
+      "samples": 7,
+      "counts": {
+        "consistent": 6,
+        "inconsistent": 0,
+        "uncertain": 1
+      },
+      "conservative_agreement": 0.8571428571428571,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    },
+    "JYT_NOTE_005": {
+      "samples": 3,
+      "counts": {
+        "consistent": 3,
+        "inconsistent": 0,
+        "uncertain": 0
+      },
+      "conservative_agreement": 1.0,
+      "optimistic_agreement": 1.0,
+      "human_accuracy": null
+    }
+  },
+  "cases": [
+    {
+      "sample_id": "TS_OFF_001:77:78",
+      "number": 1,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 77,
+        "end": 78,
+        "text": "这"
+      },
+      "reference": "泰山中路游览线，也就是红门登山的传统线路",
+      "prediction": "红门游览路：最经典的登山线路",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "TS_OFF_001:397:398",
+      "number": 2,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 397,
+        "end": 398,
+        "text": "此"
+      },
+      "reference": "中天门",
+      "prediction": "中天门",
+      "algorithm_reason": "类型相容；距离6字；同句；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_OFF_001:412:414",
+      "number": 3,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 412,
+        "end": 414,
+        "text": "此处"
+      },
+      "reference": "中天门",
+      "prediction": "中天门",
+      "algorithm_reason": "类型相容；距离21字；同句；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_OFF_001:563:565",
+      "number": 4,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 563,
+        "end": 565,
+        "text": "这里"
+      },
+      "reference": "南天门",
+      "prediction": "南天门",
+      "algorithm_reason": "类型相容；距离18字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_OFF_001:677:678",
+      "number": 5,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 677,
+        "end": 678,
+        "text": "这"
+      },
+      "reference": "本篇介绍的泰山中路／红门登山线路",
+      "prediction": "红门游览路：最经典的登山线路",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "TS_OFF_001:787:788",
+      "number": 6,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 787,
+        "end": 788,
+        "text": "此"
+      },
+      "reference": "全程攀登泰山需要体力和毅力这件事",
+      "prediction": "③全程攀登需要一定的体力和毅力",
+      "algorithm_reason": "命题或行为概括，保留完整前文内容"
+    },
+    {
+      "sample_id": "TS_OFF_002:66:67",
+      "number": 7,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_002",
+      "pronoun": {
+        "start": 66,
+        "end": 67,
+        "text": "此"
+      },
+      "reference": "天外村—中天门—岱顶这条游览线路",
+      "prediction": "天外村—中天门—岱顶",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_OFF_002:376:377",
+      "number": 8,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_002",
+      "pronoun": {
+        "start": 376,
+        "end": 377,
+        "text": "此"
+      },
+      "reference": "天外村—中天门—岱顶这条游览线路",
+      "prediction": "天外村—中天门—岱顶",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_OFF_003:180:181",
+      "number": 9,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 180,
+        "end": 181,
+        "text": "它"
+      },
+      "reference": "元君庙",
+      "prediction": "元君庙",
+      "algorithm_reason": "判断句延续当前景物主题"
+    },
+    {
+      "sample_id": "TS_OFF_003:199:200",
+      "number": 10,
+      "verdict": "consistent",
+      "reason": "保留现场指示对象说明，不伪造正文前置跨度；未声称理解图片。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 199,
+        "end": 200,
+        "text": "这"
+      },
+      "reference": "元君庙院中眼前的两棵树；作指示限定，具体树木由后文说明",
+      "prediction": "当前现场所指的两棵柏树和松树相对而生",
+      "algorithm_reason": "首次现场指示，正文无明确前置同类对象"
+    },
+    {
+      "sample_id": "TS_OFF_003:230:232",
+      "number": 11,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 230,
+        "end": 232,
+        "text": "它们"
+      },
+      "reference": "院中相对而生、被称为龙柏凤松的柏树与松树",
+      "prediction": "中这两棵柏树和松树",
+      "algorithm_reason": "复数非人代词回指植物集合"
+    },
+    {
+      "sample_id": "TS_OFF_003:444:446",
+      "number": 12,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 444,
+        "end": 446,
+        "text": "这里"
+      },
+      "reference": "碧峰寺，也称铁佛寺",
+      "prediction": "碧峰寺",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_003:479:480",
+      "number": 13,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 479,
+        "end": 480,
+        "text": "此"
+      },
+      "reference": "碧峰寺，也称铁佛寺",
+      "prediction": "碧峰寺",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_003:604:605",
+      "number": 14,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 604,
+        "end": 605,
+        "text": "这"
+      },
+      "reference": "前面描述的溪水流过彩色石纹的景观，即后面命名的彩石溪",
+      "prediction": "进入桃花峪，行约2公里，溪中流水之下忽如彩石铺就，溪底一条条石纹五彩纷呈，阳光照耀下，分外生动",
+      "algorithm_reason": "命名句回指完整景观描述"
+    },
+    {
+      "sample_id": "TS_OFF_003:645:646",
+      "number": 15,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 645,
+        "end": 646,
+        "text": "此"
+      },
+      "reference": "彩石溪所在的溪谷区域",
+      "prediction": "彩石溪",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_003:959:960",
+      "number": 16,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 959,
+        "end": 960,
+        "text": "此"
+      },
+      "reference": "龙湾所在之处，溪水在此汇成湾",
+      "prediction": "龙湾",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_003:1006:1008",
+      "number": 17,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 1006,
+        "end": 1008,
+        "text": "此处"
+      },
+      "reference": "龙湾一带",
+      "prediction": "龙湾",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_003:1117:1118",
+      "number": 18,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 1117,
+        "end": 1118,
+        "text": "它"
+      },
+      "reference": "一线天这一地质景观",
+      "prediction": "一线天",
+      "algorithm_reason": "判断句延续当前景物主题"
+    },
+    {
+      "sample_id": "TS_OFF_004:120:121",
+      "number": 19,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 120,
+        "end": 121,
+        "text": "这"
+      },
+      "reference": "东御道这条登山通道",
+      "prediction": "东御道游览线（景点介绍）",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "TS_OFF_004:138:139",
+      "number": 20,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 138,
+        "end": 139,
+        "text": "该"
+      },
+      "reference": "刚提到的泰山东御道坊",
+      "prediction": "东御道坊",
+      "algorithm_reason": "类型相容；距离2字；扩展具名地点候选"
+    },
+    {
+      "sample_id": "TS_OFF_004:213:215",
+      "number": 21,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 213,
+        "end": 215,
+        "text": "此处"
+      },
+      "reference": "东御道牌坊所在的登山入口",
+      "prediction": "东御道牌坊",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_004:495:497",
+      "number": 22,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 495,
+        "end": 497,
+        "text": "此地"
+      },
+      "reference": "汉阙广场",
+      "prediction": "汉阙广场",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_004:694:695",
+      "number": 23,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 694,
+        "end": 695,
+        "text": "此"
+      },
+      "reference": "前面描述的汉武帝从泰山东麓骑马登山之路",
+      "prediction": "东御道游览线（景点介绍）",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "TS_OFF_004:884:886",
+      "number": 24,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 884,
+        "end": 886,
+        "text": "此处"
+      },
+      "reference": "甘泉榭所在之处",
+      "prediction": "甘泉榭",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_004:1023:1024",
+      "number": 25,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 1023,
+        "end": 1024,
+        "text": "此"
+      },
+      "reference": "启天亭",
+      "prediction": "启天亭",
+      "algorithm_reason": "名词中心词匹配完整短语"
+    },
+    {
+      "sample_id": "TS_OFF_004:1104:1106",
+      "number": 26,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 1104,
+        "end": 1106,
+        "text": "此处"
+      },
+      "reference": "未央湖所在之处，不是汉代未央宫",
+      "prediction": "未央湖",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:160:162",
+      "number": 27,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 160,
+        "end": 162,
+        "text": "这里"
+      },
+      "reference": "泰山天烛峰至后石坞登山线路一带",
+      "prediction": "从泰山天烛峰景区到山顶的后石坞景区一带",
+      "algorithm_reason": "未进入具体景点小节时保留整条线路区域"
+    },
+    {
+      "sample_id": "TS_OFF_005:286:288",
+      "number": 28,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 286,
+        "end": 288,
+        "text": "这里"
+      },
+      "reference": "泰山天烛峰至后石坞的自然景区一带",
+      "prediction": "从泰山天烛峰景区到山顶的后石坞景区一带",
+      "algorithm_reason": "未进入具体景点小节时保留整条线路区域"
+    },
+    {
+      "sample_id": "TS_OFF_005:351:353",
+      "number": 29,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 351,
+        "end": 353,
+        "text": "这里"
+      },
+      "reference": "天烛峰景区及这条登山线路一带",
+      "prediction": "从泰山天烛峰景区到山顶的后石坞景区一带",
+      "algorithm_reason": "未进入具体景点小节时保留整条线路区域"
+    },
+    {
+      "sample_id": "TS_OFF_005:387:389",
+      "number": 30,
+      "verdict": "consistent",
+      "reason": "保留天烛峰至后石坞的整个线路区域，未缩为最后一个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 387,
+        "end": 389,
+        "text": "这儿"
+      },
+      "reference": "天烛峰景区及这条登山线路一带",
+      "prediction": "从泰山天烛峰景区到山顶的后石坞景区一带",
+      "algorithm_reason": "未进入具体景点小节时保留整条线路区域"
+    },
+    {
+      "sample_id": "TS_OFF_005:404:405",
+      "number": 31,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 404,
+        "end": 405,
+        "text": "这"
+      },
+      "reference": "天烛峰通往后石坞的游览路",
+      "prediction": "从泰山天烛峰景区到山顶的后石坞景区",
+      "algorithm_reason": "路段回指最近完整移动过程，而非最后一个地点"
+    },
+    {
+      "sample_id": "TS_OFF_005:681:682",
+      "number": 32,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 681,
+        "end": 682,
+        "text": "此"
+      },
+      "reference": "小天烛峰旁形成的瀑布，即天烛瀑",
+      "prediction": "天烛瀑",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:696:697",
+      "number": 33,
+      "verdict": "consistent",
+      "reason": "保留千尺瀑、千丈瀑两个旧称的名称集合，未只保留一个名称。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 696,
+        "end": 697,
+        "text": "这"
+      },
+      "reference": "千尺瀑、千丈瀑这两个形容瀑布很长的旧称",
+      "prediction": "“千尺瀑”、“千丈瀑”",
+      "algorithm_reason": "名称指示回到前文命名内容"
+    },
+    {
+      "sample_id": "TS_OFF_005:729:730",
+      "number": 34,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 729,
+        "end": 730,
+        "text": "那"
+      },
+      "reference": "被比作高垂白练的天烛瀑",
+      "prediction": "天烛瀑",
+      "algorithm_reason": "类型相容；距离6字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_OFF_005:776:777",
+      "number": 35,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 776,
+        "end": 777,
+        "text": "此"
+      },
+      "reference": "洗鹤湾",
+      "prediction": "洗鹤湾",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:856:858",
+      "number": 36,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 856,
+        "end": 858,
+        "text": "此地"
+      },
+      "reference": "后石坞",
+      "prediction": "后石坞",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:927:929",
+      "number": 37,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 927,
+        "end": 929,
+        "text": "此处"
+      },
+      "reference": "后石坞",
+      "prediction": "后石坞",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:1383:1384",
+      "number": 38,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1383,
+        "end": 1384,
+        "text": "该"
+      },
+      "reference": "圣母寝宫楼",
+      "prediction": "圣母寝宫楼",
+      "algorithm_reason": "名词中心词匹配完整短语"
+    },
+    {
+      "sample_id": "TS_OFF_005:1432:1433",
+      "number": 39,
+      "verdict": "uncertain",
+      "reason": "元君庙是合理上层场所，但具体修炼院落或楼阁未唯一确定。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1432,
+        "end": 1433,
+        "text": "此"
+      },
+      "reference": "推测指元君庙这一修炼场所；具体指哪个院落或楼阁不能仅凭这段文字确定",
+      "prediction": "元君庙",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:1439:1441",
+      "number": 40,
+      "verdict": "uncertain",
+      "reason": "固定初标对修炼处范围本身也只作推测。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1439,
+        "end": 1441,
+        "text": "这里"
+      },
+      "reference": "推测指元君庙内被称为玉女修真处的修炼场所，具体范围不够明确",
+      "prediction": "元君庙",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:1599:1600",
+      "number": 41,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1599,
+        "end": 1600,
+        "text": "此"
+      },
+      "reference": "黄花洞内的泉水，前文称灵异泉",
+      "prediction": "灵异泉",
+      "algorithm_reason": "饮水地点指示优先水体而非人物或整座寺庙"
+    },
+    {
+      "sample_id": "TS_OFF_005:1718:1719",
+      "number": 42,
+      "verdict": "uncertain",
+      "reason": "已改为莲花洞，与v3同一输出；题刻旁具体落点仍不明确，继续按旧口径保留待定。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1718,
+        "end": 1719,
+        "text": "此"
+      },
+      "reference": "莲花洞旁题刻所指的现场地点；具体落点未明确",
+      "prediction": "莲花洞",
+      "algorithm_reason": "官方景点介绍延续当前小节主题"
+    },
+    {
+      "sample_id": "TS_OFF_005:1868:1869",
+      "number": 43,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1868,
+        "end": 1869,
+        "text": "此"
+      },
+      "reference": "1988年胡耀邦题写泰山姊妹松之后",
+      "prediction": "前述游览或事件发生的当时：1988年，来泰山考察的原中共中央总书记胡耀邦慨然提笔，在宣纸上写下“泰山姊妹松”五个大字",
+      "algorithm_reason": "时间指示关联此前事件或游览日"
+    },
+    {
+      "sample_id": "TS_OFF_005:1892:1893",
+      "number": 44,
+      "verdict": "consistent",
+      "reason": "姊妹松为植物拟人写法，不是女性人物。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1892,
+        "end": 1893,
+        "text": "她"
+      },
+      "reference": "泰山姊妹松；用她是拟人写法，不是指某位女性",
+      "prediction": "姊妹松",
+      "algorithm_reason": "植物主题中的女性代词为拟人写法"
+    },
+    {
+      "sample_id": "TS_OFF_005:1920:1921",
+      "number": 45,
+      "verdict": "consistent",
+      "reason": "姊妹松为植物拟人写法，不是女性人物。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1920,
+        "end": 1921,
+        "text": "她"
+      },
+      "reference": "泰山姊妹松；拟人写法",
+      "prediction": "姊妹松",
+      "algorithm_reason": "植物主题中的女性代词为拟人写法"
+    },
+    {
+      "sample_id": "TS_OFF_005:1949:1950",
+      "number": 46,
+      "verdict": "consistent",
+      "reason": "姊妹松为植物拟人写法，不是女性人物。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1949,
+        "end": 1950,
+        "text": "她"
+      },
+      "reference": "泰山姊妹松；拟人写法",
+      "prediction": "姊妹松",
+      "algorithm_reason": "植物主题中的女性代词为拟人写法"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4:5",
+      "number": 47,
+      "verdict": "consistent",
+      "reason": "识别当前文章自身，不伪造正文先行词。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4,
+        "end": 5,
+        "text": "这"
+      },
+      "reference": "当前这篇泰山行程游记；属于对文章自身的指示",
+      "prediction": "当前文章：9月山东费腿之旅（泰山篇）",
+      "algorithm_reason": "篇章自身指示"
+    },
+    {
+      "sample_id": "TS_NOTE_002:40:42",
+      "number": 48,
+      "verdict": "consistent",
+      "reason": "完整保留整个行程最核心、最累的一段旅程，与泰山核心旅程的固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 40,
+        "end": 42,
+        "text": "这个"
+      },
+      "reference": "山东之旅中最核心、最累的泰山这段行程",
+      "prediction": "整个行程最核心、最累的一段旅程",
+      "algorithm_reason": "从属关系回指完整的行程名词短语而非泛称"
+    },
+    {
+      "sample_id": "TS_NOTE_002:496:497",
+      "number": 49,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 496,
+        "end": 497,
+        "text": "这"
+      },
+      "reference": "红门—中天门—南天门—玉皇顶的红门线路",
+      "prediction": "红门—中天门—南天门—玉皇顶",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:553:554",
+      "number": 50,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 553,
+        "end": 554,
+        "text": "这"
+      },
+      "reference": "天外村—中天门—南天门—玉皇顶的天外村线路",
+      "prediction": "天外村—中天门—南天门—玉皇顶",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:710:711",
+      "number": 51,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 710,
+        "end": 711,
+        "text": "这"
+      },
+      "reference": "经桃花峪、桃花源、南天门到玉皇顶的桃花源线路",
+      "prediction": "桃花峪—桃花源—南天门—玉皇顶",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1046:1047",
+      "number": 52,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1046,
+        "end": 1047,
+        "text": "这"
+      },
+      "reference": "不准备、也不使用登山杖的习惯",
+      "prediction": "由于习惯问题，我没有准备登山杖，因为我从来都不用",
+      "algorithm_reason": "命题或行为概括，保留完整前文内容"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1236:1237",
+      "number": 53,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1236,
+        "end": 1237,
+        "text": "这"
+      },
+      "reference": "前句所说登临泰山封禅的12位皇帝",
+      "prediction": "12位皇帝",
+      "algorithm_reason": "量词与群体中心词一致"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1484:1486",
+      "number": 54,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1484,
+        "end": 1486,
+        "text": "这里"
+      },
+      "reference": "中天门小广场",
+      "prediction": "中天门小广场",
+      "algorithm_reason": "具体场所名词优先于被截断地名或普通邻近词"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1553:1555",
+      "number": 55,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1553,
+        "end": 1555,
+        "text": "这里"
+      },
+      "reference": "一路向上可供补给的连锁店等店铺",
+      "prediction": "连锁店",
+      "algorithm_reason": "消费活动匹配邻近店铺"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1691:1693",
+      "number": 56,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1691,
+        "end": 1693,
+        "text": "这里"
+      },
+      "reference": "增福庙及附近补给点",
+      "prediction": "增福庙",
+      "algorithm_reason": "类型相容；距离1字；同句；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1711:1713",
+      "number": 57,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1711,
+        "end": 1713,
+        "text": "这个"
+      },
+      "reference": "增福庙这一补给点",
+      "prediction": "增福庙",
+      "algorithm_reason": "补给点指示优先前文介绍功能的场所"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1816:1818",
+      "number": 58,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1816,
+        "end": 1818,
+        "text": "此处"
+      },
+      "reference": "斩云剑景点所在的谷口",
+      "prediction": "斩云剑",
+      "algorithm_reason": "当前景点小节主题约束"
+    },
+    {
+      "sample_id": "TS_NOTE_002:1879:1880",
+      "number": 59,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1879,
+        "end": 1880,
+        "text": "这"
+      },
+      "reference": "背着矿泉水等物资上山的搬运工，也就是挑山工",
+      "prediction": "搬运工",
+      "algorithm_reason": "判断句指向上文劳动者群体"
+    },
+    {
+      "sample_id": "TS_NOTE_002:2251:2252",
+      "number": 60,
+      "verdict": "consistent",
+      "reason": "指原先避雨且获封的同一棵大树，未误取后文讹传的五株松树。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2251,
+        "end": 2252,
+        "text": "该"
+      },
+      "reference": "秦始皇避雨、后来获封五大夫的那棵大树",
+      "prediction": "大树",
+      "algorithm_reason": "名词中心词匹配完整短语"
+    },
+    {
+      "sample_id": "TS_NOTE_002:2271:2272",
+      "number": 61,
+      "verdict": "consistent",
+      "reason": "指原先避雨且获封的同一棵大树，未误取后文讹传的五株松树。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2271,
+        "end": 2272,
+        "text": "该"
+      },
+      "reference": "原先获封五大夫、后来遭雷雨毁坏的树",
+      "prediction": "大树",
+      "algorithm_reason": "名词中心词匹配完整短语"
+    },
+    {
+      "sample_id": "TS_NOTE_002:2792:2794",
+      "number": 62,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2792,
+        "end": 2794,
+        "text": "此处"
+      },
+      "reference": "升仙坊一带",
+      "prediction": "升仙坊",
+      "algorithm_reason": "类型相容；距离2字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_NOTE_002:2835:2836",
+      "number": 63,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2835,
+        "end": 2836,
+        "text": "此"
+      },
+      "reference": "升仙坊一带",
+      "prediction": "升仙坊",
+      "algorithm_reason": "类型相容；距离3字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_NOTE_002:3088:3090",
+      "number": 64,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3088,
+        "end": 3090,
+        "text": "这个"
+      },
+      "reference": "攀登中天门至南天门并登顶观景的过程",
+      "prediction": "攀登泰山中天门至南天门的旅程",
+      "algorithm_reason": "过程指示回到前文活动过程"
+    },
+    {
+      "sample_id": "TS_NOTE_002:3363:3364",
+      "number": 65,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3363,
+        "end": 3364,
+        "text": "这"
+      },
+      "reference": "刻有五岳真形图的石碑及图案",
+      "prediction": "五岳真形图",
+      "algorithm_reason": "图案或碑的判断句回指前述实物"
+    },
+    {
+      "sample_id": "TS_NOTE_002:3493:3495",
+      "number": 66,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3493,
+        "end": 3495,
+        "text": "这里"
+      },
+      "reference": "望吴胜迹石坊所在处，即望吴峰",
+      "prediction": "望吴胜迹",
+      "algorithm_reason": "具体场所名词优先于被截断地名或普通邻近词"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4347:4348",
+      "number": 67,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4347,
+        "end": 4348,
+        "text": "这"
+      },
+      "reference": "五岳独尊石刻",
+      "prediction": "石刻",
+      "algorithm_reason": "判断句优先最近完整名词短语"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4408:4410",
+      "number": 68,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4408,
+        "end": 4410,
+        "text": "这儿"
+      },
+      "reference": "五岳独尊石刻周围的题刻区域",
+      "prediction": "五岳独尊石",
+      "algorithm_reason": "类型相容；距离24字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4572:4573",
+      "number": 69,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4572,
+        "end": 4573,
+        "text": "这"
+      },
+      "reference": "刚引用的孔子登东山而小鲁、登泰山而小天下这句话",
+      "prediction": "孔子登东山而小鲁，登泰山而小天下",
+      "algorithm_reason": "这句话回指紧邻的完整引语"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4672:4673",
+      "number": 70,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4672,
+        "end": 4673,
+        "text": "该"
+      },
+      "reference": "玉皇庙下方高6米、没有文字的石碑，后文称无字碑",
+      "prediction": "石碑",
+      "algorithm_reason": "名词中心词匹配完整短语"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4691:4692",
+      "number": 71,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4691,
+        "end": 4692,
+        "text": "此"
+      },
+      "reference": "同一块没有文字的石碑，后文称无字碑",
+      "prediction": "石碑",
+      "algorithm_reason": "名词中心词匹配完整短语"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4716:4717",
+      "number": 72,
+      "verdict": "consistent",
+      "reason": "对应同一图案、题刻、引语或石碑；原文泛称在该上下文可定位同一实物或内容。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4716,
+        "end": 4717,
+        "text": "这"
+      },
+      "reference": "前面描述的无文字石碑，即无字碑",
+      "prediction": "石碑",
+      "algorithm_reason": "图案或碑的判断句回指前述实物"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4911:4912",
+      "number": 73,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4911,
+        "end": 4912,
+        "text": "这"
+      },
+      "reference": "作者选择的后山天烛峰下山路线",
+      "prediction": "从后山天烛峰下山",
+      "algorithm_reason": "明确选择的当前行程优先于先前列举的路线"
+    },
+    {
+      "sample_id": "TS_NOTE_002:4925:4926",
+      "number": 74,
+      "verdict": "uncertain",
+      "reason": "包含攻略命题及事实并非的残缺否定前缀，完整性需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4925,
+        "end": 4926,
+        "text": "此"
+      },
+      "reference": "攻略声称这条路线没有难度这一说法；作者对此否定",
+      "prediction": "网上的攻略都写得比较简单，也写得这条路线没有难度，事实并非",
+      "algorithm_reason": "命题或行为概括，保留完整前文内容"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5016:5017",
+      "number": 75,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5016,
+        "end": 5017,
+        "text": "这"
+      },
+      "reference": "泰山后山天烛峰路线，也就是秦御道",
+      "prediction": "后山天烛峰路线",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5219:5221",
+      "number": 76,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5219,
+        "end": 5221,
+        "text": "这个"
+      },
+      "reference": "后石坞景区",
+      "prediction": "后石坞景区",
+      "algorithm_reason": "景区中心词匹配实际园区而非停车场等局部"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5284:5286",
+      "number": 77,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5284,
+        "end": 5286,
+        "text": "这个"
+      },
+      "reference": "后石坞景区",
+      "prediction": "后石坞",
+      "algorithm_reason": "同位指示限定回指紧邻地名"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5323:5325",
+      "number": 78,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5323,
+        "end": 5325,
+        "text": "他们"
+      },
+      "reference": "在后石坞遇到的三三两两的游人",
+      "prediction": "游人",
+      "algorithm_reason": "有明确人物中心词的候选优先于POS猜测"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5338:5340",
+      "number": 79,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5338,
+        "end": 5340,
+        "text": "那边"
+      },
+      "reference": "元君庙所在方向",
+      "prediction": "元君庙",
+      "algorithm_reason": "显式同句地点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5598:5599",
+      "number": 80,
+      "verdict": "consistent",
+      "reason": "无他作为固定表达，不冒认人物先行词。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5598,
+        "end": 5599,
+        "text": "他"
+      },
+      "reference": "无其他原因；无他是固定表达，这里的他不是指某个人",
+      "prediction": "无其他原因",
+      "algorithm_reason": "无他是固定表达，不作人物回指"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5718:5719",
+      "number": 81,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5718,
+        "end": 5719,
+        "text": "他"
+      },
+      "reference": "仙鹤湾检查站的工作人员",
+      "prediction": "工作人员",
+      "algorithm_reason": "有明确人物中心词的候选优先于POS猜测"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5743:5745",
+      "number": 82,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5743,
+        "end": 5745,
+        "text": "这里"
+      },
+      "reference": "仙鹤湾检查站附近",
+      "prediction": "仙鹤湾有个检查站",
+      "algorithm_reason": "前文明确介绍的设施位置约束当前地点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:5944:5946",
+      "number": 83,
+      "verdict": "consistent",
+      "reason": "跨度包含介绍性成分，但核心对象是封禅大典演出场地。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5944,
+        "end": 5946,
+        "text": "这里"
+      },
+      "reference": "封禅大典的演出场地",
+      "prediction": "景区就是封禅大典演出的地方",
+      "algorithm_reason": "前文明确介绍的设施位置约束当前地点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:6084:6086",
+      "number": 84,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6084,
+        "end": 6086,
+        "text": "这个"
+      },
+      "reference": "前面列出的矿泉水2元、登山杖5元这一价格水平",
+      "prediction": " 南天门矿泉水2元，登山杖5元",
+      "algorithm_reason": "价格指示回指前述价格水平"
+    },
+    {
+      "sample_id": "TS_NOTE_002:6415:6416",
+      "number": 85,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6415,
+        "end": 6416,
+        "text": "这"
+      },
+      "reference": "天烛峰下山路线",
+      "prediction": "天烛峰路线",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_NOTE_002:6467:6468",
+      "number": 86,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6467,
+        "end": 6468,
+        "text": "这"
+      },
+      "reference": "天烛峰下山路线",
+      "prediction": "天烛峰路线",
+      "algorithm_reason": "路线指示匹配完整命名路线或连续站点"
+    },
+    {
+      "sample_id": "TS_NOTE_003:633:634",
+      "number": 87,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_003",
+      "pronoun": {
+        "start": 633,
+        "end": 634,
+        "text": "这"
+      },
+      "reference": "作者23—24日登泰山、看日出、游岱庙的整次双休日旅行，不是某个车站",
+      "prediction": "本文记录的出行：登泰山观日出记（2024.3.23 - 24）",
+      "algorithm_reason": "行程级指代保留整次旅行"
+    },
+    {
+      "sample_id": "TS_NOTE_004:61:62",
+      "number": 88,
+      "verdict": "consistent",
+      "reason": "识别当前文章自身，不伪造正文先行词。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_004",
+      "pronoun": {
+        "start": 61,
+        "end": 62,
+        "text": "这"
+      },
+      "reference": "当前这篇说走就走的泰山出行记录",
+      "prediction": "当前文章：泰山 适合说走就走",
+      "algorithm_reason": "篇章自身指示"
+    },
+    {
+      "sample_id": "TS_NOTE_004:70:71",
+      "number": 89,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "TS_NOTE_004",
+      "pronoun": {
+        "start": 70,
+        "end": 71,
+        "text": "这"
+      },
+      "reference": "后面将介绍的周六周日两天泰山出行安排",
+      "prediction": "本文记录的出行：泰山 适合说走就走",
+      "algorithm_reason": "行程级指代保留整次旅行"
+    },
+    {
+      "sample_id": "ZJJ_OFF_002:25:26",
+      "number": 90,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_OFF_002",
+      "pronoun": {
+        "start": 25,
+        "end": 26,
+        "text": "此"
+      },
+      "reference": "本篇标题所指的杨家界—袁家界—金鞭溪徒步路线",
+      "prediction": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "ZJJ_OFF_002:60:61",
+      "number": 91,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_OFF_002",
+      "pronoun": {
+        "start": 60,
+        "end": 61,
+        "text": "此"
+      },
+      "reference": "本篇杨家界—袁家界—金鞭溪徒步路线",
+      "prediction": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "ZJJ_OFF_003:41:42",
+      "number": 92,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_OFF_003",
+      "pronoun": {
+        "start": 41,
+        "end": 42,
+        "text": "此"
+      },
+      "reference": "本篇标题所指的十里画廊—天子山徒步路线",
+      "prediction": "【徒步路线】十里画廊-天子山徒步路线",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "ZJJ_OFF_003:197:198",
+      "number": 93,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_OFF_003",
+      "pronoun": {
+        "start": 197,
+        "end": 198,
+        "text": "此"
+      },
+      "reference": "前文描述的十里画廊登天子山、再经南天门下行的整条路线",
+      "prediction": "【徒步路线】十里画廊-天子山徒步路线",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "ZJJ_OFF_004:49:50",
+      "number": 94,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_OFF_004",
+      "pronoun": {
+        "start": 49,
+        "end": 50,
+        "text": "此"
+      },
+      "reference": "本篇黄石寨—金鞭溪—十里画廊游览路线",
+      "prediction": "【休闲路线】黄石寨-金鞭溪-十里画廊",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "ZJJ_OFF_005:42:43",
+      "number": 95,
+      "verdict": "consistent",
+      "reason": "官方线路标题或路线名称对应同一整条线路；允许同指异名，不以端点代替线路。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_OFF_005",
+      "pronoun": {
+        "start": 42,
+        "end": 43,
+        "text": "此"
+      },
+      "reference": "本篇袁家界—杨家界—天子山的山上大环线",
+      "prediction": "【休闲路线】袁家界-杨家界-天子山（山上大环线）",
+      "algorithm_reason": "本篇官方线路标题标识完整游览路线"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:187:188",
+      "number": 96,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 187,
+        "end": 188,
+        "text": "此"
+      },
+      "reference": "酒店对面的天门山索道站附近，A、B、C线均在该区域",
+      "prediction": "天门山索道A线",
+      "algorithm_reason": "具体场所名词优先于被截断地名或普通邻近词"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:295:297",
+      "number": 97,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 295,
+        "end": 297,
+        "text": "这个"
+      },
+      "reference": "富蓝特·和酒店（张家界天门山店）",
+      "prediction": "富蓝特·和酒店（张家界天门山店）",
+      "algorithm_reason": "酒店中心词排除附近景区"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:422:424",
+      "number": 98,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 422,
+        "end": 424,
+        "text": "那个"
+      },
+      "reference": "游客事先预约的入园时间段",
+      "prediction": "预约的时间段",
+      "algorithm_reason": "指预约入园时间段"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:803:804",
+      "number": 99,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 803,
+        "end": 804,
+        "text": "这"
+      },
+      "reference": "从天子山环保车乘车点前往杨家界这一段车程",
+      "prediction": "在天子山的环保车乘车点排队坐车去杨家界",
+      "algorithm_reason": "段落回指保留前文完整交通或登顶过程"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:1298:1299",
+      "number": 100,
+      "verdict": "uncertain",
+      "reason": "整个天子山与当时所见的一片山头范围不同。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1298,
+        "end": 1299,
+        "text": "那"
+      },
+      "reference": "天子山上当时雨雾中的山头；指示限定",
+      "prediction": "天子山",
+      "algorithm_reason": "类型相容；距离1字；同句；实验二具名景点候选"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:1890:1891",
+      "number": 101,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1890,
+        "end": 1891,
+        "text": "它"
+      },
+      "reference": "黄石寨山上的猕猴",
+      "prediction": "猕猴",
+      "algorithm_reason": "非人代词优先明确动物"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:1905:1906",
+      "number": 102,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1905,
+        "end": 1906,
+        "text": "它"
+      },
+      "reference": "黄石寨山上的猕猴",
+      "prediction": "猕猴",
+      "algorithm_reason": "非人代词优先明确动物"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_001:2067:2068",
+      "number": 103,
+      "verdict": "consistent",
+      "reason": "保留2025.7.23和24号两天完整日期范围。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 2067,
+        "end": 2068,
+        "text": "这"
+      },
+      "reference": "前文介绍的2025年7月23日和24日两天",
+      "prediction": "2025.7.23和24号",
+      "algorithm_reason": "复数日指示回指前文日期范围"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:78:79",
+      "number": 104,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 78,
+        "end": 79,
+        "text": "这"
+      },
+      "reference": "作者一家春节到张家界的这次旅行",
+      "prediction": "本文记录的出行：最美张家界 感受春节的张家界之美",
+      "algorithm_reason": "行程级指代保留整次旅行"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:113:114",
+      "number": 105,
+      "verdict": "consistent",
+      "reason": "保留整次旅行或出行安排，不误指车站或单个景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 113,
+        "end": 114,
+        "text": "这"
+      },
+      "reference": "同一次春节张家界旅程",
+      "prediction": "本文记录的出行：最美张家界 感受春节的张家界之美",
+      "algorithm_reason": "行程级指代保留整次旅行"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:394:395",
+      "number": 106,
+      "verdict": "consistent",
+      "reason": "Day2国家森林公园标题确定的正是当天天子阁下山至十里长廊这一游览日，跳过元话语干扰。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 394,
+        "end": 395,
+        "text": "这"
+      },
+      "reference": "当天从天子阁下山到十里长廊等处的游览行程日",
+      "prediction": "Day2国家森林公园",
+      "algorithm_reason": "日程标题确定当前游览日，跳过元话语中的残缺动词"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:431:433",
+      "number": 107,
+      "verdict": "uncertain",
+      "reason": "固定初标未唯一确认当前位置，点将台不能确认。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 431,
+        "end": 433,
+        "text": "这里"
+      },
+      "reference": "张家界国家森林公园当日游览的山中区域；具体地点未唯一确定",
+      "prediction": "点将台",
+      "algorithm_reason": "类型相容；距离93字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:458:459",
+      "number": 108,
+      "verdict": "consistent",
+      "reason": "概括云雾缭绕的游览感受，与固定参考同义。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 458,
+        "end": 459,
+        "text": "这"
+      },
+      "reference": "前面描述的雾蒙蒙、云雾缭绕的游览感受",
+      "prediction": "前文游览场景中的云雾缭绕的游览感受",
+      "algorithm_reason": "感觉类指示概括当前环境感受"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:728:729",
+      "number": 109,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 728,
+        "end": 729,
+        "text": "那"
+      },
+      "reference": "预报雨过天晴的那一天，即门票有效期的第4天",
+      "prediction": "前述游览或事件发生的当时：昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴",
+      "algorithm_reason": "时间指示关联此前事件或游览日"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:802:803",
+      "number": 110,
+      "verdict": "uncertain",
+      "reason": "整句游览安排、环保车和电梯过程与88秒登顶这一段的范围不同。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 802,
+        "end": 803,
+        "text": "这"
+      },
+      "reference": "乘百龙天梯88秒垂直登顶这一段过程",
+      "prediction": "今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯",
+      "algorithm_reason": "话语连接词不替代前述活动过程"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:833:834",
+      "number": 111,
+      "verdict": "consistent",
+      "reason": "保留风景绝佳的视频拍摄点这一用途。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 833,
+        "end": 834,
+        "text": "该"
+      },
+      "reference": "充当风景绝佳的视频拍摄点这一用途",
+      "prediction": "风景绝佳处的视频拍摄点",
+      "algorithm_reason": "功能指示回到前述用途"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:884:886",
+      "number": 112,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 884,
+        "end": 886,
+        "text": "那边"
+      },
+      "reference": "袁家界稍微能看清景色的观景台附近",
+      "prediction": "观景台",
+      "algorithm_reason": "具体场所名词优先于被截断地名或普通邻近词"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:902:903",
+      "number": 113,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 902,
+        "end": 903,
+        "text": "此"
+      },
+      "reference": "正在游览和拍照的袁家界观景区域",
+      "prediction": "观景台",
+      "algorithm_reason": "到此一游回到当前游览地点"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:942:944",
+      "number": 114,
+      "verdict": "consistent",
+      "reason": "保留现场指示对象说明，不伪造正文前置跨度；未声称理解图片。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 942,
+        "end": 944,
+        "text": "这些"
+      },
+      "reference": "乘杨家界索道时眼前披着云雾的石柱，并非某个单独地名",
+      "prediction": "当前现场所指的披上云裳的石柱",
+      "algorithm_reason": "首次现场指示，正文无明确前置同类对象"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_002:1012:1013",
+      "number": 115,
+      "verdict": "consistent",
+      "reason": "指当前行程完成时点或作者游览当天，未误指附近景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 1012,
+        "end": 1013,
+        "text": "此"
+      },
+      "reference": "完成当天森林公园游览并乘索道下山的这个时点",
+      "prediction": "本文当前游览行程完成的时点",
+      "algorithm_reason": "至此是当前进程终点的时间指示"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:214:215",
+      "number": 116,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 214,
+        "end": 215,
+        "text": "他"
+      },
+      "reference": "公交车上那位拿着车票、说自己等了很久的大哥",
+      "prediction": "大哥",
+      "algorithm_reason": "有明确人物中心词的候选优先于POS猜测"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:736:737",
+      "number": 117,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 736,
+        "end": 737,
+        "text": "这"
+      },
+      "reference": "魅力湘西演出票中VIP正中间的11—17排",
+      "prediction": "11-17排",
+      "algorithm_reason": "排数指示匹配前文座席范围"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:959:961",
+      "number": 118,
+      "verdict": "uncertain",
+      "reason": "空中田车疑有笔误，预测武陵源也未定位换乘点，保留原有疑义。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 959,
+        "end": 961,
+        "text": "这里"
+      },
+      "reference": "推测指原文写作空中田车的下客换乘处，可能是空中田园换乘点；名称疑有笔误",
+      "prediction": "武陵源",
+      "algorithm_reason": "类型相容；距离74字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_003:1049:1051",
+      "number": 119,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 1049,
+        "end": 1051,
+        "text": "这里"
+      },
+      "reference": "袁家界",
+      "prediction": "袁家界",
+      "algorithm_reason": "类型相容；距离17字；同句；实验二具名景点候选"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:102:104",
+      "number": 120,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 102,
+        "end": 104,
+        "text": "这个"
+      },
+      "reference": "张家界这个城市；同位指示限定",
+      "prediction": "张家界",
+      "algorithm_reason": "同位说明紧邻城市名"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:364:365",
+      "number": 121,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 364,
+        "end": 365,
+        "text": "这"
+      },
+      "reference": "袁家界、天子山和杨家界三个山顶景点",
+      "prediction": "袁家界、天子山、杨家界",
+      "algorithm_reason": "指向前文并列的完整地点集合"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:593:595",
+      "number": 122,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 593,
+        "end": 595,
+        "text": "这里"
+      },
+      "reference": "武陵源东门外、区政府所在地一带",
+      "prediction": "东门外就是武陵源区政府所在地",
+      "algorithm_reason": "具体场所名词优先于被截断地名或普通邻近词"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:755:756",
+      "number": 123,
+      "verdict": "consistent",
+      "reason": "完整移动短语或命名路线保留整条线路，与固定参考一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 755,
+        "end": 756,
+        "text": "这"
+      },
+      "reference": "西门→杨家界→袁家界→东门→天子山→杨家界的环线",
+      "prediction": "西门（杨家界索道上行）-杨家界-袁家界（百龙天梯下行）-东门-（天子山索道上行）天子山-杨家界",
+      "algorithm_reason": "路线定义提供当前完整环线"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_004:1257:1258",
+      "number": 124,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 1257,
+        "end": 1258,
+        "text": "这"
+      },
+      "reference": "已经连续看过两天张家界地貌、正在游黄石寨的当时",
+      "prediction": "前述游览或事件发生的当时：黄石寨的景色其实很不错，有些小景点也是电影《阿凡达》的取景地，但是已经看了2天的张家界地貌",
+      "algorithm_reason": "时间指示关联此前事件或游览日"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:79:81",
+      "number": 125,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 79,
+        "end": 81,
+        "text": "这个"
+      },
+      "reference": "净月潭公园",
+      "prediction": "净月潭公园",
+      "algorithm_reason": "景区中心词匹配实际园区而非停车场等局部"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:505:507",
+      "number": 126,
+      "verdict": "uncertain",
+      "reason": "他们可能指司机，也可能指运营管理方，原文不明确。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 505,
+        "end": 507,
+        "text": "他们"
+      },
+      "reference": "推测指景区或观光车的运营管理方；前文没有明确说出这群管理人员",
+      "prediction": "司机",
+      "algorithm_reason": "有明确人物中心词的候选优先于POS猜测"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:584:585",
+      "number": 127,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 584,
+        "end": 585,
+        "text": "那"
+      },
+      "reference": "瓦萨博物馆",
+      "prediction": "瓦萨博物馆",
+      "algorithm_reason": "判断句优先最近完整名词短语"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:740:741",
+      "number": 128,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 740,
+        "end": 741,
+        "text": "此"
+      },
+      "reference": "瓦萨冰雪运动在长春多年推广这件事",
+      "prediction": "在博物馆转了一圈，才了解瓦萨和长春的缘分，瓦萨冰雪运动已经在长春有了多年的推广",
+      "algorithm_reason": "命题或行为概括，保留完整前文内容"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:801:802",
+      "number": 129,
+      "verdict": "consistent",
+      "reason": "冬季之美是四季美景尤其冬季之美的核心，指代含义一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 801,
+        "end": 802,
+        "text": "这"
+      },
+      "reference": "净月潭四季景色，尤其是冬季之美",
+      "prediction": "尤其是冬季之美",
+      "algorithm_reason": "美的指示匹配前述景色"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:848:849",
+      "number": 130,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 848,
+        "end": 849,
+        "text": "这"
+      },
+      "reference": "公共游览区有人唱卡拉OK、自己感觉良好却干扰旁人的行为",
+      "prediction": "不远处有人在空旷处唱卡拉OK",
+      "algorithm_reason": "命题或行为概括，保留完整前文内容"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:928:929",
+      "number": 131,
+      "verdict": "uncertain",
+      "reason": "只概括景区问题及管理，没有明确噪声和游客干扰，语义范围偏宽。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 928,
+        "end": 929,
+        "text": "这"
+      },
+      "reference": "景区对噪声和游客干扰行为的管理",
+      "prediction": "前文提及的景区问题及相关管理",
+      "algorithm_reason": "方面指示概括前文的问题或管理主题"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:1031:1032",
+      "number": 132,
+      "verdict": "consistent",
+      "reason": "保留现场指示对象说明，不伪造正文前置跨度；未声称理解图片。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 1031,
+        "end": 1032,
+        "text": "这"
+      },
+      "reference": "作者眼前、可能由图片展示的一排杨树；前文没有这排树的明确介绍",
+      "prediction": "当前现场所指的一排好沧桑的杨树",
+      "algorithm_reason": "首次现场指示，正文无明确前置同类对象"
+    },
+    {
+      "sample_id": "JYT_NOTE_002:1116:1118",
+      "number": 133,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 1116,
+        "end": 1118,
+        "text": "这个"
+      },
+      "reference": "净月潭公园",
+      "prediction": "净月潭公园",
+      "algorithm_reason": "景区中心词匹配实际园区而非停车场等局部"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:87:88",
+      "number": 134,
+      "verdict": "consistent",
+      "reason": "关联同一叙述时点；跨度包含背景，但核心事件完整。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 87,
+        "end": 88,
+        "text": "那"
+      },
+      "reference": "当天清晨起床、拉开窗帘的时候",
+      "prediction": "前述游览或事件发生的当时：我住在 长春 市市中心人民广场附近的亚泰饭店，从人民广场前往净月潭景区搭乘地铁需要差不多1个小时，所以当天我特地早早起床，拉开房间窗帘",
+      "algorithm_reason": "时间指示关联此前事件或游览日"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:114:115",
+      "number": 135,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 114,
+        "end": 115,
+        "text": "这"
+      },
+      "reference": "刚描述的清晨日光渐渐驱散黑暗的城市景色",
+      "prediction": "我住在 长春 市市中心人民广场附近的亚泰饭店，从人民广场前往净月潭景区搭乘地铁需要差不多1个小时，所以当天我特地早早起床，拉开房间窗帘那会天才刚刚微微亮，远方的天空日出的光芒逐渐驱散黑暗",
+      "algorithm_reason": "样貌判断回指整幅前述场景"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:834:836",
+      "number": 136,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 834,
+        "end": 836,
+        "text": "这里"
+      },
+      "reference": "森林浴场",
+      "prediction": "森林浴场",
+      "algorithm_reason": "类型相容；距离1字；同句；实验二具名景点候选"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:972:973",
+      "number": 137,
+      "verdict": "uncertain",
+      "reason": "整体森林浴场与栈道旁局部林区范围需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 972,
+        "end": 973,
+        "text": "这"
+      },
+      "reference": "森林浴场步行栈道周围的林区",
+      "prediction": "森林浴场",
+      "algorithm_reason": "类型相容；距离49字；实验二具名景点候选"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:992:993",
+      "number": 138,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 992,
+        "end": 993,
+        "text": "这"
+      },
+      "reference": "长春这座城市；同位指示限定",
+      "prediction": "长春",
+      "algorithm_reason": "同位指示限定回指紧邻地名"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:1033:1034",
+      "number": 139,
+      "verdict": "consistent",
+      "reason": "保留正确人物、动物或并列对象集合，未以集合单项替代全体。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 1033,
+        "end": 1034,
+        "text": "这"
+      },
+      "reference": "高尔夫球场与湿地公园所在的接驳车终点区域",
+      "prediction": "高尔夫球场、湿地公园",
+      "algorithm_reason": "当前地点是并列设施所在区域"
+    },
+    {
+      "sample_id": "JYT_NOTE_003:1098:1100",
+      "number": 140,
+      "verdict": "consistent",
+      "reason": "具体名称或原文名词与参考指向同一对象；允许名称简称及同名不同位置，核心范围一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 1098,
+        "end": 1100,
+        "text": "这里"
+      },
+      "reference": "水库大坝及附近空旷区域",
+      "prediction": "水库大坝",
+      "algorithm_reason": "类型相容；距离4字；同句；实验二具名景点候选；当前位置线索"
+    },
+    {
+      "sample_id": "JYT_NOTE_005:197:198",
+      "number": 141,
+      "verdict": "consistent",
+      "reason": "保留核心事件、过程、场景或价格水平；允许附带背景，核心含义与类型一致。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 197,
+        "end": 198,
+        "text": "这"
+      },
+      "reference": "景区车可分站下车、约十分钟就有后续班车的游览安排",
+      "prediction": "进入景区人不算多，基本上都是依靠景区车游览环湖景色，２０元景区车票，围绕十几个景点搭乘游客，可以随时停下，每十分钟有一班后来车",
+      "algorithm_reason": "命题或行为概括，保留完整前文内容"
+    },
+    {
+      "sample_id": "JYT_NOTE_005:275:276",
+      "number": 142,
+      "verdict": "consistent",
+      "reason": "指当前行程完成时点或作者游览当天，未误指附近景点。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 275,
+        "end": 276,
+        "text": "那"
+      },
+      "reference": "作者游览净月潭的当天",
+      "prediction": "前述游览或事件发生的当时：这样玩一点都不累",
+      "algorithm_reason": "时间指示关联此前事件或游览日"
+    },
+    {
+      "sample_id": "JYT_NOTE_005:331:333",
+      "number": 143,
+      "verdict": "consistent",
+      "reason": "指此次游览的季节；参考对冬春交替也只是推测，不强行虚构精确季节。",
+      "judged_by": "assistant",
+      "human_confirmed": false,
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 331,
+        "end": 333,
+        "text": "这个"
+      },
+      "reference": "作者游览净月潭时的季节；从融雪景象推测是冬春交替，原文未给出精确季节",
+      "prediction": "作者此次游览时的季节，确切季节需结合全文判断",
+      "algorithm_reason": "季节指示，不把景点当作季节"
+    }
+  ]
+}

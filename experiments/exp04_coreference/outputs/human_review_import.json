@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-02",
+  "reviewer": "用户",
+  "reviewed_items": 61,
+  "user_annotated_changes": 10,
+  "unchanged_confirmations": 51,
+  "source_file": "archive/human_review_20261102/gold_review_user_edited.md",
+  "source_sha256": "5b1a09c165f1856a859e87c53dcbd160bcbba92028e035521e241202e16ef645",
+  "algorithm_changed": false,
+  "draft_snapshot": "archive/human_review_20261102/gold_draft_before_review.json",
+  "prediction_sha256": {
+    "v1": "7b08a6cc5568da8b67faf4f8010b17e7d1aa6489e9d28db98e6c335f03f1372b",
+    "v2": "ee5233a29242a619a17ba8c6c2a3016c0d05bed475aa748242d173ae97b32cb8"
+  },
+  "changes": [
+    {
+      "number": 7,
+      "sample_id": "TS_NOTE_001:1314:1316",
+      "user_comment": "文章中图片所示的路口",
+      "before": {
+        "resolution_status": "unresolved",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "图注式“走这里”，正文未给出该岔路或位置的名称，不能强指向目的地经石峪。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "image_deixis",
+        "referent_description": "文章中图片所示的路口",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 8,
+      "sample_id": "TS_NOTE_001:1335:1336",
+      "user_comment": "文章中图片所示的桥",
+      "before": {
+        "resolution_status": "non_anaphoric",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "首次出现的桥，依赖照片或现场，没有前文桥名。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "image_deixis",
+        "referent_description": "文章中图片所示的桥",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 9,
+      "sample_id": "TS_NOTE_001:1459:1461",
+      "user_comment": "“这个”整体作定语修饰后面的“路边店铺”，没有指代，作指示限定",
+      "before": {
+        "resolution_status": "non_anaphoric",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "首次出现的路边商铺，不能把柏洞作为商铺先行词。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "demonstrative_determiner",
+        "referent_description": "后面的路边商铺",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 17,
+      "sample_id": "TS_NOTE_001:1939:1941",
+      "user_comment": "“这些”整体作定语修饰年，代指作者的近几年，",
+      "before": {
+        "resolution_status": "non_anaphoric",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "“这些年”是泛指时间范围，没有明确的前文实体或事件。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "temporal_deixis",
+        "referent_description": "作者的近几年",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 18,
+      "sample_id": "TS_NOTE_001:2370:2371",
+      "user_comment": "代指文章的图片",
+      "before": {
+        "resolution_status": "non_anaphoric",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "“这是岱顶的游览图”依赖图片，正文未先引入该图。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "image_deixis",
+        "referent_description": "文章中的岱顶游览图图片",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 21,
+      "sample_id": "TS_NOTE_001:2545:2546",
+      "user_comment": "指代限定，指示当下的这首题",
+      "before": {
+        "resolution_status": "unresolved",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "“此题刻”未给出可唯一定位的前文题刻名称；不把鲁国或孔子当题刻。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "demonstrative_determiner",
+        "referent_description": "当下所见的题刻",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 25,
+      "sample_id": "TS_NOTE_001:3028:3030",
+      "user_comment": "指代限定，指代现场的石刻",
+      "before": {
+        "resolution_status": "resolved",
+        "target_type": "object",
+        "acceptable_antecedents": [
+          {
+            "start": 3022,
+            "end": 3024,
+            "text": "石刻",
+            "entity_type": "object"
+          }
+        ],
+        "reason": "回指大观峰区域的石刻集合，不仅是单块唐摩崖。"
+      },
+      "after": {
+        "resolution_status": "resolved",
+        "reference_kind": "demonstrative_determiner",
+        "referent_description": "大观峰现场的石刻",
+        "acceptable_antecedents": [
+          {
+            "start": 3022,
+            "end": 3024,
+            "text": "石刻",
+            "entity_type": "object"
+          }
+        ]
+      },
+      "mapping_note": "保留前文同一石刻集合的文字跨度，补充指示限定用法。"
+    },
+    {
+      "number": 28,
+      "sample_id": "TS_NOTE_005:61:62",
+      "user_comment": "指代限定用法，那股二字整体作定语修饰气息，那指代刚才提到的那一股",
+      "before": {
+        "resolution_status": "non_anaphoric",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "首次描写现场气息，无前文独立先行词。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "demonstrative_determiner",
+        "referent_description": "当下的宁静肃穆的气息",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 29,
+      "sample_id": "TS_NOTE_005:286:287",
+      "user_comment": "指代限定用法，那作定语修饰气息，那指代刚才提到的那一股香火味",
+      "before": {
+        "resolution_status": "non_anaphoric",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "首次描写香火味，现场指示，无明确前文先行词。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "demonstrative_determiner",
+        "referent_description": "当下的袅袅香火味",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    },
+    {
+      "number": 31,
+      "sample_id": "TS_NOTE_005:740:741",
+      "user_comment": "诗词，指代限定用法，指代登上泰山南天门外所见的壮丽景观",
+      "before": {
+        "resolution_status": "unresolved",
+        "target_type": null,
+        "acceptable_antecedents": [],
+        "reason": "引诗中的“此观”指登顶所见，缺少唯一明确的前文景观表达。"
+      },
+      "after": {
+        "resolution_status": "non_anaphoric",
+        "reference_kind": "situational_deixis",
+        "referent_description": "登上泰山南天门外所见的壮丽景观",
+        "acceptable_antecedents": []
+      },
+      "mapping_note": "仅正文前置对象写入acceptable_antecedents；图片、现场指示和限定说明单独保存。"
+    }
+  ]
+}

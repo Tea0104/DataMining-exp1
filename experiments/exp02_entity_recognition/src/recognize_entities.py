@@ -3,7 +3,7 @@
 """实验二：游览步骤的实体识别（selected_v2，三景区）。
 
 v1 基线：jieba 默认分词 + 后缀规则 + 数字/关键词规则；不使用自定义词典与停用词。
-v2 优化：common + 景区专名词表、停用词与片段拦截、四位时刻上下文校验、行程日与时刻正则。
+v2 优化：common + 景区专名词表、上下文别名、停用词、显式时刻与时长规则。
 
 用法（仓库根目录运行）：
 
@@ -52,9 +52,20 @@ V1_NUMBER = re.compile(r'\d{3,4}')
 # v2 只保留高精度后缀做未登录词兜底：这些字结尾的 3 字以上词，几乎都是景区地名；
 # 峰/顶/门/园/台 等宽后缀在 v1 里产生了大量“登顶”“主峰”“大门”噪声，v2 不再使用。
 V2_POI_SUFFIX = ('峰', '寺', '庙', '洞', '瀑', '潭', '阁', '祠', '坊', '寨', '峪')
-V2_T_PLUS = re.compile(r'T\s*\+\s*1')
-V2_CLOCK = re.compile(r'\d{1,2}\s*[:：]\s*\d{2}')
-V2_POINT = re.compile(r'\d{1,2}\s*点(?:\d{1,2}\s*分)?')
+NUMBER = r'(?:\d+(?:\.\d+)?|[零〇一二两三四五六七八九十百]+)'
+V2_T_PLUS = re.compile(rf'(?<![A-Za-z])(?:T\s*\+\s*\d+|Day\s*\d+|第{NUMBER}天|[前后]{NUMBER}天)(?!\d)', re.I)
+HOUR = r'(?:[01]?\d|2[0-3]|[零〇一二两三四五六七八九十]{1,3})'
+CLOCK = r'(?:[01]?\d|2[0-3])\s*[:：]\s*[0-5]\d'
+POINT = rf'{HOUR}\s*点(?:半|[一三]刻|(?:[0-5]?\d|[一二三四五六七八九十]{{1,3}})\s*分)?'
+RANGE = r'\s*[-–—~～至到]{1,2}\s*'
+TIME_LEFT = r'(?<![\d.零〇一二两三四五六七八九十百:：])'
+V2_CLOCK = re.compile(rf'{TIME_LEFT}{CLOCK}(?![\d:：])')
+V2_POINT = re.compile(rf'{TIME_LEFT}{POINT}(?!\d)')
+V2_TIME_RANGE = re.compile(
+    rf'{TIME_LEFT}(?:{CLOCK}{RANGE}{CLOCK}|{POINT}{RANGE}{POINT}|{HOUR}{RANGE}{POINT})(?![\d:：])')
+V2_DURATION = re.compile(
+    rf'{TIME_LEFT}(?:{NUMBER}(?:{RANGE}{NUMBER})?\s*个?\s*'
+    rf'(?:小时(?:半|\s*{NUMBER}\s*分(?:钟)?)?|分钟)|半个?小时|[一二三四]刻钟|{NUMBER}整?天)')
 HAS_CJK = re.compile(r'[\u4e00-\u9fff]')
 
 
@@ -124,14 +135,47 @@ def sentence_of(sentences, pos):
     return sentences[-1]['sid'] if sentences else 0
 
 
-def tokenize(text):
-    return [(w, s, e) for w, s, e in jieba.tokenize(text) if not is_noise_token(w)]
+def tokenize(text, tokenizer):
+    return [(w, s, e) for w, s, e in tokenizer.tokenize(text) if not is_noise_token(w)]
 
 
 def register_lexicon(groups):
+    # 每次抽取使用独立分词器，避免景区顺序或先运行 v2 改变 v1 的分词。
+    tokenizer = jieba.Tokenizer()
     for group in ('poi', 'transport', 'time'):
         for word in groups[group]:
-            jieba.add_word(word, freq=20000)
+            tokenizer.add_word(word, freq=20000)
+    return tokenizer
+
+
+def context_allows(entry, text, start, end):
+    if not entry.get('context_pattern'):
+        return True
+    left = max(text.rfind(mark, 0, start) for mark in '。！？；!?;\n') + 1
+    right = min((p for mark in '。！？；!?;\n'
+                 if (p := text.find(mark, end)) >= 0), default=len(text))
+    return re.search(entry['context_pattern'], text[left:right]) is not None
+
+
+def clock_values_valid(value):
+    """验证中文时刻，避免把“三十三点”或“十一点七十分”判成时刻。"""
+    digits = dict(zip('零〇一二两三四五六七八九', (0, 0, 1, 2, 2, 3, 4, 5, 6, 7, 8, 9)))
+    def integer(word):
+        if word.isdecimal():
+            return int(word)
+        if '十' in word:
+            if word.count('十') != 1:
+                return 999
+            tens, units = word.split('十')
+            return (digits.get(tens, 1) if tens else 1) * 10 + digits.get(units, 0)
+        return digits.get(word, 999)
+    for match in re.finditer(r'([\d零〇一二两三四五六七八九十]+)\s*点', value):
+        if integer(match.group(1)) > 23:
+            return False
+    for match in re.finditer(r'([\d一二三四五六七八九十]+)\s*分', value):
+        if integer(match.group(1)) > 59:
+            return False
+    return True
 
 
 def detect_v1(token):
@@ -189,16 +233,19 @@ def decorate(entity, groups):
     record = dict(entity)
     record['granularity'] = granularity
     record['canonical'] = entry.get('canonical', entity['text'])
+    if entry.get('alias_of'):
+        record['alias_of'] = entry['alias_of']
     return record
 
 
 def extract(records, version, groups, stop, scenic):
+    tokenizer = register_lexicon(groups) if version == 'v2' else jieba.Tokenizer()
     all_entities, per_doc = [], {}
     for record in records:
         text = record['clean_text']
         sentences = split_sentences(text)
         cands = []
-        for token, start, end in tokenize(text):
+        for token, start, end in tokenize(text, tokenizer):
             if version == 'v1':
                 hit = detect_v1(token)
             else:
@@ -206,6 +253,9 @@ def extract(records, version, groups, stop, scenic):
             if not hit:
                 continue
             entity_type, subtype, method = hit
+            if version == 'v2' and not context_allows(
+                    groups[GROUP_OF[entity_type]].get(token, {}), text, start, end):
+                continue
             cands.append({
                 'doc_id': record['doc_id'],
                 'scenic_id': scenic,
@@ -219,11 +269,24 @@ def extract(records, version, groups, stop, scenic):
             })
 
         if version == 'v2':
-            for pattern, subtype, method in ((V2_CLOCK, 'clock', 'regex_clock'),
-                                             (V2_POINT, 'period', 'regex_point'),
+            for pattern, subtype, method in ((V2_TIME_RANGE, 'clock', 'regex_range'),
+                                             (V2_DURATION, 'duration', 'regex_duration'),
+                                             (V2_CLOCK, 'clock', 'regex_clock'),
+                                             (V2_POINT, 'clock', 'regex_point'),
                                              (V2_T_PLUS, 'day', 'regex_day')):
                 for m in pattern.finditer(text):
-                    if any(not (m.end() <= c['start'] or m.start() >= c['end']) for c in cands):
+                    if subtype == 'clock' and not clock_values_valid(m.group()):
+                        continue
+                    if method == 'regex_point' and (
+                            re.match(r'(?:也|都|不|没|儿|点|建议|要求|意见|问题|原因)', text[m.end():])
+                            or (m.start() > 0 and text[m.start() - 1] in '这那某')):
+                        continue
+                    if method == 'regex_point' and m.group().replace(' ', '') == '一点':
+                        before, after = text[max(0, m.start() - 4):m.start()], text[m.end():]
+                        if not (re.search(r'(上午|中午|下午|晚上|凌晨|早上|傍晚|夜里)\s*$', before)
+                                or re.match(r'(左右|钟|多钟|前|后|时|开始|出发|到达|入园|离开|登山|起床)', after)):
+                            continue
+                    if method == 'regex_duration' and m.group().endswith('天') and text[m.end():].startswith('然'):
                         continue
                     cands.append({
                         'doc_id': record['doc_id'],
@@ -295,12 +358,13 @@ def plot_frequency(rows, out_dir, version, scenic):
     from matplotlib import font_manager
     from matplotlib.ticker import MaxNLocator
 
-    font_path = Path(r'C:\Windows\Fonts\msyh.ttc')
-    if font_path.exists():
-        font_manager.fontManager.addfont(str(font_path))
-        name = font_manager.FontProperties(fname=str(font_path)).get_name()
-    else:
-        name = 'SimHei'
+    name = 'SimHei'
+    for candidate in ('msyh.ttc', 'msyhl.ttc', 'simhei.ttf', 'simsun.ttc'):
+        font_path = Path(r'C:\Windows\Fonts') / candidate
+        if font_path.exists():
+            font_manager.fontManager.addfont(str(font_path))
+            name = font_manager.FontProperties(fname=str(font_path)).get_name()
+            break
     plt.rcParams['font.sans-serif'] = [name, 'SimHei', 'DejaVu Sans']
     plt.rcParams['axes.unicode_minus'] = False
 
@@ -346,7 +410,7 @@ def main(argv=None):
 
     lexicon = load_json(CONFIG / 'lexicon.json')
     stop_raw = load_json(CONFIG / 'stopwords.json')
-    scenics = list(SCENICS) if args.scenic == ['all'] else args.scenic
+    scenics = list(SCENICS) if 'all' in args.scenic else args.scenic
     unknown = [s for s in scenics if s not in SCENICS]
     if unknown:
         raise SystemExit(f'未知景区编号: {unknown}，可选 {SCENICS}')
@@ -356,9 +420,6 @@ def main(argv=None):
     for scenic in scenics:
         groups = build_lexicon(lexicon, scenic)
         stop = build_stopwords(stop_raw, scenic)
-        if args.version == 'v2':
-            register_lexicon(groups)
-
         records = load_records(args.input, scenic)
         if not records:
             raise SystemExit(f'未找到景区 {scenic} 的记录: {args.input}')

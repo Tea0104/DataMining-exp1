@@ -1,0 +1,182 @@
+{
+  "schema_version": "2",
+  "scenic_id": "JINGYUETAN",
+  "doc_scope": [
+    "JYT_OFF_002",
+    "JYT_NOTE_005"
+  ],
+  "granularity": "名称级：doc_id + entity_type + 表面形式，不区分同一名称的不同出现位置",
+  "annotated_by": "AI 助手依据原文初标，待组员复核签字",
+  "annotation_date": "2026-10-29",
+  "annotation_notes": [
+    "覆盖 1 篇官方路线 + 1 篇游记，未覆盖其余 8 篇。",
+    "景区本体名“净月潭”不计 POI（规范第 2 条）。",
+    "游记里的“塔楼”指碧松净月塔楼、“瓦萨滑雪博物馆”指中国瓦萨博物馆、“滑雪场”指净月潭滑雪场，按原文表面形式标注，不替作者补全。",
+    "“东北虎园”按 2026-10-29 裁决不计入本景区。",
+    "“景区车”“地铁”计为交通方式；“徒步惊喜”是打卡点名称，计 POI，不拆出“徒步”。",
+    "“每十分钟”按“十分钟”计为时间节点（时长）。",
+    "2026-10-29 复核补标：“西环潭方向”“东环潭处”是环湖方位区域名，补入 POI；“橡树岭”是避暑山庄别名，不补，避免重复计同一节点。"
+  ],
+  "items": [
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "景区正门"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "女神广场"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "中韩友谊林"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "大坝西"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "朝夕水岸"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "黑松林"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "水上栈道"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "森林浴场"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "中国瓦萨博物馆"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "雪世界彩头雁"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "湿地竹筏游览区"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "徒步惊喜"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "灵草芳洲"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "月潭揽胜"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "避暑山庄"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "月亮湾"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "观潭山"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "童趣营地"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "森林探险乐园"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "荷花垂柳"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "西环潭"
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "entity_type": "POI",
+      "text": "东环潭"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "女神广场"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "塔楼"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "水库大坝"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "森林浴场"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "湿地"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "瓦萨滑雪博物馆"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "POI",
+      "text": "滑雪场"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "地铁"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "景区车"
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "entity_type": "TIME",
+      "text": "十分钟"
+    }
+  ]
+}

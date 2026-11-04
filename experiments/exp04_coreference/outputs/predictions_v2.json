@@ -1,0 +1,5313 @@
+[
+  {
+    "sample_id": "TS_NOTE_001:93:94",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 93,
+      "end": 94,
+      "text": "那"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "后指引语，不存在前文先行词",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_001:411:412",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 411,
+      "end": 412,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 408,
+      "end": 411,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离0字；同句；实验二具名景点候选；紧邻显式地点或名词",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 408,
+          "end": 411,
+          "text": "中天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 117.0,
+        "reasons": [
+          "类型相容",
+          "距离0字",
+          "同句",
+          "实验二具名景点候选",
+          "紧邻显式地点或名词"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 405,
+          "end": 407,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 76.5,
+        "reasons": [
+          "类型相容",
+          "距离4字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 333,
+          "end": 335,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 62.5,
+        "reasons": [
+          "类型相容",
+          "距离76字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 380,
+          "end": 382,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 58.375,
+        "reasons": [
+          "类型相容",
+          "距离29字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 394,
+          "end": 396,
+          "text": "登山",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 48.125,
+        "reasons": [
+          "类型相容",
+          "距离15字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:823:825",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 823,
+      "end": 825,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 819,
+      "end": 822,
+      "text": "万仙楼",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离1字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 819,
+          "end": 822,
+          "text": "万仙楼",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 76.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 809,
+          "end": 811,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 75.5,
+        "reasons": [
+          "类型相容",
+          "距离12字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 789,
+          "end": 791,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 58.0,
+        "reasons": [
+          "类型相容",
+          "距离32字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 764,
+          "end": 766,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 54.875,
+        "reasons": [
+          "类型相容",
+          "距离57字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 693,
+          "end": 696,
+          "text": "红门宫",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 46.125,
+        "reasons": [
+          "类型相容",
+          "距离127字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:832:833",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 832,
+      "end": 833,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 819,
+      "end": 822,
+      "text": "万仙楼",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离10字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 819,
+          "end": 822,
+          "text": "万仙楼",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 60.75,
+        "reasons": [
+          "类型相容",
+          "距离10字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 809,
+          "end": 811,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 59.375,
+        "reasons": [
+          "类型相容",
+          "距离21字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 789,
+          "end": 791,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 56.875,
+        "reasons": [
+          "类型相容",
+          "距离41字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 764,
+          "end": 766,
+          "text": "红门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 53.75,
+        "reasons": [
+          "类型相容",
+          "距离66字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 826,
+          "end": 828,
+          "text": "泰山",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.5,
+        "reasons": [
+          "类型相容",
+          "距离4字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1171:1173",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1171,
+      "end": 1173,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1152,
+      "end": 1155,
+      "text": "经石峪",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离16字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1152,
+          "end": 1155,
+          "text": "经石峪",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 60.0,
+        "reasons": [
+          "类型相容",
+          "距离16字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1128,
+          "end": 1131,
+          "text": "三官庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 57.0,
+        "reasons": [
+          "类型相容",
+          "距离40字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1106,
+          "end": 1109,
+          "text": "三官庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 54.25,
+        "reasons": [
+          "类型相容",
+          "距离62字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1102,
+          "end": 1105,
+          "text": "三官庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 53.75,
+        "reasons": [
+          "类型相容",
+          "距离66字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1061,
+          "end": 1064,
+          "text": "斗母宫",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 48.625,
+        "reasons": [
+          "类型相容",
+          "距离107字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1225:1226",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1225,
+      "end": 1226,
+      "text": "该"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1220,
+      "end": 1224,
+      "text": "摩崖石刻",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离1字；名词中心词一致",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1220,
+          "end": 1224,
+          "text": "摩崖石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 79.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1222,
+          "end": 1224,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 79.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1045,
+          "end": 1047,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 57.75,
+        "reasons": [
+          "类型相容",
+          "距离178字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 994,
+          "end": 996,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 51.375,
+        "reasons": [
+          "类型相容",
+          "距离229字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 875,
+          "end": 877,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 36.5,
+        "reasons": [
+          "类型相容",
+          "距离348字",
+          "名词中心词一致"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1314:1316",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1314,
+      "end": 1316,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1209,
+      "end": 1212,
+      "text": "经石峪",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离102字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1209,
+          "end": 1212,
+          "text": "经石峪",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 49.25,
+        "reasons": [
+          "类型相容",
+          "距离102字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1288,
+          "end": 1290,
+          "text": "坪上",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 47.0,
+        "reasons": [
+          "类型相容",
+          "距离24字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1272,
+          "end": 1274,
+          "text": "波罗",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 45.0,
+        "reasons": [
+          "类型相容",
+          "距离40字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1152,
+          "end": 1155,
+          "text": "经石峪",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 42.125,
+        "reasons": [
+          "类型相容",
+          "距离159字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1236,
+          "end": 1238,
+          "text": "北齐",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 40.5,
+        "reasons": [
+          "类型相容",
+          "距离76字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1335:1336",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1335,
+      "end": 1336,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "首次引入的物体或现场指示，前文无同类候选",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_001:1459:1461",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1459,
+      "end": 1461,
+      "text": "这个"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "首次引入的物体或现场指示，前文无同类候选",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_001:1495:1497",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1495,
+      "end": 1497,
+      "text": "这个"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1483,
+      "end": 1485,
+      "text": "价格",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "reason": "类型相容；距离10字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1483,
+          "end": 1485,
+          "text": "价格",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 54.75,
+        "reasons": [
+          "类型相容",
+          "距离10字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1485,
+          "end": 1487,
+          "text": "有点",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 49.0,
+        "reasons": [
+          "类型相容",
+          "距离8字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1480,
+          "end": 1483,
+          "text": "瓶装水",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 48.5,
+        "reasons": [
+          "类型相容",
+          "距离12字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1380,
+          "end": 1383,
+          "text": "水帘洞",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 48.0,
+        "reasons": [
+          "类型相容",
+          "距离112字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1475,
+          "end": 1477,
+          "text": "牌子",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 47.75,
+        "reasons": [
+          "类型相容",
+          "距离18字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1616:1618",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1616,
+      "end": 1618,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1598,
+      "end": 1601,
+      "text": "壶天阁",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离15字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1598,
+          "end": 1601,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 60.125,
+        "reasons": [
+          "类型相容",
+          "距离15字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1575,
+          "end": 1578,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 57.25,
+        "reasons": [
+          "类型相容",
+          "距离38字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1548,
+          "end": 1551,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 53.875,
+        "reasons": [
+          "类型相容",
+          "距离65字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1525,
+          "end": 1528,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 51.0,
+        "reasons": [
+          "类型相容",
+          "距离88字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1609,
+          "end": 1611,
+          "text": "泰山",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.375,
+        "reasons": [
+          "类型相容",
+          "距离5字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1662:1663",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1662,
+      "end": 1663,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1655,
+      "end": 1658,
+      "text": "回马岭",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离4字；实验二具名景点候选；当前位置线索",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1655,
+          "end": 1658,
+          "text": "回马岭",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 71.5,
+        "reasons": [
+          "类型相容",
+          "距离4字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1644,
+          "end": 1647,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 70.125,
+        "reasons": [
+          "类型相容",
+          "距离15字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1598,
+          "end": 1601,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 54.375,
+        "reasons": [
+          "类型相容",
+          "距离61字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1575,
+          "end": 1578,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 51.5,
+        "reasons": [
+          "类型相容",
+          "距离84字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1658,
+          "end": 1660,
+          "text": "石坊",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.75,
+        "reasons": [
+          "类型相容",
+          "距离2字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1688:1690",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1688,
+      "end": 1690,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1655,
+      "end": 1658,
+      "text": "回马岭",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离30字；实验二具名景点候选；当前位置线索",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1655,
+          "end": 1658,
+          "text": "回马岭",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 68.25,
+        "reasons": [
+          "类型相容",
+          "距离30字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1644,
+          "end": 1647,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 66.875,
+        "reasons": [
+          "类型相容",
+          "距离41字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1598,
+          "end": 1601,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 51.125,
+        "reasons": [
+          "类型相容",
+          "距离87字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1682,
+          "end": 1684,
+          "text": "天桥",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.5,
+        "reasons": [
+          "类型相容",
+          "距离4字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1575,
+          "end": 1578,
+          "text": "壶天阁",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 48.25,
+        "reasons": [
+          "类型相容",
+          "距离110字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1843:1845",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1843,
+      "end": 1845,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1840,
+      "end": 1843,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离0字；同句；实验二具名景点候选；紧邻显式地点或名词；当前位置线索",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 127.0,
+        "reasons": [
+          "类型相容",
+          "距离0字",
+          "同句",
+          "实验二具名景点候选",
+          "紧邻显式地点或名词",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1788,
+          "end": 1790,
+          "text": "岱顶",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 65.375,
+        "reasons": [
+          "类型相容",
+          "距离53字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1772,
+          "end": 1775,
+          "text": "南天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 63.5,
+        "reasons": [
+          "类型相容",
+          "距离68字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1831,
+          "end": 1834,
+          "text": "南天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 60.875,
+        "reasons": [
+          "类型相容",
+          "距离9字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1822,
+          "end": 1825,
+          "text": "十八盘",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 59.75,
+        "reasons": [
+          "类型相容",
+          "距离18字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1860:1862",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1860,
+      "end": 1862,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1840,
+      "end": 1843,
+      "text": "中天门",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离17字；同句；实验二具名景点候选；当前位置线索",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 84.875,
+        "reasons": [
+          "类型相容",
+          "距离17字",
+          "同句",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1788,
+          "end": 1790,
+          "text": "岱顶",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 63.25,
+        "reasons": [
+          "类型相容",
+          "距离70字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1772,
+          "end": 1775,
+          "text": "南天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 61.375,
+        "reasons": [
+          "类型相容",
+          "距离85字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1831,
+          "end": 1834,
+          "text": "南天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 58.75,
+        "reasons": [
+          "类型相容",
+          "距离26字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1822,
+          "end": 1825,
+          "text": "十八盘",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 57.625,
+        "reasons": [
+          "类型相容",
+          "距离35字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1897:1898",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1897,
+      "end": 1898,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1892,
+      "end": 1895,
+      "text": "十八盘",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离2字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1892,
+          "end": 1895,
+          "text": "十八盘",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 76.75,
+        "reasons": [
+          "类型相容",
+          "距离2字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1874,
+          "end": 1877,
+          "text": "中天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 74.5,
+        "reasons": [
+          "类型相容",
+          "距离20字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 65.25,
+        "reasons": [
+          "类型相容",
+          "距离54字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1889,
+          "end": 1891,
+          "text": "登山",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 64.25,
+        "reasons": [
+          "类型相容",
+          "距离6字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1788,
+          "end": 1790,
+          "text": "岱顶",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 58.625,
+        "reasons": [
+          "类型相容",
+          "距离107字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:1939:1941",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 1939,
+      "end": 1941,
+      "text": "这些"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "泛指时间范围，不链接景点或物体",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_001:2370:2371",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2370,
+      "end": 2371,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "图像指示，正文不足以确认先行词",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_001:2447:2449",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2447,
+      "end": 2449,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2444,
+      "end": 2447,
+      "text": "孔子庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离0字；同句；实验二具名景点候选；紧邻显式地点或名词",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2444,
+          "end": 2447,
+          "text": "孔子庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 117.0,
+        "reasons": [
+          "类型相容",
+          "距离0字",
+          "同句",
+          "实验二具名景点候选",
+          "紧邻显式地点或名词"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2439,
+          "end": 2442,
+          "text": "孔子庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 76.375,
+        "reasons": [
+          "类型相容",
+          "距离5字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2435,
+          "end": 2438,
+          "text": "青帝宫",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 75.875,
+        "reasons": [
+          "类型相容",
+          "距离9字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2425,
+          "end": 2428,
+          "text": "大观峰",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 74.625,
+        "reasons": [
+          "类型相容",
+          "距离19字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2405,
+          "end": 2408,
+          "text": "碧霞祠",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 67.125,
+        "reasons": [
+          "类型相容",
+          "距离39字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:2539:2540",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2539,
+      "end": 2540,
+      "text": "此"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2529,
+      "end": 2532,
+      "text": "瞻鲁台",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离7字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2529,
+          "end": 2532,
+          "text": "瞻鲁台",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 76.125,
+        "reasons": [
+          "类型相容",
+          "距离7字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2405,
+          "end": 2408,
+          "text": "碧霞祠",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 55.625,
+        "reasons": [
+          "类型相容",
+          "距离131字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2466,
+          "end": 2469,
+          "text": "孔子庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 53.25,
+        "reasons": [
+          "类型相容",
+          "距离70字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2444,
+          "end": 2447,
+          "text": "孔子庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 50.5,
+        "reasons": [
+          "类型相容",
+          "距离92字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2439,
+          "end": 2442,
+          "text": "孔子庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 49.875,
+        "reasons": [
+          "类型相容",
+          "距离97字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:2545:2546",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2545,
+      "end": 2546,
+      "text": "此"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2524,
+      "end": 2526,
+      "text": "景观",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "reason": "类型相容；距离19字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2524,
+          "end": 2526,
+          "text": "景观",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 47.625,
+        "reasons": [
+          "类型相容",
+          "距离19字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2522,
+          "end": 2524,
+          "text": "奇特",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 47.375,
+        "reasons": [
+          "类型相容",
+          "距离21字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2383,
+          "end": 2385,
+          "text": "线路",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 46.0,
+        "reasons": [
+          "类型相容",
+          "距离160字",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2501,
+          "end": 2503,
+          "text": "岩石",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 44.75,
+        "reasons": [
+          "类型相容",
+          "距离42字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2416,
+          "end": 2418,
+          "text": "路线",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 40.125,
+        "reasons": [
+          "类型相容",
+          "距离127字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:2595:2596",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2595,
+      "end": 2596,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2577,
+      "end": 2580,
+      "text": "拱北石",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离15字；同句；实验二具名景点候选；方向/距离提及降权",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2577,
+          "end": 2580,
+          "text": "拱北石",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 57.125,
+        "reasons": [
+          "类型相容",
+          "距离15字",
+          "同句",
+          "实验二具名景点候选",
+          "方向/距离提及降权"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2571,
+          "end": 2574,
+          "text": "瞻鲁台",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 56.375,
+        "reasons": [
+          "类型相容",
+          "距离21字",
+          "同句",
+          "实验二具名景点候选",
+          "方向/距离提及降权"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2529,
+          "end": 2532,
+          "text": "瞻鲁台",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 54.125,
+        "reasons": [
+          "类型相容",
+          "距离63字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2405,
+          "end": 2408,
+          "text": "碧霞祠",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 48.625,
+        "reasons": [
+          "类型相容",
+          "距离187字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2565,
+          "end": 2568,
+          "text": "气象站",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 46.625,
+        "reasons": [
+          "类型相容",
+          "距离27字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:2718:2720",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2718,
+      "end": 2720,
+      "text": "此处"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2698,
+      "end": 2702,
+      "text": "五岳独尊",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离16字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2698,
+          "end": 2702,
+          "text": "五岳独尊",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 75.0,
+        "reasons": [
+          "类型相容",
+          "距离16字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2691,
+          "end": 2693,
+          "text": "泰山",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 71.875,
+        "reasons": [
+          "类型相容",
+          "距离25字",
+          "同句",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2635,
+          "end": 2638,
+          "text": "拱北石",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 52.0,
+        "reasons": [
+          "类型相容",
+          "距离80字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2616,
+          "end": 2619,
+          "text": "日观峰",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 49.625,
+        "reasons": [
+          "类型相容",
+          "距离99字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2611,
+          "end": 2614,
+          "text": "瞻鲁台",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 49.0,
+        "reasons": [
+          "类型相容",
+          "距离104字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:2738:2740",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 2738,
+      "end": 2740,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2698,
+      "end": 2702,
+      "text": "五岳独尊",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离36字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2698,
+          "end": 2702,
+          "text": "五岳独尊",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 72.5,
+        "reasons": [
+          "类型相容",
+          "距离36字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2691,
+          "end": 2693,
+          "text": "泰山",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 69.375,
+        "reasons": [
+          "类型相容",
+          "距离45字",
+          "同句",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2635,
+          "end": 2638,
+          "text": "拱北石",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 49.5,
+        "reasons": [
+          "类型相容",
+          "距离100字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2616,
+          "end": 2619,
+          "text": "日观峰",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 47.125,
+        "reasons": [
+          "类型相容",
+          "距离119字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2611,
+          "end": 2614,
+          "text": "瞻鲁台",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 46.5,
+        "reasons": [
+          "类型相容",
+          "距离124字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:3028:3030",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 3028,
+      "end": 3030,
+      "text": "这些"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3022,
+      "end": 3024,
+      "text": "石刻",
+      "entity_type": "object",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离4字；同句；名词中心词一致",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3022,
+          "end": 3024,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 94.5,
+        "reasons": [
+          "类型相容",
+          "距离4字",
+          "同句",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2703,
+          "end": 2707,
+          "text": "摩崖石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 39.875,
+        "reasons": [
+          "类型相容",
+          "距离321字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2705,
+          "end": 2707,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 39.875,
+        "reasons": [
+          "类型相容",
+          "距离321字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2684,
+          "end": 2686,
+          "text": "石刻",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 37.25,
+        "reasons": [
+          "类型相容",
+          "距离342字",
+          "名词中心词一致"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_001:3227:3229",
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/taian746/4165544.html",
+    "pronoun": {
+      "start": 3227,
+      "end": 3229,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3220,
+      "end": 3223,
+      "text": "孔子庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离4字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3220,
+          "end": 3223,
+          "text": "孔子庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 61.5,
+        "reasons": [
+          "类型相容",
+          "距离4字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3191,
+          "end": 3194,
+          "text": "唐摩崖",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 57.875,
+        "reasons": [
+          "类型相容",
+          "距离33字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3141,
+          "end": 3144,
+          "text": "大观峰",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 51.625,
+        "reasons": [
+          "类型相容",
+          "距离83字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3176,
+          "end": 3179,
+          "text": "碧霞祠",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 48.0,
+        "reasons": [
+          "类型相容",
+          "距离48字",
+          "实验二具名景点候选",
+          "当前位置线索",
+          "方向/距离提及降权"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3096,
+          "end": 3099,
+          "text": "东岳庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 46.0,
+        "reasons": [
+          "类型相容",
+          "距离128字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:15:16",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 15,
+      "end": 16,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 12,
+      "end": 14,
+      "text": "岱庙",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离1字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 12,
+          "end": 14,
+          "text": "岱庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 61.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 0,
+          "end": 2,
+          "text": "岱庙",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 60.375,
+        "reasons": [
+          "类型相容",
+          "距离13字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:61:62",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 61,
+      "end": 62,
+      "text": "那"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "首次引入的物体或现场指示，前文无同类候选",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_005:286:287",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 286,
+      "end": 287,
+      "text": "那"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "unresolved",
+    "antecedent": null,
+    "reason": "首次引入的物体或现场指示，前文无同类候选",
+    "ranked_candidates": []
+  },
+  {
+    "sample_id": "TS_NOTE_005:501:503",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 501,
+      "end": 503,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 453,
+      "end": 456,
+      "text": "普照寺",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离45字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 453,
+          "end": 456,
+          "text": "普照寺",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 56.375,
+        "reasons": [
+          "类型相容",
+          "距离45字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 462,
+          "end": 464,
+          "text": "泰安",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 55.375,
+        "reasons": [
+          "类型相容",
+          "距离37字",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 420,
+          "end": 423,
+          "text": "普照寺",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 52.25,
+        "reasons": [
+          "类型相容",
+          "距离78字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 314,
+          "end": 317,
+          "text": "玉泉寺",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 49.0,
+        "reasons": [
+          "类型相容",
+          "距离184字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 393,
+          "end": 396,
+          "text": "普照寺",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 48.875,
+        "reasons": [
+          "类型相容",
+          "距离105字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:740:741",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 740,
+      "end": 741,
+      "text": "此"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 737,
+      "end": 739,
+      "text": "生平",
+      "entity_type": "object",
+      "source": "pos_noun"
+    },
+    "reason": "类型相容；距离1字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 737,
+          "end": 739,
+          "text": "生平",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 70.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 727,
+          "end": 729,
+          "text": "风云",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 63.625,
+        "reasons": [
+          "类型相容",
+          "距离11字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 691,
+          "end": 694,
+          "text": "玉皇顶",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 56.25,
+        "reasons": [
+          "类型相容",
+          "距离46字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 686,
+          "end": 690,
+          "text": "五岳独尊",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 55.75,
+        "reasons": [
+          "类型相容",
+          "距离50字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 679,
+          "end": 682,
+          "text": "碧霞祠",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 54.75,
+        "reasons": [
+          "类型相容",
+          "距离58字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:750:751",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 750,
+      "end": 751,
+      "text": "此"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 745,
+      "end": 749,
+      "text": "凌晨六点",
+      "entity_type": "time",
+      "source": "explicit_time"
+    },
+    "reason": "类型相容；距离1字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time",
+          "source": "explicit_time"
+        },
+        "score": 64.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 747,
+          "end": 749,
+          "text": "六点",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 64.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 745,
+          "end": 747,
+          "text": "凌晨",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 64.625,
+        "reasons": [
+          "类型相容",
+          "距离3字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:752:753",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 752,
+      "end": 753,
+      "text": "此"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 745,
+      "end": 749,
+      "text": "凌晨六点",
+      "entity_type": "time",
+      "source": "explicit_time"
+    },
+    "reason": "类型相容；距离3字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time",
+          "source": "explicit_time"
+        },
+        "score": 64.625,
+        "reasons": [
+          "类型相容",
+          "距离3字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 747,
+          "end": 749,
+          "text": "六点",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 64.625,
+        "reasons": [
+          "类型相容",
+          "距离3字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 745,
+          "end": 747,
+          "text": "凌晨",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 64.375,
+        "reasons": [
+          "类型相容",
+          "距离5字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:776:777",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 776,
+      "end": 777,
+      "text": "那"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 745,
+      "end": 749,
+      "text": "凌晨六点",
+      "entity_type": "time",
+      "source": "explicit_time"
+    },
+    "reason": "类型相容；距离27字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time",
+          "source": "explicit_time"
+        },
+        "score": 46.625,
+        "reasons": [
+          "类型相容",
+          "距离27字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 747,
+          "end": 749,
+          "text": "六点",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 46.625,
+        "reasons": [
+          "类型相容",
+          "距离27字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 745,
+          "end": 747,
+          "text": "凌晨",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 46.375,
+        "reasons": [
+          "类型相容",
+          "距离29字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "TS_NOTE_005:803:804",
+    "doc_id": "TS_NOTE_005",
+    "scenic_id": "TAISHAN",
+    "source_url": "https://you.ctrip.com/travels/MountTaishan6/4154660.html",
+    "pronoun": {
+      "start": 803,
+      "end": 804,
+      "text": "那"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 745,
+      "end": 749,
+      "text": "凌晨六点",
+      "entity_type": "time",
+      "source": "explicit_time"
+    },
+    "reason": "类型相容；距离54字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time",
+          "source": "explicit_time"
+        },
+        "score": 43.25,
+        "reasons": [
+          "类型相容",
+          "距离54字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 747,
+          "end": 749,
+          "text": "六点",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 43.25,
+        "reasons": [
+          "类型相容",
+          "距离54字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 745,
+          "end": 747,
+          "text": "凌晨",
+          "entity_type": "time",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 43.0,
+        "reasons": [
+          "类型相容",
+          "距离56字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:114:116",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 114,
+      "end": 116,
+      "text": "他们"
+    },
+    "pronoun_type": "person",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 98,
+      "end": 113,
+      "text": "老人65岁以上，儿童14岁以下",
+      "entity_type": "person",
+      "source": "coordinated_people",
+      "gender": "unspecified",
+      "plural": true
+    },
+    "reason": "类型相容；距离1字；同句；复数人群",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 98,
+          "end": 113,
+          "text": "老人65岁以上，儿童14岁以下",
+          "entity_type": "person",
+          "source": "coordinated_people",
+          "gender": "unspecified",
+          "plural": true
+        },
+        "score": 89.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句",
+          "复数人群"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 79,
+          "end": 84,
+          "text": "女儿和爸爸",
+          "entity_type": "person",
+          "source": "coordinated_people",
+          "gender": "unspecified",
+          "plural": true
+        },
+        "score": 71.25,
+        "reasons": [
+          "类型相容",
+          "距离30字",
+          "复数人群"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 106,
+          "end": 108,
+          "text": "儿童",
+          "entity_type": "person",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 64.25,
+        "reasons": [
+          "类型相容",
+          "距离6字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 98,
+          "end": 100,
+          "text": "老人",
+          "entity_type": "person",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 63.25,
+        "reasons": [
+          "类型相容",
+          "距离14字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 91,
+          "end": 93,
+          "text": "凤凰",
+          "entity_type": "person",
+          "source": "pos_or_semantic_lexicon",
+          "gender": "unspecified"
+        },
+        "score": 47.375,
+        "reasons": [
+          "类型相容",
+          "距离21字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:495:496",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 495,
+      "end": 496,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 468,
+      "end": 471,
+      "text": "金鞭溪",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离24字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 468,
+          "end": 471,
+          "text": "金鞭溪",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 74.0,
+        "reasons": [
+          "类型相容",
+          "距离24字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 464,
+          "end": 467,
+          "text": "袁家界",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 73.5,
+        "reasons": [
+          "类型相容",
+          "距离28字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 460,
+          "end": 463,
+          "text": "杨家界",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 73.0,
+        "reasons": [
+          "类型相容",
+          "距离32字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 456,
+          "end": 459,
+          "text": "天子山",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 72.5,
+        "reasons": [
+          "类型相容",
+          "距离36字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 447,
+          "end": 449,
+          "text": "路线",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 65.25,
+        "reasons": [
+          "类型相容",
+          "距离46字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:533:535",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 533,
+      "end": 535,
+      "text": "它们"
+    },
+    "pronoun_type": "thing_or_animal",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 514,
+      "end": 516,
+      "text": "猴子",
+      "entity_type": "animal",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离17字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 514,
+          "end": 516,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 62.875,
+        "reasons": [
+          "类型相容",
+          "距离17字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:587:589",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 587,
+      "end": 589,
+      "text": "它们"
+    },
+    "pronoun_type": "thing_or_animal",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 544,
+      "end": 546,
+      "text": "猴子",
+      "entity_type": "animal",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离41字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 544,
+          "end": 546,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 59.875,
+        "reasons": [
+          "类型相容",
+          "距离41字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 514,
+          "end": 516,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 56.125,
+        "reasons": [
+          "类型相容",
+          "距离71字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:622:623",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 622,
+      "end": 623,
+      "text": "它"
+    },
+    "pronoun_type": "thing_or_animal",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 618,
+      "end": 621,
+      "text": "大猴子",
+      "entity_type": "animal",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离1字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 618,
+          "end": 621,
+          "text": "大猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 64.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 619,
+          "end": 621,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 64.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 544,
+          "end": 546,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 40.5,
+        "reasons": [
+          "类型相容",
+          "距离76字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 514,
+          "end": 516,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 36.75,
+        "reasons": [
+          "类型相容",
+          "距离106字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:702:703",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 702,
+      "end": 703,
+      "text": "它"
+    },
+    "pronoun_type": "thing_or_animal",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 693,
+      "end": 695,
+      "text": "猴子",
+      "entity_type": "animal",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离7字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 693,
+          "end": 695,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 64.125,
+        "reasons": [
+          "类型相容",
+          "距离7字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 618,
+          "end": 621,
+          "text": "大猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 39.875,
+        "reasons": [
+          "类型相容",
+          "距离81字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 619,
+          "end": 621,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 39.875,
+        "reasons": [
+          "类型相容",
+          "距离81字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 544,
+          "end": 546,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 30.5,
+        "reasons": [
+          "类型相容",
+          "距离156字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 514,
+          "end": 516,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 26.75,
+        "reasons": [
+          "类型相容",
+          "距离186字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "ZJJ_NOTE_005:734:736",
+    "doc_id": "ZJJ_NOTE_005",
+    "scenic_id": "WULINGYUAN",
+    "source_url": "https://you.ctrip.com/travels/zhangjiajie23/4020527.html",
+    "pronoun": {
+      "start": 734,
+      "end": 736,
+      "text": "它们"
+    },
+    "pronoun_type": "thing_or_animal",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 726,
+      "end": 728,
+      "text": "猴子",
+      "entity_type": "animal",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": false
+    },
+    "reason": "类型相容；距离6字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 726,
+          "end": 728,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 64.25,
+        "reasons": [
+          "类型相容",
+          "距离6字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 693,
+          "end": 695,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 45.125,
+        "reasons": [
+          "类型相容",
+          "距离39字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 618,
+          "end": 621,
+          "text": "大猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 35.875,
+        "reasons": [
+          "类型相容",
+          "距离113字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 619,
+          "end": 621,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 35.875,
+        "reasons": [
+          "类型相容",
+          "距离113字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 544,
+          "end": 546,
+          "text": "猴子",
+          "entity_type": "animal",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 26.5,
+        "reasons": [
+          "类型相容",
+          "距离188字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:259:261",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 259,
+      "end": 261,
+      "text": "这个"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 252,
+      "end": 256,
+      "text": "公园入口",
+      "entity_type": "place",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": true
+    },
+    "reason": "类型相容；距离3字；名词中心词一致",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 252,
+          "end": 256,
+          "text": "公园入口",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 67.625,
+        "reasons": [
+          "类型相容",
+          "距离3字",
+          "名词中心词一致"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 254,
+          "end": 256,
+          "text": "入口",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 67.625,
+        "reasons": [
+          "类型相容",
+          "距离3字",
+          "名词中心词一致"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:511:512",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 511,
+      "end": 512,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 457,
+      "end": 459,
+      "text": "长春",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "reason": "类型相容；距离52字；同句；当前位置线索",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 457,
+          "end": 459,
+          "text": "长春",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 68.5,
+        "reasons": [
+          "类型相容",
+          "距离52字",
+          "同句",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 506,
+          "end": 510,
+          "text": "人工湖泊",
+          "entity_type": "object",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": false
+        },
+        "score": 64.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 493,
+          "end": 495,
+          "text": "面积",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 63.0,
+        "reasons": [
+          "类型相容",
+          "距离16字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 491,
+          "end": 493,
+          "text": "水域",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 62.75,
+        "reasons": [
+          "类型相容",
+          "距离18字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 485,
+          "end": 488,
+          "text": "贮水池",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 62.125,
+        "reasons": [
+          "类型相容",
+          "距离23字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:1272:1274",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 1272,
+      "end": 1274,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1207,
+      "end": 1210,
+      "text": "坝西站",
+      "entity_type": "place",
+      "source": "station_heading"
+    },
+    "reason": "类型相容；距离62字；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1207,
+          "end": 1210,
+          "text": "坝西站",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 60.25,
+        "reasons": [
+          "类型相容",
+          "距离62字",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1268,
+          "end": 1270,
+          "text": "大坝",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.75,
+        "reasons": [
+          "类型相容",
+          "距离2字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1265,
+          "end": 1268,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.5,
+        "reasons": [
+          "类型相容",
+          "距离4字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1213,
+          "end": 1215,
+          "text": "西站",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 48.875,
+        "reasons": [
+          "类型相容",
+          "距离57字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1259,
+          "end": 1261,
+          "text": "西站",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 48.625,
+        "reasons": [
+          "类型相容",
+          "距离11字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:1288:1290",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 1288,
+      "end": 1290,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1207,
+      "end": 1210,
+      "text": "坝西站",
+      "entity_type": "place",
+      "source": "station_heading"
+    },
+    "reason": "类型相容；距离78字；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1207,
+          "end": 1210,
+          "text": "坝西站",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 58.25,
+        "reasons": [
+          "类型相容",
+          "距离78字",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1279,
+          "end": 1281,
+          "text": "湖水",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 49.125,
+        "reasons": [
+          "类型相容",
+          "距离7字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1268,
+          "end": 1270,
+          "text": "大坝",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 47.75,
+        "reasons": [
+          "类型相容",
+          "距离18字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1265,
+          "end": 1268,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 47.5,
+        "reasons": [
+          "类型相容",
+          "距离20字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1213,
+          "end": 1215,
+          "text": "西站",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 46.875,
+        "reasons": [
+          "类型相容",
+          "距离73字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:1332:1334",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 1332,
+      "end": 1334,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1307,
+      "end": 1310,
+      "text": "溢水湾",
+      "entity_type": "place",
+      "source": "station_heading"
+    },
+    "reason": "类型相容；距离22字；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1307,
+          "end": 1310,
+          "text": "溢水湾",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 65.25,
+        "reasons": [
+          "类型相容",
+          "距离22字",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1317,
+          "end": 1321,
+          "text": "朝夕水岸",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 60.625,
+        "reasons": [
+          "类型相容",
+          "距离11字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1303,
+          "end": 1306,
+          "text": "第二站",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 46.75,
+        "reasons": [
+          "类型相容",
+          "距离26字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1295,
+          "end": 1297,
+          "text": "湖水",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 45.625,
+        "reasons": [
+          "类型相容",
+          "距离35字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1279,
+          "end": 1281,
+          "text": "湖水",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 43.625,
+        "reasons": [
+          "类型相容",
+          "距离51字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:1395:1397",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 1395,
+      "end": 1397,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1307,
+      "end": 1310,
+      "text": "溢水湾",
+      "entity_type": "place",
+      "source": "station_heading"
+    },
+    "reason": "类型相容；距离85字；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1307,
+          "end": 1310,
+          "text": "溢水湾",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 57.375,
+        "reasons": [
+          "类型相容",
+          "距离85字",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1317,
+          "end": 1321,
+          "text": "朝夕水岸",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 52.75,
+        "reasons": [
+          "类型相容",
+          "距离74字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1355,
+          "end": 1357,
+          "text": "湖水",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 45.25,
+        "reasons": [
+          "类型相容",
+          "距离38字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1335,
+          "end": 1338,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 42.875,
+        "reasons": [
+          "类型相容",
+          "距离57字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1303,
+          "end": 1306,
+          "text": "第二站",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 38.875,
+        "reasons": [
+          "类型相容",
+          "距离89字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:1823:1825",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 1823,
+      "end": 1825,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 1812,
+      "end": 1816,
+      "text": "望潭广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离7字；同句；实验二具名景点候选；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 1812,
+          "end": 1816,
+          "text": "望潭广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 100.125,
+        "reasons": [
+          "类型相容",
+          "距离7字",
+          "同句",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1802,
+          "end": 1806,
+          "text": "望潭广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 77.875,
+        "reasons": [
+          "类型相容",
+          "距离17字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1791,
+          "end": 1796,
+          "text": "瓦萨博物馆",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 68.625,
+        "reasons": [
+          "类型相容",
+          "距离27字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1757,
+          "end": 1760,
+          "text": "黑松林",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 64.125,
+        "reasons": [
+          "类型相容",
+          "距离63字",
+          "实验二具名景点候选",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1782,
+          "end": 1786,
+          "text": "望潭广场",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 63.375,
+        "reasons": [
+          "类型相容",
+          "距离37字",
+          "站点标题提供场景"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:2681:2682",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 2681,
+      "end": 2682,
+      "text": "她"
+    },
+    "pronoun_type": "person",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2669,
+      "end": 2671,
+      "text": "女郎",
+      "entity_type": "person",
+      "source": "semantic_lexicon",
+      "gender": "female",
+      "generic": false
+    },
+    "reason": "类型相容；距离10字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2669,
+          "end": 2671,
+          "text": "女郎",
+          "entity_type": "person",
+          "source": "semantic_lexicon",
+          "gender": "female",
+          "generic": false
+        },
+        "score": 63.75,
+        "reasons": [
+          "类型相容",
+          "距离10字",
+          "同句"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:2717:2718",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 2717,
+      "end": 2718,
+      "text": "她"
+    },
+    "pronoun_type": "person",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 2705,
+      "end": 2707,
+      "text": "女郎",
+      "entity_type": "person",
+      "source": "semantic_lexicon",
+      "gender": "female",
+      "generic": false
+    },
+    "reason": "类型相容；距离10字；同句",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 2705,
+          "end": 2707,
+          "text": "女郎",
+          "entity_type": "person",
+          "source": "semantic_lexicon",
+          "gender": "female",
+          "generic": false
+        },
+        "score": 63.75,
+        "reasons": [
+          "类型相容",
+          "距离10字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2669,
+          "end": 2671,
+          "text": "女郎",
+          "entity_type": "person",
+          "source": "semantic_lexicon",
+          "gender": "female",
+          "generic": false
+        },
+        "score": 44.25,
+        "reasons": [
+          "类型相容",
+          "距离46字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:3017:3018",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 3017,
+      "end": 3018,
+      "text": "那"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3014,
+      "end": 3016,
+      "text": "湿地",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": true
+    },
+    "reason": "类型相容；距离1字；同句；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3014,
+          "end": 3016,
+          "text": "湿地",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": true
+        },
+        "score": 64.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "同句",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3010,
+          "end": 3012,
+          "text": "竹筏",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 64.375,
+        "reasons": [
+          "类型相容",
+          "距离5字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3007,
+          "end": 3009,
+          "text": "时候",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 64.0,
+        "reasons": [
+          "类型相容",
+          "距离8字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3002,
+          "end": 3004,
+          "text": "荷花",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 63.375,
+        "reasons": [
+          "类型相容",
+          "距离13字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 2927,
+          "end": 2929,
+          "text": "荷花",
+          "entity_type": "object",
+          "source": "pos_noun"
+        },
+        "score": 49.0,
+        "reasons": [
+          "类型相容",
+          "距离88字",
+          "当前位置线索"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:3083:3085",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 3083,
+      "end": 3085,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3056,
+      "end": 3060,
+      "text": "蘑菇广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离23字；实验二具名景点候选；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3056,
+          "end": 3060,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 83.125,
+        "reasons": [
+          "类型相容",
+          "距离23字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3044,
+          "end": 3048,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 81.625,
+        "reasons": [
+          "类型相容",
+          "距离35字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3032,
+          "end": 3036,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 62.125,
+        "reasons": [
+          "类型相容",
+          "距离47字",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3014,
+          "end": 3016,
+          "text": "湿地",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": true
+        },
+        "score": 41.625,
+        "reasons": [
+          "类型相容",
+          "距离67字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3058,
+          "end": 3060,
+          "text": "广场",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 41.125,
+        "reasons": [
+          "类型相容",
+          "距离23字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:3123:3125",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 3123,
+      "end": 3125,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3112,
+      "end": 3116,
+      "text": "蘑菇广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离7字；同句；实验二具名景点候选；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3112,
+          "end": 3116,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 100.125,
+        "reasons": [
+          "类型相容",
+          "距离7字",
+          "同句",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3056,
+          "end": 3060,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 78.125,
+        "reasons": [
+          "类型相容",
+          "距离63字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3044,
+          "end": 3048,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 76.625,
+        "reasons": [
+          "类型相容",
+          "距离75字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3114,
+          "end": 3116,
+          "text": "广场",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 58.125,
+        "reasons": [
+          "类型相容",
+          "距离7字",
+          "同句"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3032,
+          "end": 3036,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 57.125,
+        "reasons": [
+          "类型相容",
+          "距离87字",
+          "站点标题提供场景"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:3162:3164",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 3162,
+      "end": 3164,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3112,
+      "end": 3116,
+      "text": "蘑菇广场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离46字；实验二具名景点候选；站点标题提供场景",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3112,
+          "end": 3116,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 80.25,
+        "reasons": [
+          "类型相容",
+          "距离46字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3156,
+          "end": 3160,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 79.75,
+        "reasons": [
+          "类型相容",
+          "距离2字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3056,
+          "end": 3060,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 73.25,
+        "reasons": [
+          "类型相容",
+          "距离102字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3044,
+          "end": 3048,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 71.75,
+        "reasons": [
+          "类型相容",
+          "距离114字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3032,
+          "end": 3036,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "station_heading"
+        },
+        "score": 52.25,
+        "reasons": [
+          "类型相容",
+          "距离126字",
+          "站点标题提供场景"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:3373:3374",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 3373,
+      "end": 3374,
+      "text": "这"
+    },
+    "pronoun_type": "demonstrative",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3367,
+      "end": 3372,
+      "text": "瓦萨滑雪场",
+      "entity_type": "place",
+      "source": "exp02_v2",
+      "generic": false
+    },
+    "reason": "类型相容；距离1字；实验二具名景点候选",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3367,
+          "end": 3372,
+          "text": "瓦萨滑雪场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 61.875,
+        "reasons": [
+          "类型相容",
+          "距离1字",
+          "实验二具名景点候选"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3112,
+          "end": 3116,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 53.875,
+        "reasons": [
+          "类型相容",
+          "距离257字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3156,
+          "end": 3160,
+          "text": "蘑菇广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 53.375,
+        "reasons": [
+          "类型相容",
+          "距离213字",
+          "实验二具名景点候选",
+          "站点标题提供场景"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3332,
+          "end": 3335,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 51.25,
+        "reasons": [
+          "类型相容",
+          "距离38字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3277,
+          "end": 3281,
+          "text": "女神广场",
+          "entity_type": "place",
+          "source": "exp02_v2",
+          "generic": false
+        },
+        "score": 50.5,
+        "reasons": [
+          "类型相容",
+          "距离92字",
+          "实验二具名景点候选"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_001:3531:3533",
+    "doc_id": "JYT_NOTE_001",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/jilin100031/4175718.html",
+    "pronoun": {
+      "start": 3531,
+      "end": 3533,
+      "text": "该园"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 3496,
+      "end": 3499,
+      "text": "长春市",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "reason": "类型相容；距离32字；当前位置线索",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 3496,
+          "end": 3499,
+          "text": "长春市",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 56.0,
+        "reasons": [
+          "类型相容",
+          "距离32字",
+          "当前位置线索"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3503,
+          "end": 3512,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place",
+          "source": "scenic_full_name"
+        },
+        "score": 47.625,
+        "reasons": [
+          "类型相容",
+          "距离19字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3506,
+          "end": 3512,
+          "text": "国家森林公园",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 47.625,
+        "reasons": [
+          "类型相容",
+          "距离19字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3503,
+          "end": 3506,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 46.875,
+        "reasons": [
+          "类型相容",
+          "距离25字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 3479,
+          "end": 3482,
+          "text": "吉林省",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 43.875,
+        "reasons": [
+          "类型相容",
+          "距离49字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_004:47:48",
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "pronoun": {
+      "start": 47,
+      "end": 48,
+      "text": "它"
+    },
+    "pronoun_type": "thing_or_animal",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 9,
+      "end": 18,
+      "text": "净月潭国家森林公园",
+      "entity_type": "place",
+      "source": "scenic_full_name"
+    },
+    "reason": "类型相容；距离29字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place",
+          "source": "scenic_full_name"
+        },
+        "score": 46.375,
+        "reasons": [
+          "类型相容",
+          "距离29字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 12,
+          "end": 18,
+          "text": "国家森林公园",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 46.375,
+        "reasons": [
+          "类型相容",
+          "距离29字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 9,
+          "end": 12,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 45.625,
+        "reasons": [
+          "类型相容",
+          "距离35字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1,
+          "end": 3,
+          "text": "城市",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 44.5,
+        "reasons": [
+          "类型相容",
+          "距离44字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 31,
+          "end": 33,
+          "text": "景区",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 36.25,
+        "reasons": [
+          "类型相容",
+          "距离14字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_004:99:101",
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "pronoun": {
+      "start": 99,
+      "end": 101,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 9,
+      "end": 18,
+      "text": "净月潭国家森林公园",
+      "entity_type": "place",
+      "source": "scenic_full_name"
+    },
+    "reason": "类型相容；距离81字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place",
+          "source": "scenic_full_name"
+        },
+        "score": 39.875,
+        "reasons": [
+          "类型相容",
+          "距离81字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 12,
+          "end": 18,
+          "text": "国家森林公园",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 39.875,
+        "reasons": [
+          "类型相容",
+          "距离81字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 9,
+          "end": 12,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 39.125,
+        "reasons": [
+          "类型相容",
+          "距离87字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 1,
+          "end": 3,
+          "text": "城市",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 38.0,
+        "reasons": [
+          "类型相容",
+          "距离96字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 54,
+          "end": 56,
+          "text": "森林",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 32.625,
+        "reasons": [
+          "类型相容",
+          "距离43字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_004:194:196",
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "pronoun": {
+      "start": 194,
+      "end": 196,
+      "text": "这里"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 180,
+      "end": 183,
+      "text": "荷花池",
+      "entity_type": "place",
+      "source": "semantic_lexicon",
+      "gender": "unspecified",
+      "generic": true
+    },
+    "reason": "类型相容；距离11字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 180,
+          "end": 183,
+          "text": "荷花池",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 36.625,
+        "reasons": [
+          "类型相容",
+          "距离11字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 126,
+          "end": 128,
+          "text": "公园",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 29.75,
+        "reasons": [
+          "类型相容",
+          "距离66字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place",
+          "source": "scenic_full_name"
+        },
+        "score": 28.0,
+        "reasons": [
+          "类型相容",
+          "距离176字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 12,
+          "end": 18,
+          "text": "国家森林公园",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 28.0,
+        "reasons": [
+          "类型相容",
+          "距离176字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 9,
+          "end": 12,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 27.25,
+        "reasons": [
+          "类型相容",
+          "距离182字"
+        ]
+      }
+    ]
+  },
+  {
+    "sample_id": "JYT_NOTE_004:490:492",
+    "doc_id": "JYT_NOTE_004",
+    "scenic_id": "JINGYUETAN",
+    "source_url": "https://you.ctrip.com/travels/Changchun216/3970765.html",
+    "pronoun": {
+      "start": 490,
+      "end": 492,
+      "text": "这边"
+    },
+    "pronoun_type": "location",
+    "version": "v2",
+    "resolution_status": "resolved",
+    "antecedent": {
+      "start": 424,
+      "end": 427,
+      "text": "净月潭",
+      "entity_type": "place",
+      "source": "pos_or_place_suffix",
+      "generic": false
+    },
+    "reason": "类型相容；距离63字",
+    "ranked_candidates": [
+      {
+        "candidate": {
+          "start": 424,
+          "end": 427,
+          "text": "净月潭",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 42.125,
+        "reasons": [
+          "类型相容",
+          "距离63字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 416,
+          "end": 418,
+          "text": "大坝",
+          "entity_type": "place",
+          "source": "pos_or_place_suffix",
+          "generic": false
+        },
+        "score": 41.0,
+        "reasons": [
+          "类型相容",
+          "距离72字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 334,
+          "end": 337,
+          "text": "荷花池",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": 18.875,
+        "reasons": [
+          "类型相容",
+          "距离153字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 180,
+          "end": 183,
+          "text": "荷花池",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": -0.375,
+        "reasons": [
+          "类型相容",
+          "距离307字"
+        ]
+      },
+      {
+        "candidate": {
+          "start": 126,
+          "end": 128,
+          "text": "公园",
+          "entity_type": "place",
+          "source": "semantic_lexicon",
+          "gender": "unspecified",
+          "generic": true
+        },
+        "score": -7.25,
+        "reasons": [
+          "类型相容",
+          "距离362字"
+        ]
+      }
+    ]
+  }
+]

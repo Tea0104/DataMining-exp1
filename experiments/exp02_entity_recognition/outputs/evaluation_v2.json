@@ -1,0 +1,187 @@
+{
+  "version": "v2",
+  "evaluation_level": "document_type_surface_name",
+  "limitations": [
+    "同篇同类型同名实体去重，不是逐次出现位置的准确率。",
+    "只评价金标 doc_scope；词表与金标同源，不代表新数据泛化性能。",
+    "当前金标含用户授权合入的审计修订；原始复核记录已归档，变更见 gold_audit.json。"
+  ],
+  "overall": {
+    "tp": 127,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "results": [
+    {
+      "version": "v2",
+      "scenic_id": "JINGYUETAN",
+      "doc_scope": [
+        "JYT_NOTE_005",
+        "JYT_OFF_002"
+      ],
+      "prediction_names_in_scope": 34,
+      "prediction_mentions_in_scope": 37,
+      "gold_items": 34,
+      "gold_file": "gold_JINGYUETAN.json",
+      "overall": {
+        "tp": 34,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "by_type": {
+        "POI": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TRANSPORT": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [],
+        "gold_only": []
+      }
+    },
+    {
+      "version": "v2",
+      "scenic_id": "TAISHAN",
+      "doc_scope": [
+        "TS_OFF_001"
+      ],
+      "prediction_names_in_scope": 36,
+      "prediction_mentions_in_scope": 69,
+      "gold_items": 36,
+      "gold_file": "gold_TAISHAN.json",
+      "overall": {
+        "tp": 36,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "by_type": {
+        "POI": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TRANSPORT": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [],
+        "gold_only": []
+      }
+    },
+    {
+      "version": "v2",
+      "scenic_id": "WULINGYUAN",
+      "doc_scope": [
+        "ZJJ_NOTE_005",
+        "ZJJ_OFF_001"
+      ],
+      "prediction_names_in_scope": 57,
+      "prediction_mentions_in_scope": 98,
+      "gold_items": 57,
+      "gold_file": "gold_WULINGYUAN.json",
+      "overall": {
+        "tp": 57,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "by_type": {
+        "POI": {
+          "tp": 34,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TRANSPORT": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [],
+        "gold_only": []
+      }
+    }
+  ],
+  "skipped": []
+}
