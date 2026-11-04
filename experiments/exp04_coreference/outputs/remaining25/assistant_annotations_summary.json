@@ -1,0 +1,191 @@
+{
+  "documents": 25,
+  "assistant_explanations": 143,
+  "human_reviewed_items": 0,
+  "accuracy": null,
+  "reference_kind_counts": {
+    "route": 17,
+    "place": 48,
+    "event": 8,
+    "situational_deixis": 4,
+    "object_group": 1,
+    "scene": 4,
+    "area": 6,
+    "name_group": 1,
+    "object": 8,
+    "ambiguous": 5,
+    "event_time": 4,
+    "personification": 3,
+    "document_deixis": 2,
+    "person_group": 3,
+    "place_group": 2,
+    "quotation": 1,
+    "proposition": 1,
+    "non_pronoun_usage": 1,
+    "person": 2,
+    "price_level": 1,
+    "event_summary": 3,
+    "cataphoric_event": 1,
+    "title_reference": 5,
+    "time": 5,
+    "animal": 2,
+    "function": 1,
+    "position_group": 1,
+    "management_topic": 1,
+    "image_or_situational_deixis": 1,
+    "inferred_time": 1
+  },
+  "by_doc": [
+    {
+      "doc_id": "TS_OFF_001",
+      "title": "红门游览路：最经典的登山线路",
+      "assistant_notes": 6,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_002",
+      "title": "天外村游览路：最省力的登山线路",
+      "assistant_notes": 2,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "title": "桃花峪游览线（景点介绍）",
+      "assistant_notes": 10,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "title": "东御道游览线（景点介绍）",
+      "assistant_notes": 8,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "title": "天烛峰景区（景点介绍）",
+      "assistant_notes": 20,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "title": "9月山东费腿之旅（泰山篇）",
+      "assistant_notes": 40,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "title": "登泰山观日出记（2024.3.23 - 24）",
+      "assistant_notes": 1,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "title": "泰山 适合说走就走",
+      "assistant_notes": 2,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "title": "一日游路线",
+      "assistant_notes": 0,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "title": "【徒步路线】杨家界-袁家界-金鞭溪徒步路线",
+      "assistant_notes": 2,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "title": "【徒步路线】十里画廊-天子山徒步路线",
+      "assistant_notes": 2,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "title": "【休闲路线】黄石寨-金鞭溪-十里画廊",
+      "assistant_notes": 1,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "title": "【休闲路线】袁家界-杨家界-天子山（山上大环线）",
+      "assistant_notes": 1,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "title": "张家界森林公园，天门山，长沙5日游记",
+      "assistant_notes": 8,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "title": "最美张家界 感受春节的张家界之美",
+      "assistant_notes": 12,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "title": "武汉-张家界-凤凰-衡山-南昌，八日游！日均步数三万起，务求所到之前，没有遗珠",
+      "assistant_notes": 4,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "title": "广东清远出发，张家界、凤凰古城湘西环线自驾游",
+      "assistant_notes": 5,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "title": "3.5公里慢徒步路线",
+      "assistant_notes": 0,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_002",
+      "title": "17公里健身徒步路线",
+      "assistant_notes": 0,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "title": "“水陆”结合畅游净月潭路线",
+      "assistant_notes": 0,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "title": "遛娃亲子路线",
+      "assistant_notes": 0,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "title": "3.5公里短途健身路线",
+      "assistant_notes": 0,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "title": "我要去东北之：长春净月潭国家森林公园",
+      "assistant_notes": 9,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "title": "初见吉林，是雪后晚晴看山野皆青，来一场观星雾凇冬漂狩猎的大狂欢",
+      "assistant_notes": 7,
+      "human_reviewed": false
+    },
+    {
+      "doc_id": "JYT_NOTE_005",
+      "title": "从长春到海参崴",
+      "assistant_notes": 3,
+      "human_reviewed": false
+    }
+  ],
+  "note": "助手独立补充解释，不代表程序已产生这些答案，也不是人工金标。"
+}

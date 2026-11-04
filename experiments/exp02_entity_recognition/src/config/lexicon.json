@@ -3,6 +3,16 @@
   "note": "实验二实体词表（selected_v2，三景区）。common 为跨景区通用类别词，scenics 为各景区专名。值可写子类型字符串，也可写对象补充 canonical/granularity/note。",
   "common": {
     "transport": {
+      "景区车": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "generic"
+      },
+      "接驳车": {
+        "subtype": "shuttle",
+        "canonical": "大巴",
+        "granularity": "generic"
+      },
       "索道": {
         "subtype": "cableway",
         "canonical": "索道",
@@ -117,6 +127,8 @@
       }
     },
     "time": {
+      "一早": "period",
+      "夜里": "period",
       "凌晨": "period",
       "早上": "period",
       "上午": "period",
@@ -147,7 +159,8 @@
       "广场": "无名称通名，只收具名广场",
       "净月潭": "景区本体名，是语料主题而非路线节点",
       "张家界": "城市名，与核心景区不是同一层级",
-      "泰山": "景区本体名，是语料主题而非路线节点"
+      "泰山": "景区本体名，是语料主题而非路线节点",
+      "东北虎园": "原文注明“属于独立景点”，按景区外独立收费景点处理，不计入本景区 POI"
     }
   },
   "scenics": {
@@ -247,6 +260,9 @@
     "WULINGYUAN": {
       "name": "张家界武陵源核心景区",
       "poi": {
+        "凌空观景台": "viewpoint",
+        "地质博物馆": "facility",
+        "吴家峪": "area",
         "张家界国家森林公园": "area",
         "东门门票站": "gate",
         "南门门票站": "gate",
@@ -314,6 +330,21 @@
     "JINGYUETAN": {
       "name": "净月潭国家级风景名胜区",
       "poi": {
+        "荷花垂柳": {"subtype": "area", "alias_of": "荷花垂柳园"},
+        "东环潭": "area",
+        "西环潭": "area",
+        "月塔楼": {"subtype": "landmark", "alias_of": "碧松净月塔楼",
+                   "note": "按原文保留“月塔楼”，不截成“塔楼”。"},
+        "瓦萨滑雪博物馆": {"subtype": "facility", "alias_of": "中国瓦萨博物馆"},
+        "瓦萨博物馆": {"subtype": "facility", "alias_of": "中国瓦萨博物馆"},
+        "瓦萨滑雪场": {"subtype": "facility", "alias_of": "净月潭滑雪场"},
+        "滑雪场": {"subtype": "facility", "alias_of": "净月潭滑雪场",
+                   "context_pattern": "游玩|游览|前往|到达|参观|→",
+                   "note": "只在游览或路线语境中采用景区内简称。"},
+        "湿地": {"subtype": "area", "granularity": "generic",
+                 "context_pattern": "依次游玩|依次游览|游览湿地",
+                 "note": "仅在明确游览节点语境中识别，不匹配生态描述。"},
+        "橡树岭": {"subtype": "area", "alias_of": "避暑山庄"},
         "景区正门": "gate",
         "女神广场": "facility",
         "荷花垂柳园": "area",
@@ -343,8 +374,11 @@
         "湿地公园": "area",
         "望潭广场": "facility",
         "溢水湾": "water",
-        "东北虎园": "facility",
-        "高尔夫球场": "facility"
+        "高尔夫球场": "facility",
+        "徒步惊喜": {
+          "subtype": "landmark",
+          "note": "打卡点名称本身含“徒步”，四字整体标注，避免被切成动词"
+        }
       },
       "transport": {
         "画舫船": {
@@ -352,7 +386,10 @@
           "canonical": "游船",
           "granularity": "specific"
         }
-      }
+      },
+      "off_scenic": [
+        "东北虎园"
+      ]
     }
   },
   "hierarchy_policy": {

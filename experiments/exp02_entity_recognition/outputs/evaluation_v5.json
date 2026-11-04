@@ -1,0 +1,246 @@
+{
+  "version": "v5",
+  "evaluation_level": "document_type_surface_name",
+  "limitations": [
+    "同篇同类型同名实体去重，不是逐次出现位置的准确率。",
+    "只评价金标 doc_scope；词表与金标同源，不代表新数据泛化性能。",
+    "当前金标含用户授权合入的审计修订；原始复核记录已归档，变更见 gold_audit.json。"
+  ],
+  "overall": {
+    "tp": 126,
+    "fp": 3,
+    "fn": 1,
+    "precision": 0.9767,
+    "recall": 0.9921,
+    "f1": 0.9844
+  },
+  "results": [
+    {
+      "version": "v5",
+      "scenic_id": "JINGYUETAN",
+      "doc_scope": [
+        "JYT_NOTE_005",
+        "JYT_OFF_002"
+      ],
+      "prediction_names_in_scope": 35,
+      "prediction_mentions_in_scope": 38,
+      "gold_items": 34,
+      "gold_file": "gold_JINGYUETAN.json",
+      "overall": {
+        "tp": 33,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.9429,
+        "recall": 0.9706,
+        "f1": 0.9565
+      },
+      "by_type": {
+        "POI": {
+          "tp": 30,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.9677,
+          "recall": 1.0,
+          "f1": 0.9836,
+          "false_positive": [
+            "净月潭景区"
+          ],
+          "false_negative": []
+        },
+        "TRANSPORT": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "false_positive": [
+            "地铁一号线"
+          ],
+          "false_negative": [
+            "地铁"
+          ]
+        },
+        "TIME": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "POI",
+            "text": "净月潭景区",
+            "occurrences_in_source": [
+              {
+                "start": 55,
+                "end": 60,
+                "context": "铁一号线转三号线，游玩了净月潭公园。\n\n净月潭景区位于长春东南部，距市中心18公里，景区面"
+              }
+            ]
+          },
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "TRANSPORT",
+            "text": "地铁一号线",
+            "occurrences_in_source": [
+              {
+                "start": 34,
+                "end": 39,
+                "context": "皑皑，阳光露出了和煦的笑脸。次日，我乘坐地铁一号线转三号线，游玩了净月潭公园。\n\n净月潭景"
+              }
+            ]
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "JYT_NOTE_005",
+            "entity_type": "TRANSPORT",
+            "text": "地铁",
+            "occurrences_in_source": [
+              {
+                "start": 34,
+                "end": 36,
+                "context": "皑皑，阳光露出了和煦的笑脸。次日，我乘坐地铁一号线转三号线，游玩了净月潭公园。\n\n净"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "version": "v5",
+      "scenic_id": "TAISHAN",
+      "doc_scope": [
+        "TS_OFF_001"
+      ],
+      "prediction_names_in_scope": 36,
+      "prediction_mentions_in_scope": 70,
+      "gold_items": 36,
+      "gold_file": "gold_TAISHAN.json",
+      "overall": {
+        "tp": 36,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "by_type": {
+        "POI": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TRANSPORT": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [],
+        "gold_only": []
+      }
+    },
+    {
+      "version": "v5",
+      "scenic_id": "WULINGYUAN",
+      "doc_scope": [
+        "ZJJ_NOTE_005",
+        "ZJJ_OFF_001"
+      ],
+      "prediction_names_in_scope": 58,
+      "prediction_mentions_in_scope": 99,
+      "gold_items": 57,
+      "gold_file": "gold_WULINGYUAN.json",
+      "overall": {
+        "tp": 57,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9828,
+        "recall": 1.0,
+        "f1": 0.9913
+      },
+      "by_type": {
+        "POI": {
+          "tp": 34,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TRANSPORT": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 14,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.9333,
+          "recall": 1.0,
+          "f1": 0.9655,
+          "false_positive": [
+            "一日"
+          ],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "ZJJ_OFF_001",
+            "entity_type": "TIME",
+            "text": "一日",
+            "occurrences_in_source": [
+              {
+                "start": 0,
+                "end": 2,
+                "context": "一日游路线\n\n路线一：天子山-袁家界-十里画"
+              }
+            ]
+          }
+        ],
+        "gold_only": []
+      }
+    }
+  ],
+  "skipped": []
+}

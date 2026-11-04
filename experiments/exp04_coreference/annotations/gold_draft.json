@@ -1,0 +1,1563 @@
+{
+  "schema_version": "1",
+  "annotation_kind": "user_reviewed",
+  "created_date": "2026-11-02",
+  "annotated_by": "助手初标；用户通读五篇原文完成61处人工复核，并在原文件写下10处修改。",
+  "evaluation_use": "全部61项已人工复核。文本回指以原文先行词跨度评价；图片/现场/时间指示与首次限定没有正文前置跨度，评价拒绝链接，不等于识别出图中对象。",
+  "doc_scope": [
+    "TS_NOTE_001",
+    "TS_NOTE_005",
+    "ZJJ_NOTE_005",
+    "JYT_NOTE_001",
+    "JYT_NOTE_004"
+  ],
+  "source_text_sha256": {
+    "TS_NOTE_001": "e1ab1610104d10595afe15fae00665f9fe2adce76eaa643e4a0d7f34b3a8a5f3",
+    "TS_NOTE_005": "b390b572f088d8cbad79ae485b3b25699d7a2b361668f755939c3098b4ed833b",
+    "ZJJ_NOTE_005": "ff9b91f5c2a957b4b0ac803ab0aa696b0d6664f7c543945e28ccdee88d09eaa1",
+    "JYT_NOTE_001": "66d396b5e7bd2d37802cfe763d607893e9d0771808a669faac6db381c96e30f2",
+    "JYT_NOTE_004": "5a4fdccd591f3a50ceb6de547ffe7a66f922bab724f4881a248e0f5c5608364b"
+  },
+  "items": [
+    {
+      "sample_id": "TS_NOTE_001:93:94",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 93,
+        "end": 94,
+        "text": "那"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "后指紧随其后的引语，没有前文先行词。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "cataphora",
+      "review_display": "指后面的引语，不是回指前文"
+    },
+    {
+      "sample_id": "TS_NOTE_001:411:412",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 411,
+        "end": 412,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 404,
+          "end": 411,
+          "text": "从红门到中天门",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "指当前所述红门至中天门路段，不能只取中天门。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“从红门到中天门”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:823:825",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 823,
+        "end": 825,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 819,
+          "end": 822,
+          "text": "万仙楼",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同句刚到达万仙楼，是检票口。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“万仙楼”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:832:833",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 832,
+        "end": 833,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 807,
+          "end": 822,
+          "text": "穿过红门，再走一会就到了万仙楼",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "回指刚描述的红门到万仙楼行走路段。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“穿过红门，再走一会就到了万仙楼”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1171:1173",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1171,
+        "end": 1173,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1152,
+          "end": 1156,
+          "text": "经石峪坊",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "前一文本段的所在地为经石峪坊，不是尚未到达的中天门。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“经石峪坊”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1225:1226",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1225,
+        "end": 1226,
+        "text": "该"
+      },
+      "resolution_status": "resolved",
+      "target_type": "object",
+      "acceptable_antecedents": [
+        {
+          "start": 1220,
+          "end": 1224,
+          "text": "摩崖石刻",
+          "entity_type": "object"
+        }
+      ],
+      "reason": "该石刻回指前句介绍的摩崖石刻。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“摩崖石刻”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1314:1316",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1314,
+        "end": 1316,
+        "text": "这里"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：文章中图片所示的路口",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "image_deixis",
+      "review_display": "指图片中所示的路口，正文没有可定位的前文路口名称",
+      "referent_description": "文章中图片所示的路口",
+      "human_interpretation": "文章中图片所示的路口"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1335:1336",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1335,
+        "end": 1336,
+        "text": "这"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：文章中图片所示的桥",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "image_deixis",
+      "review_display": "指图片中所示的桥，正文没有明确前置桥名",
+      "referent_description": "文章中图片所示的桥",
+      "human_interpretation": "文章中图片所示的桥"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1459:1461",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1459,
+        "end": 1461,
+        "text": "这个"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：“这个”整体作定语修饰后面的“路边店铺”，没有指代，作指示限定",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "demonstrative_determiner",
+      "review_display": "“这个”作指示限定，修饰后面的路边商铺",
+      "referent_description": "后面的路边商铺",
+      "human_interpretation": "“这个”整体作定语修饰后面的“路边店铺”，没有指代，作指示限定"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1495:1497",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1495,
+        "end": 1497,
+        "text": "这个"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1461,
+          "end": 1465,
+          "text": "路边商铺",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "回指上一句的商铺所在位置。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“路边商铺”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1616:1618",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1616,
+        "end": 1618,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1598,
+          "end": 1601,
+          "text": "壶天阁",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "当前介绍壶天阁，在此休息。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“壶天阁”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1662:1663",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1662,
+        "end": 1663,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 1636,
+          "end": 1660,
+          "text": "11点15分走到壶天阁\n\n11点半走到回马岭石坊",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "回指刚经过的两地点间登山路段。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“11点15分走到壶天阁 11点半走到回马岭石坊”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1688:1690",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1688,
+        "end": 1690,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1681,
+          "end": 1684,
+          "text": "步天桥",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "紧邻前一图注步天桥；地点推断仍需复核。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“步天桥”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1843:1845",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1843,
+        "end": 1845,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同句“我们在中天门这里”，明确回指。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“中天门”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1860:1862",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1860,
+        "end": 1862,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1840,
+          "end": 1843,
+          "text": "中天门",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同句停留及周边石刻都在中天门，不是计划中的南天门。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“中天门”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1897:1898",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1897,
+        "end": 1898,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 1873,
+          "end": 1896,
+          "text": "从中天门走到景交车换乘站，再继续登山（十八盘）",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "回指刚描述的继续登山路段。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“从中天门走到景交车换乘站，再继续登山（十八盘）”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:1939:1941",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 1939,
+        "end": 1941,
+        "text": "这些"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：“这些”整体作定语修饰年，代指作者的近几年，",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "temporal_deixis",
+      "review_display": "“这些年”指作者的近几年，属于时间指示",
+      "referent_description": "作者的近几年",
+      "human_interpretation": "“这些”整体作定语修饰年，代指作者的近几年，"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2370:2371",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2370,
+        "end": 2371,
+        "text": "这"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：代指文章的图片",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "image_deixis",
+      "review_display": "指文章里的游览图图片",
+      "referent_description": "文章中的岱顶游览图图片",
+      "human_interpretation": "代指文章的图片"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2447:2449",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2447,
+        "end": 2449,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 2444,
+          "end": 2447,
+          "text": "孔子庙",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同句“从孔子庙这里下去”，地点明确。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“孔子庙”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2539:2540",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2539,
+        "end": 2540,
+        "text": "此"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 2529,
+          "end": 2532,
+          "text": "瞻鲁台",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "孔子于此瞻望鲁国，回指句首的瞻鲁台。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“瞻鲁台”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2545:2546",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2545,
+        "end": 2546,
+        "text": "此"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：指代限定，指示当下的这首题",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "demonstrative_determiner",
+      "review_display": "指示限定用法，指示当下所见的题刻",
+      "referent_description": "当下所见的题刻",
+      "human_interpretation": "指代限定，指示当下的这首题"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2595:2596",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2595,
+        "end": 2596,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 2570,
+          "end": 2583,
+          "text": "从瞻鲁台下来往拱北石方向走",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "这条路线回指刚描述的行走方向。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“从瞻鲁台下来往拱北石方向走”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2718:2720",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2718,
+        "end": 2720,
+        "text": "此处"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 2698,
+          "end": 2702,
+          "text": "五岳独尊",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "在五岳独尊石刻处拍照。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“五岳独尊”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:2738:2740",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 2738,
+        "end": 2740,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 2698,
+          "end": 2702,
+          "text": "五岳独尊",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同一场景继续回指五岳独尊石刻所在地点。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“五岳独尊”"
+    },
+    {
+      "sample_id": "TS_NOTE_001:3028:3030",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 3028,
+        "end": 3030,
+        "text": "这些"
+      },
+      "resolution_status": "resolved",
+      "target_type": "object",
+      "acceptable_antecedents": [
+        {
+          "start": 3022,
+          "end": 3024,
+          "text": "石刻",
+          "entity_type": "object"
+        }
+      ],
+      "reason": "人工复核意见：指代限定，指代现场的石刻",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "demonstrative_determiner",
+      "review_display": "指示限定用法，指现场的石刻；前文“大观峰区域的石刻密集”也已提及同一石刻集合",
+      "referent_description": "大观峰现场的石刻",
+      "human_interpretation": "指代限定，指代现场的石刻"
+    },
+    {
+      "sample_id": "TS_NOTE_001:3227:3229",
+      "doc_id": "TS_NOTE_001",
+      "pronoun": {
+        "start": 3227,
+        "end": 3229,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 3220,
+          "end": 3223,
+          "text": "孔子庙",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "前一句“错过孔子庙”，应从该处下行。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“孔子庙”"
+    },
+    {
+      "sample_id": "TS_NOTE_005:15:16",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 15,
+        "end": 16,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 12,
+          "end": 14,
+          "text": "岱庙",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "这座庙宇回指上一句岱庙。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“岱庙”"
+    },
+    {
+      "sample_id": "TS_NOTE_005:61:62",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 61,
+        "end": 62,
+        "text": "那"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：指代限定用法，那股二字整体作定语修饰气息，那指代刚才提到的那一股",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "demonstrative_determiner",
+      "review_display": "指示限定用法，限定当下感受到的那一股气息",
+      "referent_description": "当下的宁静肃穆的气息",
+      "human_interpretation": "指代限定用法，那股二字整体作定语修饰气息，那指代刚才提到的那一股"
+    },
+    {
+      "sample_id": "TS_NOTE_005:286:287",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 286,
+        "end": 287,
+        "text": "那"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：指代限定用法，那作定语修饰气息，那指代刚才提到的那一股香火味",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "demonstrative_determiner",
+      "review_display": "指示限定用法，限定当下感受到的那一股香火味",
+      "referent_description": "当下的袅袅香火味",
+      "human_interpretation": "指代限定用法，那作定语修饰气息，那指代刚才提到的那一股香火味"
+    },
+    {
+      "sample_id": "TS_NOTE_005:501:503",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 501,
+        "end": 503,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 453,
+          "end": 456,
+          "text": "普照寺",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "当前段落持续介绍普照寺。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“普照寺”"
+    },
+    {
+      "sample_id": "TS_NOTE_005:740:741",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 740,
+        "end": 741,
+        "text": "此"
+      },
+      "resolution_status": "non_anaphoric",
+      "target_type": null,
+      "acceptable_antecedents": [],
+      "reason": "人工复核意见：诗词，指代限定用法，指代登上泰山南天门外所见的壮丽景观",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "situational_deixis",
+      "review_display": "诗词中的指示限定，指登上泰山南天门外所见的壮丽景观",
+      "referent_description": "登上泰山南天门外所见的壮丽景观",
+      "human_interpretation": "诗词，指代限定用法，指代登上泰山南天门外所见的壮丽景观"
+    },
+    {
+      "sample_id": "TS_NOTE_005:750:751",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 750,
+        "end": 751,
+        "text": "此"
+      },
+      "resolution_status": "resolved",
+      "target_type": "time",
+      "acceptable_antecedents": [
+        {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time"
+        }
+      ],
+      "reason": "“此时”对应同句明确的凌晨六点。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“凌晨六点”"
+    },
+    {
+      "sample_id": "TS_NOTE_005:752:753",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 752,
+        "end": 753,
+        "text": "此"
+      },
+      "resolution_status": "resolved",
+      "target_type": "time",
+      "acceptable_antecedents": [
+        {
+          "start": 745,
+          "end": 749,
+          "text": "凌晨六点",
+          "entity_type": "time"
+        }
+      ],
+      "reason": "“此刻”与此时一起指凌晨六点。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“凌晨六点”"
+    },
+    {
+      "sample_id": "TS_NOTE_005:776:777",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 776,
+        "end": 777,
+        "text": "那"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 765,
+          "end": 775,
+          "text": "太阳慢慢从地平线升起",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "那一瞬间回指太阳升起的时刻。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“太阳慢慢从地平线升起”"
+    },
+    {
+      "sample_id": "TS_NOTE_005:803:804",
+      "doc_id": "TS_NOTE_005",
+      "pronoun": {
+        "start": 803,
+        "end": 804,
+        "text": "那"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 765,
+          "end": 775,
+          "text": "太阳慢慢从地平线升起",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "继续回指前文日出时刻。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“太阳慢慢从地平线升起”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:114:116",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 114,
+        "end": 116,
+        "text": "他们"
+      },
+      "resolution_status": "resolved",
+      "target_type": "person",
+      "acceptable_antecedents": [
+        {
+          "start": 98,
+          "end": 113,
+          "text": "老人65岁以上，儿童14岁以下",
+          "entity_type": "person"
+        }
+      ],
+      "reason": "他们指老人和儿童两类享受优惠的人群，不能只指儿童。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“老人65岁以上，儿童14岁以下”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:495:496",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 495,
+        "end": 496,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place_group",
+      "acceptable_antecedents": [
+        {
+          "start": 456,
+          "end": 471,
+          "text": "天子山→杨家界→袁家界→金鞭溪",
+          "entity_type": "place_group"
+        }
+      ],
+      "reason": "这几个地方回指前文整条景点序列。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“天子山→杨家界→袁家界→金鞭溪”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:533:535",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 533,
+        "end": 535,
+        "text": "它们"
+      },
+      "resolution_status": "resolved",
+      "target_type": "animal",
+      "acceptable_antecedents": [
+        {
+          "start": 514,
+          "end": 516,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "reason": "它们指袁家界和金鞭溪的猴子，不是环保车或游客。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“猴子”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:587:589",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 587,
+        "end": 589,
+        "text": "它们"
+      },
+      "resolution_status": "resolved",
+      "target_type": "animal",
+      "acceptable_antecedents": [
+        {
+          "start": 544,
+          "end": 546,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "reason": "同段继续回指猴子群。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“猴子”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:622:623",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 622,
+        "end": 623,
+        "text": "它"
+      },
+      "resolution_status": "resolved",
+      "target_type": "animal",
+      "acceptable_antecedents": [
+        {
+          "start": 618,
+          "end": 621,
+          "text": "大猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "reason": "单数它指刚遇到的大猴子，不是爸爸或栗子。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“大猴子”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:702:703",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 702,
+        "end": 703,
+        "text": "它"
+      },
+      "resolution_status": "resolved",
+      "target_type": "animal",
+      "acceptable_antecedents": [
+        {
+          "start": 693,
+          "end": 695,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "reason": "当前图注喂食的猴子。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“猴子”"
+    },
+    {
+      "sample_id": "ZJJ_NOTE_005:734:736",
+      "doc_id": "ZJJ_NOTE_005",
+      "pronoun": {
+        "start": 734,
+        "end": 736,
+        "text": "它们"
+      },
+      "resolution_status": "resolved",
+      "target_type": "animal",
+      "acceptable_antecedents": [
+        {
+          "start": 726,
+          "end": 728,
+          "text": "猴子",
+          "entity_type": "animal"
+        }
+      ],
+      "reason": "大小猴子吃鸡蛋，复数它们回指猴子。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“猴子”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:259:261",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 259,
+        "end": 261,
+        "text": "这个"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 252,
+          "end": 256,
+          "text": "公园入口",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "上一段过天桥到公园入口。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“公园入口”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:511:512",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 511,
+        "end": 512,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "object",
+      "acceptable_antecedents": [
+        {
+          "start": 506,
+          "end": 510,
+          "text": "人工湖泊",
+          "entity_type": "object"
+        }
+      ],
+      "reason": "回指人工修建的湖泊，不是逯家湾或日本。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“人工湖泊”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1272:1274",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1272,
+        "end": 1274,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1258,
+          "end": 1261,
+          "text": "坝西站",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "当前游览站点为坝西站，观察到大坝不等于已移动到大坝。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“坝西站”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1288:1290",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1288,
+        "end": 1290,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1258,
+          "end": 1261,
+          "text": "坝西站",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "重复图注仍为坝西站所在场景。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“坝西站”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1332:1334",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1332,
+        "end": 1334,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1307,
+          "end": 1310,
+          "text": "溢水湾",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "站点标题表明第二站是溢水湾，经过码头不是停留地点。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“溢水湾”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1395:1397",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1395,
+        "end": 1397,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1307,
+          "end": 1310,
+          "text": "溢水湾",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "重复描述保持第二站溢水湾语境。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“溢水湾”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:1823:1825",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 1823,
+        "end": 1825,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 1812,
+          "end": 1816,
+          "text": "望潭广场",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "前半句望潭广场是休息站，这里回指该站。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“望潭广场”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:2681:2682",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 2681,
+        "end": 2682,
+        "text": "她"
+      },
+      "resolution_status": "resolved",
+      "target_type": "person",
+      "acceptable_antecedents": [
+        {
+          "start": 2669,
+          "end": 2671,
+          "text": "女郎",
+          "entity_type": "person"
+        }
+      ],
+      "reason": "她回指同句表演单竹特技的女郎。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“女郎”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:2717:2718",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 2717,
+        "end": 2718,
+        "text": "她"
+      },
+      "resolution_status": "resolved",
+      "target_type": "person",
+      "acceptable_antecedents": [
+        {
+          "start": 2705,
+          "end": 2707,
+          "text": "女郎",
+          "entity_type": "person"
+        }
+      ],
+      "reason": "重复图注内同句的女郎。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“女郎”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3017:3018",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3017,
+        "end": 3018,
+        "text": "那"
+      },
+      "resolution_status": "resolved",
+      "target_type": "event",
+      "acceptable_antecedents": [
+        {
+          "start": 3002,
+          "end": 3016,
+          "text": "荷花绽开的时候乘竹筏游览湿地",
+          "entity_type": "event"
+        }
+      ],
+      "reason": "那回指条件句中的游览场景，不是码头或竹筏单体。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“荷花绽开的时候乘竹筏游览湿地”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3083:3085",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3083,
+        "end": 3085,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 3056,
+          "end": 3060,
+          "text": "蘑菇广场",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "当前第九站蘑菇广场。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“蘑菇广场”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3123:3125",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3123,
+        "end": 3125,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 3112,
+          "end": 3116,
+          "text": "蘑菇广场",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同句蘑菇广场。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“蘑菇广场”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3162:3164",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3162,
+        "end": 3164,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 3156,
+          "end": 3160,
+          "text": "蘑菇广场",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "紧邻蘑菇广场提问，延续该处语境。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“蘑菇广场”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3373:3374",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3373,
+        "end": 3374,
+        "text": "这"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 3332,
+          "end": 3335,
+          "text": "净月潭",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "总结净月潭整体，不是列举中的最后一个滑雪场。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“净月潭”"
+    },
+    {
+      "sample_id": "JYT_NOTE_001:3531:3533",
+      "doc_id": "JYT_NOTE_001",
+      "pronoun": {
+        "start": 3531,
+        "end": 3533,
+        "text": "该园"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 3471,
+          "end": 3478,
+          "text": "吉林省东北虎园",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "该园回指所介绍的东北虎园，不是其所坐落的净月潭森林公园。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“吉林省东北虎园”"
+    },
+    {
+      "sample_id": "JYT_NOTE_004:47:48",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 47,
+        "end": 48,
+        "text": "它"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "它指标题中的景区本体；实验二不标本体不影响实验四候选。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“净月潭国家森林公园”"
+    },
+    {
+      "sample_id": "JYT_NOTE_004:99:101",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 99,
+        "end": 101,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "同段描述该公园适合避暑。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“净月潭国家森林公园”"
+    },
+    {
+      "sample_id": "JYT_NOTE_004:194:196",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 194,
+        "end": 196,
+        "text": "这里"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 180,
+          "end": 183,
+          "text": "荷花池",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "刚路过荷花池后描述此处适合野餐；需结合全文复核范围。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“荷花池”"
+    },
+    {
+      "sample_id": "JYT_NOTE_004:490:492",
+      "doc_id": "JYT_NOTE_004",
+      "pronoun": {
+        "start": 490,
+        "end": 492,
+        "text": "这边"
+      },
+      "resolution_status": "resolved",
+      "target_type": "place",
+      "acceptable_antecedents": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "净月潭国家森林公园",
+          "entity_type": "place"
+        }
+      ],
+      "reason": "此处为全园游玩方式讨论，这边泛指净月潭，而不是前段大坝。",
+      "review_status": "confirmed",
+      "reviewer": "用户",
+      "review_date": "2026-11-02",
+      "review_evidence": "archive/human_review_20261102/gold_review_user_edited.md",
+      "reference_kind": "text_anaphora",
+      "review_display": "指“净月潭国家森林公园”"
+    }
+  ],
+  "review_date": "2026-11-02",
+  "reviewer": "用户",
+  "review_confirmation": "用户在对话中明确确认已做好人工复核；带人工修改批注的10处按原文导入，其余51处按用户完成整份复核的声明确认。",
+  "draft_snapshot": "archive/human_review_20261102/gold_draft_before_review.json"
+}

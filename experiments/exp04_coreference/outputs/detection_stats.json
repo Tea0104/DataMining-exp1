@@ -1,0 +1,41 @@
+{
+  "documents": 5,
+  "samples": 61,
+  "scope": "third_person_and_demonstratives",
+  "by_doc": {
+    "TS_NOTE_001": 26,
+    "TS_NOTE_005": 9,
+    "ZJJ_NOTE_005": 7,
+    "JYT_NOTE_001": 15,
+    "JYT_NOTE_004": 4
+  },
+  "by_pronoun": {
+    "那": 6,
+    "这": 11,
+    "这里": 21,
+    "该": 1,
+    "这个": 3,
+    "这些": 2,
+    "此": 5,
+    "此处": 1,
+    "他们": 1,
+    "它们": 3,
+    "它": 3,
+    "她": 2,
+    "该园": 1,
+    "这边": 1
+  },
+  "by_scenic": {
+    "TAISHAN": 35,
+    "WULINGYUAN": 7,
+    "JINGYUETAN": 19
+  },
+  "source_text_sha256": {
+    "TS_NOTE_001": "e1ab1610104d10595afe15fae00665f9fe2adce76eaa643e4a0d7f34b3a8a5f3",
+    "TS_NOTE_005": "b390b572f088d8cbad79ae485b3b25699d7a2b361668f755939c3098b4ed833b",
+    "ZJJ_NOTE_005": "ff9b91f5c2a957b4b0ac803ab0aa696b0d6664f7c543945e28ccdee88d09eaa1",
+    "JYT_NOTE_001": "66d396b5e7bd2d37802cfe763d607893e9d0771808a669faac6db381c96e30f2",
+    "JYT_NOTE_004": "5a4fdccd591f3a50ceb6de547ffe7a66f922bab724f4881a248e0f5c5608364b"
+  },
+  "note": "命中数量不是消解正确数量；时间指示、后指和语境外指示也保留供标注。"
+}

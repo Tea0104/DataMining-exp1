@@ -1,0 +1,3569 @@
+{
+  "date": "2026-11-02",
+  "assessment_kind": "assistant_semantic_agreement_not_human_accuracy",
+  "documents": 25,
+  "detected_candidates": 143,
+  "counts": {
+    "inconsistent": 98,
+    "consistent": 30,
+    "uncertain": 15
+  },
+  "conservative_agreement": 0.20979,
+  "optimistic_agreement_if_all_uncertain_accepted": 0.314685,
+  "agreement_on_decidable_cases": 0.234375,
+  "human_accuracy": null,
+  "human_reviewed_items": 0,
+  "reference_sha256": "bff8402513a35cea266e9a336efa37bd5cfdf3c33be9db71d5439531c7252247",
+  "predictions_sha256": "2639e9e863f182aec7e47b85ab63f2f7fc634cd890430bc1ddeead0f967a53e9",
+  "rules": [
+    "逐条查看程序选取的原文位置，按含义判断，不要求字符跨度相同。",
+    "同一对象名称截短可接受；路线只取终点、事件只取物体、集合只取末项不算完整一致。",
+    "名称、指代范围或上下文有歧义时列待定，不强行判对或判错。",
+    "143处为检测候选，含非代词误识；未评价漏检。",
+    "与前五篇的严格位置指标口径不同，不能直接作同口径比较。"
+  ],
+  "limitations": [
+    "助手初标与助手判定均未经用户复核，不能冒充人工金标准确率。",
+    "支持片段不是唯一正确答案，未将其机械转换成跨度金标。"
+  ],
+  "by_doc": {
+    "TS_OFF_001": {
+      "inconsistent": 3,
+      "consistent": 3
+    },
+    "TS_OFF_002": {
+      "inconsistent": 1,
+      "uncertain": 1
+    },
+    "TS_OFF_003": {
+      "inconsistent": 9,
+      "consistent": 1
+    },
+    "TS_OFF_004": {
+      "inconsistent": 4,
+      "consistent": 4
+    },
+    "TS_OFF_005": {
+      "inconsistent": 11,
+      "consistent": 6,
+      "uncertain": 3
+    },
+    "TS_NOTE_002": {
+      "inconsistent": 24,
+      "uncertain": 5,
+      "consistent": 11
+    },
+    "TS_NOTE_003": {
+      "inconsistent": 1
+    },
+    "TS_NOTE_004": {
+      "inconsistent": 2
+    },
+    "ZJJ_OFF_001": {},
+    "ZJJ_OFF_002": {
+      "inconsistent": 2
+    },
+    "ZJJ_OFF_003": {
+      "inconsistent": 2
+    },
+    "ZJJ_OFF_004": {
+      "inconsistent": 1
+    },
+    "ZJJ_OFF_005": {
+      "inconsistent": 1
+    },
+    "ZJJ_NOTE_001": {
+      "inconsistent": 7,
+      "uncertain": 1
+    },
+    "ZJJ_NOTE_002": {
+      "inconsistent": 11,
+      "uncertain": 1
+    },
+    "ZJJ_NOTE_003": {
+      "inconsistent": 2,
+      "uncertain": 1,
+      "consistent": 1
+    },
+    "ZJJ_NOTE_004": {
+      "inconsistent": 5
+    },
+    "JYT_OFF_001": {},
+    "JYT_OFF_002": {},
+    "JYT_OFF_003": {},
+    "JYT_OFF_004": {},
+    "JYT_OFF_005": {},
+    "JYT_NOTE_002": {
+      "inconsistent": 5,
+      "uncertain": 2,
+      "consistent": 2
+    },
+    "JYT_NOTE_003": {
+      "inconsistent": 4,
+      "consistent": 2,
+      "uncertain": 1
+    },
+    "JYT_NOTE_005": {
+      "inconsistent": 3
+    }
+  },
+  "cases": [
+    {
+      "number": 1,
+      "sample_id": "TS_OFF_001:77:78",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 77,
+        "end": 78,
+        "text": "这"
+      },
+      "context": "■线路特点：泰山中路游览线，是泰山上人文和自然景观最集中的经典登山线路，是泰山的精华所在，全程9.5公里，盘道7000余级，其间几无平路。因为历朝皇帝也从这条道登山，又称泰山御道。登山沿途树荫夹道，石阶盘旋，峰峦竞秀，泉溪争流，自然景观雄奇秀美。沿途古迹众多，共计有古寺庙8处，碑碣200多块，摩",
+      "prediction": {
+        "start": 37,
+        "end": 39,
+        "text": "泰山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "泰山中路游览线，也就是红门登山的传统线路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 2,
+      "sample_id": "TS_OFF_001:397:398",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 397,
+        "end": 398,
+        "text": "此"
+      },
+      "context": "由红门出发开始登山，经关帝庙、一天门、孔子登临处坊、红门宫等景点后，到达进山检票处--万仙楼。进山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在此可稍作休息，如体力不支，可在此处换乘索道直达岱顶。继续往上攀登，经快活三里、云步桥、五大夫松等景点，就到了泰山上最难爬的一段路——十八盘。泰",
+      "prediction": {
+        "start": 388,
+        "end": 391,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "中天门",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 3,
+      "sample_id": "TS_OFF_001:412:414",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 412,
+        "end": 414,
+        "text": "此处"
+      },
+      "context": "一天门、孔子登临处坊、红门宫等景点后，到达进山检票处--万仙楼。进山后，步行经由斗母宫、经石峪、壶天阁、回马岭等景点，到达中天门。到中天门已是半程，在此可稍作休息，如体力不支，可在此处换乘索道直达岱顶。继续往上攀登，经快活三里、云步桥、五大夫松等景点，就到了泰山上最难爬的一段路——十八盘。泰山十八盘，是泰山整个景区中精华中",
+      "prediction": {
+        "start": 388,
+        "end": 391,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "中天门",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 4,
+      "sample_id": "TS_OFF_001:563:565",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 563,
+        "end": 565,
+        "text": "这里"
+      },
+      "context": "是泰山整个景区中精华中的精华，其磅礴宏伟的气势、雄奇美丽的景色、年代久远的遗迹，会给您带来难以形容的心灵震撼，使您终身难忘！经由十八盘登上南天门，会有如登天境、豁然开朗的感觉。到了这里就已经到了泰山之巅，你可以放慢脚步，慢慢游览天上街市——天街，到泰山老奶奶的上庙——碧霞祠朝拜许愿，到泰山最高处——玉皇顶感受“一览众山小”",
+      "prediction": {
+        "start": 542,
+        "end": 545,
+        "text": "南天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "南天门",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 5,
+      "sample_id": "TS_OFF_001:677:678",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 677,
+        "end": 678,
+        "text": "这"
+      },
+      "context": "天上街市——天街，到泰山老奶奶的上庙——碧霞祠朝拜许愿，到泰山最高处——玉皇顶感受“一览众山小”的磅礴气势。游览完岱顶后，就可以下山原路返回了。\n\n■友情提示：\n\n①登泰山没有走过这条路，不能算是真正意义上游览过泰山，初次登泰山者强烈推荐。\n\n②由红门步行至岱顶，约需4--6小时；也可把岱庙作为登山的起点，需多出1--2",
+      "prediction": {
+        "start": 307,
+        "end": 316,
+        "text": "由红门出发开始登山",
+        "entity_type": "route",
+        "source": "movement_route"
+      },
+      "assistant_reference": "本篇介绍的泰山中路／红门登山线路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 6,
+      "sample_id": "TS_OFF_001:787:788",
+      "doc_id": "TS_OFF_001",
+      "pronoun": {
+        "start": 787,
+        "end": 788,
+        "text": "此"
+      },
+      "context": "次登泰山者强烈推荐。\n\n②由红门步行至岱顶，约需4--6小时；也可把岱庙作为登山的起点，需多出1--2个小时的游览时间。下山时间约需3个小时。\n\n③全程攀登需要一定的体力和毅力，对此，在登山之前要有一定的思想准备。如登山途中感觉体力不支，可在徒步到达中天门后，换乘索道直达岱顶。\n\n■交通：如果您是乘坐火车到泰安的，可直接",
+      "prediction": {
+        "start": 783,
+        "end": 785,
+        "text": "毅力",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "全程攀登泰山需要体力和毅力这件事",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 7,
+      "sample_id": "TS_OFF_002:66:67",
+      "doc_id": "TS_OFF_002",
+      "pronoun": {
+        "start": 66,
+        "end": 67,
+        "text": "此"
+      },
+      "context": "■线路特点：\n\n天外村游览路，即“天外村—中天门—岱顶”线路，是最便捷、最省时、最省力的登顶路线，适合体力差者或时间不充裕者。如选择此路线上山，艰辛的跋涉攀登过程不复存在，登顶也由一段汗流浃背的历程演变成节奏轻快、休闲舒适的交通工具大换乘。\n\n■游览方式：沿游览公路乘车上山",
+      "prediction": {
+        "start": 25,
+        "end": 27,
+        "text": "岱顶",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "天外村—中天门—岱顶这条游览线路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 8,
+      "sample_id": "TS_OFF_002:376:377",
+      "doc_id": "TS_OFF_002",
+      "pronoun": {
+        "start": 376,
+        "end": 377,
+        "text": "此"
+      },
+      "context": "顶的高山索道，全长2078米，行程约15分钟，从山脚到山顶不到一小时即可到达。起点是天外村广场，在天外村游人中心购买进山门票（115元）和旅游大巴车票（40元）\n\n■友情提示：\n\n此条路线虽然方便快捷，但是以牺牲众多景点为代价的，因此乘车到中天门后，建议再沿传统登山路攀爬至岱顶，得以欣赏到更多的泰山美景。\n\n■交通：\n\n",
+      "prediction": {
+        "start": 309,
+        "end": 324,
+        "text": "从山脚到山顶不到一小时即可到达",
+        "entity_type": "route",
+        "source": "movement_route"
+      },
+      "assistant_reference": "天外村—中天门—岱顶这条游览线路",
+      "verdict": "uncertain",
+      "reason": "时长概述是否足以代表整条路线有争议。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 9,
+      "sample_id": "TS_OFF_003:180:181",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 180,
+        "end": 181,
+        "text": "它"
+      },
+      "context": "\n桃花峪游览线：桃花峪游客中心→钓鱼台站点→碧峰寺站点→彩石溪站点→赤鳞溪站点→红雨川站点→终点桃花源\n\n元君庙\n\n在桃花峪口有元君庙，是泰山女神的西行宫。庙内古柏参天，花草茂盛。它是泰山上唯一一座庙门朝西的寺庙。院中这两棵柏树和松树相对而生，郁郁葱葱，盘旋而起，如龙似凤，人们称它们为“龙柏凤松”。大殿里面供奉着的是泰山",
+      "prediction": {
+        "start": 149,
+        "end": 152,
+        "text": "桃花峪",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "元君庙",
+      "verdict": "inconsistent",
+      "reason": "庙宇被误指成桃花峪。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 10,
+      "sample_id": "TS_OFF_003:199:200",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 199,
+        "end": 200,
+        "text": "这"
+      },
+      "context": "站点→碧峰寺站点→彩石溪站点→赤鳞溪站点→红雨川站点→终点桃花源\n\n元君庙\n\n在桃花峪口有元君庙，是泰山女神的西行宫。庙内古柏参天，花草茂盛。它是泰山上唯一一座庙门朝西的寺庙。院中这两棵柏树和松树相对而生，郁郁葱葱，盘旋而起，如龙似凤，人们称它们为“龙柏凤松”。大殿里面供奉着的是泰山女神——碧霞元君，右边配殿祀天官、地官",
+      "prediction": {
+        "start": 149,
+        "end": 152,
+        "text": "桃花峪",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "元君庙院中眼前的两棵树；作指示限定，具体树木由后文说明",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 11,
+      "sample_id": "TS_OFF_003:230:232",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 230,
+        "end": 232,
+        "text": "它们"
+      },
+      "context": "源\n\n元君庙\n\n在桃花峪口有元君庙，是泰山女神的西行宫。庙内古柏参天，花草茂盛。它是泰山上唯一一座庙门朝西的寺庙。院中这两棵柏树和松树相对而生，郁郁葱葱，盘旋而起，如龙似凤，人们称它们为“龙柏凤松”。大殿里面供奉着的是泰山女神——碧霞元君，右边配殿祀天官、地官和水官，左边配殿奉祀关帝、文曲星和寿星。\n\n碧峰寺\n\n振翅峰下的",
+      "prediction": {
+        "start": 227,
+        "end": 229,
+        "text": "人们",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "院中相对而生、被称为龙柏凤松的柏树与松树",
+      "verdict": "inconsistent",
+      "reason": "植物被误指成人们。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 12,
+      "sample_id": "TS_OFF_003:444:446",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 444,
+        "end": 446,
+        "text": "这里"
+      },
+      "context": "司副使萧太亨撰书，详细地记述了明朝隆庆年间重修佛殿的经过，当时的大雄宝殿“巍然欲飞，烂然绮错”。寺中原供奉一尊铁佛，两旁刻有古联（引福州铁佛）：“古佛由来皆铁汉，凡夫但说是金身”。这里的铁佛十分灵验，周围的香客为了祭拜铁佛，跋山涉水，行程百里，步行来此，以示虔诚。寺旁的彩石崖石纹如画，美轮美奂，叹为观止；溪中奇石天成，肖形",
+      "prediction": {
+        "start": 420,
+        "end": 422,
+        "text": "福州",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "碧峰寺，也称铁佛寺",
+      "verdict": "inconsistent",
+      "reason": "福州是引联出处，不是当前寺庙。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 13,
+      "sample_id": "TS_OFF_003:479:480",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 479,
+        "end": 480,
+        "text": "此"
+      },
+      "context": "殿“巍然欲飞，烂然绮错”。寺中原供奉一尊铁佛，两旁刻有古联（引福州铁佛）：“古佛由来皆铁汉，凡夫但说是金身”。这里的铁佛十分灵验，周围的香客为了祭拜铁佛，跋山涉水，行程百里，步行来此，以示虔诚。寺旁的彩石崖石纹如画，美轮美奂，叹为观止；溪中奇石天成，肖形状物，栩栩如生。溪旁的彩石谷，彩石林立于潺湲溪水侧，水石相间如画。\n",
+      "prediction": {
+        "start": 476,
+        "end": 478,
+        "text": "步行",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "碧峰寺，也称铁佛寺",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 14,
+      "sample_id": "TS_OFF_003:604:605",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 604,
+        "end": 605,
+        "text": "这"
+      },
+      "context": "肖形状物，栩栩如生。溪旁的彩石谷，彩石林立于潺湲溪水侧，水石相间如画。\n\n彩石溪\n\n进入桃花峪，行约2公里，溪中流水之下忽如彩石铺就，溪底一条条石纹五彩纷呈，阳光照耀下，分外生动，这就是著名的“彩石溪”。弯弯曲曲的溪水像是被彩石染上了色，也像是一条五彩的飘带，在此流淌得格外精神。动人的彩石常引得游人驻足，如果你细心，就可",
+      "prediction": {
+        "start": 558,
+        "end": 561,
+        "text": "桃花峪",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "前面描述的溪水流过彩色石纹的景观，即后面命名的彩石溪",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 15,
+      "sample_id": "TS_OFF_003:645:646",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 645,
+        "end": 646,
+        "text": "此"
+      },
+      "context": "\n进入桃花峪，行约2公里，溪中流水之下忽如彩石铺就，溪底一条条石纹五彩纷呈，阳光照耀下，分外生动，这就是著名的“彩石溪”。弯弯曲曲的溪水像是被彩石染上了色，也像是一条五彩的飘带，在此流淌得格外精神。动人的彩石常引得游人驻足，如果你细心，就可看见水中的赤鳞鱼。阳光照耀下，溪底如同彩石铺成，斑斑斓斓分外生动。\n\n根据地质学家",
+      "prediction": {
+        "start": 638,
+        "end": 640,
+        "text": "五彩",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "彩石溪所在的溪谷区域",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 16,
+      "sample_id": "TS_OFF_003:959:960",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 959,
+        "end": 960,
+        "text": "此"
+      },
+      "context": "然这么钟爱泰山，将雄伟与灵秀都融入其中；有的像似轻盈的鱼儿，有的如同栖息在枝头的喜鹊……\n\n龙湾\n\n龙湾是桃花源景区著名景点，雁群、沐龟、龙角、三谷之水汇聚桃花源，继而欢腾而下，在此天成一湾。《泰山道里记》载：“……龙湾，丘峦突出如岛屿。下有碧花池，石皆碧纹，天然池甃……”此处翠峰列队，山崖若屏，湾水清澈，山水倒映。时间",
+      "prediction": {
+        "start": 919,
+        "end": 921,
+        "text": "龙湾",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "龙湾所在之处，溪水在此汇成湾",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 17,
+      "sample_id": "TS_OFF_003:1006:1008",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 1006,
+        "end": 1008,
+        "text": "此处"
+      },
+      "context": "湾\n\n龙湾是桃花源景区著名景点，雁群、沐龟、龙角、三谷之水汇聚桃花源，继而欢腾而下，在此天成一湾。《泰山道里记》载：“……龙湾，丘峦突出如岛屿。下有碧花池，石皆碧纹，天然池甃……”此处翠峰列队，山崖若屏，湾水清澈，山水倒映。时间百鸟鸣啭，时见赤鳞游弋。二〇〇八年，实施水系环境提升工程，形成了湾水丰沛，珠玉飞溅的潭瀑景观。\n",
+      "prediction": {
+        "start": 991,
+        "end": 993,
+        "text": "花池",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "龙湾一带",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 18,
+      "sample_id": "TS_OFF_003:1117:1118",
+      "doc_id": "TS_OFF_003",
+      "pronoun": {
+        "start": 1117,
+        "end": 1118,
+        "text": "它"
+      },
+      "context": "。时间百鸟鸣啭，时见赤鳞游弋。二〇〇八年，实施水系环境提升工程，形成了湾水丰沛，珠玉飞溅的潭瀑景观。\n\n一线天\n\n泰山地质景观，在桃花源停车场西，两峰对峙，中间一线，人可从中穿过。它是断裂构造切割、风化剥蚀、流水搬运和重力崩塌等综合作用的产物。置身其中，只见两壁峭如刀削，俯看脚下巨石累累，仰望上空仅见天如一线。由一线天沿",
+      "prediction": {
+        "start": 1092,
+        "end": 1095,
+        "text": "桃花源",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "一线天这一地质景观",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 19,
+      "sample_id": "TS_OFF_004:120:121",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 120,
+        "end": 121,
+        "text": "这"
+      },
+      "context": "西面东，中间主孔宽3米，高3.3米，两侧副孔宽1.7米，高2.2米，牌坊总高约6.5米米，总宽月8.6米。基座长10米，宽6.6米，2003年至2005年，上梨园村民于金山等集资在这条通道的起始处建“泰山东御道坊”。该牌坊遵循汉制，以东为尊，寓紫气东来之意，为汉武帝登封泰山的御道。\n\n牌坊由巨石砌成，古朴庄重。正面坊额刻",
+      "prediction": {
+        "start": 109,
+        "end": 111,
+        "text": "梨园",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "东御道这条登山通道",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 20,
+      "sample_id": "TS_OFF_004:138:139",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 138,
+        "end": 139,
+        "text": "该"
+      },
+      "context": "两侧副孔宽1.7米，高2.2米，牌坊总高约6.5米米，总宽月8.6米。基座长10米，宽6.6米，2003年至2005年，上梨园村民于金山等集资在这条通道的起始处建“泰山东御道坊”。该牌坊遵循汉制，以东为尊，寓紫气东来之意，为汉武帝登封泰山的御道。\n\n牌坊由巨石砌成，古朴庄重。正面坊额刻有“泰山东御道”五个字，象征着皇帝东",
+      "prediction": {
+        "start": 132,
+        "end": 136,
+        "text": "东御道坊",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "expanded_from": "东御道"
+      },
+      "assistant_reference": "刚提到的泰山东御道坊",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 21,
+      "sample_id": "TS_OFF_004:213:215",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 213,
+        "end": 215,
+        "text": "此处"
+      },
+      "context": "道的起始处建“泰山东御道坊”。该牌坊遵循汉制，以东为尊，寓紫气东来之意，为汉武帝登封泰山的御道。\n\n牌坊由巨石砌成，古朴庄重。正面坊额刻有“泰山东御道”五个字，象征着皇帝东巡时经过此处前往泰山的御道。牌坊的设计寓意殷墟千年古都与泰山圣地相结合，展示了古人尊崇神圣山川的崇敬之情。\n\n青阳堂\n\n青阳堂位于泰山东御道未央湖畔，长",
+      "prediction": {
+        "start": 195,
+        "end": 198,
+        "text": "东御道",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "东御道牌坊所在的登山入口",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 22,
+      "sample_id": "TS_OFF_004:495:497",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 495,
+        "end": 497,
+        "text": "此地"
+      },
+      "context": "屋顶，四周引环形水道包围，如今明堂早已废毁，只有遗址供人凭吊。“汉武帝在泰山脚下建的明堂有五间，最东边的叫青阳，因此就借用了‘青阳’的名字，在未央湖旁建起了青阳堂。\n\n汉阙广场\n\n此地仿照汉代汉阙型制，建设石阙一对，为泰山东御道景区进山入口标志。一对石阙均为正面宽2.56米，侧面宽1.6米，高4.03米，为2023年建设。",
+      "prediction": {
+        "start": 476,
+        "end": 479,
+        "text": "未央湖",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "汉阙广场",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 23,
+      "sample_id": "TS_OFF_004:694:695",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 694,
+        "end": 695,
+        "text": "此"
+      },
+      "context": "到泰山封禅，也是继秦始皇之后第二位到泰山封禅的帝王。汉武帝刘彻选择泰山东麓骑马登山，是因为东方有“紫气东来”之意，取“东为首”“气东升”，国家昌盛之意，又兼地势平缓易于攀登。因此将此登山之路称为“东御道”。汉阙门是明显的汉代制式建筑，其建筑特点是阙身和阙顶都刻有汉代风格的图案和纹饰。汉阙门前大石上刻有“汉御古道”四个字，",
+      "prediction": {
+        "start": 569,
+        "end": 572,
+        "text": "汉阙门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "前面描述的汉武帝从泰山东麓骑马登山之路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 24,
+      "sample_id": "TS_OFF_004:884:886",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 884,
+        "end": 886,
+        "text": "此处"
+      },
+      "context": "榭是一座阁楼式建筑，为2023年建设，8面型8柱亭，亭额书“甘泉榭”，正面有抱柱联，上联曰“山溪莞尔频迎客”，下联曰“御道悠然可达天”。建筑风格古朴典雅，四周绿树环绕，环境清幽。因此处临近甘泉瀑，上溯岱顶肝化泉，有红石似肝，泉水甘甜清洌。汉代曾建有甘泉宫，汉代扬雄曾作《甘泉赋》，山榭因此而得名为甘泉榭。\n\n启天亭\n\n启天亭",
+      "prediction": {
+        "start": 824,
+        "end": 827,
+        "text": "甘泉榭",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "甘泉榭所在之处",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 25,
+      "sample_id": "TS_OFF_004:1023:1024",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 1023,
+        "end": 1024,
+        "text": "此"
+      },
+      "context": "，山榭因此而得名为甘泉榭。\n\n启天亭\n\n启天亭是一座阁楼式建筑，边长3.9米，高4.7米，为四角攒尖顶。亭额书“启天亭”，正面有抱柱联，上联曰“博览山中趣”，下联曰“通明世外天”。此亭2003年建成，建筑风格古朴典雅，四周绿树环绕，环境清幽。\n\n未央湖\n\n未央湖位于泰山东麓上梨园村，其名字来源于西汉未央宫。据传，汉代有未",
+      "prediction": {
+        "start": 989,
+        "end": 992,
+        "text": "启天亭",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "启天亭",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 26,
+      "sample_id": "TS_OFF_004:1104:1106",
+      "doc_id": "TS_OFF_004",
+      "pronoun": {
+        "start": 1104,
+        "end": 1106,
+        "text": "此处"
+      },
+      "context": "曰“通明世外天”。此亭2003年建成，建筑风格古朴典雅，四周绿树环绕，环境清幽。\n\n未央湖\n\n未央湖位于泰山东麓上梨园村，其名字来源于西汉未央宫。据传，汉代有未央宫，宫前有未央池，此处因此得名未央湖。湖对面是高耸的山峰，层峦叠嶂，湖水清澈，倒映着群山。东御道山谷河床上散落着形态大小不一的石头，堆积错落，流水潺潺。",
+      "prediction": {
+        "start": 1061,
+        "end": 1064,
+        "text": "未央湖",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "未央湖所在之处，不是汉代未央宫",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 27,
+      "sample_id": "TS_OFF_005:160:162",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 160,
+        "end": 162,
+        "text": "这里"
+      },
+      "context": "公里的带状风景区，因景区中的天烛峰形似蜡烛而得名。从泰山天烛峰景区到山顶的后石坞景区，是泰山最原始和古朴的登山路线，也是自然景观最集中、最优美的一条路线，代表了泰山自然景观的极致。这里山峰险峻，山谷幽深，奇松怪石遍布，山泉、溪流、瀑布随处可见，除了登山盘道外，很少有人工开凿的痕迹，充满了自然的原生野趣，犹以松奇洞幽著名，被",
+      "prediction": {
+        "start": 107,
+        "end": 110,
+        "text": "后石坞",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "泰山天烛峰至后石坞登山线路一带",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 28,
+      "sample_id": "TS_OFF_005:286:288",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 286,
+        "end": 288,
+        "text": "这里"
+      },
+      "context": "盘道外，很少有人工开凿的痕迹，充满了自然的原生野趣，犹以松奇洞幽著名，被称之为泰山的“奥区”。游人置身其中如在画中，所以又被称为泰山的“十里画廊”，是探险游、自助游的最佳路线。\n\n这里，奇石能言，清泉有声，大小天烛朝天立，悬崖巨壁夹谷行。将军山如大将军披甲，罗汉峰似众罗汉叠立，大自然的神奇造化，令人叹为观止。这里，蓝天高远",
+      "prediction": {
+        "start": 260,
+        "end": 262,
+        "text": "泰山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "泰山天烛峰至后石坞的自然景区一带",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 29,
+      "sample_id": "TS_OFF_005:351:353",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 351,
+        "end": 353,
+        "text": "这里"
+      },
+      "context": "山的“十里画廊”，是探险游、自助游的最佳路线。\n\n这里，奇石能言，清泉有声，大小天烛朝天立，悬崖巨壁夹谷行。将军山如大将军披甲，罗汉峰似众罗汉叠立，大自然的神奇造化，令人叹为观止。这里，蓝天高远，大山空旷，松涛阵阵，白云悠悠，是寻古探幽的好去处，只有到这儿来，才能领略到山林野趣的真谛。这条游览路所经过的大部区域覆盖着华山松",
+      "prediction": {
+        "start": 260,
+        "end": 262,
+        "text": "泰山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "天烛峰景区及这条登山线路一带",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 30,
+      "sample_id": "TS_OFF_005:387:389",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 387,
+        "end": 389,
+        "text": "这儿"
+      },
+      "context": "声，大小天烛朝天立，悬崖巨壁夹谷行。将军山如大将军披甲，罗汉峰似众罗汉叠立，大自然的神奇造化，令人叹为观止。这里，蓝天高远，大山空旷，松涛阵阵，白云悠悠，是寻古探幽的好去处，只有到这儿来，才能领略到山林野趣的真谛。这条游览路所经过的大部区域覆盖着华山松，即便在冬季也是一派葱郁的绿色，充满生命的张力，令人昂扬振奋。尤其是接近",
+      "prediction": {
+        "start": 359,
+        "end": 361,
+        "text": "大山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "天烛峰景区及这条登山线路一带",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 31,
+      "sample_id": "TS_OFF_005:404:405",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 404,
+        "end": 405,
+        "text": "这"
+      },
+      "context": "。将军山如大将军披甲，罗汉峰似众罗汉叠立，大自然的神奇造化，令人叹为观止。这里，蓝天高远，大山空旷，松涛阵阵，白云悠悠，是寻古探幽的好去处，只有到这儿来，才能领略到山林野趣的真谛。这条游览路所经过的大部区域覆盖着华山松，即便在冬季也是一派葱郁的绿色，充满生命的张力，令人昂扬振奋。尤其是接近山颠的古松园，万松峥嵘，虬枝交错",
+      "prediction": {
+        "start": 95,
+        "end": 112,
+        "text": "从泰山天烛峰景区到山顶的后石坞景区",
+        "entity_type": "route",
+        "source": "movement_route"
+      },
+      "assistant_reference": "天烛峰通往后石坞的游览路",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 32,
+      "sample_id": "TS_OFF_005:681:682",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 681,
+        "end": 682,
+        "text": "此"
+      },
+      "context": "”。小天烛峰以东还有一座柱状山峰，比小天烛峰雄浑粗壮一些，是为大天烛峰。\n\n天烛瀑\n\n小天烛峰峰依九龙岗，岗上之水又从小天烛峰旁流下，于是形成瀑布。瀑布面北，亦有几十米长，古时人称此为“千尺瀑”、“千丈瀑”。但这名称仅仅形容其长，谷而无内蕴，今人认为不如叫“天烛瀑”好。不错，那高垂的白练不就是通天的巨烛流下的蜡瀑吗？\n\n",
+      "prediction": {
+        "start": 679,
+        "end": 681,
+        "text": "人称",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "小天烛峰旁形成的瀑布，即天烛瀑",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 33,
+      "sample_id": "TS_OFF_005:696:697",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 696,
+        "end": 697,
+        "text": "这"
+      },
+      "context": "峰，比小天烛峰雄浑粗壮一些，是为大天烛峰。\n\n天烛瀑\n\n小天烛峰峰依九龙岗，岗上之水又从小天烛峰旁流下，于是形成瀑布。瀑布面北，亦有几十米长，古时人称此为“千尺瀑”、“千丈瀑”。但这名称仅仅形容其长，谷而无内蕴，今人认为不如叫“天烛瀑”好。不错，那高垂的白练不就是通天的巨烛流下的蜡瀑吗？\n\n洗鹤湾\n\n小天烛峰下为洗鹤湾，",
+      "prediction": {
+        "start": 684,
+        "end": 687,
+        "text": "千尺瀑",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "千尺瀑、千丈瀑这两个形容瀑布很长的旧称",
+      "verdict": "uncertain",
+      "reason": "旧称与名称集合的范围不完全相同。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 34,
+      "sample_id": "TS_OFF_005:729:730",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 729,
+        "end": 730,
+        "text": "那"
+      },
+      "context": "依九龙岗，岗上之水又从小天烛峰旁流下，于是形成瀑布。瀑布面北，亦有几十米长，古时人称此为“千尺瀑”、“千丈瀑”。但这名称仅仅形容其长，谷而无内蕴，今人认为不如叫“天烛瀑”好。不错，那高垂的白练不就是通天的巨烛流下的蜡瀑吗？\n\n洗鹤湾\n\n小天烛峰下为洗鹤湾，旧时常有松鹤集憩于此而名。今已无鹤，湾水之形亦酷似丹鹤独立。\n\n后",
+      "prediction": {
+        "start": 720,
+        "end": 723,
+        "text": "天烛瀑",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "被比作高垂白练的天烛瀑",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 35,
+      "sample_id": "TS_OFF_005:776:777",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 776,
+        "end": 777,
+        "text": "此"
+      },
+      "context": "瀑”、“千丈瀑”。但这名称仅仅形容其长，谷而无内蕴，今人认为不如叫“天烛瀑”好。不错，那高垂的白练不就是通天的巨烛流下的蜡瀑吗？\n\n洗鹤湾\n\n小天烛峰下为洗鹤湾，旧时常有松鹤集憩于此而名。今已无鹤，湾水之形亦酷似丹鹤独立。\n\n后石坞\n\n穿过北天门，南为三岔路口，向东下行900多级台阶可至后石坞。后石坞旧称“后石屋”，早时",
+      "prediction": {
+        "start": 763,
+        "end": 766,
+        "text": "洗鹤湾",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "洗鹤湾",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 36,
+      "sample_id": "TS_OFF_005:856:858",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 856,
+        "end": 858,
+        "text": "此地"
+      },
+      "context": "，旧时常有松鹤集憩于此而名。今已无鹤，湾水之形亦酷似丹鹤独立。\n\n后石坞\n\n穿过北天门，南为三岔路口，向东下行900多级台阶可至后石坞。后石坞旧称“后石屋”，早时又叫“后十五”，言此地距岱顶十五里。实际上岱顶距后石坞的直线距离不过1.5公里左右，因古时山路蜿蜒难行，故感觉道路漫长。后石坞自古就有“岱阴第一洞天福地”之称，此",
+      "prediction": {
+        "start": 834,
+        "end": 837,
+        "text": "后石坞",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "后石坞",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 37,
+      "sample_id": "TS_OFF_005:927:929",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 927,
+        "end": 929,
+        "text": "此处"
+      },
+      "context": "旧称“后石屋”，早时又叫“后十五”，言此地距岱顶十五里。实际上岱顶距后石坞的直线距离不过1.5公里左右，因古时山路蜿蜒难行，故感觉道路漫长。后石坞自古就有“岱阴第一洞天福地”之称，此处峰峭壁陡，古松幽绝，石刻遍布，古庙掩映，景色迥异于登天景区和岱顶，是泰山的“后花园”。主要景点有：九龙岗、尧观顶、姊妹松、元君庙等。\n\n北天",
+      "prediction": {
+        "start": 907,
+        "end": 910,
+        "text": "后石坞",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "后石坞",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 38,
+      "sample_id": "TS_OFF_005:1383:1384",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1383,
+        "end": 1384,
+        "text": "该"
+      },
+      "context": "等组成，正殿祀元君，西舍祀天官、地官、水官，东舍为万松亭，后改为弥勒殿。沿石级而上，进“透天门”为东院，由正殿、东配殿、圣母寝宫楼组成。正殿祀天官、地官、水官，正殿西是圣母寝宫楼，该楼分三层，下为吕祖洞、中为“藏书楼”、上即圣母寝宫楼。东配殿祀“七真”。相传碧霞元君成仙前就是在此修炼的，所以这里又称“玉女修真处”。\n\n元",
+      "prediction": {
+        "start": 1379,
+        "end": 1381,
+        "text": "寝宫",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "圣母寝宫楼",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 39,
+      "sample_id": "TS_OFF_005:1432:1433",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1432,
+        "end": 1433,
+        "text": "此"
+      },
+      "context": "东院，由正殿、东配殿、圣母寝宫楼组成。正殿祀天官、地官、水官，正殿西是圣母寝宫楼，该楼分三层，下为吕祖洞、中为“藏书楼”、上即圣母寝宫楼。东配殿祀“七真”。相传碧霞元君成仙前就是在此修炼的，所以这里又称“玉女修真处”。\n\n元君庙北便是天空山。天空山古称“玉女山”，其石壁垂直而立，摩空托日；其顶峰平坦，古称“尧观峰”。石壁",
+      "prediction": {
+        "start": 1426,
+        "end": 1428,
+        "text": "成仙",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "推测指元君庙这一修炼场所；具体指哪个院落或楼阁不能仅凭这段文字确定",
+      "verdict": "inconsistent",
+      "reason": "成仙是事件，不是修炼地点。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 40,
+      "sample_id": "TS_OFF_005:1439:1441",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1439,
+        "end": 1441,
+        "text": "这里"
+      },
+      "context": "东配殿、圣母寝宫楼组成。正殿祀天官、地官、水官，正殿西是圣母寝宫楼，该楼分三层，下为吕祖洞、中为“藏书楼”、上即圣母寝宫楼。东配殿祀“七真”。相传碧霞元君成仙前就是在此修炼的，所以这里又称“玉女修真处”。\n\n元君庙北便是天空山。天空山古称“玉女山”，其石壁垂直而立，摩空托日；其顶峰平坦，古称“尧观峰”。石壁上布满古人题刻，",
+      "prediction": {
+        "start": 1391,
+        "end": 1394,
+        "text": "吕祖洞",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "推测指元君庙内被称为玉女修真处的修炼场所，具体范围不够明确",
+      "verdict": "uncertain",
+      "reason": "原文修炼处不够明确，不能确认是具体哪个院落或洞。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 41,
+      "sample_id": "TS_OFF_005:1599:1600",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1599,
+        "end": 1600,
+        "text": "此"
+      },
+      "context": "刻，黄花洞、莲花洞便在其下。\n\n黄花洞，因洞口石壁上开满黄花而得名，传说为元君修真处。石洞宽阔，天然而成，洞顶渗水成珠，串串落入洞底池内，十分奇异，因此又名“灵异泉”。又传仙鹤常来此饮水，所以又名“来鹤泉”。洞内有盛夏尚存冰柱的奇观，故清康熙年间巡抚蒋陈锡题“灵山玉柱”。石洞之上有题刻“黄花洞”三字。\n\n东院北侧石岩下的",
+      "prediction": {
+        "start": 1595,
+        "end": 1597,
+        "text": "仙鹤",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "黄花洞内的泉水，前文称灵异泉",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 42,
+      "sample_id": "TS_OFF_005:1718:1719",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1718,
+        "end": 1719,
+        "text": "此"
+      },
+      "context": "康熙年间巡抚蒋陈锡题“灵山玉柱”。石洞之上有题刻“黄花洞”三字。\n\n东院北侧石岩下的莲花洞，因洞口石瓣似莲倒缀而得名，洞内有石乳泉，与灵异泉类似。洞旁有古人题刻“古莲花洞”、“松至此始涛焉”等。\n\n庙东花果园内为清雍正年间建“元君墓”和“白猿墓”。\n\n姊妹松\n\n泰山姊妹松位于泰山后石坞青云庵西北角的半山崖上，郁郁葱葱，枝",
+      "prediction": {
+        "start": 1710,
+        "end": 1713,
+        "text": "莲花洞",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "莲花洞旁题刻所指的现场地点；具体落点未明确",
+      "verdict": "uncertain",
+      "reason": "题刻旁的具体位置不明确。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 43,
+      "sample_id": "TS_OFF_005:1868:1869",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1868,
+        "end": 1869,
+        "text": "此"
+      },
+      "context": "半山崖上，郁郁葱葱，枝繁叶茂，距今已有600多年的历史，在沧桑岁月中栉风沐雨，笑傲群芳。1988年，来泰山考察的原中共中央总书记胡耀邦慨然提笔，在宣纸上写下“泰山姊妹松”五个大字。此后，泰山姊妹松更加声名远播，如今，泰山传说中有她动人的故事；新版（第五版）人民币五元纸币的背面，能找到她挺立在泰山壁立千仞悬崖之上，婷婷玉立",
+      "prediction": {
+        "start": 1859,
+        "end": 1862,
+        "text": "姊妹松",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "1988年胡耀邦题写泰山姊妹松之后",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 44,
+      "sample_id": "TS_OFF_005:1892:1893",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1892,
+        "end": 1893,
+        "text": "她"
+      },
+      "context": "的历史，在沧桑岁月中栉风沐雨，笑傲群芳。1988年，来泰山考察的原中共中央总书记胡耀邦慨然提笔，在宣纸上写下“泰山姊妹松”五个大字。此后，泰山姊妹松更加声名远播，如今，泰山传说中有她动人的故事；新版（第五版）人民币五元纸币的背面，能找到她挺立在泰山壁立千仞悬崖之上，婷婷玉立，风姿卓越的倩影，说她名满天下毫不为过。",
+      "prediction": null,
+      "assistant_reference": "泰山姊妹松；用她是拟人写法，不是指某位女性",
+      "verdict": "inconsistent",
+      "reason": "未识别她拟人指代姊妹松。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 45,
+      "sample_id": "TS_OFF_005:1920:1921",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1920,
+        "end": 1921,
+        "text": "她"
+      },
+      "context": "山考察的原中共中央总书记胡耀邦慨然提笔，在宣纸上写下“泰山姊妹松”五个大字。此后，泰山姊妹松更加声名远播，如今，泰山传说中有她动人的故事；新版（第五版）人民币五元纸币的背面，能找到她挺立在泰山壁立千仞悬崖之上，婷婷玉立，风姿卓越的倩影，说她名满天下毫不为过。",
+      "prediction": null,
+      "assistant_reference": "泰山姊妹松；拟人写法",
+      "verdict": "inconsistent",
+      "reason": "未识别她拟人指代姊妹松。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 46,
+      "sample_id": "TS_OFF_005:1949:1950",
+      "doc_id": "TS_OFF_005",
+      "pronoun": {
+        "start": 1949,
+        "end": 1950,
+        "text": "她"
+      },
+      "context": "姊妹松”五个大字。此后，泰山姊妹松更加声名远播，如今，泰山传说中有她动人的故事；新版（第五版）人民币五元纸币的背面，能找到她挺立在泰山壁立千仞悬崖之上，婷婷玉立，风姿卓越的倩影，说她名满天下毫不为过。",
+      "prediction": null,
+      "assistant_reference": "泰山姊妹松；拟人写法",
+      "verdict": "inconsistent",
+      "reason": "未识别她拟人指代姊妹松。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 47,
+      "sample_id": "TS_NOTE_002:4:5",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4,
+        "end": 5,
+        "text": "这"
+      },
+      "context": "前言\n\n这是山东之旅的最后一篇，也是整个行程最核心、最累的一段旅程，其他行程都是这个的附属品。\n\n泰山，为五岳之一，有“五岳之首”、“五岳独尊”、“天",
+      "prediction": {
+        "start": 0,
+        "end": 2,
+        "text": "前言",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "当前这篇泰山行程游记；属于对文章自身的指示",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 48,
+      "sample_id": "TS_NOTE_002:40:42",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 40,
+        "end": 42,
+        "text": "这个"
+      },
+      "context": "前言\n\n这是山东之旅的最后一篇，也是整个行程最核心、最累的一段旅程，其他行程都是这个的附属品。\n\n泰山，为五岳之一，有“五岳之首”、“五岳独尊”、“天下第一山”之称。泰山位于山东省中部，隶属于泰安市，绵亘于泰安、济南、淄博三",
+      "prediction": {
+        "start": 36,
+        "end": 38,
+        "text": "行程",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "山东之旅中最核心、最累的泰山这段行程",
+      "verdict": "inconsistent",
+      "reason": "预测来自其他行程这个片段，不是作为核心的泰山行程。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 49,
+      "sample_id": "TS_NOTE_002:496:497",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 496,
+        "end": 497,
+        "text": "这"
+      },
+      "context": "/人，4日有效。全程徒步登山的话，没有其他费用。\n\n由于从中天门到南天门的索道停运到九月底，所以泰山目前的登山路线一共有这么几条：\n\n1、红门线路，从红门—中天门—南天门—玉皇顶。这是最经典的登泰山路线，是历朝皇帝的登山御道，全程9.5公里。\n\n2、天外村线路，天外村—中天门—南天门—玉皇顶。这条是最省力的路线，天外村有",
+      "prediction": {
+        "start": 492,
+        "end": 495,
+        "text": "玉皇顶",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "红门—中天门—南天门—玉皇顶的红门线路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 50,
+      "sample_id": "TS_NOTE_002:553:554",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 553,
+        "end": 554,
+        "text": "这"
+      },
+      "context": "一共有这么几条：\n\n1、红门线路，从红门—中天门—南天门—玉皇顶。这是最经典的登泰山路线，是历朝皇帝的登山御道，全程9.5公里。\n\n2、天外村线路，天外村—中天门—南天门—玉皇顶。这条是最省力的路线，天外村有景区交通车可以到达中天门。\n\n3、东御道线路，从东御道—中天门—南天门—玉皇顶。泰山新开发的一条线路，传为汉武帝登",
+      "prediction": {
+        "start": 549,
+        "end": 552,
+        "text": "玉皇顶",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "天外村—中天门—南天门—玉皇顶的天外村线路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 51,
+      "sample_id": "TS_NOTE_002:710:711",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 710,
+        "end": 711,
+        "text": "这"
+      },
+      "context": "汉武帝登封泰山的御道，相对红门路线平缓一点。\n\n4、桃花源线路，从桃花峪—桃花源—南天门—玉皇顶。主要以自然风光为主，可以乘坐景交车与索道上山，也可以徒步上山。到中天门索道恢复前，这是唯一可以不用爬山的线路。\n\n攀登泰山的话，是选择白天，还是夜晚，两个时间各有区别。夏季期间，大多数游客都会选择夜间登山，方便看清晨的日出，",
+      "prediction": {
+        "start": 701,
+        "end": 704,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "经桃花峪、桃花源、南天门到玉皇顶的桃花源线路",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 52,
+      "sample_id": "TS_NOTE_002:1046:1047",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1046,
+        "end": 1047,
+        "text": "这"
+      },
+      "context": "般，部分路段较陡费力，因此我考虑从天外村坐车直接上中天门，省下力气应对天烛峰徒步下山的考验。事实证明，我的决定没错。\n\n由于习惯问题，我没有准备登山杖，因为我从来都不用！事实证明，这不一定是好习惯，直接加大了我的体力消耗。建议想全程徒步登泰山的游客，有条件还是选个合用的登山杖。\n\n言归正传，上午从酒店打车到泰山天外村旁边",
+      "prediction": {
+        "start": 991,
+        "end": 994,
+        "text": "天烛峰",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "不准备、也不使用登山杖的习惯",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 53,
+      "sample_id": "TS_NOTE_002:1236:1237",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1236,
+        "end": 1237,
+        "text": "这"
+      },
+      "context": "很快到达天外村入口。天外村是西路登山之始，路口巨石上书“天外村”。\n\n拾级而上，天外村广场有12根石龙柱，分别代表我国历史上从秦始皇到乾隆皇帝，曾有12位皇帝登临泰山进行封禅祭祀。这12位皇帝分别是：黄帝、大舜、周成王、秦始皇、西汉武帝、东汉光武帝、隋文帝、唐高宗、唐玄宗、宋真宗、清康熙和清乾隆。12个石柱分左右2列布置",
+      "prediction": {
+        "start": 1186,
+        "end": 1189,
+        "text": "天外村",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "前句所说登临泰山封禅的12位皇帝",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 54,
+      "sample_id": "TS_NOTE_002:1484:1486",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1484,
+        "end": 1486,
+        "text": "这里"
+      },
+      "context": "份证和刷脸就直接通过。今天虽然是中秋假期第一天，但游人不多，等候10分钟就顺利上车。\n\n汽车在蜿蜒的山路行驶20分钟，下车直接就是中天门。哦，不对，是比中天门高一点的中天门小广场。这里吃喝的店铺很多，物价也还合适，例如矿泉水2元1瓶，登山杖5元1根，烤肠10元3条，等等。此外，一路向上，还有些知名的连锁店，可以放心在这里吃",
+      "prediction": {
+        "start": 1477,
+        "end": 1480,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "中天门小广场",
+      "verdict": "uncertain",
+      "reason": "中天门与中天门小广场范围接近但不完全相同。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 55,
+      "sample_id": "TS_NOTE_002:1553:1555",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1553,
+        "end": 1555,
+        "text": "这里"
+      },
+      "context": "哦，不对，是比中天门高一点的中天门小广场。这里吃喝的店铺很多，物价也还合适，例如矿泉水2元1瓶，登山杖5元1根，烤肠10元3条，等等。此外，一路向上，还有些知名的连锁店，可以放心在这里吃喝，做好登山补给。\n\n爬上南天门\n\n从中天门出发，映入眼帘的是一幅美丽的山水画卷。沿途你可以欣赏到形态各异的奇石、苍劲挺拔的古树，还有潺潺",
+      "prediction": {
+        "start": 1477,
+        "end": 1480,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "一路向上可供补给的连锁店等店铺",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 56,
+      "sample_id": "TS_NOTE_002:1691:1693",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1691,
+        "end": 1693,
+        "text": "这里"
+      },
+      "context": "以欣赏到形态各异的奇石、苍劲挺拔的古树，还有潺潺流淌的山泉。此外，还有众多历史悠久的古迹，如唐代的摩崖石刻、宋代的天街等，让你感受到泰山深厚的历史文化底蕴。\n\n再往上，有个增福庙，这里也有补给，物价和中天门一样。不过过了这个点，后面还有最后一个，想买东西的真的不要再错过。我都觉得自己在中天门买早了食物（矿泉水2瓶，面包一包",
+      "prediction": {
+        "start": 1687,
+        "end": 1690,
+        "text": "增福庙",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "增福庙及附近补给点",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 57,
+      "sample_id": "TS_NOTE_002:1711:1713",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1711,
+        "end": 1713,
+        "text": "这个"
+      },
+      "context": "还有潺潺流淌的山泉。此外，还有众多历史悠久的古迹，如唐代的摩崖石刻、宋代的天街等，让你感受到泰山深厚的历史文化底蕴。\n\n再往上，有个增福庙，这里也有补给，物价和中天门一样。不过过了这个点，后面还有最后一个，想买东西的真的不要再错过。我都觉得自己在中天门买早了食物（矿泉水2瓶，面包一包），白背了这么久。\n\n斩云剑，景点之一，",
+      "prediction": {
+        "start": 1701,
+        "end": 1704,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "增福庙这一补给点",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 58,
+      "sample_id": "TS_NOTE_002:1816:1818",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1816,
+        "end": 1818,
+        "text": "此处"
+      },
+      "context": "东西的真的不要再错过。我都觉得自己在中天门买早了食物（矿泉水2瓶，面包一包），白背了这么久。\n\n斩云剑，景点之一，位于山东省泰安市，增福庙往上有巨石挺立，似剑凌空，上刻\"斩云剑\"。此处是谷口，云雨变幻莫测，泰山主峰的寒云顺谷而下时与暖云相遇即化为雨，因此而得名。\n\n偶尔会看到有搬运工背着矿泉水等物资上山，这就是以前课文所写",
+      "prediction": {
+        "start": 1744,
+        "end": 1747,
+        "text": "中天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "斩云剑景点所在的谷口",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 59,
+      "sample_id": "TS_NOTE_002:1879:1880",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 1879,
+        "end": 1880,
+        "text": "这"
+      },
+      "context": "安市，增福庙往上有巨石挺立，似剑凌空，上刻\"斩云剑\"。此处是谷口，云雨变幻莫测，泰山主峰的寒云顺谷而下时与暖云相遇即化为雨，因此而得名。\n\n偶尔会看到有搬运工背着矿泉水等物资上山，这就是以前课文所写的“挑山工”吧。\n\n一路向上，风轻云淡，路边的石头大都有古人、今人的文字词句，可以好好观摩。我是觉得，啥都不看，只顾埋头赶路",
+      "prediction": {
+        "start": 1876,
+        "end": 1878,
+        "text": "上山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "背着矿泉水等物资上山的搬运工，也就是挑山工",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 60,
+      "sample_id": "TS_NOTE_002:2251:2252",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2251,
+        "end": 2252,
+        "text": "该"
+      },
+      "context": "有古松，又称“秦松”。旁有五松亭和乾隆皇帝御制《咏五大夫松》的摹刻。五大夫松是泰山唯一受帝王封赠的植物，据《史记》记载，秦始皇登封泰山时，中途遇雨，避于大树之下，因树护驾有功，遂封该树为“五大夫”爵位，后世讹为五株松树，该树后被雷雨所毁。清雍正年间，钦差丁皂奉诏重修泰山时补植五株，今存两株，拳曲古拙，苍劲葱郁，被誉为“秦",
+      "prediction": {
+        "start": 2195,
+        "end": 2199,
+        "text": "五大夫松",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "秦始皇避雨、后来获封五大夫的那棵大树",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 61,
+      "sample_id": "TS_NOTE_002:2271:2272",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2271,
+        "end": 2272,
+        "text": "该"
+      },
+      "context": "帝御制《咏五大夫松》的摹刻。五大夫松是泰山唯一受帝王封赠的植物，据《史记》记载，秦始皇登封泰山时，中途遇雨，避于大树之下，因树护驾有功，遂封该树为“五大夫”爵位，后世讹为五株松树，该树后被雷雨所毁。清雍正年间，钦差丁皂奉诏重修泰山时补植五株，今存两株，拳曲古拙，苍劲葱郁，被誉为“秦松挺秀”，是泰安八景之一。\n\n五大夫松以",
+      "prediction": {
+        "start": 2195,
+        "end": 2199,
+        "text": "五大夫松",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "原先获封五大夫、后来遭雷雨毁坏的树",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 62,
+      "sample_id": "TS_NOTE_002:2792:2794",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2792,
+        "end": 2794,
+        "text": "此处"
+      },
+      "context": "勃。走在山路上，呼吸着夹带着草木香气的新鲜空气，还是有提神效果的。\n\n几经挣扎，终于到达升仙坊。\n\n升仙坊位于山东省泰山中路紧十八盘的起始处，为两柱单门式石坊，额题楷书“升仙坊”。此处山势陡峻，悬崖峭壁，上临岱顶天庭，咫尺仙境，似有飘然升仙的意境，故名“升仙坊”。至此小憩，每每浮想联翩。回视山下，常有腾身云霄之感，举首仰望",
+      "prediction": {
+        "start": 2787,
+        "end": 2790,
+        "text": "升仙坊",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "升仙坊一带",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 63,
+      "sample_id": "TS_NOTE_002:2835:2836",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 2835,
+        "end": 2836,
+        "text": "此"
+      },
+      "context": "达升仙坊。\n\n升仙坊位于山东省泰山中路紧十八盘的起始处，为两柱单门式石坊，额题楷书“升仙坊”。此处山势陡峻，悬崖峭壁，上临岱顶天庭，咫尺仙境，似有飘然升仙的意境，故名“升仙坊”。至此小憩，每每浮想联翩。回视山下，常有腾身云霄之感，举首仰望，南天门近在眼前，奋力攀登，岱顶在望。\n\n泰山南天门位于十八盘尽头，是登山盘道顶端，",
+      "prediction": {
+        "start": 2829,
+        "end": 2832,
+        "text": "升仙坊",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "升仙坊一带",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 64,
+      "sample_id": "TS_NOTE_002:3088:3090",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3088,
+        "end": 3090,
+        "text": "这个"
+      },
+      "context": "泰山壮丽的景色尽收眼底。\n\n攀登泰山中天门至南天门的旅程，是对个人毅力和耐力的挑战，但也是一次难忘的美景之旅。当你征服泰山之巅，站在南天门上俯瞰大地时，你会深感人生的豪迈与壮丽。在这个过程中，你或许会对生活、对人生产生全新的认识和感悟。\n\n南天门到玉皇顶\n\n走过南天门，后面的道路就难度不大。按照指示路线，一路走向玉皇顶即可",
+      "prediction": {
+        "start": 3064,
+        "end": 3067,
+        "text": "南天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "攀登中天门至南天门并登顶观景的过程",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 65,
+      "sample_id": "TS_NOTE_002:3363:3364",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3363,
+        "end": 3364,
+        "text": "这"
+      },
+      "context": "一段街道，岱顶天街，商铺林立，亦市亦街，形成了特有的风俗。\n\n天街过了天蓬牌坊，靠近崖壁一侧有一高约2米的石碑，上面写着“五岳真形图”五个大字，然后又有奇形怪状的图案和五岳的说辞。这可是个宝贝，至今无人能解其真实含义。五岳真形图在华山、嵩山、衡山、恒山均有供奉。\n\n天街白云亭处东望，可见小路直通岩壁上一洞穴，上面有“青云",
+      "prediction": {
+        "start": 3308,
+        "end": 3312,
+        "text": "天蓬牌坊",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "expanded_from": "天蓬"
+      },
+      "assistant_reference": "刻有五岳真形图的石碑及图案",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 66,
+      "sample_id": "TS_NOTE_002:3493:3495",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 3493,
+        "end": 3495,
+        "text": "这里"
+      },
+      "context": "。\n\n天街白云亭处东望，可见小路直通岩壁上一洞穴，上面有“青云洞”匾额。青云洞供奉泰山福禄二神，据说青云、白云二洞为泰山云根雨脉。\n\n快到碧霞祠的山脊一侧，有一石坊为“望吴胜迹”，这里就是望吴峰，其海拔1472米处有我国唯一高山孔子庙，庙内供奉“文帝”孔圣人。体力关系，我没上去孔子庙。\n\n碧霞祠前的西神门，不要急着过去，走",
+      "prediction": {
+        "start": 3472,
+        "end": 3475,
+        "text": "碧霞祠",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "望吴胜迹石坊所在处，即望吴峰",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 67,
+      "sample_id": "TS_NOTE_002:4347:4348",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4347,
+        "end": 4348,
+        "text": "这"
+      },
+      "context": "典雅，对研究唐代历史、书法、镌刻艺术均有重要价值。\n\n继续前行，穿过青帝庙。\n\n太昊伏羲是我国古代五大帝君之一，传说青帝主万物发生，位属东方，故祀于泰山。\n\n终于来到五岳独尊石刻，这是印在人民币上的泰山标志，很多人会带着人民币打卡五岳独尊石刻。五岳独尊石碑前人很多，排队吵架的也有，想拍个照不容易。\n\n这儿除了五岳独尊，还",
+      "prediction": {
+        "start": 4344,
+        "end": 4346,
+        "text": "石刻",
+        "entity_type": "object",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "assistant_reference": "五岳独尊石刻",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 68,
+      "sample_id": "TS_NOTE_002:4408:4410",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4408,
+        "end": 4410,
+        "text": "这儿"
+      },
+      "context": "万物发生，位属东方，故祀于泰山。\n\n终于来到五岳独尊石刻，这是印在人民币上的泰山标志，很多人会带着人民币打卡五岳独尊石刻。五岳独尊石碑前人很多，排队吵架的也有，想拍个照不容易。\n\n这儿除了五岳独尊，还有山东兖州府口岭金田题的“擎天捧日”，顺德辛耀文题的昂头天外，清代武举马福祥题的仰观俯察，长白舒辂敬题的登峰造极等石刻。\n\n",
+      "prediction": {
+        "start": 4379,
+        "end": 4384,
+        "text": "五岳独尊石",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "五岳独尊石刻周围的题刻区域",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 69,
+      "sample_id": "TS_NOTE_002:4572:4573",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4572,
+        "end": 4573,
+        "text": "这"
+      },
+      "context": "独尊石碑旁边的日观峰一带视野最好，游人散落，是最佳摆拍地方。当天，还有泰山的天际线景观，泰安的蓝天白云和济南的阴霾之间形成分割线，实属奇观。\n\n“孔子登东山而小鲁，登泰山而小天下”这句话可以说是人尽皆知，在日观峰处有一通石碑“孔子小天下处”，为大明崇祯年间所立，其旁则为著名的“雄峙天外”碑刻。\n\n玉皇庙正下方有一高6米、",
+      "prediction": {
+        "start": 4565,
+        "end": 4567,
+        "text": "泰山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "刚引用的孔子登东山而小鲁、登泰山而小天下这句话",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 70,
+      "sample_id": "TS_NOTE_002:4672:4673",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4672,
+        "end": 4673,
+        "text": "该"
+      },
+      "context": "知，在日观峰处有一通石碑“孔子小天下处”，为大明崇祯年间所立，其旁则为著名的“雄峙天外”碑刻。\n\n玉皇庙正下方有一高6米、宽1.2米的石碑，碑顶有石覆盖，古朴而浑厚。最让人不解的是该碑上一个字也不见，以至于至今也不知道此碑是何人在何时所立，唯一知道的是宋代以前就有了。这就是泰山著名的“无字碑”。\n\n玉皇庙，古称太清宫，位",
+      "prediction": {
+        "start": 4665,
+        "end": 4668,
+        "text": "最让人",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "玉皇庙下方高6米、没有文字的石碑，后文称无字碑",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 71,
+      "sample_id": "TS_NOTE_002:4691:4692",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4691,
+        "end": 4692,
+        "text": "此"
+      },
+      "context": "”，为大明崇祯年间所立，其旁则为著名的“雄峙天外”碑刻。\n\n玉皇庙正下方有一高6米、宽1.2米的石碑，碑顶有石覆盖，古朴而浑厚。最让人不解的是该碑上一个字也不见，以至于至今也不知道此碑是何人在何时所立，唯一知道的是宋代以前就有了。这就是泰山著名的“无字碑”。\n\n玉皇庙，古称太清宫，位于泰山极顶，始建年代无考，原为汉代帝王",
+      "prediction": {
+        "start": 4665,
+        "end": 4668,
+        "text": "最让人",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "同一块没有文字的石碑，后文称无字碑",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 72,
+      "sample_id": "TS_NOTE_002:4716:4717",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4716,
+        "end": 4717,
+        "text": "这"
+      },
+      "context": "碑刻。\n\n玉皇庙正下方有一高6米、宽1.2米的石碑，碑顶有石覆盖，古朴而浑厚。最让人不解的是该碑上一个字也不见，以至于至今也不知道此碑是何人在何时所立，唯一知道的是宋代以前就有了。这就是泰山著名的“无字碑”。\n\n玉皇庙，古称太清宫，位于泰山极顶，始建年代无考，原为汉代帝王封坛遗址，是泰山最高的一组古建筑群。玉皇庙整体呈现",
+      "prediction": {
+        "start": 4585,
+        "end": 4588,
+        "text": "日观峰",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "前面描述的无文字石碑，即无字碑",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 73,
+      "sample_id": "TS_NOTE_002:4911:4912",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4911,
+        "end": 4912,
+        "text": "这"
+      },
+      "context": "庙，泰山顶的游览就算完成。\n\n天烛峰下山\n\n我因为是从前山十八盘爬上泰山，为了避免重复路线，也是为了欣赏泰山的风景，特意选择了从后山天烛峰下山。\n\n网上的攻略都写得比较简单，也写得这条路线没有难度，事实并非如此。\n\n如果说泰山的前山是传统历史文化的活体展示，那么后山，就是体现泰山自然的秀美。\n\n从后山走的是秦御道，据说是",
+      "prediction": {
+        "start": 4887,
+        "end": 4890,
+        "text": "天烛峰",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "作者选择的后山天烛峰下山路线",
+      "verdict": "uncertain",
+      "reason": "预测只保留天烛峰，是否作为整条路线简称需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 74,
+      "sample_id": "TS_NOTE_002:4925:4926",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 4925,
+        "end": 4926,
+        "text": "此"
+      },
+      "context": "\n天烛峰下山\n\n我因为是从前山十八盘爬上泰山，为了避免重复路线，也是为了欣赏泰山的风景，特意选择了从后山天烛峰下山。\n\n网上的攻略都写得比较简单，也写得这条路线没有难度，事实并非如此。\n\n如果说泰山的前山是传统历史文化的活体展示，那么后山，就是体现泰山自然的秀美。\n\n从后山走的是秦御道，据说是当年秦始皇封禅走的路线。也就",
+      "prediction": {
+        "start": 4920,
+        "end": 4922,
+        "text": "事实",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "攻略声称这条路线没有难度这一说法；作者对此否定",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 75,
+      "sample_id": "TS_NOTE_002:5016:5017",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5016,
+        "end": 5017,
+        "text": "这"
+      },
+      "context": "。\n\n如果说泰山的前山是传统历史文化的活体展示，那么后山，就是体现泰山自然的秀美。\n\n从后山走的是秦御道，据说是当年秦始皇封禅走的路线。也就是泰山大名鼎鼎的后山天烛峰路线。不过目前这条线路，景区官方列为不开放区域，目前并不建议走。\n\n天烛峰路线到底怎么走？\n\n从玉皇顶的玉皇庙开始，按指示从出口离开，就来到泰山的后山区域。",
+      "prediction": {
+        "start": 5006,
+        "end": 5009,
+        "text": "天烛峰",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "泰山后山天烛峰路线，也就是秦御道",
+      "verdict": "uncertain",
+      "reason": "预测截取路线名中的天烛峰，是否接受该简称需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 76,
+      "sample_id": "TS_NOTE_002:5219:5221",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5219,
+        "end": 5221,
+        "text": "这个"
+      },
+      "context": "天工开物--响水河--森林浴场--山呼门--龙脊--好汉坡--仙鹤湾--千尺瀑--声声亭--天烛峰水库--天烛峰景区出入口。\n\n因为后石坞索道停运，从索道边的道路可以到后石坞景区，这个景区是开放的。下去后左边有个厕所，卫生尚可，一定要去！后面都没有厕所，切记！\n\n后石坞第一个路口走右边，选森林浴场方向。后石坞这个景区也有三",
+      "prediction": {
+        "start": 5216,
+        "end": 5218,
+        "text": "景区",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "assistant_reference": "后石坞景区",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 77,
+      "sample_id": "TS_NOTE_002:5284:5286",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5284,
+        "end": 5286,
+        "text": "这个"
+      },
+      "context": "为后石坞索道停运，从索道边的道路可以到后石坞景区，这个景区是开放的。下去后左边有个厕所，卫生尚可，一定要去！后面都没有厕所，切记！\n\n后石坞第一个路口走右边，选森林浴场方向。后石坞这个景区也有三三两两的游人，一开始我还以为天烛峰景区已经恢复开放。后来才发现，他们纯粹就是经过后石坞去元君庙那边，和天烛峰景区没有丝毫关系。\n\n",
+      "prediction": {
+        "start": 5221,
+        "end": 5223,
+        "text": "景区",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "assistant_reference": "后石坞景区",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 78,
+      "sample_id": "TS_NOTE_002:5323:5325",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5323,
+        "end": 5325,
+        "text": "他们"
+      },
+      "context": "有个厕所，卫生尚可，一定要去！后面都没有厕所，切记！\n\n后石坞第一个路口走右边，选森林浴场方向。后石坞这个景区也有三三两两的游人，一开始我还以为天烛峰景区已经恢复开放。后来才发现，他们纯粹就是经过后石坞去元君庙那边，和天烛峰景区没有丝毫关系。\n\n经过后石坞下站后，继续走，就来到天烛峰的路口，路口有指示，但路口有围蔽。我立定",
+      "prediction": {
+        "start": 5305,
+        "end": 5308,
+        "text": "天烛峰",
+        "entity_type": "person",
+        "source": "pos_or_semantic_lexicon",
+        "gender": "unspecified"
+      },
+      "assistant_reference": "在后石坞遇到的三三两两的游人",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 79,
+      "sample_id": "TS_NOTE_002:5338:5340",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5338,
+        "end": 5340,
+        "text": "那边"
+      },
+      "context": "后面都没有厕所，切记！\n\n后石坞第一个路口走右边，选森林浴场方向。后石坞这个景区也有三三两两的游人，一开始我还以为天烛峰景区已经恢复开放。后来才发现，他们纯粹就是经过后石坞去元君庙那边，和天烛峰景区没有丝毫关系。\n\n经过后石坞下站后，继续走，就来到天烛峰的路口，路口有指示，但路口有围蔽。我立定决心要走，从后边绕过。\n\n不久",
+      "prediction": {
+        "start": 5335,
+        "end": 5338,
+        "text": "元君庙",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "元君庙所在方向",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 80,
+      "sample_id": "TS_NOTE_002:5598:5599",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5598,
+        "end": 5599,
+        "text": "他"
+      },
+      "context": "赏山景。\n\n路面经常见到有落石，证明有一定危险性，标示危险区域尽量快速通过。\n\n因为天烛峰以前是开放景区，所以景点介绍牌子设置齐备。每到一个景点，我都对照图片，仔细寻找其中之美。无他，就是想停下休息一下而已。天烛峰景区，走起来真的累。\n\n长长的阶梯路很费腿，走到下山路线的一半，大概是响水河位置左右，我开始腿软，越走越慢，",
+      "prediction": {
+        "start": 5571,
+        "end": 5573,
+        "text": "齐备",
+        "entity_type": "person",
+        "source": "pos_or_semantic_lexicon",
+        "gender": "unspecified"
+      },
+      "assistant_reference": "无其他原因；无他是固定表达，这里的他不是指某个人",
+      "verdict": "inconsistent",
+      "reason": "无他是固定表达，不是人物代词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 81,
+      "sample_id": "TS_NOTE_002:5718:5719",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5718,
+        "end": 5719,
+        "text": "他"
+      },
+      "context": "长的阶梯路很费腿，走到下山路线的一半，大概是响水河位置左右，我开始腿软，越走越慢，最后全是靠着坚强的意志走下来的。\n\n走过吊桥后，仙鹤湾有个检查站，直接通过，工作人员都不管我。估计他心中再想，哈哈，又有人自己走下来找虐。毕竟，走到这里，很多人都是一撅一拐的，走的并不自然。\n\n快到景区出入口，居然有个阿婆在路边卖水和食物，",
+      "prediction": {
+        "start": 5707,
+        "end": 5711,
+        "text": "工作人员",
+        "entity_type": "person",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "assistant_reference": "仙鹤湾检查站的工作人员",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 82,
+      "sample_id": "TS_NOTE_002:5743:5745",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5743,
+        "end": 5745,
+        "text": "这里"
+      },
+      "context": "位置左右，我开始腿软，越走越慢，最后全是靠着坚强的意志走下来的。\n\n走过吊桥后，仙鹤湾有个检查站，直接通过，工作人员都不管我。估计他心中再想，哈哈，又有人自己走下来找虐。毕竟，走到这里，很多人都是一撅一拐的，走的并不自然。\n\n快到景区出入口，居然有个阿婆在路边卖水和食物，位置不对，生意堪忧啊。\n\n到天烛峰景区出入口，工作人",
+      "prediction": {
+        "start": 5639,
+        "end": 5641,
+        "text": "下山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "仙鹤湾检查站附近",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 83,
+      "sample_id": "TS_NOTE_002:5944:5946",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 5944,
+        "end": 5946,
+        "text": "这里"
+      },
+      "context": "作人员问我后面还有没人，哈哈。我出去后，工作人员马上关上门，坚决不给反向上山。\n\n离开景区就是封禅大典演出的地方，已是夕阳西下，晚霞隐现的时候。由于封禅大典还有1个小时才开始，所以这里没什么人。\n\n到公交站坐K19回市区，K19公交站高德显示停运，实际正常。\n\n坐上公交，我整个人终于放松下来，不想怎么动了。晚上本来还想逛逛",
+      "prediction": {
+        "start": 5913,
+        "end": 5917,
+        "text": "夕阳西下",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "封禅大典的演出场地",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 84,
+      "sample_id": "TS_NOTE_002:6084:6086",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6084,
+        "end": 6086,
+        "text": "这个"
+      },
+      "context": "终于放松下来，不想怎么动了。晚上本来还想逛逛泰山夜市，不去了，直接回酒店吃饭休息。\n\n总结\n\n一、泰山的物价\n\n山下最便宜，矿泉水1元，登山杖2元。 南天门矿泉水2元，登山杖5元。这个物价一直维持到增福庙，以及再往上的最后一处补给点。 山顶物价暴涨，不过贵得有道理。毕竟多背1瓶水爬山，消耗也是增加不少的。\n\n二、泰山的住宿",
+      "prediction": {
+        "start": 6069,
+        "end": 6072,
+        "text": "南天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "前面列出的矿泉水2元、登山杖5元这一价格水平",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 85,
+      "sample_id": "TS_NOTE_002:6415:6416",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6415,
+        "end": 6416,
+        "text": "这"
+      },
+      "context": "己控制的了。\n\n我算是个有时会爬爬山的正常人，所以泰山全程徒步，要考虑自己的身体情况。\n\n四、天烛峰路线特别提醒\n\n1、天烛峰路线全程没有补给点，起码要带瓶水，保证半路肚子不饿才走这条路线。\n\n2、进入天烛峰区域后游人很少，我一路上只碰上10人左右，大家有时会自发组成小团体前进。所以这条线路，天气差不要走，天黑不要走、独",
+      "prediction": {
+        "start": 6385,
+        "end": 6388,
+        "text": "天烛峰",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "天烛峰下山路线",
+      "verdict": "uncertain",
+      "reason": "预测只保留天烛峰，未明确表示整条路线。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 86,
+      "sample_id": "TS_NOTE_002:6467:6468",
+      "doc_id": "TS_NOTE_002",
+      "pronoun": {
+        "start": 6467,
+        "end": 6468,
+        "text": "这"
+      },
+      "context": "特别提醒\n\n1、天烛峰路线全程没有补给点，起码要带瓶水，保证半路肚子不饿才走这条路线。\n\n2、进入天烛峰区域后游人很少，我一路上只碰上10人左右，大家有时会自发组成小团体前进。所以这条线路，天气差不要走，天黑不要走、独行的姑娘不要走、体力差点的也不要走，毕竟从前山爬上来都已经够累人。\n\n3、给我再去一次泰山，我不会再走天",
+      "prediction": {
+        "start": 6426,
+        "end": 6429,
+        "text": "天烛峰",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "天烛峰下山路线",
+      "verdict": "uncertain",
+      "reason": "天烛峰区域与天烛峰路线的范围需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 87,
+      "sample_id": "TS_NOTE_003:633:634",
+      "doc_id": "TS_NOTE_003",
+      "pronoun": {
+        "start": 633,
+        "end": 634,
+        "text": "这"
+      },
+      "context": "份证就行，无须另外购票。正阳门入，厚载门出，大概11时了。向北穿过岱庙广场不远，就是岱宗坊。\n\n五、返程\n\n坐66路公交车到终点——泰安站。午餐后，乘坐G382次回京。\n\n后记\n\n这次双休日旅行总体比较顺利，全部行程目标基本实现，就是泰山索道没坐上，有点小遗憾。以下还有些体会：\n\n1. 人手一支的登山杖泛滥成灾 帮助不多",
+      "prediction": {
+        "start": 609,
+        "end": 612,
+        "text": "泰安站",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "standalone": false
+      },
+      "assistant_reference": "作者23—24日登泰山、看日出、游岱庙的整次双休日旅行，不是某个车站",
+      "verdict": "inconsistent",
+      "reason": "整次旅行被误指成返程车站。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 88,
+      "sample_id": "TS_NOTE_004:61:62",
+      "doc_id": "TS_NOTE_004",
+      "pronoun": {
+        "start": 61,
+        "end": 62,
+        "text": "这"
+      },
+      "context": "泰山 适合说走就走\n\n首先说明：我不喜欢计划性的出行，如果你是像我一样：周五晚上或者六日随时出发，说走就走的，那么可以看看这篇记录内容：\n\n这次出行的特点：周六周日2天出行计划、夜爬泰山、观看泰山封禅大典、携程全程订票、有休息时间；\n\n1、交通：（高铁、火车）\n\n",
+      "prediction": {
+        "start": 20,
+        "end": 23,
+        "text": "计划性",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "当前这篇说走就走的泰山出行记录",
+      "verdict": "inconsistent",
+      "reason": "当前文章被误指成计划性。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 89,
+      "sample_id": "TS_NOTE_004:70:71",
+      "doc_id": "TS_NOTE_004",
+      "pronoun": {
+        "start": 70,
+        "end": 71,
+        "text": "这"
+      },
+      "context": "泰山 适合说走就走\n\n首先说明：我不喜欢计划性的出行，如果你是像我一样：周五晚上或者六日随时出发，说走就走的，那么可以看看这篇记录内容：\n\n这次出行的特点：周六周日2天出行计划、夜爬泰山、观看泰山封禅大典、携程全程订票、有休息时间；\n\n1、交通：（高铁、火车）\n\n泰山景区附近有1个",
+      "prediction": {
+        "start": 65,
+        "end": 67,
+        "text": "内容",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "后面将介绍的周六周日两天泰山出行安排",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 90,
+      "sample_id": "ZJJ_OFF_002:25:26",
+      "doc_id": "ZJJ_OFF_002",
+      "pronoun": {
+        "start": 25,
+        "end": 26,
+        "text": "此"
+      },
+      "context": "游览时间建议：一日\n\n难度：☆☆☆☆\n\n住宿建议：此路线起点与终点距离较远，需合理规划住宿点\n\n午餐地点建议：袁家界\n\n此线路是公园内极具挑战与野趣的硬核徒步穿越路线，串联起杨家界、袁家界与金",
+      "prediction": {
+        "start": 22,
+        "end": 24,
+        "text": "建议",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "本篇标题所指的杨家界—袁家界—金鞭溪徒步路线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 91,
+      "sample_id": "ZJJ_OFF_002:60:61",
+      "doc_id": "ZJJ_OFF_002",
+      "pronoun": {
+        "start": 60,
+        "end": 61,
+        "text": "此"
+      },
+      "context": "游览时间建议：一日\n\n难度：☆☆☆☆\n\n住宿建议：此路线起点与终点距离较远，需合理规划住宿点\n\n午餐地点建议：袁家界\n\n此线路是公园内极具挑战与野趣的硬核徒步穿越路线，串联起杨家界、袁家界与金鞭溪三大核心区域，形成一条从山巅绝壁深入谷底幽溪的立体景观长廊。沿线可",
+      "prediction": {
+        "start": 55,
+        "end": 58,
+        "text": "袁家界",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "本篇杨家界—袁家界—金鞭溪徒步路线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 92,
+      "sample_id": "ZJJ_OFF_003:41:42",
+      "doc_id": "ZJJ_OFF_003",
+      "pronoun": {
+        "start": 41,
+        "end": 42,
+        "text": "此"
+      },
+      "context": "游览时间建议：一日\n\n难度：☆☆☆\n\n住宿建议：东门\n\n午餐地点建议：贺龙公园\n\n此线路是从幽深峡谷直抵云端峰林的立体穿越路线，沿十里画廊蜿蜒而上，最终登顶天子山，形成一条从谷底仰视到绝顶俯瞰的绝美景观长廊。沿线可观赏采药老",
+      "prediction": {
+        "start": 35,
+        "end": 39,
+        "text": "贺龙公园",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "standalone": false
+      },
+      "assistant_reference": "本篇标题所指的十里画廊—天子山徒步路线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 93,
+      "sample_id": "ZJJ_OFF_003:197:198",
+      "doc_id": "ZJJ_OFF_003",
+      "pronoun": {
+        "start": 197,
+        "end": 198,
+        "text": "此"
+      },
+      "context": "观赏采药老人的惟妙惟肖；穿越卧龙岭原始次生林，体验从幽深峡谷直升绝壁之巅的凌空之感；登顶后驻足贺龙公园，俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石拱南天门缓缓而下。此路线兼具平缓漫游闲适感与登高望远壮阔感，景致层次丰富、视野开阔。",
+      "prediction": {
+        "start": 189,
+        "end": 192,
+        "text": "南天门",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "前文描述的十里画廊登天子山、再经南天门下行的整条路线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 94,
+      "sample_id": "ZJJ_OFF_004:49:50",
+      "doc_id": "ZJJ_OFF_004",
+      "pronoun": {
+        "start": 49,
+        "end": 50,
+        "text": "此"
+      },
+      "context": "游览时间建议：一日\n\n住宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点建议：大氧吧广场\n\n此线路串联黄石寨、金鞭溪与十里画廊，形成一条完整的方山-峡谷观景路线。沿途打卡黄石寨六奇阁、摘星台，金鞭溪神鹰护鞭、劈山救母等标志性景观，感受",
+      "prediction": {
+        "start": 42,
+        "end": 47,
+        "text": "大氧吧广场",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "standalone": false
+      },
+      "assistant_reference": "本篇黄石寨—金鞭溪—十里画廊游览路线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 95,
+      "sample_id": "ZJJ_OFF_005:42:43",
+      "doc_id": "ZJJ_OFF_005",
+      "pronoun": {
+        "start": 42,
+        "end": 43,
+        "text": "此"
+      },
+      "context": "游览时间建议：一日\n\n住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公园经典游览路线之一，串联袁家界、杨家界、天子山三大核心区域，形成一条完整的山顶观景环线。沿线可尽览袁家界乾坤柱、天下第",
+      "prediction": {
+        "start": 34,
+        "end": 39,
+        "text": "天下第一桥",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "本篇袁家界—杨家界—天子山的山上大环线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 96,
+      "sample_id": "ZJJ_NOTE_001:187:188",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 187,
+        "end": 188,
+        "text": "此"
+      },
+      "context": "馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒店，市区不大打车15元到酒店。我们预定的富蓝特·和酒店（张家界天门山店），酒店位置很好对面就是天门山索道A线（BC线也在此），对面也是明早乘车去武陵源东门的旅游大巴的车站，酒店后面全是小餐馆，吃饭非常方便，走路去麦当劳5分钟就到，晚上休息好准备明早的张家界森林公",
+      "prediction": {
+        "start": 174,
+        "end": 177,
+        "text": "天门山",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "酒店对面的天门山索道站附近，A、B、C线均在该区域",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 97,
+      "sample_id": "ZJJ_NOTE_001:295:297",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 295,
+        "end": 297,
+        "text": "这个"
+      },
+      "context": "旅游大巴的车站，酒店后面全是小餐馆，吃饭非常方便，走路去麦当劳5分钟就到，晚上休息好准备明早的张家界森林公园2日游。下图附上酒店拍到的索道照片，后来从张家界国家森林公园回来也是住的这个酒店。\n\n2025.7.23和24号张家界国家森林公园2日游，两天都是小雨转多云，提前预定门票和预约第二天的入园时间，在微信公众号上预约。张",
+      "prediction": {
+        "start": 280,
+        "end": 289,
+        "text": "张家界国家森林公园",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "富蓝特·和酒店（张家界天门山店）",
+      "verdict": "inconsistent",
+      "reason": "酒店被误指成森林公园。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 98,
+      "sample_id": "ZJJ_NOTE_001:422:424",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 422,
+        "end": 424,
+        "text": "那个"
+      },
+      "context": "小雨转多云，提前预定门票和预约第二天的入园时间，在微信公众号上预约。张家界国家森林公园的门票四日有效，我们第一天从东门进出，第二天从南门进出，记住要按照预约的时间段进去，我们正好在那个时间里入园。23号早上酒店对面车站乘坐去武陵源的蓝色专线大巴车，6：00第一班车从市中心汽车站发出，5分钟就能到酒店对面，10分钟一班，票价",
+      "prediction": {
+        "start": 394,
+        "end": 397,
+        "text": "第二天",
+        "entity_type": "time",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "游客事先预约的入园时间段",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 99,
+      "sample_id": "ZJJ_NOTE_001:803:804",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 803,
+        "end": 804,
+        "text": "这"
+      },
+      "context": "索道上山，有小雨山上全是雾，天子山就去了贺龙公园，因为雾大山上什么都看不见，就没有去天子山的其它景点。\n\nA线索道乘车点\n\n贺龙元帅之墓\n\n在天子山的环保车乘车点排队坐车去杨家界，这一段车型是小巴车，乘车时间大概20多分钟，一路上全是弯道，坐的老刺激了。雾大，以为今天啥都看不见了，快到杨家界时山上的雾气慢慢地散去，有了希",
+      "prediction": {
+        "start": 784,
+        "end": 787,
+        "text": "天子山",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "从天子山环保车乘车点前往杨家界这一段车程",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 100,
+      "sample_id": "ZJJ_NOTE_001:1298:1299",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1298,
+        "end": 1299,
+        "text": "那"
+      },
+      "context": "景闻名。峰体纹理嶙峋，堪称三千奇峰的代表。\n\n天下第一桥\n\n从袁家界乘环保车去百龙电梯就下山了，当时的雾气已逐渐散去，有点不死心，再想去看看天子山，乘2段环保车又折返，但是天子山的那片山头雨大雾大，还是啥都看不见，这样耽误了一个小时，又回到袁家界乘坐环保车，大概5分钟到了百龙电梯。百龙电梯是下行，大概1分钟就下去啦，要靠",
+      "prediction": {
+        "start": 1294,
+        "end": 1297,
+        "text": "天子山",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "天子山上当时雨雾中的山头；指示限定",
+      "verdict": "uncertain",
+      "reason": "整个天子山与眼前的山头范围不同，不能确认。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 101,
+      "sample_id": "ZJJ_NOTE_001:1890:1891",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1890,
+        "end": 1891,
+        "text": "它"
+      },
+      "context": "游览黄石寨的景点。黄石寨景点：六奇阁、摘星台、五指峰、黄公悟道、点将台等等，我们去了几个精华景点，沿路看路标，这样时间能节省。\n\n金鞭溪索道\n\n黄石寨山上有很多猕猴，不怕人，不招惹它，还是很友好的，保持距离看看它就好了。\n\n黄石寨山上猕猴\n\n五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步",
+      "prediction": {
+        "start": 1872,
+        "end": 1875,
+        "text": "黄石寨",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "黄石寨山上的猕猴",
+      "verdict": "inconsistent",
+      "reason": "猕猴被误指成黄石寨。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 102,
+      "sample_id": "ZJJ_NOTE_001:1905:1906",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 1905,
+        "end": 1906,
+        "text": "它"
+      },
+      "context": "六奇阁、摘星台、五指峰、黄公悟道、点将台等等，我们去了几个精华景点，沿路看路标，这样时间能节省。\n\n金鞭溪索道\n\n黄石寨山上有很多猕猴，不怕人，不招惹它，还是很友好的，保持距离看看它就好了。\n\n黄石寨山上猕猴\n\n五指峰\n\n黄石寨山上\n\n黄石寨游览不到2小时，乘索道下山。乘环保车到金鞭溪，徒步游览金鞭溪景点。金鞭溪全长 7",
+      "prediction": {
+        "start": 1872,
+        "end": 1875,
+        "text": "黄石寨",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "黄石寨山上的猕猴",
+      "verdict": "inconsistent",
+      "reason": "猕猴被误指成黄石寨。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 103,
+      "sample_id": "ZJJ_NOTE_001:2067:2068",
+      "doc_id": "ZJJ_NOTE_001",
+      "pronoun": {
+        "start": 2067,
+        "end": 2068,
+        "text": "这"
+      },
+      "context": "5公里，平步道串联神鹰护鞭、劈山救母等地质奇观，走全段再折返时间很长，我们只走到《西游记》的取景地折返了。\n\n金鞭溪沿路的风景\n\n《西游记》取景地\n\n中午1点多出了景区，全程不累，这两天都不需要爬山，基本都是平地儿。出景区后取行李，走路一百米就能看见去张家界市区的专线蓝色大巴车，到市中心汽车站的，上车扫码一人12元，大概",
+      "prediction": {
+        "start": 2062,
+        "end": 2064,
+        "text": "全程",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "前文介绍的2025年7月23日和24日两天",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 104,
+      "sample_id": "ZJJ_NOTE_002:78:79",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 78,
+        "end": 79,
+        "text": "这"
+      },
+      "context": "春节期间，就是出来旅行的好时节。我和老公说，春节出来玩可比串亲戚有意思多了。想来也是！于是，大年初一，我们一家四口，坐着高铁，到了张家界。\n\n先说一下，其实这次旅行还是有一点遗憾的。出发之前看了下天气预报，天气不太好。虽然知道这趟旅程应该会和天气预报的那样，阴雨天居多，可能风景不是太好，但我心态还",
+      "prediction": {
+        "start": 29,
+        "end": 32,
+        "text": "串亲戚",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "作者一家春节到张家界的这次旅行",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 105,
+      "sample_id": "ZJJ_NOTE_002:113:114",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 113,
+        "end": 114,
+        "text": "这"
+      },
+      "context": "节出来玩可比串亲戚有意思多了。想来也是！于是，大年初一，我们一家四口，坐着高铁，到了张家界。\n\n先说一下，其实这次旅行还是有一点遗憾的。出发之前看了下天气预报，天气不太好。虽然知道这趟旅程应该会和天气预报的那样，阴雨天居多，可能风景不是太好，但我心态还是不错的，即便会有遗憾，但见一见雨雾中的张家界，说不定也没那么糟糕。\n",
+      "prediction": {
+        "start": 103,
+        "end": 105,
+        "text": "天气",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "同一次春节张家界旅程",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 106,
+      "sample_id": "ZJJ_NOTE_002:394:395",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 394,
+        "end": 395,
+        "text": "这"
+      },
+      "context": "，半山腰还能看到石柱，下索道后完全是白茫茫，御笔峰、贺龙公园、点将台等基本看不清。于是，跟着前面一个小队伍，从天子阁走下山，走到了十里长廊。\n\n虽然这样写下来好像很快，但现实是，走这一天，整个人都是麻的。张家界的山峰确实很好看，但同时也是确实累啊。再加上这里雾蒙蒙的，我看有人说，来的不划算。但对我来讲非也！这种云雾缭绕的",
+      "prediction": {
+        "start": 389,
+        "end": 391,
+        "text": "现实",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "当天从天子阁下山到十里长廊等处的游览行程日",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 107,
+      "sample_id": "ZJJ_NOTE_002:431:433",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 431,
+        "end": 433,
+        "text": "这里"
+      },
+      "context": "看不清。于是，跟着前面一个小队伍，从天子阁走下山，走到了十里长廊。\n\n虽然这样写下来好像很快，但现实是，走这一天，整个人都是麻的。张家界的山峰确实很好看，但同时也是确实累啊。再加上这里雾蒙蒙的，我看有人说，来的不划算。但对我来讲非也！这种云雾缭绕的感觉可是太美了。\n\n下山途中雾茫茫没什么好拍的，山下的十里长廊好看，一路上都",
+      "prediction": {
+        "start": 335,
+        "end": 338,
+        "text": "点将台",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "张家界国家森林公园当日游览的山中区域；具体地点未唯一确定",
+      "verdict": "uncertain",
+      "reason": "初标对当前位置本身不唯一，具体景点难以确认。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 108,
+      "sample_id": "ZJJ_NOTE_002:458:459",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 458,
+        "end": 459,
+        "text": "这"
+      },
+      "context": "了十里长廊。\n\n虽然这样写下来好像很快，但现实是，走这一天，整个人都是麻的。张家界的山峰确实很好看，但同时也是确实累啊。再加上这里雾蒙蒙的，我看有人说，来的不划算。但对我来讲非也！这种云雾缭绕的感觉可是太美了。\n\n下山途中雾茫茫没什么好拍的，山下的十里长廊好看，一路上都在拍。从十里长廊坐环保车回到东门，出景区。喝了一杯茶",
+      "prediction": {
+        "start": 389,
+        "end": 391,
+        "text": "现实",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "前面描述的雾蒙蒙、云雾缭绕的游览感受",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 109,
+      "sample_id": "ZJJ_NOTE_002:728:729",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 728,
+        "end": 729,
+        "text": "那"
+      },
+      "context": "，又洗了内搭的速干衣放空调底下吹干，把在读的一本书看完了。\n\nDay3再看张家界国家森林公园\n\n昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯。\n\n",
+      "prediction": {
+        "start": 717,
+        "end": 719,
+        "text": "门票",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "预报雨过天晴的那一天，即门票有效期的第4天",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 110,
+      "sample_id": "ZJJ_NOTE_002:802:803",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 802,
+        "end": 803,
+        "text": "这"
+      },
+      "context": "天晴，毕竟门票4天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯。\n\n当然，这一段原本应该是风景绝佳处的视频拍摄点，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能",
+      "prediction": {
+        "start": 794,
+        "end": 796,
+        "text": "电梯",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "乘百龙天梯88秒垂直登顶这一段过程",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 111,
+      "sample_id": "ZJJ_NOTE_002:833:834",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 833,
+        "end": 834,
+        "text": "该"
+      },
+      "context": "是按原计划走。今天的行程就完全按照攻略说的来游览山上的风景，坐环保车到百龙天梯处，感受88秒垂直登顶的电梯。\n\n当然，这一段原本应该是风景绝佳处的视频拍摄点，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花20元让那边的收费拍照人员帮忙拍了照，也算到此一",
+      "prediction": {
+        "start": 824,
+        "end": 826,
+        "text": "大雾",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "充当风景绝佳的视频拍摄点这一用途",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 112,
+      "sample_id": "ZJJ_NOTE_002:884:886",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 884,
+        "end": 886,
+        "text": "那边"
+      },
+      "context": "电梯。\n\n当然，这一段原本应该是风景绝佳处的视频拍摄点，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花20元让那边的收费拍照人员帮忙拍了照，也算到此一游了。\n\n坐杨家界索道的途中，能看清一些了，赶紧拍了一些风景照，然后静静欣赏这些披上云裳的石柱。坐环保车",
+      "prediction": {
+        "start": 855,
+        "end": 860,
+        "text": "天下第一桥",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "袁家界稍微能看清景色的观景台附近",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 113,
+      "sample_id": "ZJJ_NOTE_002:902:903",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 902,
+        "end": 903,
+        "text": "此"
+      },
+      "context": "绝佳处的视频拍摄点，因为大雾而完全没有起到该作用。包括后来去到袁家界，迷魂台、乾坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花20元让那边的收费拍照人员帮忙拍了照，也算到此一游了。\n\n坐杨家界索道的途中，能看清一些了，赶紧拍了一些风景照，然后静静欣赏这些披上云裳的石柱。坐环保车到天子山，又坐天子山索道下山。回来",
+      "prediction": {
+        "start": 891,
+        "end": 893,
+        "text": "人员",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "正在游览和拍照的袁家界观景区域",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 114,
+      "sample_id": "ZJJ_NOTE_002:942:944",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 942,
+        "end": 944,
+        "text": "这些"
+      },
+      "context": "坤柱和天下第一桥都笼罩在雾里。在其中稍微能看清的观景台花20元让那边的收费拍照人员帮忙拍了照，也算到此一游了。\n\n坐杨家界索道的途中，能看清一些了，赶紧拍了一些风景照，然后静静欣赏这些披上云裳的石柱。坐环保车到天子山，又坐天子山索道下山。回来看我们在山上拍的照片。我老公和孩子们的感叹都是，还是现场看的景色最美啊。\n\n至此，",
+      "prediction": {
+        "start": 910,
+        "end": 913,
+        "text": "杨家界",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "乘杨家界索道时眼前披着云雾的石柱，并非某个单独地名",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 115,
+      "sample_id": "ZJJ_NOTE_002:1012:1013",
+      "doc_id": "ZJJ_NOTE_002",
+      "pronoun": {
+        "start": 1012,
+        "end": 1013,
+        "text": "此"
+      },
+      "context": "一些了，赶紧拍了一些风景照，然后静静欣赏这些披上云裳的石柱。坐环保车到天子山，又坐天子山索道下山。回来看我们在山上拍的照片。我老公和孩子们的感叹都是，还是现场看的景色最美啊。\n\n至此，我的国家森林公园之旅就结束啦。继续喝茶颜悦色的招牌奶茶，在酒店附近吃粉。下午补觉，翻开新的一本书来读。晚上出门觅食，回酒店休息。",
+      "prediction": {
+        "start": 963,
+        "end": 966,
+        "text": "天子山",
+        "entity_type": "place",
+        "source": "context_named_place",
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "完成当天森林公园游览并乘索道下山的这个时点",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 116,
+      "sample_id": "ZJJ_NOTE_003:214:215",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 214,
+        "end": 215,
+        "text": "他"
+      },
+      "context": "行：计划终于达成。\n\n步数：37184\n\n7、过了中午，张家界市区去往武陵源的公交车发车时间就不太准时了。听说早上是二十分钟一班，下午是三十分钟，可车上一大哥拿着车票上的购买时间说他已经等了四十多分钟了。我们买到了森林公园的门票，是到南门的，南门和东门的车子是不同的，应该不太可能上错车。不过如果车站内购票，也只能在自动购",
+      "prediction": {
+        "start": 159,
+        "end": 162,
+        "text": "武陵源",
+        "entity_type": "person",
+        "source": "pos_or_semantic_lexicon",
+        "gender": "unspecified"
+      },
+      "assistant_reference": "公交车上那位拿着车票、说自己等了很久的大哥",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 117,
+      "sample_id": "ZJJ_NOTE_003:736:737",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 736,
+        "end": 737,
+        "text": "这"
+      },
+      "context": "但美团上收录的不多。\n\n12、海鲜网上买的魅力湘西的票确实有性价比。旅行团的票都是在两边的，海鲜网上买的VIP票是正中间的，一般在11-17排，再前面应该是要现场卖的。而且在淡季，这几排很空，可以自己选位置，如果有人拿着票过来让你让座，你就往其它空座上挪挪。当然，你是拿不到票的，因为上面的位置和你实际上坐的位置不一样。\n",
+      "prediction": {
+        "start": 733,
+        "end": 735,
+        "text": "淡季",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "魅力湘西演出票中VIP正中间的11—17排",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 118,
+      "sample_id": "ZJJ_NOTE_003:959:961",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 959,
+        "end": 961,
+        "text": "这里"
+      },
+      "context": "：1、当天下雨了，下雨天，武陵源就是白茫茫一片，什么都看不到。\n\n2、山上的景交车不会特意问你要在哪里下车，但车上有广播，可以告诉司机在哪里下车。不过在空中田车肯定会停车下客，因为这里需要你花钱坐去空中田园的车了，你当然可以不去，直接去杨家界。\n\n3、杨家界几乎都封路了，只有一处空中长城景点，其它地方都过不去。\n\n4、袁家",
+      "prediction": {
+        "start": 882,
+        "end": 885,
+        "text": "武陵源",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "推测指原文写作空中田车的下客换乘处，可能是空中田园换乘点；名称疑有笔误",
+      "verdict": "uncertain",
+      "reason": "原文地名疑有笔误，换乘点无法准确确认。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 119,
+      "sample_id": "ZJJ_NOTE_003:1049:1051",
+      "doc_id": "ZJJ_NOTE_003",
+      "pronoun": {
+        "start": 1049,
+        "end": 1051,
+        "text": "这里"
+      },
+      "context": "这里需要你花钱坐去空中田园的车了，你当然可以不去，直接去杨家界。\n\n3、杨家界几乎都封路了，只有一处空中长城景点，其它地方都过不去。\n\n4、袁家界是人最多的地方，所有旅行团好像只到这里。而且从天子山往袁家界逛还有个好处，早上的雾慢慢散去了，总算风景最好的地方可以看到景了。\n\n5、百龙天梯其实也就还好。景色远不及在山上看到的",
+      "prediction": {
+        "start": 1029,
+        "end": 1032,
+        "text": "袁家界",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "袁家界",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 120,
+      "sample_id": "ZJJ_NOTE_004:102:104",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 102,
+        "end": 104,
+        "text": "这个"
+      },
+      "context": "家界—袁家界 宿武陵源西门\n\nDay8 武陵源西门—天子山—武陵源南门—金鞭溪 宿武陵源南门\n\nDay9 武陵源南门—黄石寨—凤凰古城（3小时） 宿凤凰古城\n\n二、张家界\n\n张家界这个为了发展旅游成立的地级市，是典型的旅游城市。张家界的旅游景区分为三个大片区，一是天门山景区，二是张家界国家森林公园，又叫武陵源景区，三是黄龙",
+      "prediction": {
+        "start": 71,
+        "end": 74,
+        "text": "黄石寨",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "张家界这个城市；同位指示限定",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 121,
+      "sample_id": "ZJJ_NOTE_004:364:365",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 364,
+        "end": 365,
+        "text": "这"
+      },
+      "context": "界景区。武陵源是一片面积很大的山，总体上可以理解为一片普通的山环形包围着张家界特殊地貌的石柱山，景点可分为山顶和山下。武陵源的小的景点很多，山顶的主要景点有袁家界、天子山、杨家界，这几个景点之间的环山公路可以构成一个闭环。黄石寨在西南角单独构成一个闭环。山下的主要景点有金鞭溪、十里画廊。\n\n武陵源景区概图\n\n各个景点的详",
+      "prediction": {
+        "start": 360,
+        "end": 363,
+        "text": "杨家界",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "袁家界、天子山和杨家界三个山顶景点",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 122,
+      "sample_id": "ZJJ_NOTE_004:593:595",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 593,
+        "end": 595,
+        "text": "这里"
+      },
+      "context": "通方式，再加上从哪个门出和游玩时间两个因素，所以武陵源的游玩攻略可以千变万化，没有最好的，只有适合自己的。\n\n各种平台的攻略大多数推荐走东门进入，东门外就是武陵源区政府所在地，所以这里配套设施最好，如果淡季来从东门入绝对是最好选择。旺季东门入的游客最多，听说在百龙天梯排队就要2-3个小时，然后坐电梯88秒到山顶，把这么长的",
+      "prediction": {
+        "start": 581,
+        "end": 584,
+        "text": "武陵源",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "武陵源东门外、区政府所在地一带",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 123,
+      "sample_id": "ZJJ_NOTE_004:755:756",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 755,
+        "end": 756,
+        "text": "这"
+      },
+      "context": "时间用在排队上不如来欣赏美景。\n\n武陵源西门附近的小镇\n\n为了避开人流我选择的路线是西门（杨家界索道上行）-杨家界-袁家界（百龙天梯下行）-东门-（天子山索道上行）天子山-杨家界，这条路线的好处，一是不走回头路，构成一个环线；二是照样可以体验百龙天梯，但是下行基本不用排队。因为杨家界的小景点乌龙寨刚好封闭了，只有“天然长",
+      "prediction": {
+        "start": 751,
+        "end": 754,
+        "text": "杨家界",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "西门→杨家界→袁家界→东门→天子山→杨家界的环线",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 124,
+      "sample_id": "ZJJ_NOTE_004:1257:1258",
+      "doc_id": "ZJJ_NOTE_004",
+      "pronoun": {
+        "start": 1257,
+        "end": 1258,
+        "text": "这"
+      },
+      "context": "后，小溪里泛起烟雾\n\n黄石寨山顶分小环线和大环线，半天时间大环线能走下来，毕竟来都来了。黄石寨的景色其实很不错，有些小景点也是电影《阿凡达》的取景地，但是已经看了2天的张家界地貌，这时候会有审美疲劳，走在栈道上都懒得去拍照。本次行程没有去十里画廊，是因为我觉得十里画廊和金鞭溪都是在山下丛林之间仰视的角度看张家界地貌，而且",
+      "prediction": {
+        "start": 1248,
+        "end": 1250,
+        "text": "2天",
+        "entity_type": "time",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "已经连续看过两天张家界地貌、正在游黄石寨的当时",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 125,
+      "sample_id": "JYT_NOTE_002:79:81",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 79,
+        "end": 81,
+        "text": "这个"
+      },
+      "context": "9:22退房，出发去净月潭公园，11.9公里，24分钟。\n\n9:50我们到达停车场，虽说是免费，但是已经没有车位了，转了好一会儿才找到一个地方停下。\n\n没想到这个五星级景区人真多呀，而且还来的早，我们还以为赶了个早集.....\n\n我们门票免费，进来以后去买观光车票。有卖门票船票的套票，但我们只买了最基",
+      "prediction": {
+        "start": 38,
+        "end": 41,
+        "text": "停车场",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "净月潭公园",
+      "verdict": "inconsistent",
+      "reason": "停车场是局部，不是整个五星级景区。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 126,
+      "sample_id": "JYT_NOTE_002:505:507",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 505,
+        "end": 507,
+        "text": "他们"
+      },
+      "context": "观光车，去西坝站下来，往回走50米就到北普陀寺。\n\n观光车坐一圈大概要50分钟。我们又去起点站。观光车站排了很长的队，远处，观光车有好几辆，但是都没有司机，估计是不是吃中午饭去了？他们应该合理安排司机，有人休息有人开车，不至于让游客等太久。\n\n11:35重新上车，碰巧坐第一排，视野很好。\n\n北普陀寺只有两三站路，而我们还要",
+      "prediction": {
+        "start": 490,
+        "end": 492,
+        "text": "司机",
+        "entity_type": "person",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": false
+      },
+      "assistant_reference": "推测指景区或观光车的运营管理方；前文没有明确说出这群管理人员",
+      "verdict": "uncertain",
+      "reason": "他们可能指司机，也可能指运营管理方。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 127,
+      "sample_id": "JYT_NOTE_002:584:585",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 584,
+        "end": 585,
+        "text": "那"
+      },
+      "context": "计是不是吃中午饭去了？他们应该合理安排司机，有人休息有人开车，不至于让游客等太久。\n\n11:35重新上车，碰巧坐第一排，视野很好。\n\n北普陀寺只有两三站路，而我们还要去瓦萨博物馆，那是在离起点七八站路的地方。如果我们在北普陀寺下了，我们游览完了又要排长队，再去瓦萨，而且肯定没有第一排这样的位置。所以在车开动以后，我们临时",
+      "prediction": {
+        "start": 578,
+        "end": 583,
+        "text": "瓦萨博物馆",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "瓦萨博物馆",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 128,
+      "sample_id": "JYT_NOTE_002:740:741",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 740,
+        "end": 741,
+        "text": "此"
+      },
+      "context": "，我们临时改主意，不去北普陀，直接去瓦萨博物馆，不太费时间。\n\n11:58我们到达瓦萨博物馆。\n\n在博物馆转了一圈，才了解瓦萨和长春的缘分，瓦萨冰雪运动已经在长春有了多年的推广，由此衍生出好多与冰雪运动有关的文化和经济交流，挺有意思的。通过一位当地摄影师的作品，我们也看到了净月潭四季，尤其是冬季之美，这种美与自然有关，也",
+      "prediction": {
+        "start": 729,
+        "end": 731,
+        "text": "长春",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "瓦萨冰雪运动在长春多年推广这件事",
+      "verdict": "inconsistent",
+      "reason": "运动推广事件被误指成城市。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 129,
+      "sample_id": "JYT_NOTE_002:801:802",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 801,
+        "end": 802,
+        "text": "这"
+      },
+      "context": "瓦萨和长春的缘分，瓦萨冰雪运动已经在长春有了多年的推广，由此衍生出好多与冰雪运动有关的文化和经济交流，挺有意思的。通过一位当地摄影师的作品，我们也看到了净月潭四季，尤其是冬季之美，这种美与自然有关，也跟人类运动有关。\n\n在草坪的树荫下坐一会儿，不远处有人在空旷处唱卡拉OK，这种自我感觉良好，实则对旁人是一种骚扰。本来风景",
+      "prediction": {
+        "start": 787,
+        "end": 790,
+        "text": "净月潭",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "净月潭四季景色，尤其是冬季之美",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 130,
+      "sample_id": "JYT_NOTE_002:848:849",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 848,
+        "end": 849,
+        "text": "这"
+      },
+      "context": "济交流，挺有意思的。通过一位当地摄影师的作品，我们也看到了净月潭四季，尤其是冬季之美，这种美与自然有关，也跟人类运动有关。\n\n在草坪的树荫下坐一会儿，不远处有人在空旷处唱卡拉OK，这种自我感觉良好，实则对旁人是一种骚扰。本来风景优美的地方，安安静静地坐坐是一种享受，但现在只能避而远之。沈阳的北陵公园也有这样的情况，我觉得",
+      "prediction": {
+        "start": 822,
+        "end": 824,
+        "text": "草坪",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "公共游览区有人唱卡拉OK、自己感觉良好却干扰旁人的行为",
+      "verdict": "inconsistent",
+      "reason": "唱卡拉OK扰民的行为被误指成草坪。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 131,
+      "sample_id": "JYT_NOTE_002:928:929",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 928,
+        "end": 929,
+        "text": "这"
+      },
+      "context": "在空旷处唱卡拉OK，这种自我感觉良好，实则对旁人是一种骚扰。本来风景优美的地方，安安静静地坐坐是一种享受，但现在只能避而远之。沈阳的北陵公园也有这样的情况，我觉得景区的管理还需要在这方面下点功夫。\n\n12点半又重新上车，前座的小女孩的头饰在阳光里闪闪发光，很可爱。\n\n司机开车真的是挺猛，不过比起峨眉山的司机，段位还是不够",
+      "prediction": {
+        "start": 913,
+        "end": 915,
+        "text": "情况",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "景区对噪声和游客干扰行为的管理",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 132,
+      "sample_id": "JYT_NOTE_002:1031:1032",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 1031,
+        "end": 1032,
+        "text": "这"
+      },
+      "context": "半又重新上车，前座的小女孩的头饰在阳光里闪闪发光，很可爱。\n\n司机开车真的是挺猛，不过比起峨眉山的司机，段位还是不够，而且地形完全不同，所以在净月潭坐车，真不担心。\n\n往大门口走，这一排好沧桑的杨树\n\n1:15到了出口。还有游客进园，还有不少车在停车场转悠找位置。\n\n停车场是免费的，但是你得有地停。我们每个人只花了20块",
+      "prediction": {
+        "start": 1026,
+        "end": 1029,
+        "text": "大门口",
+        "entity_type": "place",
+        "source": "pos_or_place_suffix",
+        "generic": false
+      },
+      "assistant_reference": "作者眼前、可能由图片展示的一排杨树；前文没有这排树的明确介绍",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 133,
+      "sample_id": "JYT_NOTE_002:1116:1118",
+      "doc_id": "JYT_NOTE_002",
+      "pronoun": {
+        "start": 1116,
+        "end": 1118,
+        "text": "这个"
+      },
+      "context": "大门口走，这一排好沧桑的杨树\n\n1:15到了出口。还有游客进园，还有不少车在停车场转悠找位置。\n\n停车场是免费的，但是你得有地停。我们每个人只花了20块钱，坐了两次观光车，就游览了这个景区，划算。现在看来，我们的策略是对的，先坐观光车走一圈，基本上对路线和各个点儿的风景都有所了解，然后再坐一次车到希望游览的景点停下来看看，",
+      "prediction": {
+        "start": 919,
+        "end": 921,
+        "text": "景区",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "assistant_reference": "净月潭公园",
+      "verdict": "uncertain",
+      "reason": "泛称景区可能承接净月潭，也受北陵公园比较语境影响。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 134,
+      "sample_id": "JYT_NOTE_003:87:88",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 87,
+        "end": 88,
+        "text": "那"
+      },
+      "context": "长春净月潭国家森林公园-吉林八景之一\n\n我住在 长春 市市中心人民广场附近的亚泰饭店，从人民广场前往净月潭景区搭乘地铁需要差不多1个小时，所以当天我特地早早起床，拉开房间窗帘那会天才刚刚微微亮，远方的天空日出的光芒逐渐驱散黑暗，这大概是城市最柔和的样子了。\n\n出门简单吃过早餐，我背着相机包踏进了人民广场地铁站。搭乘",
+      "prediction": {
+        "start": 85,
+        "end": 87,
+        "text": "窗帘",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "当天清晨起床、拉开窗帘的时候",
+      "verdict": "inconsistent",
+      "reason": "时间被误指成窗帘。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 135,
+      "sample_id": "JYT_NOTE_003:114:115",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 114,
+        "end": 115,
+        "text": "这"
+      },
+      "context": "长春 市市中心人民广场附近的亚泰饭店，从人民广场前往净月潭景区搭乘地铁需要差不多1个小时，所以当天我特地早早起床，拉开房间窗帘那会天才刚刚微微亮，远方的天空日出的光芒逐渐驱散黑暗，这大概是城市最柔和的样子了。\n\n出门简单吃过早餐，我背着相机包踏进了人民广场地铁站。搭乘地铁1号线转轻轨3号线，一共16个站，只需要不到1小时",
+      "prediction": {
+        "start": 105,
+        "end": 107,
+        "text": "光芒",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "刚描述的清晨日光渐渐驱散黑暗的城市景色",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 136,
+      "sample_id": "JYT_NOTE_003:834:836",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 834,
+        "end": 836,
+        "text": "这里"
+      },
+      "context": "高尔夫球场为终点站。接驳车每15分钟一班，到站下车游览后可以在站点坐后面班次。\n\n入口处的第一景-女神广场，地面覆盖的积雪在太阳光照射下熠熠生辉。\n\n我选择下车的第一站是森林浴场，这里也是净月潭的核心景区，于1999年对外开放，有着“天然氧吧”的称号。郁郁葱葱的树仿佛从雪中窜出来直插天空，阳光透过缝隙撒在路面上，形成一束束",
+      "prediction": {
+        "start": 829,
+        "end": 833,
+        "text": "森林浴场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "森林浴场",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 137,
+      "sample_id": "JYT_NOTE_003:972:973",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 972,
+        "end": 973,
+        "text": "这"
+      },
+      "context": "出来直插天空，阳光透过缝隙撒在路面上，形成一束束的光，真的是说不出的美\n\n森林浴场两边有步行栈道，栈道设立了提醒告示牌，因为气温低，栈道部分路段是有结冰的，走在上面一定要注意防滑。这一块的林木伟岸笔挺，让我更加了解了长春这座“森林之城”称号的底蕴。\n\n净月潭景区内接驳车的终点站就在高尔夫球场、湿地公园这，高尔夫球场早已被",
+      "prediction": {
+        "start": 919,
+        "end": 923,
+        "text": "森林浴场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "森林浴场步行栈道周围的林区",
+      "verdict": "uncertain",
+      "reason": "整体森林浴场与栈道周边局部林区的范围需裁定。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 138,
+      "sample_id": "JYT_NOTE_003:992:993",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 992,
+        "end": 993,
+        "text": "这"
+      },
+      "context": "成一束束的光，真的是说不出的美\n\n森林浴场两边有步行栈道，栈道设立了提醒告示牌，因为气温低，栈道部分路段是有结冰的，走在上面一定要注意防滑。这一块的林木伟岸笔挺，让我更加了解了长春这座“森林之城”称号的底蕴。\n\n净月潭景区内接驳车的终点站就在高尔夫球场、湿地公园这，高尔夫球场早已被一层雪满满当当覆盖，旁边湿地公园同样也是",
+      "prediction": {
+        "start": 919,
+        "end": 921,
+        "text": "森林",
+        "entity_type": "place",
+        "source": "semantic_lexicon",
+        "gender": "unspecified",
+        "generic": true
+      },
+      "assistant_reference": "长春这座城市；同位指示限定",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 139,
+      "sample_id": "JYT_NOTE_003:1033:1034",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 1033,
+        "end": 1034,
+        "text": "这"
+      },
+      "context": "为气温低，栈道部分路段是有结冰的，走在上面一定要注意防滑。这一块的林木伟岸笔挺，让我更加了解了长春这座“森林之城”称号的底蕴。\n\n净月潭景区内接驳车的终点站就在高尔夫球场、湿地公园这，高尔夫球场早已被一层雪满满当当覆盖，旁边湿地公园同样也是被冰雪封住的美景。\n\n乘坐接驳车往回走的路上，我选择在水库大坝下车，在这里更加空旷",
+      "prediction": {
+        "start": 1029,
+        "end": 1033,
+        "text": "湿地公园",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "高尔夫球场与湿地公园所在的接驳车终点区域",
+      "verdict": "inconsistent",
+      "reason": "终点区域包含两处，预测只取了湿地公园。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 140,
+      "sample_id": "JYT_NOTE_003:1098:1100",
+      "doc_id": "JYT_NOTE_003",
+      "pronoun": {
+        "start": 1098,
+        "end": 1100,
+        "text": "这里"
+      },
+      "context": "净月潭景区内接驳车的终点站就在高尔夫球场、湿地公园这，高尔夫球场早已被一层雪满满当当覆盖，旁边湿地公园同样也是被冰雪封住的美景。\n\n乘坐接驳车往回走的路上，我选择在水库大坝下车，在这里更加空旷的地方，可以放飞我的无人机，好好感受净月潭的美。\n\n结冰的湖面拉起了安全线，禁止游客上冰面，同时我看到有不少工人在取冰作业，接驳车司",
+      "prediction": {
+        "start": 1090,
+        "end": 1094,
+        "text": "水库大坝",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "水库大坝及附近空旷区域",
+      "verdict": "consistent",
+      "reason": "结合预测所取原文位置，语义上可对应同一对象；可接受同一名称的截短或同一问题的概括。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 141,
+      "sample_id": "JYT_NOTE_005:197:198",
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 197,
+        "end": 198,
+        "text": "这"
+      },
+      "context": "森林覆盖率达到96%以上。净月潭因形似弯月状而得名。进入景区人不算多，基本上都是依靠景区车游览环湖景色，２０元景区车票，围绕十几个景点搭乘游客，可以随时停下，每十分钟有一班后来车，这为游客玩遍景点提供了极大的便利。我基本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场。这样",
+      "prediction": {
+        "start": 172,
+        "end": 174,
+        "text": "景点",
+        "entity_type": "object",
+        "source": "pos_noun"
+      },
+      "assistant_reference": "景区车可分站下车、约十分钟就有后续班车的游览安排",
+      "verdict": "inconsistent",
+      "reason": "预测没有覆盖助手初标描述的完整对象、事件或范围，或选中了语义类型不同的邻近词。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 142,
+      "sample_id": "JYT_NOTE_005:275:276",
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 275,
+        "end": 276,
+        "text": "那"
+      },
+      "context": "，每十分钟有一班后来车，这为游客玩遍景点提供了极大的便利。我基本上站站停，依次游玩了女神广场 月塔楼 水库大坝 森林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场。这样玩一点都不累。那天天气晴好，湖面半冰半水，栈道稍有残雪。起伏的群山绵延成纵横的山谷，将一潭形似弯月的碧水环绕其中。可以说阅尽了这个季节东北代表性的景色。",
+      "prediction": {
+        "start": 262,
+        "end": 265,
+        "text": "滑雪场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "作者游览净月潭的当天",
+      "verdict": "inconsistent",
+      "reason": "当天被误指成滑雪场。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    },
+    {
+      "number": 143,
+      "sample_id": "JYT_NOTE_005:331:333",
+      "doc_id": "JYT_NOTE_005",
+      "pronoun": {
+        "start": 331,
+        "end": 333,
+        "text": "这个"
+      },
+      "context": "森林浴场 湿地 瓦萨滑雪博物馆 东北虎园 滑雪场。这样玩一点都不累。那天天气晴好，湖面半冰半水，栈道稍有残雪。起伏的群山绵延成纵横的山谷，将一潭形似弯月的碧水环绕其中。可以说阅尽了这个季节东北代表性的景色。",
+      "prediction": {
+        "start": 262,
+        "end": 265,
+        "text": "滑雪场",
+        "entity_type": "place",
+        "source": "exp02_v2",
+        "generic": false,
+        "type_evidence": "exp02_v2"
+      },
+      "assistant_reference": "作者游览净月潭时的季节；从融雪景象推测是冬春交替，原文未给出精确季节",
+      "verdict": "inconsistent",
+      "reason": "季节被误指成滑雪场。",
+      "judged_by": "assistant",
+      "human_confirmed": false
+    }
+  ]
+}

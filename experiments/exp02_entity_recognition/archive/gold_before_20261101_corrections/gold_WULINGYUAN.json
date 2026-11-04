@@ -1,0 +1,262 @@
+{
+  "schema_version": "2",
+  "scenic_id": "WULINGYUAN",
+  "doc_scope": [
+    "ZJJ_OFF_001",
+    "ZJJ_NOTE_005"
+  ],
+  "granularity": "名称级：doc_id + entity_type + 表面形式，不区分同一名称的不同出现位置",
+  "annotated_by": "AI 助手依据原文初标，待组员复核签字",
+  "annotation_date": "2026-10-29",
+  "annotation_notes": [
+    "覆盖 1 篇官方路线 + 1 篇游记，未覆盖其余 8 篇。",
+    "“袁家界景区”“黄石寨景区”按核心地名计；“哈里路亚山原型”计“哈里路亚山”。",
+    "“东门门票站”“南门门票站”计为入口；“环保车”“百龙天梯”“天子山索道”计为交通方式。",
+    "“1.5-2小时”“2小时左右”“90分钟”“45分钟”“10分钟”计为时间节点。",
+    "“魅力湘西”是演出名，不计 POI；凤凰、长沙为跨城地点，不计。",
+    "“地质博物馆”“吴家峪”按游览节点计入。",
+    "2026-10-29 复核补标：“索道上凌空观景台黄石寨景区”中的“凌空观景台”是有专名的观景台，补入 POI。"
+  ],
+  "items": [
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "东门门票站"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "南门门票站"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "天子山"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "袁家界"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "十里画廊"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "贺龙公园"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "御笔峰"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "仙女献花"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "西海"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "天下第一桥"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "哈里路亚山"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "后花园"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "迷魂台"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "金鞭溪"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "黄石寨"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "六奇阁"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "手掌峰"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "摘星台"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "天桥遗墩"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "金鞭岩"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "紫草潭"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "千里相会"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "水绕四门"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "武陵源"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TRANSPORT",
+      "text": "环保车"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TRANSPORT",
+      "text": "天子山索道"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TRANSPORT",
+      "text": "索道"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TRANSPORT",
+      "text": "百龙天梯"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TRANSPORT",
+      "text": "徒步"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TIME",
+      "text": "1.5-2小时"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "TIME",
+      "text": "2小时"
+    },
+    {
+      "doc_id": "ZJJ_OFF_001",
+      "entity_type": "POI",
+      "text": "凌空观景台"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "天子山"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "杨家界"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "袁家界"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "金鞭溪"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "十里画廊"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "地质博物馆"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "武陵源"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "POI",
+      "text": "吴家峪"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "索道"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "环保车"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "小火车"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TRANSPORT",
+      "text": "步行"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "90分钟"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "45分钟"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_005",
+      "entity_type": "TIME",
+      "text": "10分钟"
+    }
+  ]
+}

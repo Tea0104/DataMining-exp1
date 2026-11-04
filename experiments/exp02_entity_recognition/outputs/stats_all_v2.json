@@ -5,16 +5,16 @@
       "name": "泰山",
       "docs": 10,
       "chars": 18928,
-      "mentions": 717,
+      "mentions": 746,
       "by_type": {
         "POI": 560,
         "TRANSPORT": 83,
-        "TIME": 74
+        "TIME": 103
       },
       "unique": {
         "POI": 95,
         "TRANSPORT": 11,
-        "TIME": 53
+        "TIME": 73
       },
       "chart": "entity_freq_TAISHAN_v2.png"
     },
@@ -22,16 +22,16 @@
       "name": "张家界武陵源",
       "docs": 10,
       "chars": 8393,
-      "mentions": 392,
+      "mentions": 453,
       "by_type": {
-        "POI": 257,
+        "POI": 261,
         "TRANSPORT": 82,
-        "TIME": 53
+        "TIME": 110
       },
       "unique": {
-        "POI": 41,
+        "POI": 44,
         "TRANSPORT": 14,
-        "TIME": 22
+        "TIME": 59
       },
       "chart": "entity_freq_WULINGYUAN_v2.png"
     },
@@ -39,16 +39,16 @@
       "name": "净月潭",
       "docs": 10,
       "chars": 8136,
-      "mentions": 225,
+      "mentions": 272,
       "by_type": {
-        "POI": 132,
-        "TRANSPORT": 71,
-        "TIME": 22
+        "POI": 151,
+        "TRANSPORT": 80,
+        "TIME": 41
       },
       "unique": {
-        "POI": 33,
-        "TRANSPORT": 9,
-        "TIME": 20
+        "POI": 41,
+        "TRANSPORT": 11,
+        "TIME": 34
       },
       "chart": "entity_freq_JINGYUETAN_v2.png"
     }
@@ -56,11 +56,11 @@
   "totals": {
     "docs": 30,
     "chars": 35457,
-    "mentions": 1334,
+    "mentions": 1471,
     "by_type": {
-      "POI": 949,
-      "TRANSPORT": 236,
-      "TIME": 149
+      "POI": 972,
+      "TRANSPORT": 245,
+      "TIME": 254
     }
   }
 }

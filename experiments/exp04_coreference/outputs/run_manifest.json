@@ -1,0 +1,34 @@
+{
+  "python_version": "3.14.3",
+  "jieba_version": "0.42.1",
+  "method": "jieba+rules; no model training, external LLM or experiment3 dependency",
+  "versions": [
+    "v1",
+    "v2",
+    "v3",
+    "v4"
+  ],
+  "documents": 5,
+  "pronoun_occurrences": 61,
+  "human_confirmed_items": 61,
+  "sha256": {
+    "experiments/exp04_coreference/src/assess_v4.py": "1acaa36087678a28d2fd441bcdbd9025dfb36806640fb11172c7359d78c3b9a7",
+    "experiments/exp04_coreference/src/common.py": "83eb20be35b1efee977098cd1439d8381a4c0f03f155a330c1ef6d501a73bced",
+    "experiments/exp04_coreference/src/context_rules.py": "2d12d2e1adc4aa37b3cc1be425aa816801060e7c010d6df64671a63f9878689b",
+    "experiments/exp04_coreference/src/detect.py": "55815876c98f8f5638961f14036ce428d5f199b5b519cb98d55d310ff46bc4c2",
+    "experiments/exp04_coreference/src/discourse.py": "fcba49484554b75822d85f6d624af31993718b6ae43b5b0fc918284acbee9b1b",
+    "experiments/exp04_coreference/src/evaluate.py": "e3b04d1eb1b19345be9ffff11ffa56d25bad0fe340be2d45f635fe688ae5378a",
+    "experiments/exp04_coreference/src/render_assistant_notes.py": "add226df824dd68ad60f63cf8b2fab3fbbeba193f17d8f69522b4cea6a25c55b",
+    "experiments/exp04_coreference/src/resolve.py": "462fa34902359de79a90e6fe4a943f710343d137722c5fb9631d6b418650a71d",
+    "experiments/exp04_coreference/src/review.py": "af6ef6494bee91a77970cb3adc6d793167e6e1ccdf565e838a7163a608af0433",
+    "experiments/exp04_coreference/src/run.py": "cb83d1886431e230d26a915faf15fb93b482a414168b31ab31de304feebf1f67",
+    "experiments/exp04_coreference/src/run_remaining.py": "567c98b1438cdf6fe4b36a0c4badc49971f01b11784cf254f90ae5749efca0cb",
+    "experiments/exp04_coreference/src/run_v4.py": "015167f2eded59dd3667332e3f63f9cbd1e1875c299c85c425517a2f8493e506",
+    "experiments/exp04_coreference/src/verify.py": "93f2b9af9dcf5a6d18e872ba320d65de5322649e83f70e7a1cc01e30e7437a07",
+    "experiments/exp04_coreference/annotations/gold_draft.json": "daad1d9aac247a0c22fde44fb5a7a61656da8f2296a98f55012200a7958df7da",
+    "experiments/exp02_entity_recognition/outputs/entities_JINGYUETAN_v2.json": "2eeb05a5d153ecd9b0f45e08657b30080c7145686b6ef7fe67fb0ba0bc7c44d8",
+    "experiments/exp02_entity_recognition/outputs/entities_TAISHAN_v2.json": "8e107906e96987fcc0f15efb571e8c42448511ead39778a5bd29e79d708410fe",
+    "experiments/exp02_entity_recognition/outputs/entities_WULINGYUAN_v2.json": "5331886b1c7fd3c28fa1bd4cb90fd639a85b5f0a4716934d0d42b5b5fc684bd8"
+  },
+  "validation": "all available versions passed complete output validation"
+}

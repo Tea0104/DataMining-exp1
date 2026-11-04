@@ -1,0 +1,37 @@
+{
+  "version": "v4",
+  "date": "2026-11-02",
+  "preservation_checks": {
+    "human_gold_unchanged": true,
+    "assistant_reference_unchanged": true,
+    "v3_remaining_predictions_unchanged": true,
+    "v1_predictions_unchanged": true,
+    "v2_predictions_unchanged": true
+  },
+  "test_result": "47 tests passed; includes 21 novel synthetic v4 cases; not a held-out real-world evaluation",
+  "reproduction": "src/run_v4.py completed and hash-bound assistant judgments matched regenerated predictions",
+  "scope": "5 user-reviewed documents + 25 assistant-reference documents; 204 detected candidates",
+  "metrics_file": "outputs/v4_results.json",
+  "human_accuracy": 1.0,
+  "remaining25_assistant_agreement": 0.9230769230769231,
+  "mixed_reference_summary": 0.946078431372549,
+  "formal_report_written": false,
+  "sha256": {
+    "annotations/gold_draft.json": "daad1d9aac247a0c22fde44fb5a7a61656da8f2296a98f55012200a7958df7da",
+    "annotations/remaining25_assistant_draft.json": "bff8402513a35cea266e9a336efa37bd5cfdf3c33be9db71d5439531c7252247",
+    "annotations/remaining25_v4_assessment.json": "bae133ef94975ad9995f4338258202303ea4d9733fb913fe643ba22a837dcbb6",
+    "src/assess_v4.py": "1acaa36087678a28d2fd441bcdbd9025dfb36806640fb11172c7359d78c3b9a7",
+    "src/common.py": "83eb20be35b1efee977098cd1439d8381a4c0f03f155a330c1ef6d501a73bced",
+    "src/context_rules.py": "2d12d2e1adc4aa37b3cc1be425aa816801060e7c010d6df64671a63f9878689b",
+    "src/detect.py": "55815876c98f8f5638961f14036ce428d5f199b5b519cb98d55d310ff46bc4c2",
+    "src/discourse.py": "fcba49484554b75822d85f6d624af31993718b6ae43b5b0fc918284acbee9b1b",
+    "src/evaluate.py": "e3b04d1eb1b19345be9ffff11ffa56d25bad0fe340be2d45f635fe688ae5378a",
+    "src/render_assistant_notes.py": "add226df824dd68ad60f63cf8b2fab3fbbeba193f17d8f69522b4cea6a25c55b",
+    "src/resolve.py": "462fa34902359de79a90e6fe4a943f710343d137722c5fb9631d6b418650a71d",
+    "src/review.py": "50a58095fea4c01e9d1400c1d17141ded65c5caf0d9ba189d833f742631e5d25",
+    "src/run.py": "cb83d1886431e230d26a915faf15fb93b482a414168b31ab31de304feebf1f67",
+    "src/run_remaining.py": "567c98b1438cdf6fe4b36a0c4badc49971f01b11784cf254f90ae5749efca0cb",
+    "src/run_v4.py": "5a611b00014387a25732efac38b72d769daedca086bed1dc09761a84189393d8",
+    "src/verify.py": "93f2b9af9dcf5a6d18e872ba320d65de5322649e83f70e7a1cc01e30e7437a07"
+  }
+}

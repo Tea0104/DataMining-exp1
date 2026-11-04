@@ -1,0 +1,21 @@
+{
+  "record_date": "2026-11-02",
+  "purpose": "实验二侧栏工作交接，仅记录文件快照；不修改算法或重新运行实验。",
+  "files_sha256": {
+    "src/recognize_v3.py": "c154c0817f7e042c52ef84d8cd16ddf4d1f45126f5427bd4cb399297cd58f80e",
+    "src/evaluate_remaining25.py": "80c9224b07dc354517aa04719bd4f511f21bfa1b35e394513159e6100c4c3463",
+    "src/build_remaining25_gold.py": "f099ff51db28f7d31559bbbf434eacfe49794f59861768d33e9b723f54cdcd81",
+    "tests/test_v3.py": "44a8aed33e521c4c584f9bf37ab1e2f369e6a0d8b142b93527a172a55331a2a4",
+    "annotations/remaining25_labels.json": "52ff588dbea0af40ddbf37dca66cbc6e6c0d24feef08eb8e5d106f13d50a63e5",
+    "outputs/gold_remaining25.json": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85",
+    "outputs/gold_remaining25_manifest.json": "187e6ffda8dbd700d0ded9b94a0192f97b9e9a561c38ff608834dd9224553ec5",
+    "outputs/evaluation_v3_remaining25.json": "668b0e0160886f538b851ecebc361812487ec016f889b55ae5b480e7c300450f",
+    "outputs/evaluation_v3_sample5.json": "78b4beb4b2b90028261b2adaf493bdc46f925b7c5d3eee3fbb5e930371e75db4",
+    "outputs/v3_improvement.json": "1391ea83bb75a921b7879a8f13980b4c04fb8172cb94eabbf01f999af61951cc",
+    "outputs/stats_all_v3.json": "79e34671b49299596373808d0d72e839f645b81f152dc688707d0013f5d4ed5f",
+    "HANDOFF.md": "ac12aa142fbc1a23fb019e3bb8633c9fa906d08f5cdbaef9c02c4461dd38012e",
+    "outputs/entities_TAISHAN_v3.json": "7801cb12870b4af0be99a6d257602eadd19c31255e589ee029cf09945fb097b0",
+    "outputs/entities_WULINGYUAN_v3.json": "b6020f6eb727d5cca851b58f2bbe399995c94234b7e49210784fded65c5c5b1b",
+    "outputs/entities_JINGYUETAN_v3.json": "9199b28e64d3a2683fabe05c5daf0c7262d1effd91c485597f23d1aced67dbca"
+  }
+}
