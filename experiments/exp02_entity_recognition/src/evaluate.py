@@ -22,6 +22,7 @@ from pathlib import Path
 
 SRC = Path(__file__).resolve().parent
 OUTPUTS = SRC.parent / 'outputs'
+VERSIONS = ('v1', 'v2', 'v3', 'v4', 'v5', 'v6', 'v7')
 TYPES = ('POI', 'TRANSPORT', 'TIME')
 TYPE_CN = {'POI': '景点POI', 'TRANSPORT': '交通方式', 'TIME': '时间节点'}
 
@@ -84,7 +85,7 @@ def evaluate(version, scenic, gold_path, outputs=OUTPUTS):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description='实验二：名称级评估（按景区）')
-    parser.add_argument('--version', choices=['v1', 'v2'], default='v2')
+    parser.add_argument('--version', choices=VERSIONS, default='v2')
     parser.add_argument('--scenic', nargs='*', default=None,
                         help='默认取 outputs 下所有 entities_<景区>_<版本>.json')
     parser.add_argument('--gold', type=Path, default=None,
@@ -154,7 +155,7 @@ def main(argv=None):
     write_json(args.outputs / f'evaluation_{args.version}.json', payload)
     write_json(args.outputs / 'evaluation.json', {
         'evaluation_level': 'document_type_surface_name',
-        'versions': {v: f'evaluation_{v}.json' for v in ('v1', 'v2')
+        'versions': {v: f'evaluation_{v}.json' for v in VERSIONS
                      if (args.outputs / f'evaluation_{v}.json').exists()}})
 
     header = f"{'景区':<14}{'类型':<10}{'P':>8}{'R':>8}{'F1':>8}{'TP':>6}{'FP':>6}{'FN':>6}"

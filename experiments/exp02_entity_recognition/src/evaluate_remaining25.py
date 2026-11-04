@@ -4,7 +4,7 @@ import hashlib
 from collections import Counter
 from pathlib import Path
 
-from evaluate import OUTPUTS, TYPES, evaluate, gold_set, load_json, pred_set, prf
+from evaluate import OUTPUTS, TYPES, VERSIONS, evaluate, gold_set, load_json, pred_set, prf
 
 ROOT = Path(__file__).resolve().parents[3]
 
@@ -15,7 +15,7 @@ def digest(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=('v1', 'v2', 'v3', 'v4', 'v5'), default='v2')
+    parser.add_argument('--version', choices=VERSIONS, default='v2')
     args = parser.parse_args()
     source = ROOT / 'data/processed/full/selected_v2/dataset.json'
     records = {r['doc_id']: r for r in load_json(source)}
@@ -88,7 +88,9 @@ def main():
             '召回率为 TP/(TP+FN)，不是处理篇数覆盖率，也不是每次实体出现边界的准确率。',
             ({'v3': 'v3规则参考本批漏识类型开发，因此这是开发集上的迭代比较，非独立测试。',
               'v4': '新增规则按通用句式设计，用虚构景区检查。本批汇总指标用于比较取舍，未按具体漏识名称调整规则。v4复用v3和原词典，当前语料仍属于开发集。',
-              'v5': 'v5根据当前语料的漏识类型设计通用规则，同批结果用于开发对照。'}
+              'v5': 'v5根据当前语料的漏识类型设计通用规则，同批结果用于开发对照。',
+              'v6': 'v6用明确的地点语境、题名与时间表达补充v5，同批结果用于开发对照。',
+              'v7': 'v7用题刻、路线角色、景点名列举与全称边界补充v6，同批结果用于开发对照。'}
              .get(args.version, 'v1/v2为修订前冻结基线；评价不改变抽取规则或词典。'))],
     }
     from build_remaining25_gold import write

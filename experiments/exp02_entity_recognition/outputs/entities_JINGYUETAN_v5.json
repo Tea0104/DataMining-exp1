@@ -1006,19 +1006,6 @@
   {
     "doc_id": "JYT_NOTE_001",
     "scenic_id": "JINGYUETAN",
-    "entity_type": "POI",
-    "text": "雪山",
-    "subtype": "heading",
-    "method": "v5_heading",
-    "start": 10,
-    "end": 12,
-    "sentence_id": 1,
-    "granularity": "specific",
-    "canonical": "雪山"
-  },
-  {
-    "doc_id": "JYT_NOTE_001",
-    "scenic_id": "JINGYUETAN",
     "text": "秋季",
     "entity_type": "TIME",
     "subtype": "period",
@@ -1196,7 +1183,7 @@
     "sentence_id": 6,
     "method": "v3_topic_facility",
     "granularity": "specific",
-    "canonical": "净月潭公园站"
+    "canonical": "净月潭公园"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1482,7 +1469,7 @@
     "sentence_id": 30,
     "method": "v3_route_node",
     "granularity": "specific",
-    "canonical": "坝西站"
+    "canonical": "坝西"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -1639,7 +1626,7 @@
     "sentence_id": 30,
     "method": "v3_route_node",
     "granularity": "specific",
-    "canonical": "一棵树站"
+    "canonical": "一棵树"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -2199,7 +2186,7 @@
     "sentence_id": 65,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "望潭广场站"
+    "canonical": "望潭广场"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -2895,7 +2882,7 @@
     "sentence_id": 134,
     "method": "v3_topic_facility",
     "granularity": "specific",
-    "canonical": "净月潭公园站"
+    "canonical": "净月潭公园"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -2921,7 +2908,7 @@
     "sentence_id": 135,
     "method": "v3_topic_facility",
     "granularity": "specific",
-    "canonical": "净月潭公园站"
+    "canonical": "净月潭公园"
   },
   {
     "doc_id": "JYT_NOTE_001",
@@ -3142,7 +3129,7 @@
     "sentence_id": 9,
     "method": "v3_pos_compound",
     "granularity": "specific",
-    "canonical": "森林浴站"
+    "canonical": "森林浴"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -3181,7 +3168,7 @@
     "sentence_id": 10,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "观潭山站"
+    "canonical": "观潭山"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -3194,7 +3181,7 @@
     "sentence_id": 10,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "观潭山站"
+    "canonical": "观潭山"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -3233,7 +3220,7 @@
     "sentence_id": 10,
     "method": "v3_pos_compound",
     "granularity": "specific",
-    "canonical": "西坝站"
+    "canonical": "西坝"
   },
   {
     "doc_id": "JYT_NOTE_002",
@@ -3652,7 +3639,7 @@
     "sentence_id": 8,
     "method": "v3_pos_compound",
     "granularity": "specific",
-    "canonical": "净月潭站"
+    "canonical": "净月潭"
   },
   {
     "doc_id": "JYT_NOTE_003",
@@ -4407,19 +4394,6 @@
     "method": "regex_duration",
     "granularity": "specific",
     "canonical": "十分钟"
-  },
-  {
-    "doc_id": "JYT_NOTE_005",
-    "scenic_id": "JINGYUETAN",
-    "text": "基本上站",
-    "entity_type": "POI",
-    "subtype": "facility",
-    "start": 215,
-    "end": 219,
-    "sentence_id": 6,
-    "method": "v3_pos_compound",
-    "granularity": "specific",
-    "canonical": "基本上站"
   },
   {
     "doc_id": "JYT_NOTE_005",

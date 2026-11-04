@@ -2,6 +2,9 @@
   "evaluation_level": "document_type_surface_name",
   "versions": {
     "v1": "evaluation_v1.json",
-    "v2": "evaluation_v2.json"
+    "v2": "evaluation_v2.json",
+    "v5": "evaluation_v5.json",
+    "v6": "evaluation_v6.json",
+    "v7": "evaluation_v7.json"
   }
 }

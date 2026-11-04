@@ -6,23 +6,23 @@
   "annotation_status": "assistant_only_not_human_reviewed",
   "gold_items": 882,
   "prediction_names": 809,
-  "prediction_mentions": 1511,
+  "prediction_mentions": 1508,
   "overall": {
-    "tp": 783,
-    "fp": 26,
-    "fn": 99,
-    "precision": 0.9679,
-    "recall": 0.8878,
-    "f1": 0.9261
+    "tp": 786,
+    "fp": 23,
+    "fn": 96,
+    "precision": 0.9716,
+    "recall": 0.8912,
+    "f1": 0.9296
   },
   "by_type": {
     "POI": {
-      "tp": 422,
-      "fp": 22,
-      "fn": 88,
-      "precision": 0.9505,
-      "recall": 0.8275,
-      "f1": 0.8847
+      "tp": 424,
+      "fp": 19,
+      "fn": 86,
+      "precision": 0.9571,
+      "recall": 0.8314,
+      "f1": 0.8898
     },
     "TRANSPORT": {
       "tp": 113,
@@ -33,12 +33,12 @@
       "f1": 0.9826
     },
     "TIME": {
-      "tp": 248,
+      "tp": 249,
       "fp": 0,
-      "fn": 11,
+      "fn": 10,
       "precision": 1.0,
-      "recall": 0.9575,
-      "f1": 0.9783
+      "recall": 0.9614,
+      "f1": 0.9803
     }
   },
   "by_scenic": [
@@ -61,26 +61,25 @@
       "gold_items": 466,
       "gold_file": "gold_remaining25_TAISHAN.json",
       "overall": {
-        "tp": 403,
-        "fp": 12,
-        "fn": 63,
-        "precision": 0.9711,
-        "recall": 0.8648,
-        "f1": 0.9149
+        "tp": 404,
+        "fp": 11,
+        "fn": 62,
+        "precision": 0.9735,
+        "recall": 0.867,
+        "f1": 0.9171
       },
       "by_type": {
         "POI": {
           "tp": 251,
-          "fp": 11,
+          "fp": 10,
           "fn": 59,
-          "precision": 0.958,
+          "precision": 0.9617,
           "recall": 0.8097,
-          "f1": 0.8776,
+          "f1": 0.8792,
           "false_positive": [
             "东西御碑亭",
             "东配殿",
             "公交站",
-            "华山松",
             "夜爬泰山",
             "大美泰山",
             "嵩山",
@@ -164,15 +163,14 @@
           "false_negative": []
         },
         "TIME": {
-          "tp": 112,
+          "tp": 113,
           "fp": 0,
-          "fn": 4,
+          "fn": 3,
           "precision": 1.0,
-          "recall": 0.9655,
-          "f1": 0.9825,
+          "recall": 0.9741,
+          "f1": 0.9869,
           "false_positive": [],
           "false_negative": [
-            "4个多小时",
             "九月底",
             "六日",
             "盛夏"
@@ -235,11 +233,6 @@
             "doc_id": "TS_OFF_005",
             "entity_type": "POI",
             "text": "东配殿"
-          },
-          {
-            "doc_id": "TS_OFF_005",
-            "entity_type": "POI",
-            "text": "华山松"
           }
         ],
         "gold_only": [
@@ -282,11 +275,6 @@
             "doc_id": "TS_NOTE_001",
             "entity_type": "POI",
             "text": "风月无边"
-          },
-          {
-            "doc_id": "TS_NOTE_001",
-            "entity_type": "TIME",
-            "text": "4个多小时"
           },
           {
             "doc_id": "TS_NOTE_002",
@@ -574,31 +562,30 @@
         "ZJJ_OFF_004",
         "ZJJ_OFF_005"
       ],
-      "prediction_names_in_scope": 227,
-      "prediction_mentions_in_scope": 406,
+      "prediction_names_in_scope": 228,
+      "prediction_mentions_in_scope": 404,
       "gold_items": 244,
       "gold_file": "gold_remaining25_WULINGYUAN.json",
       "overall": {
-        "tp": 219,
-        "fp": 8,
-        "fn": 25,
-        "precision": 0.9648,
-        "recall": 0.8975,
-        "f1": 0.9299
+        "tp": 221,
+        "fp": 7,
+        "fn": 23,
+        "precision": 0.9693,
+        "recall": 0.9057,
+        "f1": 0.9364
       },
       "by_type": {
         "POI": {
-          "tp": 95,
-          "fp": 5,
-          "fn": 18,
-          "precision": 0.95,
-          "recall": 0.8407,
-          "f1": 0.892,
+          "tp": 97,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.9604,
+          "recall": 0.8584,
+          "f1": 0.9065,
           "false_positive": [
             "大峡谷",
             "峰墙",
-            "武陵源",
-            "武陵源",
+            "武陵山珍馆站",
             "珍馆站"
           ],
           "false_negative": [
@@ -610,8 +597,6 @@
             "大峡谷景区",
             "夫妻抱子",
             "张家界世界地质公园",
-            "武陵源城区",
-            "武陵源城区",
             "武陵源景区",
             "武陵源西门",
             "溪布街",
@@ -630,7 +615,7 @@
           "recall": 1.0,
           "f1": 0.963,
           "false_positive": [
-            "汽车",
+            "17路车",
             "漫步",
             "电梯"
           ],
@@ -660,12 +645,17 @@
           {
             "doc_id": "ZJJ_NOTE_001",
             "entity_type": "POI",
+            "text": "武陵山珍馆站"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_001",
+            "entity_type": "POI",
             "text": "珍馆站"
           },
           {
             "doc_id": "ZJJ_NOTE_001",
             "entity_type": "TRANSPORT",
-            "text": "汽车"
+            "text": "17路车"
           },
           {
             "doc_id": "ZJJ_NOTE_001",
@@ -683,19 +673,9 @@
             "text": "漫步"
           },
           {
-            "doc_id": "ZJJ_OFF_004",
-            "entity_type": "POI",
-            "text": "武陵源"
-          },
-          {
             "doc_id": "ZJJ_OFF_005",
             "entity_type": "POI",
             "text": "峰墙"
-          },
-          {
-            "doc_id": "ZJJ_OFF_005",
-            "entity_type": "POI",
-            "text": "武陵源"
           }
         ],
         "gold_only": [
@@ -810,19 +790,9 @@
             "text": "仙女散花"
           },
           {
-            "doc_id": "ZJJ_OFF_004",
-            "entity_type": "POI",
-            "text": "武陵源城区"
-          },
-          {
             "doc_id": "ZJJ_OFF_005",
             "entity_type": "POI",
             "text": "张家界世界地质公园"
-          },
-          {
-            "doc_id": "ZJJ_OFF_005",
-            "entity_type": "POI",
-            "text": "武陵源城区"
           }
         ]
       }
@@ -840,32 +810,31 @@
         "JYT_OFF_004",
         "JYT_OFF_005"
       ],
-      "prediction_names_in_scope": 167,
-      "prediction_mentions_in_scope": 307,
+      "prediction_names_in_scope": 166,
+      "prediction_mentions_in_scope": 306,
       "gold_items": 172,
       "gold_file": "gold_remaining25_JINGYUETAN.json",
       "overall": {
         "tp": 161,
-        "fp": 6,
+        "fp": 5,
         "fn": 11,
-        "precision": 0.9641,
+        "precision": 0.9699,
         "recall": 0.936,
-        "f1": 0.9499
+        "f1": 0.9527
       },
       "by_type": {
         "POI": {
           "tp": 76,
-          "fp": 6,
+          "fp": 5,
           "fn": 11,
-          "precision": 0.9268,
+          "precision": 0.9383,
           "recall": 0.8736,
-          "f1": 0.8994,
+          "f1": 0.9048,
           "false_positive": [
             "望潭广场站",
             "湿地",
             "逯家湾",
             "长春净月潭",
-            "雪山",
             "黑松"
           ],
           "false_negative": [
@@ -919,11 +888,6 @@
             "doc_id": "JYT_NOTE_001",
             "entity_type": "POI",
             "text": "逯家湾"
-          },
-          {
-            "doc_id": "JYT_NOTE_001",
-            "entity_type": "POI",
-            "text": "雪山"
           },
           {
             "doc_id": "JYT_NOTE_001",
@@ -1031,11 +995,11 @@
       "doc_id": "TS_OFF_005",
       "scenic_id": "TAISHAN",
       "tp": 36,
-      "fp": 2,
+      "fp": 1,
       "fn": 14,
-      "precision": 0.9474,
+      "precision": 0.973,
       "recall": 0.72,
-      "f1": 0.8182
+      "f1": 0.8276
     },
     {
       "doc_id": "ZJJ_OFF_002",
@@ -1060,22 +1024,22 @@
     {
       "doc_id": "ZJJ_OFF_004",
       "scenic_id": "WULINGYUAN",
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
       "tp": 13,
       "fp": 1,
       "fn": 1,
       "precision": 0.9286,
       "recall": 0.9286,
       "f1": 0.9286
-    },
-    {
-      "doc_id": "ZJJ_OFF_005",
-      "scenic_id": "WULINGYUAN",
-      "tp": 12,
-      "fp": 2,
-      "fn": 2,
-      "precision": 0.8571,
-      "recall": 0.8571,
-      "f1": 0.8571
     },
     {
       "doc_id": "JYT_OFF_001",
@@ -1120,12 +1084,12 @@
     {
       "doc_id": "TS_NOTE_001",
       "scenic_id": "TAISHAN",
-      "tp": 86,
+      "tp": 87,
       "fp": 2,
-      "fn": 9,
-      "precision": 0.9773,
-      "recall": 0.9053,
-      "f1": 0.9399
+      "fn": 8,
+      "precision": 0.9775,
+      "recall": 0.9158,
+      "f1": 0.9457
     },
     {
       "doc_id": "TS_NOTE_002",
@@ -1171,11 +1135,11 @@
       "doc_id": "ZJJ_NOTE_001",
       "scenic_id": "WULINGYUAN",
       "tp": 77,
-      "fp": 3,
+      "fp": 4,
       "fn": 1,
-      "precision": 0.9625,
+      "precision": 0.9506,
       "recall": 0.9872,
-      "f1": 0.9747
+      "f1": 0.9686
     },
     {
       "doc_id": "ZJJ_NOTE_002",
@@ -1211,11 +1175,11 @@
       "doc_id": "JYT_NOTE_001",
       "scenic_id": "JINGYUETAN",
       "tp": 59,
-      "fp": 5,
+      "fp": 4,
       "fn": 7,
-      "precision": 0.9219,
+      "precision": 0.9365,
       "recall": 0.8939,
-      "f1": 0.9077
+      "f1": 0.9147
     },
     {
       "doc_id": "JYT_NOTE_002",
@@ -1400,14 +1364,6 @@
       "start": 1053,
       "end": 1057,
       "context": "，登山速度变慢。\n\n上山的多，下山的少。\n\n泰山有名的石刻，被解读为“风月无边”。\n\n斗母宫始建于明万历年间，是泰山上现存唯一的佛教寺院建筑。\n\n卧"
-    },
-    {
-      "doc_id": "TS_NOTE_001",
-      "entity_type": "TIME",
-      "text": "4个多小时",
-      "start": 1731,
-      "end": 1736,
-      "context": "了\n\n爬上去就是中天门\n\n12点15分到达中天门\n\n从红门到中天门走了4个多小时，超出我们的预估时间，按我们爬山的速度，再爬十八盘最少要用3个小时，到"
     },
     {
       "doc_id": "TS_NOTE_002",
@@ -2018,28 +1974,12 @@
       "context": "直升绝壁之巅的凌空之感；登顶后驻足贺龙公园，俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石拱南天门缓缓而下。此路线兼具平缓漫游闲适感与登"
     },
     {
-      "doc_id": "ZJJ_OFF_004",
-      "entity_type": "POI",
-      "text": "武陵源城区",
-      "start": 28,
-      "end": 33,
-      "context": "游览时间建议：一日\n\n住宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点建议：大氧吧广场\n\n此线路串联黄石寨、金鞭溪与十里画廊，形"
-    },
-    {
       "doc_id": "ZJJ_OFF_005",
       "entity_type": "POI",
       "text": "张家界世界地质公园",
       "start": 46,
       "end": 55,
       "context": "住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公园经典游览路线之一，串联袁家界、杨家界、天子山三大核心区域，形成一条完整"
-    },
-    {
-      "doc_id": "ZJJ_OFF_005",
-      "entity_type": "POI",
-      "text": "武陵源城区",
-      "start": 16,
-      "end": 21,
-      "context": "游览时间建议：一日\n\n住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公园经"
     }
   ],
   "predicted_only": [
@@ -2066,14 +2006,6 @@
       "start": 467,
       "end": 470,
       "context": "八事变”后东北沦陷，日本为建立伪政权并定都长春，在长春东南 36 里的逯家湾（今净月潭一带）的天然地形修建贮水池，形成水域面积达 5.3 平方公里"
-    },
-    {
-      "doc_id": "JYT_NOTE_001",
-      "entity_type": "POI",
-      "text": "雪山",
-      "start": 10,
-      "end": 12,
-      "context": "净月潭公园以“林海、雪山、碧水、蓝天”著称，被誉为“东北明珠”。\n\n秋季，是净月潭最美的季节之"
     },
     {
       "doc_id": "JYT_NOTE_001",
@@ -2180,12 +2112,12 @@
       "context": "，东舍为万松亭，后改为弥勒殿。沿石级而上，进“透天门”为东院，由正殿、东配殿、圣母寝宫楼组成。正殿祀天官、地官、水官，正殿西是圣母寝宫楼，该楼分三"
     },
     {
-      "doc_id": "TS_OFF_005",
+      "doc_id": "ZJJ_NOTE_001",
       "entity_type": "POI",
-      "text": "华山松",
-      "start": 420,
-      "end": 423,
-      "context": "有到这儿来，才能领略到山林野趣的真谛。这条游览路所经过的大部区域覆盖着华山松，即便在冬季也是一派葱郁的绿色，充满生命的张力，令人昂扬振奋。尤其是接"
+      "text": "武陵山珍馆站",
+      "start": 93,
+      "end": 99,
+      "context": "界西出站口出来，右手边看到客运站再往前走个50米，公交总站乘17路车到武陵山珍馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒店，市区不大打"
     },
     {
       "doc_id": "ZJJ_NOTE_001",
@@ -2198,10 +2130,10 @@
     {
       "doc_id": "ZJJ_NOTE_001",
       "entity_type": "TRANSPORT",
-      "text": "汽车",
-      "start": 468,
-      "end": 470,
-      "context": "早上酒店对面车站乘坐去武陵源的蓝色专线大巴车，6：00第一班车从市中心汽车站发出，5分钟就能到酒店对面，10分钟一班，票价13元上车扫码。早上退"
+      "text": "17路车",
+      "start": 88,
+      "end": 92,
+      "context": "受，从张家界西出站口出来，右手边看到客运站再往前走个50米，公交总站乘17路车到武陵山珍馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒"
     },
     {
       "doc_id": "ZJJ_NOTE_001",
@@ -2228,35 +2160,19 @@
       "context": "阿凡达》悬浮山原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，尽享峡谷清溪与原始森林的静谧与清凉。"
     },
     {
-      "doc_id": "ZJJ_OFF_004",
-      "entity_type": "POI",
-      "text": "武陵源",
-      "start": 28,
-      "end": 31,
-      "context": "游览时间建议：一日\n\n住宿建议：南门（森林公园门票站）/武陵源城区\n\n午餐地点建议：大氧吧广场\n\n此线路串联黄石寨、金鞭溪与十里画廊"
-    },
-    {
       "doc_id": "ZJJ_OFF_005",
       "entity_type": "POI",
       "text": "峰墙",
       "start": 131,
       "end": 133,
       "context": "线。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、西海峰林壮阔全景。步道与绝壁栈道交错，云海变幻"
-    },
-    {
-      "doc_id": "ZJJ_OFF_005",
-      "entity_type": "POI",
-      "text": "武陵源",
-      "start": 16,
-      "end": 19,
-      "context": "游览时间建议：一日\n\n住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公"
     }
   ],
   "reference_sha256": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85",
   "prediction_files_sha256": {
-    "entities_TAISHAN_v5.json": "7ea721d6851d1199506066c3a316ff14b1df656192bc962e15005eb71f51d034",
-    "entities_WULINGYUAN_v5.json": "fd6abfd25e71c99d759160c39fc762ea32ea12cbd16b3ad2b9c2a2d6e7020984",
-    "entities_JINGYUETAN_v5.json": "518985fdd4dfd60988d8588ac6af0b3aa493773d6c62e4f5e3555e1d7b3c98b1"
+    "entities_TAISHAN_v5.json": "48b48248bcef78fdee8588f8520c16e36612dec61b3bd586d6fa5b33baa87cb5",
+    "entities_WULINGYUAN_v5.json": "07661850f40a0b08f2701230b8b4179b83a2adb5372a0e9c4a4ac5bbdef89c53",
+    "entities_JINGYUETAN_v5.json": "1963cead859d8238b16de9572c0df58923b83afec2eb0da245cc605d9dd932de"
   },
   "limitations": [
     "参考金标为助手逐篇阅读原文标注，按用户要求不经人工复核；可能存在遗漏和判断偏差。",

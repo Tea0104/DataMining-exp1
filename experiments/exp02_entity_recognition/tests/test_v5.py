@@ -19,8 +19,12 @@ class PoiRecoveryTests(unittest.TestCase):
             'boundary': '参观流云石刻，之后乘轻轨7号线，休息四十多分钟。',
             'inscription': '石碑“潮回十里”。',
             'negative': '到达酒店后休整；游览方式：公路乘车上山。景色就像一幅画。',
+            'station': '从市中心汽车站乘17路车到云溪竹馆站下车。之后走了四个多小时。',
+            'scenery': '附近山谷以“林海、雪山、碧水”闻名，山坡上覆盖着苍柏。接着到达云岫气象站。',
         }
-        groups = base.build_lexicon({'scenics': {'NEW': {'poi': {'流云石': 'landmark'}}}}, 'NEW')
+        groups = base.build_lexicon({'scenics': {'NEW': {'poi': {
+            '流云石': 'landmark', '苍柏': 'landmark', '云岫气象站': 'facility',
+        }}}}, 'NEW')
         stop = base.build_stopwords({}, 'NEW')
         records = [{'doc_id': doc, 'clean_text': text} for doc, text in cls.examples.items()]
         cls.before, _ = v3.extract(records, groups, stop, 'NEW')
@@ -41,8 +45,8 @@ class PoiRecoveryTests(unittest.TestCase):
     def test_boundary_and_other_types(self):
         self.assertIn('流云石刻', self.names('boundary'))
         self.assertNotIn('流云石', self.names('boundary'))
-        self.assertEqual([e for e in self.before if e['entity_type'] != 'POI'],
-                         [e for e in self.after if e['entity_type'] != 'POI'])
+        self.assertEqual([e for e in self.before if e['doc_id'] == 'boundary' and e['entity_type'] != 'POI'],
+                         [e for e in self.after if e['doc_id'] == 'boundary' and e['entity_type'] != 'POI'])
         self.assertFalse(any(e['doc_id'] == 'negative' and e['method'].startswith('v5_')
                              for e in self.after))
         ends = {}
@@ -51,3 +55,16 @@ class PoiRecoveryTests(unittest.TestCase):
             self.assertEqual(self.examples[doc][start:end], entity['text'])
             self.assertLessEqual(ends.get(doc, 0), start)
             ends[doc] = end
+
+    def test_station_names_and_transport_fragments(self):
+        entities = {(e['entity_type'], e['text']): e['canonical']
+                    for e in self.after if e['doc_id'] == 'station'}
+        self.assertEqual(entities['POI', '云溪竹馆站'], '云溪竹馆')
+        self.assertIn(('TRANSPORT', '17路车'), entities)
+        self.assertNotIn(('TRANSPORT', '汽车'), entities)
+        self.assertIn(('TIME', '四个多小时'), entities)
+
+    def test_vegetation_and_non_transit_station(self):
+        self.assertFalse({'雪山', '苍柏'} & self.names('scenery'))
+        station = next(e for e in self.after if e['doc_id'] == 'scenery' and e['text'] == '云岫气象站')
+        self.assertEqual(station['canonical'], '云岫气象站')

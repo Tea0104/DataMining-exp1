@@ -1,0 +1,1498 @@
+{
+  "version": "v7",
+  "evaluation_scope": "remaining25",
+  "documents": 25,
+  "evaluation_level": "document_type_surface_name",
+  "annotation_status": "assistant_only_not_human_reviewed",
+  "gold_items": 882,
+  "prediction_names": 860,
+  "prediction_mentions": 1561,
+  "overall": {
+    "tp": 836,
+    "fp": 24,
+    "fn": 46,
+    "precision": 0.9721,
+    "recall": 0.9478,
+    "f1": 0.9598
+  },
+  "by_type": {
+    "POI": {
+      "tp": 467,
+      "fp": 20,
+      "fn": 43,
+      "precision": 0.9589,
+      "recall": 0.9157,
+      "f1": 0.9368
+    },
+    "TRANSPORT": {
+      "tp": 113,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.9658,
+      "recall": 1.0,
+      "f1": 0.9826
+    },
+    "TIME": {
+      "tp": 256,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.9884,
+      "f1": 0.9942
+    }
+  },
+  "by_scenic": [
+    {
+      "version": "v7",
+      "scenic_id": "TAISHAN",
+      "doc_scope": [
+        "TS_NOTE_001",
+        "TS_NOTE_002",
+        "TS_NOTE_003",
+        "TS_NOTE_004",
+        "TS_NOTE_005",
+        "TS_OFF_002",
+        "TS_OFF_003",
+        "TS_OFF_004",
+        "TS_OFF_005"
+      ],
+      "prediction_names_in_scope": 449,
+      "prediction_mentions_in_scope": 831,
+      "gold_items": 466,
+      "gold_file": "gold_remaining25_TAISHAN.json",
+      "overall": {
+        "tp": 437,
+        "fp": 12,
+        "fn": 29,
+        "precision": 0.9733,
+        "recall": 0.9378,
+        "f1": 0.9552
+      },
+      "by_type": {
+        "POI": {
+          "tp": 282,
+          "fp": 11,
+          "fn": 28,
+          "precision": 0.9625,
+          "recall": 0.9097,
+          "f1": 0.9353,
+          "false_positive": [
+            "东西御碑亭",
+            "东配殿",
+            "公交站",
+            "夜爬泰山",
+            "大美泰山",
+            "嵩山",
+            "府口岭",
+            "戏台",
+            "泰山极顶",
+            "米兰迪酒店",
+            "香亭"
+          ],
+          "false_negative": [
+            "乔治米兰迪酒店",
+            "乱石沟",
+            "北天街",
+            "十里画廊",
+            "千丈瀑",
+            "厚载门",
+            "后十五",
+            "后石坞青云庵",
+            "圣母寝宫楼",
+            "大山门",
+            "孔子小天下处",
+            "宋摩崖",
+            "岱顶天街",
+            "岱顶天街",
+            "彩石崖",
+            "振翅峰",
+            "汉柏第一",
+            "泰安高铁站",
+            "灵山玉柱",
+            "白云",
+            "白猿墓",
+            "石坞庙",
+            "碧花池",
+            "纪泰山铭",
+            "透天门",
+            "金藏库",
+            "青云",
+            "龙柏凤松"
+          ]
+        },
+        "TRANSPORT": {
+          "tp": 40,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.9756,
+          "recall": 1.0,
+          "f1": 0.9877,
+          "false_positive": [
+            "中天门索道"
+          ],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 115,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9914,
+          "f1": 0.9957,
+          "false_positive": [],
+          "false_negative": [
+            "六日"
+          ]
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "大美泰山"
+          },
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "戏台"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "东西御碑亭"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "公交站"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "嵩山"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "府口岭"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "泰山极顶"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "香亭"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "TRANSPORT",
+            "text": "中天门索道"
+          },
+          {
+            "doc_id": "TS_NOTE_004",
+            "entity_type": "POI",
+            "text": "夜爬泰山"
+          },
+          {
+            "doc_id": "TS_NOTE_004",
+            "entity_type": "POI",
+            "text": "米兰迪酒店"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "东配殿"
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "北天街"
+          },
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "宋摩崖"
+          },
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "岱顶天街"
+          },
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "汉柏第一"
+          },
+          {
+            "doc_id": "TS_NOTE_001",
+            "entity_type": "POI",
+            "text": "纪泰山铭"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "大山门"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "岱顶天街"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "白云"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "金藏库"
+          },
+          {
+            "doc_id": "TS_NOTE_002",
+            "entity_type": "POI",
+            "text": "青云"
+          },
+          {
+            "doc_id": "TS_NOTE_003",
+            "entity_type": "POI",
+            "text": "厚载门"
+          },
+          {
+            "doc_id": "TS_NOTE_003",
+            "entity_type": "POI",
+            "text": "孔子小天下处"
+          },
+          {
+            "doc_id": "TS_NOTE_004",
+            "entity_type": "POI",
+            "text": "乔治米兰迪酒店"
+          },
+          {
+            "doc_id": "TS_NOTE_004",
+            "entity_type": "TIME",
+            "text": "六日"
+          },
+          {
+            "doc_id": "TS_OFF_002",
+            "entity_type": "POI",
+            "text": "泰安高铁站"
+          },
+          {
+            "doc_id": "TS_OFF_003",
+            "entity_type": "POI",
+            "text": "彩石崖"
+          },
+          {
+            "doc_id": "TS_OFF_003",
+            "entity_type": "POI",
+            "text": "振翅峰"
+          },
+          {
+            "doc_id": "TS_OFF_003",
+            "entity_type": "POI",
+            "text": "碧花池"
+          },
+          {
+            "doc_id": "TS_OFF_003",
+            "entity_type": "POI",
+            "text": "龙柏凤松"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "乱石沟"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "十里画廊"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "千丈瀑"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "后十五"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "后石坞青云庵"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "圣母寝宫楼"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "灵山玉柱"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "白猿墓"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "石坞庙"
+          },
+          {
+            "doc_id": "TS_OFF_005",
+            "entity_type": "POI",
+            "text": "透天门"
+          }
+        ]
+      }
+    },
+    {
+      "version": "v7",
+      "scenic_id": "WULINGYUAN",
+      "doc_scope": [
+        "ZJJ_NOTE_001",
+        "ZJJ_NOTE_002",
+        "ZJJ_NOTE_003",
+        "ZJJ_NOTE_004",
+        "ZJJ_OFF_002",
+        "ZJJ_OFF_003",
+        "ZJJ_OFF_004",
+        "ZJJ_OFF_005"
+      ],
+      "prediction_names_in_scope": 241,
+      "prediction_mentions_in_scope": 420,
+      "gold_items": 244,
+      "gold_file": "gold_remaining25_WULINGYUAN.json",
+      "overall": {
+        "tp": 234,
+        "fp": 7,
+        "fn": 10,
+        "precision": 0.971,
+        "recall": 0.959,
+        "f1": 0.9649
+      },
+      "by_type": {
+        "POI": {
+          "tp": 105,
+          "fp": 4,
+          "fn": 8,
+          "precision": 0.9633,
+          "recall": 0.9292,
+          "f1": 0.9459,
+          "false_positive": [
+            "大峡谷",
+            "峰墙",
+            "武陵山珍馆站",
+            "珍馆站"
+          ],
+          "false_negative": [
+            "仙女散花",
+            "大峡谷景区",
+            "张家界世界地质公园",
+            "武陵源景区",
+            "武陵源西门",
+            "空中长城",
+            "索溪河街道",
+            "西门"
+          ]
+        },
+        "TRANSPORT": {
+          "tp": 39,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.9286,
+          "recall": 1.0,
+          "f1": 0.963,
+          "false_positive": [
+            "17路车",
+            "漫步",
+            "电梯"
+          ],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 90,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9783,
+          "f1": 0.989,
+          "false_positive": [],
+          "false_negative": [
+            "昨天",
+            "那天"
+          ]
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "ZJJ_NOTE_001",
+            "entity_type": "POI",
+            "text": "武陵山珍馆站"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_001",
+            "entity_type": "POI",
+            "text": "珍馆站"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_001",
+            "entity_type": "TRANSPORT",
+            "text": "17路车"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_001",
+            "entity_type": "TRANSPORT",
+            "text": "电梯"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_004",
+            "entity_type": "POI",
+            "text": "大峡谷"
+          },
+          {
+            "doc_id": "ZJJ_OFF_002",
+            "entity_type": "TRANSPORT",
+            "text": "漫步"
+          },
+          {
+            "doc_id": "ZJJ_OFF_005",
+            "entity_type": "POI",
+            "text": "峰墙"
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "ZJJ_NOTE_002",
+            "entity_type": "POI",
+            "text": "索溪河街道"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_002",
+            "entity_type": "TIME",
+            "text": "昨天"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_002",
+            "entity_type": "TIME",
+            "text": "那天"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_003",
+            "entity_type": "POI",
+            "text": "空中长城"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_004",
+            "entity_type": "POI",
+            "text": "大峡谷景区"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_004",
+            "entity_type": "POI",
+            "text": "武陵源景区"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_004",
+            "entity_type": "POI",
+            "text": "武陵源西门"
+          },
+          {
+            "doc_id": "ZJJ_NOTE_004",
+            "entity_type": "POI",
+            "text": "西门"
+          },
+          {
+            "doc_id": "ZJJ_OFF_003",
+            "entity_type": "POI",
+            "text": "仙女散花"
+          },
+          {
+            "doc_id": "ZJJ_OFF_005",
+            "entity_type": "POI",
+            "text": "张家界世界地质公园"
+          }
+        ]
+      }
+    },
+    {
+      "version": "v7",
+      "scenic_id": "JINGYUETAN",
+      "doc_scope": [
+        "JYT_NOTE_001",
+        "JYT_NOTE_002",
+        "JYT_NOTE_003",
+        "JYT_NOTE_004",
+        "JYT_OFF_001",
+        "JYT_OFF_003",
+        "JYT_OFF_004",
+        "JYT_OFF_005"
+      ],
+      "prediction_names_in_scope": 170,
+      "prediction_mentions_in_scope": 310,
+      "gold_items": 172,
+      "gold_file": "gold_remaining25_JINGYUETAN.json",
+      "overall": {
+        "tp": 165,
+        "fp": 5,
+        "fn": 7,
+        "precision": 0.9706,
+        "recall": 0.9593,
+        "f1": 0.9649
+      },
+      "by_type": {
+        "POI": {
+          "tp": 80,
+          "fp": 5,
+          "fn": 7,
+          "precision": 0.9412,
+          "recall": 0.9195,
+          "f1": 0.9302,
+          "false_positive": [
+            "望潭广场站",
+            "湿地",
+            "逯家湾",
+            "长春净月潭",
+            "黑松"
+          ],
+          "false_negative": [
+            "北普陀",
+            "恐龙园",
+            "森林奶咖馆",
+            "潭知茶",
+            "瓦萨",
+            "轻轨净月潭站",
+            "长春净月潭瓦萨博物馆"
+          ]
+        },
+        "TRANSPORT": {
+          "tp": 34,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        },
+        "TIME": {
+          "tp": 51,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive": [],
+          "false_negative": []
+        }
+      },
+      "errors": {
+        "predicted_only": [
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "望潭广场站"
+          },
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "湿地"
+          },
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "逯家湾"
+          },
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "黑松"
+          },
+          {
+            "doc_id": "JYT_NOTE_003",
+            "entity_type": "POI",
+            "text": "长春净月潭"
+          }
+        ],
+        "gold_only": [
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "恐龙园"
+          },
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "轻轨净月潭站"
+          },
+          {
+            "doc_id": "JYT_NOTE_001",
+            "entity_type": "POI",
+            "text": "长春净月潭瓦萨博物馆"
+          },
+          {
+            "doc_id": "JYT_NOTE_002",
+            "entity_type": "POI",
+            "text": "北普陀"
+          },
+          {
+            "doc_id": "JYT_NOTE_002",
+            "entity_type": "POI",
+            "text": "瓦萨"
+          },
+          {
+            "doc_id": "JYT_OFF_001",
+            "entity_type": "POI",
+            "text": "潭知茶"
+          },
+          {
+            "doc_id": "JYT_OFF_003",
+            "entity_type": "POI",
+            "text": "森林奶咖馆"
+          }
+        ]
+      }
+    }
+  ],
+  "by_doc": [
+    {
+      "doc_id": "TS_OFF_002",
+      "scenic_id": "TAISHAN",
+      "tp": 29,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9667,
+      "f1": 0.9831
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "tp": 17,
+      "fp": 0,
+      "fn": 4,
+      "precision": 1.0,
+      "recall": 0.8095,
+      "f1": 0.8947
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "scenic_id": "TAISHAN",
+      "tp": 40,
+      "fp": 1,
+      "fn": 10,
+      "precision": 0.9756,
+      "recall": 0.8,
+      "f1": 0.8791
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "tp": 10,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9091,
+      "recall": 1.0,
+      "f1": 0.9524
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "tp": 9,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1": 0.9474
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "tp": 13,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.9286,
+      "recall": 0.9286,
+      "f1": 0.9286
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "tp": 9,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1": 0.9474
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "tp": 14,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9333,
+      "f1": 0.9655
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "tp": 90,
+      "fp": 2,
+      "fn": 5,
+      "precision": 0.9783,
+      "recall": 0.9474,
+      "f1": 0.9626
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "scenic_id": "TAISHAN",
+      "tp": 117,
+      "fp": 7,
+      "fn": 5,
+      "precision": 0.9435,
+      "recall": 0.959,
+      "f1": 0.9512
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "tp": 69,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.9718,
+      "f1": 0.9857
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "tp": 28,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.9333,
+      "recall": 0.9333,
+      "f1": 0.9333
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "tp": 32,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "scenic_id": "WULINGYUAN",
+      "tp": 78,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.9512,
+      "recall": 1.0,
+      "f1": 0.975
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "tp": 39,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.9286,
+      "f1": 0.963
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "tp": 28,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9655,
+      "f1": 0.9825
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "scenic_id": "WULINGYUAN",
+      "tp": 43,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.9773,
+      "recall": 0.9149,
+      "f1": 0.9451
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "tp": 63,
+      "fp": 4,
+      "fn": 3,
+      "precision": 0.9403,
+      "recall": 0.9545,
+      "f1": 0.9474
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "tp": 23,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.92,
+      "f1": 0.9583
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "tp": 25,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9615,
+      "recall": 1.0,
+      "f1": 0.9804
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "false_negative": [
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "恐龙园",
+      "start": 1835,
+      "end": 1838,
+      "context": "--望潭广场站下车。\n\n望潭广场是一个休息站，这里有餐饮店，还有索道，恐龙园。\n\n从望潭广场沿着木栈道往东步行约1.8公里可以到中国瓦萨博物馆。\n"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "轻轨净月潭站",
+      "start": 215,
+      "end": 221,
+      "context": "道交通3号线【吉林广电地铁】站，换乘轻轨3号线在净月潭公园站下车。\n\n轻轨净月潭站里有李先生牛肉面馆，可以解决餐饮。\n\n净月潭轻轨站走过天桥就到公园入口"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "长春净月潭瓦萨博物馆",
+      "start": 2028,
+      "end": 2038,
+      "context": "了几十朵赤松茸（彩云菇）。\n\n第七站：瓦萨博物馆\n\n位于净月潭景区内的长春净月潭瓦萨博物馆是中国首个且唯一一家以瓦萨国际滑雪运动和滑雪文化为背景的主题博物馆。\n"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "entity_type": "POI",
+      "text": "北普陀",
+      "start": 434,
+      "end": 437,
+      "context": "达了终点站，然后再往前走，重新坐观光车，去西坝站下来，往回走50米就到北普陀寺。\n\n观光车坐一圈大概要50分钟。我们又去起点站。观光车站排了很长的"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "entity_type": "POI",
+      "text": "瓦萨",
+      "start": 578,
+      "end": 580,
+      "context": "新上车，碰巧坐第一排，视野很好。\n\n北普陀寺只有两三站路，而我们还要去瓦萨博物馆，那是在离起点七八站路的地方。如果我们在北普陀寺下了，我们游览完"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "entity_type": "POI",
+      "text": "潭知茶",
+      "start": 50,
+      "end": 53,
+      "context": "→荷花垂柳园（卡丁船）→碧松净月塔楼、太平钟楼→大坝东（星巴克咖啡服务潭知茶）→大坝西→中韩友谊林→景区正门女神广场"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "entity_type": "POI",
+      "text": "森林奶咖馆",
+      "start": 75,
+      "end": 80,
+      "context": "舫船、游览船畅游）→净月潭滑雪场→徒步至中国瓦萨博物馆（参观博物馆、品森林奶咖馆咖啡茶饮）→徒步至东环潭“长得奇怪的树”打卡群→徒步至灵草芳洲→乘坐景"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "北天街",
+      "start": 2139,
+      "end": 2142,
+      "context": "多的。\n\n走到天街牌坊\n\n泰山天街是指南天门向东到碧霞祠一段街道，称为北天街，岱顶天街，商铺林立，亦市亦街。大量的香客游人上山，需要住宿吃饭，天街"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "宋摩崖",
+      "start": 3155,
+      "end": 3158,
+      "context": "年间重修碑仍存。\n\n金字为《纪泰山铭》\n\n大观峰摩崖石刻附近看介绍还有宋摩崖，想去看看，没找到路。我们就往下走到碧霞祠，往索道方向走。\n\n看完唐摩"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "岱顶天街",
+      "start": 2143,
+      "end": 2147,
+      "context": "\n走到天街牌坊\n\n泰山天街是指南天门向东到碧霞祠一段街道，称为北天街，岱顶天街，商铺林立，亦市亦街。大量的香客游人上山，需要住宿吃饭，天街应运而生，"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "汉柏第一",
+      "start": 521,
+      "end": 525,
+      "context": "庙入口\n\n关帝庙的南山门、戏台、古槐。\n\n拜棚与崇宁殿\n\n关帝庙里的“汉柏第一”\n\n继续往前走，一路都是景观。\n\n一天门坊，明代建，参政龙光题额，清"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "纪泰山铭",
+      "start": 2959,
+      "end": 2963,
+      "context": "为碑，布满历代题刻而闻名。其中，唐玄宗于开元十三年（725年）所书的《纪泰山铭》最为著名，俗称“唐摩崖”，高13.3米，宽5.5米，全文1000字，"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "大山门",
+      "start": 3673,
+      "end": 3676,
+      "context": "殿、香亭等十二座大型建筑物组成。祠为二进院落，以照壁、金藏库、南神门、大山门、香亭、大殿为中轴线，两侧为东西神门、钟鼓楼、东西御碑亭、东西配殿，左"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "岱顶天街",
+      "start": 3278,
+      "end": 3282,
+      "context": "的缆车，还有明显的天际线。\n\n泰山天街是指南天门向东到碧霞祠一段街道，岱顶天街，商铺林立，亦市亦街，形成了特有的风俗。\n\n天街过了天蓬牌坊，靠近崖壁"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "白云",
+      "start": 3408,
+      "end": 3410,
+      "context": "人能解其真实含义。五岳真形图在华山、嵩山、衡山、恒山均有供奉。\n\n天街白云亭处东望，可见小路直通岩壁上一洞穴，上面有“青云洞”匾额。青云洞供奉泰"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "金藏库",
+      "start": 3665,
+      "end": 3668,
+      "context": "然天上宫阙。由大殿、香亭等十二座大型建筑物组成。祠为二进院落，以照壁、金藏库、南神门、大山门、香亭、大殿为中轴线，两侧为东西神门、钟鼓楼、东西御碑"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "青云",
+      "start": 3432,
+      "end": 3434,
+      "context": "恒山均有供奉。\n\n天街白云亭处东望，可见小路直通岩壁上一洞穴，上面有“青云洞”匾额。青云洞供奉泰山福禄二神，据说青云、白云二洞为泰山云根雨脉。\n"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "entity_type": "POI",
+      "text": "厚载门",
+      "start": 560,
+      "end": 563,
+      "context": "，泰山门票（115元）含本景区，刷身份证就行，无须另外购票。正阳门入，厚载门出，大概11时了。向北穿过岱庙广场不远，就是岱宗坊。\n\n五、返程\n\n坐"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "entity_type": "POI",
+      "text": "孔子小天下处",
+      "start": 189,
+      "end": 195,
+      "context": "4:13 玉皇顶\n\n14:26 无字碑\n\n14:37 五岳独尊石 / 孔子小天下处\n\n14:38 日观峰\n\n14:56 瞻鲁台\n\n15:30 碧霞祠\n\n"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "entity_type": "POI",
+      "text": "乔治米兰迪酒店",
+      "start": 312,
+      "end": 319,
+      "context": "况，可以选择站内转乘、补票、二等座商务座结合购票形式；\n\n2、酒店：（乔治米兰迪酒店*泰安泰山店）\n\n可以提前和酒店沟通接站，或者采用其他交通方式到达酒店"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "entity_type": "TIME",
+      "text": "六日",
+      "start": 42,
+      "end": 44,
+      "context": "就走\n\n首先说明：我不喜欢计划性的出行，如果你是像我一样：周五晚上或者六日随时出发，说走就走的，那么可以看看这篇记录内容：\n\n这次出行的特点：周"
+    },
+    {
+      "doc_id": "TS_OFF_002",
+      "entity_type": "POI",
+      "text": "泰安高铁站",
+      "start": 498,
+      "end": 503,
+      "context": "火车站乘坐3路公交车（2元）或乘坐出租车（10元左右）到天外村；若是由泰安高铁站下车，可直接在高铁站乘坐37路公交车（2元）或乘坐出租车（35元左右）"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "entity_type": "POI",
+      "text": "彩石崖",
+      "start": 489,
+      "end": 492,
+      "context": "周围的香客为了祭拜铁佛，跋山涉水，行程百里，步行来此，以示虔诚。寺旁的彩石崖石纹如画，美轮美奂，叹为观止；溪中奇石天成，肖形状物，栩栩如生。溪旁的"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "entity_type": "POI",
+      "text": "振翅峰",
+      "start": 297,
+      "end": 300,
+      "context": "配殿祀天官、地官和水官，左边配殿奉祀关帝、文曲星和寿星。\n\n碧峰寺\n\n振翅峰下的寺庙叫做碧峰寺，又因供奉铁佛，俗称“铁佛寺”。遗址上有《重建佛殿记"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "entity_type": "POI",
+      "text": "碧花池",
+      "start": 990,
+      "end": 993,
+      "context": "而下，在此天成一湾。《泰山道里记》载：“……龙湾，丘峦突出如岛屿。下有碧花池，石皆碧纹，天然池甃……”此处翠峰列队，山崖若屏，湾水清澈，山水倒映。"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "entity_type": "POI",
+      "text": "龙柏凤松",
+      "start": 234,
+      "end": 238,
+      "context": "这两棵柏树和松树相对而生，郁郁葱葱，盘旋而起，如龙似凤，人们称它们为“龙柏凤松”。大殿里面供奉着的是泰山女神——碧霞元君，右边配殿祀天官、地官和水官"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "乱石沟",
+      "start": 1088,
+      "end": 1091,
+      "context": "是岱顶通往后石坞的必经之路。坊北是摩云岭，自坊前顺坡东下至勺形谷底是“乱石沟”，过沟是独足盘，再前行可至后石坞诸景点。\n\n元君庙\n\n独足盘东北有一"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 264,
+      "end": 268,
+      "context": "名，被称之为泰山的“奥区”。游人置身其中如在画中，所以又被称为泰山的“十里画廊”，是探险游、自助游的最佳路线。\n\n这里，奇石能言，清泉有声，大小天烛"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "千丈瀑",
+      "start": 690,
+      "end": 693,
+      "context": "流下，于是形成瀑布。瀑布面北，亦有几十米长，古时人称此为“千尺瀑”、“千丈瀑”。但这名称仅仅形容其长，谷而无内蕴，今人认为不如叫“天烛瀑”好。不错"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "后十五",
+      "start": 850,
+      "end": 853,
+      "context": "口，向东下行900多级台阶可至后石坞。后石坞旧称“后石屋”，早时又叫“后十五”，言此地距岱顶十五里。实际上岱顶距后石坞的直线距离不过1.5公里左右"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "后石坞青云庵",
+      "start": 1768,
+      "end": 1774,
+      "context": "为清雍正年间建“元君墓”和“白猿墓”。\n\n姊妹松\n\n泰山姊妹松位于泰山后石坞青云庵西北角的半山崖上，郁郁葱葱，枝繁叶茂，距今已有600多年的历史，在沧桑"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "圣母寝宫楼",
+      "start": 1190,
+      "end": 1195,
+      "context": "年（1572年）宗室朱睦建，供奉昊天上帝像，万历十九年（1591年）修圣母寝宫楼，供奉碧霞元君。清顺治、康熙间均有重修，乾隆年间重修后改称石坞青云庵，"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "灵山玉柱",
+      "start": 1639,
+      "end": 1643,
+      "context": "以又名“来鹤泉”。洞内有盛夏尚存冰柱的奇观，故清康熙年间巡抚蒋陈锡题“灵山玉柱”。石洞之上有题刻“黄花洞”三字。\n\n东院北侧石岩下的莲花洞，因洞口石"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "白猿墓",
+      "start": 1747,
+      "end": 1750,
+      "context": "洞”、“松至此始涛焉”等。\n\n庙东花果园内为清雍正年间建“元君墓”和“白猿墓”。\n\n姊妹松\n\n泰山姊妹松位于泰山后石坞青云庵西北角的半山崖上，郁郁"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "石坞庙",
+      "start": 1236,
+      "end": 1239,
+      "context": "君。清顺治、康熙间均有重修，乾隆年间重修后改称石坞青云庵，光绪重修时称石坞庙。民国以来，娘娘庙长年失修。上世纪90年代中期重新修复。\n\n庙分东、西"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "透天门",
+      "start": 1337,
+      "end": 1340,
+      "context": "，西舍祀天官、地官、水官，东舍为万松亭，后改为弥勒殿。沿石级而上，进“透天门”为东院，由正殿、东配殿、圣母寝宫楼组成。正殿祀天官、地官、水官，正殿"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "POI",
+      "text": "索溪河街道",
+      "start": 620,
+      "end": 625,
+      "context": "。\n\n晚上依然在美食街附近吃饭，如果不是下雨的话，可以去溪布街和对面的索溪河街道走走，下雨就算了。继续泡脚，又洗了内搭的速干衣放空调底下吹干，把在读的"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "昨天",
+      "start": 686,
+      "end": 688,
+      "context": "底下吹干，把在读的一本书看完了。\n\nDay3再看张家界国家森林公园\n\n昨天下山途中有点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "entity_type": "TIME",
+      "text": "那天",
+      "start": 728,
+      "end": 730,
+      "context": "点纠结要不要多待两天等天气预报说的雨过天晴，毕竟门票4天有效，雨过天晴那天刚好是第4天。但想了想，还是按原计划走。今天的行程就完全按照攻略说的来"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "entity_type": "POI",
+      "text": "空中长城",
+      "start": 1009,
+      "end": 1013,
+      "context": "了，你当然可以不去，直接去杨家界。\n\n3、杨家界几乎都封路了，只有一处空中长城景点，其它地方都过不去。\n\n4、袁家界是人最多的地方，所有旅行团好像只"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "大峡谷景区",
+      "start": 176,
+      "end": 181,
+      "context": "，一是天门山景区，二是张家界国家森林公园，又叫武陵源景区，三是黄龙洞和大峡谷景区。考虑时间、兴趣我只去了天门山、武陵源两个地方，总共在张家界呆了4天4"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "武陵源景区",
+      "start": 164,
+      "end": 169,
+      "context": "的旅游景区分为三个大片区，一是天门山景区，二是张家界国家森林公园，又叫武陵源景区，三是黄龙洞和大峡谷景区。考虑时间、兴趣我只去了天门山、武陵源两个地方"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "武陵源西门",
+      "start": 5,
+      "end": 10,
+      "context": "Day7 武陵源西门—杨家界—袁家界 宿武陵源西门\n\nDay8 武陵源西门—天子山—武陵源"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "西门",
+      "start": 8,
+      "end": 10,
+      "context": "Day7 武陵源西门—杨家界—袁家界 宿武陵源西门\n\nDay8 武陵源西门—天子山—武陵源"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "entity_type": "POI",
+      "text": "仙女散花",
+      "start": 172,
+      "end": 176,
+      "context": "直升绝壁之巅的凌空之感；登顶后驻足贺龙公园，俯瞰御笔峰的峰林阵列，守望仙女散花的灵动神韵，最终经天然石拱南天门缓缓而下。此路线兼具平缓漫游闲适感与登"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "张家界世界地质公园",
+      "start": 46,
+      "end": 55,
+      "context": "住宿建议：武陵源城区\n\n午餐地点建议：杨家界、天下第一桥站\n\n此线路是张家界世界地质公园经典游览路线之一，串联袁家界、杨家界、天子山三大核心区域，形成一条完整"
+    }
+  ],
+  "predicted_only": [
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "望潭广场站",
+      "start": 1802,
+      "end": 1807,
+      "context": "徒步健身的好去处。\n\n第六站：望潭广场\n\n我们在瓦萨博物馆前一站---望潭广场站下车。\n\n望潭广场是一个休息站，这里有餐饮店，还有索道，恐龙园。\n\n从"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "湿地",
+      "start": 888,
+      "end": 890,
+      "context": "林浴场→景区西门→水上栈道→森林浴场→望潭广场→瓦萨博物馆→冰雪世界→湿地公园→一棵树站→月潭揽胜→蘑菇广场（灵草芳洲）→松迎客→张二麻岭→青松"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "逯家湾",
+      "start": 467,
+      "end": 470,
+      "context": "八事变”后东北沦陷，日本为建立伪政权并定都长春，在长春东南 36 里的逯家湾（今净月潭一带）的天然地形修建贮水池，形成水域面积达 5.3 平方公里"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "entity_type": "POI",
+      "text": "黑松",
+      "start": 847,
+      "end": 849,
+      "context": "点站静月雅市。\n\n观光车中途设女神广场→坝西站→朝夕水岸码头→溢水湾→黑松林→小森林浴场→景区西门→水上栈道→森林浴场→望潭广场→瓦萨博物馆→冰"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "entity_type": "POI",
+      "text": "长春净月潭",
+      "start": 0,
+      "end": 5,
+      "context": "长春净月潭国家森林公园-吉林八景之一\n\n我住在 长春 市市中心人民广场附近的亚泰"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "大美泰山",
+      "start": 2250,
+      "end": 2254,
+      "context": "坊是泰山的道教文化象征性建筑之一，2000年复建为四柱三门式石坊，\n\n大美泰山\n\n爬台阶上去就是碧霞祠\n\n碧霞祠位于泰山极顶之南，天街东首，初建于北"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "entity_type": "POI",
+      "text": "戏台",
+      "start": 499,
+      "end": 501,
+      "context": "路的第一组古建筑群，始建于明朝初年。\n\n关帝庙入口\n\n关帝庙的南山门、戏台、古槐。\n\n拜棚与崇宁殿\n\n关帝庙里的“汉柏第一”\n\n继续往前走，一路"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "东西御碑亭",
+      "start": 3699,
+      "end": 3704,
+      "context": "、金藏库、南神门、大山门、香亭、大殿为中轴线，两侧为东西神门、钟鼓楼、东西御碑亭、东西配殿，左右对称，南低北高，层层递进，高低起伏，参差错落，布局严谨"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "公交站",
+      "start": 5954,
+      "end": 5957,
+      "context": "霞隐现的时候。由于封禅大典还有1个小时才开始，所以这里没什么人。\n\n到公交站坐K19回市区，K19公交站高德显示停运，实际正常。\n\n坐上公交，我整"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "嵩山",
+      "start": 3391,
+      "end": 3393,
+      "context": "和五岳的说辞。这可是个宝贝，至今无人能解其真实含义。五岳真形图在华山、嵩山、衡山、恒山均有供奉。\n\n天街白云亭处东望，可见小路直通岩壁上一洞穴，"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "府口岭",
+      "start": 4423,
+      "end": 4426,
+      "context": "多，排队吵架的也有，想拍个照不容易。\n\n这儿除了五岳独尊，还有山东兖州府口岭金田题的“擎天捧日”，顺德辛耀文题的昂头天外，清代武举马福祥题的仰观俯"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "泰山极顶",
+      "start": 4744,
+      "end": 4748,
+      "context": "代以前就有了。这就是泰山著名的“无字碑”。\n\n玉皇庙，古称太清宫，位于泰山极顶，始建年代无考，原为汉代帝王封坛遗址，是泰山最高的一组古建筑群。玉皇庙"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "POI",
+      "text": "香亭",
+      "start": 3640,
+      "end": 3642,
+      "context": "祖庭，为泰山最大的高山古建筑群。碧霞祠金碧辉煌，俨然天上宫阙。由大殿、香亭等十二座大型建筑物组成。祠为二进院落，以照壁、金藏库、南神门、大山门、"
+    },
+    {
+      "doc_id": "TS_NOTE_002",
+      "entity_type": "TRANSPORT",
+      "text": "中天门索道",
+      "start": 701,
+      "end": 706,
+      "context": "皇顶。主要以自然风光为主，可以乘坐景交车与索道上山，也可以徒步上山。到中天门索道恢复前，这是唯一可以不用爬山的线路。\n\n攀登泰山的话，是选择白天，还是"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "entity_type": "POI",
+      "text": "夜爬泰山",
+      "start": 89,
+      "end": 93,
+      "context": "，那么可以看看这篇记录内容：\n\n这次出行的特点：周六周日2天出行计划、夜爬泰山、观看泰山封禅大典、携程全程订票、有休息时间；\n\n1、交通：（高铁、火"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "entity_type": "POI",
+      "text": "米兰迪酒店",
+      "start": 314,
+      "end": 319,
+      "context": "可以选择站内转乘、补票、二等座商务座结合购票形式；\n\n2、酒店：（乔治米兰迪酒店*泰安泰山店）\n\n可以提前和酒店沟通接站，或者采用其他交通方式到达酒店"
+    },
+    {
+      "doc_id": "TS_OFF_005",
+      "entity_type": "POI",
+      "text": "东配殿",
+      "start": 1349,
+      "end": 1352,
+      "context": "，东舍为万松亭，后改为弥勒殿。沿石级而上，进“透天门”为东院，由正殿、东配殿、圣母寝宫楼组成。正殿祀天官、地官、水官，正殿西是圣母寝宫楼，该楼分三"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "武陵山珍馆站",
+      "start": 93,
+      "end": 99,
+      "context": "界西出站口出来，右手边看到客运站再往前走个50米，公交总站乘17路车到武陵山珍馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒店，市区不大打"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "POI",
+      "text": "珍馆站",
+      "start": 96,
+      "end": 99,
+      "context": "站口出来，右手边看到客运站再往前走个50米，公交总站乘17路车到武陵山珍馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒店，市区不大打"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "17路车",
+      "start": 88,
+      "end": 92,
+      "context": "受，从张家界西出站口出来，右手边看到客运站再往前走个50米，公交总站乘17路车到武陵山珍馆站，迅速点能赶上末班车，公交上车扫码一人一元，或者打车到酒"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_001",
+      "entity_type": "TRANSPORT",
+      "text": "电梯",
+      "start": 1249,
+      "end": 1251,
+      "context": "纹理嶙峋，堪称三千奇峰的代表。\n\n天下第一桥\n\n从袁家界乘环保车去百龙电梯就下山了，当时的雾气已逐渐散去，有点不死心，再想去看看天子山，乘2段环"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_004",
+      "entity_type": "POI",
+      "text": "大峡谷",
+      "start": 176,
+      "end": 179,
+      "context": "，一是天门山景区，二是张家界国家森林公园，又叫武陵源景区，三是黄龙洞和大峡谷景区。考虑时间、兴趣我只去了天门山、武陵源两个地方，总共在张家界呆了4"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "entity_type": "TRANSPORT",
+      "text": "漫步",
+      "start": 192,
+      "end": 194,
+      "context": "阿凡达》悬浮山原型乾坤柱与天下第一桥的鬼斧神工，最终经乱窜坡徒步下山，漫步金鞭溪畔，尽享峡谷清溪与原始森林的静谧与清凉。"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "entity_type": "POI",
+      "text": "峰墙",
+      "start": 131,
+      "end": 133,
+      "context": "线。沿线可尽览袁家界乾坤柱、天下第一桥等标志性景观，欣赏杨家界天然长城峰墙雄姿，饱览天子山御笔峰、西海峰林壮阔全景。步道与绝壁栈道交错，云海变幻"
+    }
+  ],
+  "reference_sha256": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85",
+  "prediction_files_sha256": {
+    "entities_TAISHAN_v7.json": "a63d534d4749cb7dbfc5a2fc0a76da549b9f36a1074bbfd11465efd945965fb0",
+    "entities_WULINGYUAN_v7.json": "13fb4aaec85b8729bf840e6e56a515f683d2aad6f9e8a1b01ab7c2fb444c8d9b",
+    "entities_JINGYUETAN_v7.json": "5fe45997f1ed11c9af889a790e0d2f460d43ca502b14cb4cab63da260d76742f"
+  },
+  "limitations": [
+    "参考金标为助手逐篇阅读原文标注，按用户要求不经人工复核；可能存在遗漏和判断偏差。",
+    "当前词表此前已在同一30篇语料上开发；本结果不代表新数据集的独立泛化性能。",
+    "名称严格匹配，只忽略空白；同义词、别名、短片段不自动判为命中。",
+    "召回率为 TP/(TP+FN)，不是处理篇数覆盖率，也不是每次实体出现边界的准确率。",
+    "v7用题刻、路线角色、景点名列举与全称边界补充v6，同批结果用于开发对照。"
+  ]
+}

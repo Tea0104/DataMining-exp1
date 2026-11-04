@@ -113,16 +113,16 @@ v3已处理全部30篇，输出1667条；所有文件带_v3后缀，旧v2和参�
 
 ## v5 景点规则改进
 
-v5从v3结果继续补景点。新增无引号旧称和别名列表、题刻和短标题、明确的时刻行程与站点栏，并根据名称中心词补全被截短的景点。现有词典沿用，新增识别规则按句式和名称边界判断。规则保留交通和时间输出，只有明确的名称后缀或路线标签边界才可替换旧POI跨度。回归用例使用虚构的书院、旧称、碑刻和路线节点。
+v5从v3结果继续补景点。新增无引号旧称和别名列表、题刻和短标题、明确的时刻行程与站点栏，并根据名称中心词补全被截短的景点。现有词典沿用，新增识别规则按句式和名称边界判断。只在有明确句式或边界依据时补充或替换候选。回归用例使用虚构的书院、旧称、碑刻和路线节点。
 
 | 指标（固定25篇，景点名称级） | v3 | v4 | v5 |
 |---|---:|---:|---:|
-| 命中参考 | 378/510 | 382/510 | 422/510 |
-| 召回率 | 74.12% | 74.90% | 82.75% |
-| 精确率 | 95.21% | 92.72% | 95.05% |
-| F1 | 83.35% | 82.86% | 88.47% |
+| 命中参考 | 378/510 | 382/510 | 424/510 |
+| 召回率 | 74.12% | 74.90% | 83.14% |
+| 精确率 | 95.21% | 92.72% | 95.71% |
+| F1 | 83.35% | 82.86% | 88.98% |
 
-相对v3补回44个原漏识名称，新增3个参考未匹配的名称，未损失原已命中的景点名称。例子包括「太平顶」「中天门小广场」和「五岳独尊石刻」。三类整体F1为92.61%，原5篇景点召回率仍为100%，原5篇三类整体F1为98.05%。此轮利用了现有开发语料的误差类型，25篇参考仍为助手标注。 [25篇结果](outputs/evaluation_v5_remaining25.json) · [原5篇结果](outputs/evaluation_v5_sample5.json)
+复核修订后，车站的原词与位置保留，`canonical` 去掉末尾「站」，例如「望潭广场站」归一化为「望潭广场」。本轮增加具名车站边界、公交线路和「个多小时」表达，过滤植被语境、景观泛称和车站名中的部分交通片段。固定25篇三类整体F1为92.96%，原5篇景点召回100%、整体F1为98.44%。两批均参与过开发，25篇参考仍为助手标注。 [25篇结果](outputs/evaluation_v5_remaining25.json) · [原5篇结果](outputs/evaluation_v5_sample5.json)
 
 ```powershell
 & .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/recognize_v5.py
@@ -130,3 +130,58 @@ v5从v3结果继续补景点。新增无引号旧称和别名列表、题刻和�
 ```
 
 全部30篇的实体、统计和词频输出使用`_v5`后缀。新景区可用`--input`和`--outputs`接入含文档编号、景区编号和正文的JSON数据。
+
+## v5 验收抽查与复现
+
+[验收抽查表](outputs/acceptance_review_v3.md)列出14条原文、v3/v5实体和位置，以及漏识、误识与边界差异。抽查表区分已复核的历史展示内容、用户的站名意见和本轮重跑结果。
+
+```powershell
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate.py --version v5
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate_remaining25.py --version v5
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/tests/test_entities.py
+```
+
+第一条按原5篇金标重算 `outputs/evaluation_v5.json`，第二条单独刷新25篇助手参考评价。第三条校验 v1–v5 三景区的实体位置、重复、重叠、各类型计数和词频CSV。
+
+## v6 题名、地点语境与时间表达
+
+v6在v5候选之外补充三类线索。石碑、匾额或刻石旁的引号内容可作为题名。站点标题的括号内名称，以及「位于……和……之间」「临近……」等句式可提供地点边界。季节、旅游淡旺季、月底和农历年初可补充时间候选。新候选与已有实体相交时保留已有实体，普通引文和带「一次」等数量修饰的地点片段经过过滤。新增规则使用句式和类别词，复用现有词典。
+
+| 固定25篇，名称级指标 | v5复核修订版 | v6 |
+|---|---:|---:|
+| 景点命中参考 | 424/510 | 440/510 |
+| 景点召回率 | 83.14% | 86.27% |
+| 景点精确率 | 95.71% | 95.65% |
+| 景点F1 | 88.98% | 90.72% |
+| 时间召回率 | 96.14% | 98.84% |
+| 三类整体F1 | 92.96% | 94.34% |
+
+新增16项景点匹配和7项时间匹配，例如「纪泰山铭」「飞龙岩」「翔凤岭」「九月底」。新增预测「泰山极顶」出现在原文中，但未收录于当前参考，按严格口径计为未匹配。原5篇三类整体F1为98.44%。v6共输出1742次实体出现，原v5实体及其位置全部保留。虚构景区测试覆盖地名并列、站点别名、题名及普通引文。两批现有数据均参与过开发，真实新景区尚未评测。 [原5篇评价](outputs/evaluation_v6.json) · [其余25篇评价](outputs/evaluation_v6_remaining25.json)
+
+```powershell
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/recognize_v6.py
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate.py --version v6
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate_remaining25.py --version v6
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/tests/test_entities.py --version v6
+```
+
+## v7 题刻列举、路线角色与景点全称
+
+v7以v6为基础，从碑刻题字的列举、分段路线的引号命名、「终点站」和「景点名称」等明确语境提取名称。介绍句中有明确边界时，可把单个截短的POI补成全称。程序使用原文和通用句式，沿用现有词典。普通引文、带「位于」的片段和与交通或时间重叠的候选不会被当成新POI。
+
+| 固定25篇，名称级指标 | v6 | v7 |
+|---|---:|---:|
+| 景点命中参考 | 440/510 | 467/510 |
+| 景点召回率 | 86.27% | 91.57% |
+| 景点精确率 | 95.65% | 95.89% |
+| 景点F1 | 90.72% | 93.68% |
+| 三类整体F1 | 94.34% | 95.98% |
+
+新增27个参考景点名称，覆盖9篇，集中在题刻与路线别名较多的文章。三景区景点召回分别为泰山90.97%、张家界武陵源92.92%、净月潭91.95%。例如从成组题刻中找回「擎天捧日」和「仰观俯察」，从路线角色找回「静月雅市」。固定25篇上的原有命中全部保留，未新增参考未匹配项。原5篇三类整体F1为98.44%。两批均参与开发，25篇使用助手参考，现有结果用于同口径开发对照。测试使用虚构名称检查题刻、路线和全称规则能否识别词典外名称。 [原5篇评价](outputs/evaluation_v7.json) · [其余25篇评价](outputs/evaluation_v7_remaining25.json)
+
+```powershell
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/recognize_v7.py
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate.py --version v7
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate_remaining25.py --version v7
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/tests/test_entities.py --version v7
+```

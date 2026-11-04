@@ -3,20 +3,20 @@
   "scope": "original5",
   "overall": {
     "tp": 126,
-    "fp": 4,
+    "fp": 3,
     "fn": 1,
-    "precision": 0.9692,
+    "precision": 0.9767,
     "recall": 0.9921,
-    "f1": 0.9805
+    "f1": 0.9844
   },
   "by_type": {
     "POI": {
       "tp": 89,
-      "fp": 2,
+      "fp": 1,
       "fn": 0,
-      "precision": 0.978,
+      "precision": 0.9889,
       "recall": 1.0,
-      "f1": 0.9889
+      "f1": 0.9944
     },
     "TRANSPORT": {
       "tp": 17,
@@ -162,29 +162,28 @@
         "JYT_NOTE_005",
         "JYT_OFF_002"
       ],
-      "prediction_names_in_scope": 36,
-      "prediction_mentions_in_scope": 39,
+      "prediction_names_in_scope": 35,
+      "prediction_mentions_in_scope": 38,
       "gold_items": 34,
       "gold_file": "gold_JINGYUETAN.json",
       "overall": {
         "tp": 33,
-        "fp": 3,
+        "fp": 2,
         "fn": 1,
-        "precision": 0.9167,
+        "precision": 0.9429,
         "recall": 0.9706,
-        "f1": 0.9429
+        "f1": 0.9565
       },
       "by_type": {
         "POI": {
           "tp": 30,
-          "fp": 2,
+          "fp": 1,
           "fn": 0,
-          "precision": 0.9375,
+          "precision": 0.9677,
           "recall": 1.0,
-          "f1": 0.9677,
+          "f1": 0.9836,
           "false_positive": [
-            "净月潭景区",
-            "基本上站"
+            "净月潭景区"
           ],
           "false_negative": []
         },
@@ -219,11 +218,6 @@
             "doc_id": "JYT_NOTE_005",
             "entity_type": "POI",
             "text": "净月潭景区"
-          },
-          {
-            "doc_id": "JYT_NOTE_005",
-            "entity_type": "POI",
-            "text": "基本上站"
           },
           {
             "doc_id": "JYT_NOTE_005",

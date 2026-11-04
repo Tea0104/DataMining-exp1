@@ -93,7 +93,7 @@ class EvaluationTests(unittest.TestCase):
             gold_path.write_text(json.dumps({'doc_scope': ['empty'], 'items': []}), encoding='utf-8')
             self.assertEqual(evaluation.evaluate('v2', 'TEST', gold_path, root)['overall']['fp'], 1)
 
-    def test_cli_preserves_both_versions(self):
+    def test_cli_preserves_each_version(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'gold_TEST.json').write_text(json.dumps({
@@ -101,7 +101,7 @@ class EvaluationTests(unittest.TestCase):
                     {'doc_id': 'doc', 'entity_type': 'POI', 'text': 'node'}]}), encoding='utf-8')
             (root / 'dataset.json').write_text(json.dumps([
                 {'doc_id': 'doc', 'clean_text': 'node'}]), encoding='utf-8')
-            for version in ('v2', 'v1'):
+            for version in ('v2', 'v3', 'v1', 'v5', 'v4', 'v6', 'v7'):
                 (root / f'entities_TEST_{version}.json').write_text(json.dumps([
                     {'doc_id': 'doc', 'entity_type': 'POI', 'text': 'node'}]), encoding='utf-8')
                 completed = subprocess.run([
@@ -110,9 +110,10 @@ class EvaluationTests(unittest.TestCase):
                     capture_output=True)
                 self.assertEqual(completed.returncode, 0, completed.stderr)
             index = json.loads((root / 'evaluation.json').read_text(encoding='utf-8'))
-            self.assertEqual(set(index['versions']), {'v1', 'v2'})
-            self.assertEqual(json.loads((root / 'evaluation_v2.json').read_text(encoding='utf-8'))
-                             ['overall']['tp'], 1)
+            self.assertEqual(set(index['versions']), {'v1', 'v2', 'v3', 'v4', 'v5', 'v6', 'v7'})
+            for filename in index['versions'].values():
+                result = json.loads((root / filename).read_text(encoding='utf-8'))
+                self.assertEqual(result['overall']['tp'], 1)
 
 
 if __name__ == '__main__':

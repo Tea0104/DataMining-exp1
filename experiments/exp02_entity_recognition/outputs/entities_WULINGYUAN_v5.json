@@ -964,15 +964,15 @@
   {
     "doc_id": "ZJJ_OFF_004",
     "scenic_id": "WULINGYUAN",
-    "text": "武陵源",
     "entity_type": "POI",
-    "subtype": "area",
+    "text": "武陵源城区",
+    "subtype": "boundary",
+    "method": "v5_boundary",
     "start": 28,
-    "end": 31,
+    "end": 33,
     "sentence_id": 2,
-    "method": "lexicon",
     "granularity": "specific",
-    "canonical": "武陵源"
+    "canonical": "武陵源城区"
   },
   {
     "doc_id": "ZJJ_OFF_004",
@@ -1172,15 +1172,15 @@
   {
     "doc_id": "ZJJ_OFF_005",
     "scenic_id": "WULINGYUAN",
-    "text": "武陵源",
     "entity_type": "POI",
-    "subtype": "area",
+    "text": "武陵源城区",
+    "subtype": "boundary",
+    "method": "v5_boundary",
     "start": 16,
-    "end": 19,
+    "end": 21,
     "sentence_id": 2,
-    "method": "lexicon",
     "granularity": "specific",
-    "canonical": "武陵源"
+    "canonical": "武陵源城区"
   },
   {
     "doc_id": "ZJJ_OFF_005",
@@ -1206,7 +1206,7 @@
     "sentence_id": 3,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "天下第一桥站"
+    "canonical": "天下第一桥"
   },
   {
     "doc_id": "ZJJ_OFF_005",
@@ -1458,28 +1458,28 @@
   {
     "doc_id": "ZJJ_NOTE_001",
     "scenic_id": "WULINGYUAN",
-    "text": "公交",
     "entity_type": "TRANSPORT",
+    "text": "17路车",
     "subtype": "bus",
-    "start": 83,
-    "end": 85,
+    "method": "v5_bus_line",
+    "start": 88,
+    "end": 92,
     "sentence_id": 1,
-    "method": "lexicon",
-    "granularity": "generic",
-    "canonical": "公交"
+    "granularity": "specific",
+    "canonical": "17路车"
   },
   {
     "doc_id": "ZJJ_NOTE_001",
     "scenic_id": "WULINGYUAN",
-    "text": "珍馆站",
     "entity_type": "POI",
-    "subtype": "facility",
-    "start": 96,
+    "text": "武陵山珍馆站",
+    "subtype": "station",
+    "method": "v5_station",
+    "start": 93,
     "end": 99,
     "sentence_id": 1,
-    "method": "v3_pos_compound",
     "granularity": "specific",
-    "canonical": "珍馆站"
+    "canonical": "武陵山珍馆"
   },
   {
     "doc_id": "ZJJ_NOTE_001",
@@ -1831,19 +1831,6 @@
     "method": "regex_clock",
     "granularity": "specific",
     "canonical": "6：00"
-  },
-  {
-    "doc_id": "ZJJ_NOTE_001",
-    "scenic_id": "WULINGYUAN",
-    "text": "汽车",
-    "entity_type": "TRANSPORT",
-    "subtype": "mode",
-    "start": 468,
-    "end": 470,
-    "sentence_id": 6,
-    "method": "v3_transport",
-    "canonical": "汽车",
-    "granularity": "specific"
   },
   {
     "doc_id": "ZJJ_NOTE_001",
@@ -3447,19 +3434,6 @@
   {
     "doc_id": "ZJJ_NOTE_001",
     "scenic_id": "WULINGYUAN",
-    "text": "汽车",
-    "entity_type": "TRANSPORT",
-    "subtype": "mode",
-    "start": 2121,
-    "end": 2123,
-    "sentence_id": 54,
-    "method": "v3_transport",
-    "canonical": "汽车",
-    "granularity": "specific"
-  },
-  {
-    "doc_id": "ZJJ_NOTE_001",
-    "scenic_id": "WULINGYUAN",
     "text": "半小时",
     "entity_type": "TIME",
     "subtype": "duration",
@@ -3481,7 +3455,7 @@
     "sentence_id": 54,
     "method": "v3_pos_compound",
     "granularity": "specific",
-    "canonical": "珍馆站"
+    "canonical": "珍馆"
   },
   {
     "doc_id": "ZJJ_NOTE_001",

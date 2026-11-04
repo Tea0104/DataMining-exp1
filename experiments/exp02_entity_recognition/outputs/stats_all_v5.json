@@ -6,19 +6,19 @@
       "docs": 10,
       "mentions": 868,
       "by_type": {
-        "POI": 635,
+        "POI": 634,
         "TRANSPORT": 99,
-        "TIME": 134
+        "TIME": 135
       },
       "chart": "entity_freq_TAISHAN_v5.png"
     },
     "WULINGYUAN": {
       "name": "张家界武陵源",
       "docs": 10,
-      "mentions": 505,
+      "mentions": 503,
       "by_type": {
         "POI": 274,
-        "TRANSPORT": 101,
+        "TRANSPORT": 99,
         "TIME": 130
       },
       "chart": "entity_freq_WULINGYUAN_v5.png"
@@ -26,9 +26,9 @@
     "JINGYUETAN": {
       "name": "净月潭",
       "docs": 10,
-      "mentions": 346,
+      "mentions": 344,
       "by_type": {
-        "POI": 176,
+        "POI": 174,
         "TRANSPORT": 106,
         "TIME": 64
       },
@@ -37,11 +37,11 @@
   },
   "totals": {
     "docs": 30,
-    "mentions": 1719,
+    "mentions": 1715,
     "by_type": {
-      "POI": 1085,
-      "TRANSPORT": 306,
-      "TIME": 328
+      "POI": 1082,
+      "TRANSPORT": 304,
+      "TIME": 329
     }
   }
 }

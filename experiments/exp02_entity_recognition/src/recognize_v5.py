@@ -1,4 +1,4 @@
-"""以名称边界、命名语境和结构化行程补充 v3 的景点候选。"""
+"""以语境补充实体候选并校正景点、车站和时长边界。"""
 import re
 from collections import Counter, defaultdict
 
@@ -14,7 +14,7 @@ NAMED = rf'{CJK}{{1,15}}?(?:{HEAD})'
 NAME = re.compile(rf'{CJK}{{2,18}}')
 PLACE = re.compile(rf'{NAMED}$')
 GATE = re.compile(r'[东南西北]门')
-EXTEND = re.compile(r'^(?:小广场|观景台|纪念馆|纪念碑|石坊|牌坊|石刻|石碑|游客中心|雪道)')
+EXTEND = re.compile(r'^(?:小广场|观景台|纪念馆|纪念碑|石坊|牌坊|石刻|石碑|游客中心|雪道|城区)')
 STONE_EXTEND = re.compile(r'^[刻碑]')
 ALIAS_CUE = re.compile(r'旧称|古称|旧名|古名|又称|俗称|又名|改名为|更名为|改称|后改为')
 ALIAS_ITEM = re.compile(rf'\s*(?:[“「『"](?P<quoted>{CJK}{{2,16}})[”」』"]|(?P<plain>{CJK}{{2,16}})(?=[、，。；！？\s]|$))')
@@ -31,6 +31,19 @@ FIELD = re.compile(r'(?:^|[。；\n])\s*(?:住宿建议|午餐地点建议|途�
 TIMED = re.compile(r'^\s*(?:\d{1,2}[:：]\d{2}|\d{1,2}点(?:\d{1,2}分|半)?)\s+')
 ROUTE = re.compile(r'→|——+|--+|—')
 HEADING_PAIR = re.compile(rf'^(?P<primary>{NAMED})\s*[（(](?P<alias>{CJK}{{2,16}})[）)]$')
+STATION = re.compile(
+    rf'(?:到达|抵达|前往|途经|(?:乘|坐)[^，。；\n]{{1,24}}?(?:到|至))'
+    rf'(?P<name>{CJK}{{2,14}}?站)(?=$|[\s，。；、！？]|下车|上车|换乘|出站)'
+)
+FUZZY_DURATION = re.compile(rf'{v3.LEFT}{v3.NUM}\s*个多\s*(?:小时|分钟|月)')
+TRANSIT_LINE = re.compile(r'(?<=乘)\d{1,3}路车|(?<=坐)\d{1,3}路车')
+VEGETATION = re.compile(r'(?:覆盖着|长满|种植着?|栽植着?|分布着|遍布着?)$')
+VERBAL_STATION = re.compile(r'^(?:基本上|通常|一直|已经|还在)站')
+VEHICLE_STEM = {'汽车', '公交', '公交车'}
+UNNAMED_STATIONS = {'公交站', '公交总站', '客运总站', '中转站', '换乘站'}
+NON_TRANSIT_STATION_SUFFIXES = (
+    '门票站', '驿站', '气象站', '观测站', '监测站', '工作站', '检查站', '服务站', '加油站',
+)
 PHRASE = re.compile(
     r'乘车|乘船|乘坐|打车|出发|休整|入住|走到|下车|上山|下山|进山|来到|前往|'
     r'就像|就是|景区出入口|门票|可以|应该|需要|比如|古称|旧称|又称|合理规划|距离|'
@@ -39,7 +52,8 @@ PHRASE = re.compile(
     r'这样|那样|此路线|需|达(?=.{2,}))'
 )
 GENERIC = v3.GENERIC | v4.UNNAMED | {
-    '景区出入口', '公园入口', '检票口', '山涧', '主入口', '美食街', '自驾游', '全天', '小吃街', '网红打卡点'
+    '景区出入口', '公园入口', '检票口', '山涧', '主入口', '美食街', '自驾游', '全天', '小吃街', '网红打卡点',
+    '雪山',
 }
 
 
@@ -75,7 +89,8 @@ def aliases(text, known):
 
 
 def candidates(text, existing, known):
-    for pattern, method in ((DESTINATION, 'destination'), (INTRO, 'description'), (HERITAGE, 'inscription')):
+    for pattern, method in ((DESTINATION, 'destination'), (INTRO, 'description'),
+                            (HERITAGE, 'inscription'), (STATION, 'station')):
         for match in pattern.finditer(text):
             yield *match.span('name'), method
     for match in GATE_CONTEXT.finditer(text):
@@ -129,6 +144,8 @@ def allowed(name, method, stop, generic):
         return False
     if GATE.fullmatch(name):
         return method in {'gate_context', 'labelled_route', 'route_node', 'timed_stop'}
+    if method == 'station' and (name in UNNAMED_STATIONS or name.endswith(NON_TRANSIT_STATION_SUFFIXES)):
+        return False
     if name in generic or re.search(r'索道|小火车|地铁|轻轨\d|公交|分钟|小时', name) and not name.endswith('站'):
         return False
     if method == 'timed_stop' and not (PLACE.fullmatch(name) or name.endswith('咖啡')):
@@ -149,18 +166,34 @@ def merge(text, proposals, existing):
         left, right = entity['start'], entity['end']
         overlap = [e for e in kept if left < e['end'] and e['start'] < right]
         if overlap:
-            if len(overlap) != 1 or overlap[0]['entity_type'] != 'POI':
+            if len(overlap) != 1:
                 continue
             old = overlap[0]
+            if entity['entity_type'] != old['entity_type']:
+                continue
             expands = left == old['start'] and right > old['end']
+            station_expands = (entity['method'] == 'v5_station' and left < old['start']
+                               and right == old['end'] and old['text'].endswith('站'))
             trims_station_label = (entity['method'] == 'v5_route_node' and left == old['start']
                                    and text[right:old['end'] + 1] == '站点' and right + 1 == old['end'])
-            # 明确的结构边界才可以改写既有POI。禁止跨越交通、时间或两个地名。
-            if not trims_station_label and not (expands and entity['method'] == 'v5_boundary'):
+            extends_boundary = expands and entity['method'] in {'v5_boundary', 'v5_fuzzy_duration'}
+            if not (trims_station_label or station_expands or extends_boundary):
                 continue
             kept.remove(old)
         kept.append(entity)
     return sorted(kept, key=lambda e: (e['start'], e['end']))
+
+
+def keep_existing(text, entity):
+    name, kind, start, end = (entity[key] for key in ('text', 'entity_type', 'start', 'end'))
+    if kind == 'TRANSPORT' and name in VEHICLE_STEM and text.startswith(('站', '总站'), end):
+        return False
+    if kind == 'POI':
+        if name == '雪山' or VERBAL_STATION.match(name):
+            return False
+        if name.endswith(('松', '柏', '槐', '杉')) and VEGETATION.search(text[max(0, start - 5):start]):
+            return False
+    return True
 
 
 def extract(records, groups, stop, scenic):
@@ -172,7 +205,7 @@ def extract(records, groups, stop, scenic):
     result = []
     for record in records:
         doc, text = record['doc_id'], record['clean_text']
-        old = by_doc[doc]
+        old = [entity for entity in by_doc[doc] if keep_existing(text, entity)]
         known = {e['text'] for e in old if e['entity_type'] == 'POI'}
         sentences = base.split_sentences(text)
         proposals = []
@@ -184,7 +217,24 @@ def extract(records, groups, stop, scenic):
                     'subtype': method, 'method': 'v5_' + method, 'start': start, 'end': end,
                     'sentence_id': base.sentence_of(sentences, start),
                 }, groups))
-        entities = merge(text, proposals, old)
+        for pattern, kind, subtype, method in (
+                (FUZZY_DURATION, 'TIME', 'duration', 'v5_fuzzy_duration'),
+                (TRANSIT_LINE, 'TRANSPORT', 'bus', 'v5_bus_line')):
+            for match in pattern.finditer(text):
+                start, end = match.span()
+                proposals.append(base.decorate({
+                    'doc_id': doc, 'scenic_id': scenic, 'entity_type': kind, 'text': match[0],
+                    'subtype': subtype, 'method': method, 'start': start, 'end': end,
+                    'sentence_id': base.sentence_of(sentences, start),
+                }, groups))
+        entities = merge(text, [entity for entity in proposals if keep_existing(text, entity)], old)
+        for entity in entities:
+            name = entity['text']
+            if (entity['entity_type'] == 'POI' and name.endswith('站')
+                    and name not in generic and name not in UNNAMED_STATIONS
+                    and not name.endswith(NON_TRANSIT_STATION_SUFFIXES)):
+                # 原词和位置用于回溯，归一化名称用于站名展示。
+                entity['canonical'] = entity['canonical'].removesuffix('站')
         result.extend(entities)
         per_doc[doc].update(entities=len(entities), by_type=dict(Counter(e['entity_type'] for e in entities)))
     return result, per_doc

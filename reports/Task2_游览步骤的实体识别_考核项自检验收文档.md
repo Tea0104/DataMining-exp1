@@ -3,7 +3,8 @@
 ## 1. 任务基础信息
 
 - 实验目标：识别程序性文本中的核心要素（景点POI、交通方式、时间节点）。
-- 审阅信息：审阅用户工作区已有实验二 **v3** 源码、词典、评价和保存产物。代码审阅为只读。v1、v2用于说明历史改进，计分结论以v3为准。
+- 审阅信息：以实验二 **v7** 源码和复现实测为验收依据，v5复核修订版及v6用于对照。
+- 自检状态：12条评分细目中，11条已完成。第2.12条的运行与复现已核验，正式实验报告暂缓。
 - 技术栈：Python、Jieba分词与词性标注、规则与正则表达式、Matplotlib。词频输出使用Python标准库 `csv`。
 - 数据来源：本组采集并由实验一清洗的泰山、张家界武陵源、净月潭路线与游记。每景区5篇官方路线和5篇游客游记，共30篇。
 - 评分范围：Final版评分表共5个考核项、12条细目，合计100分。附加加分项无。 [任务书 Final 版](../docs/rubrics/《数据挖掘》探索性实验任务书及评分细则【Final】.docx)
@@ -14,11 +15,33 @@
 |---|---|
 | 原文与来源 | `data/processed/full/selected_v2/dataset.json` 的 `doc_id`、`scenic_id`、`clean_text`。来源可按 `doc_id` 查 `data/metadata/selected_v2_sources.json` |
 | 规则配置 | `E2/src/config/lexicon.json`、`E2/src/config/stopwords.json` |
-| v3识别与词频产物 | `E2/outputs/entities_<景区>_v3.json`、`stats_<景区>_v3.json`、`stats_all_v3.json`、`entity_freq_<景区>_v3.csv`、`entity_freq_<景区>_v3.png` |
-| 原5篇标注及评价 | `E2/outputs/gold_<景区>.json`、`gold_review.md`、`gold_audit.json`、`evaluation_v3_sample5.json`。原标注版本存于 `E2/archive/gold_before_20261101_corrections/` |
+| v7识别与词频产物 | `E2/outputs/entities_<景区>_v7.json`、`stats_<景区>_v7.json`、`stats_all_v7.json`、`entity_freq_<景区>_v7.csv`、`entity_freq_<景区>_v7.png` |
+| 原5篇标注及评价 | `E2/outputs/gold_<景区>.json`、`gold_review.md`、`gold_audit.json`、`evaluation_v7.json`。原标注版本存于 `E2/archive/gold_before_20261101_corrections/` |
 | 其余25篇标注导出 | 输入 `E2/annotations/remaining25_labels.json`，导出 `E2/outputs/gold_remaining25.json`、`gold_remaining25_<景区>.json`、`gold_remaining25_manifest.json` |
-| 其余25篇评价与审计 | `E2/outputs/evaluation_v3_remaining25.json`、`v3_improvement.md`、`v3_improvement.json` |
+| 其余25篇评价与审计 | `E2/outputs/evaluation_v7_remaining25.json`，以及用于同口径对照的 `evaluation_v5_remaining25.json`、`evaluation_v6_remaining25.json` |
+| 人工抽查记录 | [v5 原文抽查与复核记录](../experiments/exp02_entity_recognition/outputs/acceptance_review_v3.md)，14段原文的v7输出已逐段比对 |
 | 规范与历史对照 | `E2/outputs/entity_spec.md`、`manual_check.md`、`iteration_log.md`、`remaining25_evaluation_summary.md`，以及带 `_v1`、`_v2` 后缀的实体、统计、词频和评价文件 |
+
+### v7 实测结果
+
+从同一份实验一清洗数据重跑三景区共30篇，得到1768次实体出现。下表按「文章、类型、去空白的原文名称」去重后评价，TP为与参考匹配的名称数，FP和FN分别为仅预测中和仅参考中出现的名称数。
+
+| 评价范围 | 实体类别 | TP | FP | FN | 精确率 | 召回率 | F1 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 原5篇，人工复核基础及授权修订 | 三类整体 | 126 | 3 | 1 | 97.67% | 99.21% | 98.44% |
+| 原5篇，人工复核基础及授权修订 | 景点POI | 89 | 1 | 0 | 98.89% | 100.00% | 99.44% |
+| 其余25篇，助手参考 | 三类整体 | 836 | 24 | 46 | 97.21% | 94.78% | 95.98% |
+| 其余25篇，助手参考 | 景点POI | 467 | 20 | 43 | 95.89% | 91.57% | 93.68% |
+| 其余25篇，助手参考 | 交通方式 | 113 | 4 | 0 | 96.58% | 100.00% | 98.26% |
+| 其余25篇，助手参考 | 时间节点 | 256 | 0 | 3 | 100.00% | 98.84% | 99.42% |
+
+| 同一批参考上的版本对照 | v5复核修订版 | v6 | v7 |
+|---|---:|---:|---:|
+| 原5篇三类整体F1 | 98.44% | 98.44% | 98.44% |
+| 其余25篇三类整体F1 | 92.96% | 94.34% | 95.98% |
+| 其余25篇景点召回率 | 83.14% | 86.27% | 91.57% |
+
+相较v6，v7新增27项景点名称匹配，分布在9篇中，其中11项来自 `TS_NOTE_002`。固定25篇的原有匹配和未匹配预测集合均保留。两批均参与过开发，真实新景区尚未独立评测。 [原5篇评价](../experiments/exp02_entity_recognition/outputs/evaluation_v7.json) · [25篇v7评价](../experiments/exp02_entity_recognition/outputs/evaluation_v7_remaining25.json) · [25篇v6对照](../experiments/exp02_entity_recognition/outputs/evaluation_v6_remaining25.json)
 
 ## 2. 评分细则逐条审阅校验
 
@@ -36,7 +59,7 @@
 2. ②边界解析：POI指游览相关的可命名地点，含具名站点和地标。交通指移动方式或具名交通线路。时间包含时刻、时长、行程日等。具名索道按交通处理，裸数字、票价及仅有计量单位的表达不按时刻标注。
 3. ③方案取舍：以统一的大类和原文跨度支持下游消费。部分规则子类如 `suffix`、`route_node` 表示识别依据或粒度，细类解释依赖词表和代码。
 
-**【核验证据】**：用「到中天门，乘轻轨7号线，休息四十多分钟。」核验中天门、轻轨7号线、四十多分钟分别进入POI、交通和时间。可在 `entities_TAISHAN_v3.json` 核查中天门的 `gate` 子类，并对照 `tests/test_v3.py` 中的轨道交通及模糊时长用例。
+**【核验证据】**：用「到中天门，乘轻轨7号线，休息四十多分钟。」核验中天门、轻轨7号线、四十多分钟分别进入POI、交通和时间。可在 `entities_TAISHAN_v7.json` 核查中天门的 `gate` 子类，并对照 `tests/test_v3.py` 中的轨道交通及模糊时长用例。
 
 #### 2.2 跨景区定义与易混淆情形
 
@@ -58,29 +81,29 @@
 
 **【评分条款原文】**：1）采用Jieba+自定义词典、规则方法或LLM方法之一完成三类实体识别（15分）
 
-**【完成情况结论】**：【已完成】v3实际执行Jieba、自定义词典及规则识别，三类均有结构化输出。
+**【完成情况结论】**：【已完成】v7复用Jieba和自定义词典，并通过通用规则输出三类结构化实体。
 
 **【代码审阅解析】**
 
-1. ①定位：`recognize_entities.py` 的 `register_lexicon()`、`extract()`，以及 `recognize_v3.py` 的 `extract()`、`occurrences()`、`time_allowed()`。
-2. ②边界解析：v3复用v2候选，再并入原文字符串词典匹配、路线节点、名词词性与地名后缀候选。交通补充同义表达和具名线路，时间由正则匹配后过滤历史日期、非法时刻和非时间用法。最后统一消解重叠。
+1. ①定位：`recognize_v7.py` 的 `extract()`、`proposals()`、`allowed()`，以及复用的 `recognize_v6.extract()` 与 `recognize_entities.register_lexicon()`。
+2. ②边界解析：v7在v6的三类结果上补充POI。通常保留已有跨度，只有明确的全称语境且仅与一个同尾短POI重叠时才扩展，不覆盖交通或时间实体。
 3. ③方案取舍：字符串匹配补偿单次分词的切分问题，词性与上下文帮助控制误识。识别能力取决于词典和规则的覆盖。
 
-**【核验证据】**：`tests/test_v3.py` 的虚构路线「路线：青岚谷→松风亭→云溪站。」预期提取三个POI。用轻轨7号线和四十多分钟用例分别核验交通与时间。实跑结果保存在三份 `entities_<景区>_v3.json`。
+**【核验证据】**：`tests/test_v7.py` 用虚构景区词测试题刻、路线别名、终点站、全称及原文位置；继承规则由v5、v6用例覆盖。实际识别结果见三份 `entities_<景区>_v7.json`。
 
 #### 2.4 景区词和常见表达的覆盖
 
 **【评分条款原文】**：2）词典/规则/Prompt设计合理，能覆盖景区专属词与常见表达（10分）
 
-**【完成情况结论】**：【部分完成】具名景点和常见表达已有覆盖，正文中的长尾地名与旧称存在可核验漏识。
+**【完成情况结论】**：【已完成】v7用通用语境扩充词典外景点，沿用常见交通、时间表达的识别规则。
 
 **【代码审阅解析】**
 
-1. ①定位：`lexicon.json` 的公共及分景区词条，`recognize_v3.py` 的 `POI_END`、`ROUTE_SPLIT`、`ALIAS`、`TRANSPORT`、`TIME_PATTERNS`。
-2. ②边界解析：v3沿用217条词典项。未知POI依赖路线分隔、词性与后缀、带引号的别名等条件。「玉皇顶，旧称太平顶」的旧称无引号，且本例中的太平顶没有被其他规则识别。
-3. ③方案取舍：以可解释的有限候选降低泛称误报。约束会降低自由叙述中长尾专名与别名的召回。
+1. ①定位：`lexicon.json` 的公共及分景区词条，`recognize_v7.py` 的 `TITLES`、`ROUTE_LABEL`、`POI_LIST`、`ROUTE_ROLE`、`FULL_NAME`，以及 `recognize_v6.py` 的 `SEASONS`、`CALENDAR`。
+2. ②边界解析：沿用217条词典项。题刻清单、带引号的路线分段别名、景点名枚举和终点站可提供名称线索。排除「位于」等句法前缀。交通和时间承接v6，其中时间规则已覆盖月底、淡旺季及农历年初。
+3. ③方案取舍：通用句式补充词典外专名，规则无需读取参考标注。缺少到达、命名或路线线索的长尾专名仍可能漏识，词义歧义仍需通过上下文判断。
 
-**【核验证据】**：在 `evaluation_v3_remaining25.json` 对照 `TS_NOTE_001` 的太平顶和 `JYT_NOTE_002` 的北普陀寺。固定25篇参考下POI召回为378/510，即74.12%，交通为113/113，时间为248/259。复核人员应回读原句后区分算法漏识和参考边界差异。
+**【核验证据】**：固定25篇上，景点召回467/510（91.57%），精确率95.89%，交通召回113/113，时间召回256/259。可核查 `TS_NOTE_002` 的「慢十八」[2447,2450) 和题刻「擎天捧日」[4431,4435)，及 `JYT_NOTE_001` 的终点站「静月雅市」[814,818)。评分细目要求覆盖专名和常见表达，未设召回率数值门槛。 [25篇评价及差异明细](../experiments/exp02_entity_recognition/outputs/evaluation_v7_remaining25.json)
 
 #### 2.5 多景区批量运行
 
@@ -90,11 +113,11 @@
 
 **【代码审阅解析】**
 
-1. ①定位：`recognize_v3.py` 的 `main()`、`--scenic`、`--input`、`--outputs`，及 `recognize_entities.py` 的 `SCENICS` 和 `register_lexicon()`。
-2. ②边界解析：默认 `all` 处理三景区，亦可指定其中一项或多项。v3的入口限定现有三个景区编号。抽取使用独立分词器，避免上一个景区的词典改变本景区分词。
-3. ③方案取舍：显式景区配置有利于复现当前交付。扩展到第四个景区需要调整v3入口及相应配置。
+1. ①定位：`recognize_v7.py` 调用 `recognize_v3.main(version='v7', extractor=extract)`，共用 `--scenic`、`--input`、`--outputs` 和 `recognize_entities.py` 的分景区配置。
+2. ②边界解析：`all` 从输入读取实际景区编号，默认数据覆盖三景区，也可指定其中一项或多项。独立分词器隔离景区词典。新景区使用公共词表与规则，并清除旧景区的外部地名过滤项。
+3. ③方案取舍：批量入口可直接接入包含新景区编号的同结构数据。公共规则能运行，真实新景区的识别质量仍需独立验证。
 
-**【核验证据】**：按第3节把输出导向独立目录，核对 `stats_all_v3.json`。三景区各10篇，出现次数分别为834、493、340，总计1667。比较JSON和CSV的记录与计数可核验稳定性。
+**【核验证据】**：按第3节把输出导向独立目录，核对 `stats_all_v7.json`。泰山、张家界武陵源、净月潭各10篇，实体出现次数分别为901、519、348，合计1768。虚构景区编号 `EXAMPLE_NEW` 通过命令行实测，识别出预期的8个词典外景点名。
 
 #### 2.6 实体类型、来源与出现位置
 
@@ -104,11 +127,11 @@
 
 **【代码审阅解析】**
 
-1. ①定位：`recognize_v3.py` 的 `extract()`、内部候选构造和切片断言，`recognize_entities.py` 的 `sentence_of()`、`decorate()`。
-2. ②边界解析：输出保存 `doc_id`、`scenic_id`、`text`、`entity_type`、`subtype`、`start`、`end`、`sentence_id`、`method`、`granularity`、`canonical`，部分词条含 `alias_of`。位置为 `clean_text` 的左闭右开字符区间。每次出现分别输出。
+1. ①定位：`recognize_v7.py` 的 `proposals()` 和 `extract()`、`recognize_entities.py` 的 `sentence_of()` 与 `decorate()`。归一化站名沿用 `recognize_v5.extract()` 的处理。
+2. ②边界解析：输出保存 `doc_id`、`scenic_id`、`text`、`entity_type`、`subtype`、`start`、`end`、`sentence_id`、`method`、`granularity`、`canonical`，部分词条含 `alias_of`。原文跨度保持左闭右开，车站归一化名去掉末尾「站」，如 `text=望潭广场站`、`canonical=望潭广场`。
 3. ③方案取舍：`doc_id`作为来源关联键，避免在每条实体上重复网址。单独传递实体文件时需同时提供可查的源数据索引。
 
-**【核验证据】**：`entities_TAISHAN_v3.json` 中，`TS_OFF_001` 的「中天门」位于 `[237,240)`，类型为POI。对照 `dataset.json` 切片和 `selected_v2_sources.json` 的文档来源。
+**【核验证据】**：`entities_TAISHAN_v7.json` 中，`TS_OFF_001` 的「中天门」位于 `[237,240)`，类型为POI。另查 `entities_JINGYUETAN_v7.json`，`JYT_NOTE_001` 的 `[1802,1807)` 原词为「望潭广场站」，`canonical` 为「望潭广场」。按文档编号从 `dataset.json` 回查切片，并在 `selected_v2_sources.json` 核对文档来源。
 
 ### 识别结果与质量检查（20分）
 
@@ -124,35 +147,35 @@
 2. ②边界解析：实体文件为UTF-8 JSON数组，逐篇及分类型计数写入统计文件。识别结果保留原文形式，`canonical`是类别或归一化信息。
 3. ③方案取舍：JSON便于直接读入后续模块。结构检查依靠字段使用和程序断言，语义对错需另行核验。
 
-**【核验证据】**：读取三份 `entities_<景区>_v3.json`，按类型计数应为POI 1033、交通306、时间328，共1667条，与 `stats_all_v3.json` 一致。
+**【核验证据】**：读取三份 `entities_<景区>_v7.json`，按类型计数为POI 1125、交通304、时间339，共1768条，与 `stats_all_v7.json` 一致。
 
 #### 2.8 人工抽查与错误改进
 
 **【评分条款原文】**：2）人工抽查若干样例，分析误识别、漏识别或歧义实体，并给出基本改进（8分）
 
-**【完成情况结论】**：【部分完成】已有人工复核基础、v3对照评价和改进记录，v3新增结果尚缺单独的人工抽查记录。
+**【完成情况结论】**：【已完成】原五篇有人工复核记录，本轮用户复核了抽查表原先展示的实体，并确认车站名称去掉末尾「站」的标注口径。
 
 **【代码审阅解析】**
 
 1. ①定位：`evaluate.py` 的 `evaluate()`、`prf()`，`evaluate_remaining25.py` 的逐项差异导出，以及 `manual_check.md`、`gold_review.md`、`gold_audit.json`、`v3_improvement.md`。
 2. ②边界解析：原5篇基于用户已复核的记录，后来获授权合入13项审计修订，现有127项。其余25篇882项参考由助手标注。名称级比较按文章、类型、去空白的原文名称去重，具体出现次数及位置不参与名称级判分。
-3. ③方案取舍：历史人工复核可支撑抽查证据，冻结参考便于比较版本。助手判断与新一轮人工抽查的证据强度不同，25篇亦参与开发。
+3. ③方案取舍：复核意见落实到归一化名称字段，原词和位置可继续回溯。评价仍按冻结参考与原词对照，使修订前后的指标可比。
 
-**【核验证据】**：原5篇v3为126匹配、3个预测未匹配、1个参考漏识，F1为98.44%。固定25篇为739、23、143，F1为89.90%。人工验收应从v3输出及差异清单抽查每类的命中、漏识、边界争议，记录文章、位置、判定人、理由及改进前后差异。已有原复核与助手参考应分别引用。
+**【核验证据】**：原5篇v7为126匹配、3个预测未匹配、1个参考漏识，F1为98.44%。其余25篇为836、24、46，F1为95.98%。已将[原抽查表](../experiments/exp02_entity_recognition/outputs/acceptance_review_v3.md#原文抽查)的14段原文逐段与v7核对，完整输出和位置均与表中的v5列一致。人工复核记录仍对应原展示范围，v7新增实体的评价沿用固定参考。
 
 #### 2.9 噪声、重复及类型混乱
 
 **【评分条款原文】**：3）结果无明显大规模噪声、重复或类型混乱（4分）。
 
-**【完成情况结论】**：【部分完成】结构上有去重和去重叠保障，样本中仍存在明确的名称边界噪声。
+**【完成情况结论】**：【已完成】全量结构检查通过，现有参考对照未显示大范围重复或类型混乱，仍有局部的边界及语义错误。
 
 **【代码审阅解析】**
 
-1. ①定位：`recognize_entities.py` 的 `resolve_overlaps()`，`recognize_v3.py` 的 `GENERIC`、`time_allowed()`，及 `test_entities.py` 的结构检查。
+1. ①定位：`recognize_entities.py` 的 `resolve_overlaps()`、`recognize_v7.extract()` 的重叠处理，以及 `tests/test_entities.py` 的结构检查。
 2. ②边界解析：每篇相交候选只保留一项，重复提及在不同位置时分别保存。停用词及时间筛选过滤部分通名、价格和历史日期。短候选在缺乏完整边界证据时仍会留下。
-3. ③方案取舍：最长跨度消解能阻止重复区间，无法单凭跨度判定词义。25篇762个预测名称中有23个未匹配参考，当前证据显示残余错误，是否形成明显系统性噪声仍需人工抽查。
+3. ③方案取舍：最长匹配及重叠筛选阻止重复区间。25篇860个预测名称中有24个未匹配参考，仍包含边界分歧和参考未录入的名称。v7相对v6未增加参考未匹配项。
 
-**【核验证据】**：核对 `evaluation_v3_remaining25.json` 中 `TS_NOTE_002` 的「五岳独尊石」预测与「五岳独尊石刻」参考。人工验收应检查同一类型的其他碑刻或站点条目是否反复出现类似截断。
+**【核验证据】**：`tests/test_entities.py --version v7` 核验三个景区共1768条实体的位置、重复、重叠、分类统计和CSV词频。原5篇和其余25篇的名称级未匹配比例分别为3/129和24/860。
 
 ### 词频可视化与迭代优化（20分）
 
@@ -164,25 +187,25 @@
 
 **【代码审阅解析】**
 
-1. ①定位：`recognize_entities.py` 的 `write_frequency()`、`plot_frequency()`，由 `recognize_v3.py` 的 `main()` 调用。
+1. ①定位：`recognize_entities.py` 的 `write_frequency()`、`plot_frequency()`，由 v7 复用的 `recognize_v3.main()` 调用。
 2. ②边界解析：词频按实体类型、原文名称和归一化类别计数，图按原文名称展示各类Top10。具名索道与泛称可以分别显示。
 3. ③方案取舍：柱状图适合对照高频噪声和实体分布。低频实体需到CSV核查，中文图形呈现受运行环境字体影响。
 
-**【核验证据】**：打开任一景区 `entity_freq_<景区>_v3.csv` 与同名PNG，抽一条高频实体核对图值及CSV。原文名称统计与归一化类别统计应分别解释。
+**【核验证据】**：打开任一景区 `entity_freq_<景区>_v7.csv` 与同名PNG，抽一条高频实体核对图值及CSV。原文名称统计与归一化类别统计应分别解释。
 
 #### 2.11 基于可视化与误差的迭代
 
 **【评分条款原文】**：2）根据可视化结果调整停用词、领域词典或规则，并说明优化前后变化（10分）。
 
-**【完成情况结论】**：【已完成】保留了词频诊断推动v1到v2的改动证据，v3在继承配置后继续以错漏对照改进。
+**【完成情况结论】**：【已完成】保留词频诊断推动v1到v2的改动，后续版本通过对照错漏扩充规则。
 
 **【代码审阅解析】**
 
 1. ①定位：`iteration_log.md` 的历史迭代、`stopwords.json`、`lexicon.json`，以及 `v3_improvement.md`。
-2. ②边界解析：历史词频暴露「115」「2023」等数字噪声与地名碎片，随后调整词典、停用词和时间格式。v3保留该基础，增加词边界、路线节点与交通时间规则。v3的直接改动证据来自漏识对照。
+2. ②边界解析：历史词频暴露「115」「2023」等数字噪声与地名碎片，随后调整词典、停用词和时间格式。v7在此基础上继续补充题刻列举、路线别名和介绍句的全称。
 3. ③方案取舍：词频便于定位高频异常，名称级参考补充对长尾漏识的检查。同批语料上的前后结果用于观察开发变化。
 
-**【核验证据】**：从历史词频图或CSV对比裸数字和显式时刻。固定25篇上，v2到v3的F1由75.50%升至89.90%，POI召回由60.00%升至74.12%。报告应保留原5篇v3 F1从v2的100%降到98.44%的对照，避免只展示改进部分。
+**【核验证据】**：固定25篇上，v2、v6和v7的三类整体F1分别为75.50%、94.34%、95.98%，景点召回分别为60.00%、86.27%、91.57%。v7把「普照寺」的一次截短输出扩展为「泰安普照寺」，并保留该文其他位置的简称命中。
 
 ### 报告与可复现性（10分）
 
@@ -190,36 +213,41 @@
 
 **【评分条款原文】**：说明方法选择、主要参数/词典或Prompt、运行方式、输入输出及代表性结果；关键步骤可被复现（10分）。
 
-**【完成情况结论】**：【部分完成】源码、依赖、命令和结果可核查，正式实验报告尚待汇编。
+**【完成情况结论】**：【部分完成】识别、两批评价及质量检查均可按命令复现，正式实验报告按既定安排暂缓。
 
 **【代码审阅解析】**
 
-1. ①定位：`E2/README.md`、`requirements-lock.txt`、`recognize_v3.py` 与 `evaluate_remaining25.py` 的命令行入口，`evaluate.py:evaluate()`。
-2. ②边界解析：v3识别有独立入口。25篇评价脚本使用保存的参考及哈希，按版本另存结果。原5篇有保存的v3评价，通用评价函数可单独复算，`evaluate.py` 的命令行版本选项仅含v1和v2。
-3. ③方案取舍：固定语料、词典及版本输出便于回查。评价范围须分开呈现，复现原5篇需调用现有函数接口。
+1. ①定位：`E2/README.md`、`requirements-lock.txt`、`recognize_v7.py` 与 `evaluate_remaining25.py` 的命令行入口，`evaluate.py:evaluate()`。
+2. ②边界解析：v7识别有独立入口。25篇评价脚本使用保存的参考及哈希，按版本另存结果。原5篇可通过 `evaluate.py --version v7` 直接复算并保存结果，输出与25篇评价分开。
+3. ③方案取舍：固定语料、词典及版本输出便于回查。评价范围须分开呈现。评估入口复用同一名称级匹配函数，按金标覆盖篇目裁切预测。
 
-**【核验证据】**：正式报告应放置一张流程图、词典公共层与景区层示例、至少一条完整实体JSON及原文位置、三类词频柱状图、v2/v3对比表、原5篇和25篇的标注来源说明、真实错漏证据和复现命令。截图可配合展示，原始JSON和人工复核记录应一并保留。
+**【核验证据】**：现有证据覆盖源数据、词典、实体JSON及词频柱状图、两批评价和错漏原文。复算原五篇得到TP126、FP3、FN1。正式报告可按「原文 → 三类候选 → POI补充与边界调整 → 实体JSON → 词频及评价」配流程图，并附词典分层示例、带偏移的完整实体、[词频图示例](../experiments/exp02_entity_recognition/outputs/entity_freq_TAISHAN_v7.png)、v6/v7对比及两批标注来源。
 
 ## 3. 复现指引（从代码中提取）
 
 1. **依赖包**：`jieba==0.42.1`、`matplotlib==3.11.2`，完整环境见 `requirements-lock.txt`。另使用 `argparse`、`json`、`re`、`collections`、`pathlib`、`csv`、`hashlib` 等标准库。
-2. **运行入口、执行命令**：以下命令在仓库根目录执行。首条生成三景区v3结果，第二条评价固定25篇，第三条运行现有v3规则回归用例。执行时会刷新相应版本的默认输出，识别可加 `--outputs` 指向独立目录。
+2. **运行入口、执行命令**：以下命令在仓库根目录执行。依次生成三景区v7结果、重算原5篇、评价固定25篇、检查产物和运行规则回归。执行时会刷新相应版本的默认输出，识别可加 `--outputs` 指向独立目录。
 
 ```powershell
-& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/recognize_v3.py
-& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate_remaining25.py --version v3
-& .venv/Scripts/python.exe -m unittest discover -s experiments/exp02_entity_recognition/tests -p test_v3.py -v
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/recognize_v7.py
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate.py --version v7
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/src/evaluate_remaining25.py --version v7
+& .venv/Scripts/python.exe experiments/exp02_entity_recognition/tests/test_entities.py --version v7
+& .venv/Scripts/python.exe -m unittest discover -s experiments/exp02_entity_recognition/tests -p test_v7.py -v
 ```
 
-原5篇复核可按三景区分别调用现有 `evaluate.evaluate('v3', scenic, gold_path)`。汇总时加总TP、FP、FN后计算P、R和F1，保存的结果在 `evaluation_v3_sample5.json`。25篇评价入口从默认 `E2/outputs/` 读取预测及冻结标注，需要重新导出参考标注时才执行 `src/build_remaining25_gold.py`。
+原5篇评价把三景区的TP、FP、FN加总后计算P、R和F1，`evaluation_v7.json` 同时保存分景区指标及误差原文位置。25篇评价入口从默认 `E2/outputs/` 读取预测及冻结参考，需要重新导出参考时才执行 `src/build_remaining25_gold.py`。
 
 3. **输入数据路径**：第1节的数据集、词典及停用词。25篇评价另读该节列明的参考标注和清单，核对原文、标签和参考文件哈希。
-4. **输出产物路径**：第1节文件表列明三个景区的JSON、CSV、PNG，及全量统计、原5篇结果、25篇评价和参考产物。v3识别、参考导出与评价是独立步骤。
+4. **输出产物路径**：第1节文件表列明三个景区的JSON、CSV、PNG，及全量统计、原5篇结果、25篇评价和参考产物。v7识别、参考导出与评价是独立步骤。
 5. **关键配置参数**：`--scenic` 默认 `all`，`--input` 默认实验一 `dataset.json`，`--outputs` 默认 `E2/outputs/`。词频图每类Top10。原文跨度左闭右开，名称级评估只移除空白并按文档及类型去重。
+
+在独立目录重跑30篇，13个实体JSON、统计JSON、词频CSV及柱状图的文件哈希均与保存产物一致。v7的结构检查覆盖1768条实体，实验二38项单元测试通过。
 
 ## 4. Review总结：现存问题与扣分预判
 
-1. **部分完成项**：2.4长尾景点覆盖、2.8当前v3人工抽查证据、2.9残余边界噪声、2.12正式报告。12项均有对应实现或材料。
-2. **已知失效边界**：「旧称太平顶」缺少引号仍可漏识，「五岳独尊石刻」可被截为「五岳独尊石」。v3默认批处理限定三个景区。25篇的助手参考和5篇开发样本均不能给出独立新景区指标。
-3. **扣分预判**：主要风险在词典外专名覆盖、v3独立人工抽查及正式报告证据。识别总数1667是出现次数，不能用它替代名称级TP或准确率。评分以老师对条款与证据的核验为准。
+1. **部分完成项**：
+   - **2.12 报告与可复现性（10分）**：识别、两批评价和质量核验已复现。正式报告暂缓，提交时将本文件第2.12条所列样例、图表和命令汇入报告。
+2. **已知失效边界**：缺少明确命名语境的长尾景点及部分时间表达仍有漏识。固定25篇共43个参考景点名和3个时间名未匹配，见 `evaluation_v7_remaining25.json`。两批均参与开发。
+3. **扣分预判**：正式报告证据仍待汇编，老师也可按原文抽查词典外名称和剩余漏识。1768是实体出现次数，名称级指标按篇去重后统计。
 4. **修改建议**：后续可独立抽标未参与调试的游记，按景点全称、简称和旧称记录边界。在冻结评价口径后比较命名规则的召回增益和误报代价。报告应同步补足人工抽查及可复现证据。

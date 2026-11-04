@@ -1362,7 +1362,7 @@
     "sentence_id": 14,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰山站"
+    "canonical": "泰山"
   },
   {
     "doc_id": "TS_OFF_002",
@@ -2481,19 +2481,6 @@
     "method": "lexicon",
     "granularity": "specific",
     "canonical": "后石坞"
-  },
-  {
-    "doc_id": "TS_OFF_005",
-    "scenic_id": "TAISHAN",
-    "text": "华山松",
-    "entity_type": "POI",
-    "subtype": "suffix",
-    "start": 420,
-    "end": 423,
-    "sentence_id": 9,
-    "method": "v3_pos_suffix",
-    "granularity": "specific",
-    "canonical": "华山松"
   },
   {
     "doc_id": "TS_OFF_005",
@@ -4461,6 +4448,19 @@
   {
     "doc_id": "TS_NOTE_001",
     "scenic_id": "TAISHAN",
+    "entity_type": "TIME",
+    "text": "4个多小时",
+    "subtype": "duration",
+    "method": "v5_fuzzy_duration",
+    "start": 1731,
+    "end": 1736,
+    "sentence_id": 74,
+    "granularity": "specific",
+    "canonical": "4个多小时"
+  },
+  {
+    "doc_id": "TS_NOTE_001",
+    "scenic_id": "TAISHAN",
     "text": "十八盘",
     "entity_type": "POI",
     "subtype": "trail",
@@ -5873,7 +5873,7 @@
     "sentence_id": 131,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "中天门客运站"
+    "canonical": "中天门客运"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -5886,7 +5886,7 @@
     "sentence_id": 132,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "中天门客运站"
+    "canonical": "中天门客运"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -5951,7 +5951,7 @@
     "sentence_id": 134,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "天外天客运站"
+    "canonical": "天外天客运"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -5977,7 +5977,7 @@
     "sentence_id": 135,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "天外天客运站"
+    "canonical": "天外天客运"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -6042,7 +6042,7 @@
     "sentence_id": 137,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "天外天客运站"
+    "canonical": "天外天客运"
   },
   {
     "doc_id": "TS_NOTE_001",
@@ -9175,7 +9175,7 @@
     "sentence_id": 1,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰山站"
+    "canonical": "泰山"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -9864,7 +9864,7 @@
     "sentence_id": 29,
     "method": "v3_name_extension",
     "granularity": "specific",
-    "canonical": "中天门客运站"
+    "canonical": "中天门客运"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -10033,7 +10033,7 @@
     "sentence_id": 35,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰安站"
+    "canonical": "泰安"
   },
   {
     "doc_id": "TS_NOTE_003",
@@ -10189,7 +10189,7 @@
     "sentence_id": 5,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰安站"
+    "canonical": "泰安"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -10215,7 +10215,7 @@
     "sentence_id": 6,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰山站"
+    "canonical": "泰山"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -10228,7 +10228,7 @@
     "sentence_id": 6,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰山站"
+    "canonical": "泰山"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -10241,7 +10241,7 @@
     "sentence_id": 6,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰安站"
+    "canonical": "泰安"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -10293,7 +10293,7 @@
     "sentence_id": 8,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰安站"
+    "canonical": "泰安"
   },
   {
     "doc_id": "TS_NOTE_004",
@@ -10319,7 +10319,7 @@
     "sentence_id": 15,
     "method": "lexicon",
     "granularity": "specific",
-    "canonical": "泰安站"
+    "canonical": "泰安"
   },
   {
     "doc_id": "TS_NOTE_004",
