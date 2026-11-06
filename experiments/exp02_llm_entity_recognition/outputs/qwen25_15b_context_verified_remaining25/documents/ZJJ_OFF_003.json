@@ -1,0 +1,57 @@
+{
+  "doc_id": "ZJJ_OFF_003",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 24,
+      "end": 26,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 35,
+      "end": 39,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 154,
+      "end": 158,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天然石拱南天门",
+      "start": 185,
+      "end": 192,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 230,
+      "returned_names": [
+        "东门",
+        "贺龙公园",
+        "天然石拱南天门"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": []
+  }
+}

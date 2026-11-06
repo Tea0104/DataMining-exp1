@@ -1,0 +1,3 @@
+# Run manifests record hashes of file bytes. Preserve the original line endings.
+outputs/** -text whitespace=cr-at-eol
+*.py -text whitespace=cr-at-eol

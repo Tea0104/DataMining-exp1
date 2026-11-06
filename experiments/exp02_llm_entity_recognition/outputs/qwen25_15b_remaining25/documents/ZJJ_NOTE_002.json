@@ -1,0 +1,72 @@
+{
+  "doc_id": "ZJJ_NOTE_002",
+  "entities": [
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "国家森林公园",
+      "start": 189,
+      "end": 195,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "国家森林公园",
+      "start": 197,
+      "end": 203,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 275,
+      "end": 284,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 675,
+      "end": 684,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "国家森林公园",
+      "start": 1016,
+      "end": 1022,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 984,
+      "returned_names": [
+        "国家森林公园",
+        "张家界国家森林公园",
+        "张家界武陵源核心景区"
+      ],
+      "rejected_names": [
+        "张家界武陵源核心景区"
+      ]
+    },
+    {
+      "start": 984,
+      "end": 1078,
+      "returned_names": [
+        "国家森林公园"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

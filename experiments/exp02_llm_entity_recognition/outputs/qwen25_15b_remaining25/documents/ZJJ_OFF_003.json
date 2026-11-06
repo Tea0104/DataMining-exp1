@@ -1,0 +1,64 @@
+{
+  "doc_id": "ZJJ_OFF_003",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "采药老人",
+      "start": 109,
+      "end": 113,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "卧龙岭原始次生林",
+      "start": 121,
+      "end": 129,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 161,
+      "end": 164,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "仙女散花",
+      "start": 172,
+      "end": 176,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天然石拱南天门",
+      "start": 185,
+      "end": 192,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 230,
+      "returned_names": [
+        "采药老人",
+        "卧龙岭原始次生林",
+        "御笔峰",
+        "仙女散花",
+        "天然石拱南天门"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

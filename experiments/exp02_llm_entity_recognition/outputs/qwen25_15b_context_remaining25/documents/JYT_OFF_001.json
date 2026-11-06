@@ -1,0 +1,93 @@
+{
+  "doc_id": "JYT_OFF_001",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门女神广场",
+      "start": 0,
+      "end": 8,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花垂柳园",
+      "start": 16,
+      "end": 21,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "碧松净月塔楼",
+      "start": 27,
+      "end": 33,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "太平钟楼",
+      "start": 34,
+      "end": 38,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝东",
+      "start": 39,
+      "end": 42,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝西",
+      "start": 55,
+      "end": 58,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "中韩友谊林",
+      "start": 59,
+      "end": 64,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门女神广场",
+      "start": 65,
+      "end": 73,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 73,
+      "returned_names": [
+        "景区正门女神广场",
+        "荷花垂柳园",
+        "碧松净月塔楼",
+        "太平钟楼",
+        "大坝东",
+        "大坝西",
+        "中韩友谊林"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

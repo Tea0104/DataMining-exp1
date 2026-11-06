@@ -1,0 +1,74 @@
+{
+  "doc_id": "ZJJ_NOTE_002",
+  "entities": [
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 275,
+      "end": 284,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 517,
+      "end": 519,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "酒店",
+      "start": 1073,
+      "end": 1075,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 524,
+      "returned_names": [
+        "张家界国家森林公园",
+        "东门"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 524,
+      "end": 1065,
+      "returned_names": [
+        "张家界武陵源核心景区"
+      ],
+      "rejected_names": [
+        "张家界武陵源核心景区"
+      ]
+    },
+    {
+      "start": 1065,
+      "end": 1078,
+      "returned_names": [
+        "酒店"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": [
+      {
+        "start": 1065,
+        "end": 1078,
+        "candidates": [
+          "酒店"
+        ],
+        "returned_names": []
+      }
+    ]
+  }
+}

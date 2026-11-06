@@ -1,0 +1,108 @@
+{
+  "doc_id": "ZJJ_OFF_005",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 30,
+      "end": 33,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 34,
+      "end": 39,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 66,
+      "end": 69,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 70,
+      "end": 73,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 74,
+      "end": 77,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 103,
+      "end": 106,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 110,
+      "end": 115,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 124,
+      "end": 127,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 138,
+      "end": 141,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 221,
+      "end": 224,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 257,
+      "returned_names": [
+        "袁家界",
+        "天下第一桥",
+        "杨家界",
+        "天子山"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

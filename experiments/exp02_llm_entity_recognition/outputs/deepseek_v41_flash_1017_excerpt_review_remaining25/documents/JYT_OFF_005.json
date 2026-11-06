@@ -1,0 +1,39 @@
+{
+  "doc_id": "JYT_OFF_005",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门",
+      "start": 1,
+      "end": 5,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "西门",
+      "start": 36,
+      "end": 38,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "景区正门",
+        "2": "西环潭",
+        "3": "水库大坝",
+        "4": "黑松林",
+        "5": "西门"
+      },
+      "rejected_ids": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "doc_id": "ZJJ_OFF_002",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 55,
+      "end": 58,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 87,
+      "end": 90,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 91,
+      "end": 94,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 95,
+      "end": 98,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "空中走廊",
+      "start": 135,
+      "end": 139,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "一步登天",
+      "start": 140,
+      "end": 144,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 166,
+      "end": 169,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 170,
+      "end": 175,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "乱窜坡",
+      "start": 184,
+      "end": 187,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 194,
+      "end": 197,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "袁家界",
+        "2": "杨家界",
+        "3": "金鞭溪",
+        "4": "空中走廊",
+        "5": "一步登天",
+        "6": "乾坤柱",
+        "7": "天下第一桥",
+        "8": "乱窜坡"
+      },
+      "rejected_ids": []
+    }
+  ]
+}

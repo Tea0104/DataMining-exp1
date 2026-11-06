@@ -1,0 +1,10 @@
+{
+  "runtime": "llama.cpp b11887 Vulkan",
+  "model": "Qwen3-4B-Instruct-2507 Q5_K_M",
+  "weights_source": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF",
+  "model_sha256": "5bde5e9d883622acb02bf77fe7dcbc56a8b9a9ad4be78a72ca23a532658b4ecb",
+  "context": 4096,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "threads": 8,
+  "parallel": 1
+}

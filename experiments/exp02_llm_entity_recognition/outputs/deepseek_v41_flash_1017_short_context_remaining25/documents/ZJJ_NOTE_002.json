@@ -1,0 +1,338 @@
+{
+  "doc_id": "ZJJ_NOTE_002",
+  "entities": [
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "国家森林公园",
+      "start": 189,
+      "end": 195,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "国家森林公园",
+      "start": 197,
+      "end": 203,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 275,
+      "end": 284,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山索道",
+      "start": 299,
+      "end": 304,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 326,
+      "end": 329,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 330,
+      "end": 334,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "点将台",
+      "start": 335,
+      "end": 338,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子阁",
+      "start": 359,
+      "end": 362,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里长廊",
+      "start": 369,
+      "end": 373,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里长廊",
+      "start": 492,
+      "end": 496,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里长廊",
+      "start": 507,
+      "end": 511,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 517,
+      "end": 519,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "美食街",
+      "start": 593,
+      "end": 596,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "溪布街",
+      "start": 613,
+      "end": 616,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "索溪河街道",
+      "start": 620,
+      "end": 625,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "张家界国家森林公园",
+      "start": 675,
+      "end": 684,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "百龙天梯",
+      "start": 778,
+      "end": 782,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 843,
+      "end": 846,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "迷魂台",
+      "start": 847,
+      "end": 850,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 851,
+      "end": 854,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 855,
+      "end": 860,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界索道",
+      "start": 910,
+      "end": 915,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 957,
+      "end": 960,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山索道",
+      "start": 963,
+      "end": 968,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 260,
+      "returned_names": [
+        "国家森林公园",
+        "张家界国家森林公园",
+        "天子山索道",
+        "御笔峰",
+        "贺龙公园",
+        "点将台",
+        "天子阁"
+      ],
+      "rejected_names": [
+        "张家界国家森林公园",
+        "天子山索道",
+        "御笔峰",
+        "贺龙公园",
+        "点将台",
+        "天子阁"
+      ]
+    },
+    {
+      "start": 260,
+      "end": 506,
+      "returned_names": [
+        "张家界国家森林公园",
+        "天子山索道",
+        "御笔峰",
+        "贺龙公园",
+        "点将台",
+        "天子阁",
+        "十里长廊",
+        "东门"
+      ],
+      "rejected_names": [
+        "东门"
+      ]
+    },
+    {
+      "start": 506,
+      "end": 750,
+      "returned_names": [
+        "十里长廊",
+        "东门",
+        "美食街",
+        "溪布街",
+        "索溪河街道",
+        "张家界国家森林公园"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 750,
+      "end": 1010,
+      "returned_names": [
+        "百龙天梯",
+        "袁家界",
+        "迷魂台",
+        "乾坤柱",
+        "天下第一桥",
+        "杨家界索道",
+        "天子山",
+        "天子山索道"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 1010,
+      "end": 1078,
+      "returned_names": [],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "ZJJ_NOTE_002",
+        "scenic_id": "WULINGYUAN",
+        "entity_type": "POI",
+        "text": "国家森林公园",
+        "start": 189,
+        "end": 195,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "ZJJ_NOTE_002",
+        "scenic_id": "WULINGYUAN",
+        "entity_type": "POI",
+        "text": "国家森林公园",
+        "start": 197,
+        "end": 203,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 260,
+        "candidates": [
+          "国家森林公园"
+        ],
+        "returned_names": [
+          "国家森林公园"
+        ]
+      },
+      {
+        "start": 506,
+        "end": 750,
+        "candidates": [
+          "美食街",
+          "索溪河街道"
+        ],
+        "returned_names": []
+      }
+    ]
+  }
+}

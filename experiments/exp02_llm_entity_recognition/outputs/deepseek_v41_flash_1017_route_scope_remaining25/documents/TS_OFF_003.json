@@ -1,0 +1,401 @@
+{
+  "doc_id": "TS_OFF_003",
+  "entities": [
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花峪入口",
+      "start": 61,
+      "end": 66,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花源",
+      "start": 67,
+      "end": 70,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花源",
+      "start": 75,
+      "end": 78,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花峪游客中心",
+      "start": 98,
+      "end": 105,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "钓鱼台站点",
+      "start": 106,
+      "end": 111,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "碧峰寺站点",
+      "start": 112,
+      "end": 117,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "彩石溪站点",
+      "start": 118,
+      "end": 123,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "赤鳞溪站点",
+      "start": 124,
+      "end": 129,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红雨川站点",
+      "start": 130,
+      "end": 135,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花源",
+      "start": 138,
+      "end": 141,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "元君庙",
+      "start": 143,
+      "end": 146,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "元君庙",
+      "start": 154,
+      "end": 157,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "龙柏凤松",
+      "start": 234,
+      "end": 238,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "碧峰寺",
+      "start": 292,
+      "end": 295,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "碧峰寺",
+      "start": 306,
+      "end": 309,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "铁佛寺",
+      "start": 320,
+      "end": 323,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "彩石崖",
+      "start": 489,
+      "end": 492,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "彩石谷",
+      "start": 527,
+      "end": 530,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "彩石溪",
+      "start": 551,
+      "end": 554,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花峪",
+      "start": 558,
+      "end": 561,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "彩石溪",
+      "start": 611,
+      "end": 614,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "龙湾",
+      "start": 915,
+      "end": 917,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "龙湾",
+      "start": 919,
+      "end": 921,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "龙湾",
+      "start": 977,
+      "end": 979,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "碧花池",
+      "start": 990,
+      "end": 993,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "一线天",
+      "start": 1079,
+      "end": 1082,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "桃花源停车场",
+      "start": 1092,
+      "end": 1098,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "一线天",
+      "start": 1184,
+      "end": 1187,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "猴愁峪",
+      "start": 1219,
+      "end": 1222,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 240,
+      "returned_names": [
+        "桃花峪入口",
+        "桃花源",
+        "桃花峪游客中心",
+        "钓鱼台站点",
+        "碧峰寺站点",
+        "彩石溪站点",
+        "赤鳞溪站点",
+        "红雨川站点",
+        "元君庙",
+        "龙柏凤松",
+        "碧峰寺",
+        "铁佛寺",
+        "振翅峰"
+      ],
+      "rejected_names": [
+        "铁佛寺",
+        "振翅峰"
+      ]
+    },
+    {
+      "start": 240,
+      "end": 486,
+      "returned_names": [
+        "元君庙",
+        "碧峰寺",
+        "铁佛寺",
+        "彩石溪"
+      ],
+      "rejected_names": [
+        "元君庙",
+        "彩石溪"
+      ]
+    },
+    {
+      "start": 486,
+      "end": 710,
+      "returned_names": [
+        "彩石崖",
+        "彩石谷",
+        "彩石溪",
+        "桃花峪"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 710,
+      "end": 965,
+      "returned_names": [
+        "龙湾"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 965,
+      "end": 1183,
+      "returned_names": [
+        "龙湾",
+        "碧花池",
+        "一线天",
+        "桃花源停车场",
+        "猴愁峪"
+      ],
+      "rejected_names": [
+        "猴愁峪"
+      ]
+    },
+    {
+      "start": 1183,
+      "end": 1229,
+      "returned_names": [
+        "一线天",
+        "猴愁峪"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "TS_OFF_003",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "龙柏凤松",
+        "start": 234,
+        "end": 238,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "TS_OFF_003",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "碧花池",
+        "start": 990,
+        "end": 993,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 240,
+        "candidates": [
+          "龙柏凤松"
+        ],
+        "returned_names": [
+          "龙柏凤松"
+        ]
+      },
+      {
+        "start": 486,
+        "end": 710,
+        "candidates": [
+          "彩石崖"
+        ],
+        "returned_names": [
+          "彩石溪"
+        ]
+      },
+      {
+        "start": 965,
+        "end": 1183,
+        "candidates": [
+          "碧花池"
+        ],
+        "returned_names": [
+          "碧花池"
+        ]
+      }
+    ]
+  }
+}

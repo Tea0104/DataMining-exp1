@@ -1,0 +1,95 @@
+{
+  "models": [
+    "qwen25-15b",
+    "qwen3-4b-2507"
+  ],
+  "input_manifest_sha256": [
+    "ccd48fa87ee56ef011024e65526e61a6ea9393738a82ebde2b0663d76b06ba8f",
+    "f85b7e5aec76a672f5cf730431462088f46fa445c8f71e69843c0754786f89bc"
+  ],
+  "documents": [
+    "JYT_NOTE_001",
+    "JYT_NOTE_002",
+    "JYT_NOTE_003",
+    "JYT_NOTE_004",
+    "JYT_OFF_001",
+    "JYT_OFF_003",
+    "JYT_OFF_004",
+    "JYT_OFF_005",
+    "TS_NOTE_001",
+    "TS_NOTE_002",
+    "TS_NOTE_003",
+    "TS_NOTE_004",
+    "TS_NOTE_005",
+    "TS_OFF_002",
+    "TS_OFF_003",
+    "TS_OFF_004",
+    "TS_OFF_005",
+    "ZJJ_NOTE_001",
+    "ZJJ_NOTE_002",
+    "ZJJ_NOTE_003",
+    "ZJJ_NOTE_004",
+    "ZJJ_OFF_002",
+    "ZJJ_OFF_003",
+    "ZJJ_OFF_004",
+    "ZJJ_OFF_005"
+  ],
+  "evaluation_level": "document_type_surface_name",
+  "scores": {
+    "v7": {
+      "tp": 467,
+      "fp": 20,
+      "fn": 43,
+      "precision": 0.9589,
+      "recall": 0.9157,
+      "f1": 0.9368
+    },
+    "v7_plus_consensus": {
+      "tp": 469,
+      "fp": 25,
+      "fn": 41,
+      "precision": 0.9494,
+      "recall": 0.9196,
+      "f1": 0.9343
+    }
+  },
+  "added_matches": [
+    [
+      "TS_OFF_005",
+      "POI",
+      "白猿墓"
+    ],
+    [
+      "ZJJ_NOTE_004",
+      "POI",
+      "西门"
+    ]
+  ],
+  "added_unmatched_predictions": [
+    [
+      "JYT_NOTE_001",
+      "POI",
+      "净月潭公园"
+    ],
+    [
+      "TS_NOTE_001",
+      "POI",
+      "检票口"
+    ],
+    [
+      "TS_NOTE_005",
+      "POI",
+      "摩崖"
+    ],
+    [
+      "ZJJ_NOTE_001",
+      "POI",
+      "富蓝特·和酒店"
+    ],
+    [
+      "ZJJ_NOTE_004",
+      "POI",
+      "西游记取景处"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "documents": [
+    "JYT_NOTE_001",
+    "JYT_NOTE_002",
+    "JYT_NOTE_003",
+    "JYT_NOTE_004",
+    "JYT_OFF_001",
+    "JYT_OFF_003",
+    "JYT_OFF_004",
+    "JYT_OFF_005",
+    "TS_NOTE_001",
+    "TS_NOTE_002",
+    "TS_NOTE_003",
+    "TS_NOTE_004",
+    "TS_NOTE_005",
+    "TS_OFF_002",
+    "TS_OFF_003",
+    "TS_OFF_004",
+    "TS_OFF_005",
+    "ZJJ_NOTE_001",
+    "ZJJ_NOTE_002",
+    "ZJJ_NOTE_003",
+    "ZJJ_NOTE_004",
+    "ZJJ_OFF_002",
+    "ZJJ_OFF_003",
+    "ZJJ_OFF_004",
+    "ZJJ_OFF_005"
+  ],
+  "input_sha256": "f92e434fb12f8d88c37a8fae8ea56a3749402c0398df06b34ff31534ae251b35",
+  "source_entities_sha256": "d4fe597af6e0564a6bb25adda640cc64ed28dced4cfc4a3c7a26a12ee6656f2a",
+  "reference_sha256": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85",
+  "runner_sha256": "7ebefb50c4527f20a595f71718f265b56865518fcd283902e5bbbc4a60f6dca3"
+}

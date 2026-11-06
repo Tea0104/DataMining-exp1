@@ -1,0 +1,138 @@
+{
+  "doc_id": "JYT_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭站",
+      "start": 348,
+      "end": 352,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门",
+      "start": 626,
+      "end": 630,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 739,
+      "end": 743,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 744,
+      "end": 749,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 793,
+      "end": 797,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 829,
+      "end": 833,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 919,
+      "end": 923,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 1023,
+      "end": 1028,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 1029,
+      "end": 1033,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 1035,
+      "end": 1040,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 1055,
+      "end": 1059,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "亚泰饭店",
+        "2": "人民广场地铁站",
+        "3": "卫星广场站",
+        "4": "净月潭站",
+        "5": "净月潭公园",
+        "6": "景区正门",
+        "7": "游客中心",
+        "8": "湿地公园",
+        "9": "高尔夫球场",
+        "10": "女神广场",
+        "11": "森林浴场",
+        "12": "步行栈道"
+      },
+      "rejected_ids": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "7",
+        "12"
+      ]
+    },
+    {
+      "candidates": {
+        "1": "水库大坝"
+      },
+      "rejected_ids": [
+        "1"
+      ]
+    }
+  ]
+}

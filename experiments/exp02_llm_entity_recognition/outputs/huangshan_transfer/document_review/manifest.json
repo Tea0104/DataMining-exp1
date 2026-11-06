@@ -1,0 +1,16 @@
+{
+  "model": "deepseek-flash",
+  "evidence": "document",
+  "input_sha256": "cd781ff6d3bd71a39ed0d44d3c660eb89fbeb34224d96410f3ffc35329a24d46",
+  "documents": [
+    "HS_NOTE_001",
+    "HS_OFF_001"
+  ],
+  "source_entities_sha256": [
+    "fc5430800983b603f1b15d1de814c8e82b475e0b2403bcd79d9f7b47403c7d23",
+    "942edc9db00b599c1325dc46065ca07cac57375d71bc8dbd217be8db4cde255e"
+  ],
+  "prompt_sha256": "651de6fdee525f55a8286a16bedd15f6f73fc5c7ac5f8be2a26a5b758ed5edd2",
+  "runner_sha256": "07ca30a2d0754cb0df68ca060c4c00e84e1637308c2c21816a088d3a9053894e",
+  "client_sha256": "e46c0d50fe276f7026a5b6f9576a42c244f2087b1a5afe6b513ddbda26ca4251"
+}

@@ -1,0 +1,113 @@
+{
+  "doc_id": "TS_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 147,
+      "end": 150,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 161,
+      "end": 164,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 177,
+      "end": 180,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 190,
+      "end": 193,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 247,
+      "end": 250,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "乔治米兰迪酒店*泰安泰山店",
+      "start": 312,
+      "end": 325,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 466,
+      "end": 469,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门登山入口",
+      "start": 749,
+      "end": 755,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 761,
+      "end": 764,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门登山口",
+      "start": 822,
+      "end": 827,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "泰安站",
+        "2": "泰山站",
+        "3": "乔治米兰迪酒店*泰安泰山店",
+        "4": "万仙楼登山入口",
+        "5": "红门登山入口",
+        "6": "玉皇顶",
+        "7": "红门登山口",
+        "8": "北京南站"
+      },
+      "rejected_ids": [
+        "4",
+        "8"
+      ]
+    }
+  ]
+}

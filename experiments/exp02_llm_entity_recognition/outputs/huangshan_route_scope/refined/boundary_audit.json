@@ -1,0 +1,58 @@
+{
+  "HS_NOTE_001": [
+    {
+      "before": "云谷寺索道",
+      "start": 165,
+      "after": []
+    },
+    {
+      "before": "云谷索道下端",
+      "start": 2564,
+      "after": []
+    },
+    {
+      "before": null,
+      "start": 115,
+      "after": [
+        "后山"
+      ]
+    },
+    {
+      "before": null,
+      "start": 120,
+      "after": [
+        "前山"
+      ]
+    },
+    {
+      "before": null,
+      "start": 2181,
+      "after": [
+        "前山"
+      ]
+    },
+    {
+      "before": null,
+      "start": 2198,
+      "after": [
+        "后山"
+      ]
+    },
+    {
+      "before": null,
+      "start": 2379,
+      "after": [
+        "前山"
+      ]
+    }
+  ],
+  "HS_OFF_001": [
+    {
+      "before": null,
+      "start": 26,
+      "after": [
+        "后山"
+      ]
+    }
+  ]
+}

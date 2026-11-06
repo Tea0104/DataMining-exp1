@@ -1,0 +1,136 @@
+{
+  "doc_id": "ZJJ_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "张家界市区",
+      "start": 152,
+      "end": 157,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "南门",
+      "start": 241,
+      "end": 243,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "南门",
+      "start": 245,
+      "end": 247,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 248,
+      "end": 250,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "水绕四门",
+      "start": 568,
+      "end": 572,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 578,
+      "end": 580,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 1055,
+      "end": 1058,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 1059,
+      "end": 1062,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "百龙天梯",
+      "start": 1099,
+      "end": 1103,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "百龙天梯",
+      "start": 1154,
+      "end": 1158,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 1179,
+      "end": 1182,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 536,
+      "returned_names": [
+        "张家界市区",
+        "南门",
+        "东门"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 536,
+      "end": 1052,
+      "returned_names": [
+        "水绕四门",
+        "东门"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 1052,
+      "end": 1212,
+      "returned_names": [
+        "天子山",
+        "袁家界",
+        "百龙天梯",
+        "杨家界"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

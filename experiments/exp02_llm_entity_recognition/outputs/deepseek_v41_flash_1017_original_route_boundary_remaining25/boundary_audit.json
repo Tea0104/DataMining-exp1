@@ -1,0 +1,581 @@
+{
+  "JYT_NOTE_001": [
+    {
+      "before": "吉林广电地铁",
+      "start": 187,
+      "after": []
+    },
+    {
+      "before": "公园入口",
+      "start": 252,
+      "after": []
+    },
+    {
+      "before": "主入口",
+      "start": 767,
+      "after": []
+    },
+    {
+      "before": "主入口",
+      "start": 782,
+      "after": []
+    },
+    {
+      "before": "码头",
+      "start": 936,
+      "after": []
+    },
+    {
+      "before": "木栈道",
+      "start": 1564,
+      "after": []
+    },
+    {
+      "before": "木栈道",
+      "start": 1594,
+      "after": []
+    },
+    {
+      "before": "木栈道",
+      "start": 1722,
+      "after": []
+    },
+    {
+      "before": "木栈道",
+      "start": 1747,
+      "after": []
+    },
+    {
+      "before": "芦苇荡",
+      "start": 2830,
+      "after": []
+    },
+    {
+      "before": "芦苇荡",
+      "start": 2842,
+      "after": []
+    },
+    {
+      "before": "码头",
+      "start": 2975,
+      "after": []
+    },
+    {
+      "before": "码头",
+      "start": 2995,
+      "after": []
+    }
+  ],
+  "JYT_NOTE_002": [
+    {
+      "before": "停车场",
+      "start": 38,
+      "after": []
+    },
+    {
+      "before": "终点站",
+      "start": 401,
+      "after": []
+    },
+    {
+      "before": "起点站",
+      "start": 459,
+      "after": []
+    },
+    {
+      "before": "出口",
+      "start": 1048,
+      "after": []
+    },
+    {
+      "before": "停车场",
+      "start": 1064,
+      "after": []
+    },
+    {
+      "before": "停车场",
+      "start": 1075,
+      "after": []
+    }
+  ],
+  "JYT_NOTE_003": [
+    {
+      "before": "净月潭公园",
+      "start": 608,
+      "after": []
+    },
+    {
+      "before": "游客中心",
+      "start": 658,
+      "after": []
+    },
+    {
+      "before": "步行栈道",
+      "start": 926,
+      "after": []
+    }
+  ],
+  "JYT_NOTE_004": [
+    {
+      "before": "荷花池",
+      "start": 180,
+      "after": []
+    },
+    {
+      "before": "荷花池",
+      "start": 334,
+      "after": []
+    },
+    {
+      "before": "公路",
+      "start": 376,
+      "after": []
+    },
+    {
+      "before": "公路",
+      "start": 398,
+      "after": []
+    },
+    {
+      "before": "大坝",
+      "start": 416,
+      "after": []
+    },
+    {
+      "before": "水塔",
+      "start": 434,
+      "after": []
+    },
+    {
+      "before": "徒步栈道",
+      "start": 515,
+      "after": []
+    }
+  ],
+  "JYT_OFF_001": [
+    {
+      "before": "景区正门女神广场",
+      "start": 0,
+      "after": [
+        "景区正门",
+        "女神广场"
+      ]
+    },
+    {
+      "before": "景区正门女神广场",
+      "start": 65,
+      "after": [
+        "景区正门",
+        "女神广场"
+      ]
+    }
+  ],
+  "JYT_OFF_003": [
+    {
+      "before": "景区正门女神广场",
+      "start": 0,
+      "after": [
+        "景区正门",
+        "女神广场"
+      ]
+    },
+    {
+      "before": "景区正门女神广场",
+      "start": 142,
+      "after": [
+        "景区正门",
+        "女神广场"
+      ]
+    }
+  ],
+  "JYT_OFF_004": [
+    {
+      "before": "景区正门女神广场",
+      "start": 0,
+      "after": [
+        "景区正门",
+        "女神广场"
+      ]
+    },
+    {
+      "before": "景区正门女神广场",
+      "start": 87,
+      "after": [
+        "景区正门",
+        "女神广场"
+      ]
+    }
+  ],
+  "TS_NOTE_001": [
+    {
+      "before": "红门登山起点",
+      "start": 439,
+      "after": [
+        "红门"
+      ]
+    },
+    {
+      "before": "关帝庙入口",
+      "start": 484,
+      "after": [
+        "关帝庙"
+      ]
+    },
+    {
+      "before": "戏台",
+      "start": 499,
+      "after": []
+    },
+    {
+      "before": "古槐",
+      "start": 502,
+      "after": []
+    },
+    {
+      "before": "检票口",
+      "start": 828,
+      "after": []
+    },
+    {
+      "before": "检票口",
+      "start": 853,
+      "after": []
+    },
+    {
+      "before": "检票口",
+      "start": 947,
+      "after": []
+    },
+    {
+      "before": "红门入口",
+      "start": 1500,
+      "after": [
+        "红门"
+      ]
+    },
+    {
+      "before": "景交车换乘站",
+      "start": 1879,
+      "after": []
+    },
+    {
+      "before": "索道上站",
+      "start": 2009,
+      "after": []
+    },
+    {
+      "before": "索道站",
+      "start": 2452,
+      "after": []
+    },
+    {
+      "before": "索道站",
+      "start": 3235,
+      "after": []
+    }
+  ],
+  "TS_NOTE_002": [
+    {
+      "before": "天外村入口",
+      "start": 1150,
+      "after": [
+        "天外村"
+      ]
+    },
+    {
+      "before": "照壁",
+      "start": 3662,
+      "after": []
+    },
+    {
+      "before": "大殿",
+      "start": 3680,
+      "after": []
+    },
+    {
+      "before": "西配殿",
+      "start": 3706,
+      "after": []
+    },
+    {
+      "before": "吊桥",
+      "start": 5689,
+      "after": []
+    },
+    {
+      "before": "K19公交站",
+      "start": 5965,
+      "after": []
+    }
+  ],
+  "TS_NOTE_003": [
+    {
+      "before": "石刻唐摩崖",
+      "start": 236,
+      "after": [
+        "唐摩崖"
+      ]
+    },
+    {
+      "before": "天外村景区出口",
+      "start": 477,
+      "after": [
+        "天外村"
+      ]
+    }
+  ],
+  "TS_NOTE_004": [
+    {
+      "before": "乔治米兰迪酒店*泰安泰山店",
+      "start": 312,
+      "after": [
+        "乔治米兰迪酒店"
+      ]
+    },
+    {
+      "before": "万仙楼登山入口",
+      "start": 641,
+      "after": [
+        "万仙楼"
+      ]
+    },
+    {
+      "before": "红门登山入口",
+      "start": 749,
+      "after": [
+        "红门"
+      ]
+    },
+    {
+      "before": "红门登山口",
+      "start": 822,
+      "after": [
+        "红门"
+      ]
+    }
+  ],
+  "TS_NOTE_005": [
+    {
+      "before": "摩崖",
+      "start": 683,
+      "after": []
+    }
+  ],
+  "TS_OFF_003": [
+    {
+      "before": "桃花峪入口",
+      "start": 61,
+      "after": [
+        "桃花峪"
+      ]
+    },
+    {
+      "before": "钓鱼台站点",
+      "start": 106,
+      "after": [
+        "钓鱼台"
+      ]
+    },
+    {
+      "before": "碧峰寺站点",
+      "start": 112,
+      "after": [
+        "碧峰寺"
+      ]
+    },
+    {
+      "before": "彩石溪站点",
+      "start": 118,
+      "after": [
+        "彩石溪"
+      ]
+    },
+    {
+      "before": "赤鳞溪站点",
+      "start": 124,
+      "after": [
+        "赤鳞溪"
+      ]
+    },
+    {
+      "before": "红雨川站点",
+      "start": 130,
+      "after": [
+        "红雨川"
+      ]
+    }
+  ],
+  "TS_OFF_005": [
+    {
+      "before": "山门",
+      "start": 1280,
+      "after": []
+    },
+    {
+      "before": "正殿",
+      "start": 1283,
+      "after": []
+    },
+    {
+      "before": "配殿",
+      "start": 1286,
+      "after": []
+    },
+    {
+      "before": "正殿",
+      "start": 1297,
+      "after": []
+    },
+    {
+      "before": "正殿",
+      "start": 1346,
+      "after": []
+    },
+    {
+      "before": "东配殿",
+      "start": 1349,
+      "after": []
+    },
+    {
+      "before": "正殿",
+      "start": 1361,
+      "after": []
+    },
+    {
+      "before": "正殿",
+      "start": 1373,
+      "after": []
+    },
+    {
+      "before": "东配殿",
+      "start": 1411,
+      "after": []
+    }
+  ],
+  "ZJJ_NOTE_001": [
+    {
+      "before": "富蓝特·和酒店（张家界天门山店）",
+      "start": 147,
+      "after": [
+        "富蓝特·和酒店"
+      ]
+    },
+    {
+      "before": "天门山索道A线",
+      "start": 174,
+      "after": []
+    },
+    {
+      "before": "柏曼国际酒店（张家界国家森林公园标志门店）",
+      "start": 551,
+      "after": [
+        "柏曼国际酒店"
+      ]
+    },
+    {
+      "before": "A线索道乘车点",
+      "start": 766,
+      "after": []
+    },
+    {
+      "before": "天子山的环保车乘车点",
+      "start": 784,
+      "after": []
+    },
+    {
+      "before": "百龙电梯",
+      "start": 1247,
+      "after": []
+    },
+    {
+      "before": "百龙电梯",
+      "start": 1344,
+      "after": []
+    },
+    {
+      "before": "百龙电梯",
+      "start": 1349,
+      "after": []
+    },
+    {
+      "before": "百龙电梯",
+      "start": 1470,
+      "after": []
+    },
+    {
+      "before": "百龙电梯",
+      "start": 1479,
+      "after": []
+    },
+    {
+      "before": "黄石寨的索道站",
+      "start": 1790,
+      "after": []
+    },
+    {
+      "before": "富蓝特·和酒店（张家界天门山店）",
+      "start": 2149,
+      "after": [
+        "富蓝特·和酒店"
+      ]
+    }
+  ],
+  "ZJJ_NOTE_002": [
+    {
+      "before": "天子山索道",
+      "start": 299,
+      "after": []
+    },
+    {
+      "before": "百龙天梯",
+      "start": 778,
+      "after": []
+    },
+    {
+      "before": "杨家界索道",
+      "start": 910,
+      "after": []
+    },
+    {
+      "before": "天子山索道",
+      "start": 963,
+      "after": []
+    }
+  ],
+  "ZJJ_NOTE_003": [
+    {
+      "before": "百龙天梯",
+      "start": 1099,
+      "after": []
+    }
+  ],
+  "ZJJ_NOTE_004": [
+    {
+      "before": "杨家界索道",
+      "start": 1586,
+      "after": []
+    },
+    {
+      "before": "天子山索道",
+      "start": 1592,
+      "after": []
+    },
+    {
+      "before": "黄石寨索道",
+      "start": 1598,
+      "after": []
+    }
+  ],
+  "ZJJ_OFF_005": [
+    {
+      "before": "百龙天梯",
+      "start": 205,
+      "after": []
+    },
+    {
+      "before": "天子山索道",
+      "start": 221,
+      "after": []
+    }
+  ]
+}

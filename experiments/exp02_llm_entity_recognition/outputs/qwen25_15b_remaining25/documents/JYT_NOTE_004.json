@@ -1,0 +1,29 @@
+{
+  "doc_id": "JYT_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭国家森林公园",
+      "start": 9,
+      "end": 18,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 960,
+      "returned_names": [
+        "净月潭国家森林公园",
+        "白藤桥",
+        "石虹桥"
+      ],
+      "rejected_names": [
+        "白藤桥",
+        "石虹桥"
+      ]
+    }
+  ]
+}

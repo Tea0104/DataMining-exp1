@@ -1,0 +1,315 @@
+{
+  "doc_id": "JYT_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭国家森林公园",
+      "start": 9,
+      "end": 18,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "草坪",
+      "start": 247,
+      "end": 249,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "草坪",
+      "start": 299,
+      "end": 301,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花池",
+      "start": 334,
+      "end": 337,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "公路",
+      "start": 376,
+      "end": 378,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "公路",
+      "start": 398,
+      "end": 400,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝",
+      "start": 416,
+      "end": 418,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "水塔",
+      "start": 434,
+      "end": 436,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "徒步栈道",
+      "start": 515,
+      "end": 519,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "环潭公路",
+      "start": 545,
+      "end": 549,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "环潭公路",
+      "start": 607,
+      "end": 611,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "观光车",
+      "start": 631,
+      "end": 634,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "电动车",
+      "start": 657,
+      "end": 660,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭风景名胜区",
+      "start": 771,
+      "end": 779,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 869,
+      "end": 872,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 194,
+      "returned_names": [
+        "净月潭国家森林公园"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 194,
+      "end": 451,
+      "returned_names": [
+        "草坪",
+        "荷花池",
+        "公路",
+        "大坝",
+        "水塔"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 451,
+      "end": 695,
+      "returned_names": [
+        "环潭公路",
+        "徒步栈道",
+        "观光车",
+        "电动车",
+        "净月潭风景名胜区",
+        "净月大街"
+      ],
+      "rejected_names": [
+        "净月潭风景名胜区",
+        "净月大街"
+      ]
+    },
+    {
+      "start": 695,
+      "end": 924,
+      "returned_names": [
+        "净月潭风景名胜区",
+        "净月潭"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 924,
+      "end": 960,
+      "returned_names": [],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "草坪",
+        "start": 247,
+        "end": 249,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "草坪",
+        "start": 299,
+        "end": 301,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "荷花池",
+        "start": 334,
+        "end": 337,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "公路",
+        "start": 376,
+        "end": 378,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "公路",
+        "start": 398,
+        "end": 400,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "大坝",
+        "start": 416,
+        "end": 418,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "环潭公路",
+        "start": 545,
+        "end": 549,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "环潭公路",
+        "start": 607,
+        "end": 611,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 194,
+        "candidates": [
+          "净月潭国家森林公园"
+        ],
+        "returned_names": []
+      },
+      {
+        "start": 194,
+        "end": 451,
+        "candidates": [
+          "草坪",
+          "荷花池",
+          "公路",
+          "大坝",
+          "水塔"
+        ],
+        "returned_names": [
+          "草坪",
+          "荷花池",
+          "公路",
+          "大坝"
+        ]
+      },
+      {
+        "start": 451,
+        "end": 695,
+        "candidates": [
+          "环潭公路"
+        ],
+        "returned_names": [
+          "环潭公路"
+        ]
+      },
+      {
+        "start": 695,
+        "end": 924,
+        "candidates": [
+          "净月潭风景名胜区",
+          "净月潭"
+        ],
+        "returned_names": []
+      }
+    ]
+  }
+}

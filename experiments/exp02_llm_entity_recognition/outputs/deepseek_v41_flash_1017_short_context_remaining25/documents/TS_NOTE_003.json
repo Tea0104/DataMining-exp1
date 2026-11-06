@@ -1,0 +1,407 @@
+{
+  "doc_id": "TS_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 17,
+      "end": 20,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门",
+      "start": 32,
+      "end": 34,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "一天门",
+      "start": 50,
+      "end": 53,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "万仙楼",
+      "start": 60,
+      "end": 63,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "中天门",
+      "start": 74,
+      "end": 77,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "挪瓦咖啡",
+      "start": 84,
+      "end": 88,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "十八盘",
+      "start": 103,
+      "end": 106,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "南天门",
+      "start": 114,
+      "end": 117,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "过街阁",
+      "start": 148,
+      "end": 151,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 159,
+      "end": 162,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "无字碑",
+      "start": 170,
+      "end": 173,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "五岳独尊石",
+      "start": 181,
+      "end": 186,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "孔子小天下处",
+      "start": 189,
+      "end": 195,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "日观峰",
+      "start": 203,
+      "end": 206,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "瞻鲁台",
+      "start": 214,
+      "end": 217,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "碧霞祠",
+      "start": 225,
+      "end": 228,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "石刻唐摩崖",
+      "start": 236,
+      "end": 241,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "青帝宫",
+      "start": 249,
+      "end": 252,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "孔子庙",
+      "start": 260,
+      "end": 263,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "西天门",
+      "start": 271,
+      "end": 274,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "北天门",
+      "start": 334,
+      "end": 337,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "后石坞",
+      "start": 338,
+      "end": 341,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "中天门客运站",
+      "start": 459,
+      "end": 465,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "天外村景区出口",
+      "start": 477,
+      "end": 484,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 489,
+      "end": 491,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱宗坊",
+      "start": 494,
+      "end": 497,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 521,
+      "end": 523,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "正阳门",
+      "start": 555,
+      "end": 558,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "厚载门",
+      "start": 560,
+      "end": 563,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙广场",
+      "start": 576,
+      "end": 580,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱宗坊",
+      "start": 585,
+      "end": 588,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 609,
+      "end": 612,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 254,
+      "returned_names": [
+        "泰山站",
+        "红门",
+        "一天门",
+        "万仙楼",
+        "中天门",
+        "挪瓦咖啡",
+        "十八盘",
+        "南天门",
+        "过街阁",
+        "玉皇顶",
+        "无字碑",
+        "五岳独尊石",
+        "孔子小天下处",
+        "日观峰",
+        "瞻鲁台",
+        "碧霞祠",
+        "石刻唐摩崖",
+        "青帝宫"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 254,
+      "end": 513,
+      "returned_names": [
+        "孔子庙",
+        "西天门",
+        "北天门",
+        "后石坞",
+        "中天门客运站",
+        "天外村景区出口",
+        "岱庙",
+        "岱宗坊",
+        "正阳门",
+        "厚载门",
+        "岱庙广场",
+        "泰安站"
+      ],
+      "rejected_names": [
+        "正阳门",
+        "厚载门",
+        "岱庙广场",
+        "泰安站"
+      ]
+    },
+    {
+      "start": 513,
+      "end": 749,
+      "returned_names": [
+        "岱庙",
+        "正阳门",
+        "厚载门",
+        "岱庙广场",
+        "岱宗坊",
+        "泰安站"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 749,
+      "end": 936,
+      "returned_names": [],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "TS_NOTE_003",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "孔子小天下处",
+        "start": 189,
+        "end": 195,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "TS_NOTE_003",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "厚载门",
+        "start": 560,
+        "end": 563,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 254,
+        "candidates": [
+          "孔子小天下处"
+        ],
+        "returned_names": [
+          "孔子小天下处"
+        ]
+      },
+      {
+        "start": 513,
+        "end": 749,
+        "candidates": [
+          "厚载门"
+        ],
+        "returned_names": [
+          "厚载门"
+        ]
+      }
+    ]
+  }
+}

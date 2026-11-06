@@ -1,0 +1,63 @@
+{
+  "doc_id": "JYT_OFF_003",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭滑雪场",
+      "start": 50,
+      "end": 56,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "中国瓦萨博物馆",
+      "start": 60,
+      "end": 67,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "东环潭",
+      "start": 89,
+      "end": 92,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "东环潭",
+      "start": 121,
+      "end": 124,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花垂柳",
+      "start": 129,
+      "end": 133,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 150,
+      "returned_names": [
+        "净月潭滑雪场",
+        "中国瓦萨博物馆",
+        "东环潭",
+        "荷花垂柳"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

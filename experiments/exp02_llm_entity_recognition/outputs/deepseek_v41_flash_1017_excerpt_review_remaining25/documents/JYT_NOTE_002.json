@@ -1,0 +1,118 @@
+{
+  "doc_id": "JYT_NOTE_002",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴站",
+      "start": 291,
+      "end": 295,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "观潭山站",
+      "start": 337,
+      "end": 341,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "观潭山站",
+      "start": 369,
+      "end": 373,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "西坝站",
+      "start": 420,
+      "end": 423,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "北普陀寺",
+      "start": 434,
+      "end": 438,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "北普陀寺",
+      "start": 561,
+      "end": 565,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 578,
+      "end": 583,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "北普陀寺",
+      "start": 603,
+      "end": 607,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 668,
+      "end": 673,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 691,
+      "end": 696,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "停车场",
+        "2": "森林浴站",
+        "3": "观潭山站",
+        "4": "终点站",
+        "5": "西坝站",
+        "6": "北普陀寺",
+        "7": "起点站",
+        "8": "瓦萨博物馆",
+        "9": "大门口",
+        "10": "出口"
+      },
+      "rejected_ids": [
+        "1",
+        "4",
+        "7",
+        "9",
+        "10"
+      ]
+    }
+  ]
+}

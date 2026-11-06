@@ -1,0 +1,237 @@
+{
+  "doc_id": "TS_OFF_004",
+  "entities": [
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "东御道牌坊",
+      "start": 0,
+      "end": 5,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "东御道牌坊",
+      "start": 7,
+      "end": 12,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "青阳堂",
+      "start": 264,
+      "end": 267,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "青阳堂",
+      "start": 269,
+      "end": 272,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "未央湖",
+      "start": 279,
+      "end": 282,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "青阳堂",
+      "start": 323,
+      "end": 326,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "青阳堂",
+      "start": 483,
+      "end": 486,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "汉阙广场",
+      "start": 489,
+      "end": 493,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "汉阙门",
+      "start": 569,
+      "end": 572,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "汉阙门",
+      "start": 707,
+      "end": 710,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "汉阙门",
+      "start": 746,
+      "end": 749,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "汉御古道",
+      "start": 756,
+      "end": 760,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "甘泉榭",
+      "start": 787,
+      "end": 790,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "甘泉榭",
+      "start": 792,
+      "end": 795,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "甘泉榭",
+      "start": 824,
+      "end": 827,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "甘泉榭",
+      "start": 942,
+      "end": 945,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "启天亭",
+      "start": 948,
+      "end": 951,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "启天亭",
+      "start": 953,
+      "end": 956,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "启天亭",
+      "start": 989,
+      "end": 992,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "未央湖",
+      "start": 1056,
+      "end": 1059,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "未央湖",
+      "start": 1061,
+      "end": 1064,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_OFF_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "未央湖",
+      "start": 1110,
+      "end": 1113,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "东御道牌坊",
+        "2": "泰山东御道坊",
+        "3": "泰山东御道",
+        "4": "青阳堂",
+        "5": "未央湖",
+        "6": "明堂",
+        "7": "汉阙广场",
+        "8": "石阙",
+        "9": "东御道",
+        "10": "汉阙门",
+        "11": "汉御古道",
+        "12": "甘泉榭",
+        "13": "甘泉瀑",
+        "14": "肝化泉",
+        "15": "甘泉宫",
+        "16": "启天亭",
+        "17": "上梨园村"
+      },
+      "rejected_ids": [
+        "2",
+        "3",
+        "6",
+        "8",
+        "9",
+        "13",
+        "14",
+        "15",
+        "17"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "doc_id": "JYT_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "人民广场",
+      "start": 31,
+      "end": 35,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "亚泰饭店",
+      "start": 38,
+      "end": 42,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "人民广场",
+      "start": 44,
+      "end": 48,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "人民广场地铁站",
+      "start": 148,
+      "end": 155,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "卫星广场站",
+      "start": 338,
+      "end": 343,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭站",
+      "start": 348,
+      "end": 352,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门",
+      "start": 626,
+      "end": 630,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 793,
+      "end": 797,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 829,
+      "end": 833,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 919,
+      "end": 923,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 1023,
+      "end": 1028,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 1029,
+      "end": 1033,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 1035,
+      "end": 1040,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 1055,
+      "end": 1059,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "水库大坝",
+      "start": 1090,
+      "end": 1094,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 232,
+      "returned_names": [
+        "人民广场",
+        "亚泰饭店",
+        "人民广场地铁站",
+        "卫星广场"
+      ],
+      "rejected_names": [
+        "卫星广场"
+      ]
+    },
+    {
+      "start": 232,
+      "end": 438,
+      "returned_names": [
+        "卫星广场站",
+        "净月潭站"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 438,
+      "end": 669,
+      "returned_names": [
+        "净月潭公园站",
+        "景区正门"
+      ],
+      "rejected_names": [
+        "净月潭公园站"
+      ]
+    },
+    {
+      "start": 669,
+      "end": 919,
+      "returned_names": [
+        "女神广场",
+        "森林浴场"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 919,
+      "end": 1130,
+      "returned_names": [
+        "森林浴场",
+        "高尔夫球场",
+        "湿地公园",
+        "水库大坝"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 1130,
+      "end": 1251,
+      "returned_names": [],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 232,
+        "candidates": [
+          "人民广场",
+          "亚泰饭店"
+        ],
+        "returned_names": []
+      },
+      {
+        "start": 232,
+        "end": 438,
+        "candidates": [
+          "卫星广场站"
+        ],
+        "returned_names": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "doc_id": "ZJJ_OFF_005",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 30,
+      "end": 33,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 34,
+      "end": 39,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 66,
+      "end": 69,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 70,
+      "end": 73,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 74,
+      "end": 77,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 103,
+      "end": 106,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "乾坤柱",
+      "start": 106,
+      "end": 109,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天下第一桥",
+      "start": 110,
+      "end": 115,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 124,
+      "end": 127,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天然长城峰墙",
+      "start": 127,
+      "end": 133,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 138,
+      "end": 141,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 141,
+      "end": 144,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "西海峰林",
+      "start": 145,
+      "end": 149,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "百龙天梯",
+      "start": 205,
+      "end": 209,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_005",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山索道",
+      "start": 221,
+      "end": 226,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 257,
+      "returned_names": [
+        "袁家界",
+        "杨家界",
+        "天子山",
+        "天下第一桥",
+        "乾坤柱",
+        "天然长城峰墙",
+        "御笔峰",
+        "西海峰林",
+        "百龙天梯",
+        "天子山索道"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": []
+  }
+}

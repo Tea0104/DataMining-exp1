@@ -1,0 +1,83 @@
+{
+  "doc_id": "JYT_OFF_004",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 4,
+      "end": 8,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "童趣营地",
+      "start": 19,
+      "end": 23,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林探险乐园",
+      "start": 38,
+      "end": 44,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝东",
+      "start": 73,
+      "end": 76,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝西",
+      "start": 77,
+      "end": 80,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "中韩友谊林",
+      "start": 81,
+      "end": 86,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 91,
+      "end": 95,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 95,
+      "returned_names": [
+        "女神广场",
+        "童趣营地",
+        "森林探险乐园",
+        "大坝东",
+        "大坝西",
+        "中韩友谊林"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

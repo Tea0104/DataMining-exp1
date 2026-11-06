@@ -1,0 +1,85 @@
+{
+  "doc_id": "JYT_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭国家森林公园",
+      "start": 9,
+      "end": 18,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭风景名胜区",
+      "start": 771,
+      "end": 779,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 541,
+      "returned_names": [
+        "净月潭国家森林公园"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 541,
+      "end": 960,
+      "returned_names": [
+        "净月潭风景名胜区"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "净月潭国家森林公园",
+        "start": 9,
+        "end": 18,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_004",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "净月潭风景名胜区",
+        "start": 771,
+        "end": 779,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 541,
+        "candidates": [
+          "净月潭国家森林公园"
+        ],
+        "returned_names": [
+          "净月潭国家森林公园"
+        ]
+      },
+      {
+        "start": 541,
+        "end": 960,
+        "candidates": [
+          "净月潭风景名胜区"
+        ],
+        "returned_names": [
+          "净月潭风景名胜区"
+        ]
+      }
+    ]
+  }
+}

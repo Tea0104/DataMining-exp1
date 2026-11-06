@@ -1,0 +1,144 @@
+{
+  "doc_id": "ZJJ_OFF_004",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "大氧吧广场",
+      "start": 42,
+      "end": 47,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 54,
+      "end": 57,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 58,
+      "end": 61,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 62,
+      "end": 66,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 88,
+      "end": 91,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "六奇阁",
+      "start": 91,
+      "end": 94,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "摘星台",
+      "start": 95,
+      "end": 98,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 99,
+      "end": 102,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "神鹰护鞭",
+      "start": 102,
+      "end": 106,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "劈山救母",
+      "start": 107,
+      "end": 111,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 181,
+      "end": 184,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 194,
+      "end": 197,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 205,
+      "end": 209,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "南门",
+        "2": "森林公园门票站",
+        "3": "武陵源城区",
+        "4": "大氧吧广场",
+        "5": "黄石寨",
+        "6": "金鞭溪",
+        "7": "十里画廊",
+        "8": "六奇阁",
+        "9": "摘星台",
+        "10": "神鹰护鞭",
+        "11": "劈山救母"
+      },
+      "rejected_ids": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ]
+}

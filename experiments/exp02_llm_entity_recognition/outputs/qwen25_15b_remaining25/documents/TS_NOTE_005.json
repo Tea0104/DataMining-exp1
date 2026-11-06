@@ -1,0 +1,198 @@
+{
+  "doc_id": "TS_NOTE_005",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 0,
+      "end": 2,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 12,
+      "end": 14,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 55,
+      "end": 57,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 87,
+      "end": 89,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 116,
+      "end": 118,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 175,
+      "end": 177,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉泉寺",
+      "start": 216,
+      "end": 219,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉泉寺",
+      "start": 221,
+      "end": 224,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 225,
+      "end": 227,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 241,
+      "end": 243,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉泉寺",
+      "start": 314,
+      "end": 317,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉泉寺",
+      "start": 358,
+      "end": 361,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "普照寺",
+      "start": 386,
+      "end": 389,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "普照寺",
+      "start": 393,
+      "end": 396,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "普照寺",
+      "start": 420,
+      "end": 423,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "普照寺",
+      "start": 453,
+      "end": 456,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 521,
+      "end": 523,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 543,
+      "end": 545,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 869,
+      "end": 871,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_005",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 939,
+      "end": 941,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 955,
+      "returned_names": [
+        "岱庙",
+        "玉泉寺",
+        "普照寺",
+        "泰山"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

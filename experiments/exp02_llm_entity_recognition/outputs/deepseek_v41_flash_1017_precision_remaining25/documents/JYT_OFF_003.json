@@ -1,0 +1,97 @@
+{
+  "doc_id": "JYT_OFF_003",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门女神广场",
+      "start": 0,
+      "end": 8,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝西",
+      "start": 19,
+      "end": 22,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "朝夕水岸",
+      "start": 32,
+      "end": 36,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭滑雪场",
+      "start": 50,
+      "end": 56,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "中国瓦萨博物馆",
+      "start": 60,
+      "end": 67,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "灵草芳洲",
+      "start": 107,
+      "end": 111,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花垂柳",
+      "start": 129,
+      "end": 133,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门女神广场",
+      "start": 142,
+      "end": 150,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 150,
+      "returned_names": [
+        "景区正门女神广场",
+        "大坝西",
+        "朝夕水岸",
+        "净月潭滑雪场",
+        "中国瓦萨博物馆",
+        "灵草芳洲",
+        "荷花垂柳"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": []
+  }
+}

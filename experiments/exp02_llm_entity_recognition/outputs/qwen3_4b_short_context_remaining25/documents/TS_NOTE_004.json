@@ -1,0 +1,266 @@
+{
+  "doc_id": "TS_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 147,
+      "end": 150,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 161,
+      "end": 164,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 177,
+      "end": 180,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 190,
+      "end": 193,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 247,
+      "end": 250,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "乔治米兰迪酒店",
+      "start": 312,
+      "end": 319,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安泰山店",
+      "start": 320,
+      "end": 325,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安开发区",
+      "start": 431,
+      "end": 436,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 466,
+      "end": 469,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山封禅大典",
+      "start": 518,
+      "end": 524,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山封禅大典",
+      "start": 539,
+      "end": 545,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山景区旅游服务中心",
+      "start": 603,
+      "end": 613,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "万仙楼登山入口",
+      "start": 641,
+      "end": 648,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山景区旅游服务中心",
+      "start": 683,
+      "end": 693,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门登山入口",
+      "start": 749,
+      "end": 755,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 761,
+      "end": 764,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 252,
+      "returned_names": [
+        "泰安站",
+        "泰山站",
+        "乔治米兰迪酒店*泰安泰山店"
+      ],
+      "rejected_names": [
+        "乔治米兰迪酒店*泰安泰山店"
+      ]
+    },
+    {
+      "start": 252,
+      "end": 511,
+      "returned_names": [
+        "泰安站",
+        "泰山站",
+        "乔治米兰迪酒店",
+        "泰安泰山店",
+        "泰安开发区",
+        "泰山景区旅游服务中心"
+      ],
+      "rejected_names": [
+        "泰山站",
+        "泰山景区旅游服务中心"
+      ]
+    },
+    {
+      "start": 511,
+      "end": 744,
+      "returned_names": [
+        "泰山封禅大典",
+        "万仙楼登山入口",
+        "泰山景区旅游服务中心",
+        "红门登山入口",
+        "玉皇顶"
+      ],
+      "rejected_names": [
+        "红门登山入口",
+        "玉皇顶"
+      ]
+    },
+    {
+      "start": 744,
+      "end": 999,
+      "returned_names": [
+        "红门登山入口",
+        "玉皇顶"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "TS_NOTE_004",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "泰山封禅大典",
+        "start": 518,
+        "end": 524,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "TS_NOTE_004",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "泰山封禅大典",
+        "start": 539,
+        "end": 545,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "TS_NOTE_004",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "泰山景区旅游服务中心",
+        "start": 603,
+        "end": 613,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "TS_NOTE_004",
+        "scenic_id": "TAISHAN",
+        "entity_type": "POI",
+        "text": "泰山景区旅游服务中心",
+        "start": 683,
+        "end": 693,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 252,
+        "end": 511,
+        "candidates": [
+          "泰安泰山店",
+          "泰安开发区"
+        ],
+        "returned_names": []
+      },
+      {
+        "start": 511,
+        "end": 744,
+        "candidates": [
+          "泰山封禅大典",
+          "泰山景区旅游服务中心"
+        ],
+        "returned_names": [
+          "泰山封禅大典",
+          "泰山景区旅游服务中心"
+        ]
+      }
+    ]
+  }
+}

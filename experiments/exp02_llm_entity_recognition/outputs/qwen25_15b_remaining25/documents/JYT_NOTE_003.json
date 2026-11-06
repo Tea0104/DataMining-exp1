@@ -1,0 +1,79 @@
+{
+  "doc_id": "JYT_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园",
+      "start": 608,
+      "end": 613,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 1023,
+      "end": 1028,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 1029,
+      "end": 1033,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "高尔夫球场",
+      "start": 1035,
+      "end": 1040,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 1055,
+      "end": 1059,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_003",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "水库大坝",
+      "start": 1090,
+      "end": 1094,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 972,
+      "returned_names": [
+        "净月潭公园"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 972,
+      "end": 1251,
+      "returned_names": [
+        "高尔夫球场",
+        "湿地公园",
+        "水库大坝"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

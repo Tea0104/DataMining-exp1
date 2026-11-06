@@ -1,0 +1,229 @@
+{
+  "doc_id": "ZJJ_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天门山",
+      "start": 91,
+      "end": 94,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 101,
+      "end": 104,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 105,
+      "end": 108,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "魅力湘西",
+      "start": 112,
+      "end": 116,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 248,
+      "end": 250,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 319,
+      "end": 322,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 323,
+      "end": 326,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 415,
+      "end": 418,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 461,
+      "end": 464,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 497,
+      "end": 500,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 514,
+      "end": 517,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 539,
+      "end": 542,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "水绕四门",
+      "start": 568,
+      "end": 572,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 578,
+      "end": 580,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 598,
+      "end": 601,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "魅力湘西",
+      "start": 667,
+      "end": 671,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 995,
+      "end": 998,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 1029,
+      "end": 1032,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 1059,
+      "end": 1062,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "百龙天梯",
+      "start": 1099,
+      "end": 1103,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "百龙天梯",
+      "start": 1154,
+      "end": 1158,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_NOTE_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 1179,
+      "end": 1182,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 993,
+      "returned_names": [
+        "天门山",
+        "黄石寨",
+        "金鞭溪",
+        "袁家界",
+        "水绕四门",
+        "东门",
+        "魅力湘西"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 993,
+      "end": 1212,
+      "returned_names": [
+        "杨家界",
+        "袁家界",
+        "百龙天梯"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

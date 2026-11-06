@@ -1,0 +1,533 @@
+[
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "云谷寺",
+    "start": 111,
+    "end": 114,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "后山",
+    "start": 115,
+    "end": 117,
+    "method": "llm_route_context"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "前山",
+    "start": 120,
+    "end": 122,
+    "method": "llm_route_context"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "蘑菇亭",
+    "start": 253,
+    "end": 256,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "始信峰",
+    "start": 259,
+    "end": 262,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "始信峰",
+    "start": 266,
+    "end": 269,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "始信峰",
+    "start": 376,
+    "end": 379,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "始信峰",
+    "start": 501,
+    "end": 504,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "北海宾馆",
+    "start": 588,
+    "end": 592,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "北海宾馆",
+    "start": 602,
+    "end": 606,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "猴子观海",
+    "start": 663,
+    "end": 667,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "猴子观海",
+    "start": 730,
+    "end": 734,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "猴子观海",
+    "start": 824,
+    "end": 828,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "猴子观海观景台",
+    "start": 956,
+    "end": 963,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海饭店",
+    "start": 978,
+    "end": 982,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海大峡谷",
+    "start": 1002,
+    "end": 1007,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海大峡谷",
+    "start": 1047,
+    "end": 1052,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "丹霞峰",
+    "start": 1092,
+    "end": 1095,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "丹霞峰",
+    "start": 1146,
+    "end": 1149,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "丹霞峰",
+    "start": 1202,
+    "end": 1205,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "丹霞峰",
+    "start": 1344,
+    "end": 1347,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海饭店",
+    "start": 1539,
+    "end": 1543,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海饭店",
+    "start": 1709,
+    "end": 1713,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海饭店",
+    "start": 1754,
+    "end": 1758,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "排云楼宾馆",
+    "start": 1762,
+    "end": 1767,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "飞来石",
+    "start": 1771,
+    "end": 1774,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶山庄",
+    "start": 1778,
+    "end": 1783,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "天海宾馆",
+    "start": 1787,
+    "end": 1791,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "海心亭",
+    "start": 1795,
+    "end": 1798,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "一线天",
+    "start": 1802,
+    "end": 1805,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "莲花亭",
+    "start": 1809,
+    "end": 1812,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "玉屏楼宾馆",
+    "start": 1816,
+    "end": 1821,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶",
+    "start": 1941,
+    "end": 1944,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海饭店",
+    "start": 1946,
+    "end": 1950,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶",
+    "start": 1952,
+    "end": 1955,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶",
+    "start": 1972,
+    "end": 1975,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海饭店",
+    "start": 2084,
+    "end": 2088,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶",
+    "start": 2108,
+    "end": 2111,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶",
+    "start": 2135,
+    "end": 2138,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "光明顶",
+    "start": 2157,
+    "end": 2160,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "前山",
+    "start": 2181,
+    "end": 2183,
+    "method": "llm_route_context"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "后山",
+    "start": 2198,
+    "end": 2200,
+    "method": "llm_route_context"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "一线天",
+    "start": 2252,
+    "end": 2255,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "前山",
+    "start": 2379,
+    "end": 2381,
+    "method": "llm_route_context"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "迎客松",
+    "start": 2387,
+    "end": 2390,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "徽味楼",
+    "start": 2462,
+    "end": 2465,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_NOTE_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "东黄山旅游度假区",
+    "start": 2532,
+    "end": 2540,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "后山",
+    "start": 26,
+    "end": 28,
+    "method": "llm_route_context"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "排云亭",
+    "start": 35,
+    "end": 38,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "西海大峡谷北入口",
+    "start": 39,
+    "end": 47,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "一环",
+    "start": 65,
+    "end": 67,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "二环",
+    "start": 68,
+    "end": 70,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "谷底",
+    "start": 71,
+    "end": 73,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "天海",
+    "start": 83,
+    "end": 85,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "天海",
+    "start": 104,
+    "end": 106,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "海心亭",
+    "start": 108,
+    "end": 111,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "鳌鱼峰",
+    "start": 112,
+    "end": 115,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "玉屏景区",
+    "start": 116,
+    "end": 120,
+    "method": "llm_exact_text"
+  },
+  {
+    "doc_id": "HS_OFF_001",
+    "scenic_id": "huangshan",
+    "entity_type": "POI",
+    "text": "迎客松",
+    "start": 123,
+    "end": 126,
+    "method": "llm_exact_text"
+  }
+]

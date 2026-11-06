@@ -1,0 +1,39 @@
+{
+  "doc_id": "JYT_OFF_001",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 4,
+      "end": 8,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 69,
+      "end": 73,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 73,
+      "returned_names": [
+        "女神广场",
+        "白藤桥",
+        "白藤桥",
+        "白藤桥",
+        "白藤桥"
+      ],
+      "rejected_names": [
+        "白藤桥"
+      ]
+    }
+  ]
+}

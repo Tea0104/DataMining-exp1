@@ -1,0 +1,109 @@
+{
+  "doc_id": "JYT_NOTE_002",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园",
+      "start": 10,
+      "end": 15,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "观潭山站",
+      "start": 337,
+      "end": 341,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "观潭山站",
+      "start": 369,
+      "end": 373,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "北普陀寺",
+      "start": 434,
+      "end": 438,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "北普陀寺",
+      "start": 561,
+      "end": 565,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 578,
+      "end": 583,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "北普陀寺",
+      "start": 603,
+      "end": 607,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 668,
+      "end": 673,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_002",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 691,
+      "end": 696,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 972,
+      "returned_names": [
+        "净月潭公园",
+        "观潭山站",
+        "北普陀寺",
+        "瓦萨博物馆"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 972,
+      "end": 1227,
+      "returned_names": [
+        "净月潭国家级风景名胜区"
+      ],
+      "rejected_names": [
+        "净月潭国家级风景名胜区"
+      ]
+    }
+  ]
+}

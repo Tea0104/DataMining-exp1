@@ -1,0 +1,694 @@
+{
+  "doc_id": "TS_NOTE_001",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 6,
+      "end": 8,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 96,
+      "end": 98,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 112,
+      "end": 114,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 203,
+      "end": 205,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 236,
+      "end": 238,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 305,
+      "end": 307,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门游客中心",
+      "start": 333,
+      "end": 339,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山门票",
+      "start": 347,
+      "end": 351,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "关帝庙",
+      "start": 447,
+      "end": 450,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "关帝祠",
+      "start": 452,
+      "end": 455,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "山西会馆",
+      "start": 456,
+      "end": 460,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山中路",
+      "start": 461,
+      "end": 465,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "关帝庙",
+      "start": 484,
+      "end": 487,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "关帝庙的南山门",
+      "start": 491,
+      "end": 498,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "戏台",
+      "start": 499,
+      "end": 501,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "古槐",
+      "start": 502,
+      "end": 504,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "拜棚",
+      "start": 507,
+      "end": 509,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "崇宁殿",
+      "start": 510,
+      "end": 513,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "关帝庙",
+      "start": 515,
+      "end": 518,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "汉柏第一",
+      "start": 521,
+      "end": 525,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "一天门坊",
+      "start": 543,
+      "end": 547,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "明嘉靖三十九年（1560年）巡抚山东都察院右副都御史朱衡等建",
+      "start": 615,
+      "end": 645,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "天阶坊",
+      "start": 648,
+      "end": 651,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "明嘉靖年间建",
+      "start": 652,
+      "end": 658,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门宫",
+      "start": 693,
+      "end": 696,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "飞云阁",
+      "start": 725,
+      "end": 728,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "西祀碧霞元君",
+      "start": 733,
+      "end": 739,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "东奉弥勒佛",
+      "start": 740,
+      "end": 745,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 749,
+      "end": 751,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山检票口",
+      "start": 826,
+      "end": 831,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山",
+      "start": 925,
+      "end": 927,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安革命烈士纪念碑",
+      "start": 962,
+      "end": 971,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 2075,
+      "end": 2078,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "瞻鲁台",
+      "start": 2386,
+      "end": 2389,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "拱北石",
+      "start": 2390,
+      "end": 2393,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 2394,
+      "end": 2397,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "瞻鲁台",
+      "start": 2529,
+      "end": 2532,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山气象站",
+      "start": 2563,
+      "end": 2568,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "瞻鲁台",
+      "start": 2571,
+      "end": 2574,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "拱北石",
+      "start": 2577,
+      "end": 2580,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "瞻鲁台",
+      "start": 2611,
+      "end": 2614,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "拱北石",
+      "start": 2635,
+      "end": 2638,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 2673,
+      "end": 2676,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "五岳独尊",
+      "start": 2698,
+      "end": 2702,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 2776,
+      "end": 2779,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 2783,
+      "end": 2786,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 2851,
+      "end": 2854,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "五岳独尊",
+      "start": 2881,
+      "end": 2885,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "大观峰",
+      "start": 2897,
+      "end": 2900,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "唐摩崖",
+      "start": 2972,
+      "end": 2975,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "大观峰",
+      "start": 3016,
+      "end": 3019,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "大观峰",
+      "start": 3091,
+      "end": 3094,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "东岳庙",
+      "start": 3096,
+      "end": 3099,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "大观峰",
+      "start": 3141,
+      "end": 3144,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "宋摩崖",
+      "start": 3155,
+      "end": 3158,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "唐摩崖",
+      "start": 3191,
+      "end": 3194,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "孔子庙",
+      "start": 3220,
+      "end": 3223,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "南天门",
+      "start": 3275,
+      "end": 3278,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "飞云洞",
+      "start": 3335,
+      "end": 3338,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "中天门客运站",
+      "start": 3351,
+      "end": 3357,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "中天门客运站",
+      "start": 3373,
+      "end": 3379,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "南天门",
+      "start": 3388,
+      "end": 3391,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "天外天客运站",
+      "start": 3408,
+      "end": 3414,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "天外天客运站",
+      "start": 3426,
+      "end": 3432,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_001",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "天外天客运站",
+      "start": 3457,
+      "end": 3463,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 973,
+      "returned_names": [
+        "红门游客中心",
+        "关帝庙",
+        "关帝祠",
+        "山西会馆",
+        "关帝庙的南山门",
+        "戏台",
+        "古槐",
+        "拜棚",
+        "崇宁殿",
+        "汉柏第一",
+        "一天门坊",
+        "明嘉靖三十九年（1560年）巡抚山东都察院右副都御史朱衡等建",
+        "天阶坊",
+        "明嘉靖年间建",
+        "红门宫",
+        "飞云阁",
+        "西祀碧霞元君",
+        "东奉弥勒佛",
+        "泰山中路",
+        "泰山",
+        "泰山风景名胜区",
+        "泰山门票",
+        "泰山检票口",
+        "泰安革命烈士纪念碑"
+      ],
+      "rejected_names": [
+        "泰山风景名胜区"
+      ]
+    },
+    {
+      "start": 973,
+      "end": 1921,
+      "returned_names": [
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区",
+        "泰山风景名胜区"
+      ],
+      "rejected_names": [
+        "泰山风景名胜区"
+      ]
+    },
+    {
+      "start": 1921,
+      "end": 2897,
+      "returned_names": [
+        "泰山气象站",
+        "瞻鲁台",
+        "拱北石",
+        "玉皇顶",
+        "五岳独尊"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 2897,
+      "end": 3505,
+      "returned_names": [
+        "大观峰",
+        "唐摩崖",
+        "宋摩崖",
+        "东岳庙",
+        "孔子庙",
+        "飞云洞",
+        "南天门",
+        "中天门客运站",
+        "天外天客运站"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

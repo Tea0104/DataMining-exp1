@@ -1,0 +1,54 @@
+{
+  "doc_id": "JYT_OFF_005",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "西环潭",
+      "start": 9,
+      "end": 12,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "宏伟的水库大坝",
+      "start": 17,
+      "end": 24,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 28,
+      "end": 31,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "西门",
+      "start": 36,
+      "end": 38,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 125,
+      "returned_names": [
+        "西环潭",
+        "宏伟的水库大坝",
+        "黑松林",
+        "西门"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

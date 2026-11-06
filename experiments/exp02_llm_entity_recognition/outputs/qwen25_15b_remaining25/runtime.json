@@ -1,0 +1,8 @@
+{
+  "runtime": "llama.cpp b11887 Vulkan",
+  "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+  "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "context": 4096,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "threads": 8
+}

@@ -1,0 +1,129 @@
+{
+  "documents": [
+    "HS_NOTE_001",
+    "HS_OFF_001"
+  ],
+  "reference_human_reviewed": false,
+  "reference_sha256": "81f6cd79a062d13638368761e1d7d2a367f43364fee1a098032d943e39d576eb",
+  "input_sha256": "cd781ff6d3bd71a39ed0d44d3c660eb89fbeb34224d96410f3ffc35329a24d46",
+  "evaluation_level": "document_type_surface_name",
+  "reference_poi": 36,
+  "scores": {
+    "boundary_only": {
+      "tp": 33,
+      "fp": 1,
+      "fn": 3,
+      "precision": 0.9706,
+      "recall": 0.9167,
+      "f1": 0.9429,
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "光明顶"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海观景台"
+        ]
+      ]
+    },
+    "original_refined": {
+      "tp": 36,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.9231,
+      "recall": 1.0,
+      "f1": 0.96,
+      "missed": [],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口镇"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海观景台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "观景平台"
+        ]
+      ]
+    },
+    "extract": {
+      "tp": 32,
+      "fp": 2,
+      "fn": 4,
+      "precision": 0.9412,
+      "recall": 0.8889,
+      "f1": 0.9143,
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷寺索道"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷索道下端"
+        ]
+      ]
+    },
+    "refined": {
+      "tp": 35,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9722,
+      "f1": 0.9859,
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ]
+      ],
+      "unmatched_predictions": []
+    }
+  }
+}

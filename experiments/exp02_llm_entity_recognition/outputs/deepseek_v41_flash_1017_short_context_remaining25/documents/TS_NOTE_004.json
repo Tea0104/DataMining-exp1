@@ -1,0 +1,154 @@
+{
+  "doc_id": "TS_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 147,
+      "end": 150,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 161,
+      "end": 164,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 177,
+      "end": 180,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 190,
+      "end": 193,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 247,
+      "end": 250,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "乔治米兰迪酒店*泰安泰山店",
+      "start": 312,
+      "end": 325,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 466,
+      "end": 469,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "万仙楼登山入口",
+      "start": 641,
+      "end": 648,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门登山入口",
+      "start": 749,
+      "end": 755,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 761,
+      "end": 764,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门登山口",
+      "start": 822,
+      "end": 827,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 252,
+      "returned_names": [
+        "泰安站",
+        "泰山站",
+        "乔治米兰迪酒店*泰安泰山店"
+      ],
+      "rejected_names": [
+        "乔治米兰迪酒店*泰安泰山店"
+      ]
+    },
+    {
+      "start": 252,
+      "end": 511,
+      "returned_names": [
+        "乔治米兰迪酒店*泰安泰山店",
+        "泰安站"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 511,
+      "end": 744,
+      "returned_names": [
+        "万仙楼登山入口",
+        "红门登山入口",
+        "玉皇顶"
+      ],
+      "rejected_names": [
+        "红门登山入口",
+        "玉皇顶"
+      ]
+    },
+    {
+      "start": 744,
+      "end": 999,
+      "returned_names": [
+        "红门登山入口",
+        "玉皇顶",
+        "红门登山口"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": []
+  }
+}

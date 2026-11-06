@@ -1,0 +1,67 @@
+{
+  "doc_id": "JYT_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花池",
+      "start": 180,
+      "end": 183,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花池",
+      "start": 334,
+      "end": 337,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝",
+      "start": 416,
+      "end": 418,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "环潭公路",
+      "start": 545,
+      "end": 549,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "环潭公路",
+      "start": 607,
+      "end": 611,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "荷花池",
+        "2": "公路",
+        "3": "大坝",
+        "4": "水塔",
+        "5": "徒步栈道",
+        "6": "环潭公路"
+      },
+      "rejected_ids": [
+        "2",
+        "4",
+        "5"
+      ]
+    }
+  ]
+}

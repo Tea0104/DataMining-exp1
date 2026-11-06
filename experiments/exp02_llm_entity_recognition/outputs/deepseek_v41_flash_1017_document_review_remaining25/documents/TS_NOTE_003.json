@@ -1,0 +1,283 @@
+{
+  "doc_id": "TS_NOTE_003",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 17,
+      "end": 20,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "红门",
+      "start": 32,
+      "end": 34,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "一天门",
+      "start": 50,
+      "end": 53,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "万仙楼",
+      "start": 60,
+      "end": 63,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "中天门",
+      "start": 74,
+      "end": 77,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "十八盘",
+      "start": 103,
+      "end": 106,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "南天门",
+      "start": 114,
+      "end": 117,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "过街阁",
+      "start": 148,
+      "end": 151,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "玉皇顶",
+      "start": 159,
+      "end": 162,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "无字碑",
+      "start": 170,
+      "end": 173,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "五岳独尊石",
+      "start": 181,
+      "end": 186,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "孔子小天下处",
+      "start": 189,
+      "end": 195,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "日观峰",
+      "start": 203,
+      "end": 206,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "瞻鲁台",
+      "start": 214,
+      "end": 217,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "碧霞祠",
+      "start": 225,
+      "end": 228,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "石刻唐摩崖",
+      "start": 236,
+      "end": 241,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "青帝宫",
+      "start": 249,
+      "end": 252,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "孔子庙",
+      "start": 260,
+      "end": 263,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "西天门",
+      "start": 271,
+      "end": 274,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "北天门",
+      "start": 334,
+      "end": 337,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "后石坞",
+      "start": 338,
+      "end": 341,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 489,
+      "end": 491,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱宗坊",
+      "start": 494,
+      "end": 497,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱庙",
+      "start": 521,
+      "end": 523,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "岱宗坊",
+      "start": 585,
+      "end": 588,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_003",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰安站",
+      "start": 609,
+      "end": 612,
+      "method": "llm_exact_text"
+    }
+  ],
+  "batches": [
+    {
+      "candidates": {
+        "1": "泰山站",
+        "2": "红门",
+        "3": "一天门",
+        "4": "万仙楼",
+        "5": "中天门",
+        "6": "挪瓦咖啡",
+        "7": "十八盘",
+        "8": "南天门",
+        "9": "过街阁",
+        "10": "玉皇顶",
+        "11": "无字碑",
+        "12": "五岳独尊石",
+        "13": "孔子小天下处",
+        "14": "日观峰",
+        "15": "瞻鲁台",
+        "16": "碧霞祠",
+        "17": "石刻唐摩崖",
+        "18": "青帝宫",
+        "19": "孔子庙",
+        "20": "西天门",
+        "21": "北天门",
+        "22": "后石坞",
+        "23": "中天门客运站",
+        "24": "天外村景区出口",
+        "25": "岱庙",
+        "26": "岱宗坊",
+        "27": "正阳门",
+        "28": "厚载门",
+        "29": "岱庙广场",
+        "30": "泰安站"
+      },
+      "rejected_ids": [
+        "6",
+        "23",
+        "24",
+        "27",
+        "28",
+        "29"
+      ]
+    }
+  ]
+}

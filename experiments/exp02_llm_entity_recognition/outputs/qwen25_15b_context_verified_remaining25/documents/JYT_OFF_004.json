@@ -1,0 +1,161 @@
+{
+  "doc_id": "JYT_OFF_004",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门女神广场",
+      "start": 0,
+      "end": 8,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "东环潭方向",
+      "start": 9,
+      "end": 14,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "童趣营地",
+      "start": 19,
+      "end": 23,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "跑跑卡丁车",
+      "start": 24,
+      "end": 29,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "卡丁船",
+      "start": 30,
+      "end": 33,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林探险乐园",
+      "start": 38,
+      "end": 44,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林探险接触大自然",
+      "start": 45,
+      "end": 54,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "亲子共同挑战",
+      "start": 57,
+      "end": 63,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "亲子时光",
+      "start": 67,
+      "end": 71,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝东",
+      "start": 73,
+      "end": 76,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "大坝西",
+      "start": 77,
+      "end": 80,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "中韩友谊林",
+      "start": 81,
+      "end": 86,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_004",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门女神广场",
+      "start": 87,
+      "end": 95,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 95,
+      "returned_names": [
+        "景区正门女神广场",
+        "东环潭方向",
+        "童趣营地",
+        "跑跑卡丁车",
+        "卡丁船",
+        "森林探险乐园",
+        "森林探险接触大自然",
+        "亲子共同挑战",
+        "亲子时光",
+        "大坝东",
+        "大坝西",
+        "中韩友谊林",
+        "景区正门女神广场"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 95,
+        "candidates": [
+          "跑跑卡丁车",
+          "卡丁船",
+          "森林探险接触大自然",
+          "亲子共同挑战",
+          "亲子时光"
+        ],
+        "returned_names": []
+      }
+    ]
+  }
+}

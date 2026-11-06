@@ -1,0 +1,13 @@
+{
+  "documents": [
+    "HS_NOTE_001",
+    "HS_OFF_001"
+  ],
+  "source_entities_sha256": [
+    "fc5430800983b603f1b15d1de814c8e82b475e0b2403bcd79d9f7b47403c7d23",
+    "942edc9db00b599c1325dc46065ca07cac57375d71bc8dbd217be8db4cde255e"
+  ],
+  "review_entities_sha256": "7f1123fcc40f4999ba2cb57db00691dc10d1af6f62e9cb78f75a0b2b9184afba",
+  "reference_sha256": null,
+  "rule": "supported_by_both_extractors_or_review"
+}

@@ -1,0 +1,47 @@
+{
+  "doc_id": "TS_NOTE_004",
+  "entities": [
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 161,
+      "end": 164,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "TS_NOTE_004",
+      "scenic_id": "TAISHAN",
+      "entity_type": "POI",
+      "text": "泰山站",
+      "start": 177,
+      "end": 180,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 999,
+      "returned_names": [
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站",
+        "泰山站"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "model": "deepseek-flash",
+  "evidence": "excerpts",
+  "input_sha256": "f92e434fb12f8d88c37a8fae8ea56a3749402c0398df06b34ff31534ae251b35",
+  "documents": [
+    "JYT_NOTE_001",
+    "JYT_NOTE_002",
+    "JYT_NOTE_003",
+    "JYT_NOTE_004",
+    "JYT_OFF_001",
+    "JYT_OFF_003",
+    "JYT_OFF_004",
+    "JYT_OFF_005",
+    "TS_NOTE_001",
+    "TS_NOTE_002",
+    "TS_NOTE_003",
+    "TS_NOTE_004",
+    "TS_NOTE_005",
+    "TS_OFF_002",
+    "TS_OFF_003",
+    "TS_OFF_004",
+    "TS_OFF_005",
+    "ZJJ_NOTE_001",
+    "ZJJ_NOTE_002",
+    "ZJJ_NOTE_003",
+    "ZJJ_NOTE_004",
+    "ZJJ_OFF_002",
+    "ZJJ_OFF_003",
+    "ZJJ_OFF_004",
+    "ZJJ_OFF_005"
+  ],
+  "source_entities_sha256": [
+    "7e6dc337b47b8588c5d7d5324237fd57aae52be2b2afca3e2b434bd81ddd57a4",
+    "d4fe597af6e0564a6bb25adda640cc64ed28dced4cfc4a3c7a26a12ee6656f2a"
+  ],
+  "prompt_sha256": "2d0c40e405084a4af42cb8c89ae28c599625107fa9b4b7fdf1ccce055709ce06",
+  "runner_sha256": "07ca30a2d0754cb0df68ca060c4c00e84e1637308c2c21816a088d3a9053894e",
+  "client_sha256": "e46c0d50fe276f7026a5b6f9576a42c244f2087b1a5afe6b513ddbda26ca4251",
+  "reference_sha256": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85"
+}

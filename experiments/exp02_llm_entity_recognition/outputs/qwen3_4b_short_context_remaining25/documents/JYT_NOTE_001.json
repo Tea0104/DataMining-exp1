@@ -1,0 +1,1464 @@
+{
+  "doc_id": "JYT_NOTE_001",
+  "entities": [
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园",
+      "start": 0,
+      "end": 5,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园",
+      "start": 121,
+      "end": 126,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "吉林广电地铁",
+      "start": 187,
+      "end": 193,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园站",
+      "start": 204,
+      "end": 210,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "李先生牛肉面馆",
+      "start": 223,
+      "end": 230,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭轻轨站",
+      "start": 240,
+      "end": 246,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "公园入口",
+      "start": 252,
+      "end": 256,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭西北部",
+      "start": 264,
+      "end": 270,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 295,
+      "end": 298,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 392,
+      "end": 395,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "逯家湾",
+      "start": 467,
+      "end": 470,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 472,
+      "end": 475,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 514,
+      "end": 517,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园",
+      "start": 530,
+      "end": 535,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 557,
+      "end": 560,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "环湖公路",
+      "start": 589,
+      "end": 593,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "环湖公路",
+      "start": 594,
+      "end": 598,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 612,
+      "end": 615,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 698,
+      "end": 702,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "主入口",
+      "start": 767,
+      "end": 770,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "主入口",
+      "start": 782,
+      "end": 785,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 806,
+      "end": 810,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "静月雅市",
+      "start": 814,
+      "end": 818,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 827,
+      "end": 831,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "坝西站",
+      "start": 832,
+      "end": 835,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "朝夕水岸码头",
+      "start": 836,
+      "end": 842,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "溢水湾",
+      "start": 843,
+      "end": 846,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 847,
+      "end": 850,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "小森林浴场",
+      "start": 851,
+      "end": 856,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区西门",
+      "start": 857,
+      "end": 861,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "水上栈道",
+      "start": 862,
+      "end": 866,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 867,
+      "end": 871,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "望潭广场",
+      "start": 872,
+      "end": 876,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 877,
+      "end": 882,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "冰雪世界",
+      "start": 883,
+      "end": 887,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 888,
+      "end": 892,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "一棵树站",
+      "start": 893,
+      "end": 897,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "月潭揽胜",
+      "start": 898,
+      "end": 902,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蘑菇广场",
+      "start": 903,
+      "end": 907,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "松迎客",
+      "start": 914,
+      "end": 917,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "张二麻岭",
+      "start": 918,
+      "end": 922,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "青松岭",
+      "start": 923,
+      "end": 926,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "避暑山庄",
+      "start": 927,
+      "end": 931,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "月亮湾",
+      "start": 932,
+      "end": 935,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "观潭山",
+      "start": 940,
+      "end": 943,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花垂",
+      "start": 944,
+      "end": 947,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 1002,
+      "end": 1006,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 1038,
+      "end": 1042,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 1073,
+      "end": 1077,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "坝西站",
+      "start": 1207,
+      "end": 1210,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "坝西站",
+      "start": 1212,
+      "end": 1215,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蓝亭子",
+      "start": 1237,
+      "end": 1240,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "坝西站",
+      "start": 1243,
+      "end": 1246,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "坝西站",
+      "start": 1258,
+      "end": 1261,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "溢水湾",
+      "start": 1307,
+      "end": 1310,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "朝夕水岸码头",
+      "start": 1317,
+      "end": 1323,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湖滨停车",
+      "start": 1325,
+      "end": 1329,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 1335,
+      "end": 1338,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 1398,
+      "end": 1401,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 1457,
+      "end": 1460,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湖滨公路",
+      "start": 1489,
+      "end": 1493,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 1495,
+      "end": 1498,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 1505,
+      "end": 1508,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 1559,
+      "end": 1562,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 1589,
+      "end": 1592,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "水上木栈道",
+      "start": 1637,
+      "end": 1642,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "水上木栈道",
+      "start": 1676,
+      "end": 1681,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 1707,
+      "end": 1711,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 1715,
+      "end": 1719,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 1732,
+      "end": 1735,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "森林浴场",
+      "start": 1740,
+      "end": 1744,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "黑松林",
+      "start": 1757,
+      "end": 1760,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "望潭广场",
+      "start": 1782,
+      "end": 1786,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "望潭广场",
+      "start": 1802,
+      "end": 1806,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "望潭广场",
+      "start": 1812,
+      "end": 1816,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "望潭广场",
+      "start": 1842,
+      "end": 1846,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "中国瓦萨博物馆",
+      "start": 1864,
+      "end": 1871,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 2012,
+      "end": 2017,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭景区",
+      "start": 2021,
+      "end": 2026,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 2033,
+      "end": 2038,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "长春净月潭瓦萨博物馆",
+      "start": 2125,
+      "end": 2135,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 2333,
+      "end": 2338,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭瓦萨雪道",
+      "start": 2347,
+      "end": 2354,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 2374,
+      "end": 2379,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "瓦萨博物馆",
+      "start": 2410,
+      "end": 2415,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 2510,
+      "end": 2514,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 2524,
+      "end": 2528,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 2540,
+      "end": 2544,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 2556,
+      "end": 2560,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "湿地公园",
+      "start": 2576,
+      "end": 2580,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "竹筏码头",
+      "start": 2639,
+      "end": 2643,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蘑菇广场",
+      "start": 3032,
+      "end": 3036,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蘑菇广场",
+      "start": 3044,
+      "end": 3048,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蘑菇广场",
+      "start": 3056,
+      "end": 3060,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蘑菇广场",
+      "start": 3112,
+      "end": 3116,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "蘑菇广场",
+      "start": 3156,
+      "end": 3160,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "荷花垂柳园",
+      "start": 3195,
+      "end": 3200,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 3250,
+      "end": 3254,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "女神广场",
+      "start": 3277,
+      "end": 3281,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 3332,
+      "end": 3335,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭",
+      "start": 3410,
+      "end": 3413,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "吉林东北虎园",
+      "start": 3418,
+      "end": 3424,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "吉林东北虎园",
+      "start": 3427,
+      "end": 3433,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "吉林东北虎园",
+      "start": 3463,
+      "end": 3469,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭国家森林公园",
+      "start": 3503,
+      "end": 3512,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园站",
+      "start": 3644,
+      "end": 3650,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_NOTE_001",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "净月潭公园站",
+      "start": 3666,
+      "end": 3672,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 259,
+      "returned_names": [
+        "净月潭公园",
+        "吉林广电地铁",
+        "净月潭公园站",
+        "李先生牛肉面馆",
+        "净月潭轻轨站",
+        "公园入口",
+        "西门"
+      ],
+      "rejected_names": [
+        "西门"
+      ]
+    },
+    {
+      "start": 259,
+      "end": 422,
+      "returned_names": [
+        "净月潭",
+        "净月潭公园",
+        "净月潭西北部",
+        "净月潭主入口",
+        "净月潭西门"
+      ],
+      "rejected_names": [
+        "净月潭公园",
+        "净月潭主入口",
+        "净月潭西门"
+      ]
+    },
+    {
+      "start": 422,
+      "end": 668,
+      "returned_names": [
+        "净月潭",
+        "逯家湾",
+        "净月潭公园",
+        "环湖公路",
+        "环潭路",
+        "女神广场"
+      ],
+      "rejected_names": [
+        "环潭路",
+        "女神广场"
+      ]
+    },
+    {
+      "start": 668,
+      "end": 821,
+      "returned_names": [
+        "女神广场",
+        "静月雅市",
+        "主入口",
+        "坝西站",
+        "朝夕水岸码头",
+        "溢水湾",
+        "黑松林",
+        "小森林浴场",
+        "景区西门",
+        "水上栈道",
+        "森林浴场",
+        "望潭广场",
+        "瓦萨博物馆",
+        "冰雪世界",
+        "湿地公园",
+        "一棵树站",
+        "月潭揽胜",
+        "蘑菇广场",
+        "灵草芳洲",
+        "松迎客",
+        "张二麻岭",
+        "青松岭",
+        "避暑山庄"
+      ],
+      "rejected_names": [
+        "坝西站",
+        "朝夕水岸码头",
+        "溢水湾",
+        "黑松林",
+        "小森林浴场",
+        "景区西门",
+        "水上栈道",
+        "森林浴场",
+        "望潭广场",
+        "瓦萨博物馆",
+        "冰雪世界",
+        "湿地公园",
+        "一棵树站",
+        "月潭揽胜",
+        "蘑菇广场",
+        "灵草芳洲",
+        "松迎客",
+        "张二麻岭",
+        "青松岭",
+        "避暑山庄"
+      ]
+    },
+    {
+      "start": 821,
+      "end": 1073,
+      "returned_names": [
+        "女神广场",
+        "坝西站",
+        "朝夕水岸码头",
+        "溢水湾",
+        "黑松林",
+        "小森林浴场",
+        "景区西门",
+        "水上栈道",
+        "森林浴场",
+        "望潭广场",
+        "瓦萨博物馆",
+        "冰雪世界",
+        "湿地公园",
+        "一棵树站",
+        "月潭揽胜",
+        "蘑菇广场",
+        "松迎客",
+        "张二麻岭",
+        "青松岭",
+        "避暑山庄",
+        "月亮湾",
+        "观潭山",
+        "荷花垂"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 1073,
+      "end": 1332,
+      "returned_names": [
+        "女神广场",
+        "净月女神像",
+        "坝西站",
+        "蓝亭子",
+        "溢水湾",
+        "朝夕水岸码头",
+        "湖滨停车"
+      ],
+      "rejected_names": [
+        "净月女神像"
+      ]
+    },
+    {
+      "start": 1332,
+      "end": 1587,
+      "returned_names": [
+        "净月潭",
+        "湖滨公路",
+        "黑松林",
+        "水上栈道"
+      ],
+      "rejected_names": [
+        "水上栈道"
+      ]
+    },
+    {
+      "start": 1587,
+      "end": 1841,
+      "returned_names": [
+        "黑松林",
+        "水上木栈道",
+        "森林浴场",
+        "望潭广场"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 1841,
+      "end": 2074,
+      "returned_names": [
+        "望潭广场",
+        "中国瓦萨博物馆",
+        "净月潭景区",
+        "瓦萨博物馆"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 2074,
+      "end": 2333,
+      "returned_names": [
+        "长春净月潭瓦萨博物馆"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 2333,
+      "end": 2553,
+      "returned_names": [
+        "瓦萨博物馆",
+        "净月潭瓦萨雪道",
+        "湿地公园",
+        "竹筏码头"
+      ],
+      "rejected_names": [
+        "竹筏码头"
+      ]
+    },
+    {
+      "start": 2553,
+      "end": 2806,
+      "returned_names": [
+        "湿地公园",
+        "竹筏码头",
+        "荷花"
+      ],
+      "rejected_names": [
+        "荷花"
+      ]
+    },
+    {
+      "start": 2806,
+      "end": 3056,
+      "returned_names": [
+        "蘑菇广场"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 3056,
+      "end": 3316,
+      "returned_names": [
+        "蘑菇广场",
+        "荷花垂柳园",
+        "女神广场"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 3316,
+      "end": 3514,
+      "returned_names": [
+        "净月潭",
+        "吉林东北虎园",
+        "净月潭国家森林公园"
+      ],
+      "rejected_names": []
+    },
+    {
+      "start": 3514,
+      "end": 3742,
+      "returned_names": [
+        "吉林东北虎园",
+        "净月潭公园站"
+      ],
+      "rejected_names": [
+        "吉林东北虎园"
+      ]
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "净月潭公园",
+        "start": 0,
+        "end": 5,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "净月潭公园",
+        "start": 121,
+        "end": 126,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "李先生牛肉面馆",
+        "start": 223,
+        "end": 230,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "净月潭轻轨站",
+        "start": 240,
+        "end": 246,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "公园入口",
+        "start": 252,
+        "end": 256,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "环湖公路",
+        "start": 589,
+        "end": 593,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "环湖公路",
+        "start": 594,
+        "end": 598,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "主入口",
+        "start": 767,
+        "end": 770,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "主入口",
+        "start": 782,
+        "end": 785,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "湖滨停车",
+        "start": 1325,
+        "end": 1329,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "水上木栈道",
+        "start": 1637,
+        "end": 1642,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "水上木栈道",
+        "start": 1676,
+        "end": 1681,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "吉林东北虎园",
+        "start": 3418,
+        "end": 3424,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "吉林东北虎园",
+        "start": 3427,
+        "end": 3433,
+        "method": "llm_exact_text"
+      },
+      {
+        "doc_id": "JYT_NOTE_001",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "吉林东北虎园",
+        "start": 3463,
+        "end": 3469,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 259,
+        "candidates": [
+          "净月潭公园",
+          "李先生牛肉面馆",
+          "净月潭轻轨站",
+          "公园入口"
+        ],
+        "returned_names": [
+          "净月潭公园",
+          "李先生牛肉面馆",
+          "净月潭轻轨站",
+          "公园入口"
+        ]
+      },
+      {
+        "start": 259,
+        "end": 422,
+        "candidates": [
+          "净月潭西北部",
+          "净月潭"
+        ],
+        "returned_names": [
+          "净月潭西门"
+        ]
+      },
+      {
+        "start": 422,
+        "end": 668,
+        "candidates": [
+          "净月潭",
+          "净月潭公园",
+          "环湖公路"
+        ],
+        "returned_names": [
+          "环湖公路"
+        ]
+      },
+      {
+        "start": 668,
+        "end": 821,
+        "candidates": [
+          "主入口"
+        ],
+        "returned_names": [
+          "女神广场",
+          "主入口"
+        ]
+      },
+      {
+        "start": 1073,
+        "end": 1332,
+        "candidates": [
+          "湖滨停车"
+        ],
+        "returned_names": [
+          "湖滨停车"
+        ]
+      },
+      {
+        "start": 1332,
+        "end": 1587,
+        "candidates": [
+          "净月潭",
+          "湖滨公路"
+        ],
+        "returned_names": [
+          "黑松林"
+        ]
+      },
+      {
+        "start": 1587,
+        "end": 1841,
+        "candidates": [
+          "水上木栈道"
+        ],
+        "returned_names": [
+          "水上木栈道"
+        ]
+      },
+      {
+        "start": 1841,
+        "end": 2074,
+        "candidates": [
+          "净月潭景区"
+        ],
+        "returned_names": []
+      },
+      {
+        "start": 3316,
+        "end": 3514,
+        "candidates": [
+          "净月潭",
+          "吉林东北虎园",
+          "净月潭国家森林公园"
+        ],
+        "returned_names": [
+          "吉林东北虎园"
+        ]
+      }
+    ]
+  }
+}

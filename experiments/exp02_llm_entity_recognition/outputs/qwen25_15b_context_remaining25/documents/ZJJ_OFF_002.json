@@ -1,0 +1,62 @@
+{
+  "doc_id": "ZJJ_OFF_002",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 55,
+      "end": 58,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "杨家界",
+      "start": 87,
+      "end": 90,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "袁家界",
+      "start": 91,
+      "end": 94,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 95,
+      "end": 98,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_002",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 194,
+      "end": 197,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 217,
+      "returned_names": [
+        "袁家界",
+        "杨家界",
+        "金鞭溪"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "doc_id": "JYT_OFF_005",
+  "entities": [
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "景区正门",
+      "start": 1,
+      "end": 5,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "西环潭",
+      "start": 9,
+      "end": 12,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "宏伟的水库大坝",
+      "start": 17,
+      "end": 24,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "静谧的黑松林",
+      "start": 25,
+      "end": 31,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "西门",
+      "start": 36,
+      "end": 38,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "步道",
+      "start": 58,
+      "end": 60,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "JYT_OFF_005",
+      "scenic_id": "JINGYUETAN",
+      "entity_type": "POI",
+      "text": "松针",
+      "start": 98,
+      "end": 100,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 125,
+      "returned_names": [
+        "景区正门",
+        "西环潭",
+        "宏伟的水库大坝",
+        "静谧的黑松林",
+        "西门",
+        "步道",
+        "松针"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "JYT_OFF_005",
+        "scenic_id": "JINGYUETAN",
+        "entity_type": "POI",
+        "text": "松针",
+        "start": 98,
+        "end": 100,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 125,
+        "candidates": [
+          "步道",
+          "松针"
+        ],
+        "returned_names": [
+          "松针"
+        ]
+      }
+    ]
+  }
+}

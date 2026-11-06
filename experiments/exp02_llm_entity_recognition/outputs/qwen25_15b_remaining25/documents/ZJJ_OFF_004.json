@@ -1,0 +1,89 @@
+{
+  "doc_id": "ZJJ_OFF_004",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 54,
+      "end": 57,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 58,
+      "end": 61,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 62,
+      "end": 66,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 88,
+      "end": 91,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 99,
+      "end": 102,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "黄石寨",
+      "start": 181,
+      "end": 184,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "金鞭溪",
+      "start": 194,
+      "end": 197,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_004",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 205,
+      "end": 209,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 234,
+      "returned_names": [
+        "黄石寨",
+        "金鞭溪",
+        "十里画廊"
+      ],
+      "rejected_names": []
+    }
+  ]
+}

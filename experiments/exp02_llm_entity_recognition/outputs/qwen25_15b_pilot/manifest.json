@@ -1,0 +1,21 @@
+{
+  "model": "qwen25-15b",
+  "base_url": "http://127.0.0.1:8089/v1",
+  "chunk_size": 1000,
+  "prompt_sha256": "582db7471f0f9d3cc258383a37b0a011b5241a899e1b0e6921a77c73720123b4",
+  "runner_sha256": "bdb5d22a7f7eaa3384d499cec0ebf620fbb253df504c15a3f614c7a0adce4b16",
+  "reference_sha256": "249080f397d4d83244421b9ed926bb615bd69165fcb7ea24fbf80db87f154e85",
+  "baseline_sha256": {
+    "entities_TAISHAN_v3.json": "7801cb12870b4af0be99a6d257602eadd19c31255e589ee029cf09945fb097b0",
+    "entities_WULINGYUAN_v3.json": "b6020f6eb727d5cca851b58f2bbe399995c94234b7e49210784fded65c5c5b1b",
+    "entities_JINGYUETAN_v3.json": "9199b28e64d3a2683fabe05c5daf0c7262d1effd91c485597f23d1aced67dbca"
+  },
+  "documents": [
+    "JYT_NOTE_001",
+    "JYT_OFF_001",
+    "TS_NOTE_001",
+    "TS_OFF_002",
+    "ZJJ_NOTE_001",
+    "ZJJ_OFF_002"
+  ]
+}

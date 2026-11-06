@@ -1,0 +1,793 @@
+{
+  "documents": [
+    "HS_NOTE_001",
+    "HS_OFF_001"
+  ],
+  "reference_status": "AI 助手逐条阅读原文初标，待组员人工复核",
+  "reference_human_reviewed": false,
+  "reference_path": "experiments\\exp02_entity_recognition\\archive\\sample_v1_huangshan\\gold_huangshan.json",
+  "reference_sha256": "81f6cd79a062d13638368761e1d7d2a367f43364fee1a098032d943e39d576eb",
+  "input_sha256": "cd781ff6d3bd71a39ed0d44d3c660eb89fbeb34224d96410f3ffc35329a24d46",
+  "evaluation_level": "document_type_surface_name",
+  "reference_poi": 36,
+  "scores": {
+    "original": {
+      "tp": 33,
+      "fp": 8,
+      "fn": 3,
+      "precision": 0.8049,
+      "recall": 0.9167,
+      "f1": 0.8571,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 21,
+          "fp": 8,
+          "fn": 2,
+          "precision": 0.7241,
+          "recall": 0.913,
+          "f1": 0.8077
+        },
+        "HS_OFF_001": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9231,
+          "f1": 0.96
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "下山索道"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷寺索道"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷索道下端"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口镇"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海观景台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "玉屏索道"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "索道下站"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "观景平台"
+        ]
+      ]
+    },
+    "precision": {
+      "tp": 30,
+      "fp": 3,
+      "fn": 6,
+      "precision": 0.9091,
+      "recall": 0.8333,
+      "f1": 0.8696,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 20,
+          "fp": 3,
+          "fn": 3,
+          "precision": 0.8696,
+          "recall": 0.8696,
+          "f1": 0.8696
+        },
+        "HS_OFF_001": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.7692,
+          "f1": 0.8696
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "光明顶"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷寺索道"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷索道下端"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "玉屏索道"
+        ]
+      ]
+    },
+    "document_review": {
+      "tp": 27,
+      "fp": 2,
+      "fn": 9,
+      "precision": 0.931,
+      "recall": 0.75,
+      "f1": 0.8308,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 18,
+          "fp": 2,
+          "fn": 5,
+          "precision": 0.9,
+          "recall": 0.7826,
+          "f1": 0.8372
+        },
+        "HS_OFF_001": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.6923,
+          "f1": 0.8182
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "东黄山旅游度假区"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "徽味楼"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "光明顶"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "谷底"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海观景台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "玉屏索道"
+        ]
+      ]
+    },
+    "review_vote": {
+      "tp": 30,
+      "fp": 4,
+      "fn": 6,
+      "precision": 0.8824,
+      "recall": 0.8333,
+      "f1": 0.8571,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 20,
+          "fp": 4,
+          "fn": 3,
+          "precision": 0.8333,
+          "recall": 0.8696,
+          "f1": 0.8511
+        },
+        "HS_OFF_001": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.7692,
+          "f1": 0.8696
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "光明顶"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷寺索道"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷索道下端"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海观景台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "玉屏索道"
+        ]
+      ]
+    },
+    "precision_boundary": {
+      "tp": 29,
+      "fp": 2,
+      "fn": 7,
+      "precision": 0.9355,
+      "recall": 0.8056,
+      "f1": 0.8657,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 20,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.9524,
+          "recall": 0.8696,
+          "f1": 0.9091
+        },
+        "HS_OFF_001": {
+          "tp": 9,
+          "fp": 1,
+          "fn": 4,
+          "precision": 0.9,
+          "recall": 0.6923,
+          "f1": 0.7826
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "光明顶"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "西海大峡谷北入口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷索道下端"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "西海大峡谷北"
+        ]
+      ]
+    },
+    "boundary": {
+      "tp": 29,
+      "fp": 3,
+      "fn": 7,
+      "precision": 0.9062,
+      "recall": 0.8056,
+      "f1": 0.8529,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 20,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.9091,
+          "recall": 0.8696,
+          "f1": 0.8889
+        },
+        "HS_OFF_001": {
+          "tp": 9,
+          "fp": 1,
+          "fn": 4,
+          "precision": 0.9,
+          "recall": 0.6923,
+          "f1": 0.7826
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "光明顶"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "西海大峡谷北入口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷索道下端"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海观景台"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "西海大峡谷北"
+        ]
+      ]
+    },
+    "archived_v1": {
+      "tp": 9,
+      "fp": 21,
+      "fn": 27,
+      "precision": 0.3,
+      "recall": 0.25,
+      "f1": 0.2727,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 5,
+          "fp": 16,
+          "fn": 18,
+          "precision": 0.2381,
+          "recall": 0.2174,
+          "f1": 0.2273
+        },
+        "HS_OFF_001": {
+          "tp": 4,
+          "fp": 5,
+          "fn": 9,
+          "precision": 0.4444,
+          "recall": 0.3077,
+          "f1": 0.3636
+        }
+      },
+      "missed": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "一线天"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "东黄山旅游度假区"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "丹霞峰"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "光明顶山庄"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "北海宾馆"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "天海宾馆"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "排云楼宾馆"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "汤口"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "猴子观海"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "玉屏楼宾馆"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "莲花亭"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "蘑菇亭"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "西海大峡谷"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "西海饭店"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "迎客松"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "飞来石"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "一环"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "二环"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "后山"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "玉屏景区"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "西海大峡谷北入口"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "谷底"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "迎客松"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "飞来石"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "鳌鱼峰"
+        ]
+      ],
+      "unmatched_predictions": [
+        [
+          "HS_NOTE_001",
+          "POI",
+          "上海"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云楼"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "云谷"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "信峰"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "前台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "北海"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "大峡谷"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "天海"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "宾馆"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "山顶"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "平台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "景区"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "玉屏楼"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "西海"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "观景台"
+        ],
+        [
+          "HS_NOTE_001",
+          "POI",
+          "观海"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "云谷"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "大峡谷"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "景区"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "西海"
+        ],
+        [
+          "HS_OFF_001",
+          "POI",
+          "鱼峰"
+        ]
+      ]
+    },
+    "archived_v2": {
+      "tp": 36,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "by_document": {
+        "HS_NOTE_001": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "HS_OFF_001": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "missed": [],
+      "unmatched_predictions": []
+    }
+  }
+}

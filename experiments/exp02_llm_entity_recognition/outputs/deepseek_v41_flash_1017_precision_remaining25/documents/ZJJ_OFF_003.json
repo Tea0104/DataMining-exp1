@@ -1,0 +1,138 @@
+{
+  "doc_id": "ZJJ_OFF_003",
+  "entities": [
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "东门",
+      "start": 24,
+      "end": 26,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 35,
+      "end": 39,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "十里画廊",
+      "start": 65,
+      "end": 69,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "天子山",
+      "start": 78,
+      "end": 81,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "采药老人",
+      "start": 109,
+      "end": 113,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "卧龙岭",
+      "start": 121,
+      "end": 124,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "贺龙公园",
+      "start": 154,
+      "end": 158,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "御笔峰",
+      "start": 161,
+      "end": 164,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "仙女散花",
+      "start": 172,
+      "end": 176,
+      "method": "llm_exact_text"
+    },
+    {
+      "doc_id": "ZJJ_OFF_003",
+      "scenic_id": "WULINGYUAN",
+      "entity_type": "POI",
+      "text": "南天门",
+      "start": 189,
+      "end": 192,
+      "method": "llm_exact_text"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 0,
+      "end": 230,
+      "returned_names": [
+        "东门",
+        "贺龙公园",
+        "十里画廊",
+        "天子山",
+        "采药老人",
+        "卧龙岭",
+        "御笔峰",
+        "仙女散花",
+        "南天门"
+      ],
+      "rejected_names": []
+    }
+  ],
+  "v7_verification": {
+    "entities": [
+      {
+        "doc_id": "ZJJ_OFF_003",
+        "scenic_id": "WULINGYUAN",
+        "entity_type": "POI",
+        "text": "仙女散花",
+        "start": 172,
+        "end": 176,
+        "method": "llm_exact_text"
+      }
+    ],
+    "chunks": [
+      {
+        "start": 0,
+        "end": 230,
+        "candidates": [
+          "仙女散花"
+        ],
+        "returned_names": [
+          "仙女散花"
+        ]
+      }
+    ]
+  }
+}
